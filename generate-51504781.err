@@ -1,0 +1,7 @@
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-_pscx62s/transformers_a29b6d97fc5843de822fb4cb79003414
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-_pscx62s/peft_45729ccd781546908dc195089b0c2fe8
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-_pscx62s/accelerate_ef14d5d0e3d54e9dbff14fa8e0789580
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/guanaco/llama-65b/generate.py", line 101
+    f"### Instruction:\n{prompt}\n\n### Response: )
+                                                   ^
+SyntaxError: EOL while scanning string literal

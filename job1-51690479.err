@@ -1,0 +1,88 @@
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-f5_fyjsk/transformers_60e9cfd18bd148c486dce7b2c0bbc08b
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-f5_fyjsk/peft_246a1df884e34d2581447cf223dec912
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-f5_fyjsk/accelerate_28b2cfe027674b70abce484cbde0ea7f
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:26<06:10, 26.45s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:50<05:24, 24.98s/it]Loading checkpoint shards:  20%|██        | 3/15 [01:13<04:47, 23.96s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [01:36<04:21, 23.76s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [01:58<03:52, 23.24s/it]Loading checkpoint shards:  40%|████      | 6/15 [02:22<03:29, 23.24s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [02:46<03:07, 23.46s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [03:10<02:47, 23.91s/it]Loading checkpoint shards:  60%|██████    | 9/15 [03:36<02:27, 24.54s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [04:00<02:01, 24.36s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [04:24<01:37, 24.27s/it]Loading checkpoint shards:  80%|████████  | 12/15 [04:49<01:13, 24.48s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [05:19<00:52, 26.12s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [05:43<00:25, 25.55s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:45<00:00, 18.22s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:45<00:00, 23.01s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 4476.31it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 23.55it/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 8792 examples [00:00, 62173.25 examples/s]                                                                  Map:   0%|          | 0/1000 [00:00<?, ? examples/s]                                                    Map:   0%|          | 0/6888 [00:00<?, ? examples/s]Map:  23%|██▎       | 1556/6888 [00:00<00:00, 15477.21 examples/s]Map:  46%|████▌     | 3163/6888 [00:00<00:00, 15820.24 examples/s]Map:  70%|███████   | 4849/6888 [00:00<00:00, 16179.81 examples/s]Map:  95%|█████████▍| 6530/6888 [00:00<00:00, 16422.50 examples/s]                                                                  Downloading data files:   0%|          | 0/2 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 2/2 [00:00<00:00, 15650.39it/s]
+Extracting data files:   0%|          | 0/2 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 2/2 [00:00<00:00, 10.56it/s]Extracting data files: 100%|██████████| 2/2 [00:00<00:00, 10.55it/s]
+Generating eval split: 0 examples [00:00, ? examples/s]                                                       Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 14042 examples [00:00, 122970.12 examples/s]                                                                     0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 33.82it/s]
+  0%|          | 0/5000 [00:00<?, ?it/s]/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/checkpoint.py:408: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/qlora.py", line 818, in <module>
+    train()
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/qlora.py", line 780, in train
+    train_result = trainer.train()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1526, in train
+    return inner_training_loop(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1796, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 2641, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 2666, in compute_loss
+    outputs = model(**inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/utils/operations.py", line 581, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/utils/operations.py", line 569, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/amp/autocast_mode.py", line 14, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/peft_model.py", line 922, in forward
+    return self.base_model(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 756, in forward
+    outputs = self.model(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 636, in forward
+    layer_outputs = torch.utils.checkpoint.checkpoint(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/checkpoint.py", line 430, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/checkpoint.py", line 223, in forward
+    outputs = run_function(*args)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 632, in custom_forward
+    return module(*inputs, output_attentions, None)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 359, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 261, in forward
+    key_states = self.k_proj(hidden_states).view(bsz, q_len, self.num_heads, self.head_dim).transpose(1, 2)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1502, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/tuners/lora.py", line 1145, in forward
+    result += output
+RuntimeError: The size of tensor a (1024) must match the size of tensor b (8192) at non-singleton dimension 2
+  0%|          | 0/5000 [00:03<?, ?it/s]

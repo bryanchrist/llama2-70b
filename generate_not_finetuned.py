@@ -1,6 +1,7 @@
 import os
 import sys
 import builtins
+os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 import torch
 from collections import defaultdict
@@ -18,6 +19,7 @@ import bitsandbytes as bnb
 import pandas as pd
 
 import torch
+#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
 import transformers
 from torch.nn.utils.rnn import pad_sequence
 import argparse
@@ -45,13 +47,21 @@ from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
 
 # Set the environment variable
 os.environ["HF_REMOTES_OFFLINE"] = "1"
+from dotenv import load_dotenv
+# Load the environmental variables from the .env file
+load_dotenv()
+
+token= os.getenv('huggingface_token')
+
+from huggingface_hub import login
+login(token = token)
 
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
-model_path = "huggyllama/llama-65b"  # Specify the path to the model
+model_path = "meta-llama/Llama-2-70b-hf"  # Specify the path to the model
 adapter_path = "output/guanaco-65b/checkpoint-2000"  # Specify the path to the adapter weights
-tokenizer = AutoTokenizer.from_pretrained(model_path)
+tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically
 def mock_input(prompt=None):
@@ -71,8 +81,8 @@ try:
             load_in_4bit=True,
             bnb_4bit_compute_dtype=torch.bfloat16,
             bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type='nf4'
-        ),
+            bnb_4bit_quant_type='nf4',
+        use_auth_token=True),
         config=AutoConfig.from_pretrained(model_path, trust_remote_code=True)
     )
 except EOFError:
@@ -85,29 +95,29 @@ sys.stdin = sys.__stdin__
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 for i in range(0,5):
-    prompt = "Write a math word problem and Python code to solve the word problem."
-    formatted_prompt = (f"Below is an instruction that describes a task. "
-            f"Write a response that appropriately completes the request.\n\n"
-            f"### Instruction:\n{prompt}\n\n### Response: Question: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? Solution: def solution():\n    cars_initial = 3\n    cars_arrived = 2\n"
-            f"    result = cars_initial + cars_arrived\n    return result"
-            f"\nBelow is an instruction that describes a task. "
-            f"Write a response that appropriately completes the request.\n\n"
-            f"### Instruction:\n{prompt}\n\n### Response: Question: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? Solution: def solution():\n    leah_chocolates = 32\n    sister_chocolates = 42\n"
-            f"    total_chocolates = leah_chocolates + sister_chocolates\n    chocolates_eaten = 35\n    result = total_chocolates - chocolates_eaten\n    return result"
-            f"\nBelow is an instruction that describes a task. "
-            f"Write a response that appropriately completes the request.\n\n"
-            f"### Instruction:\n{prompt}\n\n### Response: ")
-    inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
-    attention_mask = torch.ones_like(inputs)
-    inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, temperature = .8, do_sample = True)
+    # prompt = "Write a math word problem and Python code to solve the word problem."
+    # formatted_prompt = (f"Below is an instruction that describes a task. "
+    #         f"Write a response that appropriately completes the request.\n\n"
+    #         f"### Instruction:\n{prompt}\n\n### Response: Question: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? Solution: def solution():\n    cars_initial = 3\n    cars_arrived = 2\n"
+    #         f"    result = cars_initial + cars_arrived\n    return result"
+    #         f"\nBelow is an instruction that describes a task. "
+    #         f"Write a response that appropriately completes the request.\n\n"
+    #         f"### Instruction:\n{prompt}\n\n### Response: Question: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? Solution: def solution():\n    leah_chocolates = 32\n    sister_chocolates = 42\n"
+    #         f"    total_chocolates = leah_chocolates + sister_chocolates\n    chocolates_eaten = 35\n    result = total_chocolates - chocolates_eaten\n    return result"
+    #         f"\nBelow is an instruction that describes a task. "
+    #         f"Write a response that appropriately completes the request.\n\n"
+    #         f"### Instruction:\n{prompt}\n\n### Response: ")
+    # inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
+    # attention_mask = torch.ones_like(inputs)
+    # inputs = inputs.to('cuda')
+    # output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, temperature = .8, do_sample = True)
     
-    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    # generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
-    print(generated_text)
-    output_file = "output_no_tune.txt"  # Specify the path and filename for the output file
-    with open(output_file, "a") as f:  # Open the file in append mode ("a")
-        f.write(generated_text + "\n")  # Append the generated text to the file
+    # print(generated_text)
+    # output_file = "output_no_tune.txt"  # Specify the path and filename for the output file
+    # with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    #     f.write(generated_text + "\n")  # Append the generated text to the file
     
     
     # prompt = "Write a math word problem and step-by-step solution to solve the word problem."
@@ -142,7 +152,7 @@ for i in range(0,5):
     # with open(output_file, "a") as f:  # Open the file in append mode ("a")
     #     f.write(generated_text + "\n")  # Append the generated text to the file
         
-    prompt = "Write a math word problem and Python code with a commented out step-by-step solution to solve the word problem."
+    prompt = "Write one math word problem and Python code with a commented out step-by-step solution to solve the word problem."
     formatted_prompt = (f"Below is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response: Question: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?"
@@ -156,22 +166,36 @@ for i in range(0,5):
             f"\nBelow is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response: Question: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?"
-            f" Solution: def solution():\n   #Olivia started with $23\n    money_initial = 23\n    #She bought 5 bagels\n    bagels = 5\n    #Each bagel cost $3\n    bagel_cost = 3\n    #5 bagels at $3 a bagel cost\n    money_spent = bagels * bagel cost\n"
+            f" Solution: def solution():\n    #Olivia started with $23\n    money_initial = 23\n    #She bought 5 bagels\n    bagels = 5\n    #Each bagel cost $3\n    bagel_cost = 3\n    #5 bagels at $3 a bagel cost\n    money_spent = bagels * bagel cost\n"
             f"    #The answer is\n    result = money_initial - money_spent\n    return result"
             f"\nBelow is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
+            f"### Instruction:\n{prompt}\n\n### Response: Question: Michael had 58 golf balls. On Tuesday, he lost 23 golf balls. On Wednesday, he lost 2 more. How many golf balls did he have at the end of Wednesday? Solution: def solution()\n"
+            f"    #Michael started with 58 golf balls\n    golf_balls_initial = 58\n    #He lost 23 on Tuesday\n    golf_balls_lost_tuesday = 23\n    #He lost two more on Wednesday\n    golf_balls_lost_wednesday = 2\n    #The answer is\n    "
+            f"result = golf_balls_initial - golf_balls_lost_tuesday - golf_balls_lost_wednesday\n    return result"
+            f"\nBelow is an instruction that describes a task. "
+            f"Write a response that appropriately completes the request.\n\n"
+            f"### Instruction:\n{prompt}\n\n### Response: Question: There were nine computers in the server room. Five more computers were installed each day, from Monday to Thursday. How many computers are now in the server room? Solution: def solution():\n"
+            f"    #There were initially 9 computers\n    computers_initial = 9\n    #They installed 5 more each day\n    computers_per_day = 5\n    #There are 4 days between Monday and Thursday\n    num_days = 4\n    #There were\n    "
+            f"computers_added = computers_per_day * num_days\n    #computers added. The answer is\n    result = computers_initial + computers_added\n    return result"
+            f"\nBelow is an instruction that describes a task. "
+            f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response:")
+    
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
-    
+    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True, top_p = .5)
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
-    print(generated_text)
+    # Split the generated text by the prompt to extract the newly generated part
+    generated_text_parts = generated_text.split(prompt)
+    newly_generated_text = generated_text_parts[-1].strip()
+    
+    print(newly_generated_text)
     output_file = "output_no_tune.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
-        f.write(generated_text + "\n")  # Append the generated text to the file
+        f.write(newly_generated_text + "\n")  # Append the generated text to the file
         
         
 print("Generated text appended to", output_file)

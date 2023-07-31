@@ -1,22 +1,0 @@
-  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-f10f_hn4/transformers_0728cbc3167543949cf62be6f7a9d01e
-  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-f10f_hn4/peft_e3354a76b97e492d8d1bcb0d950157e4
-  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-f10f_hn4/accelerate_f49662cf76e0422cbd90229092b1ced3
-/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
-Either way, this might cause trouble in the future:
-If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
-  warn(msg)
-Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/14 [00:17<03:46, 17.41s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:32<03:14, 16.18s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:47<02:50, 15.48s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [01:02<02:35, 15.53s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [01:17<02:15, 15.02s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [01:32<02:00, 15.08s/it]Loading checkpoint shards:  50%|█████     | 7/14 [01:47<01:45, 15.07s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [02:01<01:29, 14.89s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [02:16<01:13, 14.79s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [02:30<00:58, 14.70s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [02:45<00:43, 14.54s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [02:59<00:29, 14.55s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [03:13<00:14, 14.42s/it]Loading checkpoint shards: 100%|██████████| 14/14 [03:19<00:00, 11.83s/it]Loading checkpoint shards: 100%|██████████| 14/14 [03:19<00:00, 14.26s/it]
-Traceback (most recent call last):
-  File "/gpfs/gpfs0/project/SDS/research/christ_research/guanaco/llama-65b/generate.py", line 179, in <module>
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True, temperature = 0, top_p = .5)
-  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/peft_model.py", line 977, in generate
-    outputs = self.base_model.generate(**kwargs)
-  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/generation/utils.py", line 1563, in generate
-    logits_warper = self._get_logits_warper(generation_config)
-  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/generation/utils.py", line 808, in _get_logits_warper
-    warpers.append(TemperatureLogitsWarper(generation_config.temperature))
-  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/generation/logits_process.py", line 177, in __init__
-    raise ValueError(f"`temperature` has to be a strictly positive float, but is {temperature}")
-ValueError: `temperature` has to be a strictly positive float, but is 0

@@ -1,0 +1,7 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Collecting transformers@ git+https://github.com/huggingface/transformers.git (from -r requirements.txt (line 2))
+  Cloning https://github.com/huggingface/transformers.git to /tmp/pip-install-szpzga_o/transformers_af19d55e2f694f31964365927d8163c1

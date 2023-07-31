@@ -1,0 +1,7 @@
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-9nwuqo1z/transformers_b3e1f13289fc48a1af149fd78da5a597
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-9nwuqo1z/peft_f2740357b348449dbfd0b60257d520af
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-9nwuqo1z/accelerate_183799a6893a428ea22fbc2cc02c2d9c
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/qlora.py", line 3
+    pip install transformers --upgrade
+        ^
+SyntaxError: invalid syntax

@@ -1,0 +1,2 @@
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-szpzga_o/transformers_af19d55e2f694f31964365927d8163c1
+slurmstepd: error: *** JOB 51682177 ON udc-an37-7 CANCELLED AT 2023-07-20T15:02:03 ***

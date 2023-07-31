@@ -1,0 +1,13 @@
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-1s39v3l4/transformers_7ef34965adb44ed79cd1781f4f02e6db
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-1s39v3l4/peft_0f204d2b045043c5a65939e1993acb9b
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-1s39v3l4/accelerate_445583a48ff847cea345bb597f2a5e54
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/qlora.py", line 43, in <module>
+    token= os.environ['huggingface_token']
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'huggingface_token'

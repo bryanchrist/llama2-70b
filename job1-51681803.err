@@ -1,0 +1,32 @@
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-ioi_5o9m/transformers_e6ae6d0634bf41b691b679e4cd1b36be
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-ioi_5o9m/peft_a711d1de9ad546479fd8c0083db0a61a
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-ioi_5o9m/accelerate_6a5a91a213824fd18e0c8162cd6f3412
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Downloading shards:   0%|          | 0/15 [00:00<?, ?it/s]Downloading shards:  33%|███▎      | 5/15 [00:00<00:00, 81.05it/s]
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/qlora.py", line 816, in <module>
+    train()
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/qlora.py", line 652, in train
+    model = get_accelerate_model(args, checkpoint_dir)
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/qlora.py", line 289, in get_accelerate_model
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 493, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2610, in from_pretrained
+    resolved_archive_file, sharded_metadata = get_checkpoint_shard_files(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 958, in get_checkpoint_shard_files
+    cached_filename = cached_file(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1361, in hf_hub_download
+    with temp_file_manager() as temp_file:
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/tempfile.py", line 545, in NamedTemporaryFile
+    (fd, name) = _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/tempfile.py", line 255, in _mkstemp_inner
+    fd = _os.open(file, flags, 0o600)
+OSError: [Errno 28] No space left on device: '/home/brc4cb/.cache/huggingface/hub/tmp05enhnrf'

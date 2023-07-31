@@ -1,0 +1,11 @@
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-6kphn6a3/transformers_0c4d157b940c4d9bb1fd6413b4279ce7
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-6kphn6a3/peft_f3ee9facba944f75b2ae8c2e47153a8d
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-6kphn6a3/accelerate_9968a246367b4cec89aa8d141c670f8a
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/generate_not_finetuned.py", line 49, in <module>
+    load_dotenv()
+NameError: name 'load_dotenv' is not defined

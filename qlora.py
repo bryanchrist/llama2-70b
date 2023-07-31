@@ -1,6 +1,5 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
-
 from collections import defaultdict
 import copy
 import json
@@ -16,6 +15,8 @@ import bitsandbytes as bnb
 import pandas as pd
 
 import torch
+import os
+os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
 import transformers
 from torch.nn.utils.rnn import pad_sequence
 import argparse
@@ -39,7 +40,16 @@ from peft import (
 )
 from peft.tuners.lora import LoraLayer
 from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
+from dotenv import load_dotenv
+import os
 
+# Load the environmental variables from the .env file
+load_dotenv()
+
+token= os.getenv('huggingface_token')
+
+from huggingface_hub import login
+login(token = token)
 
 torch.backends.cuda.matmul.allow_tf32 = True
 
@@ -292,10 +302,10 @@ def get_accelerate_model(args, checkpoint_dir):
             bnb_4bit_compute_dtype=compute_dtype,
             bnb_4bit_use_double_quant=args.double_quant,
             bnb_4bit_quant_type=args.quant_type,
-        ),
+        use_auth_token=True),
         torch_dtype=(torch.float32 if args.fp16 else (torch.bfloat16 if args.bf16 else torch.float32)),
         trust_remote_code=args.trust_remote_code,
-        use_auth_token=args.use_auth_token
+        token = token
     )
     if compute_dtype == torch.float16 and args.bits == 4:
         major, minor = torch.cuda.get_device_capability()
@@ -653,8 +663,8 @@ def train():
         cache_dir=args.cache_dir,
         padding_side="right",
         use_fast=False, # Fast tokenizer giving issues.
-        tokenizer_type='llama' if 'llama' in args.model_name_or_path else None, # Needed for HF name change
-        use_auth_token=args.use_auth_token,
+        #tokenizer_type='llama' if 'llama' in args.model_name_or_path else None, # Needed for HF name change
+        use_auth_token=True, 
     )
     if tokenizer._pad_token is None:
         smart_tokenizer_and_embedding_resize(

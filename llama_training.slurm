@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -A ds4002fa22
+#SBATCH -A sds-phd-2022
 #SBATCH -p gpu
-#SBATCH --gres=gpu:a100:1 # replace X with the number of GPUs per node
+#SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
 
 ##SBATCH --hint=nomultithread #8GB per reserved CPU core if hyperthreading deactivated and 1/2 that when active
@@ -12,7 +12,7 @@
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
 #SBATCH -t 3-00:00:00
-#SBATCH -J llama_65b_finetune
+#SBATCH -J llama_70b_finetune
 #SBATCH -o job1-%A.out
 #SBATCH -e job1-%A.err
 ##SBATCH -x udc-an28-[1,7],udc-an34-[1,7,13,19]#,udc-an36-[1,13,19]#,udc-an37-[1,7,13,19]#,udc-ba25-2[3,7,8],udc-ba26-2[3-6],udc-ba27-2[3-4]
@@ -28,12 +28,13 @@ module purge
 module load anaconda
 module load cuda/11.4.2
 source activate falcon_40B
+conda install -n falcon_40B python-dotenv
 pip install -U -r requirements.txt
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
 python qlora.py \
-    --model_name_or_path huggyllama/llama-65b \
-    --output_dir ./output/guanaco-65b \
+    --model_name_or_path meta-llama/Llama-2-70b-hf \
+    --output_dir ./output \
     --logging_steps 10 \
     --save_strategy steps \
     --data_seed 42 \
@@ -43,7 +44,7 @@ python qlora.py \
     --eval_dataset_size 1024 \
     --max_eval_samples 1000 \
     --per_device_eval_batch_size 1 \
-    --max_new_tokens 250 \
+    --max_new_tokens 400 \
     --dataloader_num_workers 3 \
     --group_by_length \
     --logging_strategy steps \

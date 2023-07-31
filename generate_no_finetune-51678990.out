@@ -1,0 +1,37 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting transformers@ git+https://github.com/huggingface/transformers.git (from -r requirements.txt (line 2))
+  Cloning https://github.com/huggingface/transformers.git to /tmp/pip-install-ge1gwfrq/transformers_90fdcc6d9e4a49a8ba3b444e7f98aa52
+  Resolved https://github.com/huggingface/transformers.git to commit caf5e369fc7b4755d9f98568cbe5e36a0898c96c
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-ge1gwfrq/peft_2888a6a3be2f4494920695f7e7516eec
+  Resolved https://github.com/huggingface/peft.git to commit e06d94ddeb6c70913593740618df76908b918d66
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-ge1gwfrq/accelerate_14ace1dda20e43e9929f11697f5445e1
+  Resolved https://github.com/huggingface/accelerate.git to commit a6291e43b04a243d37146e34715adff28b3733b2
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: bitsandbytes==0.39.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 1)) (0.39.0)
+Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 5)) (0.6.1)
+Requirement already satisfied: evaluate==0.4.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: scikit-learn==1.2.2 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 7)) (1.2.2)
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... 

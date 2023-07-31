@@ -1,5 +1,5 @@
 bitsandbytes==0.39.0
-transformers @ git+https://github.com/huggingface/transformers.git
+transformers==4.31.0
 peft @ git+https://github.com/huggingface/peft.git
 accelerate @ git+https://github.com/huggingface/accelerate.git
 einops==0.6.1
@@ -21,3 +21,5 @@ pymongo==4.3.2
 lxml==4.9.1
 
 plotly-express==0.4.1
+
+huggingface_hub==0.16.4

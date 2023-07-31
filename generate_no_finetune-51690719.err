@@ -1,0 +1,29 @@
+
+NoSpaceLeftError: No space left on devices.
+
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-a1cs5g5m/transformers_d3f7cc8158cf454d880d56998fc26567
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-a1cs5g5m/peft_ac234b4457c844f59852811a704c4872
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-a1cs5g5m/accelerate_369f589dee8d465485e4dee9eddd709c
+
+NoSpaceLeftError: No space left on devices.
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/generate_not_finetuned.py", line 55, in <module>
+    login(token = token)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/_login.py", line 96, in login
+    _login(token, add_to_git_credential=add_to_git_credential, write_permission=write_permission)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/_login.py", line 293, in _login
+    HfFolder.save_token(token)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_hf_folder.py", line 42, in save_token
+    cls.path_token.write_text(token)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/pathlib.py", line 1285, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors) as f:
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/pathlib.py", line 1252, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/pathlib.py", line 1120, in _opener
+    return self._accessor.open(self, flags, mode)
+OSError: [Errno 28] No space left on device: '/home/brc4cb/.cache/huggingface/token'

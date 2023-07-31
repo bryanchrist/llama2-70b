@@ -1,6 +1,7 @@
 import os
 import sys
 import builtins
+os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b-hf/cache'
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 import torch
 from collections import defaultdict
@@ -18,7 +19,6 @@ import bitsandbytes as bnb
 import pandas as pd
 
 import torch
-os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
 import transformers
 from torch.nn.utils.rnn import pad_sequence
 import argparse
@@ -58,7 +58,7 @@ login(token = token)
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
-model_path = "meta-llama/Llama-2-70b"   # Specify the path to the model
+model_path = "meta-llama/Llama-2-70b-hf"   # Specify the path to the model
 adapter_path = "output/checkpoint-2000"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
@@ -73,15 +73,10 @@ try:
     # Attempt to load the model with trust_remote_code=True
     model = AutoModelForCausalLM.from_pretrained(
         model_path,
-        load_in_4bit=True, 
+        load_in_8bit=True, 
        # max_memory=max_memory,
         torch_dtype=torch.bfloat16,
-        quantization_config=BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.bfloat16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type='nf4',
-        use_auth_token=True),
+        use_auth_token=True,
         config=AutoConfig.from_pretrained(model_path, trust_remote_code=True)
     )
 except EOFError:
@@ -215,7 +210,7 @@ for i in range(0,5000):
     newly_generated_text = generated_text_parts[-1].strip()
     
     print(newly_generated_text)
-    
+    print(i)
     output_file = "questions_5shot.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(newly_generated_text + "\n")  # Append the newly generated text to the file

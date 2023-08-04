@@ -1,0 +1,13 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-2j4wmhy7/peft_c7dd74108b7e477584446ef0bc486587
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-2j4wmhy7/accelerate_5ed1db131fd2410395884f03d34e541f
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py:2193: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:27<06:25, 27.54s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:52<05:35, 25.83s/it]Loading checkpoint shards:  20%|██        | 3/15 [01:16<05:01, 25.12s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [01:41<04:36, 25.12s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [02:05<04:07, 24.75s/it]Loading checkpoint shards:  40%|████      | 6/15 [02:28<03:37, 24.21s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [02:52<03:12, 24.02s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [03:19<02:55, 25.14s/it]Loading checkpoint shards:  60%|██████    | 9/15 [03:43<02:26, 24.50s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [04:07<02:01, 24.40s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [04:30<01:36, 24.02s/it]Loading checkpoint shards:  80%|████████  | 12/15 [04:55<01:13, 24.34s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [05:18<00:47, 23.84s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [05:40<00:23, 23.35s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:41<00:00, 16.58s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:41<00:00, 22.75s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/generate_8bit.py", line 216, in <module>
+    f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
+UnicodeEncodeError: 'ascii' codec can't encode character '\xe9' in position 29: ordinal not in range(128)

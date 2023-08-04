@@ -1,0 +1,16 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-9kkm2zql/peft_1a242094f4f34d22b791970a4cd7e868
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-9kkm2zql/accelerate_b162dd3dcfca45da8324f4e888860c5b
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 12, in <module>
+    import triton
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/__init__.py", line 20, in <module>
+    from .runtime import (
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/__init__.py", line 1, in <module>
+    from .autotuner import Config, Heuristics, autotune, heuristics
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/autotuner.py", line 7, in <module>
+    from ..compiler import OutOfResources
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/compiler/__init__.py", line 1, in <module>
+    from .compiler import CompiledKernel, compile
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/compiler/compiler.py", line 18, in <module>
+    from ..runtime.autotuner import OutOfResources
+ImportError: cannot import name 'OutOfResources' from partially initialized module 'triton.runtime.autotuner' (most likely due to a circular import) (/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/autotuner.py)

@@ -1,0 +1,34 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-s5ep0s2e/peft_77641abf0aa5417f86ae9fd1c5a280b2
+  Resolved https://github.com/huggingface/peft.git to commit ec267c644a9a9f05a7340a7cb23ed5a6a6090dd0
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-s5ep0s2e/accelerate_06acd8c002b5407ab65bfb2bac492c38
+  Resolved https://github.com/huggingface/accelerate.git to commit 49cb83a423f2946059117d8bb39b7c8747d29d80
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting bitsandbytes==0.41.0 (from -r requirements.txt (line 1))
+  Obtaining dependency information for bitsandbytes==0.41.0 from https://files.pythonhosted.org/packages/b9/33/1cea2d1c909dd3e2b595f7b73c4417f3786c385a4b269a5c40c7699bb14b/bitsandbytes-0.41.0-py3-none-any.whl.metadata
+  Downloading bitsandbytes-0.41.0-py3-none-any.whl.metadata (9.8 kB)
+Collecting transformers==4.31.0 (from -r requirements.txt (line 2))
+  Obtaining dependency information for transformers==4.31.0 from https://files.pythonhosted.org/packages/21/02/ae8e595f45b6c8edee07913892b3b41f5f5f273962ad98851dc6a564bbb9/transformers-4.31.0-py3-none-any.whl.metadata
+  Downloading transformers-4.31.0-py3-none-any.whl.metadata (116 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 116.9/116.9 kB 3.9 MB/s eta 0:00:00
+Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 5)) (0.6.1)
+Requirement already satisfied: evaluate==0.4.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: scikit-learn==1.2.2 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 7)) (1.2.2)
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... 

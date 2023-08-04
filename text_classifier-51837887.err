@@ -1,0 +1,50 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-xp7l09rf/peft_23089c379b4e4b648a567b482f756b83
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-xp7l09rf/accelerate_23e39c3feb5b48a491b39d7d8720c33a
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Found cached dataset csv (/home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 302.42it/s]
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-5e0d1551a5da755f.arrow
+Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-8d365d72b945ca64.arrow
+Map:   0%|          | 0/59 [00:00<?, ? examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+                                                  /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py:2193: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:40<00:40, 40.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:53<00:00, 24.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:53<00:00, 26.79s/it]
+Some weights of LlamaForSequenceClassification were not initialized from the model checkpoint at meta-llama/Llama-2-7b-hf and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/repository.py", line 574, in check_git_versions
+    lfs_version = run_subprocess("git-lfs --version", self.local_dir).stdout.strip()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_subprocess.py", line 83, in run_subprocess
+    return subprocess.run(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'git-lfs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 133, in <module>
+    trainer = Trainer(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 551, in __init__
+    self.init_git_repo(at_init=True)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 3405, in init_git_repo
+    self.repo = Repository(self.args.output_dir, clone_from=repo_name, token=self.args.hub_token)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/repository.py", line 504, in __init__
+    self.check_git_versions()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/repository.py", line 576, in check_git_versions
+    raise EnvironmentError(
+OSError: Looks like you do not have git-lfs installed, please install. You can install from https://git-lfs.github.com/. Then run `git lfs install` (you only have to do this once).

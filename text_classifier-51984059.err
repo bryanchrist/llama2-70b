@@ -1,0 +1,2 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-4us0jpwu/peft_5e35957c0cae4b6a97e073014c543ce5
+slurmstepd: error: *** JOB 51984059 ON udc-an34-7 CANCELLED AT 2023-08-04T10:07:05 ***

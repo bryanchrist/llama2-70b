@@ -1,0 +1,25 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-x4j6jchz/peft_ee8d8cc865f346e882a2a8eda0bcbd38
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-x4j6jchz/accelerate_18ba36b4214b4ebf8183c114a3aa8627
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Found cached dataset csv (/home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 232.28it/s]
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-76e2a086a1ae0172.arrow
+Map:   0%|          | 0/58 [00:00<?, ? examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+                                                  Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-afd29c868d0252ff.arrow
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py:2193: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:48<00:48, 48.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:04<00:00, 29.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:04<00:00, 32.00s/it]
+Some weights of LlamaForSequenceClassification were not initialized from the model checkpoint at meta-llama/Llama-2-7b-hf and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 135, in <module>
+    model = get_peft_model(model, lora_config)
+NameError: name 'lora_config' is not defined

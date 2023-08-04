@@ -1,0 +1,9 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-_z6w0p15/peft_f7dabc2afed44501a862313901bcdc47
+  Resolved https://github.com/huggingface/peft.git to commit ec267c644a9a9f05a7340a7cb23ed5a6a6090dd0
+  Installing build dependencies: started

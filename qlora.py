@@ -46,7 +46,7 @@ import os
 # Load the environmental variables from the .env file
 load_dotenv()
 
-token= os.getenv('huggingface_token')
+token = os.getenv('huggingface_token')
 
 from huggingface_hub import login
 login(token = token)

@@ -1,0 +1,156 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-qac68kyz/peft_34b3be980718404390966ed11a9040c9
+  Resolved https://github.com/huggingface/peft.git to commit ec267c644a9a9f05a7340a7cb23ed5a6a6090dd0
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-qac68kyz/accelerate_9c375aefa40944c38c633aeef71f3bf9
+  Resolved https://github.com/huggingface/accelerate.git to commit 49cb83a423f2946059117d8bb39b7c8747d29d80
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting bitsandbytes==0.41.0 (from -r requirements.txt (line 1))
+  Obtaining dependency information for bitsandbytes==0.41.0 from https://files.pythonhosted.org/packages/b9/33/1cea2d1c909dd3e2b595f7b73c4417f3786c385a4b269a5c40c7699bb14b/bitsandbytes-0.41.0-py3-none-any.whl.metadata
+  Using cached bitsandbytes-0.41.0-py3-none-any.whl.metadata (9.8 kB)
+Collecting transformers==4.31.0 (from -r requirements.txt (line 2))
+  Obtaining dependency information for transformers==4.31.0 from https://files.pythonhosted.org/packages/21/02/ae8e595f45b6c8edee07913892b3b41f5f5f273962ad98851dc6a564bbb9/transformers-4.31.0-py3-none-any.whl.metadata
+  Using cached transformers-4.31.0-py3-none-any.whl.metadata (116 kB)
+Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 5)) (0.6.1)
+Requirement already satisfied: evaluate==0.4.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: wandb==0.15.3 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 10)) (0.15.3)
+Requirement already satisfied: huggingface_hub==0.16.4 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from -r requirements.txt (line 25)) (0.16.4)
+Collecting numpy==1.23 (from -r requirements.txt (line 27))
+  Downloading numpy-1.23.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.1/17.1 MB 65.6 MB/s eta 0:00:00
+Collecting pandas==2.0.3 (from -r requirements.txt (line 29))
+  Obtaining dependency information for pandas==2.0.3 from https://files.pythonhosted.org/packages/f8/7f/5b047effafbdd34e52c9e2d7e44f729a0655efafb22198c45cf692cdc157/pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (3.12.2)
+Requirement already satisfied: packaging>=20.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (23.1)
+Requirement already satisfied: pyyaml>=5.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (6.0)
+Requirement already satisfied: regex!=2019.12.17 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (2020.10.15)
+Requirement already satisfied: requests in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (2.31.0)
+Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (0.13.3)
+Requirement already satisfied: safetensors>=0.3.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (0.3.1)
+Requirement already satisfied: tqdm>=4.27 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (4.65.0)
+Requirement already satisfied: datasets>=2.0.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2.13.0)
+Requirement already satisfied: dill in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.3.6)
+Requirement already satisfied: xxhash in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (3.2.0)
+Requirement already satisfied: multiprocess in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.70.14)
+Requirement already satisfied: fsspec[http]>=2021.05.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2023.6.0)
+Requirement already satisfied: responses<0.19 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.18.0)
+Requirement already satisfied: Click!=8.0.0,>=7.0 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (7.1.2)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (3.1.31)
+Requirement already satisfied: psutil>=5.0.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (5.9.5)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.26.0)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.4.0)
+Requirement already satisfied: pathtools in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.1.2)
+Requirement already satisfied: setproctitle in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.3.2)
+Requirement already satisfied: setuptools in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (50.3.1.post20201107)
+Requirement already satisfied: appdirs>=1.4.3 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.4.4)
+Requirement already satisfied: typing-extensions in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.6.3)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.12.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.23.3)
+Collecting python-dateutil>=2.8.2 (from pandas==2.0.3->-r requirements.txt (line 29))
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Requirement already satisfied: pytz>=2020.1 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2020.1)
+Collecting tzdata>=2022.1 (from pandas==2.0.3->-r requirements.txt (line 29))
+  Using cached tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Requirement already satisfied: torch>=1.13.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (2.0.1)
+Requirement already satisfied: pyarrow>=8.0.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (12.0.1)
+Requirement already satisfied: aiohttp in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (3.8.4)
+Requirement already satisfied: six>=1.4.0 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from docker-pycreds>=0.4.0->wandb==0.15.3->-r requirements.txt (line 10)) (1.15.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from GitPython!=3.1.29,>=1.0.0->wandb==0.15.3->-r requirements.txt (line 10)) (4.0.10)
+Requirement already satisfied: charset-normalizer<4,>=2 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (2.0.12)
+Requirement already satisfied: idna<4,>=2.5 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (2.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (1.25.11)
+Requirement already satisfied: certifi>=2017.4.17 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (2020.12.5)
+Collecting urllib3<3,>=1.21.1 (from requests->transformers==4.31.0->-r requirements.txt (line 2))
+  Obtaining dependency information for urllib3<3,>=1.21.1 from https://files.pythonhosted.org/packages/9b/81/62fd61001fa4b9d0df6e31d47ff49cfa9de4af03adecf339c7bc30656b37/urllib3-2.0.4-py3-none-any.whl.metadata
+  Downloading urllib3-2.0.4-py3-none-any.whl.metadata (6.6 kB)
+Requirement already satisfied: sympy in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (1.12)
+Requirement already satisfied: networkx in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (2.5)
+Requirement already satisfied: jinja2 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (2.11.2)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.7.99 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.99)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.7.99 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.99)
+Requirement already satisfied: nvidia-cuda-cupti-cu11==11.7.101 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.101)
+Requirement already satisfied: nvidia-cudnn-cu11==8.5.0.96 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (8.5.0.96)
+Requirement already satisfied: nvidia-cublas-cu11==11.10.3.66 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.10.3.66)
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (10.9.0.58)
+Requirement already satisfied: nvidia-curand-cu11==10.2.10.91 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (10.2.10.91)
+Requirement already satisfied: nvidia-cusolver-cu11==11.4.0.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.4.0.1)
+Requirement already satisfied: nvidia-cusparse-cu11==11.7.4.91 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.4.91)
+Requirement already satisfied: nvidia-nccl-cu11==2.14.3 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (2.14.3)
+Requirement already satisfied: nvidia-nvtx-cu11==11.7.91 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.91)
+Requirement already satisfied: triton==2.0.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (2.0.0)
+Requirement already satisfied: wheel in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (0.35.1)
+Requirement already satisfied: cmake in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from triton==2.0.0->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (3.26.4)
+Requirement already satisfied: lit in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from triton==2.0.0->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (16.0.5.post0)
+Requirement already satisfied: attrs>=17.3.0 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (20.3.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (6.0.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (4.0.2)
+Requirement already satisfied: yarl<2.0,>=1.0 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.9.2)
+Requirement already satisfied: frozenlist>=1.1.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.3.3)
+Requirement already satisfied: aiosignal>=1.1.2 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.3.1)
+Requirement already satisfied: smmap<6,>=3.0.1 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb==0.15.3->-r requirements.txt (line 10)) (5.0.0)
+Requirement already satisfied: MarkupSafe>=0.23 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from jinja2->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (1.1.1)
+Requirement already satisfied: decorator>=4.3.0 in /sfs/applications/202307/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages (from networkx->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (4.4.2)
+Requirement already satisfied: mpmath>=0.19 in /sfs/qumulo/qhome/brc4cb/.local/lib/python3.8/site-packages (from sympy->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (1.3.0)
+Using cached bitsandbytes-0.41.0-py3-none-any.whl (92.6 MB)
+Using cached transformers-4.31.0-py3-none-any.whl (7.4 MB)
+Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 68.2 MB/s eta 0:00:00
+Downloading urllib3-2.0.4-py3-none-any.whl (123 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.9/123.9 kB 5.6 MB/s eta 0:00:00
+Building wheels for collected packages: peft, accelerate
+  Building wheel for peft (pyproject.toml): started
+  Building wheel for peft (pyproject.toml): finished with status 'done'
+  Created wheel for peft: filename=peft-0.5.0.dev0-py3-none-any.whl size=73963 sha256=546df37c12fc9d2211135dbd46346d11236993488aaa20595d7df69ecfde759d
+  Stored in directory: /tmp/pip-ephem-wheel-cache-2zs3imz0/wheels/95/fe/57/a484616f9bd99820cb946c7c3d2b1b492423b504356b0797dd
+  Building wheel for accelerate (pyproject.toml): started
+  Building wheel for accelerate (pyproject.toml): finished with status 'done'
+  Created wheel for accelerate: filename=accelerate-0.22.0.dev0-py3-none-any.whl size=249138 sha256=35e2b852252d903923544d67c7075dc9a2883c9599cb695661f5b05979bea7bf
+  Stored in directory: /tmp/pip-ephem-wheel-cache-2zs3imz0/wheels/0e/3c/a4/a965507f9d132376a5e3c337ed615278a9afc049743353bd6b
+Successfully built peft accelerate
+Installing collected packages: bitsandbytes, urllib3, tzdata, python-dateutil, numpy, pandas, transformers, accelerate, peft
+  Attempting uninstall: bitsandbytes
+    Found existing installation: bitsandbytes 0.39.0
+    Uninstalling bitsandbytes-0.39.0:
+      Successfully uninstalled bitsandbytes-0.39.0
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 1.25.11
+    Uninstalling urllib3-1.25.11:
+      Successfully uninstalled urllib3-1.25.11
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.23.2
+    Uninstalling numpy-1.23.2:
+      Successfully uninstalled numpy-1.23.2
+  Attempting uninstall: pandas
+    Found existing installation: pandas 1.4.3
+    Uninstalling pandas-1.4.3:
+      Successfully uninstalled pandas-1.4.3
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.31.0.dev0
+    Uninstalling transformers-4.31.0.dev0:
+      Successfully uninstalled transformers-4.31.0.dev0
+  Attempting uninstall: accelerate
+    Found existing installation: accelerate 0.21.0.dev0
+    Uninstalling accelerate-0.21.0.dev0:
+      Successfully uninstalled accelerate-0.21.0.dev0
+  Attempting uninstall: peft
+    Found existing installation: peft 0.4.0.dev0
+    Uninstalling peft-0.4.0.dev0:
+      Successfully uninstalled peft-0.4.0.dev0
+Successfully installed accelerate-0.22.0.dev0 bitsandbytes-0.41.0 numpy-1.23.0 pandas-2.0.3 peft-0.5.0.dev0 python-dateutil-2.8.2 transformers-4.31.0 tzdata-2023.3 urllib3-2.0.4
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... 

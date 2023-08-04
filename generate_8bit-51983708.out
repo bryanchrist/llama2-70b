@@ -1,0 +1,252 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-2j4wmhy7/peft_c7dd74108b7e477584446ef0bc486587
+  Resolved https://github.com/huggingface/peft.git to commit ec267c644a9a9f05a7340a7cb23ed5a6a6090dd0
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-2j4wmhy7/accelerate_5ed1db131fd2410395884f03d34e541f
+  Resolved https://github.com/huggingface/accelerate.git to commit 49cb83a423f2946059117d8bb39b7c8747d29d80
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: bitsandbytes==0.41.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (0.41.0)
+Requirement already satisfied: transformers==4.31.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (4.31.0)
+Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (0.6.1)
+Requirement already satisfied: evaluate==0.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: scikit-learn==1.2.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (1.2.2)
+Requirement already satisfied: scipy==1.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (1.11.1)
+Requirement already satisfied: sentencepiece==0.1.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 9)) (0.1.99)
+Requirement already satisfied: wandb==0.15.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 10)) (0.15.3)
+Requirement already satisfied: dash==2.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 11)) (2.11.1)
+Requirement already satisfied: jupyter-dash==0.4.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 13)) (0.4.2)
+Requirement already satisfied: dash-bootstrap-components==1.2.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 15)) (1.2.1)
+Requirement already satisfied: dash-table-experiments==0.6.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 17)) (0.6.0)
+Requirement already satisfied: pymongo==4.3.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 19)) (4.3.2)
+Requirement already satisfied: lxml==4.9.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 21)) (4.9.1)
+Requirement already satisfied: plotly-express==0.4.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 23)) (0.4.1)
+Requirement already satisfied: huggingface_hub==0.16.4 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 25)) (0.16.4)
+Requirement already satisfied: numpy==1.25.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 27)) (1.25.2)
+Requirement already satisfied: pandas==2.0.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 29)) (2.0.3)
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (3.9.0)
+Requirement already satisfied: packaging>=20.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (23.1)
+Requirement already satisfied: pyyaml>=5.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (6.0)
+Requirement already satisfied: regex!=2019.12.17 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (2023.6.3)
+Requirement already satisfied: requests in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (2.31.0)
+Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (0.13.3)
+Requirement already satisfied: safetensors>=0.3.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (0.3.1)
+Requirement already satisfied: tqdm>=4.27 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.31.0->-r requirements.txt (line 2)) (4.65.0)
+Requirement already satisfied: datasets>=2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2.13.1)
+Requirement already satisfied: dill in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.3.6)
+Requirement already satisfied: xxhash in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (3.2.0)
+Requirement already satisfied: multiprocess in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.70.14)
+Requirement already satisfied: fsspec[http]>=2021.05.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2023.4.0)
+Requirement already satisfied: responses<0.19 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.18.0)
+Requirement already satisfied: joblib>=1.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from scikit-learn==1.2.2->-r requirements.txt (line 7)) (1.2.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from scikit-learn==1.2.2->-r requirements.txt (line 7)) (3.1.0)
+Requirement already satisfied: Click!=8.0.0,>=7.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (8.0.4)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (3.1.31)
+Requirement already satisfied: psutil>=5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (5.9.5)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.26.0)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.4.0)
+Requirement already satisfied: pathtools in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.1.2)
+Requirement already satisfied: setproctitle in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.3.2)
+Requirement already satisfied: setuptools in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (67.8.0)
+Requirement already satisfied: appdirs>=1.4.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.4.4)
+Requirement already satisfied: typing-extensions in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.4.0)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.15.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.23.3)
+Requirement already satisfied: Flask<2.3.0,>=1.0.4 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.2.5)
+Requirement already satisfied: Werkzeug<2.3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.2.3)
+Requirement already satisfied: plotly>=5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (5.15.0)
+Requirement already satisfied: dash-html-components==2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.0.0)
+Requirement already satisfied: dash-core-components==2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.0.0)
+Requirement already satisfied: dash-table==5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (5.0.0)
+Requirement already satisfied: retrying in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.3.4)
+Requirement already satisfied: ansi2html in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.8.0)
+Requirement already satisfied: nest-asyncio in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.5.6)
+Requirement already satisfied: ipython in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-dash==0.4.2->-r requirements.txt (line 13)) (8.14.0)
+Requirement already satisfied: ipykernel in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-dash==0.4.2->-r requirements.txt (line 13)) (6.24.0)
+Requirement already satisfied: dnspython<3.0.0,>=1.16.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pymongo==4.3.2->-r requirements.txt (line 19)) (2.3.0)
+Requirement already satisfied: statsmodels>=0.9.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly-express==0.4.1->-r requirements.txt (line 23)) (0.14.0)
+Requirement already satisfied: patsy>=0.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly-express==0.4.1->-r requirements.txt (line 23)) (0.5.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2023.3)
+Requirement already satisfied: torch>=1.13.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (1.13.1)
+Requirement already satisfied: pyarrow>=8.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (12.0.1)
+Requirement already satisfied: aiohttp in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (3.8.4)
+Requirement already satisfied: six>=1.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb==0.15.3->-r requirements.txt (line 10)) (1.16.0)
+Requirement already satisfied: Jinja2>=3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (2.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (6.8.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from GitPython!=3.1.29,>=1.0.0->wandb==0.15.3->-r requirements.txt (line 10)) (4.0.10)
+Requirement already satisfied: tenacity>=6.2.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly>=5.0.0->dash==2.11.1->-r requirements.txt (line 11)) (8.2.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (2.0.3)
+Requirement already satisfied: certifi>=2017.4.17 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.31.0->-r requirements.txt (line 2)) (2023.5.7)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.7.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.99)
+Requirement already satisfied: nvidia-cudnn-cu11==8.5.0.96 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (8.5.0.96)
+Requirement already satisfied: nvidia-cublas-cu11==11.10.3.66 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.10.3.66)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.7.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.99)
+Requirement already satisfied: wheel in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (0.38.4)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Werkzeug<2.3.0->dash==2.11.1->-r requirements.txt (line 11)) (2.1.2)
+Requirement already satisfied: comm>=0.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.1.3)
+Requirement already satisfied: debugpy>=1.6.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (1.6.7)
+Requirement already satisfied: jupyter-client>=6.1.12 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (8.3.0)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (5.3.1)
+Requirement already satisfied: matplotlib-inline>=0.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.1.6)
+Requirement already satisfied: pyzmq>=20 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (25.1.0)
+Requirement already satisfied: tornado>=6.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (6.3.2)
+Requirement already satisfied: traitlets>=5.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (5.9.0)
+Requirement already satisfied: backcall in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.2.0)
+Requirement already satisfied: decorator in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (5.1.1)
+Requirement already satisfied: jedi>=0.16 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.18.2)
+Requirement already satisfied: pickleshare in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.7.5)
+Requirement already satisfied: prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (3.0.39)
+Requirement already satisfied: pygments>=2.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (2.15.1)
+Requirement already satisfied: stack-data in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.6.2)
+Requirement already satisfied: pexpect>4.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (4.8.0)
+Requirement already satisfied: attrs>=17.3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (23.1.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (6.0.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (4.0.2)
+Requirement already satisfied: yarl<2.0,>=1.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.9.2)
+Requirement already satisfied: frozenlist>=1.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.3.3)
+Requirement already satisfied: aiosignal>=1.1.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.3.1)
+Requirement already satisfied: smmap<6,>=3.0.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb==0.15.3->-r requirements.txt (line 10)) (5.0.0)
+Requirement already satisfied: zipp>=0.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (3.15.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jedi>=0.16->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.8.3)
+Requirement already satisfied: platformdirs>=2.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (3.8.1)
+Requirement already satisfied: ptyprocess>=0.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pexpect>4.3->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.7.0)
+Requirement already satisfied: wcwidth in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.2.6)
+Requirement already satisfied: executing>=1.2.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (1.2.0)
+Requirement already satisfied: asttokens>=2.1.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (2.2.1)
+Requirement already satisfied: pure-eval in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.2.2)
+Looking in indexes: https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/
+Requirement already satisfied: triton-nightly in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (2.1.0.dev20230801015042)
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from triton-nightly) (3.9.0)
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+[2023-08-04 09:36:07,966] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: read).
+Your token has been saved to /home/brc4cb/.cache/huggingface/token
+Login successful
+### Response: Question: A 12-ounce soda has 1/3 as much sugar as a 20-
+0
+### Response: Question: The 12-inch pizza has 16 slices.  The 16-inch pizza has 24 slices.  How many more slices are in the 16-inch pizza than in the 12-inch pizza? Solution: def solution():
+    #The 12-inch pizza has 16 slices
+    slices_12_inch = 16
+    #The 16-inch pizza has 24 slices
+    slices_16_inch = 24
+    #The answer is
+    result = slices_16_inch - slices_12_inch
+    return result
+Below is an instruction that describes a task. Write a response that appropri
+1
+### Response: Question: A 20-pound bag of apples costs $5. A 10-pound bag of oranges costs $2.50. How much would it cost to buy 20 pounds of apples and 20 pounds of oranges? Solution: def solution():
+    #20 pounds of apples cost $5
+    apples_cost = 5
+    #10 pounds of oranges cost $2.50
+    oranges_cost = 2.5
+    #20 pounds of apples cost
+    apples_20_pounds = 20
+2
+### Response: Question: Olivia has $23. She bought five bagels for $3 each. How much money does she have left? Solution: def solution():
+    #Olivia started with $23
+    money_initial = 23
+    #She bought 5 bagels
+    bagels = 5
+    #Each bagel cost $3
+    bagel_cost = 3
+    #5 bagels at $3 a bagel cost
+    money_spent = bagels * bagel_cost
+    #The answer is
+    result = money_initial
+3
+
+4
+### Response: Question: 10000000 people live in a city. 1000000 of them are men. The rest are women. How many women live in the city? Solution: def solution():
+    #1000000 people are
+5
+### Response: Question: The cafeteria is selling 100 raffle tickets. 75% of the money raised will be used to buy a new oven. The rest will be used to buy a new toaster. If each ticket costs $2, how much money will be used to buy a toaster? Solution: def solution():
+    #They are selling 100 tickets
+    tickets_sold = 100
+    #The tickets cost $2 each
+    ticket_cost = 2
+    #75
+6
+### Response: Question: A bakery bakes 1200 loaves of bread a day. It bakes 600 loaves in the morning and 600 loaves in the afternoon. How many loaves of bread does it bake in a week? Solution: def solution():
+    #The bakery bakes 600
+7
+### Response: Question: The bakery has 200 loaves of bread. The bakery sells 100 loaves of bread in the morning and 50 loaves of bread in the afternoon. A grocery store returns 6 unsold loaves. How many loaves of bread does the bakery have left? Solution: def solution():
+    #The bakery started with 200 loaves
+    loaves_baked = 200
+    #They sold 100 in the morning and 50 in the afternoon
+    loaves_sold_morning = 100
+    loaves_sold_afternoon = 50
+    #The grocery store returned 6 loaves
+8
+### Response: Question: A 2-liter bottle of soda has 8503599 cups of soda. A 12-liter bottle of soda has 32 cups of soda. How many 12-liter bottles of soda does it take to fill up a 2-liter bottle of soda? Solution: def solution():
+    #A 2-liter bottle of soda has 8 cups of soda
+    cups_2_liter_bottle = 8503599
+    #A 12-liter bottle of soda has 32 cups of soda
+    cups_12_liter_bottle = 32
+    #It takes
+    cups_12_liter_bottle_to_fill_
+9
+### Response: Question: A 10-pound sack of apples has 40 apples. How many apples does a 25-pound sack of apples have? Solution: def solution():
+    #10 pounds of apples has 40 apples
+    apples_per_10_pounds = 40
+    #25 pounds of apples has
+    apples_per_25_pounds = 25 * apples_per_10_pounds / 10
+    #apples. The answer is
+    result = apples_per_25_pounds
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step-by-step solution to solve the word
+10
+### Response: Question: The soccer team has 24 players. 12 of the players are forwards. 6 of the players are defenders. The rest of the players are goalies. How many goalies are there? Solution: def solution():
+    #The soccer team has 24 players
+    players = 24
+    #12 of the players are forwards
+    forwards = 12
+    #6 of the players are defenders
+    defenders = 6
+    #The rest of the players are goalies
+    goalies = players - forwards - defenders
+    #The answer is
+    result = goalies
+    return result
+Below is an instruction that describes
+11
+### Response: Question: A bakery has 200 loaves of bread. Each loaf of bread weighs 2 pounds. A group of 10 students comes in and buys 10 loaves of bread. How many pounds of bread are left? Solution: def solution():
+    #The bakery has 200 loaves of bread
+    loaves = 200
+    #Each loaf weighs 2 pounds
+    weight_per_
+12
+### Response: Question: A café has 200 mugs. They wash 30 mugs every 2 hours. How many mugs will they have washed after 12 hours? Solution: def solution():
+    #The café started with 200 mugs
+    mugs_initial = 200
+    #They wash 30 mugs every 2 hours
+    mugs_washed_per_2_hours = 30
+    #After 12 hours, they will have washed
+    mugs_washed_12_hours = mugs_washed_per_2_h
+13

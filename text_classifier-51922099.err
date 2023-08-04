@@ -1,0 +1,41 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-564cq7dl/peft_d9c831fd1e904949bad6ed5fd0e13282
+  error: subprocess-exited-with-error
+  
+  × pip subprocess to install build dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> [3 lines of output]
+      Looking in indexes: https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/
+      ERROR: Could not find a version that satisfies the requirement setuptools>=40.8.0 (from versions: none)
+      ERROR: No matching distribution found for setuptools>=40.8.0
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× pip subprocess to install build dependencies did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 12, in <module>
+    import bitsandbytes as bnb
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/__init__.py", line 16, in <module>
+    from .nn import modules
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/__init__.py", line 6, in <module>
+    from .triton_based_modules import SwitchBackLinear, SwitchBackLinearGlobal, SwitchBackLinearVectorwise, StandardLinear
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/triton_based_modules.py", line 8, in <module>
+    from bitsandbytes.triton.dequantize_rowwise import dequantize_rowwise
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/triton/dequantize_rowwise.py", line 10, in <module>
+    import triton
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/__init__.py", line 20, in <module>
+    from .runtime import (
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/__init__.py", line 1, in <module>
+    from .autotuner import Config, Heuristics, autotune, heuristics
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/autotuner.py", line 7, in <module>
+    from ..compiler import OutOfResources
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/compiler/__init__.py", line 1, in <module>
+    from .compiler import CompiledKernel, compile
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/compiler/compiler.py", line 18, in <module>
+    from ..runtime.autotuner import OutOfResources
+ImportError: cannot import name 'OutOfResources' from partially initialized module 'triton.runtime.autotuner' (most likely due to a circular import) (/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/autotuner.py)

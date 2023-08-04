@@ -13,6 +13,8 @@ import bitsandbytes as bnb
 import pandas as pd
 
 import torch
+torch.cuda.init()
+print(torch.cuda.is_available())
 import os
 os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-7b/cache'
 import transformers
@@ -34,17 +36,19 @@ from peft import (
     prepare_model_for_kbit_training,
     LoraConfig,
     get_peft_model,
-    PeftModel
+    PeftModel,
+    TaskType
 )
 from peft.tuners.lora import LoraLayer
 from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
 from dotenv import load_dotenv
 import os
+torch.backends.cuda.matmul.allow_tf32 = True
 
 # Load the environmental variables from the .env file
 load_dotenv()
 
-token = os.getenv('huggingface_token')
+token = os.getenv('text_classifier_token')
 
 from huggingface_hub import login
 login(token = token)
@@ -79,6 +83,10 @@ train_test_valid_dataset = DatasetDict({
 
 #Set up tokenizer
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", use_auth_token=True)
+tokenizer.add_special_tokens({"pad_token":"[PAD]"})
+
+# tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased", use_auth_token=True)
+# tokenizer.add_special_tokens({"pad_token":"[PAD]"})
 
 #Preprocess and collate data
 def preprocess_function(examples):
@@ -108,39 +116,63 @@ from transformers import AutoModelForSequenceClassification, TrainingArguments, 
 
 model = AutoModelForSequenceClassification.from_pretrained(
     "meta-llama/Llama-2-7b-hf", num_labels=2, id2label=id2label, label2id=label2id,
-        use_auth_token=True, load_in_4bit=True, 
-       # max_memory=max_memory,
-        torch_dtype=torch.bfloat16,
+        use_auth_token=True,  
+      # max_memory=max_memory,
+      # torch_dtype=torch.bfloat16, 
+      device_map = 'auto',
         quantization_config=BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_compute_dtype=torch.bfloat16,
             bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type='nf4'),
-        config=AutoConfig.from_pretrained(model_path, trust_remote_code=True))
+            bnb_4bit_quant_type='nf4'))
+
+# model = AutoModelForSequenceClassification.from_pretrained(
+#     "bert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id,
+#         use_auth_token=True,  
+#       # max_memory=max_memory,
+#       # torch_dtype=torch.bfloat16, 
+#         quantization_config=BitsAndBytesConfig(
+#             load_in_4bit=True,
+#             bnb_4bit_compute_dtype=torch.bfloat16,
+#             bnb_4bit_use_double_quant=True,
+#             bnb_4bit_quant_type='nf4'))
         
+#NEWLY ADDED
+model.gradient_checkpointing_enable()
+model = prepare_model_for_kbit_training(model)
+
+peft_config = LoraConfig(
+    task_type=TaskType.SEQ_CLS,
+    r=16,
+    lora_alpha=32,
+    lora_dropout=0.1,
+)      
+
+model = get_peft_model(model, peft_config)
+
+#END NEWLY ADDED
 training_args = TrainingArguments(
-    output_dir="text_classifier",
+    output_dir="text_classifier_llama",
     learning_rate=2e-5,
-    per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
+    per_device_train_batch_size=1,
+   # auto_find_batch_size = True,
     num_train_epochs=8,
     weight_decay=0.01,
     evaluation_strategy="epoch",
     save_strategy="epoch",
-    load_best_model_at_end=True,
-    push_to_hub=True,
-)
+    load_best_model_at_end=True, 
+    bf16=True)
 
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=train_test_valid_dataset["train"],
-    eval_dataset=train_test_valid_dataset["valid"],
+    train_dataset=tokenized_train_test_valid_dataset["train"],
+    eval_dataset=tokenized_train_test_valid_dataset["valid"],
     tokenizer=tokenizer,
     data_collator=data_collator,
     compute_metrics=compute_metrics,
 )
 
 trainer.train()
-trainer.predict(test_dataset = train_test_valid_dataset["test"])
-trainer.evaluate(eval_dataset = train_test_valid_dataset["test"])
+trainer.predict(test_dataset = tokenized_train_test_valid_dataset["test"])
+trainer.evaluate(eval_dataset = tokenized_train_test_valid_dataset["test"])

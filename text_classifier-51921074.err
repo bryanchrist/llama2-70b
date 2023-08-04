@@ -1,0 +1,28 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-8f8dp518/peft_993997779e844549ad4b0d736875dd92
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-8f8dp518/accelerate_06fb4cc7016545efa9cd7b28115b2bc4
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 12, in <module>
+    import bitsandbytes as bnb
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/__init__.py", line 16, in <module>
+    from .nn import modules
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/__init__.py", line 6, in <module>
+    from .triton_based_modules import SwitchBackLinear, SwitchBackLinearGlobal, SwitchBackLinearVectorwise, StandardLinear
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/triton_based_modules.py", line 8, in <module>
+    from bitsandbytes.triton.dequantize_rowwise import dequantize_rowwise
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/triton/dequantize_rowwise.py", line 10, in <module>
+    import triton
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/__init__.py", line 20, in <module>
+    from .runtime import (
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/__init__.py", line 1, in <module>
+    from .autotuner import Config, Heuristics, autotune, heuristics
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/autotuner.py", line 7, in <module>
+    from ..compiler import OutOfResources
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/compiler/__init__.py", line 1, in <module>
+    from .compiler import CompiledKernel, compile
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/compiler/compiler.py", line 18, in <module>
+    from ..runtime.autotuner import OutOfResources
+ImportError: cannot import name 'OutOfResources' from partially initialized module 'triton.runtime.autotuner' (most likely due to a circular import) (/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/triton/runtime/autotuner.py)

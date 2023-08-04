@@ -1,0 +1,22 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-55sjvio_/peft_2eb13b14a5414f81bbd702558b94da08
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-55sjvio_/accelerate_d6122ebf21dd42278c675db3016bae51
+Found cached dataset csv (/home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 458.34it/s]
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-0441f84aaca59997.arrow
+Map:   0%|          | 0/58 [00:00<?, ? examples/s]                                                  Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-1d05a2fba546c305.arrow
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py:2193: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Downloading model.safetensors:   0%|          | 0.00/436M [00:00<?, ?B/s]Downloading model.safetensors:   5%|▍         | 21.0M/436M [00:00<00:02, 204MB/s]Downloading model.safetensors:  12%|█▏        | 52.4M/436M [00:00<00:01, 225MB/s]Downloading model.safetensors:  19%|█▉        | 83.9M/436M [00:00<00:01, 227MB/s]Downloading model.safetensors:  29%|██▉       | 126M/436M [00:00<00:01, 269MB/s] Downloading model.safetensors:  36%|███▌      | 157M/436M [00:00<00:00, 281MB/s]Downloading model.safetensors:  43%|████▎     | 189M/436M [00:00<00:00, 282MB/s]Downloading model.safetensors:  51%|█████     | 220M/436M [00:00<00:00, 281MB/s]Downloading model.safetensors:  58%|█████▊    | 252M/436M [00:00<00:00, 290MB/s]Downloading model.safetensors:  65%|██████▍   | 283M/436M [00:01<00:00, 286MB/s]Downloading model.safetensors:  75%|███████▍  | 325M/436M [00:01<00:00, 295MB/s]Downloading model.safetensors:  82%|████████▏ | 357M/436M [00:01<00:00, 280MB/s]Downloading model.safetensors:  89%|████████▉ | 388M/436M [00:01<00:00, 282MB/s]Downloading model.safetensors:  96%|█████████▋| 419M/436M [00:01<00:00, 270MB/s]Downloading model.safetensors: 100%|██████████| 436M/436M [00:01<00:00, 276MB/s]
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 129, in <module>
+    model = AutoModelForSequenceClassification.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 493, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2804, in from_pretrained
+    raise ValueError(
+ValueError: BertForSequenceClassification does not support `device_map='auto'`. To implement support, the modelclass needs to implement the `_no_split_modules` attribute.

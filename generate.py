@@ -58,7 +58,7 @@ login(token = token)
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
-model_path = "meta-llama/Llama-2-70b"   # Specify the path to the model
+model_path = "meta-llama/Llama-2-70b-hf"   # Specify the path to the model
 adapter_path = "output/checkpoint-2000"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 

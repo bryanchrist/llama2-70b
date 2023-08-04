@@ -1,0 +1,22 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-g1gfib1t/peft_d7f5a1b9661c4fdbba80335537e61817
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-g1gfib1t/accelerate_3b839b6cb72247f896966f2704c728ec
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 8305.55it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 48.53it/s]
+Generating train split: 0 examples [00:00, ? examples/s]                                                          0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 234.80it/s]
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Downloading (…)okenizer_config.json:   0%|          | 0.00/749 [00:00<?, ?B/s]Downloading (…)okenizer_config.json: 100%|██████████| 749/749 [00:00<00:00, 282kB/s]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Downloading tokenizer.model:   0%|          | 0.00/500k [00:00<?, ?B/s]Downloading tokenizer.model: 100%|██████████| 500k/500k [00:00<00:00, 46.9MB/s]
+Downloading (…)/main/tokenizer.json:   0%|          | 0.00/1.84M [00:00<?, ?B/s]Downloading (…)/main/tokenizer.json: 100%|██████████| 1.84M/1.84M [00:00<00:00, 35.7MB/s]
+Downloading (…)cial_tokens_map.json:   0%|          | 0.00/414 [00:00<?, ?B/s]Downloading (…)cial_tokens_map.json: 100%|██████████| 414/414 [00:00<00:00, 622kB/s]
+Map:   0%|          | 0/468 [00:00<?, ? examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Map: 100%|██████████| 468/468 [00:00<00:00, 4196.27 examples/s]                                                               Map:   0%|          | 0/58 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/59 [00:00<?, ? examples/s]                                                  Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 119, in <module>
+    config=AutoConfig.from_pretrained(model_path, trust_remote_code=True))
+NameError: name 'AutoConfig' is not defined

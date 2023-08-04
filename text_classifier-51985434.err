@@ -1,0 +1,105 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-670951rs/peft_98525dccc6ed4f039c40cb7d0a0449e0
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-670951rs/accelerate_08924b409516453fb0a96acd3bbf0c34
+Found cached dataset csv (/home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 428.08it/s]
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Downloading (…)okenizer_config.json:   0%|          | 0.00/29.0 [00:00<?, ?B/s]Downloading (…)okenizer_config.json: 100%|██████████| 29.0/29.0 [00:00<00:00, 18.8kB/s]
+Downloading (…)lve/main/config.json:   0%|          | 0.00/570 [00:00<?, ?B/s]Downloading (…)lve/main/config.json: 100%|██████████| 570/570 [00:00<00:00, 492kB/s]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Downloading (…)solve/main/vocab.txt:   0%|          | 0.00/213k [00:00<?, ?B/s]Downloading (…)solve/main/vocab.txt: 100%|██████████| 213k/213k [00:00<00:00, 28.8MB/s]
+Downloading (…)/main/tokenizer.json:   0%|          | 0.00/436k [00:00<?, ?B/s]Downloading (…)/main/tokenizer.json: 100%|██████████| 436k/436k [00:00<00:00, 57.2MB/s]
+Map:   0%|          | 0/468 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/58 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/59 [00:00<?, ? examples/s]                                                  /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py:2193: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connection.py", line 635, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connection.py", line 776, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 466, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 510, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connection.py", line 635, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/connection.py", line 776, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 466, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 510, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 129, in <module>
+    model = AutoModelForSequenceClassification.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 493, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2519, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1364, in hf_hub_download
+    http_get(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 505, in http_get
+    r = _request_wrapper(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 442, in _request_wrapper
+    return http_backoff(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 258, in http_backoff
+    response = session.request(method=method, url=url, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 63, in send
+    return super().send(request, *args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: (ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: f0611262-3f47-4444-9aee-ff372a3401ab)')

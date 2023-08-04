@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A sds-phd-2022
+#SBATCH -A ds4002fa22
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -11,7 +11,7 @@
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
-#SBATCH -t 0-36:00:00
+#SBATCH -t 3-00:00:00
 #SBATCH -J llama_generate_8bit
 #SBATCH -o generate_8bit-%A.out
 #SBATCH -e generate_8bit-%A.err
@@ -30,6 +30,7 @@ module load cuda/11.4.2
 source activate falcon_40B
 conda install -n falcon_40B python-dotenv
 pip install -U -r requirements.txt
+pip install -U --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/ triton-nightly
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
 python generate_8bit.py

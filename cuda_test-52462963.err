@@ -1,0 +1,2 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-u1anfniu/peft_11ad4d548a1a4c4c9fca0edc98276980
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-u1anfniu/accelerate_ee339fb1ac8c4d00b6e12e62662ace1e

@@ -1,0 +1,23 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-l8bnz2m7/peft_6f02547b85dd47d2bc6f33ae35959e89
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-l8bnz2m7/accelerate_779eda90a670419d94630cdc39d16fef
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py:2193: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:04<01:08,  4.89s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:08<00:53,  4.09s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:11<00:45,  3.83s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:15<00:42,  3.86s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:19<00:38,  3.85s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:23<00:34,  3.89s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:27<00:31,  3.95s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:31<00:27,  3.96s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:35<00:23,  3.93s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:39<00:19,  3.99s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:44<00:16,  4.09s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:48<00:12,  4.21s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:53<00:08,  4.34s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:56<00:04,  4.17s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:57<00:00,  2.99s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:57<00:00,  3.81s/it]
+WARNING:root:The `device_map` argument is not provided. We will override the device_map argument. to set the entire model on the current device. If you want to set the model on multiple devices, please provide a custom `device_map` argument.
+WARNING:datasets.builder:Found cached dataset csv (/home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 391.73it/s]
+WARNING:datasets.arrow_dataset:Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+WARNING:datasets.arrow_dataset:Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+WARNING:datasets.arrow_dataset:Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+WARNING:datasets.arrow_dataset:Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-db79731672741871.arrow
+WARNING:datasets.arrow_dataset:Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-4f9937f95ed3fc2e.arrow
+WARNING:datasets.arrow_dataset:Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-499200ed12fcfae2.arrow
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/ppo.py", line 229, in <module>
+    data_point['input_ids'] = input_ids
+TypeError: 'str' object does not support item assignment

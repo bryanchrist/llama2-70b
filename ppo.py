@@ -14,7 +14,7 @@ import pandas as pd
 
 import torch
 import os
-os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-7b/cache'
+os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b-hf/cache'
 import transformers
 from torch.nn.utils.rnn import pad_sequence
 import argparse
@@ -77,12 +77,12 @@ model = AutoModelForCausalLM.from_pretrained(
         load_in_4bit=True, 
        # max_memory=max_memory,
         torch_dtype=torch.bfloat16,
+        use_auth_token=True,
         quantization_config=BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_compute_dtype=torch.bfloat16,
             bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type='nf4',
-        use_auth_token=True)
+            bnb_4bit_quant_type='nf4'))
         
 peft_model = PeftModel.from_pretrained(model, adapter_path)
 
@@ -131,9 +131,21 @@ id2label = {0: "NOT SOLVABLE", 1: "SOLVABLE"}
 label2id = {"NOT SOLVABLE": 0, "SOLVABLE": 1}
 
 #Set up classifier
-solvability_model_name = "text_classifier"
-solvability_tokenizer = AutoTokenizer.from_pretrained(solvability_model_name, device_map="auto", num_labels=2, id2label=id2label, label2id=label2id)
-solvability_model = AutoModelForSequenceClassification.from_pretrained(solvability_model_name, device_map="auto")
+solvability_model_name = "text_classifier/checkpoint-3744"
+solvability_model =AutoModelForSequenceClassification.from_pretrained(
+    "bert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id,
+        use_auth_token=True,  
+      # max_memory=max_memory,
+      # torch_dtype=torch.bfloat16, 
+        quantization_config=BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type='nf4'))
+            
+solvability_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased", use_auth_token=True)
+tokenizer.add_special_tokens({"pad_token":"[PAD]"})
+solvability_model = PeftModel.from_pretrained(solvability_model, solvability_model_name)
 solvability_index = 1
 
 #Set up collator
@@ -147,7 +159,7 @@ mini_batch_size=4
 batch_size=16
 
 config = PPOConfig(
-    model_name=model_name,    
+    model_name=model_path,    
     learning_rate=learning_rate,
     ppo_epochs=max_ppo_epochs,
     mini_batch_size=mini_batch_size,
@@ -207,34 +219,88 @@ formatted_prompt = (f"Below is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response:")
             
+# for step, batch in tqdm(enumerate(ppo_trainer.dataloader)):
+#     # Break when you reach max_steps.
+#     if step >= max_ppo_steps:
+#         break   
+
+#     # formatted_prompt = [formatted_prompt] * len(batch["label"])
+
+#     # for i, label_value in enumerate(batch["label"]):
+#     #     batch["label"][i] = {"input_ids": formatted_prompt[i], "label": label_value}
+
+#     # prompt_tensors = batch["input_ids"]
+
+#     # Get response from LLM.
+#     question_tensors = []
+    
+#     # for prompt_tensor in prompt_tensors:
+#     #     max_new_tokens = 800       
+            
+#     #     generation_kwargs["max_new_tokens"] = max_new_tokens
+#     #     inputs = tokenizer.encode(prompt_tensor, return_tensors="pt")
+#     #     attention_mask = torch.ones_like(inputs)
+#     #     inputs = inputs.to('cuda')
+#     #     question = ppo_trainer.generate(inputs, attention_mask=attention_mask, **generation_kwargs)
+        
+#     #     question_tensors.append(question.squeeze()[-max_new_tokens:])
+
+#     for i in batch:
+#         max_new_tokens = 800       
+            
+#         generation_kwargs["max_new_tokens"] = max_new_tokens
+#         inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
+#         attention_mask = torch.ones_like(inputs)
+#         inputs = inputs.to('cuda')
+#         question = ppo_trainer.generate(inputs, attention_mask=attention_mask, **generation_kwargs)
+        
+#         question_tensors.append(question.squeeze()[-max_new_tokens:])
+        
+#     # This needs to be called "response".
+#     batch["response"] = [tokenizer.decode(r.squeeze()) for r in question_tensors]
+
+#     # Compute reward outputs.
+#     #query_response_pairs = [q + r for q, r in zip(batch["query"], batch["response"])]    
+#     solvability_input_ids = solvability_tokenizer(batch['response'], return_tensors="pt").input_ids
+
+#     logits = solvability_model(solvability_input_ids).logits
+
+#     # You use the solvability item because this is the score for the positive solvability class.
+#     reward_tensors = [torch.tensor(reward[solvability_index]["score"]) for reward in rewards]    
+
+#     # Run PPO step.
+#     stats = ppo_trainer.step(prompt_tensors, summary_tensors, reward_tensors)
+#     ppo_trainer.log_stats(stats, batch, reward_tensors)
+    
+#     print(f'objective/kl: {stats["objective/kl"]}')
+#     print(f'ppo/returns/mean: {stats["ppo/returns/mean"]}')
+#     print(f'ppo/policy/advantages_mean: {stats["ppo/policy/advantages_mean"]}')
+
+# Define prompt_tensors using the formatted_prompt
+prompt_tensors = tokenizer.encode(formatted_prompt, return_tensors="pt")
+attention_mask = torch.ones_like(prompt_tensors)
+prompt_tensors = prompt_tensors.to('cuda')
+prompt_tensors = prompt_tensors.unsqueeze(0) 
+
 for step, batch in tqdm(enumerate(ppo_trainer.dataloader)):
     # Break when you reach max_steps.
     if step >= max_ppo_steps:
         break   
 
-    #prompt_tensors = batch["input_ids"]
-
     # Get response from LLM.
     question_tensors = []
 
-    for prompt_tensor in prompt_tensors:
-        max_new_tokens = 800       
-            
-        generation_kwargs["max_new_tokens"] = max_new_tokens
-        inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
-        attention_mask = torch.ones_like(inputs)
-        inputs = inputs.to('cuda')
-        question = ppo_trainer.generate(inputs, attention_mask=attention_mask, **generation_kwargs)
-        
-        question_tensors.append(question.squeeze()[-max_new_tokens:])
-        
+    max_new_tokens = 800
+    generation_kwargs["max_new_tokens"] = max_new_tokens
+
+    question = ppo_trainer.generate(prompt_tensors, attention_mask=attention_mask, **generation_kwargs)
+    question_tensors.append(question.squeeze()[-max_new_tokens:])
+
     # This needs to be called "response".
     batch["response"] = [tokenizer.decode(r.squeeze()) for r in question_tensors]
 
     # Compute reward outputs.
-    query_response_pairs = [q + r for q, r in zip(batch["query"], batch["response"])]    
-    solvability_input_ids = solvability_tokenizer(query_response_pairs, return_tensors="pt").input_ids
-
+    solvability_input_ids = solvability_tokenizer(batch['response'], return_tensors="pt").input_ids
     logits = solvability_model(solvability_input_ids).logits
 
     # You use the solvability item because this is the score for the positive solvability class.
@@ -247,4 +313,6 @@ for step, batch in tqdm(enumerate(ppo_trainer.dataloader)):
     print(f'objective/kl: {stats["objective/kl"]}')
     print(f'ppo/returns/mean: {stats["ppo/returns/mean"]}')
     print(f'ppo/policy/advantages_mean: {stats["ppo/policy/advantages_mean"]}')
+    print('-'.join('' for x in range(100)))
+
     print('-'.join('' for x in range(100)))

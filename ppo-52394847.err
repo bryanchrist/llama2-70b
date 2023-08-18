@@ -1,0 +1,28 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-1zfje3rc/peft_bf8bd82ebab34c92a0a13d519af91b6d
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-1zfje3rc/accelerate_67a4efa9a5244b18b3bf41c28da5408a
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:1714: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/modeling_utils.py:2193: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:25<05:52, 25.16s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:46<04:59, 23.07s/it]Loading checkpoint shards:  20%|██        | 3/15 [01:09<04:32, 22.71s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [01:31<04:08, 22.61s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [01:52<03:38, 21.86s/it]Loading checkpoint shards:  40%|████      | 6/15 [02:12<03:13, 21.47s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [02:34<02:53, 21.71s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [02:56<02:31, 21.67s/it]Loading checkpoint shards:  60%|██████    | 9/15 [03:18<02:09, 21.64s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [03:39<01:48, 21.63s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [04:01<01:27, 21.75s/it]Loading checkpoint shards:  80%|████████  | 12/15 [04:23<01:05, 21.70s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [04:44<00:42, 21.48s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [05:05<00:21, 21.45s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:06<00:00, 15.24s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:06<00:00, 20.44s/it]
+WARNING:root:The `device_map` argument is not provided. We will override the device_map argument. to set the entire model on the current device. If you want to set the model on multiple devices, please provide a custom `device_map` argument.
+WARNING:datasets.builder:Found cached dataset csv (/home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 156.03it/s]
+WARNING:datasets.arrow_dataset:Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+WARNING:datasets.arrow_dataset:Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+WARNING:datasets.arrow_dataset:Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Map:   0%|          | 0/468 [00:00<?, ? examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Map: 100%|██████████| 468/468 [00:00<00:00, 4000.14 examples/s]                                                               Map:   0%|          | 0/58 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/59 [00:00<?, ? examples/s]                                                  Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/ppo.py", line 136, in <module>
+    solvability_model = AutoModelForSequenceClassification.from_pretrained(solvability_model_name, device_map="auto")
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 461, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/configuration_auto.py", line 983, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/configuration_utils.py", line 617, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/configuration_utils.py", line 672, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 388, in cached_file
+    raise EnvironmentError(
+OSError: text_classifier/checkpoint-3744 does not appear to have a file named config.json. Checkout 'https://huggingface.co/text_classifier/checkpoint-3744/None' for available files.

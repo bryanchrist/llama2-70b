@@ -178,3 +178,6 @@ cache
 text_classifier
 
 text_classifier_llama
+
+#wand 
+wandb

@@ -181,3 +181,6 @@ text_classifier_llama
 
 #wand 
 wandb
+
+#data
+data

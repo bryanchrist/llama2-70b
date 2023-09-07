@@ -1,2 +1,79 @@
   Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-u1anfniu/peft_11ad4d548a1a4c4c9fca0edc98276980
   Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-u1anfniu/accelerate_ee339fb1ac8c4d00b6e12e62662ace1e
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:166: UserWarning: Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+
+  warn(msg)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:166: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so')}.. We select the PyTorch default libcudart.so, which is {torch.version.cuda},but this might missmatch with the CUDA version that is needed for bitsandbytes.To override this behavior set the BNB_CUDA_VERSION=<version string, e.g. 122> environmental variableFor example, if you want to use the CUDA version 122BNB_CUDA_VERSION=122 python ...OR set the environmental variable in your .bashrc: export BNB_CUDA_VERSION=122In the case of a manual override, make sure you set the LD_LIBRARY_PATH, e.g.export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.2
+  warn(msg)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:166: UserWarning: /home/brc4cb/.conda/envs/falcon_40B did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:166: UserWarning: /opt/conda/lib/ did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:166: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/apps/software/standard/core/cuda/11.4.2/lib64/libcudart.so'), PosixPath('/apps/software/standard/core/cuda/11.4.2/lib64/libcudart.so.11.0')}.. We select the PyTorch default libcudart.so, which is {torch.version.cuda},but this might missmatch with the CUDA version that is needed for bitsandbytes.To override this behavior set the BNB_CUDA_VERSION=<version string, e.g. 122> environmental variableFor example, if you want to use the CUDA version 122BNB_CUDA_VERSION=122 python ...OR set the environmental variable in your .bashrc: export BNB_CUDA_VERSION=122In the case of a manual override, make sure you set the LD_LIBRARY_PATH, e.g.export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.2
+  warn(msg)
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/import_utils.py", line 1099, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/training_args.py", line 67, in <module>
+    from accelerate.state import AcceleratorState, PartialState
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/__init__.py", line 3, in <module>
+    from .accelerator import Accelerator
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/accelerator.py", line 35, in <module>
+    from .checkpointing import load_accelerator_state, load_custom_state, save_accelerator_state, save_custom_state
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/checkpointing.py", line 24, in <module>
+    from .utils import (
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/utils/__init__.py", line 131, in <module>
+    from .bnb import has_4bit_bnb_layers, load_and_quantize_model
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/utils/bnb.py", line 42, in <module>
+    import bitsandbytes as bnb
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/__init__.py", line 6, in <module>
+    from . import cuda_setup, utils, research
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/research/__init__.py", line 1, in <module>
+    from . import nn
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/research/nn/__init__.py", line 1, in <module>
+    from .modules import LinearFP8Mixed, LinearFP8Global
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/research/nn/modules.py", line 8, in <module>
+    from bitsandbytes.optim import GlobalOptimManager
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/optim/__init__.py", line 6, in <module>
+    from bitsandbytes.cextension import COMPILED_WITH_CUDA
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cextension.py", line 20, in <module>
+    raise RuntimeError('''
+RuntimeError: 
+        CUDA Setup failed despite GPU being available. Please run the following command to get more information:
+
+        python -m bitsandbytes
+
+        Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them
+        to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes
+        and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/cuda_test.py", line 5, in <module>
+    from transformers import (
+  File "<frozen importlib._bootstrap>", line 1055, in _handle_fromlist
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/import_utils.py", line 1089, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/import_utils.py", line 1101, in _get_module
+    raise RuntimeError(
+RuntimeError: Failed to import transformers.training_args because of the following error (look up to see its traceback):
+
+        CUDA Setup failed despite GPU being available. Please run the following command to get more information:
+
+        python -m bitsandbytes
+
+        Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them
+        to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes
+        and open an issue at: https://github.com/TimDettmers/bitsandbytes/issues

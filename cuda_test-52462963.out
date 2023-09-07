@@ -137,3 +137,44 @@ Looking in indexes: https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packag
 Requirement already satisfied: triton-nightly in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (2.1.0.dev20230816233358)
 Collecting triton-nightly
   Downloading https://aiinfra.pkgs.visualstudio.com/2692857e-05ef-43b4-ba9c-ccf1c22c437c/_packaging/07c94329-d4c3-4ad4-9e6b-f904a60032ec/pypi/download/triton-nightly/2.1.dev20230818013709/triton_nightly-2.1.0.dev20230818013709-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (111.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.1/111.1 MB 7.4 MB/s eta 0:00:00
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from triton-nightly) (3.9.0)
+Installing collected packages: triton-nightly
+  Attempting uninstall: triton-nightly
+    Found existing installation: triton-nightly 2.1.0.dev20230816233358
+    Uninstalling triton-nightly-2.1.0.dev20230816233358:
+      Successfully uninstalled triton-nightly-2.1.0.dev20230816233358
+Successfully installed triton-nightly-2.1.0.dev20230818013709
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+False
+
+===================================BUG REPORT===================================
+================================================================================
+The following directories listed in your path were found to be non-existent: {PosixPath('/opt/conda/lib')}
+The following directories listed in your path were found to be non-existent: {PosixPath('/apps/software/standard/core/anaconda/2020.11-py3.8/share/proj')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1'), PosixPath('1;/apps/modulefiles/standard/toolchains'), PosixPath('1;/apps/modulefiles/vendor')}
+The following directories listed in your path were found to be non-existent: {PosixPath('anaconda/2020.11-py3.8'), PosixPath('1'), PosixPath('1;cuda/11.4.2')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1'), PosixPath('1;/apps/modulefiles/standard/core/cuda/11.4.2.lua')}
+The following directories listed in your path were found to be non-existent: {PosixPath('anaconda/2020.11-py3.8'), PosixPath('cuda/11.4.2')}
+The following directories listed in your path were found to be non-existent: {PosixPath('/share/rci_apps/common/include')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1;/apps/software/standard/core/anaconda/2020.11-py3.8/bin'), PosixPath('2;/usr/sbin'), PosixPath('1;/apps/software/standard/core/cuda/11.4.2/bin'), PosixPath('2;/opt/mam/current/bin'), PosixPath('1;/apps/software/standard/core/anaconda/2020.11-py3.8/sbin'), PosixPath('2;/usr/lib64/qt-3.3/bin'), PosixPath('1'), PosixPath('2;/usr/local/sbin'), PosixPath('1;/apps/software/standard/core/anaconda/2020.11-py3.8'), PosixPath('1;/usr/local/bin'), PosixPath('2;/share/rci_apps/common/bin'), PosixPath('1;/apps/software/standard/core/cuda/11.4.2/nvvm/bin'), PosixPath('1;/opt/slurm/current/bin'), PosixPath('2;/opt/rci/bin'), PosixPath('1;/usr/bin'), PosixPath('2;/share/resources/HPCtools'), PosixPath('2;/opt/singularity/current/bin'), PosixPath('1;/opt/mam/9.1.2/bin')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1'), PosixPath('1;/apps/software/standard/core/cuda/11.4.2/extras/CUPTI/include'), PosixPath('1;/apps/software/standard/core/cuda/11.4.2/include')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1'), PosixPath('1;/apps/software/standard/core/cuda/11.4.2/lib64')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1;/opt/slurm/current/lib'), PosixPath('1;/share/rci_apps/common/lib64'), PosixPath('1;/apps/software/standard/core/cuda/11.4.2/lib64'), PosixPath('1'), PosixPath('1;/apps/software/standard/core/cuda/11.4.2/extras/CUPTI/lib64')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1')}
+The following directories listed in your path were found to be non-existent: {PosixPath('1;/usr/share/lmod/lmod/share/man'), PosixPath('1;/apps/software/standard/core/anaconda/2020.11-py3.8/man'), PosixPath('1')}
+The following directories listed in your path were found to be non-existent: {PosixPath('() {  eval $($LMOD_DIR/ml_cmd "$@")\n}')}
+DEBUG: Possible options found for libcudart.so: {PosixPath('/apps/software/standard/core/cuda/11.4.2/lib64/libcudart.so'), PosixPath('/apps/software/standard/core/cuda/11.4.2/lib64/libcudart.so.11.0')}
+CUDA SETUP: PyTorch settings found: CUDA_VERSION=117, Highest Compute Capability: 8.0.
+CUDA SETUP: To manually override the PyTorch CUDA version please see:https://github.com/TimDettmers/bitsandbytes/blob/main/how_to_use_nonpytorch_cuda.md
+CUDA SETUP: Loading binary /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/libbitsandbytes_cuda117.so...
+/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/libbitsandbytes_cuda117.so)
+CUDA SETUP: Something unexpected happened. Please compile from source:
+git clone https://github.com/TimDettmers/bitsandbytes.git
+cd bitsandbytes
+CUDA_VERSION=117 make cuda11x
+python setup.py install

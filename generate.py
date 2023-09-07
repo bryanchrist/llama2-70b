@@ -207,7 +207,7 @@ for i in range(0,5000):
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True, top_p = .5)
+    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
     # Split the generated text by the prompt to extract the newly generated part
@@ -216,7 +216,7 @@ for i in range(0,5000):
     
     print(newly_generated_text)
     
-    output_file = "questions_5shot.txt"  # Specify the path and filename for the output file
+    output_file = "questions_5shot_run2.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
         

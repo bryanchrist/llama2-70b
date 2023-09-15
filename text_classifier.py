@@ -114,48 +114,59 @@ label2id = {"NOT SOLVABLE": 0, "SOLVABLE": 1}
 #Import model
 from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer
 
-model = AutoModelForSequenceClassification.from_pretrained(
-    "meta-llama/Llama-2-7b-hf", num_labels=2, id2label=id2label, label2id=label2id,
-        use_auth_token=True,  
-      # max_memory=max_memory,
-      # torch_dtype=torch.bfloat16, 
-      device_map = 'auto',
-        quantization_config=BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.bfloat16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type='nf4'))
-
 # model = AutoModelForSequenceClassification.from_pretrained(
-#     "bert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id,
+#     "meta-llama/Llama-2-7b-hf", num_labels=2, id2label=id2label, label2id=label2id,
 #         use_auth_token=True,  
 #       # max_memory=max_memory,
 #       # torch_dtype=torch.bfloat16, 
+#       device_map = 'auto',
 #         quantization_config=BitsAndBytesConfig(
 #             load_in_4bit=True,
 #             bnb_4bit_compute_dtype=torch.bfloat16,
 #             bnb_4bit_use_double_quant=True,
 #             bnb_4bit_quant_type='nf4'))
+
+model = AutoModelForSequenceClassification.from_pretrained(
+    "bert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id,
+        use_auth_token=True,  
+      # max_memory=max_memory,
+      # torch_dtype=torch.bfloat16, 
+        quantization_config=BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type='nf4'))
         
 #NEWLY ADDED
 model.gradient_checkpointing_enable()
 model = prepare_model_for_kbit_training(model)
 
-peft_config = LoraConfig(
-    task_type=TaskType.SEQ_CLS,
-    r=16,
-    lora_alpha=32,
-    lora_dropout=0.1,
-)      
+# peft_config = LoraConfig(
+#     task_type=TaskType.SEQ_CLS,
+#     r=16,
+#     lora_alpha=32,
+#     lora_dropout=0.1,
+# )      
 
-model = get_peft_model(model, peft_config)
+# model = get_peft_model(model, peft_config)
 
 #END NEWLY ADDED
+# training_args = TrainingArguments(
+#     output_dir="text_classifier_llama",
+#     learning_rate=2e-5,
+#     per_device_train_batch_size=1,
+#   # auto_find_batch_size = True,
+#     num_train_epochs=8,
+#     weight_decay=0.01,
+#     evaluation_strategy="epoch",
+#     save_strategy="epoch",
+#     load_best_model_at_end=True, 
+#     bf16=True)
+
 training_args = TrainingArguments(
-    output_dir="text_classifier_llama",
-    learning_rate=2e-5,
-    per_device_train_batch_size=1,
-   # auto_find_batch_size = True,
+    output_dir="text_classifier",
+    learning_rate=.1,
+    auto_find_batch_size = True,
     num_train_epochs=8,
     weight_decay=0.01,
     evaluation_strategy="epoch",
@@ -174,5 +185,9 @@ trainer = Trainer(
 )
 
 trainer.train()
-trainer.predict(test_dataset = tokenized_train_test_valid_dataset["test"])
+print(tokenized_train_test_valid_dataset["test"])
+test_input_data = tokenized_train_test_valid_dataset["test"]["input_ids"]
+predictions = trainer.predict(test_dataset=test_input_data)
+print(predictions)
+# trainer.predict(test_dataset = tokenized_train_test_valid_dataset["test"])
 trainer.evaluate(eval_dataset = tokenized_train_test_valid_dataset["test"])

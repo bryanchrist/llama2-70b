@@ -1,0 +1,22 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-fg0ivxyu/peft_db27bca0d1054d639da8c57dec19cb06
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-fg0ivxyu/accelerate_ad54e4e64386465b8fd061ea3d8d3c3c
+Found cached dataset csv (/home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 211.85it/s]
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+Loading cached shuffled indices for dataset at /home/brc4cb/.cache/huggingface/datasets/csv/default-10416fda93fda02b/0.0.0/eea64c71ca8b46dd3f537ed218fc9bf495d5707789152eb2764f5c78fa66d59d/cache-789e2502999e7416.arrow
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Map:   0%|          | 0/468 [00:00<?, ? examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Map: 100%|██████████| 468/468 [00:00<00:00, 2562.95 examples/s]                                                               Map:   0%|          | 0/58 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/59 [00:00<?, ? examples/s]                                                  /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Traceback (most recent call last):
+slurmstepd: error: *** JOB 53242642 ON udc-an36-19 CANCELLED AT 2023-09-15T21:14:24 DUE TO TIME LIMIT ***
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/text_classifier.py", line 187, in <module>
+slurmstepd: error: *** JOB 53242642 ON udc-an36-19 CANCELLED AT 2023-09-15T21:17:41 ***
+    trainer.train()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1553, in train
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/runpy.py", line 197, in _run_module_as_main

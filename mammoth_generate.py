@@ -58,8 +58,8 @@ login(token = token)
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
-model_path = "TIGER-Lab/MAmmoTH-70Bf"   # Specify the path to the model
-# adapter_path = "output/checkpoint-2000"  # Specify the path to the adapter weights
+model_path = "TIGER-Lab/MAmmoTH-70B"   # Specify the path to the model
+adapter_path = "mammoth_adapter/checkpoint-1200"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically
@@ -87,7 +87,7 @@ except EOFError:
 sys.stdin = sys.__stdin__
 
 # Load the adapter weights
-# model = PeftModel.from_pretrained(model, adapter_path)
+model = PeftModel.from_pretrained(model, adapter_path)
 
 for i in range(0,10):
     
@@ -130,8 +130,35 @@ for i in range(0,10):
     generated_text_parts = generated_text.split(prompt)
     newly_generated_text = generated_text_parts[-1].strip()
     
-    output_file = "mammoth_few_shot.txt"  # Specify the path and filename for the output file
+    output_file = "mammoth_output_test.txt"  # Specify the path and filename for the output file
+    with open(output_file, "a") as f:  # Open the file in append mode ("a")
+        f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
+    
+    prompt = "Write a grade school math word problem and Python code to solve the word problem." 
+    inputs = tokenizer.encode(prompt, return_tensors="pt")
+    attention_mask = torch.ones_like(inputs)
+    inputs = inputs.to('cuda')
+    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
+    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    
+    # Split the generated text by the prompt to extract the newly generated part
+    generated_text_parts = generated_text.split(prompt)
+    newly_generated_text = generated_text_parts[-1].strip()
+    
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
         
+    prompt = "Write a challenge math problem and Python code to solve the problem." 
+    inputs = tokenizer.encode(prompt, return_tensors="pt")
+    attention_mask = torch.ones_like(inputs)
+    inputs = inputs.to('cuda')
+    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
+    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    
+    # Split the generated text by the prompt to extract the newly generated part
+    generated_text_parts = generated_text.split(prompt)
+    newly_generated_text = generated_text_parts[-1].strip()
+    
+    with open(output_file, "a") as f:  # Open the file in append mode ("a")
+        f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
 print("Generated text appended to", output_file)

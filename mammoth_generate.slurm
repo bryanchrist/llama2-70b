@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A sds-phd-2022
+#SBATCH -A ds5559
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -11,7 +11,7 @@
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
-#SBATCH -t 0-01:00:00
+#SBATCH -t 0-03:00:00
 #SBATCH -J mammoth_generate
 #SBATCH -o mammoth_generate-%A.out
 #SBATCH -e mammoth_generate-%A.err

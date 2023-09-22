@@ -1,0 +1,45 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-5ij12pmb/peft_4d1ee8aea6474efcbb6af4efa31a8ac4
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-5ij12pmb/accelerate_e83f0fcfda4440e5930befefbf6272e7
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 261, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/TIGER-Lab/MAmmoTH-70Bf/resolve/main/tokenizer_config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 429, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1195, in hf_hub_download
+    metadata = get_hf_file_metadata(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1541, in get_hf_file_metadata
+    hf_raise_for_status(r)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 293, in hf_raise_for_status
+    raise RepositoryNotFoundError(message, response) from e
+huggingface_hub.utils._errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-65050810-260169db7f1f42d22d01baaf;c976630d-c40c-4d6f-859e-b8aee57e0914)
+
+Repository Not Found for url: https://huggingface.co/TIGER-Lab/MAmmoTH-70Bf/resolve/main/tokenizer_config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/Llama 2/llama2-70b/mammoth_generate.py", line 63, in <module>
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 686, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 519, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 450, in cached_file
+    raise EnvironmentError(
+OSError: TIGER-Lab/MAmmoTH-70Bf is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`

@@ -1,0 +1,283 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-z7xbx01b/peft_6ddbfff3f2d5409b86d8106ebfb077e5
+  Resolved https://github.com/huggingface/peft.git to commit 6b4554e6437a372177d16a7800df8cfd03fbd16f
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-z7xbx01b/accelerate_e662198581ca42f6863b2d41142a41ad
+  Resolved https://github.com/huggingface/accelerate.git to commit a87c95da9e3b416fb10a0e7dac7d397c015c3ed5
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: bitsandbytes==0.41.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (0.41.0)
+Requirement already satisfied: transformers==4.33.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (4.33.2)
+Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (0.6.1)
+Requirement already satisfied: evaluate==0.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: scikit-learn==1.2.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (1.2.2)
+Requirement already satisfied: scipy==1.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (1.11.1)
+Requirement already satisfied: sentencepiece==0.1.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 9)) (0.1.99)
+Requirement already satisfied: wandb==0.15.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 10)) (0.15.3)
+Requirement already satisfied: dash==2.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 11)) (2.11.1)
+Requirement already satisfied: jupyter-dash==0.4.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 13)) (0.4.2)
+Requirement already satisfied: dash-bootstrap-components==1.2.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 15)) (1.2.1)
+Requirement already satisfied: dash-table-experiments==0.6.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 17)) (0.6.0)
+Requirement already satisfied: pymongo==4.3.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 19)) (4.3.2)
+Requirement already satisfied: lxml==4.9.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 21)) (4.9.1)
+Requirement already satisfied: plotly-express==0.4.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 23)) (0.4.1)
+Requirement already satisfied: huggingface_hub==0.16.4 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 25)) (0.16.4)
+Requirement already satisfied: numpy==1.25.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 27)) (1.25.2)
+Requirement already satisfied: pandas==2.0.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 29)) (2.0.3)
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (3.9.0)
+Requirement already satisfied: packaging>=20.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (23.1)
+Requirement already satisfied: pyyaml>=5.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (6.0)
+Requirement already satisfied: regex!=2019.12.17 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (2023.6.3)
+Requirement already satisfied: requests in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (2.31.0)
+Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (0.13.3)
+Requirement already satisfied: safetensors>=0.3.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (0.3.1)
+Requirement already satisfied: tqdm>=4.27 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (4.65.0)
+Requirement already satisfied: datasets>=2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2.13.1)
+Requirement already satisfied: dill in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.3.6)
+Requirement already satisfied: xxhash in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (3.2.0)
+Requirement already satisfied: multiprocess in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.70.14)
+Requirement already satisfied: fsspec[http]>=2021.05.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2023.4.0)
+Requirement already satisfied: responses<0.19 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.18.0)
+Requirement already satisfied: joblib>=1.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from scikit-learn==1.2.2->-r requirements.txt (line 7)) (1.2.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from scikit-learn==1.2.2->-r requirements.txt (line 7)) (3.1.0)
+Requirement already satisfied: Click!=8.0.0,>=7.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (8.0.4)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (3.1.31)
+Requirement already satisfied: psutil>=5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (5.9.5)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.26.0)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.4.0)
+Requirement already satisfied: pathtools in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.1.2)
+Requirement already satisfied: setproctitle in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.3.2)
+Requirement already satisfied: setuptools in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (67.8.0)
+Requirement already satisfied: appdirs>=1.4.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.4.4)
+Requirement already satisfied: typing-extensions in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.4.0)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.15.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.23.3)
+Requirement already satisfied: Flask<2.3.0,>=1.0.4 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.2.5)
+Requirement already satisfied: Werkzeug<2.3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.2.3)
+Requirement already satisfied: plotly>=5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (5.15.0)
+Requirement already satisfied: dash-html-components==2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.0.0)
+Requirement already satisfied: dash-core-components==2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.0.0)
+Requirement already satisfied: dash-table==5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (5.0.0)
+Requirement already satisfied: retrying in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.3.4)
+Requirement already satisfied: ansi2html in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.8.0)
+Requirement already satisfied: nest-asyncio in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.5.6)
+Requirement already satisfied: ipython in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-dash==0.4.2->-r requirements.txt (line 13)) (8.14.0)
+Requirement already satisfied: ipykernel in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-dash==0.4.2->-r requirements.txt (line 13)) (6.24.0)
+Requirement already satisfied: dnspython<3.0.0,>=1.16.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pymongo==4.3.2->-r requirements.txt (line 19)) (2.3.0)
+Requirement already satisfied: statsmodels>=0.9.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly-express==0.4.1->-r requirements.txt (line 23)) (0.14.0)
+Requirement already satisfied: patsy>=0.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly-express==0.4.1->-r requirements.txt (line 23)) (0.5.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2023.3)
+Requirement already satisfied: torch>=1.13.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (1.13.1)
+Requirement already satisfied: pyarrow>=8.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (12.0.1)
+Requirement already satisfied: aiohttp in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (3.8.4)
+Requirement already satisfied: six>=1.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb==0.15.3->-r requirements.txt (line 10)) (1.16.0)
+Requirement already satisfied: Jinja2>=3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (2.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (6.8.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from GitPython!=3.1.29,>=1.0.0->wandb==0.15.3->-r requirements.txt (line 10)) (4.0.10)
+Requirement already satisfied: tenacity>=6.2.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly>=5.0.0->dash==2.11.1->-r requirements.txt (line 11)) (8.2.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.33.2->-r requirements.txt (line 2)) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.33.2->-r requirements.txt (line 2)) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.33.2->-r requirements.txt (line 2)) (2.0.3)
+Requirement already satisfied: certifi>=2017.4.17 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from requests->transformers==4.33.2->-r requirements.txt (line 2)) (2023.5.7)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.7.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.99)
+Requirement already satisfied: nvidia-cudnn-cu11==8.5.0.96 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (8.5.0.96)
+Requirement already satisfied: nvidia-cublas-cu11==11.10.3.66 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.10.3.66)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.7.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (11.7.99)
+Requirement already satisfied: wheel in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch>=1.13.0->peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (0.38.4)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from Werkzeug<2.3.0->dash==2.11.1->-r requirements.txt (line 11)) (2.1.2)
+Requirement already satisfied: comm>=0.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.1.3)
+Requirement already satisfied: debugpy>=1.6.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (1.6.7)
+Requirement already satisfied: jupyter-client>=6.1.12 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (8.3.0)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (5.3.1)
+Requirement already satisfied: matplotlib-inline>=0.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.1.6)
+Requirement already satisfied: pyzmq>=20 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (25.1.0)
+Requirement already satisfied: tornado>=6.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (6.3.2)
+Requirement already satisfied: traitlets>=5.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (5.9.0)
+Requirement already satisfied: backcall in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.2.0)
+Requirement already satisfied: decorator in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (5.1.1)
+Requirement already satisfied: jedi>=0.16 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.18.2)
+Requirement already satisfied: pickleshare in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.7.5)
+Requirement already satisfied: prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (3.0.39)
+Requirement already satisfied: pygments>=2.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (2.15.1)
+Requirement already satisfied: stack-data in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.6.2)
+Requirement already satisfied: pexpect>4.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (4.8.0)
+Requirement already satisfied: attrs>=17.3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (23.1.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (6.0.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (4.0.2)
+Requirement already satisfied: yarl<2.0,>=1.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.9.2)
+Requirement already satisfied: frozenlist>=1.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.3.3)
+Requirement already satisfied: aiosignal>=1.1.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from aiohttp->datasets>=2.0.0->evaluate==0.4.0->-r requirements.txt (line 6)) (1.3.1)
+Requirement already satisfied: smmap<6,>=3.0.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb==0.15.3->-r requirements.txt (line 10)) (5.0.0)
+Requirement already satisfied: zipp>=0.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask<2.3.0,>=1.0.4->dash==2.11.1->-r requirements.txt (line 11)) (3.15.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jedi>=0.16->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.8.3)
+Requirement already satisfied: platformdirs>=2.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (3.8.1)
+Requirement already satisfied: ptyprocess>=0.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pexpect>4.3->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.7.0)
+Requirement already satisfied: wcwidth in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.2.6)
+Requirement already satisfied: executing>=1.2.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (1.2.0)
+Requirement already satisfied: asttokens>=2.1.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (2.2.1)
+Requirement already satisfied: pure-eval in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.2.2)
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: read).
+Your token has been saved to /home/brc4cb/.cache/huggingface/token
+Login successful
+loading base model TIGER-Lab/MAmmoTH-70B...
+adding LoRA modules...
+trainable params: 414187520.0 || all params: 35579518976 || trainable: 1.1641178181171823
+loaded model
+Adding special tokens.
+Downloading and preparing dataset json/default to /home/brc4cb/.cache/huggingface/datasets/json/default-dc2b6683b31e37cc/0.0.0...
+Dataset json downloaded and prepared to /home/brc4cb/.cache/huggingface/datasets/json/default-dc2b6683b31e37cc/0.0.0. Subsequent calls will reuse this data.
+Splitting train dataset in train and validation according to `eval_dataset_size`
+torch.bfloat16 1352679424 0.038018485435748685
+torch.uint8 34225520640 0.9619444451479703
+torch.float32 1318912 3.706941628102578e-05
+{'loss': 0.7523, 'learning_rate': 0.0001, 'epoch': 0.01}
+{'loss': 0.5953, 'learning_rate': 0.0001, 'epoch': 0.01}
+{'loss': 0.529, 'learning_rate': 0.0001, 'epoch': 0.02}
+{'loss': 0.5133, 'learning_rate': 0.0001, 'epoch': 0.03}
+{'loss': 0.4949, 'learning_rate': 0.0001, 'epoch': 0.03}
+{'loss': 0.5134, 'learning_rate': 0.0001, 'epoch': 0.04}
+{'loss': 0.5353, 'learning_rate': 0.0001, 'epoch': 0.05}
+{'loss': 0.5132, 'learning_rate': 0.0001, 'epoch': 0.06}
+{'loss': 0.5056, 'learning_rate': 0.0001, 'epoch': 0.06}
+{'loss': 0.5097, 'learning_rate': 0.0001, 'epoch': 0.07}
+{'loss': 0.5072, 'learning_rate': 0.0001, 'epoch': 0.08}
+{'loss': 0.4927, 'learning_rate': 0.0001, 'epoch': 0.08}
+{'loss': 0.5014, 'learning_rate': 0.0001, 'epoch': 0.09}
+{'loss': 0.4996, 'learning_rate': 0.0001, 'epoch': 0.1}
+{'loss': 0.4719, 'learning_rate': 0.0001, 'epoch': 0.1}
+{'loss': 0.5181, 'learning_rate': 0.0001, 'epoch': 0.11}
+{'loss': 0.481, 'learning_rate': 0.0001, 'epoch': 0.12}
+{'loss': 0.5176, 'learning_rate': 0.0001, 'epoch': 0.13}
+{'eval_loss': 0.47781848907470703, 'eval_runtime': 1198.2875, 'eval_samples_per_second': 0.835, 'eval_steps_per_second': 0.835, 'epoch': 0.13}
+{'mmlu_loss': 1.128693175679596, 'mmlu_eval_accuracy_formal_logic': 0.2857142857142857, 'mmlu_eval_accuracy_marketing': 0.88, 'mmlu_eval_accuracy_management': 0.9090909090909091, 'mmlu_eval_accuracy_clinical_knowledge': 0.6206896551724138, 'mmlu_eval_accuracy_college_chemistry': 0.25, 'mmlu_eval_accuracy_college_medicine': 0.7727272727272727, 'mmlu_eval_accuracy_professional_law': 0.5647058823529412, 'mmlu_eval_accuracy_professional_accounting': 0.45161290322580644, 'mmlu_eval_accuracy_anatomy': 0.5714285714285714, 'mmlu_eval_accuracy_elementary_mathematics': 0.5121951219512195, 'mmlu_eval_accuracy_high_school_microeconomics': 0.6538461538461539, 'mmlu_eval_accuracy_conceptual_physics': 0.6153846153846154, 'mmlu_eval_accuracy_high_school_biology': 0.75, 'mmlu_eval_accuracy_abstract_algebra': 0.2727272727272727, 'mmlu_eval_accuracy_high_school_geography': 0.9545454545454546, 'mmlu_eval_accuracy_philosophy': 0.6764705882352942, 'mmlu_eval_accuracy_professional_medicine': 0.6774193548387096, 'mmlu_eval_accuracy_prehistory': 0.6857142857142857, 'mmlu_eval_accuracy_jurisprudence': 0.5454545454545454, 'mmlu_eval_accuracy_virology': 0.6111111111111112, 'mmlu_eval_accuracy_college_computer_science': 0.36363636363636365, 'mmlu_eval_accuracy_world_religions': 0.7894736842105263, 'mmlu_eval_accuracy_international_law': 1.0, 'mmlu_eval_accuracy_moral_disputes': 0.7105263157894737, 'mmlu_eval_accuracy_econometrics': 0.5, 'mmlu_eval_accuracy_college_biology': 0.625, 'mmlu_eval_accuracy_astronomy': 0.625, 'mmlu_eval_accuracy_logical_fallacies': 0.7222222222222222, 'mmlu_eval_accuracy_high_school_statistics': 0.4782608695652174, 'mmlu_eval_accuracy_professional_psychology': 0.6666666666666666, 'mmlu_eval_accuracy_nutrition': 0.696969696969697, 'mmlu_eval_accuracy_high_school_physics': 0.058823529411764705, 'mmlu_eval_accuracy_miscellaneous': 0.7674418604651163, 'mmlu_eval_accuracy_electrical_engineering': 0.625, 'mmlu_eval_accuracy_human_aging': 0.7391304347826086, 'mmlu_eval_accuracy_high_school_us_history': 1.0, 'mmlu_eval_accuracy_high_school_psychology': 0.9166666666666666, 'mmlu_eval_accuracy_sociology': 0.8636363636363636, 'mmlu_eval_accuracy_us_foreign_policy': 1.0, 'mmlu_eval_accuracy_machine_learning': 0.36363636363636365, 'mmlu_eval_accuracy_human_sexuality': 0.5, 'mmlu_eval_accuracy_public_relations': 0.5, 'mmlu_eval_accuracy_computer_security': 0.7272727272727273, 'mmlu_eval_accuracy_high_school_world_history': 0.8461538461538461, 'mmlu_eval_accuracy_high_school_macroeconomics': 0.7441860465116279, 'mmlu_eval_accuracy_high_school_chemistry': 0.45454545454545453, 'mmlu_eval_accuracy_high_school_european_history': 0.7777777777777778, 'mmlu_eval_accuracy_medical_genetics': 1.0, 'mmlu_eval_accuracy_business_ethics': 0.5454545454545454, 'mmlu_eval_accuracy_moral_scenarios': 0.43, 'mmlu_eval_accuracy_security_studies': 0.5925925925925926, 'mmlu_eval_accuracy_high_school_mathematics': 0.3103448275862069, 'mmlu_eval_accuracy_global_facts': 0.3, 'mmlu_eval_accuracy_high_school_computer_science': 0.6666666666666666, 'mmlu_eval_accuracy_college_physics': 0.45454545454545453, 'mmlu_eval_accuracy_high_school_government_and_politics': 0.6190476190476191, 'mmlu_eval_accuracy_college_mathematics': 0.2727272727272727, 'mmlu_eval_accuracy': 0.623056909685293, 'epoch': 0.13}
+{'loss': 0.5018, 'learning_rate': 0.0001, 'epoch': 0.13}
+{'loss': 0.4661, 'learning_rate': 0.0001, 'epoch': 0.14}
+Saving PEFT checkpoint...
+{'loss': 0.5119, 'learning_rate': 0.0001, 'epoch': 0.15}
+{'loss': 0.4843, 'learning_rate': 0.0001, 'epoch': 0.15}
+{'loss': 0.4842, 'learning_rate': 0.0001, 'epoch': 0.16}
+{'loss': 0.4882, 'learning_rate': 0.0001, 'epoch': 0.17}
+{'loss': 0.4593, 'learning_rate': 0.0001, 'epoch': 0.17}
+{'loss': 0.4932, 'learning_rate': 0.0001, 'epoch': 0.18}
+{'loss': 0.4753, 'learning_rate': 0.0001, 'epoch': 0.19}
+{'loss': 0.4922, 'learning_rate': 0.0001, 'epoch': 0.19}
+{'loss': 0.4622, 'learning_rate': 0.0001, 'epoch': 0.2}
+{'loss': 0.4423, 'learning_rate': 0.0001, 'epoch': 0.21}
+{'loss': 0.4661, 'learning_rate': 0.0001, 'epoch': 0.22}
+{'loss': 0.4789, 'learning_rate': 0.0001, 'epoch': 0.22}
+{'loss': 0.4934, 'learning_rate': 0.0001, 'epoch': 0.23}
+{'loss': 0.4748, 'learning_rate': 0.0001, 'epoch': 0.24}
+{'loss': 0.456, 'learning_rate': 0.0001, 'epoch': 0.24}
+{'loss': 0.4566, 'learning_rate': 0.0001, 'epoch': 0.25}
+{'loss': 0.4652, 'learning_rate': 0.0001, 'epoch': 0.26}
+{'eval_loss': 0.45742130279541016, 'eval_runtime': 1196.8458, 'eval_samples_per_second': 0.836, 'eval_steps_per_second': 0.836, 'epoch': 0.26}
+{'mmlu_loss': 1.1798067601226698, 'mmlu_eval_accuracy_formal_logic': 0.2857142857142857, 'mmlu_eval_accuracy_marketing': 0.88, 'mmlu_eval_accuracy_management': 0.9090909090909091, 'mmlu_eval_accuracy_clinical_knowledge': 0.5862068965517241, 'mmlu_eval_accuracy_college_chemistry': 0.25, 'mmlu_eval_accuracy_college_medicine': 0.8181818181818182, 'mmlu_eval_accuracy_professional_law': 0.5588235294117647, 'mmlu_eval_accuracy_professional_accounting': 0.4838709677419355, 'mmlu_eval_accuracy_anatomy': 0.5714285714285714, 'mmlu_eval_accuracy_elementary_mathematics': 0.5365853658536586, 'mmlu_eval_accuracy_high_school_microeconomics': 0.6923076923076923, 'mmlu_eval_accuracy_conceptual_physics': 0.6538461538461539, 'mmlu_eval_accuracy_high_school_biology': 0.75, 'mmlu_eval_accuracy_abstract_algebra': 0.18181818181818182, 'mmlu_eval_accuracy_high_school_geography': 0.9545454545454546, 'mmlu_eval_accuracy_philosophy': 0.6764705882352942, 'mmlu_eval_accuracy_professional_medicine': 0.6774193548387096, 'mmlu_eval_accuracy_prehistory': 0.7142857142857143, 'mmlu_eval_accuracy_jurisprudence': 0.5454545454545454, 'mmlu_eval_accuracy_virology': 0.5555555555555556, 'mmlu_eval_accuracy_college_computer_science': 0.36363636363636365, 'mmlu_eval_accuracy_world_religions': 0.7894736842105263, 'mmlu_eval_accuracy_international_law': 1.0, 'mmlu_eval_accuracy_moral_disputes': 0.7105263157894737, 'mmlu_eval_accuracy_econometrics': 0.5, 'mmlu_eval_accuracy_college_biology': 0.5625, 'mmlu_eval_accuracy_astronomy': 0.625, 'mmlu_eval_accuracy_logical_fallacies': 0.7222222222222222, 'mmlu_eval_accuracy_high_school_statistics': 0.43478260869565216, 'mmlu_eval_accuracy_professional_psychology': 0.6666666666666666, 'mmlu_eval_accuracy_nutrition': 0.696969696969697, 'mmlu_eval_accuracy_high_school_physics': 0.058823529411764705, 'mmlu_eval_accuracy_miscellaneous': 0.7790697674418605, 'mmlu_eval_accuracy_electrical_engineering': 0.625, 'mmlu_eval_accuracy_human_aging': 0.7391304347826086, 'mmlu_eval_accuracy_high_school_us_history': 1.0, 'mmlu_eval_accuracy_high_school_psychology': 0.9, 'mmlu_eval_accuracy_sociology': 0.8636363636363636, 'mmlu_eval_accuracy_us_foreign_policy': 1.0, 'mmlu_eval_accuracy_machine_learning': 0.36363636363636365, 'mmlu_eval_accuracy_human_sexuality': 0.5, 'mmlu_eval_accuracy_public_relations': 0.5833333333333334, 'mmlu_eval_accuracy_computer_security': 0.7272727272727273, 'mmlu_eval_accuracy_high_school_world_history': 0.8461538461538461, 'mmlu_eval_accuracy_high_school_macroeconomics': 0.7209302325581395, 'mmlu_eval_accuracy_high_school_chemistry': 0.4090909090909091, 'mmlu_eval_accuracy_high_school_european_history': 0.7777777777777778, 'mmlu_eval_accuracy_medical_genetics': 1.0, 'mmlu_eval_accuracy_business_ethics': 0.5454545454545454, 'mmlu_eval_accuracy_moral_scenarios': 0.43, 'mmlu_eval_accuracy_security_studies': 0.5925925925925926, 'mmlu_eval_accuracy_high_school_mathematics': 0.27586206896551724, 'mmlu_eval_accuracy_global_facts': 0.3, 'mmlu_eval_accuracy_high_school_computer_science': 0.6666666666666666, 'mmlu_eval_accuracy_college_physics': 0.36363636363636365, 'mmlu_eval_accuracy_high_school_government_and_politics': 0.6190476190476191, 'mmlu_eval_accuracy_college_mathematics': 0.2727272727272727, 'mmlu_eval_accuracy': 0.6195302729340149, 'epoch': 0.26}
+{'loss': 0.4772, 'learning_rate': 0.0001, 'epoch': 0.26}
+{'loss': 0.4619, 'learning_rate': 0.0001, 'epoch': 0.27}
+{'loss': 0.4046, 'learning_rate': 0.0001, 'epoch': 0.28}
+Saving PEFT checkpoint...
+{'loss': 0.4444, 'learning_rate': 0.0001, 'epoch': 0.29}
+{'loss': 0.4879, 'learning_rate': 0.0001, 'epoch': 0.29}
+{'loss': 0.4614, 'learning_rate': 0.0001, 'epoch': 0.3}
+{'loss': 0.4474, 'learning_rate': 0.0001, 'epoch': 0.31}
+{'loss': 0.3945, 'learning_rate': 0.0001, 'epoch': 0.31}
+{'loss': 0.4657, 'learning_rate': 0.0001, 'epoch': 0.32}
+{'loss': 0.498, 'learning_rate': 0.0001, 'epoch': 0.33}
+{'loss': 0.4557, 'learning_rate': 0.0001, 'epoch': 0.33}
+{'loss': 0.4099, 'learning_rate': 0.0001, 'epoch': 0.34}
+{'loss': 0.4405, 'learning_rate': 0.0001, 'epoch': 0.35}
+{'loss': 0.5015, 'learning_rate': 0.0001, 'epoch': 0.36}
+{'loss': 0.4374, 'learning_rate': 0.0001, 'epoch': 0.36}
+{'loss': 0.4514, 'learning_rate': 0.0001, 'epoch': 0.37}
+{'loss': 0.445, 'learning_rate': 0.0001, 'epoch': 0.38}
+{'loss': 0.3858, 'learning_rate': 0.0001, 'epoch': 0.38}
+{'loss': 0.4709, 'learning_rate': 0.0001, 'epoch': 0.39}
+{'eval_loss': 0.4383922219276428, 'eval_runtime': 1197.642, 'eval_samples_per_second': 0.835, 'eval_steps_per_second': 0.835, 'epoch': 0.39}
+{'mmlu_loss': 1.1484953047747826, 'mmlu_eval_accuracy_formal_logic': 0.35714285714285715, 'mmlu_eval_accuracy_marketing': 0.88, 'mmlu_eval_accuracy_management': 0.9090909090909091, 'mmlu_eval_accuracy_clinical_knowledge': 0.5862068965517241, 'mmlu_eval_accuracy_college_chemistry': 0.25, 'mmlu_eval_accuracy_college_medicine': 0.7727272727272727, 'mmlu_eval_accuracy_professional_law': 0.5470588235294118, 'mmlu_eval_accuracy_professional_accounting': 0.4838709677419355, 'mmlu_eval_accuracy_anatomy': 0.5714285714285714, 'mmlu_eval_accuracy_elementary_mathematics': 0.5121951219512195, 'mmlu_eval_accuracy_high_school_microeconomics': 0.6923076923076923, 'mmlu_eval_accuracy_conceptual_physics': 0.6153846153846154, 'mmlu_eval_accuracy_high_school_biology': 0.75, 'mmlu_eval_accuracy_abstract_algebra': 0.2727272727272727, 'mmlu_eval_accuracy_high_school_geography': 0.9545454545454546, 'mmlu_eval_accuracy_philosophy': 0.6764705882352942, 'mmlu_eval_accuracy_professional_medicine': 0.6774193548387096, 'mmlu_eval_accuracy_prehistory': 0.7142857142857143, 'mmlu_eval_accuracy_jurisprudence': 0.5454545454545454, 'mmlu_eval_accuracy_virology': 0.6111111111111112, 'mmlu_eval_accuracy_college_computer_science': 0.36363636363636365, 'mmlu_eval_accuracy_world_religions': 0.7894736842105263, 'mmlu_eval_accuracy_international_law': 1.0, 'mmlu_eval_accuracy_moral_disputes': 0.7105263157894737, 'mmlu_eval_accuracy_econometrics': 0.5833333333333334, 'mmlu_eval_accuracy_college_biology': 0.5625, 'mmlu_eval_accuracy_astronomy': 0.625, 'mmlu_eval_accuracy_logical_fallacies': 0.7222222222222222, 'mmlu_eval_accuracy_high_school_statistics': 0.5217391304347826, 'mmlu_eval_accuracy_professional_psychology': 0.6666666666666666, 'mmlu_eval_accuracy_nutrition': 0.696969696969697, 'mmlu_eval_accuracy_high_school_physics': 0.058823529411764705, 'mmlu_eval_accuracy_miscellaneous': 0.7906976744186046, 'mmlu_eval_accuracy_electrical_engineering': 0.625, 'mmlu_eval_accuracy_human_aging': 0.7391304347826086, 'mmlu_eval_accuracy_high_school_us_history': 1.0, 'mmlu_eval_accuracy_high_school_psychology': 0.9, 'mmlu_eval_accuracy_sociology': 0.8636363636363636, 'mmlu_eval_accuracy_us_foreign_policy': 1.0, 'mmlu_eval_accuracy_machine_learning': 0.36363636363636365, 'mmlu_eval_accuracy_human_sexuality': 0.5, 'mmlu_eval_accuracy_public_relations': 0.5, 'mmlu_eval_accuracy_computer_security': 0.7272727272727273, 'mmlu_eval_accuracy_high_school_world_history': 0.8461538461538461, 'mmlu_eval_accuracy_high_school_macroeconomics': 0.7209302325581395, 'mmlu_eval_accuracy_high_school_chemistry': 0.4090909090909091, 'mmlu_eval_accuracy_high_school_european_history': 0.7777777777777778, 'mmlu_eval_accuracy_medical_genetics': 1.0, 'mmlu_eval_accuracy_business_ethics': 0.5454545454545454, 'mmlu_eval_accuracy_moral_scenarios': 0.45, 'mmlu_eval_accuracy_security_studies': 0.5925925925925926, 'mmlu_eval_accuracy_high_school_mathematics': 0.3103448275862069, 'mmlu_eval_accuracy_global_facts': 0.3, 'mmlu_eval_accuracy_high_school_computer_science': 0.6666666666666666, 'mmlu_eval_accuracy_college_physics': 0.45454545454545453, 'mmlu_eval_accuracy_high_school_government_and_politics': 0.6190476190476191, 'mmlu_eval_accuracy_college_mathematics': 0.2727272727272727, 'mmlu_eval_accuracy': 0.6255267371873129, 'epoch': 0.39}
+{'loss': 0.4535, 'learning_rate': 0.0001, 'epoch': 0.4}
+{'loss': 0.4578, 'learning_rate': 0.0001, 'epoch': 0.4}
+{'loss': 0.4232, 'learning_rate': 0.0001, 'epoch': 0.41}
+{'loss': 0.3918, 'learning_rate': 0.0001, 'epoch': 0.42}
+Saving PEFT checkpoint...
+{'loss': 0.4809, 'learning_rate': 0.0001, 'epoch': 0.42}
+{'loss': 0.4276, 'learning_rate': 0.0001, 'epoch': 0.43}
+{'loss': 0.4594, 'learning_rate': 0.0001, 'epoch': 0.44}
+{'loss': 0.4336, 'learning_rate': 0.0001, 'epoch': 0.45}
+{'loss': 0.376, 'learning_rate': 0.0001, 'epoch': 0.45}
+{'loss': 0.464, 'learning_rate': 0.0001, 'epoch': 0.46}
+{'loss': 0.4613, 'learning_rate': 0.0001, 'epoch': 0.47}
+{'loss': 0.4333, 'learning_rate': 0.0001, 'epoch': 0.47}
+{'loss': 0.39, 'learning_rate': 0.0001, 'epoch': 0.48}
+{'loss': 0.3747, 'learning_rate': 0.0001, 'epoch': 0.49}
+{'loss': 0.4682, 'learning_rate': 0.0001, 'epoch': 0.49}
+{'loss': 0.4434, 'learning_rate': 0.0001, 'epoch': 0.5}
+{'loss': 0.4175, 'learning_rate': 0.0001, 'epoch': 0.51}
+{'loss': 0.4032, 'learning_rate': 0.0001, 'epoch': 0.52}
+{'eval_loss': 0.41889286041259766, 'eval_runtime': 1197.8122, 'eval_samples_per_second': 0.835, 'eval_steps_per_second': 0.835, 'epoch': 0.52}
+{'mmlu_loss': 1.1907984569631054, 'mmlu_eval_accuracy_formal_logic': 0.35714285714285715, 'mmlu_eval_accuracy_marketing': 0.88, 'mmlu_eval_accuracy_management': 0.9090909090909091, 'mmlu_eval_accuracy_clinical_knowledge': 0.5862068965517241, 'mmlu_eval_accuracy_college_chemistry': 0.25, 'mmlu_eval_accuracy_college_medicine': 0.7727272727272727, 'mmlu_eval_accuracy_professional_law': 0.5588235294117647, 'mmlu_eval_accuracy_professional_accounting': 0.4838709677419355, 'mmlu_eval_accuracy_anatomy': 0.5714285714285714, 'mmlu_eval_accuracy_elementary_mathematics': 0.5121951219512195, 'mmlu_eval_accuracy_high_school_microeconomics': 0.6923076923076923, 'mmlu_eval_accuracy_conceptual_physics': 0.6153846153846154, 'mmlu_eval_accuracy_high_school_biology': 0.75, 'mmlu_eval_accuracy_abstract_algebra': 0.2727272727272727, 'mmlu_eval_accuracy_high_school_geography': 0.9545454545454546, 'mmlu_eval_accuracy_philosophy': 0.6764705882352942, 'mmlu_eval_accuracy_professional_medicine': 0.6774193548387096, 'mmlu_eval_accuracy_prehistory': 0.7428571428571429, 'mmlu_eval_accuracy_jurisprudence': 0.5454545454545454, 'mmlu_eval_accuracy_virology': 0.6111111111111112, 'mmlu_eval_accuracy_college_computer_science': 0.36363636363636365, 'mmlu_eval_accuracy_world_religions': 0.7894736842105263, 'mmlu_eval_accuracy_international_law': 1.0, 'mmlu_eval_accuracy_moral_disputes': 0.7105263157894737, 'mmlu_eval_accuracy_econometrics': 0.5833333333333334, 'mmlu_eval_accuracy_college_biology': 0.5625, 'mmlu_eval_accuracy_astronomy': 0.6875, 'mmlu_eval_accuracy_logical_fallacies': 0.7222222222222222, 'mmlu_eval_accuracy_high_school_statistics': 0.4782608695652174, 'mmlu_eval_accuracy_professional_psychology': 0.6666666666666666, 'mmlu_eval_accuracy_nutrition': 0.696969696969697, 'mmlu_eval_accuracy_high_school_physics': 0.058823529411764705, 'mmlu_eval_accuracy_miscellaneous': 0.813953488372093, 'mmlu_eval_accuracy_electrical_engineering': 0.625, 'mmlu_eval_accuracy_human_aging': 0.7391304347826086, 'mmlu_eval_accuracy_high_school_us_history': 1.0, 'mmlu_eval_accuracy_high_school_psychology': 0.9, 'mmlu_eval_accuracy_sociology': 0.8636363636363636, 'mmlu_eval_accuracy_us_foreign_policy': 1.0, 'mmlu_eval_accuracy_machine_learning': 0.36363636363636365, 'mmlu_eval_accuracy_human_sexuality': 0.5, 'mmlu_eval_accuracy_public_relations': 0.5833333333333334, 'mmlu_eval_accuracy_computer_security': 0.7272727272727273, 'mmlu_eval_accuracy_high_school_world_history': 0.8461538461538461, 'mmlu_eval_accuracy_high_school_macroeconomics': 0.6976744186046512, 'mmlu_eval_accuracy_high_school_chemistry': 0.36363636363636365, 'mmlu_eval_accuracy_high_school_european_history': 0.7777777777777778, 'mmlu_eval_accuracy_medical_genetics': 1.0, 'mmlu_eval_accuracy_business_ethics': 0.6363636363636364, 'mmlu_eval_accuracy_moral_scenarios': 0.4, 'mmlu_eval_accuracy_security_studies': 0.5925925925925926, 'mmlu_eval_accuracy_high_school_mathematics': 0.27586206896551724, 'mmlu_eval_accuracy_global_facts': 0.3, 'mmlu_eval_accuracy_high_school_computer_science': 0.6666666666666666, 'mmlu_eval_accuracy_college_physics': 0.36363636363636365, 'mmlu_eval_accuracy_high_school_government_and_politics': 0.6190476190476191, 'mmlu_eval_accuracy_college_mathematics': 0.2727272727272727, 'mmlu_eval_accuracy': 0.6257504898687571, 'epoch': 0.52}
+{'loss': 0.4107, 'learning_rate': 0.0001, 'epoch': 0.52}
+{'loss': 0.4528, 'learning_rate': 0.0001, 'epoch': 0.53}
+{'loss': 0.4473, 'learning_rate': 0.0001, 'epoch': 0.54}
+{'loss': 0.4286, 'learning_rate': 0.0001, 'epoch': 0.54}
+{'loss': 0.4114, 'learning_rate': 0.0001, 'epoch': 0.55}
+{'loss': 0.3957, 'learning_rate': 0.0001, 'epoch': 0.56}
+Saving PEFT checkpoint...
+{'loss': 0.4514, 'learning_rate': 0.0001, 'epoch': 0.56}
+{'loss': 0.4249, 'learning_rate': 0.0001, 'epoch': 0.57}
+{'loss': 0.4261, 'learning_rate': 0.0001, 'epoch': 0.58}
+{'loss': 0.386, 'learning_rate': 0.0001, 'epoch': 0.58}
+{'loss': 0.3534, 'learning_rate': 0.0001, 'epoch': 0.59}
+{'loss': 0.4337, 'learning_rate': 0.0001, 'epoch': 0.6}
+{'loss': 0.4236, 'learning_rate': 0.0001, 'epoch': 0.61}
+{'loss': 0.4266, 'learning_rate': 0.0001, 'epoch': 0.61}
+{'loss': 0.4058, 'learning_rate': 0.0001, 'epoch': 0.62}
+{'loss': 0.3458, 'learning_rate': 0.0001, 'epoch': 0.63}
+{'loss': 0.4259, 'learning_rate': 0.0001, 'epoch': 0.63}
+{'loss': 0.4109, 'learning_rate': 0.0001, 'epoch': 0.64}
+{'loss': 0.3923, 'learning_rate': 0.0001, 'epoch': 0.65}
+{'eval_loss': 0.4007287323474884, 'eval_runtime': 1211.822, 'eval_samples_per_second': 0.825, 'eval_steps_per_second': 0.825, 'epoch': 0.65}
+{'mmlu_loss': 1.2264819102338074, 'mmlu_eval_accuracy_formal_logic': 0.2857142857142857, 'mmlu_eval_accuracy_marketing': 0.88, 'mmlu_eval_accuracy_management': 0.9090909090909091, 'mmlu_eval_accuracy_clinical_knowledge': 0.6206896551724138, 'mmlu_eval_accuracy_college_chemistry': 0.25, 'mmlu_eval_accuracy_college_medicine': 0.7727272727272727, 'mmlu_eval_accuracy_professional_law': 0.5588235294117647, 'mmlu_eval_accuracy_professional_accounting': 0.5161290322580645, 'mmlu_eval_accuracy_anatomy': 0.5714285714285714, 'mmlu_eval_accuracy_elementary_mathematics': 0.5365853658536586, 'mmlu_eval_accuracy_high_school_microeconomics': 0.6923076923076923, 'mmlu_eval_accuracy_conceptual_physics': 0.6153846153846154, 'mmlu_eval_accuracy_high_school_biology': 0.75, 'mmlu_eval_accuracy_abstract_algebra': 0.2727272727272727, 'mmlu_eval_accuracy_high_school_geography': 0.9545454545454546, 'mmlu_eval_accuracy_philosophy': 0.6764705882352942, 'mmlu_eval_accuracy_professional_medicine': 0.6774193548387096, 'mmlu_eval_accuracy_prehistory': 0.7714285714285715, 'mmlu_eval_accuracy_jurisprudence': 0.5454545454545454, 'mmlu_eval_accuracy_virology': 0.6111111111111112, 'mmlu_eval_accuracy_college_computer_science': 0.36363636363636365, 'mmlu_eval_accuracy_world_religions': 0.7894736842105263, 'mmlu_eval_accuracy_international_law': 1.0, 'mmlu_eval_accuracy_moral_disputes': 0.7105263157894737, 'mmlu_eval_accuracy_econometrics': 0.5, 'mmlu_eval_accuracy_college_biology': 0.5625, 'mmlu_eval_accuracy_astronomy': 0.6875, 'mmlu_eval_accuracy_logical_fallacies': 0.7222222222222222, 'mmlu_eval_accuracy_high_school_statistics': 0.4782608695652174, 'mmlu_eval_accuracy_professional_psychology': 0.6956521739130435, 'mmlu_eval_accuracy_nutrition': 0.7272727272727273, 'mmlu_eval_accuracy_high_school_physics': 0.058823529411764705, 'mmlu_eval_accuracy_miscellaneous': 0.813953488372093, 'mmlu_eval_accuracy_electrical_engineering': 0.625, 'mmlu_eval_accuracy_human_aging': 0.7391304347826086, 'mmlu_eval_accuracy_high_school_us_history': 1.0, 'mmlu_eval_accuracy_high_school_psychology': 0.8833333333333333, 'mmlu_eval_accuracy_sociology': 0.8636363636363636, 'mmlu_eval_accuracy_us_foreign_policy': 1.0, 'mmlu_eval_accuracy_machine_learning': 0.36363636363636365, 'mmlu_eval_accuracy_human_sexuality': 0.5, 'mmlu_eval_accuracy_public_relations': 0.5, 'mmlu_eval_accuracy_computer_security': 0.7272727272727273, 'mmlu_eval_accuracy_high_school_world_history': 0.8461538461538461, 'mmlu_eval_accuracy_high_school_macroeconomics': 0.7209302325581395, 'mmlu_eval_accuracy_high_school_chemistry': 0.3181818181818182, 'mmlu_eval_accuracy_high_school_european_history': 0.7777777777777778, 'mmlu_eval_accuracy_medical_genetics': 1.0, 'mmlu_eval_accuracy_business_ethics': 0.6363636363636364, 'mmlu_eval_accuracy_moral_scenarios': 0.43, 'mmlu_eval_accuracy_security_studies': 0.5925925925925926, 'mmlu_eval_accuracy_high_school_mathematics': 0.3793103448275862, 'mmlu_eval_accuracy_global_facts': 0.3, 'mmlu_eval_accuracy_high_school_computer_science': 0.7777777777777778, 'mmlu_eval_accuracy_college_physics': 0.45454545454545453, 'mmlu_eval_accuracy_high_school_government_and_politics': 0.6190476190476191, 'mmlu_eval_accuracy_college_mathematics': 0.2727272727272727, 'mmlu_eval_accuracy': 0.6299171367947116, 'epoch': 0.65}
+{'loss': 0.4153, 'learning_rate': 0.0001, 'epoch': 0.65}
+{'loss': 0.3457, 'learning_rate': 0.0001, 'epoch': 0.66}
+{'loss': 0.447, 'learning_rate': 0.0001, 'epoch': 0.67}
+{'loss': 0.4163, 'learning_rate': 0.0001, 'epoch': 0.68}
+{'loss': 0.4139, 'learning_rate': 0.0001, 'epoch': 0.68}
+{'loss': 0.3783, 'learning_rate': 0.0001, 'epoch': 0.69}
+{'loss': 0.3639, 'learning_rate': 0.0001, 'epoch': 0.7}
+Saving PEFT checkpoint...
+{'loss': 0.4187, 'learning_rate': 0.0001, 'epoch': 0.7}
+{'loss': 0.4161, 'learning_rate': 0.0001, 'epoch': 0.71}
+{'loss': 0.4187, 'learning_rate': 0.0001, 'epoch': 0.72}
+{'loss': 0.4215, 'learning_rate': 0.0001, 'epoch': 0.72}
+{'loss': 0.3406, 'learning_rate': 0.0001, 'epoch': 0.73}
+{'loss': 0.4072, 'learning_rate': 0.0001, 'epoch': 0.74}
+{'loss': 0.3891, 'learning_rate': 0.0001, 'epoch': 0.75}
+{'loss': 0.3941, 'learning_rate': 0.0001, 'epoch': 0.75}
+{'loss': 0.3716, 'learning_rate': 0.0001, 'epoch': 0.76}
+{'loss': 0.3226, 'learning_rate': 0.0001, 'epoch': 0.77}
+{'loss': 0.439, 'learning_rate': 0.0001, 'epoch': 0.77}
+{'loss': 0.4071, 'learning_rate': 0.0001, 'epoch': 0.78}
+{'eval_loss': 0.3830629885196686, 'eval_runtime': 1557.7026, 'eval_samples_per_second': 0.642, 'eval_steps_per_second': 0.642, 'epoch': 0.78}

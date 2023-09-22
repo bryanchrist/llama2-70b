@@ -1,0 +1,10 @@
+slurmstepd: error: _cgroup_procs_check: failed on path /sys/fs/cgroup/memory/slurm/uid_737388/job_53257835/step_batch/cgroup.procs: No such file or directory
+slurmstepd: error: common_file_write_uint32s: unable to open '(null)' for writing: Bad address
+slurmstepd: error: unable to add pids to '/sys/fs/cgroup/memory/slurm/uid_737388/job_53257835/step_batch'
+slurmstepd: error: task_g_pre_set_affinity: Bad address
+slurmstepd: error: _exec_wait_child_wait_for_parent: failed: No error
+slurmstepd: error: _cgroup_procs_check: failed on path /sys/fs/cgroup/memory/slurm/uid_737388/job_53257835/step_batch/cgroup.procs: No such file or directory
+slurmstepd: error: unable to read '/sys/fs/cgroup/memory/slurm/uid_737388/job_53257835/step_batch/cgroup.procs'
+slurmstepd: error: called without a previous init. This shouldn't happen!
+slurmstepd: error: called without a previous init. This shouldn't happen!
+slurmstepd: error: job_manager: exiting abnormally: Slurmd could not execve job

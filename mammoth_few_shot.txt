@@ -1,0 +1,78 @@
+### Response: Question: A car dealership had 200 cars. They sold 15 on Monday, 10 on Tuesday, and 12 on Wednesday. How many cars do they have left? Solution: def solution():
+    #The car dealership started with 200 cars
+    cars_initial = 200
+    #They sold 15 on Monday
+    cars_sold_monday = 15
+    #They sold 10 on Tuesday
+    cars_sold_tuesday = 10
+### Response: Question: On Monday, the bakery had 200 loaves of bread. They sold 93 in the morning and 39 in the afternoon. On Tuesday, they sold 71 loaves. How many loaves of bread were left on Tuesday? Solution: def solution():
+    #The bakery started with 200 loaves
+    loaves_initial = 200
+    #They sold 93 in the morning and 39 in the afternoon on Monday
+    loaves_sold_monday = 93 + 39
+    #They sold 71 more on Tuesday
+    loaves_sold_tuesday = 71
+    #The answer is
+    result = loaves_initial - loaves_sold_monday - loaves_sold_tuesday
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+### Response: Question: 23 people were present at the party on Monday. 15 people left on Tuesday. 27 people came on Wednesday. How many people were present at the party at the end of Wednesday? Solution:def solution():
+    #Number of people present on Monday
+    people_monday = 23
+    #Number of people who left on Tuesday
+    people_left_tuesday = 15
+    #Number of people who came on Wednesday
+    people_came_wednesday = 27
+    #The answer is
+    result = people_monday - people_left_tuesday + people_came_wednesday
+    return result
+Below is an instruction that describes a task. Write
+### Response: Question: If a train is traveling at 50 miles per hour, how far is it from its starting point after 2 hours?
+Solution:def solution():
+    #The train's speed
+    speed = 50
+    #The time it travelled
+    time = 2
+    #The answer is
+    result = speed * time
+    return result
+### Response: Question: The bakery made 16 cakes on Monday. They made 18 cakes on Tuesday. They sold 19 cakes on Wednesday. How many cakes are left? Solution:def solution():
+    #The bakery made 16 cakes on Monday
+    cakes_monday = 16
+    #They made 18 cakes on Tuesday
+    cakes_tuesday = 18
+    #They sold 19 cakes on Wednesday
+    cakes_sold = 19
+    #The answer is
+    result = cakes_monday + cakes_tuesday - cakes_sold
+    return result
+### Response: Question: Olivia has $23. She bought five bagels for $3 each. How much money does she have left? Solution: def solution():
+    #Olivia started with $23
+    money_initial = 23
+    #She bought 5 bagels
+    bagels = 5
+    #Each bagel cost $3
+    bagel_cost = 3
+    #5 bagels at $3 a bagel cost
+    money_spent = bagels * bagel cost
+    #The answer is
+    result = money_initial - money_
+### Response: Question: The bakery had 36 cakes. They sold 18 cakes. How many cakes are left? Solution: def solution():
+    #The bakery had 36 cakes
+    cakes_initial = 36
+### Response: Question: Olivia has $23. She bought five bagels for $3 each. How much money does she have left? Solution: def solution():
+    #Olivia started with $23
+    money_initial = 23
+    #She bought 5 bagels
+    bagels = 5
+    #Each bagel cost $3
+    bagel_cost = 3
+    #5 bagels at $3 a bagel cost
+    money_spent = bagels * bagel cost
+    #The answer is
+    result = money_initial - money_
+### Response: Question: On Monday, there were 30 people at the party. On Tuesday, 5 more people came, and on Wednesday, 5 more people came. On Thursday, 5 more people came, and on Friday, 5 more people came. How many people were at the party on Friday?
+Solution:def solution():
+    #The number of people at the party on Monday
+### Response: Question: The school cafeteria has 16 slices of pizza left. Yesterday, they had 34 slices. How many slices of pizza were sold? Solution: def solution():
+    #

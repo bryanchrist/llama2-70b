@@ -33,7 +33,7 @@ pip install -U -r requirements.txt
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
 python qlora_mammoth.py \
-    --model_name_or_path TIGER-Lab/MAmmoTH-70Bf \
+    --model_name_or_path TIGER-Lab/MAmmoTH-70B \
     --output_dir ./mammoth_adapter \
     --logging_steps 10 \
     --save_strategy steps \
@@ -51,7 +51,7 @@ python qlora_mammoth.py \
     --remove_unused_columns False \
     --do_train \
     --do_eval \
-    --do_mmlu_eval \
+#    --do_mmlu_eval \
     --lora_r 64 \
     --lora_alpha 16 \
     --lora_modules all \
@@ -62,7 +62,7 @@ python qlora_mammoth.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="train.json" \
+    --dataset="mammoth_train.json" \
     --source_max_len 16 \
     --target_max_len 512 \
     --per_device_train_batch_size 1 \

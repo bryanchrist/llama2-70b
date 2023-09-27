@@ -1,0 +1,1139 @@
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 birds are sitting on a tree. One bird is eating a worm. How many birds are not eating a worm?
+
+Answer:total_birds = 5
+bird_eating_worm = 1
+
+birds_not_eating_worm = total_birds - bird_eating_worm
+
+print(birds_not_eating_worm)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples were on the tree and 2 were picked. How many apples are left on the tree?
+
+Apples = 5
+picked = 2
+print(Apples-picked)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+If a train is 3 cars long, how many cars are in a train that is 3 times longer?
+
+Train = 3
+LongerTrain = 3*Train
+print(LongerTrain)
+Target Grade Level: 3rd. Generated Text: ### Response: Question: 3rd grade students are learning about multiplication. They are asked to solve the following problem:
+
+Johnny has 3 apples and wants to share them with his 2 friends. He gives each friend 1 apple. How many apples does Johnny have left?
+
+Answer:apples = 3
+friends = 2
+
+left = apples - friends
+
+print(left)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A dog has 4 legs. Each leg has a bone. How many bones does the dog have?
+
+Answer:legs = 4
+bones = legs * 1
+
+print(bones)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A car is traveling at a constant speed of 60 miles per hour. If the car travels for 2 hours, how far is the car from its starting point?
+
+Answer:To solve this problem, we can use the formula: distance = speed × time
+
+speed = 60 miles per hour
+time = 2 hours
+
+distance = 60 × 2 = 120 miles
+
+The car is 120 miles from its starting point.
+
+Now, let's write a Python program to calculate the distance:
+
+speed = 60
+time = 2
+
+distance = speed × time
+print(distance)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 100 acres of land. He wants to plant 3 types of crops: corn, soybeans, and wheat. The total acreage for all three crops must be equal to or less than 100 acres. The farmer wants to plant at least 20 acres of each crop.
+
+Let x be the number of acres of corn, y be the number of acres of soybeans, and z be the number of acres of wheat.
+
+The constraints for this problem are:
+
+1. x + y + z ≤ 100 (total acreage constraint)
+2. x ≥ 20 (minimum acreage for corn)
+3. y ≥ 20 (minimum acreage for soybeans)
+4. z ≥ 20 (minimum acreage for wheat)
+
+The objective function to maximize is the total acreage planted:
+
+Total acreage = x + y + z
+
+The farmer wants to maximize the total acreage planted while satisfying the constraints.
+
+Answer:To solve this problem, we can use linear programming. The feasible region is defined by the constraints:
+
+1. x + y + z ≤ 100
+2. x ≥ 20
+3. y ≥ 20
+4. z ≥ 20
+
+The objective function to maximize is:
+
+Total acreage = x + y + z
+
+We can use the graphical method to find the optimal solution. First, we plot the constraints on a graph:
+
+1. x + y + z = 100 (boundary line for the total acreage constraint)
+2. x = 20
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A soccer team has 11 players on the field. The team's captain is wearing the number 10 jersey. If the numbers on the jerseys are in ascending order, what number is the jersey of the player who is the second-to-last on the field?
+
+Problem: Python program to solve the word problem
+captain_jersey_number = 10
+players_on_field = 11
+
+# As the jersey numbers are in ascending order, the second-to-last player will be wearing the jersey number just before the captain's.
+second_to_last_jersey_number = captain_jersey_number - 1
+
+print(second_to_last_jersey_number)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A class has 30 students. The teacher wants to divide the class into two groups: one for the boys and one for the girls. However, there are only 2 boys in the class. The teacher decides to divide the class into 3 groups instead: one for the boys, one for the girls, and one for the remaining students. How many students will be in each group?
+
+Answer:There are 30 students in the class. Since there are only 2 boys, the boys will form one group with 2 students. There are 28 students left after the boys form a group. Since the teacher wants to divide the class into 3 groups, the remaining 28 students will be divided into 2 groups: one for the girls and one for the remaining students. The girls will form one group with 28 - 2 = 26 students. The remaining students will form one group with 28 - 26 = 2 students.
+
+Therefore, the boys' group will have 2 students, the girls' group will have 26 students, and the remaining students' group will have 2 students.
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A pizza is divided into 6 equal slices. Each slice has 2/3 of a cup of sauce. What is the total amount of sauce on the pizza?
+
+Answer:total_slices = 6
+sauce_per_slice = 2/3
+
+total_sauce = total_slices * sauce_per_slice
+
+print(total_sauce)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+Johnny has 20 marbles. He gives 5 marbles to his friend. How many marbles does Johnny have left?
+
+Solution:marbles = 20
+gave = 5
+
+remaining = marbles - gave
+
+print(remaining)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 1st grade math word problem
+If a train has 10 cars, and each car has 100 passengers, how many passengers are on the train?
+
+Answer:train_cars = 10
+passengers_per_car = 100
+
+total_passengers = train_cars * passengers_per_car
+
+print(total_passengers)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+Amy has 10 apples. She gives 3 apples to her friend. How many apples does she have left?
+
+Answer:Apples = 10
+Gave = 3
+print(Apples-Gave)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A car rental company charges a flat rate of $10 per day plus $0.50 per mile. If a customer rents a car for 3 days and drives 120 miles, what is the total cost?
+
+Answer:total_days = 3
+rate_per_day = 10
+total_miles = 120
+rate_per_mile = 0.50
+
+total_cost = (total_days * rate_per_day) + (total_miles * rate_per_mile)
+
+print(total_cost)
+Target Grade Level: 3rd. Generated Text: ### Response: Question: 3rd grade math word problem
+Johnny has 24 marbles. He puts 12 marbles in a bag and shakes it. Then he takes out 12 marbles and puts them in another bag. He repeats this process 3 times. How many marbles does he have left?
+
+Answer:Marbles = 24
+times = 3
+for i in range(times):
+  Marbles = Marbles/2
+print(Marbles)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 3 boys have 12 marbles. Each boy has an equal number of marbles. How many marbles does each boy have?
+
+Answer:12/3 = <<12/3=4>>4 marbles
+Each boy has 4 marbles.
+#### 4
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 10 apples are in a basket. You take out 2 apples. How many apples are left?
+
+Answer:apples = 10
+took = 2
+
+remaining = apples - took
+
+print(remaining)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+Solution: Python program to solve the word problem
+print(answer)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+John has 10 apples and wants to give 3 apples to each of his 5 friends. How many apples will John have left after giving his friends their apples?
+
+Answer:John has 10 apples and wants to give 3 apples to each of his 5 friends. So, John will give a total of 3 * 5 = <<3*5=15>>15 apples to his friends.
+After giving his friends their apples, John will have 10 - 15 = <<10-15=-5>>-5 apples left.
+#### -5
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A train is 300 meters long and it takes 18 seconds to pass a certain point. What is the speed of the train?
+
+Answer:To solve this problem, we can use the formula: speed = distance / time
+
+Distance = 300 meters
+Time = 18 seconds
+
+Speed = 300 / 18
+Speed = 16.67 meters/second
+
+Therefore, the speed of the train is 16.67 meters/second.
+
+Python Program to solve the word problem:
+
+distance = 300
+time = 18
+
+speed = distance / time
+print(speed)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 100 acres of land and wants to divide it into three equal parts for his three sons. What is the size of each part?
+
+Answer:To solve this problem, we need to divide the total number of acres by the number of parts.
+
+Total acres = 100
+Number of parts = 3
+
+Size of each part = Total acres / Number of parts = 100 / 3 = 33.33 acres
+
+Each part is 33.33 acres.
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A cat has 4 legs and a dog has 2 legs. If a cat and a dog have the same number of legs, then how many legs do they have?
+
+Answer:CatLegs = 4
+DogLegs = 2
+print(CatLegs+DogLegs)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 
+Johnny has 5 toys. He gives 1 toy to his friend. How many toys does he have left?
+
+Solution:toys = 5
+gave = 1
+
+remaining = toys - gave
+
+print(remaining)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 20 apples are distributed among 5 people. How many apples does each person get?
+
+Answer:apples_per_person = 20 / 5
+print(apples_per_person)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 trees have 2 apples each. How many apples are there in total?
+
+Answer:trees = 5
+apples = 2
+
+total = trees * apples
+
+print(total)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples were on the tree and 3 were eaten by worms. How many apples are left on the tree?
+
+Apples = 5
+EatenApples = 3
+print(Apples-EatenApples)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+Solution:n0 = 7.0
+t0 = n0 * 2.0
+t1 = n0 - 1.0
+t2 = t0 + 1.0
+t3 = t2 * t1
+answer = t3 / 2.0
+print(answer)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples + 3 apples = ?
+Answer:5 + 3 = <<5+3=8>>8 apples
+print(8)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 10 apples are on the tree. 5 apples are on the ground. How many apples are there in total?
+
+Answer:apples_on_tree = 10
+apples_on_ground = 5
+
+total_apples = apples_on_tree + apples_on_ground
+
+print(total_apples)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 1st grade math word problem
+If a first grader has 10 pencils and wants to give 2 pencils to each of his 5 friends, how many pencils will he have left?
+
+Pencils = 10
+Friends = 5
+PencilsPerFriend = 2
+print((Pencils-(Friends*PencilsPerFriend))
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A farmer has 200 acres of land and wants to plant wheat. The farmer needs 2 acres of land to plant 1 bushel of wheat. The farmer wants to plant 100 bushels of wheat. How many acres of land does the farmer need to plant 100 bushels of wheat?
+
+Answer:land_per_bushel = 2
+bushels_needed = 100
+
+acres_needed = land_per_bushel * bushels_needed
+
+print(acres_needed)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A pond has an area of 12 square feet. It is 3 feet deep. What is the length of the pond?
+
+Let's denote the length of the pond as L and the width as W. We know that the area of the pond is L * W and the depth is 3 feet.
+
+Area = L * W
+12 = L * W
+
+Depth = 3 feet
+
+We can rearrange the area equation to solve for L:
+
+L = 12 / W
+
+Since the pond has a depth of 3 feet, we can write the volume equation as:
+
+Volume = L * W * 3
+
+Now, we can substitute the expression for L from the area equation into the volume equation:
+
+Volume = (12 / W) * W * 3
+
+Volume = 12 * 3
+
+Volume = 36 cubic feet
+
+Now, we can substitute the expression for L from the area equation into the volume equation:
+
+Volume = L * W * 3
+
+36 = (12 / W) * W * 3
+
+36 = 12 * W
+
+W = 3 feet
+
+Now that we have the width, we can find the length using the area equation:
+
+L = 12 / W
+L = 12 / 3
+L = 4 feet
+
+The length of the pond is 4 feet.
+
+#### 4
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade students are selling candy to raise money for a field trip. Each candy costs $1. If the students sell 20 candies, how much money will they raise?
+
+Answer:candy_cost = 1
+candies_sold = 20
+
+total_money = candy_cost * candies_sold
+
+print(total_money)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 100 acres of land and wants to plant wheat. The farmer needs 2 acres of land to plant 1 bushel of wheat. How many bushels of wheat can the farmer plant?
+
+Answer:total_land = 100
+land_per_bushel = 2
+
+total_bushels = total_land / land_per_bushel
+
+print(total_bushels)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples - 3 apples = ?
+Answer:5 apples - 3 apples = 2 apples
+print(2)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 monkeys are sitting on a tree. One of them decides to jump off the tree. How many monkeys are left?
+
+Answer:monkeys = 5
+jumped = 1
+
+remaining = monkeys - jumped
+
+print(remaining)
+Target Grade Level: 3rd. Generated Text: ### Response: Question: 3rd grade students are asked to find the total cost of a trip. The cost of the trip includes the cost of the bus, the cost of the hotel, and the cost of the food. The cost of the bus is $200, the cost of the hotel is $150, and the cost of the food is $100.
+
+Students are asked to add the cost of the bus, the cost of the hotel, and the cost of the food to find the total cost of the trip.
+
+Total cost of the trip = cost of the bus + cost of the hotel + cost of the food
+Total cost of the trip = $200 + $150 + $100
+Total cost of the trip = $450
+
+Answer:total_cost_of_trip=200+150+100
+print(total_cost_of_trip)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A farmer has 100 acres of land and wants to divide it into 3 equal parts for his 3 sons. How many acres of land will each son get?
+
+Answer:total_acres = 100
+num_sons = 3
+
+acres_per_son = total_acres / num_sons
+
+print(acres_per_son)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 100 acres of land and wants to divide it into three equal parts for his three sons. What is the size of each part?
+
+Answer:To solve this problem, we need to divide the total number of acres by the number of parts. In this case, the farmer has 100 acres and wants to divide it into 3 equal parts for his three sons.
+
+Size of each part = Total number of acres / Number of parts
+Size of each part = 100 acres / 3 parts
+Size of each part = 33.33 acres
+
+Each part is approximately 33.33 acres.
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples are on the table. John eats 1 apple. How many apples are left on the table?
+
+Answer:apples = 5
+ate = 1
+
+remaining = apples - ate 
+
+print(remaining)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 
+A cat has 4 legs and a dog has 2 legs. If a cat and a dog have the same number of legs, then how many legs do they have?
+
+Answer:cat_legs = 4
+dog_legs = 2
+
+# Since a cat and a dog have the same number of legs, we can add the number of legs for each animal and divide by 2
+total_legs = cat_legs + dog_legs
+same_number_of_legs = total_legs / 2
+
+print(same_number_of_legs)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 300 cows and 200 acres of land. Each cow needs 2 acres of land to graze. The farmer wants to add more cows, but he is limited by the amount of land he has. How many more cows can the farmer add?
+
+Let x be the number of cows the farmer can add.
+The total number of cows will be 300 + x.
+The total amount of land needed will be 2 * (300 + x).
+The farmer can add x cows if 2 * (300 + x) <= 200.
+
+So, we need to solve the inequality 2 * (300 + x) <= 200.
+
+Answer:First, let's simplify the inequality:
+
+2 * (300 + x) <= 200
+
+Distribute the 2:
+
+600 + 2x <= 200
+
+Subtract 600 from both sides:
+
+2x <= -400
+
+Divide by 2:
+
+x <= -200
+
+Since we're dealing with the number of cows, x cannot be negative. Therefore, the farmer cannot add any more cows.
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A bus has 36 seats. The bus is filled to capacity. How many passengers are on the bus?
+
+Answer:total_seats = 36
+filled_to_capacity = total_seats
+
+print(filled_to_capacity)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+Amy has 5 apples. She gives 2 apples to her friend. How many apples does she have left?
+
+Answer:apples = 5
+gave = 2
+
+remaining = apples - gave
+
+print(remaining)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 500 acres of land. He wants to plant wheat on 3/5 of the land and corn on 2/5 of the land. The farmer can plant a maximum of 100 acres of wheat. How many acres of corn can the farmer plant?
+
+Answer:total_land = 500
+max_wheat = 100
+
+# calculate the total land that can be used for wheat
+total_wheat_land = total_land * (3/5)
+
+# calculate the remaining land for corn
+remaining_land = total_land - total_wheat_land
+
+# calculate the maximum corn land
+max_corn_land = remaining_land - max_wheat
+
+# print the maximum corn land
+print(max_corn_land)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A farmer has 300 acres of land and wants to plant wheat. The farmer can plant 10 acres of wheat per day. How many days will it take for the farmer to plant all 300 acres of wheat?
+
+Answer:days = 300 / 10
+
+print(days)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+John has 20 apples and gives 5 to his sister. How many apples does John have left?
+
+Answer:john_apples = 20
+gave_apples_sister = 5
+
+remaining_apples = john_apples - gave_apples_sister
+
+print(remaining_apples)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade student has to solve the following word problem:
+
+"Alice has a total of 12 apples. She gives 3 apples to Bob and 4 apples to Carol. How many apples does Alice have left?"
+
+Answer:alice_apples = 12
+gave_bob = 3
+gave_carol = 4
+
+remaining_apples = alice_apples - gave_bob - gave_carol
+
+print(remaining_apples)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A class of 25 students is going on a field trip. The cost of the trip is $30 per student. The teacher wants to know if the class has enough money to go on the trip.
+
+Answer:Total cost of the trip = number of students * cost per student
+Total cost of the trip = 25 * $30
+Total cost of the trip = $<<25*30=750>>750
+
+Since the total cost of the trip is $750, and the class has 25 students, the class does not have enough money to go on the trip.
+Target Grade Level: 3rd. Generated Text: ### Response: Question: 3rd grade math word problem
+Amy has 20 dollars. She buys a book for 8 dollars and a game for 12 dollars. How much money does she have left?
+
+Solution:dollars = 20
+book = 8
+game = 12
+
+left = dollars - book - game
+
+print(left)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+John has 20 toys and wants to give 5 toys to each of his 4 friends. How many toys will John have left after giving away toys to his friends?
+
+ToyJohn = 20
+ToyFriends = 5*4
+print(ToyJohn-ToyFriends)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A piggy bank has 100 coins. If each coin is worth $1, then the piggy bank has $100. If you take out 1 coin, the piggy bank will have $99. 
+
+If you take out 2 coins, the piggy bank will have $98. 
+
+If you take out 3 coins, the piggy bank will have $97. 
+
+If you take out 4 coins, the piggy bank will have $96. 
+
+If you take out 5 coins, the piggy bank will have $95. 
+
+If you take out 6 coins, the piggy bank will have $94. 
+
+If you take out 7 coins, the piggy bank will have $93. 
+
+If you take out 8 coins, the piggy bank will have $92. 
+
+If you take out 9 coins, the piggy bank will have $91. 
+
+If you take out 10 coins, the piggy bank will have $90. 
+
+If you take out 11 coins, the piggy bank will have $89. 
+
+If you take out 12 coins, the piggy bank will have $88. 
+
+If you take out 13 coins, the piggy bank will have $87. 
+
+If you take out 14 coins, the piggy bank will have $86. 
+
+If you take out 15 coins, the piggy bank will have $85. 
+
+If you take out 16 coins, the piggy bank will
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+Amy has 5 apples. She gives 1 apple to each of her 4 friends. How many apples does Amy have left?
+
+Answer:apples = 5
+gave = 4
+
+remaining = apples - gave
+
+print(remaining)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+Solution:n0 = 2.0
+n1 = 3.0
+n2 = 4.0
+t0 = n0 + n1
+answer = n2 + t0
+print(answer)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 100 acres of land and wants to plant wheat. He needs to buy a tractor and a plow to prepare the land for planting. The tractor costs $500 and the plow costs $200. The farmer also needs to buy seeds, which cost $10 per acre. The farmer plans to sell the wheat for $20 per bushel. A bushel is equal to 60 pounds. The farmer will harvest 1000 pounds of wheat per acre.
+
+The farmer needs to know the total cost of planting and harvesting the wheat, as well as the total income from selling the wheat.
+
+Total cost = cost of tractor + cost of plow + cost of seeds + cost of harvesting
+Total income = income from selling the wheat
+
+Total cost = $500 + $200 + ($10 * 100) + (1000 * $20 * 60)
+Total income = ($20 * 1000 * 60)
+
+Total cost = $500 + $200 + $1000 + $120000
+Total income = $120000
+
+Total cost = $126000
+Total income = $120000
+
+The farmer will make a profit of $6000.
+
+Python program to solve the word problem:
+
+tractor_cost = 500
+plow_cost = 200
+seed_cost_per_acre = 10
+bushel_price = 20
+bushel_weight = 60
+pounds
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade students are asked to find the area of a triangle. The triangle has a base of 12 units and a height of 5 units.
+
+Area of a triangle = (base * height) / 2
+
+base = 12
+height = 5
+
+answer = (base * height) / 2
+
+print(answer)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A farmer has 500 acres of land. He wants to divide it into 3 equal parts for his 3 sons. How many acres of land will each son get?
+
+Answer:acres = 500
+sons = 3
+
+average = int(acres/sons)
+
+print(average)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 birds are sitting on a tree. One bird is flying. How many birds are there in total?
+Question: 5 birds are sitting on a tree and one bird is flying. How many birds are there in total?
+Answer:sitting_on_tree=5
+flying_bird=1
+total_bird=sitting_on_tree+flying_bird
+print(total_bird)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 birds are sitting on a tree and one bird is sitting on the ground. How many birds are there in total?
+
+Answer:birds_on_tree = 5
+bird_on_ground = 1
+
+total_birds = birds_on_tree + bird_on_ground
+
+print(total_birds)
+Target Grade Level: 3rd. Generated Text: ### Response: Question: 27 students are divided into 3 groups. How many students are in each group?
+
+Answer:students = 27
+groups = 3
+
+average = round(students/groups, 9)
+
+print(average)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A group of 20 students is going on a field trip. The cost of the trip is $50 per student. The students need to raise money to pay for the trip. They decide to sell candy to raise the money. They sell candy for $1 per candy.
+
+The students need to raise $1000 because 20 x 50 = <<20*50=1000>>1000
+They need to sell 1000 candies because 1000 / 1 = <<1000/1=1000>>1000
+#### 1000
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A farmer has 100 acres of land. He wants to plant wheat on 25 acres, corn on 50 acres, and the remaining land will be used for pasture. How many acres of land will be used for pasture?
+
+Answer:total_land = 100
+wheat_land = 25
+corn_land = 50
+
+pasture_land = total_land - wheat_land - corn_land
+print(pasture_land)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A car travels 50 miles per hour for 2 hours, then 70 miles per hour for 3 hours. How many miles did the car travel in total?
+
+Answer:During the first 2 hours, the car travels 50 miles per hour * 2 hours = <<50*2=100>>100 miles.
+During the next 3 hours, the car travels 70 miles per hour * 3 hours = <<70*3=210>>210 miles.
+The car travels a total of 100 miles + 210 miles = <<100+210=310>>310 miles.
+#### 310
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+Solution:n0 = 27.0
+n1 = 2.0
+n2 = 3.0
+n3 = 3.0
+t0 = n2 * n3
+t1 = n0 - t0
+answer = t1 / n1
+print(answer)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A girl has 3 dolls. She has 2 pencils for each doll. How many pencils does she have?
+
+Answer:Dolls = 3
+PencilsPerDoll = 2
+print(Dolls*PencilsPerDoll)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+If a 1st grade student has 20 cents, how much more money does he need to buy a candy that costs 50 cents?
+
+Answer:from sympy.solvers import solve
+from sympy import Symbol
+
+
+a = 20
+b = 50
+
+x = Symbol('x')
+
+result = solve(b-a, x)[0]
+
+print(result)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 20 students are divided into 4 groups. How many students are in each group?
+
+Answer:total_students = 20
+total_groups = 4
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A car rental company charges a daily rate of $35 per day, with a maximum of 7 days. If a customer rents a car for 7 days, how much will they be charged?
+
+Answer:daily_rate = 35
+max_days = 7
+
+total_charge = daily_rate * max_days
+
+print(total_charge)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 
+If a kindergarten class has 20 students and each student has 2 parents, how many parents are there in total?
+
+Answer:students = 20
+parents = 2
+
+total = students * parents
+
+print(total)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples are on the table. You have 2 apples in your hand. How many apples are there now?
+
+Answer:apples_on_table = 5
+apples_in_hand = 2
+
+total_apples = apples_on_table + apples_in_hand
+
+print(total_apples)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 boys have 2 marbles each. Whereas, 2 girls have only 1 marble each. How many marbles are there in total?
+
+Answer:boys = 5*2
+girls = 2*1
+
+total = boys + girls
+
+print(total)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 cats are playing with 2 balls. How many balls are there for each cat?
+
+Answer:balls = 2
+cats = 5
+
+average = round(balls / cats, 2)
+
+print(average)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 1st grade math word problem
+If you have 3 apples and you add 2 more, how many apples do you have?
+
+Answer:apples = 3
+added = 2
+total = apples + added
+
+print(total)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 
+A number is divisible by both 3 and 4. What is the smallest number that meets this condition?
+
+Answer:The smallest number that is divisible by both 3 and 4 is 12. 
+
+In Python, we can write a program to find the smallest number divisible by both 3 and 4:
+
+```python
+def smallest_number():
+    i = 1
+    while True:
+        if i % 3 == 0 and i % 4 == 0:
+            return i
+        i += 1
+
+print(smallest_number())
+```
+
+This program will print the smallest number divisible by both 3 and 4, which is 12.
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+If a train is 360 feet long and it takes 45 seconds to pass a station, how fast is the train going?
+
+Answer:Let's think about the multi-choice question step by step.
+Speed = Distance/Time
+Speed = 360 feet / 45 seconds
+Speed = 8 feet/second
+Speed = 8 * 3600/1000 (to convert feet/second to miles/hour)
+Speed = 28.8 miles/hour
+The answer is 28.8
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+Solution:second_grade_math_problem = 234234
+print(second_grade_math_problem)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A farmer has 200 acres of land and wants to divide it into three equal parts for his three sons. How many acres of land will each son get?
+
+Answer: acres = 200
+sons = 3
+
+average = int(acres/sons)
+
+print(average)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+If a number is divisible by both 2 and 3, it is divisible by 6. Find a number that is divisible by both 2 and 3.
+
+Answer:Let's find a number that is divisible by both 2 and 3.
+
+A number that is divisible by 2 is 2 * 1 = 2.
+A number that is divisible by 3 is 3 * 1 = 3.
+
+The least common multiple (LCM) of 2 and 3 is 6. Therefore, a number that is divisible by both 2 and 3 is 6.
+
+print(6)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+If you have 3 apples and your friend gives you 2 more, how many apples do you have now?
+
+Answer:apples = 3
+received = 2
+
+total = apples + received
+
+print(total)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A dog has 4 legs. Each leg has a length of 12 inches. What is the total length of all the legs?
+
+Answer:legs = 4
+length = 12
+
+total_length = legs * length
+
+print(total_length)
+Target Grade Level: 3rd. Generated Text: ### Response: Question: 3rd grade math word problem
+If a number is divisible by both 4 and 3, it is divisible by 12. 
+Let's find the number that is divisible by both 4 and 3.
+
+4 = 2 x 2
+3 = 3
+12 = 2 x 2 x 3
+
+The number that is divisible by both 4 and 3 is 12.
+
+print(12)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A farmer has 200 acres of land and wants to plant wheat. He needs 3 acres of land to plant 1 acre of wheat. If he plants 100 acres of wheat, how many acres of land will he use?
+
+Answer:acres_of_land=200
+one_acre_wheat=3
+plant_wheat=100
+total_acres_used=(plant_wheat*one_acre_wheat)
+print(total_acres_used)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A train is traveling at a constant speed of 60 miles per hour. The train travels for 2 hours before stopping. How far has the train traveled?
+
+Answer:train_speed = 60  # in miles per hour
+time = 2  # in hours
+
+# calculate the distance
+distance = train_speed * time
+
+# print the distance
+print(distance)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A train travels 200 miles in 2 hours. If the train continues at this speed, how many miles will it travel in 6 hours?
+
+Answer:Answer: To solve this problem, we first need to find the speed of the train. We can do this by dividing the distance travelled (200 miles) by the time taken (2 hours).
+
+Speed = Distance / Time
+Speed = 200 miles / 2 hours
+Speed = 100 miles per hour
+
+Now that we know the speed of the train, we can calculate how far it will travel in 6 hours.
+
+Distance = Speed × Time
+Distance = 100 miles per hour × 6 hours
+Distance = 600 miles
+
+So, the train will travel 600 miles in 6 hours.
+
+#### 600
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 birds are sitting on a tree. One bird is sitting on a swing. There are 4 birds sitting on the tree and 1 bird is sitting on a swing. How many birds are there in total?
+
+Answer:birds_on_tree=4
+birds_on_swing=1
+total_birds=birds_on_tree+birds_on_swing
+print(total_birds)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 animals are going to the park. Each animal has 4 legs. How many legs are going to the park?
+
+Answer:legs = 4
+animals = 5
+
+total = legs * animals
+
+print(total)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A farmer has 300 acres of land and wants to plant 200 acres of wheat. The farmer needs to leave 100 acres of land fallow (not planted) to maintain the health of the soil. How many acres of land can the farmer plant with other crops?
+
+Answer:Total land = 300 acres
+Wheat land = 200 acres
+Fallow land = 100 acres
+
+Other crop land = Total land - Wheat land - Fallow land
+Other crop land = 300 - 200 - 100
+Other crop land = 100 acres
+
+The farmer can plant 100 acres of land with other crops.
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples - 3 apples = ?
+Answer:apples_before = 5
+apples_after = 3
+
+apples_remaining = apples_before - apples_after
+
+print(apples_remaining)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 
+A kindergarten class has 20 students. Each student has a backpack with 5 books in it. What is the total number of books in the class?
+
+Answer:students = 20
+books_per_student = 5
+
+total_books = students * books_per_student
+
+print(total_books)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 
+A class of 5th graders is going on a field trip. They need to raise $500 for the trip. They are selling candy bars for $2 each. How many candy bars do they need to sell to raise $500?
+
+Answer:total_needed = 500
+candy_bar_price = 2
+
+total_candy_bars = total_needed / candy_bar_price
+
+print(total_candy_bars)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A farmer has 200 acres of land. He wants to plant wheat on 1/4 of his land. How many acres of land will the farmer plant with wheat?
+
+Answer:total_land = 200
+wheat_plant_land = total_land / 4
+print(wheat_plant_land)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples were taken from a basket containing 10 apples. How many apples are left in the basket?
+
+Answer:apples_basket = 10
+apples_taken = 5
+
+apples_left = apples_basket - apples_taken
+
+print(apples_left)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples are on the table. You take 2 apples and put them in your pocket. How many apples are left on the table?
+
+Answer:apples = 5
+took = 2
+
+left = apples - took
+
+print(left)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 10 apples are on the tree. You picked 5 apples. How many apples are left on the tree?
+
+Answer:apples_on_tree=10
+picked_apples=5
+remaining_apples=apples_on_tree-picked_apples
+print(remaining_apples)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples are on the table. You take 2 apples and put them in your pocket. How many apples are left on the table?
+
+Apples = 5
+TokeApples = 2
+print(Apples-TokeApples)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+Amy has 5 apples and Billy has 6 apples. Who has more apples?
+
+Answer:Amy = 5
+Billy = 6
+
+if Amy > Billy:
+    print('Amy')
+else:
+    print('Billy')
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+Solution:n0 = 7.0
+n1 = 8.0
+t0 = n0 * n1
+answer = t0 / 2.0
+print(answer)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 5 apples are on the tree. You pick 3 apples. How many apples are left on the tree?
+
+Answer:apples = 5
+picked = 3
+
+remaining = apples - picked
+
+print(remaining)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 10 apples are on the tree. You pick 5 apples. How many apples are left on the tree?
+
+Apples = 10
+PickedApples = 5
+print(Apples-PickedApples)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A 1st grade student has 3 pencils. He needs 2 pencils for school. How many pencils does he have left?
+
+Answer:pencils = 3
+needed = 2
+
+left = pencils - needed
+
+print(left)
+Target Grade Level: 5th. Generated Text: ### Response: Question: 5th grade math word problem
+A farmer has 500 acres of land and wants to plant wheat and corn in alternate strips. The width of each strip is 1/4 mile. The farmer needs to know how many acres of each crop he will plant.
+
+The total width of the land is 500 * 1/4 = 125 miles.
+Since the strips are alternate, the width of each strip is 1/2 * 125 = 62.5 miles.
+The farmer will plant 62.5 * 500 / 62.5 = 500 acres of each crop.
+
+Answer:total_land = 500 * 1/4
+each_strip_width = total_land / 2
+total_acres_each_crop = 500 * each_strip_width / total_land
+print(total_acres_each_crop)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 10 apples are on the tree and 5 apples are on the ground. How many apples are there in total?
+
+Answer:apples_on_tree = 10
+apples_on_ground = 5
+
+total_apples = apples_on_tree + apples_on_ground
+
+print(total_apples)
+Target Grade Level: 2nd. Generated Text: ### Response: Question: 2nd grade math word problem
+If a train is 360 feet long and it takes 45 seconds to pass a station, how fast is the train going?
+
+Answer:Let's solve the multi-choice question step by step.
+Speed = Distance / Time
+Speed = 360 feet / 45 seconds
+Speed = 8 feet/second
+The train is going at a speed of 8 feet per second.
+The answer is 8
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A school has 300 students in total. Out of these, 100 students are enrolled in the music program, 150 students are enrolled in the art program, and 50 students are enrolled in both programs. Find the number of students who are enrolled in either the music program or the art program.
+
+To solve this problem, we can use the principle of inclusion-exclusion. The number of students enrolled in either the music program or the art program is equal to the sum of the number of students in each program minus the number of students in the intersection of the two programs.
+
+Number of students in either program = (Number of students in music program) + (Number of students in art program) - (Number of students in both programs)
+
+Number of students in either program = 100 + 150 - 50 = 200
+
+So, there are 200 students who are enrolled in either the music program or the art program.
+
+Answer:students_total = 300
+students_music = 100
+students_art = 150
+students_both = 50
+
+students_either = (students_music + students_art) - students_both
+print(students_either)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A class has 30 students. Each student has to pay $2 for the class trip. The teacher has to pay $10. How much money is collected in total?
+
+Answer:students = 30
+student_payment = 2
+teacher_payment = 10
+
+total_payment = (students * student_payment) + teacher_payment
+print(total_payment)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A bus travels 180 km in 3 hours. What is the average speed of the bus?
+
+Answer:To find the average speed of the bus, we can use the formula:
+
+Average speed = Total distance / Total time
+
+In this case, the total distance is 180 km and the total time is 3 hours. So, we can plug these values into the formula:
+
+Average speed = 180 km / 3 hours
+
+Average speed = 60 km/hour
+
+Therefore, the average speed of the bus is 60 km/hour.
+
+Now, let's write a Python program to calculate the average speed:
+
+distance = 180
+time = 3
+
+average_speed = distance / time
+print(average_speed)
+Target Grade Level: 4th. Generated Text: ### Response: Question: 4th grade math word problem
+A farmer has 100 acres of land. He wants to divide it into three equal parts for his three sons. What is the size of each part?
+
+Answer:Each part is 100/3 = <<100/3=33.33>>33.33 acres.
+#### 33
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A train travels 540 km in 3 hours. How fast is the train?
+
+Answer:To find the speed of the train, we can use the formula:
+
+Speed = Distance / Time
+
+In this case, the distance is 540 km and the time is 3 hours. So, we can plug these values into the formula:
+
+Speed = 540 km / 3 hours
+
+Speed = 180 km/h
+
+The train is traveling at a speed of 180 km per hour.
+
+Here's a Python program to solve the problem:
+
+distance = 540  # in km
+time = 3  # in hours
+
+# calculate speed
+speed = distance / time
+
+print(speed)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 
+A dog has 4 legs. Each leg has a length of 12 inches. What is the total length of the dog's legs?
+
+Answer:legs = 4
+length = 12
+
+total_length = legs * length
+
+print(total_length)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A soccer team has 11 players. Each player has 2 feet. The total number of feet on the team is 22. How many feet are there on the soccer field?
+
+Answer:players = 11
+feet_per_player = 2
+total_feet = 22
+
+# calculate the number of feet on the soccer field
+feet_on_field = players * feet_per_player
+
+print(feet_on_field)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 6th grade math word problem
+A train is traveling at a constant speed of 60 miles per hour. If the train travels for 2 hours, how far is the train from the starting point?
+
+Answer:distance = 60 * 2
+print(distance)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 10 birds are sitting on a tree. 5 birds fly away. How many birds are left on the tree?
+
+Answer:birds_on_tree=10
+fly_birds=5
+birds_left=birds_on_tree-fly_birds
+print(birds_left)
+Target Grade Level: Kindergarten. Generated Text: ### Response: Question: 100 students are going to a picnic. Each student is bringing 2 parents. How many people are going to the picnic?
+
+Answer:100*2=<<100*2=200>>200 people are going to the picnic.
+#### 200
+Target Grade Level: 3rd. Generated Text: ### Response: Question: 24 children are in a class. The teacher wants to divide them into 4 groups. How many children will be in each group?
+
+Answer:children=24
+groups=4
+children_in_group=children/groups
+print(children_in_group)
+Target Grade Level: 6th. Generated Text: ### Response: Question: 
+A bus can carry a maximum of 36 passengers. If the bus is carrying 27 passengers, how many more passengers can it carry?
+
+Answer:total_passengers = 36
+current_passengers = 27
+
+remaining_passengers = total_passengers - current_passengers
+
+print(remaining_passengers)
+Target Grade Level: 1st. Generated Text: ### Response: Question: 1st grade math word problem
+If a bus has 36 seats and 24 seats are filled, how many seats are empty?
+
+Answer:total_seats = 36
+filled_seats = 24
+
+empty_seats = total_seats - filled_seats
+
+print(empty_seats)

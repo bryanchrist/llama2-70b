@@ -4,7 +4,7 @@ Solving environment: ...working... done
 # All requested packages already installed.
 
 Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
-  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-vroki4zo/peft_3cfb085d8fd0480c9900ac4dd524200f
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-_9kbfv6c/peft_64ce7b779cc640cab3b60461cac91543
   Resolved https://github.com/huggingface/peft.git to commit 69665f24e98dc5f20a430637a31f196158b6e0da
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -13,7 +13,7 @@ Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requiremen
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
 Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
-  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-vroki4zo/accelerate_155a3482f61c4d1783338e385c88d1da
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-_9kbfv6c/accelerate_eeb84e1ff58b4aab856365359476009f
   Resolved https://github.com/huggingface/accelerate.git to commit 80da9cfb09bb3cc9f1b385cb55d6b90d025a5fd9
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -133,9 +133,6 @@ Requirement already satisfied: wcwidth in /sfs/qumulo/qhome/brc4cb/.conda/envs/f
 Requirement already satisfied: executing>=1.2.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (1.2.0)
 Requirement already satisfied: asttokens>=2.1.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (2.2.1)
 Requirement already satisfied: pure-eval in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 13)) (0.2.2)
-Looking in indexes: https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/
-Requirement already satisfied: triton-nightly in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (2.1.0.dev20230822000928)
-Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from triton-nightly) (3.9.0)
 Collecting package metadata (current_repodata.json): ...working... done
 Solving environment: ...working... done
 
@@ -145,3 +142,155 @@ Token will not been saved to git credential helper. Pass `add_to_git_credential=
 Token is valid (permission: read).
 Your token has been saved to /home/brc4cb/.cache/huggingface/token
 Login successful
+Found a previous checkpoint at: ./mammoth_adapter/checkpoint-1200
+loading base model TIGER-Lab/MAmmoTH-70B...
+Loading adapters from checkpoint.
+trainable params: 414187520.0 || all params: 35579518976 || trainable: 1.1641178181171823
+loaded model
+Adding special tokens.
+Splitting train dataset in train and validation according to `eval_dataset_size`
+torch.bfloat16 1352679424 0.038018485435748685
+torch.uint8 34225520640 0.9619444451479703
+torch.float32 1318912 3.706941628102578e-05
+{'loss': 0.3827, 'learning_rate': 0.0001, 'epoch': 0.01}
+{'loss': 0.3855, 'learning_rate': 0.0001, 'epoch': 0.01}
+{'loss': 0.3226, 'learning_rate': 0.0001, 'epoch': 0.02}
+{'loss': 0.3176, 'learning_rate': 0.0001, 'epoch': 0.03}
+{'loss': 0.2631, 'learning_rate': 0.0001, 'epoch': 0.03}
+{'loss': 0.3733, 'learning_rate': 0.0001, 'epoch': 0.04}
+{'loss': 0.3677, 'learning_rate': 0.0001, 'epoch': 0.05}
+{'loss': 0.3341, 'learning_rate': 0.0001, 'epoch': 0.06}
+{'loss': 0.3092, 'learning_rate': 0.0001, 'epoch': 0.06}
+{'loss': 0.2734, 'learning_rate': 0.0001, 'epoch': 0.07}
+{'loss': 0.345, 'learning_rate': 0.0001, 'epoch': 0.08}
+{'loss': 0.3299, 'learning_rate': 0.0001, 'epoch': 0.08}
+{'loss': 0.3169, 'learning_rate': 0.0001, 'epoch': 0.09}
+{'loss': 0.2883, 'learning_rate': 0.0001, 'epoch': 0.1}
+{'loss': 0.257, 'learning_rate': 0.0001, 'epoch': 0.1}
+{'loss': 0.3574, 'learning_rate': 0.0001, 'epoch': 0.11}
+{'loss': 0.3102, 'learning_rate': 0.0001, 'epoch': 0.12}
+{'loss': 0.3105, 'learning_rate': 0.0001, 'epoch': 0.13}
+{'eval_loss': 0.35197895765304565, 'eval_runtime': 1191.4177, 'eval_samples_per_second': 0.839, 'eval_steps_per_second': 0.839, 'epoch': 0.13}
+{'loss': 0.3028, 'learning_rate': 0.0001, 'epoch': 0.13}
+{'loss': 0.2193, 'learning_rate': 0.0001, 'epoch': 0.14}
+Saving PEFT checkpoint...
+{'loss': 0.3633, 'learning_rate': 0.0001, 'epoch': 0.15}
+{'loss': 0.3135, 'learning_rate': 0.0001, 'epoch': 0.15}
+{'loss': 0.2766, 'learning_rate': 0.0001, 'epoch': 0.16}
+{'loss': 0.2758, 'learning_rate': 0.0001, 'epoch': 0.17}
+{'loss': 0.2427, 'learning_rate': 0.0001, 'epoch': 0.17}
+{'loss': 0.3272, 'learning_rate': 0.0001, 'epoch': 0.18}
+{'loss': 0.3117, 'learning_rate': 0.0001, 'epoch': 0.19}
+{'loss': 0.2927, 'learning_rate': 0.0001, 'epoch': 0.19}
+{'loss': 0.2521, 'learning_rate': 0.0001, 'epoch': 0.2}
+{'loss': 0.2299, 'learning_rate': 0.0001, 'epoch': 0.21}
+{'loss': 0.3285, 'learning_rate': 0.0001, 'epoch': 0.22}
+{'loss': 0.2861, 'learning_rate': 0.0001, 'epoch': 0.22}
+{'loss': 0.2726, 'learning_rate': 0.0001, 'epoch': 0.23}
+{'loss': 0.2723, 'learning_rate': 0.0001, 'epoch': 0.24}
+{'loss': 0.2298, 'learning_rate': 0.0001, 'epoch': 0.24}
+{'loss': 0.2888, 'learning_rate': 0.0001, 'epoch': 0.25}
+{'loss': 0.301, 'learning_rate': 0.0001, 'epoch': 0.26}
+{'eval_loss': 0.33442968130111694, 'eval_runtime': 1193.254, 'eval_samples_per_second': 0.838, 'eval_steps_per_second': 0.838, 'epoch': 0.26}
+{'loss': 0.2665, 'learning_rate': 0.0001, 'epoch': 0.26}
+{'loss': 0.2622, 'learning_rate': 0.0001, 'epoch': 0.27}
+{'loss': 0.2143, 'learning_rate': 0.0001, 'epoch': 0.28}
+Saving PEFT checkpoint...
+{'loss': 0.2864, 'learning_rate': 0.0001, 'epoch': 0.29}
+{'loss': 0.2932, 'learning_rate': 0.0001, 'epoch': 0.29}
+{'loss': 0.26, 'learning_rate': 0.0001, 'epoch': 0.3}
+{'loss': 0.2369, 'learning_rate': 0.0001, 'epoch': 0.31}
+{'loss': 0.1941, 'learning_rate': 0.0001, 'epoch': 0.31}
+{'loss': 0.2968, 'learning_rate': 0.0001, 'epoch': 0.32}
+{'loss': 0.3116, 'learning_rate': 0.0001, 'epoch': 0.33}
+{'loss': 0.2294, 'learning_rate': 0.0001, 'epoch': 0.33}
+{'loss': 0.217, 'learning_rate': 0.0001, 'epoch': 0.34}
+{'loss': 0.2075, 'learning_rate': 0.0001, 'epoch': 0.35}
+{'loss': 0.3156, 'learning_rate': 0.0001, 'epoch': 0.36}
+{'loss': 0.2673, 'learning_rate': 0.0001, 'epoch': 0.36}
+{'loss': 0.2446, 'learning_rate': 0.0001, 'epoch': 0.37}
+{'loss': 0.2294, 'learning_rate': 0.0001, 'epoch': 0.38}
+{'loss': 0.1929, 'learning_rate': 0.0001, 'epoch': 0.38}
+{'loss': 0.2834, 'learning_rate': 0.0001, 'epoch': 0.39}
+{'eval_loss': 0.32270804047584534, 'eval_runtime': 1193.3394, 'eval_samples_per_second': 0.838, 'eval_steps_per_second': 0.838, 'epoch': 0.39}
+{'loss': 0.2611, 'learning_rate': 0.0001, 'epoch': 0.4}
+{'loss': 0.23, 'learning_rate': 0.0001, 'epoch': 0.4}
+{'loss': 0.1973, 'learning_rate': 0.0001, 'epoch': 0.41}
+{'loss': 0.1939, 'learning_rate': 0.0001, 'epoch': 0.42}
+Saving PEFT checkpoint...
+{'loss': 0.295, 'learning_rate': 0.0001, 'epoch': 0.42}
+{'loss': 0.2455, 'learning_rate': 0.0001, 'epoch': 0.43}
+{'loss': 0.2432, 'learning_rate': 0.0001, 'epoch': 0.44}
+{'loss': 0.2007, 'learning_rate': 0.0001, 'epoch': 0.45}
+{'loss': 0.1938, 'learning_rate': 0.0001, 'epoch': 0.45}
+{'loss': 0.2629, 'learning_rate': 0.0001, 'epoch': 0.46}
+{'loss': 0.2348, 'learning_rate': 0.0001, 'epoch': 0.47}
+{'loss': 0.2239, 'learning_rate': 0.0001, 'epoch': 0.47}
+{'loss': 0.1898, 'learning_rate': 0.0001, 'epoch': 0.48}
+{'loss': 0.196, 'learning_rate': 0.0001, 'epoch': 0.49}
+{'loss': 0.2896, 'learning_rate': 0.0001, 'epoch': 0.49}
+{'loss': 0.2455, 'learning_rate': 0.0001, 'epoch': 0.5}
+{'loss': 0.2162, 'learning_rate': 0.0001, 'epoch': 0.51}
+{'loss': 0.1889, 'learning_rate': 0.0001, 'epoch': 0.52}
+{'eval_loss': 0.31362253427505493, 'eval_runtime': 1193.5152, 'eval_samples_per_second': 0.838, 'eval_steps_per_second': 0.838, 'epoch': 0.52}
+{'loss': 0.2014, 'learning_rate': 0.0001, 'epoch': 0.52}
+{'loss': 0.2725, 'learning_rate': 0.0001, 'epoch': 0.53}
+{'loss': 0.247, 'learning_rate': 0.0001, 'epoch': 0.54}
+{'loss': 0.2097, 'learning_rate': 0.0001, 'epoch': 0.54}
+{'loss': 0.1982, 'learning_rate': 0.0001, 'epoch': 0.55}
+{'loss': 0.2055, 'learning_rate': 0.0001, 'epoch': 0.56}
+Saving PEFT checkpoint...
+{'loss': 0.2622, 'learning_rate': 0.0001, 'epoch': 0.56}
+{'loss': 0.2299, 'learning_rate': 0.0001, 'epoch': 0.57}
+{'loss': 0.2178, 'learning_rate': 0.0001, 'epoch': 0.58}
+{'loss': 0.1721, 'learning_rate': 0.0001, 'epoch': 0.58}
+{'loss': 0.1732, 'learning_rate': 0.0001, 'epoch': 0.59}
+{'loss': 0.2607, 'learning_rate': 0.0001, 'epoch': 0.6}
+{'loss': 0.2246, 'learning_rate': 0.0001, 'epoch': 0.61}
+{'loss': 0.1987, 'learning_rate': 0.0001, 'epoch': 0.61}
+{'loss': 0.1872, 'learning_rate': 0.0001, 'epoch': 0.62}
+{'loss': 0.1689, 'learning_rate': 0.0001, 'epoch': 0.63}
+{'loss': 0.2402, 'learning_rate': 0.0001, 'epoch': 0.63}
+{'loss': 0.2059, 'learning_rate': 0.0001, 'epoch': 0.64}
+{'loss': 0.1841, 'learning_rate': 0.0001, 'epoch': 0.65}
+{'eval_loss': 0.29820069670677185, 'eval_runtime': 1193.5028, 'eval_samples_per_second': 0.838, 'eval_steps_per_second': 0.838, 'epoch': 0.65}
+{'loss': 0.1939, 'learning_rate': 0.0001, 'epoch': 0.65}
+{'loss': 0.1801, 'learning_rate': 0.0001, 'epoch': 0.66}
+{'loss': 0.2611, 'learning_rate': 0.0001, 'epoch': 0.67}
+{'loss': 0.2042, 'learning_rate': 0.0001, 'epoch': 0.68}
+{'loss': 0.1805, 'learning_rate': 0.0001, 'epoch': 0.68}
+{'loss': 0.1713, 'learning_rate': 0.0001, 'epoch': 0.69}
+{'loss': 0.1798, 'learning_rate': 0.0001, 'epoch': 0.7}
+Saving PEFT checkpoint...
+{'loss': 0.2277, 'learning_rate': 0.0001, 'epoch': 0.7}
+{'loss': 0.2182, 'learning_rate': 0.0001, 'epoch': 0.71}
+{'loss': 0.1976, 'learning_rate': 0.0001, 'epoch': 0.72}
+{'loss': 0.1941, 'learning_rate': 0.0001, 'epoch': 0.72}
+{'loss': 0.1786, 'learning_rate': 0.0001, 'epoch': 0.73}
+{'loss': 0.2238, 'learning_rate': 0.0001, 'epoch': 0.74}
+{'loss': 0.1834, 'learning_rate': 0.0001, 'epoch': 0.75}
+{'loss': 0.1738, 'learning_rate': 0.0001, 'epoch': 0.75}
+{'loss': 0.1713, 'learning_rate': 0.0001, 'epoch': 0.76}
+{'loss': 0.1745, 'learning_rate': 0.0001, 'epoch': 0.77}
+{'loss': 0.2333, 'learning_rate': 0.0001, 'epoch': 0.77}
+{'loss': 0.1993, 'learning_rate': 0.0001, 'epoch': 0.78}
+{'eval_loss': 0.2898034155368805, 'eval_runtime': 1193.4566, 'eval_samples_per_second': 0.838, 'eval_steps_per_second': 0.838, 'epoch': 0.78}
+{'loss': 0.1808, 'learning_rate': 0.0001, 'epoch': 0.79}
+{'loss': 0.1779, 'learning_rate': 0.0001, 'epoch': 0.79}
+{'loss': 0.1646, 'learning_rate': 0.0001, 'epoch': 0.8}
+{'loss': 0.2368, 'learning_rate': 0.0001, 'epoch': 0.81}
+{'loss': 0.2048, 'learning_rate': 0.0001, 'epoch': 0.81}
+{'loss': 0.1756, 'learning_rate': 0.0001, 'epoch': 0.82}
+{'loss': 0.1756, 'learning_rate': 0.0001, 'epoch': 0.83}
+{'loss': 0.1913, 'learning_rate': 0.0001, 'epoch': 0.84}
+Saving PEFT checkpoint...
+{'loss': 0.3028, 'learning_rate': 0.0001, 'epoch': 0.84}
+{'loss': 0.2925, 'learning_rate': 0.0001, 'epoch': 0.85}
+{'loss': 0.283, 'learning_rate': 0.0001, 'epoch': 0.86}
+{'loss': 0.224, 'learning_rate': 0.0001, 'epoch': 0.86}
+{'loss': 0.2896, 'learning_rate': 0.0001, 'epoch': 0.87}
+{'loss': 0.3382, 'learning_rate': 0.0001, 'epoch': 0.88}
+{'loss': 0.3087, 'learning_rate': 0.0001, 'epoch': 0.88}
+{'loss': 0.3027, 'learning_rate': 0.0001, 'epoch': 0.89}
+{'loss': 0.2356, 'learning_rate': 0.0001, 'epoch': 0.9}
+{'loss': 0.2278, 'learning_rate': 0.0001, 'epoch': 0.91}

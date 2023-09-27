@@ -4,7 +4,7 @@ Solving environment: ...working... done
 # All requested packages already installed.
 
 Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
-  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-vroki4zo/peft_3cfb085d8fd0480c9900ac4dd524200f
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-ml1oubcw/peft_b004f26ea182443daa861648ad186a15
   Resolved https://github.com/huggingface/peft.git to commit 69665f24e98dc5f20a430637a31f196158b6e0da
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -13,7 +13,7 @@ Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requiremen
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
 Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
-  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-vroki4zo/accelerate_155a3482f61c4d1783338e385c88d1da
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-ml1oubcw/accelerate_b1be750b4d1b4df18bc429e3a8d2431d
   Resolved https://github.com/huggingface/accelerate.git to commit 80da9cfb09bb3cc9f1b385cb55d6b90d025a5fd9
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'

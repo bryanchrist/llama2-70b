@@ -1,0 +1,972 @@
+### Response: Question: 
+A farmer has 500 acres of land and wants to plant 100 acres of corn, 100 acres of wheat, and 100 acres of soybeans. However, the farmer can only plant a maximum of 200 acres of crops due to limited resources. The farmer wants to maximize the profit from the crops, so the farmer needs to determine the optimal combination of crops to plant.
+
+The profit per acre for each crop is as follows:
+Corn: $200 per acre
+Wheat: $150 per acre
+Soybeans: $125 per acre
+
+The farmer needs to decide how many acres of each crop to plant, given the constraint that the total acres planted cannot exceed 200.
+
+Problem:The farmer should plant 100 acres of corn, 50 acres of wheat, and 50 acres of soybeans to maximize profit.
+
+Here's a Python program to calculate the profit for the given combination of crops:
+
+corn_profit_per_acre = 200
+wheat_profit_per_acre = 150
+soybean_profit_per_acre = 125
+
+corn_acres = 100
+wheat_acres = 50
+soybean_acres = 50
+
+total_profit = (corn_profit_per_acre * corn_acres) + (wheat_profit_per_acre * wheat_acres) + (soybean_profit_per_acre * soybean_acres)
+print(total_profit)
+### Response: Question: 
+A train is traveling at a constant speed of 60 miles per hour. It takes 2 hours to reach its destination. How far is the destination from the starting point?
+
+Answer:speed = 60 # miles per hour
+time = 2 # hours
+
+distance = speed * time
+
+print(distance)
+### Response: Question: 25 students are in a class. Out of these, 10 students are from grade 1, 8 students are from grade 2, and the remaining are from grade 3. How many students are from grade 3?
+
+Answer:total_students = 25
+grade1_students = 10
+grade2_students = 8
+
+grade3_students = total_students - (grade1_students + grade2_students)
+
+print(grade3_students)
+### Response: Question: 20 students are divided into two groups. One group has 12 students, and the other group has 8 students. What is the total number of students in the two groups?
+
+Answer:group1 = 12
+group2 = 8
+
+total_students = group1 + group2
+
+print(total_students)
+### Response: Question: 
+If a train is traveling at a constant speed of 50 miles per hour and it takes 2 hours to reach its destination, how far is the destination from the starting point?
+
+Answer:train_speed = 50 # mph
+time = 2 # hours
+
+distance = train_speed * time
+
+print(distance)
+### Response: Question: 
+A farmer has 200 acres of land. He wants to plant 50 acres of corn and the rest with soybeans. How many acres of soybeans will he plant?
+
+Answer:acres = 200
+corn = 50
+
+soybeans = acres - corn
+
+print(soybeans)
+### Response: Question: 2 trains are running at the same time. The first train has 5 cars and the second train has 6 cars. How many cars are there in total?
+
+FirstTrainCar = 5
+SecondTrainCar = 6
+print(FirstTrainCar+SecondTrainCar)
+### Response: Question: 
+A train is traveling at a constant speed of 60 miles per hour. It takes 2 hours to reach its destination. How far is the destination from the starting point?
+
+Answer:speed = 60
+time = 2
+
+distance = speed * time
+
+print(distance)
+### Response: Question: 20 students are divided into 3 groups. What is the minimum number of students in each group?
+
+Answer:total_students = 20
+total_groups = 3
+
+min_students_group = total_students // total_groups
+
+print(min_students_group)
+### Response: Question: 20 students are divided into 4 groups. How many students are in each group?
+
+Answer:total_students = 20
+total_groups = 4
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+### Response: Question: 
+A farmer has 1000 acres of land and wants to plant 2 types of crops. The farmer wants to plant 50% of the land with crop A and 50% of the land with crop B. How many acres of land will be used for each crop?
+
+Answer:total_land = 1000
+crop_A_percentage = 50
+crop_B_percentage = 50
+
+# calculate the land for crop A
+crop_A_land = (crop_A_percentage / 100) * total_land
+
+# calculate the land for crop B
+crop_B_land = (crop_B_percentage / 100) * total_land
+
+print(crop_A_land)
+print(crop_B_land)
+### Response: Question: 48 students are divided into 3 groups. What is the number of students in each group?
+
+Answer:students = 48
+groups = 3
+
+average = int((students/groups) * 100) / 100
+
+print(average)
+### Response: Question: 3600 students are enrolled in a college. Out of these, 2400 are boys and the rest are girls. How many girls are there in the college?
+
+Answer:total_students = 3600
+boys = 2400
+
+girls = total_students - boys
+
+print(girls)
+### Response: Question: 
+If a train is traveling at a constant speed of 60 miles per hour and it takes 2 hours to reach its destination, how far is the destination from the starting point?
+
+Answer:train_speed = 60 # mph
+time = 2 # hours
+
+distance = train_speed * time
+
+print(distance)
+### Response: Question: 2 trains are running at the speed of 60 km/hr and 40 km/hr respectively. What is the relative speed of the trains?
+
+Train1 = 60
+Train2 = 40
+RelativeSpeed = Train1 - Train2
+print(RelativeSpeed)
+### Response: Question: 
+A train travels at an average speed of 60 miles per hour for 2 hours, then at an average speed of 40 miles per hour for 1 hour. In total, how many miles did the train travel?
+
+Answer:First, we need to calculate the distance the train traveled during the first 2 hours. We do this by multiplying the speed (60 miles per hour) by the time (2 hours).
+
+Distance = Speed × Time
+Distance = 60 miles/hour × 2 hours
+Distance = 120 miles
+
+Next, we need to calculate the distance the train traveled during the next 1 hour. We do this by multiplying the speed (40 miles per hour) by the time (1 hour).
+
+Distance = Speed × Time
+Distance = 40 miles/hour × 1 hour
+Distance = 40 miles
+
+Now, we need to add the distances from the two parts of the journey to find the total distance traveled.
+
+Total Distance = Distance Part 1 + Distance Part 2
+Total Distance = 120 miles + 40 miles
+Total Distance = 160 miles
+
+#### 160
+### Response: Question: 
+If a train is 360 meters long and it takes 20 seconds to pass a station, what is the speed of the train?
+
+Answer:train_length = 360 # in meters
+time = 20 # in seconds
+
+# speed = distance/time
+speed = train_length / time
+
+print(speed)
+### Response: Question: 
+A farmer has 100 acres of land and wants to divide it into three equal parts for his three sons. What is the size of each part?
+
+Answer:total_land = 100
+num_sons = 3
+
+land_per_son = total_land / num_sons
+
+print(land_per_son)
+### Response: Question: 36 divided by 9 is 4. How many 9s are in 36?
+
+Answer:answer = 36 / 9
+
+print(answer)
+### Response: Question: 
+A farmer has 100 acres of land. He wants to plant 20 acres of corn and the rest with soybeans. How many acres of soybeans will he plant?
+
+Answer:total_acres = 100
+corn_acres = 20
+
+soybean_acres = total_acres - corn_acres
+
+print(soybean_acres)
+### Response: Question: 
+A farmer has 10 acres of land on which he grows corn. He uses 20% of the land for growing corn, and the rest for other purposes. How many acres of land are used for growing corn?
+
+Answer:total_land = 10
+percentage_used = 20/100
+corn_land = total_land * percentage_used
+print(corn_land)
+### Response: Question: 40 students are divided into 2 groups. One group has 20 students and the other group has 20 students. If 5 students from the first group and 5 students from the second group are selected at random, what is the probability that a student from the first group will be paired with a student from the second group?
+
+Answer:First, we need to find the total number of ways to choose 5 students from each group. For the first group, there are C(20,5) ways to choose 5 students from 20. Similarly, there are C(20,5) ways to choose 5 students from the second group. Therefore, the total number of ways to choose 5 students from each group is C(20,5) * C(20,5).
+
+Now, we need to find the total number of ways to pair a student from the first group with a student from the second group. There are 20 students in the first group and 20 students in the second group, so there are 20 * 20 = 400 possible pairs.
+
+To find the probability, we divide the number of successful outcomes (pairing a student from the first group with a student from the second group) by the total number of possible outcomes (choosing 5 students from each group).
+
+Probability = (Number of successful outcomes) / (Total number of possible outcomes)
+Probability = (400) / (C(20,5) * C(20,5))
+
+Using Python's math library, we can calculate the binomial coefficients C(20,5) and C(20,5):
+
+from math import comb
+
+C_20_5 = comb(20, 5)
+C_20_5
+### Response: Question: 20 students are divided into 3 groups. How many students are in each group?
+
+Answer:total_students = 20
+total_groups = 3
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+### Response: Question: 
+A train is traveling from New York to Los Angeles. The trip is 2760 miles long and the train can travel 50 miles per hour. How long will the trip take?
+
+Answer:miles = 2760
+speed = 50
+
+trip = miles/speed
+
+print(trip)
+### Response: Question: 
+A boy has 365 marbles. He gives 28 marbles to his sister. How many marbles are left with the boy?
+
+Answer:Marbles = 365
+Gave = 28
+print(Marbles-Gave)
+### Response: Question: 20 students are in a class. 5 students are in the first row, 8 students are in the second row, and 7 students are in the third row. How many students are in the first, second, and third row?
+
+Answer:first_row = 5
+second_row = 8
+third_row = 7
+
+total_students = first_row + second_row + third_row
+
+print(total_students)
+### Response: Question: 20 students are divided into 3 groups. How many students are in each group?
+
+Answer:total_students = 20
+total_groups = 3
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+### Response: Question: 
+A train travels 500 miles in 8 hours. If it travels 125 miles in 2 hours, then how many hours will it take to travel 700 miles?
+
+Let's denote the speed of the train as s. We know that:
+
+500 miles / 8 hours = s
+125 miles / 2 hours = s
+
+So, s = 500 miles / 8 hours = 62.5 miles/hour
+
+Now, we need to find out how many hours it will take to travel 700 miles. We can use the formula:
+
+time = distance / speed
+
+time = 700 miles / 62.5 miles/hour = 11.23 hours
+
+Therefore, it will take 11.23 hours to travel 700 miles.
+
+Question:A train travels 500 miles in 8 hours. If it travels 125 miles in 2 hours, then how many hours will it take to travel 700 miles?
+
+Answer:speed = 500/8
+distance = 700
+
+time = distance / speed
+
+print(time)
+### Response: Question: 30 students are divided into 3 groups. What is the number of students in each group?
+
+Answer:students = 30
+groups = 3
+
+average = int((students/groups) * 100) / 100
+
+print(average)
+### Response: Question: 24 students are divided into 3 groups. How many students are in each group?
+
+Answer:total_students = 24
+total_groups = 3
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+### Response: Question: 
+A farmer has 300 acres of land and wants to plant 200 acres of corn and 100 acres of soybeans. However, the farmer can only plant a maximum of 250 acres of crops. How many acres of each crop should the farmer plant?
+
+Answer:def solve():
+    from sympy import symbols, Eq, solve
+
+    # Define the variables
+    x, y = symbols('x y')
+
+    # Define the equation
+    eq = Eq(x + y, 250)
+
+    # Corn and soybean constraints
+    x >= 0
+    y >= 0
+
+    # Solve the equation
+    solution = solve(eq, (x, y))
+
+    # The farmer should plant x acres of corn and y acres of soybeans
+    return solution
+print(solve())
+### Response: Question: 40 students are divided into 3 groups. What is the number of students in each group?
+
+Answer:total_students = 40
+total_groups = 3
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+### Response: Question: 30 students are divided into 3 groups. How many students are in each group?
+
+Answer:students = 30
+groups = 3
+
+average = round(students/groups, 9)
+
+print(average)
+### Response: Question: 
+A train is traveling at a constant speed of 60 miles per hour. It takes 2 hours to reach its destination. How far is the destination from the starting point?
+
+Answer:train_speed = 60 # mph
+time = 2 # hours
+
+distance = train_speed * time
+
+print(distance)
+### Response: Question: 36 divided by 9 is 4. So, 36/9 = 4.
+Answer:print(36/9)
+### Response: Question: 
+A farmer has 300 acres of land and wants to divide it into three equal parts for his three sons. How many acres of land will each son get?
+
+Answer:total_acres = 300
+num_sons = 3
+
+acres_per_son = total_acres / num_sons
+
+print(acres_per_son)
+### Response: Question: 
+A train is traveling from New York to Los Angeles. The trip is 2776 miles long and takes 72 hours. What is the average speed of the train?
+
+Answer:train_trip_miles=2776
+time=72
+average_speed=train_trip_miles/time
+print(average_speed)
+### Response: Question: 
+A number is 20% greater than another number. If the original number is 100, what is the new number?
+
+Answer:original_number = 100
+new_number = original_number * 1.20
+print(new_number)
+### Response: Question: 20 students are in a class. Out of these, 10 students are boys and the remaining are girls. How many girls are there in the class?
+
+Answer:total_students = 20
+boys = 10
+
+girls = total_students - boys
+
+print(girls)
+### Response: Question: 
+A boy has 20 marbles. He gives 5 marbles to his sister. How many marbles are left with the boy?
+
+Answer:marbles = 20
+gave = 5
+
+remaining = marbles - gave
+
+print(remaining)
+### Response: Question: 
+A farmer has 500 acres of land and wants to plant wheat. The farmer needs 1 acre of land to plant 10 bushels of wheat. How many bushels of wheat can the farmer plant?
+
+Answer:acres = 500
+bushels = 10
+
+wheat = acres * bushels
+
+print(wheat)
+### Response: Question: 
+A farmer has 300 acres of land and wants to divide it into three equal parts for his three sons. How many acres of land will each son get?
+
+Answer:acres = 300
+sons = 3
+
+average = int(acres/sons)
+
+print(average)
+### Response: Question: 36 students are divided into 6 groups. What is the number of students in each group?
+
+Answer:students = 36
+groups = 6
+
+average = round(students/groups, 9)
+
+print(average)
+### Response: Question: 25 students are in a class. Out of those 25 students, 5 students have not turned in their homework. What is the percentage of students who have not turned in their homework?
+
+Answer:total_students = 25
+students_not_turned_in = 5
+
+percentage = (students_not_turned_in / total_students) * 100
+
+print(percentage)
+### Response: Question: 36 divided by 4 is 9. 9 times 3 is 27. 27 divided by 3 is 9. What is the answer?
+
+Answer:answer = 9
+print(answer)
+### Response: Question: 
+A man has 260 dollars. He gives 35 dollars to his wife and 12 dollars to his child. How many dollars does he have left?
+
+Answer:dollars = 260
+wife = 35
+child = 12
+
+remaining = dollars - wife - child
+
+print(remaining)
+### Response: Question: 
+A train travels at an average speed of 60 kilometers per hour. If the train travels for 2 hours, how far is the train from where it started?
+
+Answer:speed = 60
+time = 2
+
+distance = speed * time
+
+print(distance)
+### Response: Question: 2 trains are moving in the same direction. The first train is moving at a speed of 72 km/hr, and the second train is moving at a speed of 36 km/hr. If the distance between the two trains is 18 km, how long will it take for the first train to pass the second train?
+
+Answer:train1_speed = 72
+train2_speed = 36
+distance = 18
+
+time = distance / (train1_speed - train2_speed)
+
+print(time)
+### Response: Question: 45 people are divided into groups of 5, 6 and 7. How many groups are there?
+
+Answer:from sympy import symbols, Eq, solve
+
+# people
+p = 45
+
+# groups
+g = symbols('g')
+
+eq = Eq((p/5)+(p/6)+(p/7), g)
+
+answer = solve(eq)
+
+print(answer[0])
+### Response: Question: 
+A train is traveling at a constant speed of 60 miles per hour. It takes 2 hours to reach its destination. How far is the destination from the starting point?
+
+Answer:speed = 60 # miles per hour
+time = 2 # hours
+
+distance = speed * time
+
+print(distance)
+### Response: Question: 
+A bus can accommodate a maximum of 36 passengers. If there are already 20 passengers on the bus, how many more passengers can be accommodated?
+
+Answer:bus_capacity = 36
+current_passengers = 20
+
+remaining_passengers = bus_capacity - current_passengers
+
+print(remaining_passengers)
+### Response: Question: 456 children are divided into three groups: Group A has 12 children, Group B has 24 children, and Group C has the remaining children. How many children are in Group C?
+
+Group A: 12 children
+Group B: 24 children
+Group C: 456 - (12 + 24) = 420 children
+#### 420
+### Response: Question: 
+A student has a total of 120 minutes to complete an exam. The exam consists of two parts, Part A and Part B. Part A must take a minimum of 20 minutes to complete, and Part B must take a minimum of 30 minutes to complete. How many minutes can the student use to complete Part A and Part B?
+
+Answer:total_minutes = 120
+min_A = 20
+min_B = 30
+
+max_A = total_minutes - min_B
+max_B = total_minutes - min_A
+
+print(max_A + max_B)
+### Response: Question: 
+A bus has 36 seats. There are 24 students on the bus. How many empty seats are there on the bus?
+
+Answer:total_seats = 36
+students = 24
+
+empty_seats = total_seats - students
+
+print(empty_seats)
+### Response: Question: 30 students are divided into 3 groups. How many students are in each group?
+
+Answer:students = 30
+groups = 3
+
+average = round(students / groups, 9)
+
+print(average)
+### Response: Question: 
+A boy has 20 marbles. He gives 5 marbles to his sister. How many marbles are left?
+
+Answer:marbles = 20
+gave = 5
+
+remaining = marbles - gave
+
+print(remaining)
+### Response: Question: 36 divided by 6 is 6. 36 divided by 3 is 12. If you add the two numbers together, you get 18. However, if you multiply the two numbers together, you get 72. Why is this?
+
+Answer:The reason this happens is because of the order of operations. When you add the two numbers together, you get 18, which is the sum of 6 and 12. However, when you multiply the two numbers together, you get 72, which is the product of 6 and 12. This is because multiplication and division are done before addition and subtraction. Therefore, the answer is 18.
+### Response: Question: 
+A train is traveling at a constant speed of 60 miles per hour. If it takes 2 hours to reach its destination, how far is the destination from the starting point?
+
+Answer:speed = 60 # miles per hour
+time = 2 # hours
+
+distance = speed * time
+
+print(distance)
+### Response: Question: 
+If a number is divisible by both 3 and 4, it is divisible by their least common multiple, 12. So, if a number is divisible by 12, what are the possible numbers that the number could be?
+
+Answer:def find_possible_numbers():
+    possible_numbers = []
+    for i in range(1, 100):  # Searching in the range of 1 to 100
+        if i % 12 == 0:  # If the number is divisible by 12
+            possible_numbers.append(i)  # Add the number to the list
+    return possible_numbers
+
+print(find_possible_numbers())
+### Response: Question: 20 students are divided into 3 groups. How many students are in each group?
+
+Answer:total_students = 20
+total_groups = 3
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+### Response: Question: 4 apples and 6 oranges cost $2.00. How much does a single apple cost?
+
+Let's solve the multi-choice question step by step.
+Let the cost of a single apple be x and the cost of a single orange be y.
+We know that 4x + 6y = $2.00
+We can divide both sides of the equation by 2 to find that 2x + 3y = $1.00
+We can now solve for x by multiplying both sides of the equation by 2. This gives us 4x + 6y = $2.00
+We know that 4x + 6y = $2.00
+We can divide both sides of the equation by 6 to find that 4x + 6y = $2.00
+We can now solve for x by multiplying both sides of the equation by 6. This gives us 24x + 36y = $12.00
+We can now solve for x by subtracting 36y from both sides of the equation. This gives us 24x = $12.00 - 36y
+We can now solve for x by dividing both sides of the equation by 24. This gives us x = ($12.00 - 36y) / 24
+We can now plug in the value of y we found earlier ($1.00 / 3) into the equation. This gives us x = ($12.00 - 36($1.00 / 3)) / 24
+Simplifying the equation, we get x = ($12.00 - $12.00) / 24
+This gives us x = $0.00 / 24
+### Response: Question: 
+A train is 360 meters long and it takes 2 minutes to pass a certain point. What is the speed of the train?
+
+Answer:train_length = 360 # in meters
+time = 2 # in minutes
+
+# convert time to hours
+time = time / 60
+
+# calculate speed using the formula: speed = distance / time
+speed = train_length / time
+
+# convert speed to km/hr
+speed = speed * 3.6
+
+print(speed)
+### Response: Question: 
+If a train is traveling at a constant speed of 60 miles per hour and it takes 2 hours to reach its destination, how far is the destination from the starting point?
+
+Answer:train_speed = 60 # mph
+time = 2 # hours
+
+distance = train_speed * time
+
+print(distance)
+### Response: Question: 
+A car is traveling at a constant speed of 60 miles per hour. The car travels for 2 hours. How far is the car from where it started?
+
+Answer:speed = 60 # miles per hour
+time = 2 # hours
+
+distance = speed * time
+
+print(distance)
+### Response: Question: 
+A train travels at an average speed of 60 km/h for 2 hours, then at an average speed of 80 km/h for 3 hours. How far is the train from its starting point?
+
+Answer:First find the distance the train travels in the first 2 hours: 60 km/h * 2 hours = <<60*2=120>>120 km
+Then find the distance the train travels in the next 3 hours: 80 km/h * 3 hours = <<80*3=240>>240 km
+Then add the two distances to find the total distance the train travels: 120 km + 240 km = <<120+240=360>>360 km
+#### 360
+### Response: Question: 
+A farmer has 200 acres of land and wants to plant 100 acres of corn and 100 acres of soybeans. However, the farmer can only plant a maximum of 150 acres of crops due to limited resources. The farmer wants to maximize the profit from the crops, so the farmer needs to decide how many acres of corn and soybeans to plant within the 150-acre limit.
+
+Let x be the number of acres of corn and y be the number of acres of soybeans. We have the following constraints:
+
+x + y ≤ 150 (total acres of crops)
+x ≥ 0 (non-negative acres of corn)
+y ≥ 0 (non-negative acres of soybeans)
+
+The farmer also knows that the profit from corn is $500 per acre and the profit from soybeans is $300 per acre. The objective is to maximize the profit function P(x, y) = 500x + 300y.
+
+Answer:To solve this problem, we can use linear programming. First, let's rewrite the constraint x + y ≤ 150 as y ≤ 150 - x. Now we have two constraints:
+
+y ≤ 150 - x
+x ≥ 0
+y ≥ 0
+
+We want to maximize the profit function P(x, y) = 500x + 300y. Since the profit is linear in both x and y, the maximum profit will occur at one of the vertices of the feasible region defined by the constraints.
+
+There are three vertices to consider:
+
+1. (x, y) = (0, 0): P(
+### Response: Question: 
+Alice has 20 apples and Bob has 30 apples. If Alice gives 5 apples to Bob, how many apples will they have in total?
+
+Answer:alice_apples = 20
+bob_apples = 30
+given_apples = 5
+
+total_apples = alice_apples + bob_apples + given_apples
+
+print(total_apples)
+### Response: Question: 
+A farmer has 120 acres of land. He wants to divide it into three equal parts for his three sons. How many acres of land will each son get?
+
+Answer:acres = 120
+sons = 3
+
+average = int(acres/sons)
+
+print(average)
+### Response: Question: 
+A farmer has 500 acres of land. He wants to plant 100 acres of corn and the rest with soybeans. How many acres of soybeans will he plant?
+
+Answer:total_acres = 500
+corn_acres = 100
+
+soybean_acres = total_acres - corn_acres
+
+print(soybean_acres)
+### Response: Question: 36 divided by 9 is 4. So, 36/9 = 4.
+Answer:print(36/9)
+### Response: Question: 
+A farmer has 200 acres of land and wants to plant 5 different crops. Each crop must have at least 10 acres of land. The farmer wants to plant as many crops as possible while still meeting the minimum acreage requirement for each crop.
+
+How many acres of land can the farmer use to plant the 5 different crops?
+
+Answer:acres = 200
+crops = 5
+min_acres = 10
+
+total_acres = 0
+
+for i in range(crops):
+
+  total_acres += min_acres
+
+  if total_acres > acres:
+
+    break
+
+print(total_acres)
+### Response: Question: 
+A farmer has 1000 acres of land and wants to plant 200 acres of wheat. The rest of the land will be planted with soybeans. How many acres of soybeans will be planted?
+
+Answer:acres_of_land = 1000
+acres_of_wheat = 200
+
+acres_of_soybeans = acres_of_land - acres_of_wheat
+
+print(acres_of_soybeans)
+### Response: Question: 
+A farmer has 300 cows and 200 sheep. The farmer wants to know the total number of animals.
+
+Answer:cows = 300
+sheep = 200
+
+total_animals = cows + sheep
+
+print(total_animals)
+### Response: Question: 
+A farmer has 100 acres of land and wants to divide it into 4 equal parts. 
+
+How many acres of land will each part have?
+
+Answer:acres = 100
+parts = 4
+
+average = int(acres/parts)
+
+print(average)
+### Response: Question: 
+A farmer has 1200 acres of land. He wants to plant wheat on 80% of the land and corn on the remaining 20%. How many acres of land will be used for each crop?
+
+Answer:total_land = 1200
+# calculate the land for wheat
+wheat_land = total_land * 0.8
+# calculate the land for corn
+corn_land = total_land * 0.2
+print(wheat_land)
+print(corn_land)
+### Response: Question: 
+A man has $1000. He gives 1/3 of it to his wife, 1/4 of it to his daughter and 1/5 of it to his son. How much money is left?
+
+Answer:total_money = 1000
+money_given_to_wife = total_money * (1/3)
+money_given_to_daughter = total_money * (1/4)
+money_given_to_son = total_money * (1/5)
+
+money_left = total_money - (money_given_to_wife + money_given_to_daughter + money_given_to_son)
+print(money_left)
+### Response: Question: 
+A square has a perimeter of 20 units. What is the length of each side of the square?
+
+Answer:Perimeter of a square = 4 * side_length
+20 = 4 * side_length
+side_length = 20 / 4
+side_length = 5
+
+print(side_length)
+### Response: Question: 20 students are divided into 4 groups. How many students are in each group?
+
+Answer:students = 20
+groups = 4
+
+average = int((students/groups) * 100) / 100
+
+print(average)
+### Response: Question: 
+A farmer has 100 acres of land and wants to plant 100 trees. However, he can only plant 5 trees per acre. How many acres of land does the farmer need to plant all 100 trees?
+
+Answer:acres = 100
+trees = 100
+per_acre = 5
+
+land_needed = (trees/per_acre)
+
+print(land_needed)
+### Response: Question: 20 students are divided into 3 groups. How many students are in each group?
+
+Answer:total_students = 20
+total_groups = 3
+
+students_per_group = total_students / total_groups
+
+print(students_per_group)
+### Response: Question: 20 students are divided into 3 groups. What is the minimum number of students in each group?
+
+Answer:total_students = 20
+total_groups = 3
+
+min_students_per_group = total_students // total_groups
+print(min_students_per_group)
+### Response: Question: 
+If a train is traveling at a constant speed of 50 miles per hour and it takes 2 hours to reach its destination, how far is the destination from the starting point?
+
+Answer:train_speed = 50 # mph
+time = 2 # hours
+
+distance = train_speed * time
+
+print(distance)
+### Response: Question: 
+If a number is divisible by both 3 and 4, it is divisible by 12. Find the number that is divisible by both 3 and 4.
+
+Answer:def find_number():
+    for i in range(1, 100):
+        if i % 3 == 0 and i % 4 == 0:
+            return i
+
+print(find_number())
+### Response: Question: 
+A farmer has 300 acres of land and wants to plant 200 acres of wheat. The farmer also wants to plant 100 acres of corn. How many acres of land are left for the farmer to plant other crops?
+
+Answer:total_acres = 300
+wheat_acres = 200
+corn_acres = 100
+
+remaining_acres = total_acres - wheat_acres - corn_acres
+print(remaining_acres)
+### Response: Question: 
+If a train is traveling at a constant speed of 60 miles per hour and it takes 2 hours to reach its destination, how far is the destination from the starting point?
+
+Answer:train_speed = 60 # in miles per hour
+time = 2 # in hours
+
+# calculate the distance
+distance = train_speed * time
+
+print(distance)
+### Response: Question: 
+A bus can carry a maximum of 32 students. If there are 24 students on the bus, how many more students can be added?
+
+Answer:students_on_bus = 24
+max_students = 32
+
+remaining_students = max_students - students_on_bus
+
+print(remaining_students)
+### Response: Question: 
+A train is moving at a constant speed of 60 miles per hour. It takes 2 hours to reach its destination. How far is the destination from the starting point?
+
+Answer:speed = 60 # miles per hour
+time = 2 # hours
+
+distance = speed * time
+
+print(distance)
+### Response: Question: 36 divided by 9 = 4. So, 36/9 = 4. What is the value of x in the equation 36/9 = 4?
+
+Answer:x = 36/9
+
+print(x)
+### Response: Question: 
+A train is traveling at a constant speed of 60 miles per hour. If the train travels for 2 hours, how far is the train from where it started?
+
+Answer:speed = 60
+time = 2
+distance = speed * time
+
+print(distance)
+### Response: Question: 25 students are in a class. Out of these, 15 students are boys and the remaining 10 students are girls. What is the ratio of boys to girls in the class?
+
+Answer:boys = 15
+girls = 10
+
+ratio = boys / girls
+
+print(ratio)
+### Response: Question: 
+A train travels 50 miles per hour for 2 hours, then 75 miles per hour for 3 hours. How many miles does the train travel in total?
+
+Answer:train_travels=50
+time=2
+speed=75
+time=3
+total_travelling_miles=train_travels*time+speed*time
+print(total_travelling_miles)
+### Response: Question: 
+A farmer has 200 acres of land and wants to plant 100 acres of wheat and 100 acres of corn. However, he can only plant a maximum of 150 acres of crops due to limited water and other resources. The farmer wants to maximize his yield, so he needs to determine the optimal number of acres to plant for each crop.
+
+Let x be the number of acres of wheat and y be the number of acres of corn. The farmer needs to maximize his yield, which can be represented by the objective function:
+
+Yield = 10 * x + 20 * y
+
+Subject to the constraints:
+
+x + y <= 150 (total acres of crops)
+x <= 100 (maximum acres of wheat)
+y <= 100 (maximum acres of corn)
+x >= 0, y >= 0 (non-negativity constraint)
+
+To solve this linear programming problem, we can use the graphical method by plotting the constraint inequalities on a coordinate plane and finding the feasible region. Then, we can identify the vertices of the feasible region and evaluate the objective function at each vertex to find the maximum yield.
+
+Here are the inequalities:
+
+1. x + y <= 150
+2. x <= 100
+3. y <= 100
+4. x >= 0
+5. y >= 0
+
+The feasible region is a polygon with vertices at points (0, 0), (0, 100), (100, 0), and (100, 50).
+
+Now, we evaluate the objective function at each vertex:
+
+1. Yield at (0, 0) = 1
+### Response: Question: 36 people are divided into 4 groups. How many people are in each group?
+
+Answer:people=36
+groups=4
+people_in_group=people/groups
+print(people_in_group)
+### Response: Question: 25 students are in a class. Each student has to pay $5 per month for the class. How much money does the teacher make in a month?
+
+Answer:students = 25
+payment = 5
+
+income = students * payment
+
+print(income)
+### Response: Question: 4 apples are $1. How many apples can you buy for $3?
+
+Answer:apples = 4
+cost = 1
+quantity = 3
+
+answer = (quantity/cost) * apples
+
+print(answer)
+### Response: Question: 36 divided by 4 is 9. 9 times 4 is 36. Is this true for all numbers?
+
+Answer:Yes, this is true for all numbers. This is a fundamental property of division and multiplication. If a number x is divided by y and the result is z, then multiplying z by y will give back the original number x. In this case, x = 36, y = 4, and z = 9.
+### Response: Question: 36 students are divided into 6 groups. How many students are in each group?
+
+Answer:students = 36
+groups = 6
+
+average = round(students/groups, 9)
+
+print(average)
+### Response: Question: 36 divided by 6 is 6. 36 divided by 3 is 12. What is the difference between the two?
+
+Answer:six = 6
+three = 12
+
+difference = (three - six)
+
+print(difference)
+### Response: Question: 
+A 30-year-old man has been working for 10 years. He has been promoted 3 times, and each promotion comes with a 10% salary increase. What is his current salary?
+
+Let's denote his initial salary as x.
+
+Answer:To solve this problem, we can use the formula for geometric progression:
+
+Final salary = Initial salary * (1 + growth rate)^number of periods
+
+In this case, the growth rate is 10% or 0.1, and the number of periods is 3 (since he has been promoted 3 times).
+
+So, the final salary is:
+
+Final salary = x * (1 + 0.1)^3
+
+Let's assume his initial salary is $1000, which is a reasonable assumption for an entry-level salary.
+
+Final salary = 1000 * (1 + 0.1)^3
+Final salary = 1000 * (1.1)^3
+Final salary = 1000 * 1.331
+Final salary = $1331
+
+Therefore, the answer is 1331.
+### Response: Question: 20 students are divided into two groups. The first group has 10 students, and the second group has 10 students. If each student in the first group is paired with a student in the second group, how many pairs are formed?
+
+Answer:first_group = 10
+second_group = 10
+
+pairs = first_group * second_group
+
+print(pairs)

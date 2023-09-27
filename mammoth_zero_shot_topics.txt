@@ -1,0 +1,1041 @@
+Target Topic: dogs. Generated Text: ### Response: Question: 
+If there are 10 dogs and each dog has 4 legs, how many legs are there in total?
+
+Answer:dogs = 10
+legs = 4
+
+total = dogs * legs
+
+print(total)
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+A volleyball team has 6 players. Each player has a different position: setter, outside hitter, middle hitter, opposite hitter, libero, and defensive specialist. The team is trying to decide on a fair way to distribute the prize money they won. They have decided to give each player a share based on the number of points they scored throughout the season.
+
+The team has calculated the total points scored by each player:
+Setter: 25 points
+Outside Hitter: 30 points
+Middle Hitter: 20 points
+Opposite Hitter: 28 points
+Libero: 10 points
+Defensive Specialist: 15 points
+
+The total points scored by the team is 138 points.
+
+The team wants to distribute the prize money based on the percentage of points each player scored. How much prize money should each player receive?
+
+Answer:To find out how much prize money each player should receive, we need to calculate the percentage of points each player scored and then multiply it by the total prize money.
+
+First, let's calculate the percentage of points each player scored:
+
+Setter: 25 points / 138 total points = 0.1818181818181818
+Outside Hitter: 30 points / 138 total points = 0.2188181818181818
+Middle Hitter: 20 points / 138 total points = 0.1459090909090909
+Opposite Hitter: 28 points / 138 total points = 0.20294117647058823
+Target Topic: dogs. Generated Text: ### Response: Question: 
+There are 10 dogs in a park. 5 of them are big dogs and the other 5 are small dogs. If the big dogs weigh an average of 40 pounds and the small dogs weigh an average of 15 pounds, what is the total weight of all the dogs in the park?
+
+Answer:big_dogs = 5
+small_dogs = 5
+big_dog_avg_weight = 40
+small_dog_avg_weight = 15
+
+total_weight = (big_dogs * big_dog_avg_weight) + (small_dogs * small_dog_avg_weight)
+
+print(total_weight)
+Target Topic: soccer. Generated Text: ### Response: Question: 
+In a soccer match, the home team scored 3 goals and the away team scored 2 goals. If a goal is worth 3 points, what is the total score of the match?
+
+Answer:home_team_goals = 3
+away_team_goals = 2
+goal_points = 3
+
+total_score = (home_team_goals + away_team_goals) * goal_points
+print(total_score)
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+A volleyball team has 6 players. Each player has a different position: setter, outside hitter, middle hitter, opposite hitter, defensive specialist, and libero. The team is playing in a tournament and each player has a different number of points scored: 12 points, 8 points, 15 points, 10 points, 5 points, and 13 points.
+
+The coach wants to know the total number of points scored by the team. To find this out, we need to add up all the individual points scored by each player.
+
+Points scored by each player:
+Setter: 12 points
+Outside hitter: 8 points
+Middle hitter: 15 points
+Opposite hitter: 10 points
+Defensive specialist: 5 points
+Libero: 13 points
+
+Total points scored by the team:
+Total points = Setter + Outside hitter + Middle hitter + Opposite hitter + Defensive specialist + Libero
+Total points = 12 + 8 + 15 + 10 + 5 + 13
+Total points = 63
+
+The total number of points scored by the team is 63 points.
+Target Topic: soccer. Generated Text: ### Response: Question: 
+If a soccer team has 11 players and each player has 2 feet, then how many total feet are there in the team?
+
+Answer:players = 11
+feet = 2
+
+total = players * feet
+
+print(total)
+Target Topic: dogs. Generated Text: ### Response: Question: 
+There are 8 dogs in a park. 
+Each dog has 4 legs.
+How many legs are there in total?
+Answer:dogs = 8
+legs = 4
+total_legs = dogs * legs
+
+print(total_legs)
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+In a volleyball tournament, there are 8 teams in total. The teams are divided into 2 groups, with 4 teams in each group. Each team plays against every other team in its group once. 
+
+How many total matches are played in the tournament?
+
+Answer:To solve this problem, we can use the formula for combinations: C(n, k) = n! / (k!(n-k)!), where n is the total number of teams in a group and k is the number of teams playing in a match (which is 2 in this case).
+
+For each group, there are 4 teams, so n = 4. Since each team plays against every other team in its group once, we need to find the number of ways to choose 2 teams from the 4 teams in each group. So, k = 2.
+
+Using the formula, we get:
+
+C(4, 2) = 4! / (2!(4-2)!)
+C(4, 2) = 4! / (2!2!)
+C(4, 2) = (4*3*2*1) / ((2*1)(2*1))
+C(4, 2) = 24 / (4)
+C(4, 2) = 6
+
+So, there are 6 matches in each group. Since there are 2 groups, the total number of matches played in the tournament is:
+
+Total matches = Matches in Group 1 + Matches in Group 2
+Total matches = 6 + 6
+Total matches = 12
+
+Therefore, there are a total of 12 matches played in the tournament.
+Target Topic: dogs. Generated Text: ### Response: Question: 
+There are 8 dogs in a park. Each dog has 4 legs. How many legs are there in total?
+
+Answer:dogs = 8
+legs = 4
+
+total = dogs * legs
+
+print(total)
+Target Topic: LeBron James. Generated Text: ### Response: Question:  LeBron James has scored 36,283 points in his career.  If he scores 20 points per game and plays 82 games in a season, how many points will he score in the upcoming season?
+
+Answer:total_points = 36283
+points_per_game = 20
+games_per_season = 82
+
+# calculate the total points he will score in the upcoming season
+total_points_season = points_per_game * games_per_season
+
+# calculate the total points he will score in his career after the upcoming season
+total_points_career = total_points + total_points_season
+
+print(total_points_career)
+Target Topic: dogs. Generated Text: ### Response: Question: 
+If a dog has 10 puppies and each puppy grows up to be a dog, how many dogs will there be in total?
+
+Answer:Answer: 
+Initially, there is 1 dog (the mother). Each of the 10 puppies grows up to be a dog, so there are 1 + 10 = 11 dogs in total.
+Target Topic: soccer. Generated Text: ### Response: Question: 
+A soccer team scored 10 goals in the first half and 3 goals in the second half. How many goals did they score in total?
+
+Answer:first_half = 10
+second_half = 3
+total_goals = first_half + second_half
+print(total_goals)
+Target Topic: field hockey. Generated Text: ### Response: Question: 
+The field hockey team has 15 players. They need to select a captain and 2 assistants from the 15 players. How many ways can they select a captain and 2 assistants?
+
+We can use the combination formula to solve this problem. The combination formula is C(n, k) = n! / (k!(n-k)!), where n is the total number of items, k is the number of items to choose, and ! denotes the factorial.
+
+In this case, n = 15 (total players) and k = 3 (captain and 2 assistants). So, we have:
+
+C(15, 3) = 15! / (3!(15-3)!)
+
+C(15, 3) = 15! / (3!12!)
+
+C(15, 3) = (15 * 14 * 13 * 12!)/(3! * 12!)
+
+C(15, 3) = (15 * 14 * 13)/(3 * 2 * 1)
+
+C(15, 3) = 455
+
+So, there are 455 ways to select a captain and 2 assistants from the 15 players.
+
+Answer:import math
+
+# total players
+n = 15
+# number of players to choose (captain and 2 assistants)
+k = 3
+
+# calculate combinations
+combinations = math.comb(n, k)
+
+print(combinations)
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+The Fortnite World Cup is offering a $3,000,000 prize to the winner. If there are 100 players in the tournament, what is the probability of winning for each player?
+
+Answer:The probability of winning for each player in a tournament can be calculated by dividing the number of players by the number of possible winners. In this case, there is only 1 winner and 100 players.
+
+Probability = (Number of players) / (Number of possible winners)
+Probability = 100 / 1
+Probability = 100
+
+The probability of winning for each player is 100, or 100%. However, it's important to note that this is a simplified calculation and doesn't take into account the actual skill levels of the players. In reality, the probability of winning would be much lower for most players, as the best players would have a higher chance of winning.
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+The Fortnite World Cup is a big event, and many players are trying to qualify for it. In one week, there are 10,000 players trying to qualify. However, only the top 1% of players will qualify. How many players will qualify for the Fortnite World Cup?
+
+Answer:players = 10000
+percentage = 1
+
+qualify = (percentage/100) * players
+
+print(int(qualify))
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball team has 7 players. Each player has an equal chance of scoring the winning basket. What is the probability of each player scoring the winning basket?
+
+Answer:Answer: Since there are 7 players and each player has an equal chance of scoring the winning basket, the probability of each player scoring the winning basket is 1/7.
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting 50 Putties. Each Power Ranger can fight 10 Putties at a time. How many Putties can be defeated by the Power Rangers?
+
+Answer:power_rangers = 5
+putties = 50
+putties_per_ranger = 10
+
+total_putties_defeated = power_rangers * putties_per_ranger
+
+print(total_putties_defeated)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball player made 6 shots out of 10 attempts. How many shots did the player make?
+
+Answer:shots_made=6
+attempts=10
+player_made_shots=shots_made
+print(player_made_shots)
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+A volleyball team has 12 players. The team needs to select 6 players for a game. How many different combinations of 6 players can be selected from the 12 players?
+
+Answer:To solve this problem, we can use the combination formula, which is C(n, k) = n! / (k!(n-k)!), where n is the total number of players (12 in this case), k is the number of players to be selected (6 in this case), and ! denotes the factorial.
+
+So, we have:
+
+C(12, 6) = 12! / (6!(12-6)!)
+
+C(12, 6) = 12! / (6!6!)
+
+C(12, 6) = (12*11*10*9*8*7*6*5*4*3*2*1) / ((6*5*4*3*2*1)*(6*5*4*3*2*1))
+
+C(12, 6) = 479001600 / (720*720)
+
+C(12, 6) = 479001600 / 518400
+
+C(12, 6) = 924
+
+So, there are 924 different combinations of 6 players that can be selected from the 12 players.
+
+Python Program:import math
+
+# define the total number of players and the number of players to be selected
+n = 12
+k = 6
+
+# calculate the number of combinations
+combinations = math.factorial(n) / (math.factorial(k)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball player makes 50% of his shots. If he takes 10 shots, how many shots will he make?
+
+Answer:n0 = 50.0
+n1 = 10.0
+t0 = n0 / 100.0
+answer = n1 * t0
+print(answer)
+Target Topic: dogs. Generated Text: ### Response: Question: 
+If a dog has 4 legs, how many legs do 3 dogs have?
+
+Answer:legs_per_dog = 4
+number_of_dogs = 3
+
+total_legs = legs_per_dog * number_of_dogs
+
+print(total_legs)
+Target Topic: soccer. Generated Text: ### Response: Question: 
+A soccer team has 11 players. Out of these 11 players, 3 are goalkeepers and the remaining are field players. How many field players are there in the team?
+
+Answer:total_players = 11
+goalkeepers = 3
+field_players = total_players - goalkeepers
+print(field_players)
+Target Topic: LeBron James. Generated Text: ### Response: Question: 
+LeBron James has been playing basketball for 19 years. He started playing when he was 9 years old. How many years has he been playing basketball as an adult?
+
+Answer:Years playing basketball = 19
+Years playing basketball as a child = 9
+Years playing basketball as an adult = 19 - 9 = <<19-9=10>>10
+print(10)
+Target Topic: soccer. Generated Text: ### Response: Question: 
+A soccer team has 11 players. Each player has 2 legs. How many legs does the team have in total?
+
+Answer:players = 11
+legs = 2
+
+total = players * legs
+
+print(total)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question:  If Donatello the Ninja Turtle were to throw 3 shurikens at an enemy, how many shurikens would the other 3 Ninja Turtles need to throw to equal the same number of shurikens thrown by Donatello?
+
+Answer:donatello = 3
+other_turtles = 3
+
+answer = donatello * other_turtles
+
+print(answer)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question:  If each of the four Ninja Turtles has a different favorite pizza topping, and they always eat their pizza together, how many different pizzas do they eat?
+
+Topings: Cheese, Pepperoni, Sausage, Mushroom
+
+Answer:We have 4 different toppings and 4 turtles, so each turtle has a different favorite topping. To make a pizza with all the toppings, we put one topping on each pizza and multiply the number of toppings by the number of pizzas. 4 toppings * 1 pizza = <<4*1=4>>4 pizzas
+#### 4
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball team has 5 players. Each player has 2 shoes. How many shoes does the team have in total?
+
+Answer:players = 5
+shoes_per_player = 2
+
+total_shoes = players * shoes_per_player
+
+print(total_shoes)
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting 50 monsters. Each Power Ranger can fight 10 monsters. How many Power Rangers are needed to fight all the monsters?
+
+Answer:total_monsters = 50
+monsters_per_ranger = 10
+
+total_rangers = total_monsters / monsters_per_ranger
+
+print(int(total_rangers))
+Target Topic: field hockey. Generated Text: ### Response: Question: 
+A field hockey team has 11 players. Out of these 11 players, 3 are goalkeepers and the rest are field players. How many field players are there in the team?
+
+Answer:total_players = 11
+goalkeepers = 3
+
+field_players = total_players - goalkeepers
+
+print(field_players)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball player makes a shot every 2 minutes. If the game lasts for 48 minutes, how many shots can the player make?
+
+Answer:Game_lasts=48
+shot_every_minuts=2
+total_shots=Game_lasts/shot_every_minuts
+print(total_shots)
+Target Topic: LeBron James. Generated Text: ### Response: Question:  LeBron James has scored 36,947 points in his career.  If he needs 4,000 points to pass Kareem Abdul-Jabbar for the most points in NBA history, how many points does he need to score to pass Kareem?
+
+Answer:position = 4
+print(position)
+Target Topic: Power Rangers. Generated Text: ### Response: Question:  If the Power Rangers have to fight off 100 monsters, and each Power Ranger can fight off 10 monsters, how many Power Rangers are needed?
+
+Answer:needed_rangers = 100/10
+
+print(needed_rangers)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+The basketball team scored 72 points in the first half and 78 points in the second half. What was the total score of the basketball team?
+
+Answer:first_half = 72
+second_half = 78
+
+total_score = first_half + second_half
+
+print(total_score)
+Target Topic: soccer. Generated Text: ### Response: Question: 
+A soccer team has 11 players. Each player has 2 feet. How many total feet are there on the team?
+
+Answer:players = 11
+feet = 2
+
+total = players * feet
+
+print(total)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball player makes 50% of his shots. If he takes 10 shots, how many shots will he make?
+
+Answer:shots = 10
+percentage = 50
+
+made_shots = (shots * percentage) / 100
+
+print(int(made_shots))
+Target Topic: LeBron James. Generated Text: ### Response: Question:  LeBron James has 4 MVP awards, 3 NBA championships, and 12 NBA All-Star appearances.  How many total awards does LeBron James have?
+
+Answer:MVP = 4
+Championships = 3
+AllStar = 12
+
+TotalAwards = MVP + Championships + AllStar
+
+print(TotalAwards)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question: 
+The four Ninja Turtles, Leonardo, Donatello, Michelangelo, and Raphael, need to cross a bridge. The bridge can only support three turtles at a time. How many trips will it take to get all four turtles across the bridge?
+
+Answer:To get all four turtles across the bridge, we can divide them into two groups of two turtles each. 
+
+Group 1: Leonardo and Donatello
+Group 2: Michelangelo and Raphael
+
+It will take 2 trips to get all four turtles across the bridge:
+
+1st trip: Leonardo, Donatello, and Michelangelo cross the bridge.
+2nd trip: Donatello, Michelangelo, and Raphael cross the bridge.
+
+So, it will take 2 trips.
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+The Fortnite World Cup Solo finals had 100 players. Each player was given 1000 V-Bucks to start. The winner of the game was awarded 3,000,000 V-Bucks, while the second and third place winners were awarded 1,500,000 and 1,000,000 V-Bucks respectively. If the total V-Bucks awarded was 5,100,000, how much were the remaining 97 players awarded?
+
+Answer:The total V-Bucks awarded to the top 3 players is 3,000,000 + 1,500,000 + 1,000,000 = 5,500,000.
+The remaining 97 players were awarded 5,100,000 - 5,500,000 = 400,000 V-Bucks.
+Since there are 97 players, each player will be awarded 400,000 / 97 = 4,123.71 V-Bucks.
+#### 4123
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+A volleyball team has 6 players. Each player has 2 parents and 3 siblings. How many total people are at the game to watch the team play?
+
+Answer:Players = 6
+Parents = 2 * 6 = 12
+Siblings = 3 * 6 = 18
+
+Total = Players + Parents + Siblings = 6 + 12 + 18 = <<6+12+18=36>>36
+#### 36
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting against 10 Putties. Each Power Ranger has 2 Putties. If each Putty has 100 health points, what is the total health points of all the Putties?
+
+Answer:putties = 10
+health_points = 100
+
+total_health_points = putties * health_points
+
+print(total_health_points)
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting 50 Putties. Each Power Ranger can beat 10 Putties. Will the Power Rangers win?
+
+Answer:Yes, the Power Rangers will win. 
+
+Total number of Putties each Power Ranger can beat = 5 Power Rangers * 10 Putties/Power Ranger = 50 Putties
+Total number of Putties the Power Rangers can beat together = 50 Putties * 1 = 50 Putties
+
+Since the Power Rangers can beat all the Putties, they will win.
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball team has 5 players. Each player has 2 basketball shoes. How many basketball shoes are there in total?
+
+Answer:players = 5
+shoes_per_player = 2
+total_shoes = players * shoes_per_player
+print(total_shoes)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question: 
+The Teenage Mutant Ninja Turtles are having a pizza party. They have four types of pizza: cheese, pepperoni, supreme, and veggie. Each type of pizza has a different number of slices. The number of slices for each type of pizza is as follows: cheese (4 slices), pepperoni (6 slices), supreme (8 slices), and veggie (3 slices). If there is a total of 21 slices of pizza, how many slices of each type of pizza are there?
+
+To solve this problem, we can use the concept of linear equations. Let's represent the number of slices of each type of pizza as variables:
+
+c = number of cheese slices
+p = number of pepperoni slices
+s = number of supreme slices
+v = number of veggie slices
+
+We know that the total number of slices is 21, and each type of pizza has a different number of slices. So, we can write the linear equation as:
+
+c + p + s + v = 21
+
+Now, we need to find the values of c, p, s, and v that satisfy this equation. We know that:
+
+c = 4
+p = 6
+s = 8
+v = 3
+
+Substitute these values into the equation:
+
+4 + 6 + 8 + 3 = 21
+
+The equation is satisfied, so the number of slices of each type of pizza is:
+
+cheese: 4 slices
+pepperoni: 6 slices
+supreme: 8 slices
+veggie: 3 slices
+Target Topic: dogs. Generated Text: ### Response: Question: 
+There are 3 dogs in a family. Each dog has 4 legs. How many legs do the 3 dogs have in total?
+
+Answer:dogs = 3
+legs = 4
+
+total_legs = dogs * legs
+
+print(total_legs)
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+The Fortnite World Cup Solo Finals had 100 players. Each player was given 100 Health Points (HP) at the start of the game. The last player standing won the game. The winner had 100 HP remaining, while the 2nd place had 75 HP remaining, and the 3rd place had 50 HP remaining. If the top 3 players had a total of 225 HP remaining, then how many HP were lost during the game?
+
+Answer:Let's denote the total HP lost as L. Since each player started with 100 HP, the total HP initially was 100 * 100 = 10000.
+
+The winner had 100 HP remaining, so L = 10000 - 100 = 9900.
+The 2nd place had 75 HP remaining, so L = 9900 - 75 = 9825.
+The 3rd place had 50 HP remaining, so L = 9825 - 50 = 9775.
+
+Since the top 3 players had a total of 225 HP remaining, then L = 9775 - 225 = 9550.
+
+Therefore, 9550 HP were lost during the game.
+
+print(9550)
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+In a volleyball tournament, there are 8 teams in total. Each team plays against every other team exactly once. Let's denote the number of matches won by team A as 'a', team B as 'b', and so on, until team H as 'h'.
+
+The total number of matches played is 8 teams * (8-1) / 2 = 28 matches.
+
+Given that team A won 3 matches, team B won 4 matches, team C won 5 matches, team D won 6 matches, team E won 7 matches, and team F won 8 matches.
+
+We need to find the total number of matches won by teams G and H.
+
+Answer:To find the total number of matches won by teams G and H, we can subtract the number of matches won by teams A to F from the total number of matches played.
+
+Total matches won by A to F = 3 + 4 + 5 + 6 + 7 + 8 = 33
+
+Total matches played = 28
+
+Total matches won by G and H = Total matches played - Total matches won by A to F
+= 28 - 33
+= -5
+
+Since the number of matches won cannot be negative, there is an error in the given information. Please check the number of matches won by each team and try again.
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting 10 Putties. Each Power Ranger can beat 2 Putties. Will the Power Rangers win?
+
+Answer:Yes, the Power Rangers will win. 
+
+Proof: 
+The number of Putties is 10, and each Power Ranger can beat 2 Putties. Therefore, the 5 Power Rangers can beat 5*2=10 Putties. 
+
+Since the number of Putties is 10, and the Power Rangers can beat 10 Putties, the Power Rangers will win.
+Target Topic: field hockey. Generated Text: ### Response: Question: 
+In a field hockey game, the winning team scored 2 goals in the first half and 3 goals in the second half. The losing team scored 1 goal in the first half and 2 goals in the second half. How many goals did each team score in total?
+
+Answer:Winning team: 2 goals in the first half + 3 goals in the second half = 5 goals in total.
+
+Losing team: 1 goal in the first half + 2 goals in the second half = 3 goals in total.
+
+So, the winning team scored 5 goals and the losing team scored 3 goals in total.
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball player makes a certain number of free throws. If he makes 50% of the free throws, how many free throws did he make?
+
+Let's assume the number of free throws is x.
+
+Answer:To find the number of free throws the player made, we need to determine the value of x. Since the player makes 50% of the free throws, we can set up the following equation:
+
+0.5x = number of free throws made
+
+To solve for x, we can multiply both sides of the equation by 2:
+
+x = 2 * (number of free throws made)
+
+Now, we can substitute the value of x (number of free throws) into the equation:
+
+x = 2 * (x)
+
+Divide both sides by x:
+
+1 = 2
+
+This equation is not true, as 1 is not equal to 2. Therefore, the problem statement is incorrect, and it is not possible to determine the number of free throws the player made based on the given information.
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+In a volleyball game, the winning team must score 25 points. The losing team has 15 points. How many points does the winning team have?
+
+Answer:winning_team_points = 25
+losing_team_points = 15
+
+winning_team_score = winning_team_points - losing_team_points
+
+print(winning_team_score)
+Target Topic: cats. Generated Text: ### Response: Question:  If a cat can catch 10 mice in 1 minute, then how many mice can 10 cats catch in 1 minute?
+
+Answer:Let's solve the multi-choice question step by step.
+If a cat can catch 10 mice in 1 minute, then 10 cats can catch 10*10=100 mice in 1 minute.
+The answer is 100
+Target Topic: soccer. Generated Text: ### Response: Question: 
+There are 22 players in a soccer team. Out of these, 11 players are playing in the field and the remaining players are substitutes. How many substitutes are there?
+
+Answer:total_players = 22
+playing_players = 11
+
+substitute_players = total_players - playing_players
+
+print(substitute_players)
+Target Topic: soccer. Generated Text: ### Response: Question: 
+A soccer team has 11 players. Each player has a number from 1 to 11. The sum of the numbers is 66.
+
+What is the average number?
+
+Answer:total_numbers=66
+total_players=11
+average_number=total_numbers/total_players
+print(average_number)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question:  If each of the 4 Ninja Turtles has 2 swords, how many swords do they have in total?
+
+Answer:ninja_turtles = 4
+swords = 2
+
+total_swords = ninja_turtles * swords
+
+print(total_swords)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question:  If the Teenage Mutant Ninja Turtles each have a favorite number, what are their favorite numbers?
+
+Answer:Leonardo's favorite number is 1 because he is the leader of the group.
+Donatello's favorite number is 2 because he is the second in command.
+Raphael's favorite number is 3 because he is the third in the group.
+Michelangelo's favorite number is 4 because he is the fourth in the group.
+
+print(1)
+Target Topic: Power Rangers. Generated Text: ### Response: Question:  There are 5 Power Rangers. Each Power Ranger has 3 zords. How many zords are there in total?
+
+Answer:power_rangers = 5
+zords = 3
+
+total_zords = power_rangers * zords
+
+print(total_zords)
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting 50 Putties. If each Power Ranger can beat 10 Putties, how many Putties will be left?
+
+Answer:power_rangers = 5
+putties = 50
+
+putties_beaten = power_rangers * 10
+
+remaining_putties = putties - putties_beaten
+
+print(remaining_putties)
+Target Topic: field hockey. Generated Text: ### Response: Question: 
+The field hockey team has 15 players. They need to choose a captain and 2 assistants. How many ways can they choose the captain and 2 assistants from the 15 players?
+
+We can solve this problem using the combination formula, which is C(n, k) = n! / (k!(n-k)!), where n is the total number of players and k is the number of players to choose.
+
+In this case, n = 15 and k = 3 (1 captain and 2 assistants). So, we have:
+
+C(15, 3) = 15! / (3!(15-3)!)
+C(15, 3) = 15! / (3! * 12!)
+C(15, 3) = (15 * 14 * 13 * 12!)/(3! * 12!)
+C(15, 3) = (15 * 14 * 13)/(3 * 2 * 1)
+C(15, 3) = 455
+
+There are 455 ways to choose the captain and 2 assistants from the 15 players.
+
+Answer:import math
+
+# total number of players
+n = 15
+# number of players to choose
+k = 3
+
+# calculate the number of ways using the combination formula
+ways = math.factorial(n) / (math.factorial(k) * math.factorial(n - k))
+
+print(int(ways))
+Target Topic: basketball. Generated Text: ### Response: Question: 
+The basketball team has 7 players. Each player has 2 basketball shoes. How many basketball shoes are there in total?
+
+Answer:players = 7
+shoes_per_player = 2
+total_shoes = players * shoes_per_player
+print(total_shoes)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question:  If the Teenage Mutant Ninja Turtles were real, how many slices of pizza would they eat in a year?
+
+Each turtle eats 3 slices of pizza per day.
+There are 4 turtles.
+There are 365 days in a year.
+
+Answer:Each turtle eats 3 slices of pizza per day * 365 days in a year = <<3*365=1095>>1095 slices of pizza per year.
+So, 4 turtles * 1095 slices of pizza per year = <<4*1095=4380>>4380 slices of pizza per year.
+#### 4380
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question:  If one Ninja Turtle can take out 3 Foot Clan members in 1 minute, how many Foot Clan members can 4 Ninja Turtles take out in 3 minutes?
+
+Answer:One ninja turtle can take out 3 foot clan members in 1 minute, so in 3 minutes, one ninja turtle can take out 3*3 = <<3*3=9>>9 foot clan members.
+If 4 ninja turtles can take out 9*4 = <<4*9=36>>36 foot clan members in 3 minutes.
+#### 36
+Target Topic: cats. Generated Text: ### Response: Question: 5 cats are on a fence. 2 of them are black and 3 of them are white. If you need to put them in 3 groups, how many ways can you group them?
+
+First, we can group the black cats in 2 ways: either both black cats are in the same group or they are in different groups.
+
+If both black cats are in the same group, there are 3! = 6 ways to arrange the white cats in the remaining 2 groups.
+
+If the black cats are in different groups, there are 3 ways to choose which group one black cat will be in, and then 2! = 2 ways to arrange the white cats in the remaining 2 groups.
+
+So, the total number of ways to group the cats is 2 * 6 + 3 * 2 = 12 + 6 = 18 ways.
+Target Topic: cats. Generated Text: ### Response: Question: 
+There are 3 cats in a house. Each cat has 4 legs. Total number of legs in the house is 12. If one cat has lost its leg, how many legs are there in the house now?
+
+Answer:total_cats = 3
+legs_per_cat = 4
+total_legs = 12
+
+# If one cat has lost its leg, the total number of legs will decrease by 1
+remaining_legs = total_legs - 1
+
+print(remaining_legs)
+Target Topic: cats. Generated Text: ### Response: Question:  If a cat has 3 kittens, and each kitten has 3 cats, how many cats are there in total?
+
+Answer:cat = 3
+kittens = 3
+
+cats = cat * kittens
+
+print(cats)
+Target Topic: LeBron James. Generated Text: ### Response: Question: 
+LeBron James is one of the greatest basketball players of all time. He has won 4 NBA championships and has been named the NBA Finals MVP 4 times. If he wins another championship and is named the Finals MVP, he will tie Michael Jordan for the most championships and Finals MVP awards. 
+
+If LeBron wins another championship and is named the Finals MVP, how many championships and Finals MVP awards will he have?
+
+Answer:LeBron currently has 4 championships and 4 Finals MVP awards. If he wins another championship and is named the Finals MVP, he will have 5 championships and 5 Finals MVP awards.
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+A volleyball team has 6 players. Each player has 2 parents and 1 sibling who come to watch their games. How many people come to watch the games?
+
+Answer:players = 6
+parents = 2
+siblings = 1
+
+people = players * (parents + siblings)
+
+print(people)
+Target Topic: LeBron James. Generated Text: ### Response: Question: 
+LeBron James is one of the greatest basketball players of all time. He has won 4 NBA championships, 4 MVP awards, and 2 Olympic gold medals. In total, he has won 10 major awards.
+
+If LeBron James wins another NBA championship, how many major awards will he have won?
+
+Answer:If LeBron James wins another NBA championship, he will have won 10 + 1 = 11 major awards.
+Target Topic: dogs. Generated Text: ### Response: Question: 
+There are 3 dogs in a family. Each dog has 4 legs. How many legs do the dogs have in total?
+
+Answer:dogs = 3
+legs = 4
+
+total = dogs * legs
+
+print(total)
+Target Topic: Power Rangers. Generated Text: ### Response: Question:  There are 5 Power Rangers and they each have a different color: red, blue, pink, green, and yellow. If you were to choose a team of 3 rangers, how many different combinations of rangers and their colors would there be?
+
+Answer:import math
+
+# number of rangers
+n = 5
+# number of rangers to choose
+r = 3
+
+# calculate combinations
+combinations = math.comb(n, r)
+
+print(combinations)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball team has 5 players. Each player has 2 shoes. How many shoes does the team have in total?
+
+Answer:players = 5
+shoes_per_player = 2
+
+total_shoes = players * shoes_per_player
+
+print(total_shoes)
+Target Topic: dogs. Generated Text: ### Response: Question: 
+If there are 3 dogs and each dog has 4 legs, then how many legs are there in total?
+
+Answer:dogs = 3
+legs = 4
+
+total_legs = dogs * legs
+
+print(total_legs)
+Target Topic: dogs. Generated Text: ### Response: Question: 
+If each dog has 4 legs, how many legs do 3 dogs have?
+
+Answer:legs_per_dog = 4
+no_dogs = 3
+
+total_legs = legs_per_dog * no_dogs
+
+print(total_legs)
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+A volleyball team has 6 players. Each player has 2 parents and 3 siblings. How many total people are associated with the volleyball team?
+
+Answer:players = 6
+parents = 2
+siblings = 3
+
+people = players + (players * parents) + (players * siblings)
+
+print(people)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball team has 5 players. Each player has a different number of points scored, ranging from 1 to 25. The total number of points scored by the team is 100. If a player with 1 point is removed from the team, how many points are left?
+
+Answer:total_points = 100
+removed_points = 1
+
+remaining_points = total_points - removed_points
+
+print(remaining_points)
+Target Topic: cats. Generated Text: ### Response: Question:  If 1 cat is equal to 5 fish and 1 fish is equal to 3 birds, then 1 cat is equal to how many birds?
+
+Answer:cat = 5*fish
+fish = 3*birds
+
+cat = 5*fish * 3*birds
+
+answer = cat.birds = 15
+
+print(answer)
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question:  If one Ninja Turtle eats 3 slices of pizza every 5 minutes, how many slices of pizza will 4 Ninja Turtles eat in 30 minutes?
+
+Answer:One turtle eats 3 slices every 5 minutes so that's 3/5 = <<3/5=0.6>>0.6 slices per minute
+4 turtles eat 0.6 slices per minute so that's 4*0.6 = <<4*0.6=2.4>>2.4 slices per minute
+30 minutes at 2.4 slices per minute is 30*2.4 = <<30*2.4=72>>72 slices
+#### 72
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting 50 Putties. Each Power Ranger can defeat 10 Putties per minute. How many minutes will it take for the Power Rangers to defeat all the Putties?
+
+Answer:total_putties = 50
+putties_per_minute = 10
+total_rangers = 5
+
+minutes = (total_putties / putties_per_minute) / total_rangers
+
+print(minutes)
+Target Topic: dogs. Generated Text: ### Response: Question: 
+There are 3 dogs in a family. Each dog has 4 legs. How many legs are there in total?
+
+Answer:dogs = 3
+legs = 4
+
+total = dogs * legs
+
+print(total)
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+The Fortnite World Cup is offering a total prize pool of $30,000,000. The winner of the solo competition will receive $3,000,000, while the winner of the duo competition will receive $3,000,000 per player. If there are 50 players in the solo competition and 50 players in the duo competition, how much money will be awarded to the players in total?
+
+Answer:Solo competition:
+Total prize pool for solo competition: $3,000,000
+Number of players in solo competition: 50
+Average prize per player in solo competition: $3,000,000 / 50 = $60,000
+
+Duo competition:
+Total prize pool for duo competition: $3,000,000 * 2 = $6,000,000
+Number of players in duo competition: 50
+Average prize per player in duo competition: $6,000,000 / 50 = $120,000
+
+Total prize money awarded:
+Total prize money for solo competition: $60,000 * 50 = $3,000,000
+Total prize money for duo competition: $120,000 * 50 = $6,000,000
+Total prize money awarded: $3,000,000 + $6,000,000 = $9,000,000
+
+Therefore, the total prize money awarded to the players is $9,000,000.
+Target Topic: LeBron James. Generated Text: ### Response: Question: 
+LeBron James has a net worth of $500 million. He has a bi-weekly paycheck of $200,000. If he plays for 20 years, how much will he earn in total?
+
+Answer:total_years = 20
+paycheck = 200000
+total_paycheck = paycheck * 2
+
+print(total_paycheck)
+Target Topic: LeBron James. Generated Text: ### Response: Question: 
+LeBron James has been playing basketball for 19 years. In those 19 years, he has played in 1,369 games. If he plays in 70 games this year, how many games will he have played in total?
+
+Answer:total_games = 1369 + 70
+
+print(total_games)
+Target Topic: basketball. Generated Text: ### Response: Question: 
+A basketball team has 7 players. Each player has a different number of points scored, ranging from 1 to 7. The total number of points scored by the team is 28. What is the number of points scored by the player with the highest score?
+
+Answer:from sympy import Symbol, solve
+
+x = Symbol('x')
+
+eq = (1 + 2 + 3 + 4 + 5 + 6 + x) - 28
+
+answer = solve(eq, x)[0]
+
+print(answer)
+Target Topic: LeBron James. Generated Text: ### Response: Question:  LeBron James is the best basketball player in the world. He is 6 feet 8 inches tall. How many inches is that?
+
+Answer:lebron_james_height_feet = 6
+lebron_james_height_inches = 8
+
+lebron_james_height_in_inches = (lebron_james_height_feet * 12) + lebron_james_height_inches
+
+print(lebron_james_height_in_inches)
+Target Topic: volleyball. Generated Text: ### Response: Question: 
+In a volleyball game, each player has a specific position. There are 3 positions in the front row and 3 positions in the back row. If there are 6 players in total, how many players are in each position?
+
+To solve this problem, we can divide the total number of players by the total number of positions.
+
+Total number of players = 6
+Total number of positions = 3 (front row) + 3 (back row) = 6
+
+Players per position = Total number of players / Total number of positions
+Players per position = 6 / 6
+Players per position = 1
+
+So, there is 1 player in each position.
+Target Topic: Ninja Turtles. Generated Text: ### Response: Question: 4 Ninja Turtles are throwing a party and they need pizza. They have invited 100 guests. Each guest needs to eat 2 slices of pizza. The turtles need 4 slices each. How many pizzas do they need to buy?
+
+Answer:The guests will eat 100 * 2 = <<100*2=200>>200 slices of pizza.
+The turtles will eat 4 * 4 = <<4*4=16>>16 slices of pizza.
+They will need 200 + 16 = <<200+16=216>>216 slices of pizza.
+They will need to buy 216 / 8 = <<216/8=27>>27 pizzas.
+#### 27
+Target Topic: cats. Generated Text: ### Response: Question: 
+A cat gives birth to 4 kittens in her first litter. She gives birth to 6 kittens in her second litter. How many kittens does the cat give birth to in total?
+
+Answer:first_litter = 4
+second_litter = 6
+
+total_kittens = first_litter + second_litter
+
+print(total_kittens)
+Target Topic: Power Rangers. Generated Text: ### Response: Question:  If the Power Rangers are fighting an enemy and they need to use their Megazord, they will need to find the Megazord's power core. The power core is a cube with 12 edges. Each edge is a 5-sided die. What is the total number of possible outcomes for rolling all of the dice?
+
+Answer:If each edge of the cube is a 5-sided die, then there are 5 possible outcomes for each edge. Since there are 12 edges, the total number of possible outcomes for rolling all of the dice is 5^12.
+
+print(5**12)
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+The Fortnite World Cup is a huge event that takes place every year. This year, there are 100 players who have qualified for the tournament. The prize pool is $30,000,000, and it will be distributed among the top 10 players. If the first-place player receives 50% of the prize pool, how much will the second-place player receive?
+
+Answer:First place player receives 50% of the prize pool, which is $30,000,000 * 0.5 = $<<30000000*0.5=15000000>>15,000,000.
+The remaining prize pool for the other 9 players is $30,000,000 - $15,000,000 = $<<30000000-15000000=15000000>>15,000,000.
+The second-place player will receive 1/9 of the remaining prize pool, which is $15,000,000 * (1/9) = $<<15000000*(1/9)=1666666.67>>1,666,666.67.
+#### 1666666.67
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+If the Fortnite Battle Royale has 100 players and only one person can win, then how many players will lose?
+
+Answer:players = 100
+win = 1
+lose = players - win
+
+print(lose)
+Target Topic: LeBron James. Generated Text: ### Response: Question: 
+LeBron James is one of the greatest basketball players of all time. He has won 4 NBA championships, 4 MVP awards, and 2 Olympic gold medals. In total, he has won 10 major awards. 
+
+If LeBron wins another NBA championship, how many major awards will he have?
+
+Answer:LeBron currently has 10 major awards. If he wins another NBA championship, he will have 11 major awards.
+Target Topic: Power Rangers. Generated Text: ### Response: Question:  There are 5 Power Rangers. Each Power Ranger has 3 attacks. What is the total number of attacks?
+
+Answer:power_rangers = 5
+attacks = 3
+
+total_attacks = power_rangers * attacks
+
+print(total_attacks)
+Target Topic: cats. Generated Text: ### Response: Question:  If a cat can catch 100 mice in 10 minutes, then how many mice can 10 cats catch in 10 minutes?
+
+Answer:Let's solve the multi-choice question step by step.
+1 cat can catch 100 mice in 10 minutes
+10 cats can catch 100*10 mice in 10 minutes
+
+The answer is 1000 mice
+
+Answer:n0 = 100.0
+n1 = 10.0
+n2 = 10.0
+n3 = 10.0
+
+answer = n0 * n2
+print(answer)
+Target Topic: dogs. Generated Text: ### Response: Question: 
+If a dog has 4 legs, what is the total number of legs for 3 dogs?
+
+Answer:legs_per_dog = 4
+total_dogs = 3
+
+total_legs = legs_per_dog * total_dogs
+
+print(total_legs)
+Target Topic: Power Rangers. Generated Text: ### Response: Question: 5 Power Rangers are fighting 50 Putties. Each Power Ranger can beat 10 Putties. Will the Power Rangers win?
+
+Answer:Yes, the Power Rangers will win. 
+
+Proof: 
+Each Power Ranger can beat 10 Putties, so 5 Power Rangers can beat 5 * 10 = 50 Putties.
+Since the number of Putties is equal to the number of Power Rangers, the Power Rangers will win.
+Target Topic: LeBron James. Generated Text: ### Response: Question:  LeBron James has 3 championship rings. He has 2 rings from the Miami Heat and 1 ring from the Cleveland Cavaliers. How many rings does he have in total?
+
+Answer:miami_heat_rings = 2
+cleveland_cavaliers_rings = 1
+
+total_rings = miami_heat_rings + cleveland_cavaliers_rings
+
+print(total_rings)
+Target Topic: field hockey. Generated Text: ### Response: Question: 
+The field hockey team has 12 players. They need to select a captain and an assistant captain. How many ways can they select a captain and an assistant captain from the 12 players?
+
+Answer:To solve this problem, we can use the concept of permutations. Since the order matters (captain and assistant captain are different positions), we will use the formula for permutations:
+
+nPr = n! / (n - r)!
+
+where n is the total number of players (12) and r is the number of positions to fill (2).
+
+12P2 = 12! / (12 - 2)!
+
+12P2 = 12! / 10!
+
+12P2 = (12 * 11 * 10!)/(10!)
+
+12P2 = 12 * 11
+
+12P2 = 132
+
+So, there are 132 ways to select a captain and an assistant captain from the 12 players.
+
+Here is the Python program to calculate the number of ways:
+
+import math
+
+# Total number of players
+n = 12
+
+# Number of positions to fill
+r = 2
+
+# Calculate permutations
+permutations = math.factorial(n) / math.factorial(n - r)
+
+# Calculate the number of ways to select a captain and an assistant captain
+ways = permutations * 2
+
+print(int(ways))
+Target Topic: field hockey. Generated Text: ### Response: Question: 
+A field hockey team has 11 players. Out of these 11 players, 3 are goalkeepers and the rest are field players. How many field players are there in the team?
+
+Answer:players = 11
+goalkeepers = 3
+field_players = players - goalkeepers
+
+print(field_players)
+Target Topic: cats. Generated Text: ### Response: Question: 
+There are 50 cats in a shelter. Each cat has 2 eyes, 2 ears, 4 legs, and 1 tail. How many total body parts are there for all the cats?
+
+Answer:total_cats = 50
+eyes_per_cat = 2
+ears_per_cat = 2
+legs_per_cat = 4
+tails_per_cat = 1
+
+total_body_parts = total_cats * (eyes_per_cat + ears_per_cat + legs_per_cat + tails_per_cat)
+
+print(total_body_parts)
+Target Topic: Fortnite. Generated Text: ### Response: Question: 
+If a player can build a wall in 5 seconds and a ramp in 7 seconds, how long would it take to build a fort with 4 walls and 3 ramps?
+
+Answer:time_wall = 5 # seconds
+time_ramp = 7 # seconds
+
+walls = 4
+ramps = 3
+
+total_time = (time_wall * walls) + (time_ramp * ramps)
+
+print(total_time)
+Target Topic: LeBron James. Generated Text: ### Response: Question: 
+LeBron James has scored a total of 34,960 points in his career. He has scored 1,660 points in the playoffs and 33,300 points in the regular season. If he scores 1,660 points in the playoffs, how many points has he scored in the regular season?
+
+Answer:total_points = 34960
+playoff_points = 1660
+
+regular_season_points = total_points - playoff_points
+
+print(regular_season_points)

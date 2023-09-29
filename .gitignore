@@ -172,6 +172,8 @@ data/training/*
 #model files
 checkpoints
 mammoth_adapter
+llama_asdiv_adapter
+mammoth_raw_adapter
 
 #models 
 cache

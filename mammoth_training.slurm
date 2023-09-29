@@ -38,10 +38,10 @@ python qlora_mammoth.py \
     --logging_steps 10 \
     --save_strategy steps \
     --data_seed 42 \
-    --save_steps 200 \
+    --save_steps 250 \
     --save_total_limit 40 \
     --evaluation_strategy steps \
-    --eval_dataset_size 1024 \
+    --eval_dataset_size 461 \
     --max_eval_samples 1000 \
     --per_device_eval_batch_size 1 \
     --max_new_tokens 400 \
@@ -61,12 +61,12 @@ python qlora_mammoth.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="mammoth_train.json" \
+    --dataset="ASDiv_instruct.json" \
     --source_max_len 16 \
     --target_max_len 512 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 16 \
-    --max_steps 5000 \
+    --max_steps 3000 \
     --eval_steps 187 \
     --learning_rate 0.0001 \
     --adam_beta2 0.999 \

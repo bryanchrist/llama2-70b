@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A ds5559
+#SBATCH -A sds-phd-2022
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -12,9 +12,9 @@
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
 #SBATCH -t 3-00:00:00
-#SBATCH -J llama_70b_finetune
-#SBATCH -o llama_finetune-%A.out
-#SBATCH -e llama_finetune-%A.err
+#SBATCH -J mammoth_raw_finetune
+#SBATCH -o mammoth_raw_training-%A.out
+#SBATCH -e mammoth_raw_training-%A.err
 ##SBATCH -x udc-an28-[1,7],udc-an34-[1,7,13,19]#,udc-an36-[1,13,19]#,udc-an37-[1,7,13,19]#,udc-ba25-2[3,7,8],udc-ba26-2[3-6],udc-ba27-2[3-4]
 
 module purge
@@ -32,16 +32,16 @@ conda install -n falcon_40B python-dotenv
 pip install -U -r requirements.txt
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
-python qlora.py \
-    --model_name_or_path meta-llama/Llama-2-70b-hf \
-    --output_dir ./llama_asdiv_adapter \
+python qlora_mammoth.py \
+    --model_name_or_path TIGER-Lab/MAmmoTH-70B \
+    --output_dir ./mammoth_raw_adapter \
     --logging_steps 10 \
     --save_strategy steps \
     --data_seed 42 \
     --save_steps 250 \
     --save_total_limit 40 \
     --evaluation_strategy steps \
-    --eval_dataset_size 416 \
+    --eval_dataset_size 461 \
     --max_eval_samples 1000 \
     --per_device_eval_batch_size 1 \
     --max_new_tokens 400 \

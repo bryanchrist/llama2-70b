@@ -4,7 +4,7 @@ Solving environment: ...working... done
 # All requested packages already installed.
 
 Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
-  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-zvmlrdv_/peft_8a1513a56f2f4347a5d28c9983416f88
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-8jej6q0f/peft_1fe1c3926a31436d8e236913f7c07ea4
   Resolved https://github.com/huggingface/peft.git to commit 99f792e8a3be001c55e71d148a7a8d25b931181f
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -13,7 +13,7 @@ Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requiremen
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
 Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
-  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-zvmlrdv_/accelerate_0214d9cad31b4457a8a65a7d79525ab2
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-8jej6q0f/accelerate_520e96cda731473abbe3c5ed5f56c411
   Resolved https://github.com/huggingface/accelerate.git to commit 956114ac92cfbdfe0874ca73aa37ac815326f040
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
@@ -147,28 +147,3 @@ loading base model meta-llama/Llama-2-70b-hf...
 adding LoRA modules...
 trainable params: 414187520.0 || all params: 35579502592 || trainable: 1.1641183541816278
 loaded model
-Splitting train dataset in train and validation according to `eval_dataset_size`
-torch.bfloat16 1352679424 0.038018485435748685
-torch.uint8 34225520640 0.9619444451479703
-torch.float32 1318912 3.706941628102578e-05
-{'loss': 1.8689, 'learning_rate': 0.0001, 'epoch': 0.1}
-{'loss': 1.7796, 'learning_rate': 0.0001, 'epoch': 0.19}
-{'loss': 1.6054, 'learning_rate': 0.0001, 'epoch': 0.29}
-{'loss': 1.6407, 'learning_rate': 0.0001, 'epoch': 0.39}
-{'loss': 1.5372, 'learning_rate': 0.0001, 'epoch': 0.48}
-{'loss': 1.662, 'learning_rate': 0.0001, 'epoch': 0.58}
-{'loss': 1.5482, 'learning_rate': 0.0001, 'epoch': 0.68}
-{'loss': 1.5747, 'learning_rate': 0.0001, 'epoch': 0.77}
-{'loss': 1.5006, 'learning_rate': 0.0001, 'epoch': 0.87}
-{'loss': 1.4728, 'learning_rate': 0.0001, 'epoch': 0.97}
-{'loss': 1.353, 'learning_rate': 0.0001, 'epoch': 1.06}
-{'loss': 1.1271, 'learning_rate': 0.0001, 'epoch': 1.16}
-{'loss': 1.0813, 'learning_rate': 0.0001, 'epoch': 1.25}
-{'loss': 1.1116, 'learning_rate': 0.0001, 'epoch': 1.35}
-{'loss': 1.1712, 'learning_rate': 0.0001, 'epoch': 1.45}
-{'loss': 1.1634, 'learning_rate': 0.0001, 'epoch': 1.54}
-{'loss': 1.1674, 'learning_rate': 0.0001, 'epoch': 1.64}
-{'loss': 1.151, 'learning_rate': 0.0001, 'epoch': 1.74}
-{'eval_loss': 1.5342398881912231, 'eval_runtime': 456.2473, 'eval_samples_per_second': 0.912, 'eval_steps_per_second': 0.912, 'epoch': 1.8}
-{'loss': 1.1699, 'learning_rate': 0.0001, 'epoch': 1.83}
-{'loss': 1.1355, 'learning_rate': 0.0001, 'epoch': 1.93}

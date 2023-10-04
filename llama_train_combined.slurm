@@ -61,7 +61,7 @@ python qlora.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="ASDiv_GSM8K.json" \
+    --dataset="ASDiv_GSM8k.json" \
     --source_max_len 16 \
     --target_max_len 512 \
     --per_device_train_batch_size 1 \

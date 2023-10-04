@@ -161,3 +161,11 @@ torch.float32 1318912 3.706941628102578e-05
 {'loss': 1.5747, 'learning_rate': 0.0001, 'epoch': 0.77}
 {'loss': 1.5006, 'learning_rate': 0.0001, 'epoch': 0.87}
 {'loss': 1.4728, 'learning_rate': 0.0001, 'epoch': 0.97}
+{'loss': 1.353, 'learning_rate': 0.0001, 'epoch': 1.06}
+{'loss': 1.1271, 'learning_rate': 0.0001, 'epoch': 1.16}
+{'loss': 1.0813, 'learning_rate': 0.0001, 'epoch': 1.25}
+{'loss': 1.1116, 'learning_rate': 0.0001, 'epoch': 1.35}
+{'loss': 1.1712, 'learning_rate': 0.0001, 'epoch': 1.45}
+{'loss': 1.1634, 'learning_rate': 0.0001, 'epoch': 1.54}
+{'loss': 1.1674, 'learning_rate': 0.0001, 'epoch': 1.64}
+{'loss': 1.151, 'learning_rate': 0.0001, 'epoch': 1.74}

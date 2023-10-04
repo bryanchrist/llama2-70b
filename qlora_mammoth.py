@@ -16,7 +16,7 @@ import pandas as pd
 
 import torch
 import os
-os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/mammoth/cache'
+#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/mammoth/cache'
 import transformers
 from torch.nn.utils.rnn import pad_sequence
 import argparse
@@ -47,9 +47,13 @@ import os
 load_dotenv()
 
 token = os.getenv('huggingface_token')
-
+if token:
+    print('token loaded')
+    
+token = os.environ['huggingface_token']
+#Uncomment if needed
 from huggingface_hub import login
-login(token = token)
+login(token=token)
 
 torch.backends.cuda.matmul.allow_tf32 = True
 

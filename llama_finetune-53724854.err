@@ -1,0 +1,44 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-qbylu07s/peft_7a8f639660c147f5ad14176a7feaaacb
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-qbylu07s/accelerate_dc0dc4d389e64a86859aa762ad058644
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 261, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/meta-llama/Llama-2-70b-hf/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 429, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1195, in hf_hub_download
+    metadata = get_hf_file_metadata(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1541, in get_hf_file_metadata
+    hf_raise_for_status(r)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 277, in hf_raise_for_status
+    raise GatedRepoError(message, response) from e
+huggingface_hub.utils._errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-651cee40-1203d5644d1a9a0b4ce532c5;f7bca1b6-3ef5-409c-a400-d5bc252f0d53)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-2-70b-hf/resolve/main/config.json.
+Repo model meta-llama/Llama-2-70b-hf is gated. You must be authenticated to access it.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sfs/qumulo/qhome/brc4cb/llama2-70b/qlora.py", line 819, in <module>
+    train()
+  File "/sfs/qumulo/qhome/brc4cb/llama2-70b/qlora.py", line 654, in train
+    model = get_accelerate_model(args, checkpoint_dir)
+  File "/sfs/qumulo/qhome/brc4cb/llama2-70b/qlora.py", line 291, in get_accelerate_model
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 494, in from_pretrained
+    resolved_config_file = cached_file(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 444, in cached_file
+    raise EnvironmentError(
+OSError: You are trying to access a gated repo.
+Make sure to request access at https://huggingface.co/meta-llama/Llama-2-70b-hf and pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`.

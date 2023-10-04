@@ -1,0 +1,27 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-zgueydih/peft_b74a631259834c998e49497a0438d6f9
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-zgueydih/accelerate_c77b3f5d1c4c4643b41214fedd45c4d7
+There was a problem when trying to write in your cache folder (/home/llama2-70b/cache). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/getpass.py:91: GetPassWarning: Can not control echo on the terminal.
+  passwd = fallback_getpass(prompt, stream)
+Warning: Password input may be echoed.
+Token: Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/getpass.py", line 69, in unix_getpass
+    old = termios.tcgetattr(fd)     # a copy to save
+termios.error: (25, 'Inappropriate ioctl for device')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/sfs/qumulo/qhome/brc4cb/llama2-70b/qlora.py", line 53, in <module>
+    login(token = token)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/_login.py", line 100, in login
+    interpreter_login(new_session=new_session, write_permission=write_permission)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/_login.py", line 161, in interpreter_login
+    token = getpass("Token: ")
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/getpass.py", line 91, in unix_getpass
+    passwd = fallback_getpass(prompt, stream)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/getpass.py", line 126, in fallback_getpass
+    return _raw_input(prompt, stream)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/getpass.py", line 148, in _raw_input
+    raise EOFError
+EOFError

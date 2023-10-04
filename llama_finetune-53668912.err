@@ -1,0 +1,6 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-ej1nyezz/peft_60fc4d2d03804a6eb17866af56774895
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-ej1nyezz/accelerate_1f953f9ebd6c47ae97dd03b7b40b8b0c
+  File "/sfs/qumulo/qhome/brc4cb/llama2-70b/qlora.py", line 307
+    torch_dtype=(torch.float32 if args.fp16 else (torch.bfloat16 if args.bf16 else torch.float32)),
+    ^
+SyntaxError: invalid syntax

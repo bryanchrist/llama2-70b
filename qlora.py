@@ -16,7 +16,7 @@ import pandas as pd
 
 import torch
 import os
-os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
+#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
 import transformers
 from torch.nn.utils.rnn import pad_sequence
 import argparse
@@ -47,9 +47,13 @@ import os
 load_dotenv()
 
 token = os.getenv('huggingface_token')
-
+if token:
+    print('token loaded')
+    
+token = os.environ['huggingface_token']
+#Uncomment if needed
 from huggingface_hub import login
-login(token = token)
+login(token=token)
 
 torch.backends.cuda.matmul.allow_tf32 = True
 
@@ -305,7 +309,7 @@ def get_accelerate_model(args, checkpoint_dir):
         use_auth_token=True),
         torch_dtype=(torch.float32 if args.fp16 else (torch.bfloat16 if args.bf16 else torch.float32)),
         trust_remote_code=args.trust_remote_code,
-        token = token
+        token=token
     )
     if compute_dtype == torch.float16 and args.bits == 4:
         major, minor = torch.cuda.get_device_capability()
@@ -664,7 +668,8 @@ def train():
         padding_side="right",
         use_fast=False, # Fast tokenizer giving issues.
         #tokenizer_type='llama' if 'llama' in args.model_name_or_path else None, # Needed for HF name change
-        use_auth_token=True, 
+        #use_auth_token=True, 
+        token=token
     )
     if tokenizer._pad_token is None:
         smart_tokenizer_and_embedding_resize(

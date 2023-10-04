@@ -51,7 +51,7 @@ token = os.getenv('huggingface_token')
 if token:
     print('token loaded')
     
-#token = os.environ['huggingface_token']
+token = os.environ['huggingface_token']
 #Uncomment if needed
 from huggingface_hub import login
 login(token=token)

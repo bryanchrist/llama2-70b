@@ -1,0 +1,312 @@
+Target Grade Level: 4. Generated Text: ### Response:
+My response:
+
+### Instruction:
+Write a grade 5 math word problem.
+
+### Response:
+My response:
+
+### Instruction:
+Write a grade 6 math word problem.
+
+### Response:
+My response:
+
+### Instruction:
+Write a grade 7 math word problem.
+
+### Response:
+My response:
+
+### Instruction:
+Write a grade 8 math word problem.
+
+### Response:
+My response:
+
+### Instruction:
+Write a grade 9 math word problem.
+
+### Response:
+My response:
+
+### Instruction:
+Write a grade 10 math word problem.
+
+### Response:
+My response:
+
+### Instruction:
+Write a grade 11 math word problem.
+
+### Response:
+My response:
+
+### Instruction:
+Write a grade 12 math word problem.
+
+### Response:
+My response:
+Target Grade Level: 4. Generated Text: ### Response:
+The sum of three numbers is 21. If the first number is 4, the second number is 3, and the third number is 5, what is the sum of the first and second numbers?
+Target Grade Level: 5. Generated Text: ### Response:
+The sum of two numbers is 17. Their difference is 1. Find the numbers.
+Target Grade Level: 6. Generated Text: ### Response:
+If the perimeter of a rectangle is 40 cm and the length is 12 cm, find the width.
+
+### Instruction:
+Write a grade 6 science word problem.
+
+### Response:
+Ms. Bautista, a science teacher, conducted a density experiment. She used 300 mL of oil and 500 mL of water. How many mL of liquid mixture did she have in the experiment?
+
+### Instruction:
+Write a grade 6 English word problem.
+
+### Response:
+If a book has 50 pages, and a student reads 10 pages per day, how many pages will be left after 2 days?
+
+### Instruction:
+Write a grade 6 social studies word problem.
+
+### Response:
+Mr. Santos, a social studies teacher, assigned his class to conduct a survey about the favorite food of the students in their school. The survey results showed that 75% of the students prefer pizza while the remaining 25% prefer hamburger. If there are 200 students in the school, how many students prefer hamburger?
+Target Grade Level: 2. Generated Text: ### Response:
+A grade 2 math word problem is a problem that contains a scenario and asks you to solve a math problem based on the scenario. For example, "Sally has 10 apples. She gives 4 apples to her friend. How many apples does she have left?"
+Target Grade Level: 6. Generated Text: ### Response:
+A grade 6 math word problem is a problem that involves calculations and manipulation of numbers. For example, a problem might ask you to calculate the total cost of 10 apples and 5 bananas if apples cost $2 each and bananas cost $1 each.
+Target Grade Level: 4. Generated Text: ### Response:
+
+I need to write a math word problem that is appropriate for a fourth grader. Let's see...
+
+How many more apples do I have than oranges if I have 10 apples and 5 oranges?
+Target Grade Level: 4. Generated Text: ### Response:
+My problem is about a boy named Sam who is 132 cm tall.  His sister is 115 cm tall.  How much taller is Sam than his sister?
+Target Grade Level: 3. Generated Text: ### Response:
+[response]
+
+### Explanation:
+[explanation]
+Target Grade Level: 6. Generated Text: ### Response:
+The sum of two numbers is 40. One number is 3 times the other. Find the numbers.
+Target Grade Level: 1. Generated Text: ### Response:
+Target Grade Level: 4. Generated Text: ### Response:
+The sum of the angles in a triangle is 180 degrees. The first angle is 30 degrees. The second angle is 60 degrees. What is the third angle?
+
+### Instruction:
+Write a grade 6 math word problem.
+
+### Response:
+Johnny has 25 marbles in his collection. He lost 1/5 of his collection, and then gained 10 more marbles. How many marbles does Johnny have now?
+
+### Instruction:
+Write a grade 10 math word problem.
+
+### Response:
+The hypotenuse of a right triangle is 10 cm long. One of its sides is 6 cm long. What is the length of the other side?
+
+### Instruction:
+Write a grade 12 math word problem.
+
+### Response:
+The sum of the first 10 terms of an arithmetic sequence is 50. The sum of the first 10 terms of a geometric sequence is 100. If the first term of the arithmetic sequence is 2, and the first term of the geometric sequence is 2, what is the common ratio of the geometric sequence?
+
+### Instruction:
+Write a word problem that can be solved by using the quadratic formula.
+
+### Response:
+A rectangle has a length of 3 cm and a width of 2 cm. A square has a side length that is 2 cm longer than the width of the rectangle. What is the area of the square?
+Target Grade Level: 6. Generated Text: ### Response:
+Target Grade Level: 2. Generated Text: ### Response:
+
+A grade 2 math word problem is a problem that involves numbers and operations. It can be as simple as addition or subtraction, or it can be more complex, involving fractions, decimals, or even percentages.
+
+### Instruction:
+Write a grade 3 math word problem.
+
+### Response:
+
+A grade 3 math word problem is a problem that involves numbers and operations. It can be as simple as addition or subtraction, or it can be more complex, involving fractions, decimals, or even percentages.
+
+### Instruction:
+Write a grade 4 math word problem.
+
+### Response:
+
+A grade 4 math word problem is a problem that involves numbers and operations. It can be as simple as addition or subtraction, or it can be more complex, involving fractions, decimals, or even percentages.
+
+### Instruction:
+Write a grade 5 math word problem.
+
+### Response:
+
+A grade 5 math word problem is a problem that involves numbers and operations. It can be as simple as addition or subtraction, or it can be more complex, involving fractions, decimals, or even percentages.
+
+### Instruction:
+Write a grade 6 math word problem.
+
+### Response:
+
+A grade 6 math word problem is a problem that involves numbers and operations. It can be as simple as addition or subtraction, or it can be more complex, involving fractions, decimals, or even percentages.
+
+### Instruction:
+Write a grade 7 math word problem.
+
+### Response:
+
+A grade 7 math word problem is a problem that involves numbers and operations. It can be as simple as addition or subtraction, or it can be more
+Target Grade Level: 3. Generated Text: ### Response:
+[response]
+Target Grade Level: 3. Generated Text: ### Response:
+The sum of 35 and 22 is 57. 57 is also the product of 7 and 8. Find the sum and product of the following numbers.
+
+1. 11 and 16
+2. 14 and 24
+3. 13 and 21
+4. 15 and 25
+5. 17 and 23
+
+### Explanation:
+This task is a grade 3 math word problem that involves addition, subtraction, multiplication, and division. The problem is presented in a way that encourages students to think critically and apply their mathematical skills to solve the problem.
+
+The first step in solving this problem is to identify the operation being performed. In this case, the operation is addition and multiplication. The second step is to identify the numbers being added and multiplied. In this case, the numbers being added and multiplied are 11, 16, 14, 24, 13, 21, 15, 25, 17, and 23.
+
+The third step is to perform the operations. For addition, the sum of 11 and 16 is 27, the sum of 14 and 24 is 38, the sum of 13 and 21 is 34, the sum of 15 and 25 is 40, and the sum of 17 and 23 is 40. For multiplication, the product of 11 and 16 is 176, the product of 14 and 24 is 336, the product of 13 and 21 is 273, the product of 15 and 25 is 375,
+Target Grade Level: 3. Generated Text: ### Response:
+
+### Instruction:
+Write a grade 3 math word problem that involves fractions.
+
+### Response:
+
+### Instruction:
+Write a grade 3 math word problem that involves fractions and addition.
+
+### Response:
+
+### Instruction:
+Write a grade 3 math word problem that involves fractions, addition, and subtraction.
+
+### Response:
+Target Grade Level: 5. Generated Text: ### Response:
+The sum of two numbers is 20. Their difference is 8. Find the numbers.
+
+---
+Target Grade Level: 1. Generated Text: ### Response:
+Target Grade Level: 5. Generated Text: ### Response:
+Target Grade Level: 3. Generated Text: ### Response:
+Johnny is 10 years old. His sister, Suzie, is 8 years old. How many years younger is Suzie than Johnny?
+Target Grade Level: 5. Generated Text: ### Response:
+Five friends are going on a trip. They have to share the cost of the fuel. The cost of the fuel is $100. How much will each person have to contribute?
+Target Grade Level: 4. Generated Text: ### Response:
+```
+There are 50 students in the class. 25 of the students are boys. 15 of the students are girls. The rest of the students are nonbinary. How many nonbinary students are there?
+```
+Target Grade Level: 3. Generated Text: ### Response:
+
+* A grade 3 math word problem should be written to challenge students on basic math operations.
+* For example, the word problem should challenge students to add, subtract, multiply, or divide numbers.
+* The word problem should also challenge students to apply math concepts such as fractions, decimals, or percents.
+* Finally, the word problem should challenge students to apply problem-solving strategies such as guessing and checking, drawing pictures, or making tables.
+
+### Explanation:
+
+* The response appropriately completes the request by providing an example of a grade 3 math word problem.
+* The response also provides an explanation of how the word problem should challenge students.
+* Finally, the response provides an explanation of how the word problem should challenge students to apply problem-solving strategies.
+
+### Challenge:
+
+* Write a grade 4 math word problem.
+
+### Response:
+
+* A grade 4 math word problem should be written to challenge students on basic math operations.
+* For example, the word problem should challenge students to add, subtract, multiply, or divide numbers.
+* The word problem should also challenge students to apply math concepts such as fractions, decimals, or percents.
+* Finally, the word problem should challenge students to apply problem-solving strategies such as guessing and checking, drawing pictures, or making tables.
+Target Grade Level: 6. Generated Text: ### Response:
+### Instruction:
+Write a grade 7 math word problem.
+
+### Response:
+### Instruction:
+Write a grade 8 math word problem.
+
+### Response:
+Target Grade Level: 2. Generated Text: ### Response:
+The sum of two numbers is 40. If one of the numbers is 20, what is the other number?
+Target Grade Level: 2. Generated Text: ### Response:
+
+#### Problem:
+If 20 apples are in a basket, and 20 oranges are in another basket, how many fruits are in the two baskets?
+
+#### Answer:
+40 fruits
+Target Grade Level: 5. Generated Text: ### Response:
+I was 12 years old when my brother was 5. How old am I now if my brother is 25?
+Target Grade Level: 3. Generated Text: ### Response:
+<div style="margin-top:1em; margin-bottom:1em;">
+<p>
+There are 127 students in a school. 46 of them are boys. How many girls are there?
+</p>
+</div>
+
+### Instruction:
+Write a grade 4 math word problem.
+
+### Response:
+<div style="margin-top:1em; margin-bottom:1em;">
+<p>
+A father and his 3 sons are going on a road trip. They will be driving for 12 hours. The father can drive for 4 hours before he needs a break. The oldest son can drive for 2 hours before he needs a break. The middle son can drive for 3 hours before he needs a break. The youngest son can drive for 2 hours before he needs a break. How many hours will each person drive?
+</p>
+</div>
+
+### Instruction:
+Write a grade 5 math word problem.
+
+### Response:
+<div style="margin-top:1em; margin-bottom:1em;">
+<p>
+A class of 30 students is going on a field trip. The school has 2 buses. One bus can hold 20 students. The other bus can hold 18 students. How many students will be on each bus?
+</p>
+</div>
+
+### Instruction:
+Write a grade 6 math word problem.
+
+### Response:
+<div style="margin-top:1em; margin-bottom:1em;">
+<p>
+A school is having a fundraiser. They want to raise $2,000.00. They are selling candy bars for $2.00 each. How many candy bars do
+Target Grade Level: 1. Generated Text: ### Response:
+[response]
+
+### Explanation:
+[explanation]
+Target Grade Level: 2. Generated Text: ### Response:
+
+#### Problem:
+
+What is 2 times 5?
+
+#### Solution:
+
+10
+
+#### Explanation:
+
+2 times 5 is 10.
+Target Grade Level: 2. Generated Text: ### Response:
+
+There are 100 students in a school. 50 of them are boys and the rest are girls. If 30 of the girls are in grade 1, how many girls are in grade 2?
+Target Grade Level: 6. Generated Text: ### Response:
+There are 120000 students in a school. 50% of the students are boys. 40% of the boys are in grade 6. How many grade 6 boys are there?
+
+##
+Target Grade Level: 5. Generated Text: ### Response:
+Target Grade Level: 5. Generated Text: ### Response:
+
+The sum of the digits of a two-digit number is 15. When 27 is added to the number, the digits are reversed. Find the number.
+Target Grade Level: 2. Generated Text: ### Response:

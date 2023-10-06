@@ -65,7 +65,7 @@ login(token=token)
 sys.stdin = open(os.devnull)
 
 model_path = "TIGER-Lab/MAmmoTH-70B"   # Specify the path to the model
-adapter_path = "mammoth_raw_adapter/checkpoint-250"  # Specify the path to the adapter weights
+adapter_path = "mammoth_raw_adapter/checkpoint-2000"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically

@@ -113,6 +113,6 @@ for i in range(0,2000):
     generated_text_parts = generated_text.split(prompt)
     newly_generated_text = generated_text_parts[-1].strip()
     
-    output_file = "llama_asdiv_generate_grades.txt"  # Specify the path and filename for the output file
+    output_file = "llama_asdiv_generate_grades_v2.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Target Grade Level: {grade}. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file

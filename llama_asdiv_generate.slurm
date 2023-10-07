@@ -11,7 +11,7 @@
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
-#SBATCH -t 3-00:00:00
+#SBATCH -t 0-03:00:00
 #SBATCH -J llama_asdiv_generate
 #SBATCH -o llama_asdiv_generate-%A.out
 #SBATCH -e llama_asdiv_generate-%A.err

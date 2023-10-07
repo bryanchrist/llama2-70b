@@ -95,14 +95,28 @@ sys.stdin = sys.__stdin__
 # Load the adapter weights
 model = PeftModel.from_pretrained(model, adapter_path)
 
+import pandas as pd
+
+df = pd.read_json('ASDiv_instruct.json')
+
 grades = ['1', '2', '3', '4', '5', '6']
-for i in range(0,2000):
+for i in range(0,100):
     
     grade = random.choice(grades)
     prompt = f"Write a grade {grade} math word problem."
-    formatted_prompt = (f"Below is an instruction that describes a task. "
-            f"Write a response that appropriately completes the request.\n\n"
-            f"### Instruction:\n{prompt}\n\n### Response:")
+    questions = []
+    for i in range(0, 7):
+        question = df.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df.query(f"instruction=='{prompt}'")['instruction']))]
+        questions.append(question)
+    formatted_prompt = []
+    for i in range(0,7):
+        formatted_prompt.append((f"Below is an instruction that describes a task. "
+                f"Write a response that appropriately completes the request.\n\n"
+                f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))
+    formatted_prompt.append(f"Below is an instruction that describes a task. "
+                f"Write a response that appropriately completes the request.\n\n"
+                f"### Instruction:\n{prompt}\n\n### Response: ")
+    formatted_prompt = "\n\n".join(formatted_prompt)
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')
@@ -113,6 +127,6 @@ for i in range(0,2000):
     generated_text_parts = generated_text.split(prompt)
     newly_generated_text = generated_text_parts[-1].strip()
     
-    output_file = "llama_asdiv_generate_grades_v2.txt"  # Specify the path and filename for the output file
+    output_file = "llama_asdiv_generate_grades_v3.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Target Grade Level: {grade}. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file

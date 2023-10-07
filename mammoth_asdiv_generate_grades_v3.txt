@@ -1,0 +1,36 @@
+Target Grade Level: 2. Generated Text: ### Response: 2 birds are sitting on a branch. 2 more fly to the branch. How many birds are on the branch now?
+Target Grade Level: 2. Generated Text: ### Response: 35 campers went rowing in the morning. 27 campers went rowing in the afternoon. How many campers went rowing in all?
+Target Grade Level: 4. Generated Text: ### Response: 3 tons of paper is equivalent to how many pounds?
+Target Grade Level: 5. Generated Text: ### Response: 9 boys and 10 girls are going on a field trip. If the teacher wants to split them into groups with the same number of boys and girls, what is the greatest number of groups she can make?
+Target Grade Level: 6. Generated Text: ### Response: 24 plums were in the basket. 18 are red, and the rest are green. How many are green?
+Target Grade Level: 2. Generated Text: ### Response: 22 birds were sitting in a tree. 14 more flew up to join them. How many birds are in the tree now?
+Target Grade Level: 4. Generated Text: ### Response: 1,050 students are going on a field trip. If each school-bus can take 48 passengers, how many school-buses are needed?
+Target Grade Level: 1. Generated Text: ### Response: 27 pineapples and 3 marbles were purchased by Jack for a total of $6. How much did he spend for the pineapples if he spent 3 times as much for the marbles?
+Target Grade Level: 3. Generated Text: ### Response: 9 boys went to water trees. There were 29 trees. If each of them watered the equal amount of trees, how many trees are left?
+Target Grade Level: 5. Generated Text: ### Response: 2 bicycle enthusiasts are planning a bike-a-thon to raise money for charity. They decided to divide the money they raise in the ratio 3:4. If the first cyclist gets $180, how much will the second cyclist get?
+Target Grade Level: 1. Generated Text: ### Response: 3 owls are sitting on a fence. 2 more join them. How many owls are on the fence now?
+Target Grade Level: 2. Generated Text: ### Response: 35 campers went rowing in the morning. 27 campers went rowing in the afternoon. How many campers went rowing in all?
+Target Grade Level: 6. Generated Text: ### Response: 3 tons of mulch cost $15,000.00. How much would 6 tons cost?
+Target Grade Level: 1. Generated Text: ### Response: 23 pigs are playing in the pen. 14 more come to play. How many pigs are playing now?
+Target Grade Level: 3. Generated Text: ### Response: 34 students want pancakes and 47 students want waffles. What is the ratio of the number of students who want pancakes to the number of students who want waffles?
+Target Grade Level: 1. Generated Text: ### Response: 3 owls were sitting on the branch. 2 more owls came to join them. How many owls are sitting on the branch?
+Target Grade Level: 4. Generated Text: ### Response: 3 tons of mulch cost $15,000.00. How much would 7 tons cost?
+Target Grade Level: 2. Generated Text: ### Response: 35+35=70. 70-45=<<70-45=25>>25.
+Tina had 25 pieces of candy. Her friend gave her 45 more pieces. How many pieces does Tina have now?
+Target Grade Level: 4. Generated Text: ### Response: 144 eggs are in the incubator. There are 16 eggs in each row. How many rows of eggs are there?
+Target Grade Level: 5. Generated Text: ### Response: 3 tons of mulch cost $15,000.00. How much would 5 tons cost?
+Target Grade Level: 4. Generated Text: ### Response: 14 red plums and four green plums are in the basket. How many plums are in the basket?
+Target Grade Level: 5. Generated Text: ### Response: 58 children are taking a bus to the zoo. They sit 2 children to a seat. How many seats will they need?
+Target Grade Level: 2. Generated Text: ### Response: 39 children are going on a field trip. The school has 11 vans. How many children will be in each van?
+Target Grade Level: 2. Generated Text: ### Response: 17 students want pancakes and 11 students want waffles. How many more students want pancakes than waffles?
+Target Grade Level: 3. Generated Text: ### Response: 35 campers went rowing in the morning. 27 campers went rowing in the afternoon. How many campers went rowing in all?
+Target Grade Level: 6. Generated Text: ### Response: 3 tons of mulberry leaves will produce 1 ton of silk. 6 tons of oak leaves will produce 5 tons of silk. Which type of leaf produces more silk per ton, mulberry or oak leaves?
+Target Grade Level: 3. Generated Text: ### Response: 35 campers went rowing in the morning. 27 campers went rowing in the afternoon. How many campers went rowing in all?
+Target Grade Level: 1. Generated Text: ### Response: 2 birds are sitting on a branch. 2 more join them. How many birds are on the branch now?
+Target Grade Level: 1. Generated Text: ### Response: 3 birds are sitting on a branch. 2 more fly over to join them. How many birds are on the branch now?
+Target Grade Level: 5. Generated Text: ### Response: 14 red plums and four green plums are in the basket. How many plums are in the basket?
+Target Grade Level: 5. Generated Text: ### Response: 94 students are going hiking. Each school- bus can take 32 students. How many school-buses are needed?
+Target Grade Level: 3. Generated Text: ### Response: 23 pictures + 7 pictures = <<23+7=30>>30 pictures
+30 pictures / 5 albums = <<30/5=6>>6 pictures/album
+#### 6
+Target Grade Level: 6. Generated Text: ### Response: 39 students want pancakes and 47 students want waffles. What is the ratio of the number of students who want pancakes to the number of students who want waffles?

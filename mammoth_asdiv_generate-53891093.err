@@ -1,0 +1,24 @@
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-kiil3jw4/peft_8a247026d32346349a60121a9590e27b
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-kiil3jw4/accelerate_c2bfdac59cc747708959a1abcbe65202
+ERROR: Could not install packages due to an OSError: [Errno 16] Device or resource busy: '.nfs00000004c7d5e9a00000079a'
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:07<01:41,  7.24s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:14<01:37,  7.47s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:22<01:31,  7.60s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:30<01:22,  7.52s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:37<01:14,  7.47s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:45<01:07,  7.55s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:52<01:00,  7.60s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [01:00<00:52,  7.53s/it]Loading checkpoint shards:  60%|██████    | 9/15 [01:07<00:44,  7.43s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [01:14<00:36,  7.34s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [01:21<00:29,  7.31s/it]Loading checkpoint shards:  80%|████████  | 12/15 [01:29<00:22,  7.44s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:37<00:15,  7.66s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:45<00:07,  7.81s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:46<00:00,  5.56s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:46<00:00,  7.08s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Token indices sequence length is longer than the specified maximum sequence length for this model (596 > 512). Running this sequence through the model will result in indexing errors
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/mammoth_ASDiv_generate.py", line 109, in <module>
+    question = df.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df.query(f"instruction=='{prompt}'")['instruction']))]
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds

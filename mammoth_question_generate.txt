@@ -1,0 +1,385 @@
+Prompting Approach: few shot. Generated Text: ### Response: 3 boxes of burritos.  He gives away a 3rd of them to his friend.  Each box has 20 burritos.  He eats 3 burritos per day for 10 days.  How many burritos does he have left?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: A pallet of boxes weighed 267 kilograms. If there were 3 boxes on the pallet and each box weighed the same amount, how much did each weigh?
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a 4 math word problem.
+
+### Response: 300 cows in a field are grouped into herds of 10. Half of the cows are black, and a quarter are black and white spotted. If there are 50 black and white spotted cows, how many cows in the field are neither black nor black and white spotted?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: Maria had sixty-seven pieces of candy. She ate sixty-four pieces. How many pieces of candy does Maria have now?
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a 2 math word problem.
+
+### Response: 36 dollars were in a piggy bank. 22 dollars were removed. How much money is left in the piggy bank?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 30 children go on a field trip, and 20% of the children's parents come along as chaperones, and 1/4 of the chaperones are dads, how many dads go on the field trip?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Generated Text: ### Response: 3 points for each field goal and each shot is worth 2 points.  James scored 13 field goals and 20 shots.  How many points did he score?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 50 children are in the school play. 10 children are in the school band. There are 20 children in both the play and the band. How many children are in the school play or the school band?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 20 ducks swam across the pond. 1/4 of the ducks were mallards. 3/5 of the ducks were geese. The rest were swans. How many swans swam across the pond?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 10 people are waiting in line to get on a train. The train pulls up and 3 people get off. The rest get on and then 2 more people get on after that. How many people are now on the train?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If there are 4 representatives from each of the 4 companies at a convention and each representative shakes hands with every other representative once, how many handshakes will there be?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 25% of the vets in the country are women and 75% are men. There are 12500 vets in the country. How many vets are women?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 10 people fit in a canoe. 5 fit in a raft. If there are 4 rafts and 3 canoes, how many people can fit in the rafts and canoes total?
+Prompting Approach: few shot. Generated Text: ### Response:  Question: 20 dancers are practicing a routine. There are twice as many women as men. The women each earn $45 an hour, while the men each earn $30 an hour. How much does the entire group earn every hour?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 30 kids in the classroom and 1/3 of them are girls. The rest are boys. How many boys are in the classroom?
+Prompting Approach: few shot. Generated Text: ### Response: 15 pugs working together will be able to clean their house 45/15 = <<45/15=3>>3 times as fast as four pugs working together.
+Since four pugs working together can clean their house in 45 minutes, 15 pugs working together will be able to clean their house in 3*45 = <<3*45=135>>135 minutes.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 56 pencils were bought by Omar and 23 pencils were bought by his friend. How many more pencils did Omar buy than his friend?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 50% of the vets in a state recommend Puppy Kibble and 25% recommend Yummy Dog Food, what percentage of vets recommend something else?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 35 hours x 2 weeks = <<35*2=70>>70 hours
+48 hours x 2 weeks = <<48*2=96>>96 hours
+96 - 70 = <<96-70=26>>26 hours
+Davida worked 26 more hours on Weeks 3 and 4 than on Weeks 1 and 2.
+#### 26
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 3 lions and 2 rhinos escape from the zoo.  The lions run at 50 mph and the rhinos run at 30 mph.  If they run for 2 hours how far do the lions go in miles?
+Prompting Approach: few shot. Generated Text: ### Response: 20 people are waiting in a waiting room.  If 3 more people arrive, the number of people in the waiting room becomes 5 times the number of people inside the interview room.  How many people are inside the interview room?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 35 people bought tickets for the show. 20 more people bought tickets at the last minute. How many people are going to the show?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 30% of the 1200 students at a school play soccer. If there are 400 girls at the school, and 20% of the girls play soccer, how many boys play soccer?
+Prompting Approach: few shot. Generated Text: ### Response: 3 workers can paint a house in 6 hours. If 5 workers are painting a house, how long will it take them to finish?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 20 people said they like shopping and 7 people said they do not like shopping. What is the ratio of the number of people who do not like shopping to the number of people who like shopping?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 120 people attended the party. 1/3 of the attendees are men while 1/5 are children. The rest are women. How many women attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the largest multiple of 25 cents that is less than $1.60?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 3/4 of a pound of meat can make 2 burgers. How many pounds of meat are required to make 16 burgers?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 5000 people live in a small town. 2800 of them are men, and 1200 are children. How many women live in this town?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 200 students are enrolled in a statistics course at a local community college. 60% of the class is female, and 40% is male. If there are 20 students who identify as a gender other than male or female, what is the total number of students who identify as male or female?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If there are 100 students in class and the number of students present is 3/4 of the total number, calculate the number of students who are absent.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 38 people attended the party. Three-fourths of the guests were men. How many women attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If $1000 is invested in a bank account earning 10% simple annual interest, how much will the investment be worth after 5 years?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+There are 200 students in the senior class at Richmond High School. 100 students were accepted to Yale, and 1/4 that number were accepted to Harvard. 120 students were accepted to Princeton. How many students are left who have not been accepted to any of these colleges?
+Prompting Approach: few shot. Generated Text: ### Response: 100 people live in a small town where the population is made up of boys, girls, men, and women. There are 10 more men than women and 20 more boys than girls. How many girls live in the town?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 3/4 of the cars in the parking lot are blue. If there are 52 cars in the parking lot, how many are not blue?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct integers, $x$ and $y$, are randomly chosen from the set $\{1,2,3,4,5,6\}$. What is the probability that $xy-x-y$ is even? Express your answer as a common fraction.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 100 people bought tickets to a concert. The concert hall could fit 400 people. If 200 people bought tickets for the second show, how many people could still buy tickets for the second show?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: Find the sum of all positive integers less than 196 but greater than 10, whose squares end in the digit 1.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 160 dumplings were made to be sold for $10 each. If 3/4 of the dumplings were sold, how much money was made?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the value of $\left(\sqrt{6256}\right)^2$?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 400 people live in a small town. 20% of the population is under 12 years old. How many people over 12 years old live in the town?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 40 paper stars are required to fill a jar, how many jars can Kelly fill with 120 paper stars?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 200 people live in a small town. 100 people move out, and 200 new people move in. How many people are now living in the town?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 12 birds were seen in a tree. 3 of the birds were black. 6 of the birds were blue. The rest of the birds were red. How many red birds were there?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: How many 3-letter words can we make from the letters A, B, C, and D, if we are allowed to repeat letters?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 10 people fit in a car, and 20 people fit in a bus. How many more people fit in a bus than a car?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 20 of the 500 employees were laid off, while 30 employees were forced to retire. How many employees are left?
+Prompting Approach: few shot. Generated Text: ### Response:  Question: Find the units digit of $13 \cdot 41$.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 2 beavers are building a dam. If they need 100 sticks to finish the dam, and they have 30 sticks, how many more do they need?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: Compute $\frac{1+2+3+4+5+\cdots+99+100}{100}$.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 200 people attended a party. Three-fourths of the attendees are women, and the rest are men. How many men attended the party?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 200 people attended the party. Three-fourths of them are women, and the rest are men. How many men attended the party?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 20 people came to Mary's birthday party. 10 of them are men. The rest are children. How many children came to Mary's birthday party?
+Prompting Approach: few shot. Generated Text: ### Response: 100 people live in a small town. 30% of the townspeople are men. The rest of the townspeople are women. 25% of the women are blonde. How many blonde women live in the town?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 172 students are forming teams for a mountaineering competition. Each team should have 18 students. How many students will not be on a team?
+Prompting Approach: few shot. Generated Text: ### Response: 3 TV episodes that are each 25 minutes long will take up 3*25=<<3*25=75>>75 minutes.
+4 and a half hours of sleep is the same as 4.5*60=<<4.5*60=270>>270 minutes.
+2 movies that are each an hour and 45 minutes long will take up 2*1.75*60=<<2*1.75*60=210>>210 minutes.
+Doing all these things will take up 75+270+210= <<75+270+210=555>>555 minutes.
+Assuming there is no break time between activities, there will be 10-555= <<10-555=-545>>-545 minutes left in the flight before Emily reaches Hawaii.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 356 books were donated to a school by an NGO. If 1/4 of the books were storybooks, 1/5 were reference books, and the rest were textbooks, how many textbooks were donated?
+Prompting Approach: few shot. Generated Text: ### Response: 3 tanks of gas are required to power Bob's boat for 2 hours.  How many tanks of gas are required to power his boat for 6 hours?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 
+The number 406 can be factored as 2 x 3 x 13 x 7. The factor 2 is represented graphically by two identical rectangles. Each rectangle is 13 units long and 7 units wide. What is the area of each rectangle?
+Prompting Approach: few shot. Generated Text: 
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 300 cows in a cattle ranch eat 4 bushels of feed each day. If the ranch has 1200 bushels of feed and the rancher adds 30 cows each day, how many days will it take for the rancher to run out of feed?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of a regular 12-sided polygon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 200 people have attended the party. Three-fourths of them are women, and the rest are men. If 3/5 of the men are married, how many of the men are unmarried?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: Find the sum of the distinct prime factors of 3024.
+
+Answer:Let $a$ be the sum of the distinct prime factors of 3024. If $a$ is not a prime number, what is the smallest number greater than $a$ that is a prime number?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 3 owls were sitting on the fence. 2 more owls joined them. How many owls are on the fence now?
+Prompting Approach: few shot. Generated Text: ### Response: 40 less than twice as many students as the 200 in the senior class of a high school are juniors. Calculate the combined total number of juniors and seniors in the school.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 5/8 of the length of a river is 42 miles. What is the total length of the river in miles?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 50 children are on the playground and 10 of them are girls. Half the number of boys are on the see-saw and the rest are on the slide. How many boys are on the slide?
+Prompting Approach: few shot. Generated Text: ### Response: 6000 liters of water in a tank. 2000 liters evaporated, and then 3500 liters were drained by Bob. It rained for 30 minutes, and every 10 minutes 350 liters of rain were added to the tank. How many liters are in the tank now?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 200 cows in a dairy farm are milked twice a day. On average, each cow yields 16 liters of milk in one session. The farm is milking cows 3 times a day now. If each cow now yields 8 liters of milk in one session, how much milk is being collected per day now?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 300 people attended the party. 1/3 of them are men while 2/5 are women. The rest are children. How many children attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: The school decided to have a fundraiser to collect $100. The 5th grade class was challenged to see how much they could collect. Ms. Jones's class collected $12, Ms. Brinkley's class collected $8, and Mr. Frank's class collected $14. How much more money does the 5th grade have to collect to reach their goal?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 1000 people attended a party. 20% are men while the rest are women. Only 1/4 of the women were married. How many women who attended the party are not married?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the value of the expression $x^2+ 2x- 2$ when $x = 3$?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 36 people attended the party. 2/3 of them are females. How many males attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 5 carpenters can make 10 tables per day, how many carpenters would be needed to make 25 tables per day?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 400 people attended a party. Three-fourths of them are women, and the rest are men. If there are 80 couples, how many men attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 
+A factory produces 1000 cans of soda every hour. In one hour, 20% of the cans are damaged and have to be thrown away. In the next hour, another 10% of the remaining cans are damaged and have to be thrown away. How many cans of soda are undamaged after 2 hours?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 
+There were 200 students in a school. The number of students doubled in 2002. It doubled again in 2007. How many students are there in the school now?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 28 children went on a field trip to the farm. Half of the children were girls. How many boys went on the field trip?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+#### 28
+Prompting Approach: few shot. Generated Text: ### Response: 20 soldiers from the first squad are chosen at random to go on a mission. 3 of them are snipers, 6 are medics, and the rest are standard infantrymen. An additional 10 soldiers are chosen from the second squad. 4 of them are snipers, 3 are medics, and the rest are standard infantrymen. If standard infantrymen make up 75% of the entire squad, how many standard infantrymen are on the mission?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 240 feet of fencing is used to enclose a rectangular garden whose sides are in the ratio of 5:13. What is the smaller side of the rectangular garden?
+Prompting Approach: few shot. Generated Text: ### Response: 200 people attended the party. Three-fourths of them are women. How many men attended the party?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 50 people attended the party. 20% of the attendees are men while 30% are women. The rest are children. If there are 10 children at the party, how many men attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: Compute $35 + 2(17 - 11)$.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 200 toy cars were sold by the store in the morning. In the afternoon, they sold 10 more than twice the number of toy cars sold in the morning. How many toy cars were sold in total?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the largest prime factor of 999?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 400 people attended the party. 100 more people attended the party than the number of people who attended the meeting. How many people attended the meeting?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 500 people were invited to a party. 2/5 of the total number of people invited did not show up. How many people showed up?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 20 kids in preschool are ready for a nap.  10 kids are already asleep.  2 kids are yawning and will be asleep soon.  How many kids are still awake and need to nap?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 250 people attended the school dance. 60% of attendees were girls. 30% of the girls wore heels. How many girls wore heels?
+Prompting Approach: few shot. Generated Text: ### Response: 12 boys each make 12 muffins for a bake sale, and 2 other girls are making 20 muffins each. How many total muffins will be for sale?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 13 people were at a party. 3 more people joined the party. 5 people left. How many people were at the party in the end?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the sum of all integers from 1 to 10 that are multiples of 2 or 5?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 600 feet of rope was cut into 20 equal parts. 1/4 of the parts were used for making small baskets. 3 parts were used to tie up animals. How much rope is left?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: Three-fourths of the parrots on Bird Island are green, and the remainder are red. If there are 68 parrots total on Bird Island, how many of them are red?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 3/5 of the people in the car are women. If there are 15 people in the car, how many men are there?
+Prompting Approach: few shot. Generated Text: ### Response: 3 cows, 4 pigs, and 7 goats were on a farm. The number of chickens is half the number of goats, and the number of ducks is twice the number of pigs. How many animals were on the farm?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 300 crayons were donated to the art club. The club has 10 members, and everyone needs 20 crayons. Rommel has 10 more crayons than he needs. How many crayons does he have?
+Prompting Approach: few shot. Generated Text: ### Response: 4/5 of the mangoes on a mango tree are ripe. If 2/5 of the ripe mangoes have been picked by Jake, calculate the total number of ripe mangoes remaining on the tree.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 
+Gwen's hair was twenty-eight centimeters long. After a haircut it was seventeen centimeters long. How much did she cut off?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+Prompting Approach: few shot. Generated Text: ### Response: 20 kids in preschool are ready for a nap.  1/2 of the kids fall asleep within the first 5 minutes.  Then half of the kids remaining fall asleep within another 5 minutes.  How many kids are still awake?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 37 people attended the party. 13 are men. The rest are women. How many women attended the party?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 200 people attended a party. 3/4 of them were men and the rest were women. How many women attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 20 chickens were sold at $10 each. 15 of the chickens were sold by Sam and the rest were sold by his brother, Steve. How much did Steve sell his chickens for if he sold them at a 20% profit?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 400 kids were playing hide and seek. 100 kids were found by the seeker, 200 more kids joined in the game and were also found by the seeker. How many kids are still hiding?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 526 children are going to the circus with their teachers. There are 10 children on each bus. How many buses will be used?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 38 worksheets were turned in by students. 4 were graded, but then 15 more were turned in. How many worksheets would a teacher have to grade?
+Prompting Approach: few shot. Generated Text: ### Response: 3 hours is 3*60=<<3*60=180>>180 minutes.
+If it takes 20 minutes to paint a house, you can paint 180/20=<<180/20=9>>9 houses in 3 hours.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 180 pounds of grapes can make 30 bottles of wine. If 120 pounds of grapes are used to make 20 bottles of wine, how many pounds of grapes are needed to make 1 bottle of wine?
+Prompting Approach: few shot. Generated Text: ### Response: 
+James earns $20 an hour while working at his main job. He earns 20% less while working his second job. He works 30 hours at his main job and half that much at his second job. How much does he earn per week?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 3/4 of the pizza was eaten by the boys, and 1/4 of the pizza was eaten by the girls. If 3/8 of the pizza was left, how much pizza did the boys eat?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If $300 is invested in a bank account that yields 10% simple interest every year, how much will the account have after 3 years?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 17 cents is equivalent to 1 nickel and 2 cents. A nickel is 5 cents. Therefore, Mrs. Hilt used 1 + 17/5 = <<1+17/5=2>>2 coins to buy the pencil.
+Prompting Approach: few shot. Generated Text: ### Response: 
+If 70% of the 200 chickens in a coop are hens, calculate the number of roosters in the coop.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 100 people attended the party. Three-fourths of them are men. How many women attended the party?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 3000 pounds of sand were used to fill bags. If each bag has a capacity of 65 pounds, how many pounds of sand are there in the bag that is not full?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 30 ducks swam in the morning and 15 ducks swam in the afternoon. How many ducks swam in the day?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 50% of the 2000 visitors to a park on a particular day are men, and 30% of the number of men is children, calculate the total number of men and children in the park.
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 2 distinct vertices of a regular polygon are chosen at random. What is the probability that they are adjacent? Express your answer as a common fraction.
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 30 people attended a party. Two-thirds of the people are men. How many women attended the party?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 30 first graders are on the playground. 12 of them are on the slide. The rest of the kids are on the swings. How many first graders are on the swings?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 216 strawberries were grown by Mr. Graham in his backyard farm. He sold 128 of them to his neighbor and 88 were eaten by his family. How many strawberries are remaining?
+Prompting Approach: few shot. Generated Text: ### Response: 1/5 of the apples have worms, so Lex has to throw 1/5 * 85 = <<1/5*85=17>>17 apples away.
+9 more than one fifth of the apples are bruised, so Lex has to use 9 + 1/5 * 85 = 22 apples for applesauce.
+He picked 85 apples, so Lex has 85 - 17 - 22 = <<85-17-22=46>>46 apples left to eat raw.
+#### 46
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 
+There were 100 people in attendance at the school dance.  Half of the attendees were boys.  Of the girls, 1/4 were juniors.  How many junior girls were at the dance?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: Find the sum of the positive factors of 24.
+
+Answer:The positive factors of 24 are 1, 2, 3, 4, 6, 8, 12 and 24. Their sum is $1+2+3+4+6+8+12+24=\boxed{60}$. The answer is 60
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 20 kids in preschool are ready for a nap. 1/4 of the kids are already asleep. If 1/2 of the kids who are not asleep lay down, how many kids are still awake?
+Prompting Approach: few shot. Generated Text: ### Response: 4 scoops of ice cream while Victoria has twice more scoops of ice cream than Oli's. How many more scoops of ice cream does Victoria have than Oli?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 3/5 of the number of people who were on a bus at the last stop are women. If there were 200 people on the bus at the last stop, calculate the number of men on the bus.
+Prompting Approach: few shot. Generated Text: ### Response: 1000 people live in a small town.  20% of the people are men.  50% of the women are children.  How many adult women live in the town?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 50 fish are swimming together. One third of the fish are trout. 12 of the fish are bass. How many more trout are there than bass?
+Prompting Approach: few shot. Generated Text: ### Response: 10 cowboy hats cost $60 so how much does 1 cowboy hat cost?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 30 children are playing in a park. 1/3 of them are girls. The rest are boys. How many boys are playing in the park?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 400 people live in a small town. 200 males live there, and the rest are females. Twice as many females as males are between 30 and 40 years old. How many females are younger than 30 or older than 40?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+#### 2500
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 10 kids play soccer in the field, 1/5 of them are girls. How many boys play soccer in the field?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 16 weeks have passed since Bob has taken a vacation.  His boss finally relents and gives Bob 4 weeks of paid vacation, but when Bob tries to take his vacation he discovers that his visa has expired.  Bob must wait 3 weeks for his new visa to process before he can take his vacation.  During this time, Bob's boss agrees to give him an additional 2 weeks of paid vacation.  Once his visa is processed, Bob takes his vacation.  How many weeks of vacation does Bob take in total?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 230 people attended the party. 180 of them were men. How many were women?
+Prompting Approach: few shot. Generated Text: ### Response: 20% of the vets in a state recommend Puppy Kibble. 30% recommend Yummy Dog Kibble. If there are 1000 vets in the state, how many more recommend Yummy Dog Kibble than Puppy Kibble?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 3 bears caught 10 fish each. 2 bears caught 13 fish each. How many more fish did the first group of bears catch?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 32 kids went to the park to play. Half of them took 2 balls each, 5 of them took 3 balls each, and the rest took 1 ball each. How many balls went to the park?
+Prompting Approach: few shot. Generated Text: ### Response: 300 cows in a field. 10% are bulls. 20% of the bulls are black. How many black bulls are there?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 
+What is the sum of the positive factors of 24?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: .
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 34 apples were in the basket. 1/2 are red and the rest are green. How many apples are green?
+Prompting Approach: few shot. Generated Text: ### Response: 12 boxes per carton, and there are 10 packs of cookies per box. If a dozen cartons cost $1440, how much does a pack of cookies cost?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 20 chickens were kept in a 60 feet by 40 feet chicken coop. If they were to be kept in 10 feet by 10 feet individual cages, how many cages would be needed?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Jamie has 60 more pencils than does Sam. Pencils cost $3 for a pack of 12. If Sam buys 180 pencils, how much money does he spend on pencils?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 3/5 of the oranges are ripe. There are 25 oranges in total. How many of the oranges are not ripe?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A truck can carry 50 boxes with 20 bottles of water each. If 4000 bottles of water are required to be shipped, how many trucks will carry the bottles of water?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 10 people attended class yesterday. Half as many people attended the class today. How many people attended the class yesterday and today?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 50 fish swam up a river to lay their eggs. If a quarter of the fish were trout, and 30% of the trout were 2 years old, how many 2-year-old trout were there?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 500 people attended the party. If there are 10 tables with 20 people at each table, how many tables will be left if 100 people left the party?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+#### 125 pounds of chocolate are divided into 50 packages. If 30 pounds of chocolate are left over, how much chocolate was in a single package?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 32 bird families flew away for winter, leaving 67 bird families near the mountain. If 13 more bird families join in, how many bird families are there now?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: 24 people attended the party. Three-fourths of the guests were women, and the rest were men. How many men attended the party?
+Prompting Approach: few shot. Generated Text: ### Response: 20 kids in preschool are ready to get a pet. They decide to hold a bake sale to raise money for a puppy, which costs $400. They sell 20 cookies at $2 each, 10 brownies at $3 each, and 15 lemonades at $1.5 each. How much more money do they need to get a puppy?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 300 people live in a small town. 100 people moved away. 50 new people moved in. How many people are in the town now?
+Prompting Approach: few shot. Generated Text: ### Response: 16 people at a dinner party. There are 40 dinner rolls available for them. Half the people eat 1 1/2 rolls each. The other half eat 1/2 a roll each. How many dinner rolls are leftover?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 10 kids in preschool are ready to take a nap. 20% of them are boys. How many girls are getting ready to take a nap?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of a regular octagon are chosen at random. What is the probability that they will not be adjacent?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 3 boys and 5 girls go on a picnic with 3 adults. They make 2 sandwiches each. If there are 2 pieces of bread in each sandwich, how many pieces of bread did they eat?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 20 chickens were sold at the market. The remaining chickens were 33. How many chickens were there at first?
+Prompting Approach: few shot. Generated Text: ### Response: 300 cows in a field are made up of male and female cows. There are twice as many females as males. Half the females are black and white, and the other half are brown and white. If 150 of the cows in the field are male, how many black and white female cows are there?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 14 red plums and four green plums are in the basket. How many plums are in the basket?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 20 snakes were in a lake. 3 of the snakes left the lake to find food. 5 more snakes left the lake to find food. How many snakes remained in the lake?
+Prompting Approach: few shot. Generated Text: ### Response: 10 dimes make a dollar. 10 nickels make a dollar. How many cents will you have if you exchange 10 dimes for nickels?
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 100 people attended the party. 30% of the guests are men, 40% are women, and the rest are children. How many children attended the party?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 3 bags of chips weigh 12 pounds. How many pounds do 6 bags of chips weigh?

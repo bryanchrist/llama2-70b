@@ -1,0 +1,7 @@
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-0r8mmzjc/peft_5d1af965ec7e40958a13c197e8723c46
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-0r8mmzjc/accelerate_1aea529383a042e1b4209c3feaf0f56d
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 686
+    print('Adding special tokens.')
+IndentationError: unexpected indent

@@ -1,0 +1,259 @@
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+How many 12-sided dice does a boy need to buy if he has
+Prompting Approach: zero shot. Generated Text: The problem must have 2 or more steps to solve.
+The problem must require some sort of visualization (drawing, chart, etc) to solve.
+Post the problem in the comments section.
+The problem with the most votes wins.
+The winner will get 1000 BA.
+Voting will be done by commenting on the problem.
+Voting will end 1 week from now.
+I will be the tie-breaker if needed.
+There are 325 students in a school.
+125 of the students are in the 5th grade.
+There are 3 times as many 4th graders as 5th graders.
+How many 6th graders are there?
+How many 3rd graders are there?
+How many 2nd graders are there?
+How many 1st graders are there?
+125 of the students are in the 5th grade. There are 3 times as many 4th graders as 5th graders.
+How many 6th graders are there? 125.
+How many 3rd graders are there? 375.
+How many 2nd graders are there? 500.
+How many 1st graders are there? 625.
+325 + 125 + 375 + 500 + 625 = 1950.
+1950 - 125 - 375 - 500 - 625 = 325.
+125 of the students are in the 5th grade. There are 3 times as many 4th graders as 5th graders. How many 6th graders are there? 125
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:  Question: A 300-page
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response:  Question: 2000000 people are to be given 1000000 units of
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question: How many 3-digit numbers are multiples of 11?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Inst
+Prompting Approach: zero shot. Generated Text: Write a short story (250 words or less).
+Write a paragraph (100 words or less) about your favorite animal.
+Write a paragraph (100 words or less) about your favorite holiday.
+Write a paragraph (100 words or less) about a time you were scared.
+Write a paragraph (100 words or less) about your family.
+Write a paragraph (100 words or less) about a time you were in trouble.
+Write a paragraph (100 words or less) about a time you were really happy.
+Write a paragraph (100 words or less) about a time you were really sad.
+Write a paragraph (100 words or less) about a time you were really mad.
+Write a paragraph (100 words or less) about a time you were bored.
+Write a paragraph (100 words or less) about a time you were sick.
+Write a paragraph (100 words or less) about a time you were in pain.
+Write a paragraph (100 words or less) about a time you were in a rush.
+Write a paragraph (100 words or less) about a time you were in a bad mood.
+Write a paragraph (100 words or less) about a time you were in a good mood.
+Write a paragraph (100 words or less) about a time you were in a hurry.
+Write a paragraph (100 words or less) about a time you were in a panic.
+Write a paragraph (100 words or less) about a time you were in a daze.
+Write a paragraph (100 words or less) about a time you were in a trance.
+Write a paragraph (100 words or less) about a time you were in a fog.
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response:  Question: A 1000-page book is to be divided into 100 equal-sized chapters. 10 of the chapters will be 10 pages long, and the rest will be 15 pages long. How many chapters are 10 pages long?
+Below is an instruction that describes a task. Write a response that appropriately completes the request
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A 30-car train is
+Prompting Approach: zero shot. Generated Text: The problem should be solvable with 4th grade math.
+The problem should be solvable by a 4th grader.
+The problem should be interesting to a 4th grader.
+The problem should be solvable by a 4th grader in 10 minutes or less.
+The problem should be solvable with a pencil and paper.
+The problem should be solvable by a 4th grader with a pencil and paper.
+The problem should be solvable by a 4th grader in 10 minutes or less with a pencil and paper.
+The problem should be interesting to a 4th grader with a pencil and paper.
+The problem should be solvable by a 4th grader in 10 minutes or less with a pencil and paper and be interesting.
+The problem should be interesting to a 4th grader with a pencil and paper and be solvable in 10 minutes or less.
+The problem should be solvable by a 4th grader in 10 minutes or less with a pencil and paper and be interesting to a 4th grader.
+The problem should be interesting to a 4th grader with a pencil and paper and be solvable in 10 minutes or less by a 4th grader.
+The problem should be solvable by a 4th grader in 10 minutes or less with a pencil and paper and be interesting to a 4th grader with a pencil and paper.
+The problem should be interesting to a 4th grader with a pencil and paper and be solvable in 10 minutes or less by a 4th grader with a pencil and paper.
+The
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 
+
+### Instruction:
+Write a grade 3 math word problem
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 3000 oranges are to be packed in cartons. If each carton can only hold 100 oranges, how many cartons are needed?
+Below is an instruction that describes a task. Write a response that appropri
+Prompting Approach: zero shot. Generated Text: It' is 2013, and the 100th anniversary of the crossword puzzle is only 8 years away.  The New York Times, the most prestigious of all crossword puzzle publishers, has a special 15x15 puzzle to commemorate the event.  The puzzle has 100 clues, and each answer is a multiple of 8.  The answers are all positive, and there are no multi-word answers.  The words do not have to be in any kind of order.  What is the largest possible number of the 100 answers that are 8-letter words?
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response:  Question: A toddler was in the playground. He had 145 toys. He lost 131 of them. How many toys does the toddler have left?
+Below is an instruction that describes a task. Write a
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 1200000000000
+Prompting Approach: zero shot. Generated Text: A number is a multiple of 7.
+It is a multiple of 3.
+It is a multiple of 4.
+It is a multiple of 2.
+It is a multiple of 1.
+It is a multiple of 0.
+It is a multiple of -1.
+It is a multiple of -2.
+It is a multiple of -3.
+It is a multiple of -4.
+It is a multiple of -5.
+It is a multiple of -6.
+It is a multiple of -7.
+It is a multiple of -8.
+It is a multiple of -9.
+It is a multiple of -10.
+It is a multiple of -11.
+It is a multiple of -12.
+It is a multiple of -13.
+It is a multiple of -14.
+It is a multiple of -15.
+It is a multiple of -16.
+It is a multiple of -17.
+It is a multiple of -18.
+It is a multiple of -19.
+It is a multiple of -20.
+It is a multiple of -21.
+It is a multiple of -22.
+It is a multiple of -23.
+It is a multiple of -24.
+It is a multiple of -25.
+It is a multiple of -26.
+It is a multiple of -27.
+It is a multiple of -28.
+It is a multiple of -29.
+It is a multiple of -30.
+It is a multiple of -31.
+It is a multiple of -32.
+It is a multiple of -33.
+It is a multiple of -34.
+It is a multiple of -35.
+It is a
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: Question: 114.25 ounces of silver are to be melted and then molded into 100-ounce ingots. How many ounces of silver will be left
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+### Question: A baker is baking 100 pies. The baker is baking 50 pies for the purpose of selling. The baker is baking 30 pies for the purpose of eating. The baker is baking the rest of the pies for the purpose of gifting. How many pies is the baker baking for the purpose of eating?
+
+### Response: 30
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request
+Prompting Approach: zero shot. Generated Text: 300 words.
+1. 25% of the 300 students in a school are in the 5th grade. How many students are not in the 5th grade?
+2. 125 5th graders are in a school. 120 of them are in the 5th grade. How many students are not in the 5th grade?
+3. 150 5th graders are in a school. 120 of them are in the 5th grade. How many students are not in the 5th grade?
+4. 200 5th graders are in a school. 120 of them are in the 5th grade. How many students are not in the 5th grade?
+5. 120 5th graders are in a school. 125 of them are in the 5th grade. How many students are not in the 5th grade?
+6. 120 5th graders are in a school. 150 of them are in the 5th grade. How many students are not in the 5th grade?
+7. 120 5th graders are in a school. 200 of them are in the 5th grade. How many students are not in the 5th grade?
+8. 120 5th graders are in a school. 250 of them are in the 5th grade. How many students are not in the 5th grade?
+9. 120 5th graders are in a school. 100 of them are in the 5th grade. How many students are not in the 5th grade?
+10. 120 5th graders
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: 
+Question: A 12-sided die has 6 dots on 8 of its sides and 4 dots on the rest.  What is the average
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: 1. A number is 3 more than 14. 2. A number is 4 times 15. 3. A number is 20 less than 33. 4. A number is 20 more than 12.
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 10
+Prompting Approach: zero shot. Generated Text: How many 12-sided dice are needed to roll the same number of sides as 10 6-sided dice?
+Roger and his 3 friends are at a toy store. Roger has $20.00. His first friend has $11.00. His second friend has $13.00. And his third friend has $18.00. How much money do they have in all?
+How many 12-sided dice are needed to roll the same number of sides as 10 6-sided dice?
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: 
+
+Question: A dad and a mom are at the mall. The dad has 10 dollars and
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question: 3/5 of the 100 oranges in a basket are
+Prompting Approach: zero shot. Generated Text: In 1000, the Caliph of Baghdad had a library of 400,000 books.  In 1258, the Mongols sacked Baghdad and burned all the books, throwing them into the Tigris.  The books sank, and the Tigris water became ink for 2 days.  If 1000 books make 1 ink, how many days of ink were in the Caliph's library?
+A 10-story building has 1000 windows.  Each story has the same number of windows.  How many windows are on the 5th story?
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: 100 points.
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: 
+
+### Instruction:
+Write a grade 5 math word problem
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 12000 people live in a small town. 25% of the people have a dog. 1200 people have a cat. 500 people have a bird. 1000 people have a reptile. 2000 people have a fish. How many people have more than one pet?
+Below is an instruction that describes a
+Prompting Approach: zero shot. Generated Text: 4th grade is a good target. 100 words or less.
+My dog has 4 legs.  My cat has 2 legs.  How many legs do they have in total?
+Dog and cat legs are not interchangeable.
+If 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: Question: A 5-sided shape has 3 long sides that are 10 inches each. The other 2 sides are 8 inches each. What is the perimeter of the 5-sided shape?
+Below is an instruction that describes a task. Write a response that appropriately completes
+Prompting Approach: few shot. Generated Text: 
+Prompting Approach: zero shot. Generated Text: It can be about anything you like.
+I will pick my favorites and post the solutions.
+A pizza is cut into 8 slices. 4 of the slices are eaten. 2 of the slices are cold. How many slices are left?
+A pizza is cut into 8 slices. 4 of the slices are eaten. 2 of the slices are cold. How many slices are left? 2.
+A pizza is cut into 8 slices. 4 of the slices are eaten. 2 of the slices are cold. How many slices are left? 2.
+The 4 slices that were eaten were hot, the 2 slices that are cold are not eaten.
+The pizza is cut into 8 slices. 2 of the slices are eaten. 1 of the slices is cold. How many slices are left? 5.
+The pizza is cut into 8 slices. 2 of the slices are eaten. 1 of the slices is cold. How many slices are left? 5.
+The 2 slices that were eaten were hot, the 1 slice that is cold is not eaten.
+A pizza is cut into 8 slices. 4 of the slices are eaten. 2 of the slices are cold. How many slices are left? 2. The 4 slices that were eaten were hot, the 2 slices that are cold are not eaten. The pizza is cut into 8 slices. 2 of the slices are eaten. 1 of the slices is cold. How many slices are left? 5. The 2 slices that were eaten were hot, the 1 slice that is cold is
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: Question: If you have 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Prompting Approach: zero shot. Generated Text: I'm not sure how this is a "word problem" but here goes.
+A 12-sided die is rolled.  What is the probability that the number rolled is a factor of 6?
+I'm not sure if this is a "word problem" but here goes.
+A 12-sided die is rolled.  What is the probability that the number rolled is a factor of 6? (I.e. 1, 2, 3, or 6.)
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response:  Question: 550000000 is the same as $550,000,000. How many 0's are there in $550,0
+Prompting Approach: few shot. Generated Text: ### Response:  Question: A bakery is making doughnuts. The bakery has
+Prompting Approach: zero shot. Generated Text: Bonus points for including a picture.
+The 100th day of school is a big deal for many elementary school students.  Students often make a project to celebrate the 100th day of school.  For example, they may bring in 100 of something.  Or they may make a project that has 100 of something.  What is a 100th day of school project that a student could make that would involve a math word problem?  (The project does not have to involve 100 of something, but the word problem should.)  What is the word problem?  (You do not need to make the project.)  Bonus points for a picture of the project.
+100 is a nice, round number.  It' [s also the square of 10.  And 10 is a nice, round number.  What is a 100th day of school project that a student could make that would involve a 10th day of school project?  (The project does not have to involve 10 of something, but the word problem should.)  What is the word problem?  (You do not need to make the project.)  Bonus points for a picture of the project.
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: 
+Question: 20000/4000=?
+
+Below is an instruction that describes a
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A 5-digit number is chosen at random.  What is the probability that it is divisible by 5?
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request
+Prompting Approach: zero shot. Generated Text: I have 500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: Question: A town has 20000 people. 20000 are females. How many are males?
+Bel
+Prompting Approach: few shot. Generated Text: ### Response: Question: 12000/3600=400/x, what is the value of x?
+Below is an instruction that describes a task. Write a response that appropriately
+Prompting Approach: zero shot. Generated Text: 1000 words.
+A 1000 word math word problem?!
+I'm not sure I have the brain power for this.
+I'm not sure I have the brain power for this. 2000 words.
+I'm not sure I have the brain power for this. 3000 words.
+I'm not sure I have the brain power for this. 4000 words.
+I'm not sure I have the brain power for this. 5000 words.
+I'm not sure I have the brain power for this. 6000 words.
+I'm not sure I have the brain power for this. 7000 words.
+I'm not sure I have the brain power for this. 8000 words.
+I'm not sure I have the brain power for this. 9000 words.
+I'm not sure I have the brain power for this. 10000 words.
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 10-slice pizza was ordered. 
+Each slice of pizza was cut in half. 
+Each of the halves was then cut into 4 pieces. 
+How many total pieces of pizza are there?
+
+Bel
+Prompting Approach: zero shot. Generated Text: What is the word problem that the above image is illustrating?
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: Question: 500000 people are watching a concert. 1/5 of the people are in the VIP section. 1/10
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: zero shot. Generated Text: My 4th-grade class has 32 students. 1/4 of the class are boys. 1/3 of the class are girls. The rest of the class are gender non-conforming. How many gender non-conforming students are in the class?
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: Question: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Prompting Approach: few shot. Generated Text: ### Response:  Question: How many 2-digit numbers are there in which each digit is prime?
+Prompting Approach: zero shot. Generated Text: For example:
+
+- A pond has 300 frogs. 1/3 of the frogs are green. 1/4 of the green frogs are poisonous. How many poisonous frogs are there?
+
+- A 2-liter bottle of soda has 600 mL of soda. 1/4 of the soda is drunk by a thirsty child. How much soda is left?
+
+- 3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response:

@@ -187,10 +187,11 @@ text_classifier_llama
 wandb
 
 #data
-datamammoth_question_adapter
-\nmammoth_question_adapter
-\nmammoth_question_adapter
-/nmammoth_question_adapter
+data
+llama_QA_adapter
+llama_QA_adapter_no_embed
+llama_question_adapter
+llama_question_adapter_no_embed
 mammoth_question_adapter
 mammoth_QA_adapter
 data

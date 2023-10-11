@@ -1,0 +1,26 @@
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-p7szbjad/peft_ae53b299cebe404998429646b57ec8dd
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-p7szbjad/accelerate_4dbd64aaedd44d59a15caf6fdc4d453d
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:09<02:08,  9.21s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:18<01:57,  9.04s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:26<01:46,  8.91s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:35<01:34,  8.60s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:42<01:23,  8.37s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:50<01:13,  8.12s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:58<01:04,  8.08s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [01:07<00:58,  8.34s/it]Loading checkpoint shards:  60%|██████    | 9/15 [01:17<00:52,  8.81s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [01:27<00:46,  9.25s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [01:38<00:38,  9.64s/it]Loading checkpoint shards:  80%|████████  | 12/15 [01:49<00:30, 10.20s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [02:00<00:21, 10.52s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [02:11<00:10, 10.43s/it]Loading checkpoint shards: 100%|██████████| 15/15 [02:11<00:00,  7.48s/it]Loading checkpoint shards: 100%|██████████| 15/15 [02:11<00:00,  8.78s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Token indices sequence length is longer than the specified maximum sequence length for this model (755 > 512). Running this sequence through the model will result in indexing errors
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/mammoth_question_generate.py", line 151, in <module>
+    question = df2.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df2.query(f"instruction=='{prompt}'")['instruction']))]
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds

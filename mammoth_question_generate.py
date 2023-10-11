@@ -65,7 +65,7 @@ login(token=token)
 sys.stdin = open(os.devnull)
 
 model_path = "TIGER-Lab/MAmmoTH-70B"   # Specify the path to the model
-adapter_path = "mammoth_question_adapter/checkpoint-3500"  # Specify the path to the adapter weights
+adapter_path = "mammoth_question_adapter/checkpoint-3750"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically
@@ -115,7 +115,7 @@ for i in range(0,100):
     formatted_prompt.append(f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\n{prompt}\n\n### Response: ")
-    formatted_prompt = "\n\n".join(formatted_prompt)
+    formatted_prompt = "\n".join(formatted_prompt)
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')
@@ -157,8 +157,8 @@ for i in range(0,100):
                 f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))
     formatted_prompt.append(f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
-                f"### Instruction:\nWrite a {grade} math word problem.\n\n### Response: ")
-    formatted_prompt = "\n\n".join(formatted_prompt)
+                f"### Instruction:\nWrite a grade {grade} math word problem.\n\n### Response: ")
+    formatted_prompt = "\n".join(formatted_prompt)
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')

@@ -1,8 +1,8 @@
 import os
 import sys
 import builtins
-#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/mammoth/cache'
-os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/mammoth/cache'
+#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
+os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 import torch
 from collections import defaultdict
@@ -64,8 +64,8 @@ login(token=token)
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
-model_path = "TIGER-Lab/MAmmoTH-70B"   # Specify the path to the model
-adapter_path = "mammoth_QA_adapter/checkpoint-3750"  # Specify the path to the adapter weights
+model_path = "meta-llama/Llama-2-70b-hf"   # Specify the path to the model
+adapter_path = "llama_QA_adapter_no_embed/checkpoint-2750"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically
@@ -126,7 +126,7 @@ for i in range(0,100):
     generated_text_parts = generated_text.split(prompt)
     newly_generated_text = generated_text_parts[-1].strip()
     
-    output_file = "mammoth_QA_generate.txt"  # Specify the path and filename for the output file
+    output_file = "llama_QA_generate.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Prompting Approach: few shot. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file
         
@@ -154,7 +154,7 @@ for i in range(0,100):
     for i in range(0,7):
         formatted_prompt.append((f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
-                f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))
+                f"### Instruction:\n{prompt}\n\n### Response: Question: {questions[i]}"))
     formatted_prompt.append(f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\nWrite a grade {grade} math word problem and Python program to solve the word problem.\n\n### Response: ")

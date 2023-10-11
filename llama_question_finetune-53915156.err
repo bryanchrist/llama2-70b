@@ -1,0 +1,44 @@
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-a4duqcft/peft_39b7a23ec7b64107bd52c6f9e9735ee3
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-a4duqcft/accelerate_ee55db1ee3554eaf88c469697aeca44b
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:18<04:15, 18.23s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:36<03:55, 18.11s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:53<03:33, 17.76s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [01:10<03:13, 17.59s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [01:28<02:54, 17.41s/it]Loading checkpoint shards:  40%|████      | 6/15 [01:45<02:36, 17.36s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [02:10<02:38, 19.85s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [02:35<02:31, 21.64s/it]Loading checkpoint shards:  60%|██████    | 9/15 [03:00<02:16, 22.77s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [03:25<01:55, 23.18s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [03:37<01:19, 19.89s/it]Loading checkpoint shards:  80%|████████  | 12/15 [03:43<00:47, 15.79s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [03:50<00:25, 12.94s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [03:56<00:10, 10.89s/it]Loading checkpoint shards: 100%|██████████| 15/15 [03:56<00:00,  7.73s/it]Loading checkpoint shards: 100%|██████████| 15/15 [03:56<00:00, 15.79s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Found cached dataset json (/home/brc4cb/.cache/huggingface/datasets/json/default-af923474034fc03d/0.0.0)
+Loading cached split indices for dataset at /home/brc4cb/.cache/huggingface/datasets/json/default-af923474034fc03d/0.0.0/cache-7aa7c48df6c7c1b9.arrow and /home/brc4cb/.cache/huggingface/datasets/json/default-af923474034fc03d/0.0.0/cache-3d5278b243c7ebba.arrow
+Loading cached split indices for dataset at /home/brc4cb/.cache/huggingface/datasets/json/default-af923474034fc03d/0.0.0/cache-0bc60fa517259612.arrow and /home/brc4cb/.cache/huggingface/datasets/json/default-af923474034fc03d/0.0.0/cache-79f3e6ff7ef39634.arrow
+Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/json/default-af923474034fc03d/0.0.0/cache-2bef51c38e89d583.arrow
+Loading cached processed dataset at /home/brc4cb/.cache/huggingface/datasets/json/default-af923474034fc03d/0.0.0/cache-427accaa121a5a85.arrow
+  0%|          | 0/5000 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 823, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 785, in train
+    train_result = trainer.train()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1553, in train
+    return inner_training_loop(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1813, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/_utils.py", line 694, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 443, in __call__
+    input_ids = pad_sequence(input_ids, batch_first=True, padding_value=self.tokenizer.pad_token_id)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/utils/rnn.py", line 400, in pad_sequence
+    return torch._C._nn.pad_sequence(sequences, batch_first, padding_value)
+TypeError: pad_sequence(): argument 'padding_value' (position 3) must be float, not NoneType
+
+  0%|          | 0/5000 [00:02<?, ?it/s]

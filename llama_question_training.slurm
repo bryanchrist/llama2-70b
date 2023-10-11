@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A sds-phd-2022
+#SBATCH -A bryan_research
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -12,9 +12,9 @@
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
 #SBATCH -t 3-00:00:00
-#SBATCH -J llama_70b_finetune
-#SBATCH -o llama_finetune-%A.out
-#SBATCH -e llama_finetune-%A.err
+#SBATCH -J llama_70b__question_finetune
+#SBATCH -o llama_question_finetune-%A.out
+#SBATCH -e llama_question_finetune-%A.err
 ##SBATCH -x udc-an28-[1,7],udc-an34-[1,7,13,19]#,udc-an36-[1,13,19]#,udc-an37-[1,7,13,19]#,udc-ba25-2[3,7,8],udc-ba26-2[3-6],udc-ba27-2[3-4]
 
 module purge
@@ -34,7 +34,7 @@ conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
 python qlora_no_embed.py \
     --model_name_or_path meta-llama/Llama-2-70b-hf \
-    --output_dir ./llama_QA_adapter_no_embed \
+    --output_dir ./llama_question_adapter_no_embed \
     --logging_steps 10 \
     --save_strategy steps \
     --data_seed 42 \
@@ -61,7 +61,7 @@ python qlora_no_embed.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="mammoth_train.json" \
+    --dataset="mammoth_question_train.json" \
     --source_max_len 16 \
     --target_max_len 512 \
     --per_device_train_batch_size 1 \

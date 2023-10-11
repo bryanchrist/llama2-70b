@@ -592,3 +592,85 @@ Saving PEFT checkpoint...
 {'loss': 0.4339, 'learning_rate': 0.0001, 'epoch': 2.84}
 {'loss': 0.3838, 'learning_rate': 0.0001, 'epoch': 2.84}
 {'loss': 0.3711, 'learning_rate': 0.0001, 'epoch': 2.85}
+{'eval_loss': 0.5986522436141968, 'eval_runtime': 1099.0924, 'eval_samples_per_second': 0.91, 'eval_steps_per_second': 0.91, 'epoch': 2.86}
+{'loss': 0.3847, 'learning_rate': 0.0001, 'epoch': 2.86}
+{'loss': 0.3587, 'learning_rate': 0.0001, 'epoch': 2.87}
+{'loss': 0.4223, 'learning_rate': 0.0001, 'epoch': 2.87}
+{'loss': 0.4545, 'learning_rate': 0.0001, 'epoch': 2.88}
+{'loss': 0.3905, 'learning_rate': 0.0001, 'epoch': 2.89}
+{'loss': 0.3631, 'learning_rate': 0.0001, 'epoch': 2.89}
+{'loss': 0.3434, 'learning_rate': 0.0001, 'epoch': 2.9}
+{'loss': 0.444, 'learning_rate': 0.0001, 'epoch': 2.91}
+Saving PEFT checkpoint...
+{'loss': 0.374, 'learning_rate': 0.0001, 'epoch': 2.92}
+{'loss': 0.3453, 'learning_rate': 0.0001, 'epoch': 2.92}
+{'loss': 0.3301, 'learning_rate': 0.0001, 'epoch': 2.93}
+{'loss': 0.3616, 'learning_rate': 0.0001, 'epoch': 2.94}
+{'loss': 0.4323, 'learning_rate': 0.0001, 'epoch': 2.95}
+{'loss': 0.4339, 'learning_rate': 0.0001, 'epoch': 2.95}
+{'loss': 0.3263, 'learning_rate': 0.0001, 'epoch': 2.96}
+{'loss': 0.3409, 'learning_rate': 0.0001, 'epoch': 2.97}
+{'loss': 0.3525, 'learning_rate': 0.0001, 'epoch': 2.97}
+{'loss': 0.4159, 'learning_rate': 0.0001, 'epoch': 2.98}
+{'loss': 0.3911, 'learning_rate': 0.0001, 'epoch': 2.99}
+{'eval_loss': 0.5838348269462585, 'eval_runtime': 1099.0472, 'eval_samples_per_second': 0.91, 'eval_steps_per_second': 0.91, 'epoch': 2.99}
+{'loss': 0.3382, 'learning_rate': 0.0001, 'epoch': 3.0}
+{'loss': 0.3489, 'learning_rate': 0.0001, 'epoch': 3.0}
+{'loss': 0.2209, 'learning_rate': 0.0001, 'epoch': 3.01}
+{'loss': 0.231, 'learning_rate': 0.0001, 'epoch': 3.02}
+{'loss': 0.2578, 'learning_rate': 0.0001, 'epoch': 3.03}
+{'loss': 0.2942, 'learning_rate': 0.0001, 'epoch': 3.03}
+{'loss': 0.3625, 'learning_rate': 0.0001, 'epoch': 3.04}
+{'loss': 0.2597, 'learning_rate': 0.0001, 'epoch': 3.05}
+{'loss': 0.2482, 'learning_rate': 0.0001, 'epoch': 3.05}
+{'loss': 0.2498, 'learning_rate': 0.0001, 'epoch': 3.06}
+{'loss': 0.2945, 'learning_rate': 0.0001, 'epoch': 3.07}
+{'loss': 0.3455, 'learning_rate': 0.0001, 'epoch': 3.08}
+{'loss': 0.2312, 'learning_rate': 0.0001, 'epoch': 3.08}
+{'loss': 0.2501, 'learning_rate': 0.0001, 'epoch': 3.09}
+Saving PEFT checkpoint...
+{'loss': 0.2596, 'learning_rate': 0.0001, 'epoch': 3.1}
+{'loss': 0.3096, 'learning_rate': 0.0001, 'epoch': 3.11}
+{'loss': 0.3715, 'learning_rate': 0.0001, 'epoch': 3.11}
+{'loss': 0.2254, 'learning_rate': 0.0001, 'epoch': 3.12}
+{'loss': 0.2273, 'learning_rate': 0.0001, 'epoch': 3.13}
+{'eval_loss': 0.6037931442260742, 'eval_runtime': 1099.1274, 'eval_samples_per_second': 0.91, 'eval_steps_per_second': 0.91, 'epoch': 3.13}
+{'loss': 0.266, 'learning_rate': 0.0001, 'epoch': 3.13}
+{'loss': 0.312, 'learning_rate': 0.0001, 'epoch': 3.14}
+{'loss': 0.3625, 'learning_rate': 0.0001, 'epoch': 3.15}
+{'loss': 0.2388, 'learning_rate': 0.0001, 'epoch': 3.16}
+{'loss': 0.2384, 'learning_rate': 0.0001, 'epoch': 3.16}
+{'loss': 0.258, 'learning_rate': 0.0001, 'epoch': 3.17}
+{'loss': 0.3281, 'learning_rate': 0.0001, 'epoch': 3.18}
+{'loss': 0.3672, 'learning_rate': 0.0001, 'epoch': 3.19}
+{'loss': 0.2455, 'learning_rate': 0.0001, 'epoch': 3.19}
+{'loss': 0.2484, 'learning_rate': 0.0001, 'epoch': 3.2}
+{'loss': 0.2577, 'learning_rate': 0.0001, 'epoch': 3.21}
+{'loss': 0.3117, 'learning_rate': 0.0001, 'epoch': 3.21}
+{'loss': 0.3856, 'learning_rate': 0.0001, 'epoch': 3.22}
+{'loss': 0.2394, 'learning_rate': 0.0001, 'epoch': 3.23}
+{'loss': 0.2512, 'learning_rate': 0.0001, 'epoch': 3.24}
+{'loss': 0.2653, 'learning_rate': 0.0001, 'epoch': 3.24}
+{'loss': 0.3121, 'learning_rate': 0.0001, 'epoch': 3.25}
+{'loss': 0.3969, 'learning_rate': 0.0001, 'epoch': 3.26}
+{'eval_loss': 0.6023936867713928, 'eval_runtime': 1100.69, 'eval_samples_per_second': 0.909, 'eval_steps_per_second': 0.909, 'epoch': 3.26}
+{'loss': 0.2569, 'learning_rate': 0.0001, 'epoch': 3.27}
+{'loss': 0.2585, 'learning_rate': 0.0001, 'epoch': 3.27}
+Saving PEFT checkpoint...
+{'loss': 0.2597, 'learning_rate': 0.0001, 'epoch': 3.28}
+{'loss': 0.3209, 'learning_rate': 0.0001, 'epoch': 3.29}
+{'loss': 0.3636, 'learning_rate': 0.0001, 'epoch': 3.29}
+{'loss': 0.2409, 'learning_rate': 0.0001, 'epoch': 3.3}
+{'loss': 0.264, 'learning_rate': 0.0001, 'epoch': 3.31}
+{'loss': 0.2939, 'learning_rate': 0.0001, 'epoch': 3.32}
+{'loss': 0.3128, 'learning_rate': 0.0001, 'epoch': 3.32}
+{'loss': 0.356, 'learning_rate': 0.0001, 'epoch': 3.33}
+{'loss': 0.2644, 'learning_rate': 0.0001, 'epoch': 3.34}
+{'loss': 0.2339, 'learning_rate': 0.0001, 'epoch': 3.34}
+{'loss': 0.2778, 'learning_rate': 0.0001, 'epoch': 3.35}
+{'loss': 0.3103, 'learning_rate': 0.0001, 'epoch': 3.36}
+{'loss': 0.3688, 'learning_rate': 0.0001, 'epoch': 3.37}
+{'loss': 0.2399, 'learning_rate': 0.0001, 'epoch': 3.37}
+{'loss': 0.2611, 'learning_rate': 0.0001, 'epoch': 3.38}
+{'loss': 0.278, 'learning_rate': 0.0001, 'epoch': 3.39}
+{'loss': 0.3227, 'learning_rate': 0.0001, 'epoch': 3.4}

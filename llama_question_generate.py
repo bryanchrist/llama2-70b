@@ -1,8 +1,8 @@
 import os
 import sys
 import builtins
-#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/mammoth/cache'
-os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/mammoth/cache'
+#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
+os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 import torch
 from collections import defaultdict
@@ -64,8 +64,8 @@ login(token=token)
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
-model_path = "TIGER-Lab/MAmmoTH-70B"   # Specify the path to the model
-adapter_path = "mammoth_QA_adapter/checkpoint-3750"  # Specify the path to the adapter weights
+model_path = "meta-llama/Llama-2-70b-hf"   # Specify the path to the model
+adapter_path = "llama_question_adapter_no_embed/checkpoint-2750"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically
@@ -97,12 +97,12 @@ model = PeftModel.from_pretrained(model, adapter_path)
 
 import pandas as pd
 
-df = pd.read_json('mammoth_train.json')
+df = pd.read_json('mammoth_question_train.json')
 df2 = pd.read_json('ASDiv_instruct.json')
 grades = ['1', '2', '3', '4', '5', '6']
 for i in range(0,100):
     
-    prompt = f"Write a grade school math word problem and Python program to solve the word problem."
+    prompt = f"Write a grade school math word problem."
     questions = []
     for i in range(0, 7):
         question = df.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df.query(f"instruction=='{prompt}'")['instruction']))]
@@ -126,11 +126,11 @@ for i in range(0,100):
     generated_text_parts = generated_text.split(prompt)
     newly_generated_text = generated_text_parts[-1].strip()
     
-    output_file = "mammoth_QA_generate.txt"  # Specify the path and filename for the output file
+    output_file = "llama_question_generate.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Prompting Approach: few shot. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file
         
-    prompt = f"Write a grade school math word problem and Python program to solve the word problem."
+    prompt = f"Write a grade school math word problem."
     inputs = tokenizer.encode(prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')
@@ -154,10 +154,10 @@ for i in range(0,100):
     for i in range(0,7):
         formatted_prompt.append((f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
-                f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))
+                f"### Instruction:\n{prompt}\n\n### Response: Question: {questions[i]}"))
     formatted_prompt.append(f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
-                f"### Instruction:\nWrite a grade {grade} math word problem and Python program to solve the word problem.\n\n### Response: ")
+                f"### Instruction:\nWrite a grade {grade} math word problem.\n\n### Response: ")
     formatted_prompt = "\n".join(formatted_prompt)
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)

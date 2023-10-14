@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A sds-phd-2022
+#SBATCH -A bryan_research
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -68,9 +68,9 @@ python qlora_no_embed.py \
     --gradient_accumulation_steps 16 \
     --max_steps 5000 \
     --eval_steps 187 \
-    --learning_rate 0.0001 \
+    --learning_rate 0.00001 \
     --adam_beta2 0.999 \
     --max_grad_norm 0.3 \
     --lora_dropout 0.05 \
-    --weight_decay 0.0 \
+    --weight_decay 0.0001 \
     --seed 0

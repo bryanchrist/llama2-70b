@@ -1,0 +1,129 @@
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of an octagon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the value of $x$ for which $(x+2)^2 = 16$?
+Prompting Approach: few shot. Generated Text: ### Response: 
+If 50 cars are sold in a week by a salesperson, how many cars will be sold in 10 weeks?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 6 groups of hawks are tracked.  Each group has 15 hawks that get pregnant.  Each pregnant hawk lays 4 eggs.  If 25% of the eggs do not hatch, how many baby hawks are expected to hatch this season?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the sum of all two-digit positive integers whose squares end with the digits 01?
+Prompting Approach: few shot. Generated Text: ### Response: 500 people attended a town hall meeting about the new sports arena being built in the city. 70% of the people were men, and the rest were women. How many women attended the meeting?
+Prompting Approach: few shot. Generated Text: ### Response: 12 people attended class on the first day of school. On the second day, 5 fewer people showed up for class. If the number of attendees on the second day is double the number of attendees on the third day, calculate the total number of people who have attended the class in the three days.
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 30 birds were sitting in a tree. 1/6 of the birds were chickadees. 1/3 of the birds were sparrows. 1/4 of the remaining birds were cardinals.  How many birds were not cardinals?
+Prompting Approach: few shot. Generated Text: ### Response: 200 students go to a school. 1/4 of them are in elementary school and the rest are in middle school. In the middle school, there are three times as many boys as girls. If there are 40 girls in the middle school, how many students are in the elementary school?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 15 birds were spotted on the tree. Three-fifths of the birds were eagles and 3/7 of the eagles were male. How many female eagles were there?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What's the total number of colors on RGB color wheel?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the sum of all two-digit positive integers whose squares end with the digits 01?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 12 dimes and 8 quarters equals $1.00.  If you only have dimes and quarters, how much money would you have if you have 48 dimes and 20 quarters?
+Prompting Approach: few shot. Generated Text: ### Response: 3 cats found 7 bones buried in the backyard. The cats split the bones equally, but after they did so, 2 of the cats decided to give their bones to the third cat. How many bones did the third cat end up with?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of a regular hexagon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response: 
+The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 are written on 20 cards. Jill picks two cards. What is the probability that the numbers on the cards are relatively prime?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If you buy a dozen oranges for $6, and 3-for-$1 peaches, how much would you spend if you bought 10 dozen oranges and 15 dozen peaches?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the greatest three digit number that is a multiple of 13?
+Prompting Approach: few shot. Generated Text: ### Response: 100 pounds of grapes can produce 20 gallons of fresh grape juice. If there are 128 ounces in a gallon, how many ounces of fresh grape juice will 100 pounds of grapes produce?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If $f(n) = n^2 + n + 17$, what is $f(11)$?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: There are 325 students in a class. 20% of them are boys. How many girls are in this class?
+Prompting Approach: few shot. Generated Text: ### Response: 20 kids are in a classroom. Half the number of kids in the class are girls. The number of boys in the class is 8. How many girls are in the class?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If $x$ is a positive multiple of $3$, and $x^2$ is a multiple of $6$, what is the greatest possible value of $x$ ?
+Prompting Approach: few shot. Generated Text: ### Response: 30 birds migrate south for the winter.  If they fly in a V formation with 3 rows, and there are 6 birds per row, how many birds are in the middle row?
+Prompting Approach: few shot. Generated Text: ### Response: 20 birds migrate south for the winter, traveling in a V formation with 2 rows. If each bird that joins the formation doubles the number of birds in the formation, how many birds are in the formation when it reaches the wintering grounds?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 12 servings of chicken surprise use 24 ounces of stuffing and 4.5 pounds of chicken. To make 4 pounds of chicken use 20 ounces of stuffing. How many ounces of stuffing would 16 pounds of chicken use?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: How many 30-minute shows can Lexy watch in 2 hours?
+Prompting Approach: few shot. Generated Text: ### Response: 200 people visit The Metropolitan Museum of Art in New York City in 1 day. Half of the visitors are residents of New York City. Of the NYC residents, 30% are college students. If the cost of a college student ticket is $4, how much money does the museum get from college students that are residents of NYC?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A candy store sells $300 worth of candy on a regular day. On a good day, the candy store sells $400 worth of candy. If the candy store sells $3000 worth of candy after 10 regular days, how much money will it sell in 15 good days?
+Prompting Approach: few shot. Generated Text: ### Response: 30% of the 120 soccer players in a match were injured. If 70% of the injured players were goalkeepers, how many defenders were injured?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the value of the expression $(2^3 + 2^2 + 2)^2 - 2^4$?
+Prompting Approach: few shot. Generated Text: ### Response: 12 boys brought 60 stickers each. 20 girls brought 70 stickers each. How many stickers did they bring altogether?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+A box contains 2 dozen doughnuts. If Jill consumes 3 doughnuts every day and Belinda eats twice as many doughnuts as Jill, how many doughnuts will remain after 5 days?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of an octagon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response: 3/5 of the 120 people in the auditorium are women. How many men are there?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of a regular polygon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response: 20 kids are in the class. Half the students are girls. How many boys are in the class?
+Prompting Approach: few shot. Generated Text: ### Response: 10 people can fit in first class, and there are 3 times as many people in business class as first class. If there are 4 times as many people in economy class as business class, how many empty seats are in economy class if there are 20 people in first class and 30 people in business class?
+Prompting Approach: few shot. Generated Text: ### Response: 12 doughnuts were given to 4 people. 2 of the people ate 3 doughnuts each. How many doughnuts are left?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 3/4 of the students at Pecan Valley High School play sports. If the number of students at the school is 2000, and 1/4 of the students play football, how many students do not play sports?
+Prompting Approach: few shot. Generated Text: ### Response: 60% of a pound of chocolate costs $1.20. How much will 10 pounds cost?
+Prompting Approach: few shot. Generated Text: ### Response: 198 passengers fit on a bus. 236 passengers fit on a train. If 127 people are standing on a bus, how many more people can fit on the bus than on a train?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the sum of the positive factors of 24?
+Prompting Approach: few shot. Generated Text: ### Response: 12 robes cost $24. How much would 20 robes cost?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of an octagon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: There are 300 students in a school. 1/3 of the students were absent, and 1/4 of the number of students who were present was late. How many students were absent and late?
+Prompting Approach: few shot. Generated Text: ### Response: 30 children are playing in a park. 20% of them are girls. The rest are boys. How many boys are playing in the park?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 15 birds in a tree make as much noise as 6 dogs barking.  If 4 dogs bark as loud as 12 birds,  how many birds would make the same amount of noise as 24 dogs?
+Prompting Approach: few shot. Generated Text: ### Response: 300 cows in a field. 40% are female. The rest are male. Half the males are black and the other half are white. How many black cows are there?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: How many different 6-letter arrangements can be made from the letters in the word "monkey"?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of a regular polygon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response: 15 chickens laid 5 eggs each.  If 5 chickens ate 3 eggs each, how many eggs are left?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+A square has an area of 1600.  A rectangle has the same width as the square but has a length that is double the side length of the square.  What is the area of the rectangle?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the sum of the whole number factors of 24?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the greatest three-digit number which is a multiple of 13?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 100 people who were surveyed liked apple pie. 30% of the people did not like apple pie. How many people were there in the survey?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 5 dolphins are twice as many as 3 whales, how many dolphins are 10 whales?
+Prompting Approach: few shot. Generated Text: ### Response:  Question: If 50 cars are part of a caravan, and 20 cars leave the caravan to refuel, then 30% of the remaining cars have a flat tire. If 1/4 of the cars with a flat tire are towed, and the rest continue moving, how many cars continue moving?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: How many different positive, three-digit integers can be formed using the digits 2, 4, 5 and 6 if no digit may be repeated in an integer?
+Prompting Approach: few shot. Generated Text: ### Response: 1000 feet of wire is strung through a square, forming a fence around a square patch of grass. If each side of the square is reduced by 10%, how long is the wire that forms the fence?
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of an octagon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 12 cowboys go on a cattle drive. They take 20 horses and 30 dogs. Each cowboy brings 2 horses and 3 dogs. How many more horses and dogs than cowboys go on the cattle drive?
+Prompting Approach: few shot. Generated Text: ### Response: 
+A line segment begins at $(2, 5)$. It is 10 units long and ends at the point $(-6, y)$ where $y > 0$. What is the value of $y$?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: Find the greatest common divisor of 72 and 36.
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 2 distinct vertices of an octagon are chosen at random.  What is the probability that they are adjacent?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 4 dumbbells cost $32, how much does one dumbbell cost?
+Prompting Approach: few shot. Generated Text: ### Response: 20 boys and 15 girls went on a field trip to a farm. The boys ate 10 and the girls ate 6 chocolate bars. If there are 40 chocolate bars left, how many chocolate bars were initially prepared?
+Prompting Approach: few shot. Generated Text: ### Response: 10 people are standing in line to ride a rollercoaster. The rollercoaster has 6 cars that can hold 3 people each. How many times must the rollercoaster run to give everyone in line a turn?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: What is the value of the expression $(25 + 8)^2 - (8^2 +25^2)$?
+Prompting Approach: few shot. Generated Text: ### Response: 30 birds were sitting in a tree singing songs.  50% of the birds joined in singing, while the rest just listened.  How many birds were singing?
+Prompting Approach: few shot. Generated Text: ### Response:
+Prompting Approach: few shot. Generated Text: ### Response: 30 days after being born, a puppy can grow to 4 times its original size.  If the puppy grew to 24 inches initially, calculate its size after 30 days.
+Prompting Approach: few shot. Generated Text: ### Response: 3 lions and 2 rhinos escape from the zoo.  If it takes 2 trucks to transport 3 lions and 1 truck to transport 2 rhinos how many total trucks are needed to transport all the escaped animals?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A truck driver’s delivery route takes him 10 hours longer than twice the amount of time it took him to drive to the destination on a previous trip. On his first trip, it took him 6 hours to drive to the destination. What is the total time he takes to complete his delivery route?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: If 3/5 of the 150 students joined the math contest, how many students did not join the contest?
+Prompting Approach: few shot. Generated Text: ### Response: 3 cats live in the old gray house.  The first cat catches 9 mice per day.  The second cat catches 4 more mice per day than the first cat.  The third cat catches 1 less than the second cat.  How many mice do the three cats catch per day, combined?

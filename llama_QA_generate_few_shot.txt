@@ -1,0 +1,599 @@
+Prompting Approach: few shot. Generated Text: ### Response: Question: 12000 people live in a small town. 20% of the population are teenagers, and 1/3 of the teenagers are in a band.  How many teenagers are in a band?
+Solution:
+# define the total population
+total_population = 12000
+
+# calculate the number of teenagers
+teenagers = total_population * 0.2
+
+# calculate the number of teenagers in a band
+band_teenagers = teenagers / 3
+
+# print the result
+print(int(
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question:
+How many 4-digit numbers are there? (A 4-digit number is a number with 4 digits, like 1234
+Prompting Approach: few shot. Generated Text: ##
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 12-sided die is rolled.  What is the probability that the number
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A flock of 12 cranes was flying in a V formation. 
+The flock leader crane at the point of the V formation flapped its wings once every second. 
+The 2 cranes behind the leader, one on each side of the V formation, flapped their wings in unison with the leader. 
+The 2 cranes behind them, one on each side of the V formation, flapped their wings at the same time, but on the half-beat of the leader and his two flanking cranes. 
+The 2 cranes behind them, one on each side of the V formation, flapped their wings at the same time, but on the quarter-beat of the leader and his two flanking cranes. 
+The 2 cranes behind them, one on each side of the V formation, flapped their wings at the same time, but on the eighth-beat of the leader and his two flanking cranes. 
+The 2 cranes at the back of the V formation, one on each side, flapped their wings at the same time, but on the sixteenth-beat of the leader and his two flanking cranes. 
+How many times did the 12 cranes flap their wings before the flock leader crane flapped its wings 6 times?
+
+Solution:
+# flock leader crane at the point of the V formation flapped its wings once every second.
+leader_flaps = 6
+
+# the 2 cranes behind the leader, one on each side of the V formation, flapped their wings in unison with the leader.
+flanking_cranes_flaps = leader_flaps
+
+# the 2 c
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+The 12-sided die is rolled 12 times. 
+What is the probability that a 12 will be rolled on each of the first 4 rolls, and on exactly 2 of the next 8 rolls?
+Solution:
+# the probability of a 12 being rolled on each of the first 4 rolls is (1/12)**4
+# the probability of a 12 being rolled on exactly 2 of the next 8 rolls is (8 choose 2) * (1/12)**2 * (10/12)**6
+
+# define the probabilities
+first_4_rolls_probability = (1/12)**4
+next_8_rolls_probability = (8 choose 2) * (1/12)**2 * (10/12)**6
+
+# calculate the total probability
+total_probability = first_4
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+A 3-pound cake is cut into 8 slices.  If 2 of the slices are eaten, how many slices of
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+# A bee hive has 400 bees. 1/4 of the bees are drones, and 1/10 of the drones have a disease. 
+# How many drones in the hive have the disease?
+
+Solution:
+# total number of bees
+total_bees = 400
+
+# number of drones
+drones = total_bees / 4
+
+# number of drones with disease
+diseased_drones = drones / 10
+
+print(int(diseased_drones))
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+# a 5-digit number
+# the first three digits are the same
+# the last two digits are the same
+# the number is divisible by 5
+
+# can you find the number?
+
+Solution:
+# for the number to be divisible by 5, the last digit must be 0 or 5.
+# the only two-digit numbers where the first and last digits are the same and end in 0 are 00 and 50.
+# but 00 is a 3-digit number, so the only possibility is 50.
+
+# to make a 5-digit number, we just need
+Prompting Approach: few shot. Generated Text: 
+Prompting Approach: few shot. Generated Text: 
+Prompting Approach: few shot. Generated Text: ### Response: Question: 3/4 of the 5th grade class is going on a field trip. 1/8 of the 6th grade class is also going. 1/5 of the 7th grade class is going, and 1/10 of the 8th grade class is going. If there are 100 5th graders, 80 6th graders, 70 7th graders, and 60 8th grad
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+
+Batman has 60 batarangs.  He also has 40 more smoke bombs than batarangs.  If he uses 3/5 of his batarangs and 2/5 of his smoke bombs, how many gadgets does he have left?
+Solution:
+# define the number of batarangs
+batarangs = 60
+
+# define the number of smoke bombs
+sm
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+Sandi has 400 strawberries. She is using them to make 200 pies. If each pie needs 10 strawberries, how many strawberries will she have left over?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A baker is baking pies.  He has 24 apples and 30 oranges.  He can make 2 pies per 3 apples, and 1 pie per 2 oranges.  How many pies does he make?
+Solution:
+# define the number of apples and oranges
+apples = 24
+oranges = 30
+
+# calculate the number of pies made from apples and oranges
+pies_from_apples = apples / 3
+pies_from_oranges = oranges / 2
+
+# calculate the total number of pies
+total_pies = pies_from_apples + pies_from_oranges
+
+# print the result
+print(int(total_p
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+# A 10-sack of onions, each weighing 10 pounds, is to be delivered to the market. 
+# If 2 sacks of onions are lost during transport, how many sacks of onions are left?
+
+Solution:
+# define the total number of sacks and the weight of each sack
+total_sacks = 10
+weight_per_sack = 10
+
+# calculate the total weight of the sacks
+total_weight = total_sacks * weight_per_sack
+
+# define the number
+Prompting Approach: few shot. Generated Text: ### Response: Question: 
+# number of toppings
+toppings = 3
+
+# cost per topping
+cost_per_topping = 2
+
+# number of pizzas
+pizzas = 2
+
+# slices per pizza
+slices_per_pizza = 4
+
+# slices eaten by each person
+slices_eaten_by_each_person = 2
+
+# number of people
+people = 5
+
+# total cost of toppings
+total_cost_of_toppings = toppings * cost_per_topping * pizzas
+
+# total slices eaten
+total_slices_eaten = slices_per_pizza * pizzas * slices_eaten_by_each_person
+
+# slices left
+slices_left = slices_per_pizza * p
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+In a 24-hour period
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A catering company is hired to provide a 3-day event with 1000 people.  They are to provide 2 meals a day.  The first day they only have to provide 1/2 as many meals.  How many total meals do they have to provide?
+Solution:
+# define the number of people and meals per day
+people = 1000
+meals_per_day = 2
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+# A
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question: A 30-story building has 3 elevators.  Each elevator can hold 12 people.  If the building is 75% occupied, and all the residents are in the building, how many trips will the elevators have to make to get everyone out?
+Solution:
+# define the number of stories, elevators, and people per elevator
+stories = 30
+elevators = 3
+people_per_elevator = 12
+
+# define the occupancy
+occupancy = 0.75
+
+# calculate the number of people in the building
+people_in_building = stories * occupancy
+
+# calculate the number of trips
+trips = people_in_building / (elevators * people_per_elevator)
+
+# print the result
+print(int
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+
+Hal and his 3 friends ate a 2-pound cake of chocolate. 
+
+If each of them ate an equal amount, how many ounces of chocolate did Hal eat?
+Solution:
+# define the total number of cakes and the number of friends
+total_cakes = 2
+friends = 3
+# calculate the number of ounces in a pound
+ounces_per_pound = 16
+# calculate the number of ounces of chocolate Hal ate
+hal_chocolate = (total_cakes * oun
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+
+A pond has 60 fish. 30% of the fish are trout, 25% are salmon, and the rest are bass. How many bass are in the pond?
+
+Solution:
+# define the total number of fish
+total_fish = 60
+
+# calculate the number of each type of fish
+trout = total_fish * 0.3
+salmon = total_fish * 0.25
+
+# calculate the number of bass
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A baker is making bread. He bakes 12 loaves of sourdough, 8 loaves of rye, and 16 loaves of baguette.
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+How many 5-digit numbers are there?
+Solution:
+# 5-digit numbers start from 10000 and end at 99999
+# so the total number of 5-digit numbers is 99999 - 10000 + 1
+
+total_5_digit_numbers = 99999 - 10
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A 20-story building has 2 elevators.  Each elevator can hold 10 people.  Each story has 20 apartments.  If 10% of the apartments are full, how many people can the elevators transport in a single trip?
+Solution:
+# define the number of stories, apartments per story, and people per apartment
+stories = 20
+apartments_per_story = 20
+people_per_apartment = 10
+
+# calculate the total number of people in the building
+total_people = stories * apartments_per_story * people_per_apartment
+
+# calculate the number of full apartments
+full_apartments
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+Solution:
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+###
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A sneaker company is releasing a new shoe.  The shoe will cost $120.  They are also selling a t-shirt for $30.  If they want to make $100,000 in revenue, how many of each item do they need to sell?
+
+Solution:
+# define the cost of each item
+shoe_cost = 120
+tshirt_cost = 30
+
+# define the total revenue to be made
+total_revenue = 100000
+
+# calculate the number of each item to be sold
+shoes_sold = total_revenue / shoe_cost
+tshirts_sold = total_revenue / tshirt_cost
+
+# since they can't sell a fraction of a shoe or tshirt, we round up to the nearest whole number
+shoes_sold = int(shoes_sold)
+tshirts_sold = int(tshirts_sold)
+
+# print the result
+print(shoes_sold, tshirts_sold)
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A 6-sided die has its faces numbered 1, 2, 3, 4, 5, and 6.  (The numbers 1 and 6 are on the same face.)  What is the probability that the number on the bottom is less than the number on the top?
+Solution:
+# total number of outcomes when rolling a 6-sided die
+total_outcomes = 6
+
+# outcomes that result in a sum of 9
+# (1,0), (2,1), (3,2), (4,3), (5,4)
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 1200 people are attending a rally. 100 of the attendees are wearing hats. 20% of the people wearing hats are also wearing sunglasses. 30% of the people not wearing hats are wearing sunglasses.  How many people at the rally are wearing sunglasses?
+Solution:
+# total number of people
+total_people = 1200
+# number of people wearing hats
+hats = 100
+# percentage of hat-wearers with sunglasses
+hat_sunglasses = 0.2
+# percentage of non-hat-wearers with sunglasses
+no_hat_sunglasses = 0.3
+
+# number of hat-wearers with sunglasses
+sunglasses_hats = hats * hat_sunglasses
+# number of non-hat-wearers with sunglasses
+sunglasses_no_hats = (
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A bakery sells three kinds of pies: pumpkin, pecan, and lemon meringue. 
+They sell 6 pumpkin pies, 9 pecan pies, and 15 lemon meringue pies. 
+If the pumpkin pie is $5, the pecan pie is $7, and the lemon meringue pie is $4, 
+how much more money, in dollars, does the bakery make selling the pecan pie than the lemon meringue pie?
+Solution:
+# define the number of pies and their prices
+pumpkin_pies = 6
+pumpkin_price = 5
+pecan_pies =
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A class has 120 students. 60% of the students are vaccinated, and 40% of the unvaccinated students have a medical exemption. 
+How many students in the class do not have a vaccination or a medical exemption?
+
+Solution:
+# define the total number of students
+total_students = 120
+
+# calculate the number of vaccinated students
+vaccinated_students = total_students * 0.6
+
+# calculate the number of unvaccinated students
+unvaccinated_students = total_students - vaccinated_students
+
+# calculate the number of unvaccinated students with a medical exemption
+medically_exempt_students = unvaccinated_
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A sack of onions weighs 25 pounds. If
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A café sells 100 cups of coffee per day. 70 of those cups are sold during the morning rush. 20 are sold in the afternoon, and the remaining 10 are sold in the evening. How many cups of coffee does the café sell per week?
+
+Solution:
+# define the number of cups of coffee sold per day
+cups_per_day = 100
+
+# define the number of cups of coffee sold during the morning rush, afternoon, and evening
+morning_rush_cups =
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A 15-pound cake of cheese is cut into 30 slices.  Nate slices the cheese and eats 3 slices.  His co-worker, Betsy, eats 5 slices.  How many ounces of cheese are left? (1 pound = 16 ounces)
+Solution:
+# total ounces of cheese
+total_cheese = 15 * 16
+
+# slices of cheese
+slices_of_cheese = 30
+
+# slices eaten by Nate and Betsy
+slices_eaten = 3 + 5
+
+# ounces of cheese eaten
+cheese_eaten = slices_eaten * 16
+
+# ounces of cheese left
+Prompting Approach: few shot. Generated Text: ### Response: Question: 
+Lynda has 24 towels. 
+She is going to fold them into thirds. 
+How many piles of towels will she have if she makes 4 piles?
+
+Solution:
+# define the number of towels and piles
+towels = 24
+piles = 4
+
+# calculate the number of towels in each pile
+towels_per_pile = towels / (piles * 3)
+
+# print the result
+print(int(towels_per_pile))
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+A total of 1200 oranges are picked by 10 people. 5 of them picked 100 oranges each and the rest picked 20 oranges each. How many oranges did each of the rest of the people pick?
+
+Solution:
+# define the total number of oranges, the number of oranges picked by 5 people and the number of people
+total_oranges = 1200
+oranges_picked_by_5_people = 5 * 100
+people = 10
+
+# calculate the number of oranges picked by the rest of the people
+oranges_picked_by_rest = total_oranges - oranges_picked_by_5_people
+
+# calculate how many people picked 20 oranges each
+people_picked_
+Prompting Approach: few shot. Generated Text: ### Response: Question: A cafeteria sells 300 lunches a day. 1/3 of the lunches are hamburgers. 1/6 of the lunches are pizza. 1/4 of the lunches are chicken. The rest are salads. How many salads are there?
+
+Solution:
+# define the total number of lunches
+total_lunches = 300
+
+# calculate the number of hamburgers
+hamburgers = total_lunches / 3
+
+# calculate the number of p
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 360 pencils cost $9.  How many pencils can you get for $15?
+Solution:
+# 360 pencils cost $9, so 1 pencil costs $9/360 = $0.025
+# So
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+A total of 12000 people live in a small town. 
+30% of the population are men. 
+If 1/4 of the men are over 60 years old, 
+how many men in the town are under 60 years old?
+
+Solution:
+# total population
+total_population = 12000
+
+# men in the town
+men = total_population * 0.30
+
+# men over 60 years old
+men_over_60 = men * 0.25
+
+# men under 60 years old
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 12-sided die has its faces numbered from 1 to 12. 
+What
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 4-sided die has its faces
+Prompting Approach: few shot. Generated Text: ### Response: 
+# define the total number of students
+total_students = 24
+# define the number of students in each group
+students_per_group
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 2-liter bottle of soda has 80% of its
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+
+A chicken coop has 100 chickens. 20 of the chickens are roosters. 30 of the chickens are hens. The rest of the chickens are chicks. How many chicks are there?
+
+Solution:
+# total number of chickens
+total_chickens = 100
+
+# number of roosters
+roosters = 20
+
+# number of hens
+hens =
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+Kim has 12 nail polishes, and she paints one nail on each of her 10 fingers and 10 toes. 
+If she paints a different color on each nail, how many different color schemes is she able to create?
+Solution:
+# define the number of nail polishes and nails
+nail_polishes = 12
+nails = 10 + 10
+
+# calculate the number of different color schemes
+color_schemes = nail_polishes ** nails
+
+# print the result
+print(color_schemes)
+Below is an instruction that describes a task. Write a
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 12-sided die has its faces numbered 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6.  When the die is rolled, what is the probability that the number showing is a 1, 2, 3, or 4?
+Solution:
+# define the total number of faces and the number of faces that are 1, 2, 3, or 4
+total_faces = 12
+favorable_outcomes = 2 + 2 + 2 + 2
+
+# calculate the probability
+probability = favorable_outcomes / total_faces
+
+# print the result
+print(probability)
+Below is an
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question:
+# A sack of onions weighs 20 pounds.  If 5 onions weigh 1 pound, how many onions are in 10 sacks?
+Solution:
+# onions per pound
+onions_per_pound = 5
+# sack weight
+sack_weight = 20
+# number of sacks
+sacks = 10
+# calculate the number of onions
+onions = onions_per_pound * sack_weight * sacks
+print(onions)
+Prompting Approach: few shot. Generated Text: ### Response: Question: 40% of the 200 apples in an orchard are rotten. 70% of the rotten apples are wormy. How many wormy apples are there?
+Solution:
+# total number of apples
+total_apples = 200
+
+# number of rotten apples
+rotten_apples = 0.40 * total_apples
+
+# number of wormy apples
+wormy_apples = 0.70 * rotten_apples
+
+# print the result
+print(int(wormy_apples))
+Below is an instruction that describes a task. Write a response that appropriately completes
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+There are 2000 pinecones on the ground. 20% of them have 100 seeds, 30% of them have 50 seeds, and the rest have 25 seeds. How many seeds are on the ground?
+Solution:
+# total number of pinecones
+total_pinecones = 2000
+
+# percentage of pinecones with 100 seeds
+percentage_100 = 20/100
+
+# percentage of pinecones with 50 seeds
+percentage_50 = 30/100
+
+# percentage of pinecones with 25 seeds
+percentage_25 = 1 - percentage_100 - percentage_50
+
+# calculate the number of
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 12-sided die has its faces numbered from 1 to 12. What is the expected value of the roll of the die? (The expected value of a random variable is the long-run average value of repetitions of the experiment it represents.)
+Solution:
+# expected value of a die is the sum of all its faces divided by the number of faces
+expected_value = sum(range(1, 13)) / 12
+print(expected_value)
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+##
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 300 cats are in a cage. 1/6 of the cats are ginger, and 1/4 of the ginger cats have 6 toes.  How many ginger cats with 6 toes are there?
+Solution:
+# define the total number of cats
+total_cats = 300
+# define the fraction of ginger cats
+ginger_cats_fraction = 1/6
+# define the fraction of ginger cats with 6 toes
+six_toes_fraction = 1/4
+# calculate the number of ginger cats
+ginger_cats = total_cats * ginger_cats_fraction
+# calculate the number of ginger cats with 6 toes
+six_toes_ginger_cats = ginger_cats *
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+A 3-gallon bucket is  filled to the brim with water. 3 pints are added to the bucket. If a pint is 16 ounces, how many ounces of water are in the bucket?
+
+Solution:
+# 1 gallon = 128 ounces
+# 3 gallons = 3 * 128 = 384 ounces
+# 3 pints = 3 * 16 = 48 ounces
+# total ounces in the bucket = 384 + 48
+
+total_ounces = (3 * 128) + (3 * 16)
+print(total_ounces)
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A bakery is baking loaves of bread. 
+The first oven bakes 20 loaves per hour. 
+The second oven bakes 15 loaves per hour. 
+The third oven bakes 25 loaves per hour. 
+If the ovens bake for 6 hours, how many loaves of bread are baked?
+
+Solution:
+# define the baking rate of
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+If 5000000 people in the United States use toothpaste, and 3000000 of them use Crest, how many people use a toothpaste other than Crest?
+
+Solution:
+# total number of people who use toothpaste
+total_toothpaste_users = 5000000
+# number of people who use Crest
+crest_users = 3000000
+# number of people who use a toothpaste other than Crest
+other_toothpaste_users = total_toothpaste_users - crest_users
+print(other_toothpaste_users)
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade school math word problem
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question: 
+
+The number of aardvarks is 10. 
+
+The number of baboons is 3 times the number of aardvarks. 
+
+The number of camels is 5 times the number of baboons. 
+
+The number of dingos is 2 times the number of camels. 
+
+The number of echidnas is 4 times the number of dingos. 
+
+How many aardvarks, baboons, camels, dingos, and echidnas are there in total?
+
+Solution:
+# define the number of each animal
+aardvarks = 10
+b

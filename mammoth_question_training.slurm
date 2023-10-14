@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A sds-phd-2022
+#SBATCH -A ds5559
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -34,7 +34,7 @@ conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
 python qlora_mammoth.py \
     --model_name_or_path TIGER-Lab/MAmmoTH-70B \
-    --output_dir ./mammoth_question_adapter \
+    --output_dir ./mammoth_question_adapter_combined \
     --logging_steps 10 \
     --save_strategy steps \
     --data_seed 42 \
@@ -61,7 +61,7 @@ python qlora_mammoth.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="mammoth_question_train.json" \
+    --dataset="ASDiv_GSM8k.json" \
     --source_max_len 16 \
     --target_max_len 512 \
     --per_device_train_batch_size 1 \

@@ -1,0 +1,1545 @@
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A farmer is selling his cows. He has 20 cows in total. He sells 1/4 of them for $300 each, and he sells 1/2 of them for $250 each. How much money does the farmer make in total?
+Solution:
+# define the variables
+total_cows = 20
+sell_1_price = 300
+sell_2_price = 250
+
+# calculate the number of cows sold for each price
+cows_sell_1 = total_cows / 4
+cows_sell_2 = total_cows / 2
+
+# calculate the total money made for each price
+total_sell_1 = cows_sell_1 * sell_1_price
+total
+Prompting Approach: zero shot. Generated Text: A 3-gallon jug is 4/5 full of water. A 4-gallon jug is 3/4 full of water. How many gallons of water are in both jugs?
+A 3-gallon jug is 4/5 full of water.
+A 4-gallon jug is 3/4 full of water.
+How many gallons of water are in both jugs?
+The program will calculate the water in both jugs.
+3-gallon jug is 4/5 full of water.
+4-gallon jug is 3/4 full of water.
+Both jugs have 5.6 gallons of water.
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: Question: Question: If one pack costs 11 dollars, how many packs of DVD's can you buy with 110 dollars?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 5 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+### Word Problem:
+
+A class has 250 students. 110 of them are boys and the rest are girls. 2/5 of the girls are in the 5th grade. How many girls in the class are in the 5th grade?
+
+### Python Program:
+
+# total students
+total_students = 250
+
+# boys
+boys = 110
+
+# girls
+girls = total_students - boys
+
+# 5th grade girls
+fifth_grade_girls = (2/5) * girls
+
+print(int(fifth_grade_girls))
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 5 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+### Word Problem:
+
+1/3 of the 2/5 of the 3/7 of the 1200 students in a school are in the 6th grade. How many students in the school are in the 6th grade?
+
+### Python Program:
+
+# total students
+total_students = 1200
+
+# 6th grade students
+sixth_grade_students = (1/3) * (2/5) * (3/7) * total_students
+
+print(int(sixth_grade_students))
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 5 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+### Word Problem:
+
+1
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A bakery is selling 3-packs of muffins.  If the bakery has 24 muffins, how many 3-packs of muffins can the bakery sell?
+Solution:
+# total muffins
+total_muffins = 24
+
+# muffins in a 3-pack
+muffins_in_3_pack = 3
+
+# 3-packs of muffins the b
+Prompting Approach: zero shot. Generated Text: # 1. A bee has 6 legs.  If a bee has 24 legs, how many bees are there?
+# 2.  A lion has 4 legs.  If a lion has 16 legs, how many lions are there?
+# 3.  A snake has no legs.  If a snake has 0 legs, how many snakes are there?
+# 4.  A spider has 8 legs.  If a spider has 32 legs, how many spiders are there?
+# 5.  A turtle has 4 legs.  If a turtle has 12 legs, how many turtles are there?
+
+# 1.
+legs_per_bee = 6
+total_legs = 24
+
+bees = total_legs / legs_per_bee
+
+print(bees)
+
+# 2.
+legs_per_lion = 4
+total_legs = 16
+
+lions = total_legs / legs_per_lion
+
+print(lions)
+
+# 3.
+legs_per_snake = 0
+total_legs = 0
+
+snakes = total_legs / legs_per_snake
+
+print(snakes)
+
+# 4.
+legs_per_spider = 8
+total_legs = 32
+
+spiders = total_legs / legs_per_spider
+
+print(spiders)
+
+# 5.
+legs_per_turtle = 4
+total_legs = 12
+
+turtles = total_legs / legs_per_turt
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: Question: Question: Efren's soccer team has 18.00 to spend. They use $8.00 to buy 4.00 to buy 1.00 to buy 3.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 2.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.00 to buy 2.00 to buy 1.
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+In a soccer game, the home team had 15 shots on goal and the away team had 20 shots on goal. 80% of the shots on goal by the home team were saved by the away team's goalkeeper, and 90% of the shots on goal by the away team were saved by the home team's goalkeeper. How many goals were scored in the game?
+
+Solution:
+# define the number of shots on goal for each team
+home_shots = 15
+away_shots = 20
+
+# calculate the number of shots saved for each team
+home_saves = 0.80 * home_shots
+away_saves = 0.90 * away_shots
+
+# calculate the number of goals scored for
+Prompting Approach: zero shot. Generated Text: A 12-slice pizza was cut into 36 slices. 1/4 of the pizza was eaten. How many slices are left?
+slices_eaten = 36 * 1/4
+slices_left = 36 - slices_eaten
+print(int(slices_left))
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: Question: Question: Thirteen ducks are swimming in a lake. Twenty more ducks come to join them. How many ducks are swimming in the lake?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 2 math word problem and Python program to solve the word problem.
+
+### Response: 
+### Word problem:
+Question: How many more a's than b's are there in the string "ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question:
+
+A 1000-piece puzzle took 4 people 8 hours to complete. If they had 5 people, how many hours would it have taken to complete the puzzle? (Assume that each person's contribution is the same and that the puzzle would have taken 1 person 48 hours to complete.)
+
+Solution
+Prompting Approach: zero shot. Generated Text: # a word problem
+# 2000 people in a stadium. 1000 of them are wearing blue. 800 of them are wearing red. 200 of them are wearing both blue and red. 
+# How many people are wearing neither blue nor red?
+
+# a Python program to solve the word problem
+
+# define the total number of people, and the number of people wearing each color
+total_people = 2000
+blue_people = 1000
+red_people = 800
+both_blue_and_red = 200
+
+# calculate the number of people wearing neither blue nor red
+neither_blue_nor_red = total_people - (blue_people + red_people - both_blue_and_red)
+
+# print the result
+print(neither_blue_nor_red)
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: Question: Question: For an art show, an artist painted 153 pictures. During the show he sold 72 of his pictures. What is the ratio of pictures he still has to pictures he sold?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 6 math word problem and Python program to solve the word problem.
+
+### Response: 
+# define the problem
+a, b, c, d, e, f, g, h, i = 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+# a, b, c, d, e, f, g, h, i is a 9-digit number
+# a, b, c, d, e, f, g, h, i is also a 3-digit number
+# a, b, c, d, e, f, g, h, i is also a 2-digit number
+# a, b, c, d, e, f, g, h, i is also a 1-digit number
+
+# a, b, c, d, e, f, g, h, i is a 1-digit number, 2-digit number, 3-digit number and 9-digit number.
+# a, b, c, d, e, f, g, h, i is 123456789.
+
+# 123456789 is a 9-digit number
+# 123 is a 3-digit number
+# 12 is a 2-digit number
+# 1 is a 1-digit number
+
+# a, b, c, d, e, f, g, h, i is 123456789.
+
+
+# print(a, b, c, d, e, f, g, h, i)
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+Garfield eats 3 cans of lasagna every day. 
+His owner, Jon, buys 12 cans of lasagna every time he goes to the store, which is every 4 days. 
+How many cans of lasagna does Garfield eat in 12 days?
+Solution:
+# define the number of cans Garfield eats every day
+cans_per_day = 3
+
+# define the number of days between store visits
+days_between_store_visits = 4
+
+# define the number of cans Jon buys every store visit
+cans_
+Prompting Approach: zero shot. Generated Text: The problem should be a 2- or 3-step problem.
+The program should be a single Python file.
+The program should have a main() function.
+The program should have at least one function that is not main().
+The program should read in the input from the user.
+The program should print the result to the screen.
+The program should not use any of the Python standard library.
+The program should be well-documented.
+The program should be well-organized.
+The program should be well-written.
+The program should be well-tested.
+The program should be well-commented.
+The program should be well-designed.
+The program should be well-structured.
+The program should be well-implemented.
+The program should be well-thought-out.
+The program should be well-planned.
+The program should be well-executed.
+The program should be well-documented, well-organized, well-written, well-tested, well-commented, well-designed, well-structured, well-implemented, well-thought-out, and well-planned.
+What is a 3-step problem in Python?
+A 3-step problem in Python is a problem that can be solved in 3 steps.
+What is a 2-step word problem?
+A 2-step word problem is a problem that can be solved in 2 steps.
+How do you write a word problem in Python?
+There is no one-size-fits-all answer to this question, as the best way to write a word problem in Python will vary depending on the specific problem and the programmer’s preferences. However, some tips on how to write a word problem in Python include:
+1. Break the problem down into smaller,
+Prompting Approach: few shot. Target Grade Level: 2. Generated Text: ### Response: Question: Question: A baker made ninety cakes. If he sold eighty-three of them, how many cakes would the baker still have?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 2 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: 
+A baker is baking cakes. He bakes 12 cakes in the morning and 16 cakes in the afternoon. How many cakes did he bake in total?
+
+Solution:
+# Python program to calculate the total number of cakes baked
+cakes_baked_morning = 12
+cakes_baked_afternoon = 16
+
+total_cakes_baked = cakes_baked_morning + cakes_baked_afternoon
+print(total_cakes_baked)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 2 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: 
+A farmer has 32 cows. Each cow gives 5 liters of milk per day. How many liters of milk does the farmer get in a week?
+
+Solution:
+# Python program to calculate the total number of liters of milk the farmer gets in a week
+cows = 32
+milk_per_cow_per_day = 5
+days_in_a_week = 7
+
+total_milk_in_a_week = cows * milk_per_cow_per_day * days_in_a_week
+print(total_milk_in_a_week)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 2 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: 
+A truck is carrying
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+# define the number of days in a week
+days_in_week = 7
+
+# define the number of hours each day
+hours_per_day = 24
+
+# calculate the total number of hours in a week
+total_hours = days_in_week * hours_per_day
+
+# print the result
+print(int(total_h
+Prompting Approach: zero shot. Generated Text: # Python program to find the number of toys
+# that each child will get
+
+# total toys
+total_toys = 18
+
+# number of children
+children = 3
+
+# toys each child will get
+toys_per_child = total_toys // children
+
+print(toys_per_child)
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: Question: Question: For Halloween Frank got fifteen pounds of candy. If he gave eight pounds to Nancy, what's the difference between the pounds of Frank's candy before he gave Nancy and he gave to?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: 
+
+Question: A pineapple has 210 seeds. 
+
+A pumpkin has 120 seeds. 
+
+A watermelon has 300 seeds. 
+
+How many seeds do the three fruits have in total?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+Lindsey has 200.0 pfennigs. She has to pay 10.0 pfennigs to the baker, 15.0 pfennigs to the butcher, and 5.0 pfennigs to the milkmaid. How many pfennigs does she have left?
+
+Solution:
+# total pfennigs Lindsey has
+total_pfennigs = 200.0
+
+# pfennigs Lindsey has to pay to the baker, butcher and milkmaid
+baker_butcher_milkmaid = 10.0 + 15.0 + 5
+Prompting Approach: zero shot. Generated Text: The word problem should be of a type that is typically taught in a grade school.  It should not be a problem that would be taught in a college or university.  The word problem should be original and not a copy of an existing word problem.
+The Python program should be written to solve the word problem.  The Python program should be well-documented and easy to understand.
+The word problem and Python program will be used to teach grade school students how to solve word problems.
+Submitted by: A.R.
+I'm looking for a word problem that deals with fractions.  The problem should be original and not a copy of an existing problem.  The Python program should be well-documented and easy to understand.
+The word problem and Python program will be used to teach grade school students how to solve fraction word problems.
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: Question: Question: The following week, they decided to go to Lake Huron and Lake Michigan. During their stay there, they caught a total of 30 pikes, 40 sturgeons and 75 herrings. How many fishes did they catch from the two lakes?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 3 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: A 10-pound sack of onions is now selling for $15.00. If 50 onions are in a pound, how many onions can you buy for $12.00?
+
+# onions per pound
+onions_per_pound = 50
+
+# sack of onions
+sack_of_onions = 10
+
+# sack of onions price
+sack_of_onions_price = 15
+
+# onions to buy
+onions_to_buy = 12
+
+# onions per sack
+onions_per_sack = onions_per_pound * sack_of_onions
+
+# onions to buy
+onions_to_buy = (onions_to_buy / sack_of_onions_price) * onions_per_sack
+
+print(int(onions_to_buy))
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 3 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: A 10-pound sack of onions is now selling for $15.00. If 50 onions are in a pound, how many onions can you buy for $12.00?
+
+# onions per pound
+onions_per_pound = 50
+
+# sack of onions
+sack_of_onions = 10
+
+# sack of onions price
+sack_of_onions_price = 15
+
+#
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A theater has 1200 seats. For a given show, 400 of the seats are not for sale. If the theater is 3/4 full, how many of the for-sale seats are occupied?
+
+Solution:
+# total number of seats
+total_seats = 1200
+
+# number of seats not for sale
+not_for_sale = 400
+
+# number of for-sale seats
+for_sale = total_seats - not_for_sale
+
+# theater occupancy
+occupancy = 3/4
+
+# number of occupied seats
+occupied_seats = for_s
+Prompting Approach: zero shot. Generated Text: The cafeteria at a grade school sells 100 lunches per day. 20% of the lunches are wasted. 10% of the lunches are given to the cafeteria workers. 30% of the lunches are for 2nd graders. 40% of the lunches are for 3rd graders. 30% of the lunches are for 4th graders. How many lunches are for 2nd graders?
+Solution:
+# total lunches
+total_lunches = 100
+
+# lunches wasted
+wasted_lunches = total_lunches * 0.20
+
+# lunches for cafeteria workers
+cafeteria_lunches = total_lunches * 0.10
+
+# lunches for 2nd graders
+second_grader_lunches = total_lunches * 0.30
+
+# lunches for 3rd graders
+third_grader_lunches = total_lunches * 0.40
+
+# lunches for 4th graders
+fourth_grader_lunches = total_lunches * 0.30
+
+# lunches for 2nd graders after wastage and cafeteria workers
+second_grader_lunches_after_wastage = second_grader_lunches - wasted_lunches - cafeteria_lunches
+
+print(int(second_grader_lunches_after_wastage))
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: Question: Question: A rectangle flower bed had a total area of 35 square yards. If it was 5 yards wide, how long was it?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: A pizzeria sells 18-inch pizzas. 
+
+- A pepperoni pizza is $12.
+- A mushroom pizza is $10.
+- A sausage pizza is $14.
+
+If a customer buys 1 pepperoni pizza, 2 mushroom pizzas, and 2 sausage pizzas, how much do they owe?
+
+Solution:
+
+# define the prices of the pizzas
+pepperoni_price = 12
+mushroom_price = 10
+sausage_price = 14
+
+# define the number of pizzas the customer buys
+pepperoni_count = 1
+mushroom_count = 2
+sausage_count = 2
+
+# calculate the total cost
+total_cost = pepperoni_price * pepperoni_count + mushroom_price * mushroom_count + sausage_price * sausage_count
+
+# print the total cost
+print(total_cost)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: 
+
+- A toy car costs $5.
+- A toy truck costs $4.
+
+If a customer buys 3 toy cars and 4 toy trucks, how much do they owe?
+
+Solution:
+
+# define the prices of the toys
+toy_car_price = 5
+toy_truck_price = 4
+
+# define the number of toys the
+Prompting Approach: few shot. Generated Text: ### Response: Question: A cake of 12 slices is to be divided among three friends. If one friend eats 1/2 of the cake and the other two friends each eat 1/3 of the cake, how many slices does each of the two friends get?
+Solution:
+# cake is to be divided among three friends
+total_slices = 12
+
+# one friend eats 1/2 of the cake
+friend1_slices = total_slices *
+Prompting Approach: zero shot. Generated Text: The program should be a function that takes 2 or 3 arguments and returns a result.
+The program should use the if/else and for/while control flow statements.
+The program should use at least 2 of the following: +, -, *, /, **, and %.
+The program should use at least 2 of the following: <, >, <=, >=, ==, and !=.
+The program should use at least 2 of the following: and, or, and not.
+The program should use at least 2 of the following: +, -, *, /, **, and %.
+The program should use at least 2 of the following: <, >, <=, >=, ==, and !=.
+The program should use at least 2 of the following: and, or, and not.
+The program should use at least 2 of the following: for and while.
+The program should use at least 2 of the following: if and else.
+The program should use at least 2 of the following: +, -, *, /, **, and %.
+The program should use at least 2 of the following: <, >, <=, >=, ==, and !=.
+The program should use at least 2 of the following: and, or, and not.
+The program should use at least 2 of the following: for and while.
+The program should use at least 2 of the following: if and else.
+The program should use at least 2 of the following: +, -, *, /, **, and %.
+The program should use at least 2 of the following: <, >, <=, >=, ==, and !=.
+The program should use at least 2 of the following: and, or, and not.
+The program should use at least 2 of the
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: Question: Question: Tiffany was buying hand towels for her house. She bought 9 packs with each pack having 3 towels in it. How many towels did she buy?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+### Word Problem:
+
+A baker is making cakes. He has a cake with 14 slices, a cake with 16 slices, and a cake with 12 slices. 
+
+If he sells the cakes at 5 slices per minute, how many minutes does it take to sell all the cakes?
+
+### Python Program:
+
+slices_per_minute = 5
+
+cake1 = 14
+cake2 = 16
+cake3 = 12
+
+total_slices = cake1 + cake2 + cake3
+
+time_in_minutes = total_slices / slices_per_minute
+
+print(time_in_minutes)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+### Word Problem:
+
+A cafeteria was putting milk cartons into stacks. They had seven hundred ninety-nine cartons and were putting them into stacks with six cartons in each stack. How many full stacks could they make?
+
+### Python Program:
+
+total_cartons = 799
+cartons_per_stack = 6
+
+full_stacks = total_cartons // cartons_per_stack
+
+print(full_stacks)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response:
+Prompting Approach: few shot. Generated Text: ### Response: Question: 2500 students are attending a rally. 2/5 of them are wearing hats. 3/10 of them are wearing sunglasses. 150 are wearing both. How many students are not wearing either?
+Solution:
+# total number of students
+total_students = 2500
+
+# number of students wearing hats
+hat_students = total_students * 2/5
+
+# number of students wearing sunglasses
+sunglasses_students = total_students * 3/10
+
+# number of students wearing both
+both_students = 150
+
+# number of students wearing either
+either_students = hat_students + sunglasses_students - both_students
+Prompting Approach: zero shot. Generated Text: # the word problem
+# a cake of 12 slices was cut into 3 equal pans. 
+# how many slices are in each pan?
+
+# the Python program
+cake_slices = 12
+pans = 3
+slices_per_pan = cake_slices / pans
+print(slices_per_pan)
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: Question: Question: The store has CD's and DVD's that you need. How many packs of DVD's can you buy with 132 dollars if one pack costs 12 dollars ?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 5 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: 
+A 220-pound person burns 240 calories by walking one mile. 
+How many miles must the person walk to burn 2160 calories?
+
+### Python Program:
+
+calories_per_mile = 240
+
+pounds = 220
+
+total_calories = 2160
+
+miles = total_calories / calories_per_mile
+
+print(miles)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 5 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: 
+If 3000 calories = 1 pound, and there are 3500 calories in a pound of cake, 
+how many pounds of cake can a 140-pound person eat and still maintain their weight?
+
+### Python Program:
+
+calories_per_pound = 3000
+
+pounds = 140
+
+calories_in_cake = 3500
+
+pounds_of_cake = (pounds * calories_per_pound) / calories_in_cake
+
+print(pounds_of_cake)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 5 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: 
+A 220-pound person burns 240 calories by walking one mile. 
+How
+Prompting Approach: few shot. Generated Text: ### Response: 
+
+Question:
+
+A cafeteria is selling pizza by the slice. They have 16 pizzas, and each pizza is cut into 4 slices. If they sell 56 slices, how many slices are left?
+
+Solution:
+
+# define the total number of pizzas and slices per pizza
+total_pizzas = 16
+slices_per_pizza = 4
+
+# define the number of slices sold
+slices_sold = 56
+
+#
+Prompting Approach: zero shot. Generated Text: The number of dots on the six faces of a standard die is 1, 2, 3, 4, 5 and 6.  What is the average number of dots on the top and bottom faces of a die?
+
+# define the dots on each face of a die
+dots = [1, 2, 3, 4, 5, 6]
+
+# calculate the average dots on a die
+average_dots = sum(dots) / len(dots)
+
+# print the result
+print(average_dots)
+Prompting Approach: few shot. Target Grade Level: 3. Generated Text: ### Response: Question: Question: Bryan had 8 precious stones in his collection which he sold to his friend from the jewelry store. If the stones were sold at $1785.00 each, how much money did Bryan get in total?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 3 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+# define the number of bags and cookies per bag
+bags = 37
+cookies_per_bag = 19
+
+# calculate the total number of cookies
+total_cookies = bags * cookies_per_bag
+
+# print the result
+print(total_cookies)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 3 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+# define the number of bills and their value
+bills = 10
+value_per_bill = 5
+
+# calculate the total value
+total_value = bills * value_per_bill
+
+# print the result
+print(total_value)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 3 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+# define the amount of fertilizer used for 9 days and the extra amount for the final day
+fertilizer_9_days = 2
+extra_fertilizer_final_day = 4
+
+# calculate the total amount of fertilizer
+total_fertilizer = 9 * fertilizer_9_days + extra_fertilizer_final_day
+
+# print the result
+print(total_fertilizer)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 3 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+#
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 1200 people are in a theater. 3/4 of the people are sitting in the orchestra, and the rest are in the balcony. 1/4 of the people in the orchestra are in the front row. 2/3 of the people in the balcony are in the first 3 rows.  How many people are in the first 3 rows of the orchestra and balcony?
+Solution:
+# define the total number of people in the theater
+total_people = 1200
+# define the fractions of people in the orchestra and balcony
+orchestra_fraction = 3/
+Prompting Approach: zero shot. Generated Text: # A 10-story building has 1000 occupants. 200 of the occupants are on the first floor.
+# 300 of the occupants are on the second floor. 400 of the occupants are on the third floor.
+# 500 of the occupants are on the fourth floor. 600 of the occupants are on the fifth floor.
+# 700 of the occupants are on the sixth floor. 800 of the occupants are on the seventh floor.
+# 900 of the occupants are on the eighth floor. 1000 of the occupants are on the ninth floor.
+# 1100 of the occupants are on the tenth floor.
+# How many of the occupants are not on the first, second, third, fourth, fifth, sixth, or seventh floors?
+
+# First, we'll define a list of the number of occupants on each floor.
+floors = [200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100]
+
+# Then, we'll sum the number of occupants on the first seven floors.
+occupants_on_first_seven_floors = sum(floors[:7])
+
+# Next, we'll calculate the number of occupants not on the first seven floors.
+occupants_not_on_first_seven_floors = 1000 - occupants_on_first_seven_floors
+
+# Finally, we'll print the result.
+print(
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: Question: Question: A toy carnival is selling 12-packs of tickets for $30.00. If
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A cake is to be sliced into 8 equal pieces. If 3/4 of a piece is to be given to each of 8 people, how many cakes are needed?
+
+Solution:
+# total number of slices in a cake
+slices_per_cake = 8
+
+# number of slices to be given to each person
+slices_per_person = 3/
+Prompting Approach: zero shot. Generated Text: # 3000 / 100000 * 100 = 0.3%
+
+# 100000 - 3000 = 97000
+
+# 97000 / 100000 * 100 = 97%
+
+print("3000 / 100000 * 100 = 0.3%")
+
+print("100000 - 3000 = 97000")
+
+print("97000 / 100000 * 100 = 97%")
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: Question: Question: Victor wanted to give each of his six friends an equal amount of candy. At the store he bought three hundred seventy-nine pieces total to give to them. How many more pieces should he have bought so he didn't have any extra?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question:
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+#
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+# A 24-slice pizza is cut into 3 equal piles.  If 2 people each eat 3 slices, how many slices are left?
+
+Solution:
+# total slices in the pizza
+total_slices = 24
+
+# slices in each pile
+slices_per_pile = total_slices / 3
+
+# slices eaten by the 2 people
+eaten_slices = 2 * 3
+
+# slices left
+slices_left = total_slices - eaten_slices
+
+# print the result
+print(slices_left)
+Below is an instruction that describes a task. Write
+Prompting Approach: zero shot. Generated Text: # A 3rd grade class has 20 students. 1/5 of the students have allergies. 2/3 of the students with allergies have a peanut allergy. How many students in the 3rd grade class have a peanut allergy?
+
+# total students
+total_students = 20
+# students with allergies
+allergy_students = total_students / 5
+# students with peanut allergies
+peanut_allergy_students = allergy_students / 3
+
+# print the result
+print(int(peanut_allergy_students))
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: Question: Question: A carpenter had a board that was 5.28 m long. She used her circular saw to cut 9 cm off the end of the board. How many centimeters long was the board after the carpenter cut it?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 6 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+### Word Problem:
+
+Question: 
+
+A candy store has 1500 grams of candy. 
+
+They sell the candy in 200-gram and 300-gram bags. 
+
+If they sell 3 bags of 200-gram candy and 4 bags of 300-gram candy, how much candy is left?
+
+### Python Program:
+
+# candy in grams
+candy = 1500
+
+# 200-gram bags
+bags200 = 3
+
+# 300-gram bags
+bags300 = 4
+
+# candy sold
+sold = bags200 * 200 + bags300 * 300
+
+# candy left
+left = candy - sold
+
+print(left)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 6 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+### Word Problem:
+
+Question: 
+
+A candy store has 1500 grams of candy. 
+
+They sell the candy in 200-gram and 300-gram bags. 
+
+If they sell 3 bags of 200-gram candy and 4 bags of 300-gram candy, how much candy is left?
+
+### Python Program:
+
+# candy in grams
+candy = 1500
+
+# 200-gram bags
+bags2
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: A 12-pound cake is to be cut into 12 equal slices. 3 of the slices are to be put on a plate.  How many ounces of cake are on the plate?
+Solution:
+# 1 pound = 16 ounces
+# 12-pound cake = 12
+Prompting Approach: zero shot. Generated Text: # 1000 points in total
+# 100 points for each correct answer
+# -100 points for each incorrect answer
+# 0 points for each unanswered question
+
+# you may use the Python built-in random module to generate a random number
+
+# an example of a word problem
+# 
+# A cake of 400 grams is to be divided into 8 equal parts.
+# 
+# How many grams is each part?
+
+# an example of a Python program to solve the word problem
+
+cake_weight = 400
+slices = 8
+
+each_slice_weight = cake_weight / slices
+
+print(each_slice_weight)
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: Question: Question: Oliver was weighing boxes for moving. The first was 2 pounds, the second was 3 pounds and the last was 13 pounds. What's the difference between the weight of the first box and the third box?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: 
+For lunch, 2 students selected chocolate milk, 15 selected strawberry milk and 3 selected regular milk. How many milks were taken total?
+
+Python program:
+
+# define the number of students who selected each type of milk
+chocolate_milk = 2
+strawberry_milk = 15
+regular_milk = 3
+
+# calculate the total number of milks
+total_milks = chocolate_milk + strawberry_milk + regular_milk
+
+# print the result
+print(total_milks)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question:
+The total weight of Jack and Sam is 96 pounds. If Jack weighs 52 pounds, how much heavier is Jack than Sam?
+
+Python program:
+
+# define the total weight and Jack's weight
+total_weight = 96
+jack_weight = 52
+
+# calculate Sam's weight
+sam_weight = total_weight - jack_weight
+
+# calculate how much heavier Jack is than Sam
+difference = jack_weight - sam_weight
+
+# print the result
+print(difference)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question:
+Isabel had sixteen bottles of water. After a week she had seven left. How many did she drink?
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+A 10-gallon fish tank has 30 guppies. The guppies reproduce asexually, with each guppy giving birth to 20 more guppies after 4 months. How many guppies will there be in 8 months?
+Solution:
+# define the initial number of guppies and the number of guppies each one gives birth to
+initial_guppies = 30
+birth_rate = 20
+
+# calculate the number of guppies after 4 months
+guppies_after_4_months = initial_guppies + initial_guppies * birth_rate
+
+# calculate the number of guppies after 8 months
+guppies_after_8_months = guppies_after_4_months +
+Prompting Approach: zero shot. Generated Text: The problem should be a real-world application that is not a toy problem.
+The problem should be at a level that is appropriate for 4th-6th grade.
+The problem should be a word problem, not an equation.
+The problem should not be a toy problem.
+The problem should be something that is a real-world application.
+The problem should be something that is not a toy problem.
+The problem should be something that is at a level that is appropriate for 4th-6th grade.
+The problem should be something that is a word problem, not an equation.
+The problem should be something that is a real-world application, not a toy problem.
+The problem should be something that is at a level that is appropriate for 4th-6th grade, not a toy problem.
+The problem should be something that is a word problem, not an equation, and is a real-world application, not a toy problem.
+The problem should be something that is at a level that is appropriate for 4th-6th grade, not a toy problem, and is a word problem, not an equation.
+The problem should be something that is a real-world application, not a toy problem, and is at a level that is appropriate for 4th-6th grade, not a toy problem.
+The problem should be something that is a word problem, not an equation, and is a real-world application, not a toy problem, and is at a level that is appropriate for 4th-6th grade, not a toy problem.
+The problem should be something that is a real-world application, not a toy problem, and is at a level that is appropriate for 4th-6th grade, not a toy problem, and is a word problem, not an equation.
+The problem should
+Prompting Approach: few shot. Target Grade Level: 6. Generated Text: ### Response: Question: Question: At a farming supply store 2 pounds of seed cost $44.68. If a farmer needed 6 pounds of seeds, how much would it cost him?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 6 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: A 22-pound turkey is priced at $1.88 per pound. 
+
+- 1. What is the cost of the turkey?
+- 2. If a 15-pound turkey is priced at the same rate, what is its cost?
+
+### Program:
+
+# define the weight of the turkey and its price per pound
+turkey_weight = 22
+price_per_pound = 1.88
+
+# calculate the cost of the turkey
+turkey_cost = turkey_weight * price_per_pound
+
+# define the weight of the other turkey
+other_turkey_weight = 15
+
+# calculate its cost
+other_turkey_cost = other_turkey_weight * price_per_pound
+
+# print the costs
+print(turkey_cost)
+print(other_turkey_cost)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 6 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: A 22-pound turkey is priced at $1.88 per pound. 
+
+- 1. What is the cost of the turkey?
+- 2. If a 15-pound turkey is priced at the same rate, what is its cost?
+
+### Program:
+
+# define the weight of the turkey and its price per pound
+turkey_weight = 22
+price_per_pound = 1.88
+
+# calculate the cost of the tur
+Prompting Approach: few shot. Generated Text: ### Response: Question: 
+A 10-sided die has its faces numbered 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. 
+What is the expected value of the roll of the die?
+Solution:
+# define the values on the die
+die_values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# calculate the expected value
+expected_value = sum(die_values) / len(die_values)
+
+# print the result
+print(expected_value)
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade school
+Prompting Approach: zero shot. Generated Text: # a 2-liter bottle of soda has 80 ounces of soda.
+# a 6-liter bottle of soda has 200 ounces of soda.
+# how many ounces of soda are in a 4-liter bottle of soda?
+# 2-liter bottle of soda has 80 ounces of soda.
+# 6-liter bottle of soda has 200 ounces of soda.
+# 4-liter bottle of soda will have (80*4/2) ounces of soda.
+# 4-liter bottle of soda will have (200*4/6) ounces of soda.
+# 4-liter bottle of soda will have (80*4/2) ounces of soda.
+# 4-liter bottle of soda will have (200*4/6) ounces of soda.
+# 4-liter bottle of soda will have (80*4/2) ounces of soda.
+# 4-liter bottle of soda will have (200*4/6) ounces of soda.
+# 4-liter bottle of soda will have (80*4/2) ounces of soda.
+# 4-liter bottle of soda will have (200*4/6) ounces of soda.
+# 4-liter bottle of soda will have (80*4/2) ounces of soda.
+# 4-liter bottle of soda will have (200*4/6) ounces of soda
+Prompting Approach: few shot. Target Grade Level: 5. Generated Text: ### Response: Question: Question: Maggie bought 9 books about plants and 1 book about fish. She also bought 10 science magazines. Each book cost $15 and each magazine cost $2. How much did Maggie spend in all?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 5 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question:
+# 100 oranges are to be packed in 5-orange and 10-orange bags.
+# How many 10-orange bags will be needed?
+
+# Python program to find the number of 10-orange bags
+
+# total oranges
+total_oranges = 100
+
+# oranges in 5-orange bags
+oranges_in_5_orange_bags = 5
+
+# oranges in 10-orange bags
+oranges_in_10_orange_bags = 10
+
+# oranges in 5-orange and 10-orange bags
+oranges_in_both_bags = oranges_in_5_orange_bags + oranges_in_10_orange_bags
+
+# oranges packed in 5-orange bags
+oranges_packed_in_5_orange_bags = total_oranges // oranges_in_both_bags
+
+# oranges packed in 10-orange bags
+oranges_packed_in_10_orange_bags = total_oranges - oranges_packed_in_5_orange_bags
+
+# number of 10-orange bags
+num_10_orange_bags = oranges_packed_in_10_orange_bags // oranges_in_10_orange_bags
+
+# print the number of 10-orange bags
+print(num_10_orange_bags)
+
+Below is an instruction that describes a task. Write a response
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+If 12 bags of oranges weigh 24 pounds, how many ounces does 15 bags of oranges weigh? (1 pound is 16 ounces)
+
+Solution:
+# define the variables
+bags_of_oranges = 12
+pounds_per_bag = 24 / bags_
+Prompting Approach: zero shot. Generated Text: The word problem should be original and not a copy of an existing problem.
+The word problem should be at an appropriate level for grade school (K-12).
+The word problem should not be a toy problem (i.e. it should not be overly simple).
+The word problem should not be a research problem (i.e. it should not be overly complex).
+The word problem should be solvable with the Python programming language.
+The Python program should be well-written and easy to understand.
+The Python program should be well-documented.
+The Python program should be well-tested.
+The Python program should be well-organized.
+The Python program should be well-structured.
+The Python program should be well-designed.
+The Python program should be well-implemented.
+The Python program should be well-executed.
+The Python program should be well-maintained.
+The Python program should be well-supported.
+The Python program should be well-integrated.
+The Python program should be well-deployed.
+The Python program should be well-managed.
+The Python program should be well-administered.
+The Python program should be well-secured.
+The Python program should be well-protected.
+The Python program should be well-defended.
+The Python program should be well-guarded.
+The Python program should be well-shielded.
+The Python program should be well-safeguarded.
+The Python program should be well-fortified.
+The Python program should be well-armored.
+The Python program should be well-hardened.
+The Python program should be well-strengthened.
+The Python program should be well-reinforced.
+The Python program should be well-bolstered.
+The Python program should be well
+Prompting Approach: few shot. Target Grade Level: 4. Generated Text: ### Response: Question: Question: A food company has seven hundred seventy-seven kilograms of food to put into boxes. If each box gets exactly two kilograms, how many full boxes will they have?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: Question: A 200-pound cake was to be divided among 50 people. If each person is to receive an equal-sized piece, how many pounds will each piece weigh?
+
+Solution:
+
+# define the total weight of the cake and the number of people
+total_weight = 200
+num_people = 50
+
+# calculate the weight of each piece
+piece_weight = total_weight / num_people
+
+# print the result
+print(piece_weight)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: Question: 
+
+A 200-pound cake was to be divided among 50 people. If each person is to receive an equal-sized piece, how many pounds will each piece weigh?
+
+Solution:
+
+# define the total weight of the cake and the number of people
+total_weight = 200
+num_people = 50
+
+# calculate the weight of each piece
+piece_weight = total_weight / num_people
+
+# print the result
+print(piece_weight)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 4 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+Question: Question: 
+
+A 200-pound cake was to be divided among 50 people. If each person is to receive an equal-sized piece, how
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+10000 bacteria are in a petri dish. 
+Bacteria reproduce by doubling in number every 10 minutes. 
+How many minutes does it take for the bacteria to fill the dish?
+
+Solution:
+# define the initial number of bacteria
+initial_bacteria = 10000
+
+# define the time it takes for the bacteria to double
+doubling_time =
+Prompting Approach: zero shot. Generated Text: The problem should be a 2- or 3-step problem, and the Python program should have at least 10 lines of code.
+The problem and program should be submitted as a .txt file.
+A 4-function calculator has 10 buttons.
+How many of the buttons are not used?
+A 4-function calculator has 10 buttons. The 4 functions are addition, subtraction, multiplication, and division. Each function has its own button. The numbers 0-9 each have their own button. How many of the buttons are not used?
+# number of buttons for 4 functions
+function_buttons = 4
+# number of buttons for 0-9
+number_buttons = 10
+# total number of buttons
+total_buttons = function_buttons + number_buttons
+# number of unused buttons
+unused_buttons = total_buttons - 10
+print(unused_buttons)
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: Question: Question: Mrs. Hilt saw 2 dogs and 2 chickens. How many animal legs did she see?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+# word problem
+
+# Lana had 11 DS games. If she bought 2 more games, how many would she have total?
+
+# Python program
+
+# define the number of games Lana had
+games_Lana_had = 11
+
+# define the number of games Lana bought
+games_Lana_bought = 2
+
+# calculate the total number of games Lana has
+total_games = games_Lana_had + games_Lana_bought
+
+# print the result
+print(total_games)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+# word problem
+
+# Sharon has 7 plums. Allan has 10 plums. What's the difference of the number of Sharon's plums and Allan's plums?
+
+# Python program
+
+# define the number of plums Sharon has
+plums_Sharon_has = 7
+
+# define the number of plums Allan has
+plums_Allan_has = 10
+
+# calculate the difference
+difference = plums_Allan_has - plums_Sharon_has
+
+# print the result
+print(difference)
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+
+# word problem
+
+# Ned ordered some pizzas for a party. During the party 4
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question: 
+What is the 100th number in the Fibonacci sequence? (The Fibonacci sequence is a series of numbers where each number is the sum of the previous two numbers. The first two numbers in the sequence are 0 and 1.
+
+Solution:
+# define a function to calculate the nth Fibonacci number
+def fibonacci(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n-1) + fibonacci(n-2)
+
+# print the 100th Fibonacci number
+print(fibonacci(100))
+Prompting Approach: zero shot. Generated Text: # define the number of problems
+# define the number of attempts
+# define the problem
+problem = "What is the sum of 123 and 456?"
+# define the solution
+solution = 123 + 456
+
+# define the user' 
+user = input(problem)
+
+# check if the user's answer is correct
+if user == solution:
+    print("Correct!")
+else:
+    print("Incorrect. The correct answer is", solution)
+
+# define the number of problems
+problems = 10
+
+# define the number of attempts
+attempts = 3
+
+# define the problems
+problems = [
+    "What is the sum of 123 and 456?",
+    "What is the difference between 123 and 456?",
+    "What is the product of 123 and 456?",
+    "What is the quotient of 123 and 456?",
+    "What is the sum of the first 10 positive integers?",
+    "What is the product of the first 10 positive integers?",
+    "What is the sum of the first 100 positive integers?",
+    "What is the product of the first 100 positive integers?",
+    "What is the sum of the first 1000 positive integers?",
+    "What is the product of the first 1000 positive integers?"
+]
+
+# define the solutions
+solutions = [
+    123 + 456,
+    123 - 456,
+    123 * 456,
+    123 / 456,
+Prompting Approach: few shot. Target Grade Level: 1. Generated Text: ### Response: Question: Question: Ned gave away thirteen of his video games to a friend. Now Ned has six games. How many games did Ned have before he gave the games away?
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a grade 1 math word problem and Python program to solve the word problem.
+
+### Response: 
+Question: 
+Question: 
+
+For a new year's party 2 red balloons, 12 green balloons and 6 white balloons were used. What is the total number of balloons used?
+
+Python program: 
+
+red_balloons = 2
+green_balloons = 12
+white_balloons = 6
+
+total_balloons = red_balloons + green_balloons + white_balloons
+
+print(total_balloons)
+Prompting Approach: few shot. Generated Text: ### Response: 
+Question:
+A school has 1200 students. 1/3 of the students are in the 6th grade, 1/4 are in the 7th grade, and 1/5 are in the 8th grade. The rest of the students are in the 5th grade. How many 5th
+Prompting Approach: zero shot. Generated Text: The cafeteria sells 200 lunches a day. 1/4 of the lunches are wasted. 1/2 of the lunches are sold to 3rd graders. 1/5 of the lunches are sold to 5th graders. 1/10 of the lunches are sold to 6th graders. How many lunches are sold to 4th graders?
+
+# number of lunches sold
+lunches_sold = 200
+
+# lunches wasted
+wasted_lunches = lunches_sold / 4
+
+# lunches sold to 3rd graders
+third_grade_lunches = lunches_sold / 2
+
+# lunches sold to 5th graders
+fifth_grade_lunches = lunches_sold / 5
+
+# lunches sold to 6th graders
+sixth_grade_lunches = lunches_sold / 10
+
+# lunches sold to 4th graders
+fourth_grade_lunches = lunches_sold - wasted_lunches - third_grade_lunches - fifth_grade_lunches - sixth_grade_lunches
+
+# print the number of lunches sold to 4th graders
+print(int(fourth_grade_lunches))

@@ -65,7 +65,7 @@ login(token=token)
 sys.stdin = open(os.devnull)
 
 model_path = "meta-llama/Llama-2-70b-hf"   # Specify the path to the model
-adapter_path = "llama_question_adapter_no_embed/checkpoint-2750"  # Specify the path to the adapter weights
+adapter_path = "llama_question_adapter_no_embed/checkpoint-4000"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically
@@ -105,7 +105,8 @@ for i in range(0,100):
     prompt = f"Write a grade school math word problem."
     questions = []
     for i in range(0, 7):
-        question = df.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df.query(f"instruction=='{prompt}'")['instruction']))]
+        temp_df = df.query(f"instruction=='{prompt}'")
+        question = temp_df['output'].iloc[random.randint(0,len(temp_df))]
         questions.append(question)
     formatted_prompt = []
     for i in range(0,7):
@@ -148,7 +149,8 @@ for i in range(0,100):
     prompt = f"Write a grade {grade} math word problem."
     questions = []
     for i in range(0, 7):
-        question = df2.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df2.query(f"instruction=='{prompt}'")['instruction']))]
+        temp_df = df2.query(f"instruction=='{prompt}'")
+        question = temp_df['output'].iloc[random.randint(0,len(temp_df))]
         questions.append(question)
     formatted_prompt = []
     for i in range(0,7):

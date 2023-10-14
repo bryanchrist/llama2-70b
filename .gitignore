@@ -194,4 +194,5 @@ llama_question_adapter
 llama_question_adapter_no_embed
 mammoth_question_adapter
 mammoth_QA_adapter
+mammoth_question_adapter_combined
 data

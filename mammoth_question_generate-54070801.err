@@ -1,0 +1,10 @@
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-zdpuf044/peft_1a0f628615f64626ae148a75ce2e1b01
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-zdpuf044/accelerate_0d4c88e8f2494f76a6083a4938c7d006
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/mammoth_question_generate.py", line 109
+    question = temp_df['output'].iloc[random.randint(0,len(temp_df)))]
+                                                                    ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['

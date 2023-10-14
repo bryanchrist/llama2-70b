@@ -104,11 +104,12 @@ for i in range(0,100):
     
     prompt = f"Write a grade school math word problem."
     questions = []
-    for i in range(0, 7):
-        question = df.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df.query(f"instruction=='{prompt}'")['instruction']))]
+    for i in range(0, 3):
+        temp_df = df.query(f"instruction=='{prompt}'")
+        question = temp_df['output'].iloc[random.randint(0,len(temp_df)-1)]
         questions.append(question)
     formatted_prompt = []
-    for i in range(0,7):
+    for i in range(0,3):
         formatted_prompt.append((f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))
@@ -126,48 +127,49 @@ for i in range(0,100):
     generated_text_parts = generated_text.split(prompt)
     newly_generated_text = generated_text_parts[-1].strip()
     
-    output_file = "mammoth_question_generate.txt"  # Specify the path and filename for the output file
+    output_file = "mammoth_question_generate_v2.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Prompting Approach: few shot. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file
         
-    prompt = f"Write a grade school math word problem."
-    inputs = tokenizer.encode(prompt, return_tensors="pt")
-    attention_mask = torch.ones_like(inputs)
-    inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
-    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    # prompt = f"Write a grade school math word problem."
+    # inputs = tokenizer.encode(prompt, return_tensors="pt")
+    # attention_mask = torch.ones_like(inputs)
+    # inputs = inputs.to('cuda')
+    # output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
+    # generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
-    # Split the generated text by the prompt to extract the newly generated part
-    generated_text_parts = generated_text.split(prompt)
-    newly_generated_text = generated_text_parts[-1].strip()
+    # # Split the generated text by the prompt to extract the newly generated part
+    # generated_text_parts = generated_text.split(prompt)
+    # newly_generated_text = generated_text_parts[-1].strip()
     
-    with open(output_file, "a") as f:  # Open the file in append mode ("a")
-        f.write(f"Prompting Approach: zero shot. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file
+    # with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    #     f.write(f"Prompting Approach: zero shot. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file
         
-    grade = random.choice(grades)
-    prompt = f"Write a grade {grade} math word problem."
-    questions = []
-    for i in range(0, 7):
-        question = df2.query(f"instruction=='{prompt}'")['output'].iloc[random.randint(0,len(df2.query(f"instruction=='{prompt}'")['instruction']))]
-        questions.append(question)
-    formatted_prompt = []
-    for i in range(0,7):
-        formatted_prompt.append((f"Below is an instruction that describes a task. "
-                f"Write a response that appropriately completes the request.\n\n"
-                f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))
-    formatted_prompt.append(f"Below is an instruction that describes a task. "
-                f"Write a response that appropriately completes the request.\n\n"
-                f"### Instruction:\nWrite a grade {grade} math word problem.\n\n### Response: ")
-    formatted_prompt = "\n".join(formatted_prompt)
-    inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
-    attention_mask = torch.ones_like(inputs)
-    inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
-    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    # grade = random.choice(grades)
+    # prompt = f"Write a grade {grade} math word problem."
+    # questions = []
+    # for i in range(0, 7):
+    #     temp_df = df2.query(f"instruction=='{prompt}'")
+    #     question = temp_df['output'].iloc[random.randint(0,len(temp_df)-1)]
+    #     questions.append(question)
+    # formatted_prompt = []
+    # for i in range(0,7):
+    #     formatted_prompt.append((f"Below is an instruction that describes a task. "
+    #             f"Write a response that appropriately completes the request.\n\n"
+    #             f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))
+    # formatted_prompt.append(f"Below is an instruction that describes a task. "
+    #             f"Write a response that appropriately completes the request.\n\n"
+    #             f"### Instruction:\nWrite a grade {grade} math word problem.\n\n### Response: ")
+    # formatted_prompt = "\n".join(formatted_prompt)
+    # inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
+    # attention_mask = torch.ones_like(inputs)
+    # inputs = inputs.to('cuda')
+    # output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
+    # generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
-    # Split the generated text by the prompt to extract the newly generated part
-    generated_text_parts = generated_text.split(prompt)
-    newly_generated_text = generated_text_parts[-1].strip()
+    # # Split the generated text by the prompt to extract the newly generated part
+    # generated_text_parts = generated_text.split(prompt)
+    # newly_generated_text = generated_text_parts[-1].strip()
     
-    with open(output_file, "a") as f:  # Open the file in append mode ("a")
-        f.write(f"Prompting Approach: few shot. Target Grade Level: {grade}. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file
+    # with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    #     f.write(f"Prompting Approach: few shot. Target Grade Level: {grade}. Generated Text: " + newly_generated_text + "\n")  # Append the newly generated text to the file

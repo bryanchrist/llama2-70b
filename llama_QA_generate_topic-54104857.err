@@ -1,0 +1,15 @@
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-dhj2ocf7/peft_494fd6fd1514436ab8d688465bbe5811
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-dhj2ocf7/accelerate_e21cdf609b844467a663d55a936fcb85
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:08<01:53,  8.14s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:14<01:35,  7.31s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:21<01:23,  6.93s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:27<01:13,  6.68s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:34<01:06,  6.63s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:41<01:01,  6.81s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:48<00:55,  6.88s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:55<00:48,  6.90s/it]Loading checkpoint shards:  60%|██████    | 9/15 [01:02<00:42,  7.03s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [01:09<00:34,  7.00s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [01:16<00:27,  6.97s/it]Loading checkpoint shards:  80%|████████  | 12/15 [01:23<00:20,  6.93s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:30<00:13,  6.88s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:38<00:07,  7.25s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:38<00:00,  5.20s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:38<00:00,  6.57s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")

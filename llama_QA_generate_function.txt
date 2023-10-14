@@ -1,0 +1,34 @@
+### Response: Question: 4321.0001 is a number. 4321.0002 is 1000 times as large. 4321.0003 is 1000 times as large as 4321.0002. 4321.0004 is 1000 times as large as 4321.0003. 4321.0005 is 1000 times as large as 4321.0004. 4321.0006 is 1000 times as large as 4321.0005. 4321.0007 is 1000 times as large as 4321.0006. 4321.0008 is 1000 times as large as 4321.0007. 4321.0009 is 1000 times as large as 4321.0008. 4321.0010 is 1000 times as large as 4321.0009. How large is 4321.0010? Solution: def solution():
+    #4321.0001 is a number
+    number = 4321.0001
+    #4321.0002 is 1000 times as large
+    number_2 = 1000 * number
+    #4321.0003 is 1000 times as large as 4321.0002
+### Response: Question: A warehouse has 2455.000000000000123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345
+### Response: Question: A 22-wheeled truck is 1000 pounds when it's empty. 100 of the wheels weigh 10 pounds each. 60 of the wheels weigh 20 pounds each. 12 of the wheels weigh 50 pounds each. 10 of the wheels weigh 100 pounds each. 2000 of the pounds in the truck are from the weight of the items it's carrying. How much does the truck weigh when it's full? Solution: def solution():
+    #The truck weighs 1000 pounds when it's empty
+    empty_truck_weight = 1000
+    #100 of the wheels weigh 10 pounds each
+    wheel1_count = 100
+    wheel1_weight = 10
+    wheel1_total = wheel1_count * wheel1_weight
+    #60 of the wheels weigh 20 pounds each
+    wheel2_count = 60
+    wheel2_weight = 20
+    wheel2_total = wheel2_count * wheel2_weight
+    #12 of the wheels weigh 50 pounds each
+    wheel3_count = 12
+    wheel3_weight = 50
+    wheel3_total = wheel3_count * wheel3_weight
+    #10 of the wheels weigh 100 pounds each
+    wheel4_count = 10
+    wheel4_weight = 100
+    wheel4_total = wheel4_count * wheel4_weight
+    #2000 of the pounds in the truck are from the weight of the items it
+### Response: Question: A piggy bank has 54 pennies, 36 nickels, and 15 dimes. How many dollars is the piggy bank worth? Solution: def solution():
+    #A piggy bank has 54
+### Response: Question: A candy store has 1000s of M&Ms. On Monday, 250 M&Ms are sold. On Tuesday, 200 M&Ms are sold. On Wednesday, 300 M&Ms are sold. On Thursday, 200 M&Ms are sold. How many M&Ms are left? Solution: def solution():
+    #The candy store started with 1000 M&Ms
+    mms_initial = 1000
+    #On Monday, 250 M&Ms were sold
+    mms_sold_monday = 250

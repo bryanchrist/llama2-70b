@@ -13,3 +13,4 @@ WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/
   warnings.warn(
 /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
   warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+slurmstepd: error: *** JOB 54104857 ON udc-an34-7 CANCELLED AT 2023-10-14T14:44:38 DUE TO TIME LIMIT ***

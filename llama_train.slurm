@@ -32,7 +32,7 @@ conda install -n falcon_40B python-dotenv
 pip install -U -r requirements.txt
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
-python qlora.py \
+python qlora_no_embed.py \
     --model_name_or_path meta-llama/Llama-2-70b-hf \
     --output_dir ./llama_finetuned \
     --logging_steps 10 \

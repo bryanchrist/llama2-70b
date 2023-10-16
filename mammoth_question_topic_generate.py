@@ -125,7 +125,7 @@ for i in range(0,100):
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
     # Split the generated text by the prompt to extract the newly generated part
-    generated_text_parts = generated_text.split(prompt)
+    generated_text_parts = generated_text.split(final_prompt)
     newly_generated_text = generated_text_parts[-1].strip()
     
     output_file = "mammoth_question_topic_generate.txt"  # Specify the path and filename for the output file

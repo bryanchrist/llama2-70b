@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -A bryan_research
-##SBATCH -A sds-phd-2022
+#SBATCH -A sds_kropkoclass
+##SBATCH -A ds5559
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -13,9 +13,9 @@
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
 #SBATCH -t 3-00:00:00
-#SBATCH -J llama_QA_generate_function
-#SBATCH -o llama_QA_generate_function-%A.out
-#SBATCH -e llama_QA_generate_function-%A.err
+#SBATCH -J llama_QA_function_topic
+#SBATCH -o llama_QA_function_topic-%A.out
+#SBATCH -e llama_QA_function_topic-%A.err
 ##SBATCH -x udc-an28-[1,7],udc-an34-[1,7,13,19]#,udc-an36-[1,13,19]#,udc-an37-[1,7,13,19]#,udc-ba25-2[3,7,8],udc-ba26-2[3-6],udc-ba27-2[3-4]
 
 module purge
@@ -34,4 +34,4 @@ pip install -U -r requirements.txt
 pip install -U --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/ triton-nightly
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
-python llama_QA_generate_function.py
+python llama_QA_topic_copy.py

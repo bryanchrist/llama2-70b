@@ -1,6 +1,6 @@
 #!/bin/bash
-##SBATCH -A bryan_research
-#SBATCH -A ds5559
+#SBATCH -A bryan_research
+##SBATCH -A ds5559
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -12,7 +12,7 @@
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
-#SBATCH -t 0-06:00:00
+#SBATCH -t 3-00:00:00
 #SBATCH -J llama_QA_function_topic
 #SBATCH -o llama_QA_function_topic-%A.out
 #SBATCH -e llama_QA_function_topic-%A.err

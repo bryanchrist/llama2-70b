@@ -148,7 +148,7 @@ for i in range(0,5000):
     if "\nBelow" in newly_generated_text:
         newly_generated_text = newly_generated_text.split("\nBelow")[0]
     
-    output_file = "llama_QA_questions.txt"  # Specify the path and filename for the output file
+    output_file = "llama_QA_questions_v2.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Topic: {topic} " + newly_generated_text + "\n")  # Append the newly generated text to the file
         

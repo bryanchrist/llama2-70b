@@ -1,0 +1,212 @@
+Topic: Spiderman ### Response: Question: Spiderman has 12 web-shooters. He uses 3 of them to stop a bank robbery, and 5 of them to save a schoolbus. He then uses 4 of them to stop a mugging. How many web-shooters does he have left? Solution: def solution():
+    #Spiderman started with 12 web-shooters
+    web_shooters_initial = 12
+    #He used 3 to stop a bank robbery
+    web_shooters_used_bank_robbery = 3
+    #He used 5 to save a schoolbus
+    web_shooters_used_schoolbus = 5
+    #He used 4 to stop a mugging
+    web_shooters_used_mugging = 4
+    #The answer is
+    result = web_shooters_initial - web_shooters_used_bank_robbery - web_shooters_used_schoolbus - web_shooters_used_mugging
+    return result
+Topic: planes ### Response: Question: A 747 can fly 5000 miles in 8 hours. 
+How many 747s are needed to fly 35000 miles in 12 hours? Solution
+Topic: Iron Man ### Response: Question: In
+Topic: Taylor Swift ### Response: Question: Taylor Swift is in the process of recording a new album. She has 12 songs. She records 2 new songs each day. How many songs will she have at the end of the week? Solution: def solution():
+    #Taylor Swift started with 12 songs
+    songs_initial = 12
+    #She records 2 new songs each day
+    songs_per_day = 2
+    #There are 7 days in a week
+    num_days = 7
+    #There were
+    songs_added = songs_per_day * num_days
+    #songs added. The answer is
+    result = songs_initial + songs_added
+    return result
+Topic: Captain America ### Response: Question: Captain America is in a rush to save the world. He has to run 3000 meters to the first checkpoint. Then he has to run 3/4 as far to the second checkpoint. How many meters does he have to run in total? Solution: def solution():
+    #The first checkpoint is 3000 meters away
+    first_checkpoint = 3000
+    #The second checkpoint is 3/4 as far as the first
+    second_checkpoint = first_checkpoint * (3/4)
+    #The total distance is
+    total_distance = first_checkpoint + second_checkpoint
+    return total_distance
+Topic: Ninja Turtles ### Response: Question: There are 4 Ninja Turtles. 2 of them are 150 years old, 1 of them is 145 years old, and the last one is 140 years old. What is the average age of the Ninja Turtles? Solution: def solution():
+    #The ages of the Ninja Turtles
+    turtle_ages = [150, 150, 145, 140]
+    #The answer is
+    result = sum(turtle_ages) / len(turtle_ages)
+    return result
+Topic: cars ### Response: Question: 500 cars, 200 of which are convertibles, are lined up at a toll booth. 10% of the non-convertibles and 20% of the convertibles do not pay the toll. How many cars paid the toll? Solution: def solution():
+    #There are 500 cars
+    cars = 500
+    #200 of which are convertibles
+    convertibles = 200
+    #10% of the non-convertibles and 20% of the convertibles do not pay the toll
+    toll_paid_by_non_convertibles = (cars - convertibles) * (1 - 0.1)
+    toll_paid_by_convertibles = convertibles * (1 - 0.2)
+    #The answer is
+    result = toll_paid_by_non_convertibles + toll_paid_by_convertibles
+    return result
+Topic: Naruto ### Response: Question: Naruto is 12 years old. 4 years ago, he was 3/4 as old as he is now. How old was he 4 years ago? Solution: def solution():
+    #Naruto is 12 years old
+    naruto_age = 12
+    #4 years ago, he was 3/4 as old as he is now
+    naruto_age_4_years_ago = (3/4) * naruto_age
+    return naruto_age_4_years_ago
+Topic: dogs ### Response: Question: 200 dogs are in a dog show. 40% of the dogs are beagles. 20% of the beagles are hounds. How many hound beagles are in the dog show? Solution: def solution():
+    #200 dogs are in a dog show
+    dogs = 200
+    #40% of the dogs are beagles
+    beagles = dogs * 0.40
+    #20% of the beagles are hounds
+    hound_beagles = beagles * 0.20
+    #The answer is
+    result = hound_beagles
+    return result
+Topic: swimming ### Response: Question: Tad can swim 12 laps per hour. If he swims 2 hours a day for 5 days, how many laps does he swim? Solution: def solution():
+    #Tad can swim 12 laps per hour
+    laps_per_hour = 12
+    #He swims 2 hours a day
+    hours_per_day = 2
+    #For 5 days
+    days = 5
+    #The answer is
+    result = laps_per_hour * hours_per_day * days
+    return result
+Topic: Black Panther ### Response: Question: The Black Panther canister has 12 ounces of deodorant. 
+
+He sprays 2 ounces in the morning and 2 ounces in the evening. 
+
+How many ounces of deodorant does he have left after 6 days?
+
+Solution:
+
+### Instruction:
+Write a grade school math word problem and Python function with a commented out step-by-step solution to solve the word problem.
+
+### Response: Question: A gorilla at the zoo eats 200 pounds of food per day. 
+
+It ate 200 pounds of food on Monday, 300 pounds of food on Tuesday, 400 pounds of food on Wednesday, 500 pounds of food on Thursday, and 600 pounds of food on Friday.
+
+How much food did it eat that week?
+
+Solution:
+
+### Instruction:
+Write a grade school math word problem and Python function with a commented out step-by-step solution to solve the word problem.
+
+### Response
+Topic: Taylor Swift ### Response: Question: Taylor Swift has 1000s of fans. 200 of them are in the VIP section. 300 of them are in the back. 50 of them are in the mosh pit. The rest are in the general seating. How many of her fans are in general seating? Solution: def solution():
+    #Taylor Swift has 1000s of fans
+    total_fans = 1000
+    #200 of them are in the VIP section
+    vip_fans = 200
+    #300 of them are in the back
+    back_fans = 300
+    #50 of them are in the mosh pit
+    mosh_pit_fans = 50
+    #The rest are in general seating. The answer is
+    general_seating_fans = total_fans - vip_fans - back_fans - mosh_pit_fans
+    return general_seating_fans
+Topic: dinosaurs ### Response: Question: 4500 years ago, there were 1000 dinosaurs. 500 of them died of old age, and 200 of them were eaten by other dinosaurs. 300 more were born, and 100 of them were eaten by a pack of wolves. 1000 years later, how many dinosaurs were there? Solution: def solution():
+    #4500 years ago, there were 1000 dinosaurs
+    dinosaurs_initial = 1000
+    #500 of them died of old age
+    dinosaurs_died_old_age = 500
+    #200 of them were eaten by other dinosaurs
+    dinosaurs_eaten_by_other_dinosaurs = 200
+    #300 more were born
+    dinosaurs_born = 300
+    #100 of them were eaten by a pack of wolves
+    dinosaurs_eaten_by_wolves = 100
+Topic: Black Panther ### Response: Question: In the fictional country of Wakanda, the Black Panther is the ruler. He has 1000 warriors, 2000 more than the number of warriors he had 10 years ago. How many warriors did the Black Panther have 10 years ago? Solution: def solution():
+    #The Black Panther has 1000 warriors now
+    warriors_now = 1000
+    #He has 2000 more than he had 10 years ago
+    warriors_10_years_ago = warriors_now - 2000
+    return warriors_10_years_ago
+Topic: Batman ### Response: Question: The Batmobile can go 0 to 60 miles per hour in 3.5 seconds.  How long, in seconds, does it take to go from 60 to 0 miles per hour?
+
+Solution:
+
+# The Batmobile's acceleration is 0 to 60 mph in 3.5 seconds
+# This means that in 1 second, it can go from 0 to (60/3.5) mph
+# To go from 60 to 0 mph, it needs to decelerate at the same rate
+# So, in 1 second, it can go from 60 to (60 - (60/3.5)) mph
+# To go from 60 to 0 mph, it needs (60 - (60/3.5)) seconds
+
+def solution():
+    # define the acceleration and deceleration in mph per second
+    acceleration = 60 / 3.5
+    deceleration = -acceleration
+
+    # calculate the time to go from 60 to 0 mph
+    time
+Topic: cars ### Response: Question: A 10-car train is 1300 feet long. A 20-car train is 2600 feet long. How much longer
+Topic: volleyball ### Response: Question: In a volleyball match, the winning team is the first to 25 points. 
+The losing team can't score more than 20 points. 
+If the winning team has 23 points, and the losing team has 18 points, 
+how many more points does the winning team need to win?
+Solution:
+def solution():
+    # points required by winning team to win
+    winning_team_points = 25
+    # points with winning team
+    winning_team_current_points = 23
+    # points with losing team
+    losing_team_points = 18
+    # points the losing team can'
+    losing_team_max_points = 20
+
+    # if the losing team's current points are more than their max points,
+    # the winning team has already won
+    if losing_team_points > losing_team_max_points:
+        return 0
+
+    # the winning team's current points are more than the losing team's max points,
+    # the winning team has already won
+    if winning_team
+Topic: Captain America ### Response: Question: Captain America can punch 20 times a minute. 
+How many punches can he do in 10 minutes? Solution: def solution():
+    #Captain America can punch 20 times a minute
+    punches_per_minute = 20
+    #How many punches can he do in 10 minutes?
+    punches_in_10_minutes = punches_per_minute * 10
+    return punches_in_10_minutes
+Topic: Harry Potter ### Response: Question: In the first Harry Potter book, Harry, Ron, and Hermione sneak into the Forbidden Forest to rescue Neville's Remembrall. They have to get past a herd of 120 centaurs. 1/3 of the centaurs are asleep. 1/4 of the sleeping centaurs are snoring. How many centaurs are awake and not snoring? Solution: def solution():
+    #There are 120 centaurs
+    centaurs_total = 120
+    #1/3 of the centaurs are asleep
+    centaurs_asleep = centaurs_total / 3
+    #1/4 of the sleeping centaurs are snoring
+    centaurs_snoring = centaurs_asleep / 4
+    #The answer is
+    result = centaurs_total - centaurs_asleep + centaurs_snoring
+    return result
+Topic: Spiderman ### Response: Question: Spiderman can shoot 10 webs per minute.  He can also spin 2 webs per minute.  He is in a 5 minute battle.  How many webs does he have?
+
+Solution:
+def solution():
+    # Spiderman can shoot 10 webs per minute
+    shoot_webs_per_minute = 10
+    # He can also spin 2 webs per minute
+    spin_webs_per_minute = 2
+    # He is in a 5 minute battle
+    battle_minutes = 5
+    # The answer is
+    result = (shoot_webs_per_minute + spin_webs_per_minute) * battle_minutes
+    return result
+Topic: ice cream ### Response: Question: Scoopalicious is an ice cream shop. They have 100 scoops of ice cream. They sell 20 scoops of chocolate, 30 scoops of vanilla, and 20 scoops of strawberry. How many scoops of ice cream are left? Solution: def solution():
+    #Scoopalicious started with 100 scoops of ice cream
+    scoops_initial = 100
+    #They sold 20 scoops of chocolate, 30 scoops of vanilla, and 20 scoops of strawberry
+    scoops_sold_chocolate = 20
+    scoops_sold_vanilla = 30
+    scoops_sold_strawberry = 20
+    #The answer is
+    result = scoops_initial - scoops_sold_chocolate - scoops_sold_vanilla - scoops_sold_strawberry
+    return result
+Bel

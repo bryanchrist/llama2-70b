@@ -1,6 +1,6 @@
 #!/bin/bash
 ##SBATCH -A bryan_research
-#SBATCH -A sds-phd-2022
+#SBATCH -A ds5559
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod

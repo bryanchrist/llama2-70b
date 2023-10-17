@@ -1,0 +1,175 @@
+### Response: 
+Question: Superman can fly at 250 miles per hour. He left Metropolis at 8 AM and flew to Gotham City. He then flew to Star City and then back to Metropolis. Metropolis, Gotham City, and Star City are 250 miles apart from each other. How long, in hours, did it take for Superman to do this trip? Solution: def solution():
+    #Superman can fly at 250 miles per hour
+    superman_speed = 250
+    #The cities are 250 miles apart
+    city_distance = 250
+    #He flew to 3 cities
+    cities = 3
+    #The answer is
+    result = city_distance / superman_speed * cities
+    return result
+### Response: 
+Question: Superman can fly at 250 miles per hour. He is 2000 miles away from Gotham City. How many hours will it take him to get there? Solution: def solution():
+    #Superman flies at 250 miles per hour
+    miles_per_hour = 250
+    #He is 2000 miles away from Gotham City
+    miles_to_gotham = 2000
+    #The answer is
+    result = miles_to_gotham / miles_per_hour
+    return result
+### Response: 
+### Response: 
+### Response: 
+### Response: 
+Question: Superman can fly at 2500 miles per hour. He is 2000 miles away from the city of Metropolis. How long will it take him to get there? Solution: def solution():
+    #Superman can fly 2500 miles per hour
+    superman_speed = 2500
+    #Metropolis is 2000 miles away
+    metropolis_distance = 2000
+    #The answer is
+    result = metropolis_distance / superman_speed
+    return result
+### Response: 
+### Response: 
+def solution():
+    pass
+### Response: 
+Question: Superman can fly at a speed of 250 miles per hour. He is 1250 miles from the city of Metropolis. How long will it take him to get there? Solution: def solution():
+    #Superman's speed is 250 miles per hour
+    speed = 250
+    #The distance to Metropolis is 1250 miles
+    distance = 1250
+    #The answer is
+    result = distance / speed
+    return result
+### Response: 
+
+### Response: 
+Question: Superman can run at 250 miles per hour. The Flash can run at 700 miles per hour. How much faster is the Flash than Superman? Solution: def solution():
+    #Superman can run at 250 miles per hour
+    superman_speed = 250
+    #The Flash can run at 700 miles per hour
+    flash_speed = 700
+    #The answer is
+    result = flash_speed - superman_speed
+    return result
+### Response: 
+Question: Superman can fly at a speed of 250 miles per hour. He was 1500 miles away from Lois Lane, who was in danger. How long did it take him to get to her? Solution: def solution():
+    #Superman's speed is 250 mph
+    superman_speed = 250
+    #He was 1500 miles away from Lois
+    miles_to_lois = 1500
+    #The answer is
+    result = miles_to_lois / superman_speed
+    return result
+### Response: 
+Question: Superman can fly at a speed of 250 miles per hour. He is 2,000 miles from the city of Metropolis. How long will it take him to get to Metropolis? Solution: def solution():
+    #Superman's speed is 250 mph
+    superman_speed = 250
+    #He is 2,000 miles from Metropolis
+    distance_to_metropolis = 2000
+    #The answer is
+    result = distance_to_metropolis / superman_speed
+    return result
+### Response: 
+Question: Superman can
+### Response: 
+Question: Superman can fly at 800 miles per hour. He left Metropolis at 9:00 AM and flew to Gotham City, which is 3,200 miles away. He then flew to Star City, which is 2,400 miles away from Gotham City. How long, in hours, did it take Superman to fly from Metropolis to Star City? Solution: 
+def solution():
+    #Superman's speed is 800 miles per hour
+    superman_speed = 800
+    #The distance from Metropolis to Gotham City is 3,200 miles
+    metropolis_gotham_distance = 3,200
+    #The distance from Gotham City to Star City is 2,400 miles
+    gotham_star_city_distance = 2,400
+    #The total distance Superman flew is
+    total_distance = metropolis_gotham_distance + gotham_star_city_distance
+    #The total time he flew is
+    total_time =
+### Response: 
+### Response: 
+def solution():
+    #Superman can run 20 miles in 10 minutes
+    miles_per_minute = 20
+    #He can also fly 30 miles in 10 minutes
+    miles_per_minute_flying = 30
+    #The answer is
+    result = miles_per_minute + miles_per_minute_flying
+    return result
+### Response: 
+### Response: 
+### Response: 
+def solution():
+    """A speeding bullet can travel 1500 feet per second. Superman can run 20 feet per second. How many seconds will it take for Superman to outrun a speeding bullet?"""
+    #A speeding bullet can travel 1500 feet per second
+    speed_of_bullet = 1500
+    #Superman can run 20 feet per second
+    speed_of_superman = 20
+    #1500 feet per second is
+    feet_per_second_bullet = speed_of_bullet
+    #20 feet per second is
+    feet_per_second_superman = speed_of_superman
+    #The answer is
+    result = feet_per_second_bullet / feet_per_second_superman
+    return result
+### Response: 
+### Response: 
+def solution():
+    pass
+### Response: 
+### Response: 
+Question: Superman can fly at a speed of 250 miles per hour. He left Metropolis and flew to Gotham City, which is 1200 miles away. He then flew to Star City, which is 1400 miles away from Gotham City. How long did it take Superman to fly from Metropolis to Star City? Solution: def solution():
+    #Superman can fly at 250 miles per hour
+    miles_per_hour = 250
+    #It is 1200 miles from Metropolis to Gotham City
+    miles_metropolis_gotham = 1200
+    #It is 1400 miles from Gotham City to Star City
+    miles_gotham_star = 1400
+    #The total distance is
+    miles_total = miles_metropolis_gotham + miles_gotham_star
+    #The answer is
+    result = miles_total / miles_per_hour
+    return result
+### Response: 
+Question: Superman can fly at 200 miles per hour. He can also run at 100 miles per hour. He flies from Metropolis to Gotham City, which is 300 miles away. Then, he runs to Smallville, which is 200 miles away. How long did it take him to get from Metropolis to Smallville? Solution: def solution():
+    #Superman flies at 200 miles per hour
+    superman_flight_speed = 200
+    #He can run at 100 miles per hour
+    superman_running_speed = 100
+    #He flies 300 miles
+    superman_flight_distance = 300
+    #Then he runs 200 miles
+    superman_running_distance = 200
+    #He flies for
+    superman_flight_time = superman_flight_distance / superman_flight_speed
+    #He runs for
+    superman_running_time = superman_running_distance / superman_running_
+### Response: 
+### Response: 
+Question: Superman can fly at 2500 miles per hour. He needs to fly from Metropolis to Gotham City, 2500 miles away. How many hours will it take him to get there? Solution: def solution():
+    #Superman can fly 2500 miles per hour
+    miles_per_hour = 2500
+    #He needs to fly from Metropolis to Gotham City
+    miles_to_fly = 2500
+    #The answer is
+    result = miles_to_fly / miles_per_hour
+    return result
+### Response: 
+Question: Superman can fly at a speed of 250 miles per hour. He is 1500 miles away from Lois Lane, who is in danger. How long will it take him to get to her? Solution: def solution():
+    #Superman can fly 250 miles per hour
+    miles_per_hour = 250
+    #He is 1500 miles away from Lois Lane
+    miles_to_lois = 1500
+    #The answer is
+    result = miles_to_lois / miles_per_hour
+    return result
+### Response: 
+Question: Superman can run at 250 miles per hour. He' is chasing a criminal and has to run 1200 miles to catch them. How long will it take him to catch the criminal? Solution: def solution():
+    #Superman can run 250 miles per hour
+    miles_per_hour = 250
+    #He has to run 1200 miles
+    miles_to_run = 1200
+    #The answer is
+    result = miles_to_run / miles_per_hour
+    return result

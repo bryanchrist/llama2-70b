@@ -100,9 +100,8 @@ import pandas as pd
 df = pd.read_json('mammoth_train.json')
 df2 = pd.read_json('ASDiv_instruct.json')
 grades = ['1', '2', '3', '4', '5', '6']
-for i in range(0,100):
-    
-    prompt = "Write one math word problem and Python code with a commented out step-by-step solution to solve the word problem."
+for i in range(0,5000):
+    prompt = "Write a grade school math word problem and Python function with a commented out step-by-step solution to solve the word problem."
     formatted_prompt = (f"Below is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response: Question: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?"
@@ -134,14 +133,16 @@ for i in range(0,100):
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True)
+    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 250, do_sample = True)
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
     # Split the generated text by the prompt to extract the newly generated part
     generated_text_parts = generated_text.split(prompt)
     newly_generated_text = generated_text_parts[-1].strip()
+    if "\nBelow" in newly_generated_text:
+        newly_generated_text = newly_generated_text.split("\nBelow")[0]
     
-    output_file = "llama_QA_generate_function.txt"  # Specify the path and filename for the output file
+    output_file = "llama_QA_questions_general.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
         

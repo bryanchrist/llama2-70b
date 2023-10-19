@@ -81,7 +81,7 @@ try:
         model_path,
         load_in_8bit=True, 
        # max_memory=max_memory,
-        torch_dtype=torch.bfloat16,
+        torch_dtype=torch.float16,
         use_auth_token=True,
         config=AutoConfig.from_pretrained(model_path, trust_remote_code=True)
     )

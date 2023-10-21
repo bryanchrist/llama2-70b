@@ -10690,3 +10690,3149 @@ The Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 
     #is an 8-digit number.
     #The answer is
     result = 0
+### Response: Question: The 11th
+### Response: Question: 1234567890 is the only 10-digit number that has 0 as the first and last digits and is divisible by 9. How many 8-digit numbers have 0 as the first and last digits and are divisible by 9? Solution: def solution():
+    #0 is the first and last digit, so the 8-digit number is of the form 00000000
+    #To be divisible by 9, the sum of the digits must be divisible by 9.
+    #Sum of the digits is 0+0+0+0+0+0+0+0=0. 0 is divisible by 9, so the number is divisible by 9.
+    #The only 8-digit number with 0 as the first and last digits and divisible by 9 is 00000000.
+    #The answer is 1.
+    result = 1
+    return result
+### Response: Question: A baker baked 1000 loaves of bread. He sells 3/4 of the loaves in the morning. 200 loaves are left in the afternoon. How many loaves of bread were sold in the afternoon? Solution: def solution
+### Response: Question: A pizza has 8 slices. 5 of the slices are plain, 2 of the slices are pepperoni, and 1 of the slices is both plain and pepperoni. How many slices of pizza are not both plain and pepperoni? Solution: def solution():
+    #A pizza has 8 slices
+    slices_total = 8
+    #5 of the slices are plain
+    slices_plain = 5
+    #2 of the slices are pepperoni
+    slices_pepperoni = 2
+    #1 of the slices is both plain and pepperoni
+    slices_both = 1
+    #The slices that are not both plain and pepperoni are
+    slices_not_both = slices_total - slices_both
+    #The answer is
+    result = slices_not_both
+    return result
+### Response: Question: The 20-story apartment building has 2000 windows. 50% of the windows are in the 2 top floors. 30% of the remaining windows are in the 5th and 6th floors. How many windows are there in the 1st, 2nd, 3rd, and 4th floors? Solution: def solution():
+    #The 20-story apartment building has 2000 windows
+    windows_total = 2000
+    #50% of the windows are in the 2 top floors
+    windows_top_floors = windows_total * 0.5
+    #30% of the remaining windows are in the 5th and 6th floors
+    windows_5th_and_6th_floors = (windows_total - windows_top_floors) * 0.3
+    #The answer is
+    result = windows_total - windows_top_floors - windows_5th_and_6th_floors
+    return result
+### Response: Question: 2000 people were at a rally. 1000 of them were wearing hats. 200 of the people wearing hats were also wearing sunglasses. 500 of the people at the rally were wearing neither hats nor sunglasses. How many people at the rally were wearing sunglasses? Solution: def solution():
+    #Total people at the rally
+    total_people = 2000
+    #People wearing hats
+    hats = 1000
+    #People wearing sunglasses and hats
+    sunglasses_and_hats = 200
+    #People wearing neither hats nor sunglasses
+    neither = 500
+    #People wearing sunglasses is
+    sunglasses = sunglasses_and_hats + (total_people - hats - neither)
+    return sunglasses
+
+### Response: Question: A 22-pound turkey is roasted for 20 minutes per pound.  A 10-pound ham is roasted for 25 minutes per pound.  How many minutes longer is the total roasting time for the turkey than for the ham? Solution: def solution():
+    #The turkey weighs 22 pounds and is roasted for 20 minutes per pound
+    turkey_weight = 22
+    turkey_roasting_time_per_pound = 20
+    #The ham weighs 10 pounds and is roasted for 25 minutes per pound
+    ham_weight = 10
+    ham_roasting_time_per_pound = 25
+    #The total roasting time for the turkey is
+    turkey_total_roasting_time = turkey_weight * turkey_roasting_time_per_pound
+    #The total roasting time for the ham is
+    ham_total_roasting_time = ham_weight * ham
+### Response: Question: 2345 is the 12345th number. How many 0s are in the 12345th number? Solution: def solution():
+    #The 12345th number is 2345
+    num_12345 = 2345
+    #The 12346th number is 2346
+    num_12346 = 2346
+    #The 12347th number is 2347
+    num_12347 = 2347
+    #The 12348th number is 2348
+    num_12348 = 2348
+    #The 12349th number is 2349
+    num_12349 = 2349
+    #The 12350th number is 2350
+    num_12350 = 2350
+    #The 12351st number
+### Response: Question: 3000 people are attending a 3-day-long conference. 1000 of them are from the US, and 2000 are from other countries. 300 of the attendees from the US and 800 of the attendees from other countries are students. How many of the attendees are non-student attendees from the US? Solution: def solution():
+    #Total attendees
+    total_attendees = 3000
+    #US attendees
+    us_attendees = 1000
+    #Other countries attendees
+    other_countries_attendees = 2000
+    #US student attendees
+    us_student_attendees = 300
+    #Other countries student attendees
+    other_countries_student_attendees = 800
+    #Non-student attendees from the US is
+    non_student_us_attendees = us_attendees - us_student
+### Response: Question: 10000 is the 4th power of what number? Solution: def solution():
+    #10000 is the 4th power of x
+### Response: Question: 435 pencils and 200 erasers were bought by a school for the students. If 2/3 of the pencils
+### Response: Question: 3/4 (a fraction) is 0.75 (a decimal). 0.75 (a decimal) is 3/4 of what? Solution: def solution():
+    #0.75 is 3/4 of 1
+    whole = 1
+    #The answer is
+    result = 0.75 * whole
+### Response: Question: A dad and his 12-year-old son are at a toy store. The dad has $100. The dad buys 5 toys that cost $12 each. The son buys 2 toys that cost $15 each. How much money does the dad have left? Solution: def solution():
+    #The dad started with $100
+    dad_money_initial = 100
+    #The dad bought 5 toys
+    dad_toys = 5
+    #Each toy cost $12
+    dad_toy_cost = 12
+    #5 toys at $12 a toy cost
+    dad_money_spent = dad_toys * dad_toy_cost
+    #The son bought 2 toys
+    son_toys = 2
+    #Each toy cost $15
+    son_toy_cost = 15
+    #2 toys at $15 a toy cost
+    son_money_spent =
+### Response: Question: 12345 is a 5-digit number. How many 4-digit numbers can be formed using the 5 digits 1, 2, 3, 4 and 5, if each 4-digit number is to be formed once and 4 cannot be the
+### Response: Question: 115 pumpkins grew in a pumpkin patch. 5 of the pumpkins rotted, and 21 were eaten by deer. 36 of the pumpkins were carved, and 24 of the pumpkins were turned into pies. 23 of the pumpkins were picked and taken home to be used for decoration. How many pumpkins are left in the pumpkin patch? Solution: def solution():
+    #There were 115 pumpkins in the pumpkin patch
+    pumpkins_initial = 115
+    #5 of the pumpkins rotted
+    pumpkins_rotted = 5
+    #21 were eaten by deer
+    pumpkins_eaten = 21
+    #36 of the pumpkins were carved
+    pumpkins_carved = 36
+    #24 of the pumpkins were turned into pies
+    pumpkins_pies = 24
+    #23 of the pumpkins were picked and taken home to be
+### Response: Question: There are 48000 people in a city. 3/4 of the population are women. 1/2 of the women are of childbearing age. 1/3 of the women of childbearing age have 3 children. 1/4 of the women of childbearing age have 2 children. 1/6 of the women of childbearing age have 1 child. 1/8 of the women of childbearing age have no children. How many children are in the city? Solution: def solution():
+    #Total population
+    total_population = 48000
+    #3/4 of the population are women
+    women_population = (3/4) * total_population
+    #1/2 of the women are of childbearing age
+    childbearing_age_women = (1/2) * women_population
+    #1/3 of the women of childbearing age have 3 children
+    three_children_women = (1/3) * childbearing_age_w
+### Response: Question: A baker is baking pies. She bakes 6 pies a day for
+### Response: Question: 3123 is the 56th Fibonacci number. What is the 100th Fibonacci number?
+
+The Fibonacci sequence is a series of numbers where a number is the sum of the two numbers before it. 
+
+The first two numbers in the Fibonacci sequence are 0 and 1.
+
+0 is the 0th Fibonacci number, 1 is the 1st Fibonacci number, 1 is the 2nd Fibonacci number, 2 is the 3rd Fibonacci number, 3 is the 4th Fibonacci number, 5 is the 5th Fibonacci number, 8 is the 6th Fibonacci number, 13 is the 7th Fibonacci number, 21 is the 8th Fibonacci number, 34 is the 9th Fibonacci number, 55 is the 10th Fibonacci number, and so on.
+
+Solution: def solution():
+    #0 is the 0th
+### Response: Question:
+### Response: Question: 
+
+The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?
+
+Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: 10000 bees were in a beehive. 2000 bees left to start a new hive. 1000 bees were born in the hive. 500 bees died. How many bees are left? Solution: def solution():
+    #There were initially 10000 bees
+    bees_initial = 10000
+    #2000 bees left to start a new hive
+    bees_left = 2000
+    #1000 bees were born in the hive
+    bees_born = 1000
+    #500 bees died
+    bees_died = 500
+    #The answer is
+    result = bees_initial - bees_left + bees_born - bees_died
+    return result
+### Response: Question: A candy store has 1200 lollipops. 400 of them are in the 3-lollipop pack, 300 of them are in the 5-l
+### Response: Question: 1000000000000 (10^14) is a
+
+### Response: Question: A 12-slice pizza was cut into 4-slice and 6-slice pizzas. 1/2 of the 4-slice pizzas and 1/3 of the 6-slice pizzas were topped with pepperoni. How many slices of pizza were topped with pepperoni? Solution: def solution():
+    #The pizza was cut into 4-slice and 6-slice pizzas
+    slices_4 = 4
+    slices_6 = 6
+    #1/2 of the 4-slice pizzas and 1/3 of the 6-slice pizzas were topped with pepperoni
+    topped_4 = slices_4 / 2
+    topped_6 = slices_6 / 3
+    #The answer is
+    result = topped_4 + topped_6
+    return result
+### Response: Question: A pizzeria is baking 50 pizzas. 10
+### Response: Question: 2000 people lined up to get a vaccine. 600 of them are in a priority group. 400 of them are in a second priority group. 300 of them are in a third priority group. The rest are in a fourth priority group. How many people are in the fourth priority group? Solution: def solution():
+    #2000 people lined up to get a vaccine
+    total_people = 2000
+    #600 of them are in a priority group
+    priority_group1 = 600
+    #400 of them are in a second priority group
+    priority_group2 = 400
+    #300 of them are in a third priority group
+    priority_group3 = 300
+    #The answer is
+    fourth_priority_group = total_people - priority_group1 - priority_group2 - priority_group3
+    return fourth_priority_group
+### Response: Question: 23456789 is a 9-digit number. 12345678 is a 9-digit number. 1234567 is a 8-digit number. 123456 is a 7-digit number. 12345 is a 6-digit number. 1234 is a 5-digit number. 123 is a 4-digit number. 12 is a 3-digit number. 1 is a 2-digit number. 
+
+How many 2-digit numbers are in the list above?
+
+### Solution:
+def solution():
+    # 23456789 is a 9-digit number.
+    # 12345678 is a 9-digit number.
+    # 1234567 is a 8-digit number.
+    # 123456 is a 7-digit number.
+    # 12345 is a 6-digit number.
+    #
+### Response: Question: A candy store has 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+### Response: Question: 342 pencils were in 24 bins. 30 pencils were in each bin. 20 pencils
+### Response: Question: A bakery has 42 cakes. They sold 25 of them. The next day, they baked 12 more cakes. How
+### Response: Question: 2000 people are at a soccer game. 500 of them are in the 1st half of the game, 700 of them are in the 2nd half, and 300 of them are in both halves. How many people are in neither half? Solution: def solution():
+    #2000 people are at the soccer game
+    total_people = 2000
+    #500 of them are in the 1st half
+    first_half = 500
+    #700 of them are in the 2nd half
+    second_half = 700
+    #300 of them are in both halves
+    both_halves = 300
+    #The answer is
+    result = total_people - first_half - second_half + both_halves
+    return result
+### Response: Question: A bakery sells 100 loaves of bread a day. 20% of the loaves are rye bread
+### Response: Question: 2000 pennies are in 20 piggy banks,
+### Response: Question: 2432.123456789 is a 10-digit number. 2432.123456790 is the 10-digit number formed by incrementing the last digit of 2432.123456789 by 1. 
+
+What is the 100th digit to the right of the decimal point in the long-term decimal expansion of the sum of these two 10-digit numbers? Solution: def solution():
+    #2432.123456789
+    num1 = 2432.123456789
+    #2432.123456790
+    num2 = 2432.123456790
+    #The sum of these two numbers is
+    sum = num1 + num2
+    #The 100th digit to the right of the decimal point in the long-term decimal expansion of the sum is
+    result = sum / 10
+### Response: Question: A baker is baking loaves of bread. He bakes 12 loaves in the morning and 15 loaves in the afternoon. 2/5 of the loaves are burned. How many loaves of bread are not burned? Solution: def solution():
+    #The baker baked 12 loaves in the morning and 15 in the afternoon
+    loaves_baked_morning = 12
+    loaves_baked_afternoon = 15
+    #2/5 of the loaves are burned
+    loaves_burned = 2/5
+    #The answer is
+    result = loaves_baked_morning + loaves_baked_afternoon - (loaves_baked_morning + loaves_baked_afternoon) * loaves_burned
+    return result
+### Response: Question: 117 babies were born at the St. Joseph's Hospital in 2017. 142 babies were born in 2018. 129 babies were born in 2019. 102 babies were born in 2020. 154 babies were born in 2021. How many babies were born at the St. Joseph's Hospital between 2017 and 2021? Solution: def solution():
+    #The number of babies born in 2017
+    babies_2017 = 117
+    #The number of babies born in 2018
+    babies_2018 = 142
+    #The number of babies born in 2019
+    babies_2019 = 129
+    #The number of babies born in 2020
+    babies_2020 = 102
+    #
+### Response: Question: A 25-pound sack of potatoes has 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of 30-pound sacks of
+### Response: Question: A sack of onions weighs 22 pounds. A sack of potatoes weighs 14 pounds. A sack of carrots weighs 10 pounds. A sack of beets weighs 16 pounds. How many pounds of vegetables do 10 sacks of onions, 12 sacks of potatoes, 10 sacks of carrots, and 8 sacks of beets weigh? Solution: def solution():
+    #A sack of onions weighs 22 pounds
+    onions_per_sack = 22
+    #A sack of potatoes weighs 14 pounds
+    potatoes_per_sack = 14
+    #A sack of carrots weighs 10 pounds
+    carrots_per_sack = 10
+    #A sack of beets weighs 16 pounds
+    beets_per_sack = 16
+    #There are 10 sacks of onions, 12 sacks of potatoes
+### Response: Question: 12000 people live in a town. 10000
+### Response: Question: A 24-can case of soda weighs 20 pounds. How many ounces does 1 can of soda weigh? (16 ounces = 1 pound) Solution: def solution():
+    #16 ounces = 1 p
+
+### Response: Question: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+### Response: Question: The cafeteria at the mall has 200 tables. 20 of the tables are for 2 people, 60 of the tables are for 4 people, and the rest are for 6 people. How many people can the cafeteria seat? Solution: def solution():
+    #The cafeteria has 200 tables
+    tables = 200
+    #20 of the tables are for 2 people
+    tables_2_people = 20
+    #60 of the tables are for 4 people
+    tables_4_people = 60
+    #The rest are for 6 people
+    tables_6_people = tables - tables_2_people - tables_4_people
+    #The cafeteria can seat
+    people = tables_2_people * 2 + tables_4_people * 4 + tables_6_people * 6
+    return people
+### Response: Question: There are 5000 inmates in a prison. 2500 inmates are in for life. 500 inmates are in for 15 years. 300 inmates are in for 5 years. 200 inmates are in for 1 year. 100 inmates are in for 6 months. 300 inmates are in for 1 month. How many inmates will be released in 5 years? Solution: def solution():
+    #The total number of inmates
+    total_inmates = 5000
+    #Inmates in for life
+    life_inmates = 2500
+    #Inmates in for 15 years
+    fifteen_year_inmates = 500
+    #Inmates in for 5 years
+    five_year_inmates = 300
+    #Inmates in for 1 year
+    one_year_inmates = 200
+    #Inmates in for 6 months
+### Response: Question: 123456789 is a 9-digit number. 12345 is
+### Response: Question: A pound of beef is $5.50
+### Response: Question: There were 12541122345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+### Response: Question: A bakery bakes 120 muffins. They bake 30 muffins in the morning and 40 in the afternoon. How many muffins do they bake the next day if they bake 20 in the morning and 30 in the afternoon? Solution: def solution():
+    #The bakery bakes 120 muffins
+    muffins_baked = 120
+    #They bake 30 muffins in the morning and 40 in the afternoon
+    muffins_morning = 30
+    muffins_afternoon = 40
+    #The next day, they bake 20 in the morning and 30 in the afternoon
+    muffins_next_day_morning = 20
+    muffins_next_day_afternoon = 30
+    #The answer is
+    result = muffins_baked - muffins_morning - muffins_afternoon + muffins_next_day_morning + muffins_next_day
+### Response: Question: 1000000000000 (one trillion) is the number of dollars in the US national debt. 1000000000 (one hundred billion) is the number of dollars in the US deficit. 1000000000 (one hundred billion) is the number of dollars in the US surplus. If the US deficit and surplus were both applied to the national debt, by how many dollars would the national debt be reduced? Solution: def solution():
+    #The national debt is 1 trillion
+    national_debt = 1000000000000
+    #The deficit is 100 billion
+    deficit = 1000000000
+    #The surplus is 100 billion
+    surplus = 1000000000
+    #The answer is
+    result = (deficit + surplus) - national_debt
+    return result
+### Response: Question: A 12-shelf bookcase has 320 books. 1/4 of the books are on the first shelf, 1/3 of the remaining books are on the second shelf, and the rest are evenly distributed across the remaining shelves. How many books are on each of the remaining shelves? Solution: def solution():
+    #Total number of books
+    total_books = 320
+    #Books on the first shelf
+    first_shelf_books = total_books / 4
+    #Remaining books after the first shelf
+    remaining_books = total_books - first_shelf_books
+    #Books on the second shelf
+    second_shelf_books = remaining_books / 3
+    #Remaining books after the second shelf
+    remaining_books = remaining_books - second_shelf_books
+    #Number of shelves remaining
+    shelves_remaining = 12 - 2
+    #Books on each of the remaining shelves
+    books_per_shelf = remaining_books /
+### Response: Question: 1800 students are in a high school. 500 of them are in the 10th grade. 250 of them are in the 11th grade. 600 of them are in the 12th grade. How many are in the 9th grade? Solution: def solution():
+    #Total students
+    total_students = 1800
+    #10th grade students
+    tenth_grade_students = 500
+    #11th grade students
+    eleventh_grade_students = 250
+    #12th grade students
+    twelfth_grade_students = 600
+    #9th grade students are
+    ninth_grade_students = total_students - tenth_grade_students - eleventh_grade_students - twelfth_grade_students
+    return ninth_grade_students
+### Response: Question: The 2015 Mustang has 310 horsepower. The 2016 Mustang has 10% more horsepower. The 2017 Mustang has 15% more horsepower than the 2016 Mustang. How much horsepower does the 2017 Mustang have? Solution: def solution():
+    #The 2015 Mustang has 310 horsepower
+    horsepower_2015 = 310
+    #The 2016 Mustang has 10% more horsepower
+    horsepower_2016 = horsepower_2015 + (horsepower_2015 * 0.10)
+    #The 2017 Mustang has 15% more horsepower than the 2016 Mustang
+    horsepower_2017 = horsepower_2016 + (horsepower_2016 * 0.15)
+    #The answer is
+    result = horsepower_2017
+    return result
+### Response: Question: 25000 pennies weigh 2500 ounces. 20000 nickels weigh 2000 ounces. 15000 dimes weigh 1500 ounces. 10000 quarters weigh 1000 ounces. How many ounces of pennies, nickels, dimes, and quarters are there in a total of 100000 ounces? Solution: def solution():
+    #100000 ounces of pennies, nickels, dimes, and quarters
+    #25000 pennies weigh 2500 ounces
+    pennies_weight = 2500
+    #20000 nickels weigh 2000 ounces
+    nickels_weight = 2000
+    #15000 dimes weigh 1500 ounces
+    dimes_weight = 1500
+    #100
+### Response: Question: A pizzeria sells 10-inch pizzas and 12-inch pizzas. 10-inch pizzas are sliced into 12, and 12-inch pizzas are sliced into 16. 10-inch pizzas cost $2.50, and 12-inch pizzas cost $3.50. 15 10-inch pizzas and 12 12-inch pizzas are sold. How much more money is made from 12-inch pizzas than from 10-inch pizzas? Solution: def solution():
+    #10-inch pizzas are sliced into 12
+    slices_10_inch = 12
+    #12-inch pizzas are sliced into 16
+    slices_12_inch = 16
+    #10-inch pizzas cost $2.50
+    cost_10_inch = 2.50
+    #12-inch p
+### Response: Question: A pizza has 8 slices. 4 of the slices are pepperoni and 2 of the slices are mushroom. How many slices
+### Response: Question: A toy store has 123 toy cars. It sells 29 toy cars on Tuesday and 43 toy cars on Thursday. How many toy cars are left? Solution: def solution():
+    #The toy store started with 123 toy cars
+    toy_cars_initial = 123
+    #It sold 29 toy cars on Tuesday
+    toy_cars_sold_tuesday = 29
+    #And 43 toy cars on Thursday
+    toy_cars_sold_thursday = 43
+    #The answer is
+    result = toy_cars_initial - toy_cars_sold_tuesday - toy_cars_sold_thursday
+    return result
+### Response: Question: 45000 people live in a small town. 1/10 of the population is under 10 years old. 2/3 of the population is between 10 and 60. 1/10 of the population is over 60. How many people are between 10 and 60? Solution: def solution():
+    #Total population
+    total_population = 45000
+    #1/10 of the population is under 10
+    under_10 = total_population / 10
+    #2/3 of the population is between 10 and 60
+    between_10_60 = (2 / 3) * total_population
+    #1/10 of the population is over 60
+    over_60 = total_population / 10
+    #The answer is
+    result = between_10_60
+    return result
+### Response: Question: Cindy and her 3 friends ate 12 slices of pizza. Cindy ate 3 slices. How many slices of pizza did each of her friends eat? Solution: def solution():
+    #Cindy and her 3 friends ate 12 slices of pizza
+    pizza_slices_total = 12
+    #Cindy ate 3 slices
+    pizza_slices_cindy = 3
+    #Her friends ate the rest
+    pizza_slices_friends = pizza_slices_total - pizza_slices_cindy
+    #There are 3 friends, so
+    pizza_slices_per_friend = pizza_slices_friends / 3
+    #The answer is
+    result = pizza_slices_per_friend
+    return result
+### Response: Question
+### Response: Question: 24000 people live in a city. 1/3 of the people in the city are children. How many adults live in the city? Solution: def solution():
+    #24000 people live in the city
+    total_people = 24000
+    #1/3 of the people in the city are
+### Response: Question: 2000 people were at a soccer game. 1000 of them were wearing the home team's jersey. 400 of them were wearing the away team's jersey. 300 of them were wearing a jersey of a different soccer team. How many people were not wearing a soccer jersey? Solution: def solution():
+    #2000 people were at the game
+    people_at_game = 2000
+    #1000 of them were wearing the home team's jersey
+    home_team_jersey = 1000
+    #400 of them were wearing the away team's jersey
+    away_team_jersey = 400
+    #300 of them were wearing a jersey of a different soccer team
+    different_team_jersey = 300
+    #The answer is
+    result = people_at_game - home_team_jersey - away_team_jersey - different_team
+### Response: Question: 2100 students at a school were surveyed. 60% of the students rated the canteen lunch as 5 or higher on a 10-point scale. 25% of the students rated the canteen lunch as 4 or higher. 10% of the students rated the canteen lunch as 3 or higher. How
+### Response: Question: The number of chickens on a farm is 200. 100 more chickens are bought. 30 of the chickens are sold, and 20 of the chickens die. How many chickens are left? Solution: def solution():
+    #The number of chickens on a farm is 200
+    chickens_initial = 200
+    #100 more chickens are bought
+    chickens_bought = 100
+    #30 of the chickens are sold
+    chickens_sold = 30
+    #20 of the chickens die
+    chickens_died = 20
+    #The answer is
+    result = chickens_initial + chickens_bought - chickens_sold - chickens_died
+    return result
+### Response: Question: A cake of 200 grams of flour, 150 grams of butter, and 200 grams of sugar is baked. 
+If 100 grams of butter is 3/4 of a pound, how many pounds of butter are in 10 cakes? Solution: def solution():
+    #100 grams of butter is 3/4 of a pound
+    butter_100_grams_to_pounds = 3/4
+    #150 grams of butter is
+    butter_150_grams_to_pounds = butter_100_grams_to_pounds * 1.5
+    #10 cakes have
+    butter_10_cakes = butter_150_grams_to_pounds * 10
+    #The answer is
+    result = butter_10_cakes
+    return result
+### Response: Question: The number of oranges in a grocery store is 30. 15 oranges are sold in the morning, and 10 oranges are sold in the afternoon. 5 oranges are returned in the evening. How many oranges are there now? Solution: def solution():
+    #The number of oranges in a grocery store is 30
+    oranges_initial = 30
+    #15 oranges are sold in the morning
+    oranges_sold_morning = 15
+    #10 oranges are sold in the afternoon
+    oranges_sold_afternoon = 10
+    #5 oranges are returned in the evening
+    oranges_returned = 5
+    #The answer is
+    result = oranges_initial - oranges_sold_morning - oranges_sold_afternoon + oranges_returned
+    return result
+### Response: Question: 1000 people lined up for a bake sale. 300 of the people in line are men. 150 of the men are wearing hats. 200 of the people in line are children. 100 of the children are wearing hats. 50 of the people wearing hats are also wearing sunglasses. How many people in line are women, wearing neither hats nor sunglasses? Solution: def solution():
+    #Total number of people in line
+    total_people = 1000
+    #Number of men in line
+    men = 300
+    #Number of men wearing hats
+    men_hats = 150
+    #Number of children in line
+    children = 200
+    #Number of children wearing hats
+    children_hats = 100
+    #Number of people wearing hats and sunglasses
+    hats_sunglasses = 50
+    #The number of women in line is
+    women = total_people -
+
+### Response: Question: A farmer has 1111 sheep. 222 of them are male. 444 of the female sheep are pregnant. 111 of the pregnant sheep are with triplets, 222 are with twins, and the rest are with single lambs. How many lambs are born? Solution: def solution():
+    #The farmer has 1111 sheep
+    sheep_total = 1111
+    #222 of them are male
+    sheep_male = 222
+    #444 of the female sheep are pregnant
+    sheep_female_pregnant = 444
+    #111 of the pregnant sheep are with triplets
+    triplets = 111
+    #222 are with twins
+    twins = 222
+    #The rest are with single lambs
+    singles = sheep_female_pregnant - triplets - twins
+    #The answer is
+    result = (triplets * 3) + (
+### Response: Question: 180 pigs on a farm. 60 of the pigs weigh 100 pounds. 80 of the pigs weigh 200 pounds. 40 of the pigs weigh 300 pounds. How many pounds do all the pigs weigh? Solution: def solution():
+    #180 pigs on a farm
+    pigs = 180
+    #60 of the pigs weigh 100 pounds
+    pigs_100 = 60
+    #80 of the pigs weigh 200 pounds
+    pigs_200 = 80
+    #40 of the pigs weigh 300 pounds
+    pigs_300 = 40
+    #The answer is
+    result = pigs_100*100 + pigs_200*200 + pigs_300*300
+    return result
+### Response: Question: The cafeteria at the mall sells 2000 fries per day. 400 of the fries are sold in the morning, 800 in the afternoon, and 500 in the evening. How many fries are left? Solution: def solution():
+    #The cafeteria sells 2000 fries per day
+    fries_sold_per_day = 2000
+    #400 fries are sold in the morning
+    fries_sold_morning = 400
+    #800 fries are sold in the afternoon
+    fries_sold_afternoon = 800
+    #500 fries are sold in the evening
+    fries_sold_evening = 500
+    #The answer is
+    result = fries_sold_per_day - fries_sold_morning - fries_sold_afternoon - fries_sold_evening
+    return result
+### Response: Question: The Beverly Hills Bakery sells 200 loaves of bread on Monday, 320 loaves of bread on Tuesday, 220 loaves of bread on Wednesday, and 400 loaves of bread on Thursday. How many loaves of bread did they sell from Monday to Thursday? Solution: def solution():
+    #The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday.
+    loaves_sold_monday = 200
+    #They sold 320 loaves of bread on Tuesday.
+    loaves_sold_tuesday = 320
+    #They sold 220 loaves of bread on Wednesday.
+    loaves_sold_wednesday = 220
+    #They sold 400 loaves of bread on Thursday.
+    loaves_sold_thursday = 400
+    #The answer is
+    result = loaves_sold_monday + loaves_s
+### Response: Question: 125000 people live in a city. 60000 of them are men. 50000 of them are women. The rest are children. How many children live in the city? Solution: def solution():
+    #Total people
+    total_people = 125000
+    #
+### Response: Question: 1200 pencils are in 240 boxes. How many pencils are in 1200 boxes? Solution: def solution():
+    #1200 pencils are in
+### Response: Question: A 100-seat theater is showing a 3-act play. 90 people bought tickets to the 1st act. 10 more people bought tickets to the 2nd act. 15 of the 2nd act ticket-holders also bought tickets to the 3rd act. How many of the theater's seats are empty? Solution: def solution():
+    #100 is the total number of seats in the theater
+    total_seats = 100
+    #90 people bought tickets to the 1st act
+    first_act_tickets = 90
+    #10 more people bought tickets to the 2nd act
+    second_act_tickets = 10
+    #15 of the 2nd act ticket-holders also bought tickets to the 3rd act
+    third_act_tickets = 15
+    #The total number of tickets sold is
+    total_tickets = first_act_tickets + second_act_tickets + third_act_tickets
+### Response: Question: 12000 people live in a small town. 1/3 of them are men. 1/3 of the
+### Response: Question: A bakery has 15 cakes. They baked and sold 5 cakes on Monday, 3 cakes on Tuesday, 4 cakes on Wednesday, and 3 cakes on Thursday. How many cakes do they have left? Solution: def solution():
+    #The bakery started with 15 cakes
+    cakes_initial = 15
+    #They baked and sold 5 cakes on Monday, 3 cakes on Tuesday, 4 cakes on Wednesday, and 3 cakes on Thursday
+    cakes_sold_monday = 5
+    cakes_sold_tuesday = 3
+    cakes_sold_wednesday = 4
+    cakes_sold_thursday = 3
+    #The answer is
+    result = cakes_initial - cakes_sold_monday - cakes_sold_tuesday - cakes_sold_wednesday - cakes_sold_thursday
+    return result
+### Response: Question: The baker at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: A 12-pack of soda cans is on sale for 25% off. The original price is $12. How much do you save by buying 2 12-packs at the sale price? Solution: def solution():
+    #The original price of a 12-pack is $12
+    original_price = 12
+    #The sale price is 25% off
+    sale_price = original_price * (1 - 0.25)
+    #You buy 2 12-packs
+    num_12_packs = 2
+    #The total cost at the sale price is
+    total_sale_price = sale_price * num_12_packs
+    #The total cost at the original price is
+    total_original_price = original_price * num_12_packs
+    #You save
+    savings = total_original_price - total_sale_price
+    return savings
+### Response: Question: The bakery is baking 240 pies. 120 of the pies are for a bake sale, and the rest of the pies are for a Thanksgiving dinner. 24 of the pies for the bake sale are pumpkin, and 36 of
+### Response: Question: A toy store sells 10
+### Response: Question: The 12-ounce bottle of soda at the 7-Eleven is on sale. It was $2.50, but it's 25% off. How much does it cost now? Solution: def solution():
+    #The
+### Response: Question
+### Response: Question: There are 1350000000000 in a trillion. 100000000000 is a billion. How many trillions are in a quadrillion? Solution: def solution():
+    #A trillion has 1350000000000 in it
+    trillion = 1350000000000
+    #A billion has 100000000000 in it
+    billion = 100000000000
+    #A quadrillion is 10000000000000000
+    quadrillion = 10000000000000000
+    #The answer is
+    result = quadrillion / trillion
+    return result
+### Response: Question: 45000 people live in a city. 1/10 of the population are aliens. 1/5 of the aliens are from the Andromeda Galaxy. 1/4 of the Andromeda aliens are from the 2nd planet in the 4th solar system. How many aliens are from the 2nd planet in the 4th solar system in the Andromeda Galaxy? Solution: def solution():
+    #Total population
+    total_population = 45000
+    #1/10 of the population are aliens
+    aliens = total_population / 10
+    #1/5 of the aliens are from the Andromeda Galaxy
+    andromeda_aliens = aliens / 5
+    #1/4 of the Andromeda aliens are from the 2nd planet in the 4th solar system
+    andromeda_2nd_planet_4th_solar_system_aliens = andromeda_aliens / 4
+    #The answer is
+    result = andromeda_2
+### Response: Question: A chocolate bar weighs 125 grams. A candy bar weighs 50 grams. 
+If 25 chocolate bars and 20 candy bars are stacked on a weighing scale, how much do they weigh? Solution: def solution():
+    #A chocolate bar weighs 125 grams
+    chocolate_bar_weight = 125
+    #A candy bar weighs 50 grams
+    candy_bar_weight = 50
+    #25 chocolate bars and 20 candy bars are stacked on a weighing scale
+    chocolate_bars = 25
+    candy_bars = 20
+    #The answer is
+    result = (chocolate_bar_weight * chocolate_bars) + (candy_bar_weight * candy_bars)
+    return result
+### Response: Question: A pizzeria is selling pizzas for $5.50. 100 pizzas were sold on Monday, 150 on Tuesday, and 200 on Wednesday. How much money did the pizzeria make? Solution: def solution():
+    #The pizzeria sells pizzas for $5.50
+    pizza_price = 5.50
+    #They sold 100 pizzas on Monday
+    pizzas_sold_monday = 100
+    #150 on Tuesday
+    pizzas_sold_tuesday = 150
+    #And 200 on Wednesday
+    pizzas_sold_wednesday = 200
+    #The answer is
+    result = (pizzas_sold_monday + pizzas_sold_tuesday + pizzas_sold_wednesday) * pizza_price
+    return result
+### Response: Question:
+### Response: Question: 3000 cats and 1000 dogs were at the animal shelter. 2000 cats and 1000 dogs were adopted. 300 cats and 200 dogs were returned. How many pets are at the shelter now? Solution: def solution():
+    #Initially, there were 3000 cats and 1000 dogs
+    cats_initial = 3000
+    dogs_initial = 1000
+    #2000 cats and 1000 dogs were adopted
+    cats_adopted = 2000
+    dogs_adopted = 1000
+    #300 cats and 200 dogs were returned
+    cats_returned = 300
+    dogs_returned = 200
+    #The answer is
+    result = cats_initial - cats_adopted + cats_returned + dogs_initial - dogs_adopted + dogs_returned
+    return result
+### Response: Question: 5000 people are at a stadium.
+### Response: Question: 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23. 23.
+### Response: Question: 4000 people live in a small town. 1000 of them are men. 2500 of them are women. 25% of the women and 50% of the men are in a romantic relationship. How many people are in a romantic relationship? Solution: def solution():
+    #4000 people live in a small town
+    people_total = 4000
+    #1000 of them are men
+    men = 1000
+    #2500 of them are women
+    women = 2500
+    #25% of the women and 50% of the men are in a romantic relationship
+    relationship_women = women * 0.25
+    relationship_men = men * 0.50
+    #The answer is
+    result = relationship_women + relationship_men
+    return result
+### Response: Question: 4500 people live in a small town. 1/10 of the population are children. 2/3 of the children are in school. 1/3 of the school-going children are in the 10th grade. How many 10th graders are there? Solution: def solution():
+    #4500 people live in a small town
+    total_population = 4500
+    #1/10 of the population are children
+    children_population = total_population / 10
+    #2/3 of the children are in school
+    school_going_children = children_population * 2 / 3
+    #1/3 of the school-going children are in the 10th grade
+    tenth_graders = school_going_children / 3
+    #The answer is
+    result = tenth_graders
+    return result
+### Response: Question: 12000 B.C. was 14000 years ago. 10000 B.C. was 12000 years ago. How many years after 12000 B.
+### Response: Question: A pound of strawberries has 240 seeds. A pound of raspberries has 120 seeds. A pound of blueberries has 160 seeds. How many seeds are in 1000 pounds of each? Solution: def solution():
+    #A pound of strawberries has 240 seeds
+    strawberry_seeds_per_pound = 240
+    #A pound of raspberries has 120 seeds
+    raspberry_seeds_per_pound = 120
+    #A pound of blueberries has 160 seeds
+    blueberry_seeds_per_pound = 160
+    #1000 pounds of each has
+    strawberry_seeds_1000_pounds = strawberry_seeds_per_pound * 1000
+    raspberry_seeds_1000_pounds = raspberry_seeds_per_pound *
+### Response: Question: A
+### Response: Question: 12345 is a 5-digit number. 
+How many 4-digit numbers can be formed using the digits 1, 2, 3, 4 and 5, if a digit cannot be repeated in a 4-digit number? Solution: def solution():
+    #12345 is a 5-digit number
+    #The 5 digits are 1, 2, 3, 4 and 5
+    #4-digit numbers are to be formed using these 5 digits
+    #A digit cannot be repeated in a 4-digit number
+    #The 4-digit numbers are 1234, 1235, 1245, 1345, 2345, 1244, 1243, 1233, 1242, 1241, 1232, 1231, 1222, 1221, 1211, 1111
+    #There are 15 4-digit
+### Response: Question: How many 2-digit numbers are there? Solution: def solution():
+    #2-digit numbers start at 10 and end at 99
+    #There are
+### Response: Question: A 2-liter bottle of soda has 80 ounces of soda. A 1.5-liter bottle of soda has 50 ounces of soda. How many ounces of soda are in a 2.5-liter bottle of soda? Solution: def solution():
+    #A 2-liter bottle of soda has 80 ounces
+    soda_2_liters = 80
+    #A 1.5-liter bottle of soda has 50 ounces
+    soda_1_5_liters = 50
+    #A 2.5-liter bottle of soda will have
+    soda_2_5_liters = (soda_2_liters * 2.5) / 2
+    #ounces of soda. The answer is
+    result = soda_2_5_liters
+    return result
+### Response: Question: 120 toy cars are to be shipped to a toy store. 10
+### Response: Question: A 10-pound box of oranges is 20% rotten. 100% of the rotten oranges and 90% of the good oranges are eaten. How many ounces of oranges are left?
+
+(1 pound = 16 ounces)
+
+(Assume a 10-pound box of oranges has 160 ounces)
+
+Solution:
+
+# define the total ounces in a 10-pound box of oranges
+total_ounces = 10 * 16
+
+# define the percentage of rotten oranges
+rotten_oranges_pct = 0.20
+
+# define the percentage of good oranges eaten
+good_oranges_eaten_pct = 0.90
+
+# calculate the ounces of rotten oranges
+rotten_oranges = total_ounces * rotten_oranges_pct
+
+# calculate the ounces of good oranges eaten
+good_oranges_eaten
+### Response: Question: 12000 people live in a small town. 2/3 of the people are vaccinated. 1/5 of the unvaccinated people are children. How many unvaccinated adults live in the town? Solution: def solution():
+    #Total population of the town
+    total_population = 12000
+    #2/3 of the population is vaccinated
+    vaccinated_population = 2/3 * total_population
+    #1/5 of the unvaccinated population are children
+    unvaccinated_population = total_population - vaccinated_population
+    unvaccinated_adults = unvaccinated_population - (1/5 * unvaccinated_population)
+    #The answer is
+    result = unvaccinated_adults
+    return result
+### Response: Question:
+### Response: Question: A total of 1200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 12000 B.C. was 14000 years ago. 2000 A.D. is 2000 years after 0 A.D. 0 A.D. is how many years after 12000 B.C.? Solution: def solution():
+    #1200
+### Response: Question: 10000 students were to be divided into 1000 equal-sized groups. 100 of the students were absent. How many students are in each group? Solution: def solution():
+    #10000 students were to be divided
+### Response: Question: The cafeteria at the mall sells 200 hamburgers per day. They raised the price of each hamburger by $1.5. If the new price of a hamburger is $4.5, how much more money does the cafeteria make per day? Solution: def solution():
+    #The cafeteria sells 200 hamburgers a day
+    hamburgers_sold_per_day = 200
+    #They raised the price by $1.5
+    price_increase = 1.5
+    #The new price is $4.5
+    new_price = 4.5
+    #The old price is
+    old_price = new_price - price_increase
+    #The answer is
+    result = hamburgers_sold_per_day * price_increase
+    return result
+### Response: Question: A soccer team has 21 players. 6 of the players are goalies, 8 of the players are defenders, and the rest are forwards. How many forwards are on the team? Solution: def solution():
+    #Total players on the team
+### Response: Question: The number 23 is a
+### Response: Question: A bakery is baking 32 pies. The bakery bakes the pies in 2 ovens.
+### Response: Question: 1000 people are in a theater. 10% of the men and 20% of the women in the theater left. 100 of the people who left were men. How many women left? Solution: def solution():
+    #1000 people were in the theater
+    people_in_theater = 1000
+    #10% of the men and 20% of the women left
+    men_left = 0.10 * people_in_theater
+    women_left = 0.20 * people_in_theater
+    #100 of the people who left were men
+    men_left_actual = 100
+    #So, 20% of the women left
+    women_left_actual = men_left_actual * 0.20
+    #The answer is
+    result = women_left_actual
+    return result
+### Response: Question: 4000 people were at a rally. 2000 of them were wearing hats. 500 of the people wearing hats were also wearing sunglasses. 200 of the people at the rally were wearing sunglasses but no hats. How many people at the rally were wearing neither hats nor sunglasses? Solution: def solution():
+    #Total people at the rally
+    total_people = 4000
+    #People wearing hats
+    people_hats = 2000
+    #People wearing sunglasses and hats
+    people_hats_sunglasses = 500
+    #People wearing sunglasses but no hats
+    people_sunglasses_no_hats = 200
+    #The answer is
+    result = total_people - people_hats - people_hats_sunglasses - people_sunglasses_no_hats
+    return result
+### Response: Question: A class has 120 students. 40 of them are in the 11th grade. 60 are in the 12th grade. 20 are in the 9th grade. How many students are in the 10th grade? Solution: def solution():
+    #The total number of students is 120
+    total_students = 120
+    #The number of 11th grade students is 40
+    eleventh_grade_students = 40
+    #The number of 12th grade students is 60
+    twelfth_grade_students = 60
+    #The number of 9th grade students is 20
+    ninth_grade_students = 20
+    #The number of 10th grade students is
+    tenth_grade_students = total_students - eleventh_grade_students - twelfth_grade_students - ninth_grade_students
+    return tenth_grade_students
+### Response: Question: 2000 people were at the 1992 Olympic Games. 2500 people were at the 1996 Olympic Games. 3000 people were at the 2000 Olympic Games. 2000 people were at the 2004 Olympic Games. 4000 people were at the 2008 Olympic Games. 3000 people were at the 2012 Olympic Games. 4000 people were at the 2016 Olympic Games. 3000 people were at the 2020 Olympic Games. How many people, on average, were at the Olympic Games from 1992 to 2020? Solution: def solution():
+    #The number of people at the Olympic Games each year
+    people_1992 = 2000
+    people_1996 = 2500
+    people_2000 = 3000
+    people_2004 = 2000
+    people_2008 = 400
+### Response: Question: A 15-gallon fish tank has 10 small fish. Each small fish needs 2.5 gallons of water to thrive. A 20-gallon tank has 5 large fish. Each large fish needs 4.5 gallons of water. How many more gallons of water does the 20-gallon tank with 5 large fish need to thrive than the 15-gallon tank with 10 small fish? Solution: def solution():
+    #A 15-gallon tank has 10 small fish
+    tank_1_size = 15
+    tank_1_fish = 10
+    tank_1_fish_size = 2.5
+    #A 20-gallon tank has 5 large fish
+    tank_2_size = 20
+    tank_2_fish = 5
+    tank_2_fish_size = 4.5
+    #The water needed for the small fish
+    tank_1_water = tank_1_fish * tank_1_fish_size
+### Response: Question: The soccer team is 22 players. 11 players are on the field at a time. 5 of the players on the field are forwards. 3 of the forwards are left-footed. How many forwards are right-footed? Solution: def solution():
+    #The soccer team has 22 players
+### Response: Question: 1180 people live in a small town. 500 of them are men. 200 of the men and 100 of the women are over 50. How many people in the town are under 50? Solution: def solution():
+    #Total population of the town
+    total_population = 1180
+    #Men in the town
+    men = 500
+    #Women in the town
+    women = total_population - men
+    #Men and women over 50
+    men_over_50 = 200
+    women_over_50 = 100
+    #Total people over 50
+    total_over_50 = men_over_50 + women_over_50
+    #People under 50
+    people_under_50 = total_population - total_over_50
+    return people_under_50
+### Response: Question: A cafeteria sells 100 hamburgers and 200 fries. 40% of the hamburgers and 15% of the fries are unsold. How many hamburgers and fries are sold? Solution: def solution():
+    #The cafeteria sells 100 hamburgers
+    hamburgers = 100
+    #200 fries
+    fries = 200
+    #40% of the hamburgers and 15% of the fries are unsold
+    hamburgers_sold = hamburgers * (1 - 0.40)
+    fries_sold = fries * (1 - 0.15)
+    #The answer is
+    result = hamburgers_sold + fries_sold
+    return result
+### Response: Question: The number of aardvarks is 20.5 times the number of baboons. The number of baboons is 2.5 times the number of chimpanzees. 
+
+How many chimpanzees are there? Solution: def solution():
+### Response: Question: 10000000000000 (one quadrillion) is a 1 with 15 zeros. 1000
+### Response: Question: A baker is baking pies. He bakes 10 pies on Monday, 20 on Tuesday, and 30 on Wednesday.
+### Response: Question: The Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: 2300 people are at a rally. 500 of them are wearing hats. 1200 of them are wearing sunglasses. 300 of them are wearing both hats and sunglasses. How many people at the rally are wearing neither hats nor sunglasses? Solution: def solution():
+    #2300 people are at a rally
+    total_people = 2300
+    #500 of them are wearing hats
+    hats = 500
+    #1200 of them are wearing sunglasses
+    sunglasses = 1200
+    #300 of them are wearing both hats and sunglasses
+    both = 300
+    #The answer is
+    result = total_people - hats - sunglasses + both
+    return result
+### Response: Question: A 4-pound (1.8144 kg) cake was
+### Response: Question: A 500-page book has 200 pages of text and the rest are pictures. 20% of the pictures are in color. How many pages
+### Response: Question: A 12-inch pizza is cut into 12 slices. 4 of the slices have mushrooms, 2 of the slices have pepperoni, and 2 of the slices have onions. 2 of the slices have mushrooms and onions, and 1 of the slices has pepperoni and onions. 1 of the slices has mushrooms, pepperoni, and onions. How many slices do not have any toppings? Solution: def solution():
+    #12-inch pizza is cut into 12 slices
+    slices = 12
+    #4 of the slices have mushrooms
+    mushrooms = 4
+    #2 of the slices have pepperoni
+    pepperoni = 2
+    #2 of the slices have onions
+    onions = 2
+    #2 of the slices have mushrooms and onions
+    mushrooms_onions = 2
+    #1 of the slices has pepperoni and onions
+    pepperoni_onions =
+### Response: Question: There are 2100 students at the University of South Carolina. 1000 of them are in the College of Arts and Sciences. 600 are in the School of Business. 250 are in the School of Engineering and 150 are in the School of Education. 100 are in the School of Music. How many students are in the remaining schools? Solution: def solution():
+    #Total students at the university
+    total_students = 2100
+    #Students in the College of Arts and Sciences
+    arts_and_sciences_students = 1000
+    #Students in the School of Business
+    business_students = 600
+    #Students in the School of Engineering
+    engineering_students = 250
+    #Students in the School of Education
+    education_students = 150
+    #Students in the School of Music
+    music_students = 100
+    #The answer is
+    result = total_students - (arts_and_sci
+### Response: Question: 1000000000 (1 billion) is 1000 times more than 1000000 (1 million). 1000000 (1 million) is 1000 times more than 1000 (1 thousand). 10
+### Response: Question: There are 500 students in a school. 200 of them are in the 10th grade, and 300 of them are in the 11th grade. How many students are in the 12th grade? Solution: def solution():
+    #There are 500 students in a
+### Response: Question: A bakery is baking 420 pies. 120 of the pies are for a Thanksgiving party, 180 of the pies are for a Christmas party, and the rest of the pies are for a New Year's Eve party. How many pies are for the New Year's Eve party? Solution: def solution():
+    #Total pies
+    total_pies = 420
+    #Pies for Thanksgiving
+    pies_thanksgiving = 120
+    #Pies for Christmas
+    pies_christmas = 180
+    #Pies for New Year's Eve
+    pies_new_years = total_pies - pies_thanksgiving - pies_christmas
+    return pies_new_years
+### Response: Question: 
+
+241_232_198_189_202_199_190_201_200
+
+- 
+
+240_231_197_188_201_198_191_200_199
+
+= ? Solution: def solution():
+    #The first number is a 10-digit number
+    first_number = 241232198189202199190201200
+    #The second number is a 10-digit number
+    second_number = 240231197188201198191200199
+    #The answer is
+    result = first_number - second_number
+    return result
+### Response: Question: 9876543210 is the second-largest 10-digit number. 0000
+### Response: Question: 101010 is a number in base 2
+### Response: Question: 4000 people are at a concert. 3000 of the at
+### Response: Question: A pizza has 16 slices. 3 of the slices are pepperoni, 6 are che
+### Response: Question: A truck is carrying 23000 oranges. 1000 oranges are in each crate. 3000 oranges are rotten. The rest of the oranges will be shipped to the market. How many oranges will be shipped to the market? Solution: def solution():
+    #Total oranges in the truck
+    oranges_total = 23000
+    #Oranges in each crate
+    oranges_per_crate = 1000
+    #Rotten oranges
+    oranges_rotten = 3000
+    #Oranges in the crates
+    crates = oranges_total // oranges_per_crate
+    #Oranges in each crate that are rotten
+    oranges_rotten_per_crate = oranges_rotten // crates
+    #The answer is
+    result = oranges_total - oranges_rotten_per_crate * oranges_per_crate
+    return result
+### Response: Question: 24000 people are to be evacuated from
+### Response: Question: 123456789 is a 9-digit number. 12345678 is a 8-digit number. 1234567 is a 7-digit number. 123456 is a 6-digit number. 12345 is a 5-digit number. 1234 is a 4-digit number. 123 is a 3-digit number. 12 is a 2-digit number. 1 is a 1-digit number. How many 1's are there in all of these numbers? Solution: def solution():
+    #123456789 has 1 1
+    ones_9_digit = 1
+    #12345678 has 2 1s
+    ones_8_digit = 2
+    #1234567 has 3 1s
+    ones_7_digit = 3
+    #123456 has 4 1s
+    ones_6_digit =
+### Response: Question: A 12-pack of soda cans is on sale for $10.00. 2 of the cans are caffeine-free. 3 of the cans are le
+### Response: Question: The Beverly Hills Bakery baked 200 loaves of bread on Monday. They baked 50 more loaves of bread on Tuesday and 40 more on Wednesday. How many loaves of bread did they bake by the end of Wednesday? Solution: def solution():
+    #The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday.
+    loaves_baked_monday = 200
+    #They baked 50 more loaves of bread on Tuesday.
+    loaves_baked_tuesday = 50
+    #They baked 40 more on Wednesday.
+    loaves_baked_wednesday = 40
+    #The answer is
+    result = loaves_baked_monday + loaves_baked_tuesday + loaves_baked_wednesday
+    return result
+### Response: Question: There are 325 crayons in a box. 123 of the crayons are red. 45 of the crayons are blue. 58 of the crayons are green. 26 of the crayons are pink. 18 of the crayons are purple. How many crayons are not red, blue, green, pink, or purple? Solution: def solution():
+    #There are 325 crayons in a box
+    crayons_total = 325
+    #123 of the crayons are red
+    crayons_red = 123
+    #45 of the crayons are blue
+    crayons_blue = 45
+    #58 of the crayons are green
+    crayons_green = 58
+    #26 of the crayons are pink
+    crayons_pink = 26
+    #18 of the crayons are purple
+    crayons_purple = 18
+    #The
+### Response: Question: 12000 people live in a small town. 2000 of them are children. 3000 of the adults are men. How many women are there? Solution: def solution():
+    #Total population
+    total_population = 12000
+    #Children
+    children =
+### Response: Question: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+### Response: Question: 
+
+A chocolate cake has 300 calories. 
+
+A strawberry cake has 200 calories. 
+
+A cheesecake has 400 calories. 
+
+If a chocolate cake and a strawberry cake have the same number of slices, and a cheesecake has 50% more slices, how many slices of cheesecake are there?
+
+Solution: def solution():
+    #A chocolate cake has 300 calories and a strawberry cake has 200 calories.
+    chocolate_cake_calories = 300
+    strawberry_cake_calories = 200
+    #If a chocolate cake and a strawberry cake have the same number of slices, 
+    #then the number of slices is the calories of the chocolate cake divided by the calories of the strawberry cake.
+    slices = chocolate_cake_calories / st
+### Response: Question: 1250000 people live in a city. 100000 of them are under 10 years
+### Response: Question:
+### Response: Question: A 20-pound sack of onions has 40 on
+### Response: Question: 12000 people in a
+### Response: Question: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+### Response: Question: 1200 toys were in a toy warehouse. 150 toys were shipped to a toy store in New York. 200 toys were shipped to a toy store in Los Angeles. 100 toys were shipped to a toy store in Chicago. 150 toys were shipped to a toy store in Miami. How many toys are now in the warehouse? Solution: def solution():
+    #There were 1200 toys in the warehouse
+    toys_initial = 1200
+    #They shipped 150 toys to New York, 200 to Los Angeles, 100 to Chicago, and 150 to Miami
+    toys_shipped_ny = 150
+    toys_shipped_la = 200
+    toys_shipped_chicago = 100
+    toys_shipped_miami = 150
+    #The answer is
+    result = toys_initial - toys_shipped
+### Response: Question: 12000 people live in a small town. 3000 of them are men. 500 of the men and 800 of the women are over 65. How many people in the town are under 65? Solution: def solution():
+    #Total people in the town
+    total_people = 12000
+    #Men in the town
+    men = 3000
+    #Women in the town
+    women = total_people - men
+    #Men and women over 65
+    men_over_65 = 500
+    women_over_65 = 800
+    #People over 65
+    people_over_65 = men_over_65 + women_over_65
+    #People under 65
+    people_under_65 = total_people - people_over_65
+    return people_under_65
+### Response: Question: A t-shirt design company is selling t-shirts for 25 dollars each. They are selling 25 t-shirts per day, and the t-shirts are in high demand. The company is making a 100% profit. How much does it cost the company to make a t-shirt? Solution: def solution():
+    #A t-shirt sells for 25 dollars
+    tshirt_selling_price = 25
+    #They are selling 25 t-shirts a day
+    tshirts_sold_per_day = 25
+    #The company is making a 100% profit
+    #So, the cost of the t-shirt is
+    tshirt_cost_price = tshirt_selling_price / 2
+    #The answer is
+    result = tshirt_cost_price
+    return result
+### Response: Question: 1200 people are at a soccer match. 1000 of them are wearing the home team's jersey. 150 of the away team's fans are wearing the away team's jersey. 50 of the people at the match are wearing a jersey of a different soccer team. How many people at the match are not wearing any soccer jerseys? Solution: def solution():
+    #Total people at the match
+    total_people = 1200
+    #Home team fans
+    home_team_fans = 1000
+    #Away team fans
+    away_team_fans = 150
+    #Other team fans
+    other_team_fans = 50
+    #Fans wearing no jersey
+    no_jersey_fans = total_people - home_team_fans - away_team_fans - other_team_fans
+    return no_jersey_fans
+### Response: Question: There were 22500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 24167 is the 4-digit number in which each of the four digits is used exactly once. 
+How many 5-digit numbers can be formed using the digits 1, 2, 3, 4 and 5, if a 5-digit number cannot have two 5's next to each other? Solution: def solution():
+    #There are 5! (5 factorial) ways to arrange 5 digits
+    #But if two 5's are next to each other, there are 4! (4 factorial) ways to arrange the remaining 4 digits
+    #So, the total number of 5-digit numbers is 5! - 4!
+    total_5_digit_numbers = 5 * 4 * 3 * 2 * 1 - 4 * 3 * 2 * 1
+    return total_5_digit_numbers
+##
+### Response: Question: 3/4 of the 100-member choir are sopranos. 2/5 of the sop
+### Response: Question: 2000 people are at a soccer game. 200
+### Response: Question: 2003 was the first year of the 21st century. 2
+### Response: Question: 1200 people are at a soccer game. 150 are on the soccer teams, and the rest are in the stands. 400 of the people in the stands are wearing the jersey of the home team, and 200 are wearing the jersey of the away team. How many people in the stands are not wearing a soccer jersey? Solution: def solution():
+    #Total number of people at the soccer game
+    total_people = 1200
+    #Number of people on the soccer teams
+    soccer_teams = 150
+    #Number of people in the stands
+    people_in_stands = total_people - soccer_teams
+    #Number of people in the stands wearing the home team jersey
+    home_team_jersey = 400
+    #Number of people in the stands wearing the away team jersey
+    away_team_jersey = 200
+    #Number of people in the stands not wearing a soccer jersey
+    no_
+### Response: Question: 1000 people are at the mall. 250 more people come
+### Response: Question: 3200 pencils are
+### Response: Question: 2500000000 pennies are in 500000000 jars. How many pennies are in 2500000000 jars? Solution: def solution():
+    #2500000000 pennies are in 500000
+### Response: Question: A baker is baking pies. He bakes 15 pies on Monday, 18 pies on Tuesday, 20 pies on Wednesday, and 17 pies on Thursday. How many pies did he bake in the four days? Solution: def solution():
+    #The baker baked 15 pies on Monday
+    pies_baked_monday = 15
+    #18 pies on Tuesday
+    pies_baked_tuesday = 18
+    #20 pies on Wednesday
+    pies_baked_wednesday = 20
+    #and 17 pies on Thursday
+    pies_baked_thursday = 17
+    #The answer is
+    result = pies_baked_monday + pies_baked_tuesday + pies_baked_wednesday + pies_baked_thursday
+    return result
+### Response: Question: There are 300 students in a school. 100 of them are in the 6th grade. 20% of the 6th graders are on the soccer team. How many 6th graders are not on the soccer team? Solution: def solution():
+    #There are 300 students
+    total_students = 300
+    #100 of them are in the 6th grade
+    sixth_graders = 100
+    #20% of the 6th graders are on the soccer team
+    soccer_team_percentage = 0.20
+    #The number of 6th graders on the soccer team is
+    soccer_team_members = sixth_graders * soccer_team_percentage
+    #The number of 6th graders not on the soccer team is
+    non_soccer_team_members = sixth_graders - soccer_team_members
+    #The answer is
+    result = non_soccer_team_members
+    return result
+### Response: Question: 2400 pineapples are shipped to the US from the Philippines. 1/12 of the pineapples are rotten. 1/6 of the pineapples are underripe. 1/4 of the pineapples are overripe. 1/3 of the pineapples are perfect. How many pineapples are perfect? Solution: def solution():
+    #Total pineapples
+    total_pineapples = 2400
+    #Rotten pineapples
+    rotten_pineapples = total_pineapples / 12
+    #Underripe pineapples
+    underripe_pineapples = total_pineapples / 6
+    #Overripe pineapples
+    overripe_pineapples = total_pineapples / 4
+    #Perfect pineapples
+    perfect_pineapples = total_pineapples / 3
+    #The answer is
+    result = perfect_pineapples
+    return result
+### Response: Question: 2300 people are in a stadium. 3000 more people are in a line outside the stadium. 2000 of the people in line are let in, but 500 of the people in the stadium leave. How many people are there now? Solution: def solution():
+    #There were 2300 people in the stadium
+    people_in_stadium = 2300
+    #3000 more people were in a line outside the stadium
+    people_in_line = 3000
+    #2000 of the people in line are let in
+    people_let_in = 2000
+    #500 of the people in the stadium leave
+    people_leave = 500
+    #The answer is
+    result = people_in_stadium + people_in_line - people_let_in - people_leave
+    return result
+##
+### Response: Question: The number of students in a class is 10. 20% of the students are in the 5th grade. 50% of the 5th-grade students are in the 6th grade. 30% of the 6th-grade students are in the 7th grade. How many 7th-grade students are in the class? Solution: def solution():
+    #Total number of students in the class
+    total_students = 10
+    #20% of the students are in the 5th grade
+    fifth_grade_students = 0.2 * total_students
+    #50% of the 5th-grade students are in the 6th grade
+    sixth_grade_students = 0.5 * fifth_grade_students
+    #30% of the 6th-grade students are in the 7th grade
+    seventh_grade_students = 0.3 * sixth_grade_students
+    #The answer is
+    result = int(seventh_grade_students)
+    return result
+### Response: Question: 1200 toothpicks are in 120 packs. 30 toothpicks are in each pack. 1000 toothpicks are in 1
+### Response: Question: A 10-
+### Response: Question: A pond has 5000 tadpoles. 1000 tadpoles are eaten by a snake. 2000 tadpoles mature into frogs. 500 tadpoles are eaten by a toad. 3000 tadpoles are eaten by a fish. How many tadpoles are left? Solution: def solution():
+    #There were 5000 tadpoles
+    tadpoles_initial = 5000
+    #1000 tadpoles were eaten by a snake
+    tadpoles_eaten_by_snake = 1000
+    #2000 tadpoles matured into frogs
+    tadpoles_matured = 2000
+    #500 tadpoles were eaten by a toad
+    tadpoles_eaten_by_toad = 500
+    #3000 tadpoles were eaten by a fish
+    tad
+### Response: Question: 33.33% of the 1111 students at the school are in the orchestra. 66.66% of the orchestra students are in the choir. 11.11% of the choir students are in the band. How
+### Response: Question: A 5-pound (2.27 kilogram) sack of flour is 3/4 as heavy as a 12-pound (5.44 kilogram) sack of sugar.  How many ounces (1 ounce = 1/16 pound) is the sack of flour? Solution: def solution():
+    #1 pound is 16 ounces
+    pound_to_ounce = 16
+    #A 5-pound sack of flour is 3/4 as heavy as a 12-pound sack of sugar
+    flour_pounds = 5
+    sugar_pounds = 12
+    flour_to_sugar_ratio = 3/4
+    #So, 1 pound of flour is
+    flour_to_sugar_pound_ratio = flour_to_sugar_ratio / sugar_pounds
+    #The sack of flour is
+    flour_sack_pounds = flour_pounds *
+### Response: Question: The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: 40000 people in a city are vaccinated. 100000 people in the city are not vaccinated. 15% of the unvaccinated people are children. How many unvaccinated adults are there in the city? Solution: def solution():
+    #Total people in the city
+    total_people = 40000 + 100000
+    #15% of the unvaccinated people are children
+    unvaccinated_children = 100000 * 0.15
+    #The rest are adults
+    unvaccinated_adults = 100000 - unvaccinated_children
+    #The answer is
+    result = unvaccinated_adults
+    return result
+### Response: Question: 12121212 is a 7-digit number. 1212121212 is a 9-digit number. How many 8-digit numbers are there that can be formed by interlacing the 7-digit number and the 9-digit number? Solution: def solution():
+    #12121212 is a 7-digit number and 1212121212 is a 9-digit number
+    #We are going to interlace these two numbers to form 8-digit numbers
+    #The first 8-digit number is 12121212
+    #The second 8-digit number is 121212121
+    #The third 8-digit number is 1212121212
+    #The fourth 8-digit number is 12121212121
+    #The fifth 8-digit number is 121212121212
+    #The sixth 8-digit number
+### Response: Question: A bakery is baking 120 loaves of bread. 20 of the loaves are for the grocery store. 30 of the loaves are for the bakery's own shelves. 20 of the loaves are for the farmer',s market. 50 of the loaves are for a catering company. How many loaves of bread are left? Solution: def solution():
+    #Total loaves of bread
+    total_loaves = 120
+    #Loaves for the grocery store
+    loaves_grocery = 20
+    #Loaves for the bakery's own shelves
+    loaves_bakery = 30
+    #Loaves for the farmer's market
+    loaves_farmer = 20
+    #Loaves for the catering company
+    loaves_catering = 50
+    #The answer is
+    result = total_loaves - loaves_grocery - loaves_bakery - loaves_farmer -
+### Response: Question: A pizza has 8 slices.  Dale ate 3 slices, and his friend ate 2 slices.  How many slices are left? Solution: def solution():
+    #The pizza had 8 slices
+    pizza_slices = 8
+    #Dale ate 3 slices
+### Response: Question: A a pizzeria, a small pizza has 6 slices, a medium pizza has 8 slices, and a large pizza has 12 slices. 
+
+How many slices of pizza will you get if you order 2 small, 2 medium and 1 large pizza? Solution: def solution():
+    #A small pizza has 6 slices
+    small_pizza_slices = 6
+    #A medium pizza has 8 slices
+    medium_pizza_slices = 8
+    #A large pizza has 12 slices
+    large_pizza_slices = 12
+    #You ordered 2 small, 2 medium and 1 large pizza
+    pizzas_ordered = 2 * small_pizza_slices + 2 * medium_pizza_slices + large_pizza_slices
+    #The answer is
+    result = pizzas_ordered
+    return result
+### Response: Question: A pizzeria is selling pizza slices. They have 120 slices in the morning. They sell 18 slices in the morning, 36 slices in the afternoon, and 18 slices in the evening. How many slices of pizza are left? Solution: def solution():
+    #The pizzeria started with 120 slices
+    pizza_slices_initial = 120
+    #They sold 18 in the morning, 36 in the afternoon, and 18 in the evening
+    pizza_slices_sold_morning = 18
+    pizza_slices_sold_afternoon = 36
+    pizza_slices_sold_evening = 18
+    #The answer is
+    result = pizza_slices_initial - pizza_slices_sold_morning - pizza_slices_sold_afternoon - pizza_slices_sold_evening
+    return result
+### Response: Question: 3210 is a four-digit number.  How many of the four digits are 1's? Solution: def solution():
+    #3210 is a four-digit number
+    number = 3210
+    #The number of 1's in the number is
+    num_1s = number.count(1)
+    return num
+### Response: Question: 1200 toothpicks are in 120 packs. 40 toothpicks are in each pack. 10
+### Response: Question: A baker bakes 100 loaves of bread on Monday. He bakes 50 more loaves of bread on Tuesday and 200 more loaves of bread on Wednesday. How many loaves of bread does the baker have at the end of Wednesday? Solution: def solution():
+    #The baker baked 100 loaves on Monday
+    loaves_baked_monday = 100
+    #50 more loaves on Tuesday
+    loaves_baked_tuesday = 50
+    #200 more loaves on Wednesday
+    loaves_baked_wednesday = 200
+    #The answer is
+    result = loaves_baked_monday + loaves_baked_tuesday + loaves_baked_wednesday
+    return result
+### Response: Question: 50000 people live in a big city. 20000 more people move in. 30000 people move out. How many people are now in the city? Solution: def
+### Response: Question: A baker baked 32
+### Response: Question: A pizzeria sells 12-slice pizzas. 50 pizzas are ordered by 300 pound linebackers. 20 pizzas are ordered by 220 pound linemen. 10 pizzas are ordered by 175 pound running backs. 30 pizzas are ordered by 150 pound defensive backs. How many slices of pizza are ordered? Solution: def solution():
+    #A pizzeria sells 12-slice pizzas
+    pizza_slices = 12
+    #50 pizzas are ordered by 300 pound linebackers
+    pizzas_linebackers = 50
+    #20 pizzas are ordered by 220 pound linemen
+    pizzas_linemen = 20
+    #10 pizzas are ordered by 175 pound running backs
+    pizzas_running_backs = 10
+    #30 pizzas are ordered by 15
+
+### Response: Question: 1234567890 is the number of oranges in a pile. 12345678 is the number of oranges in a second pile. 123456 is the number of oranges in a third pile. 1234 is the number of oranges in a fourth pile. 123 is the number of oranges in a fifth pile. 12 is the number of oranges in a sixth pile. 1 is the number of oranges in a seventh pile. How many oranges are in the piles in total? Solution: def solution():
+    #The numbers of oranges in each pile
+    oranges_pile1 = 1234567890
+    oranges_pile2 = 12345678
+    oranges_pile3 = 123456
+    oranges_pile4 = 1234
+    oranges_pile5 = 123
+    oranges_pile6 = 12
+### Response: Question: 
+
+Solution: def solution
+### Response: Question: 1260 toys were donated to a children's hospital. 510 of the toys were given to the 4-year-old patients. 280 of the toys were given to the 6-year-old patients. 150 of the toys were given to the 8-year-old patients. 120 of the toys were given to the 10-year-old patients. How many toys were left over? Solution: def solution():
+    #Total toys donated
+    total_toys = 1260
+    #Toys given to 4-year-olds
+    toys_4_year_olds = 510
+    #Toys given to 6-year-olds
+    toys_6_year_olds = 280
+    #Toys given to 8-year-olds
+    toys_8_year_olds = 150
+    #Toys given to 10-year-olds
+    toys_10_year_olds = 120
+### Response: Question: If 12 bags of oranges weigh 24 pounds, how many pounds does 15 bags of oranges weigh? Solution: def solution():
+    #12 bags of oranges weigh 24 pounds
+    bags_or
+### Response: Question: A baker is baking pies. He bakes 10 pies in the
+### Response: Question: 1200 people are at a soccer game. 3/4 of the attendees are men. 1
+### Response: Question: A baker is baking a cake. 20 of the cake's ingredients are in a can. He has 5 cans. If he bakes 8 cakes, how many cans of ingredients does he have left? Solution: def solution():
+    #The baker has 20 ingredients per can
+    ingredients_per_can = 20
+    #He has 5 cans
+    cans_initial = 5
+    #He bakes 8 cakes
+    cakes_baked = 8
+    #Each cake uses 20 ingredients
+    ingredients_per_cake = 20
+    #8 cakes use
+    ingredients_used = cakes_baked * ingredients_per_cake
+    #The answer is
+    result = cans_initial - ingredients_used
+    return result
+### Response: Question: 1234567890 is the largest 10-digit
+### Response: Question: 1000000000000 (one trillion) is a
+### Response: Question: There are 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question:
+### Response: Question: 3/4 of the 100-seat auditorium is occupied. 1/4 of the attendees are men. 1/2 of the men are wearing hats
+### Response: Question: 81 is the 4th power of what number? Solution: def solution():
+    #81 is 4th power of a number
+    #4th power of a number is 81
+    #To find the number, we take the 4th root of 81
+    number = 81 ** (1/4)
+    return number
+### Response: Question: A 24-pack of toilet paper has 24 rolls. 1/4 of the rolls are 1-ply, 1/2 of the rolls are 2-ply, and the rest are 3-ply. How many 3-ply rolls are in the 24-pack? Solution: def solution():
+    #Total rolls in a 24-pack
+    total_rolls = 24
+    #1/4 of the rolls are 1-ply
+    one_ply_rolls = total_rolls / 4
+    #1/2 of the rolls are 2-ply
+    two_ply_rolls = total_rolls / 2
+    #The rest are 3-ply
+    three_ply_rolls = total_rolls - one_ply_rolls - two_ply_rolls
+    #The answer is
+    result = three_ply_rolls
+    return result
+### Response: Question: 250 soccer balls are in 50 bags. 10 of the bags are red. 20 of the bags are blue. 20 of the bags are green. The rest of the bags are pink. How many soccer balls are in the pink b
+### Response: Question: The number of 5-star reviews on a product page is 100. The number of 4-star reviews is 50. The number of 3-star reviews is 20. The number of 2-star reviews is 10. The number of 1-star reviews is 5. How many 5-star and 4-star reviews are there in total? Solution: def solution():
+    #The number of 5-star reviews
+    five_star_reviews = 100
+    #The number of 4-star reviews
+    four_star_reviews = 50
+    #The number of 3-star reviews
+    three_star_reviews = 20
+    #The number of 2-star reviews
+    two_star_reviews = 10
+    #The number of 1-star reviews
+    one_star_reviews = 5
+    #The answer is
+    result = five_star_reviews + four_star_reviews
+    return result
+### Response: Question: There are 1141 babies in the orphanage. 324 of them are 3 years old. 149 of them are 4 years old. 218 of them are 5 years old. 123 of them are 6 years old. 127 of them are 7 years old. How many of the babies are 8 years old or older? Solution: def solution():
+    #Total babies
+    total_babies = 1141
+    #Babies of different ages
+    babies_3 = 324
+    babies_4 = 149
+    babies_5 = 218
+    babies_6 = 123
+    babies_7 = 127
+    #Babies 8 years old or older is
+    babies_8_and_older = total_babies - babies_3 - babies_4 - babies_5 - babies_6 - babies_7
+    return
+### Response: Question: A pound of grapes has 200 g
+### Response: Question: A 12-sided die has 12 sides, each with a number 1-12.  A 20-sided die has 20 sides, each with a number 1-20.  If the
+### Response: Question: 12345 is a 5-digit number. 
+How many 3-digit numbers can be formed from the 5 digits in 12345
+### Response: Question: A sack of 200 oranges weighs 100 pounds. A sack of 150 tangerines weighs 75 pounds. 
+How many more pounds does a pound of oranges weigh than a pound of tangerines? Solution: def solution():
+    #A sack of 200 oranges weighs 100 pounds
+    oranges_sack_weight = 100
+    oranges_sack_content = 200
+    #A sack of 150 tangerines weighs 75 pounds
+    tangerines_sack_weight = 75
+    tangerines_sack_content = 150
+    #A pound of oranges weighs
+    oranges_pound_weight = oranges_sack_weight / oranges_sack_content
+    #A pound of tangerines weighs
+    tangerines_pound_weight = tangerines_sack_weight / tangerines_sack_content
+    #The
+### Response: Question: A dad and his 10-year-old son are at a toy store. The dad has 100 toy store coins. The toy store coins are used to buy toys. A toy car costs 20 toy store coins. A toy truck costs 30 toy store coins. The dad and his son buy 5 toy cars and 3 toy trucks. How many toy store coins do they have left? Solution: def solution():
+    #The dad has 100 toy store coins
+    toy_coins_dad = 100
+    #A toy car costs 20 toy store coins
+    toy_car_cost = 20
+    #A toy truck costs 30 toy store coins
+    toy_truck_cost = 30
+    #They buy 5 toy cars and 3 toy trucks
+    toy_cars_bought = 5
+    toy_trucks_bought = 3
+### Response: Question: A bakery made 140 pies. They sold 40 pies on Monday, 20 pies on Tuesday, and 30 pies on Wednesday. How many pies are left? Solution: def solution():
+    #The bakery started with 140 pies
+    pies_initial = 140
+    #They sold 40 on Monday, 20 on Tuesday, and 30 on Wednesday
+    pies_sold_monday = 40
+    pies_sold_tuesday = 20
+    pies_sold_wednesday = 30
+    #The answer is
+    result = pies_initial - pies_sold_monday - pies_sold_tuesday - pies_sold_wednesday
+    return result
+### Response: Question: The first-grade class has 20 students. The second-grade class has 50% more students. The third-grade class has 200% more students than the second-grade class. How many students are in the third-grade class? Solution: def solution():
+    #The first-grade class has 20 students
+    first_grade_students = 20
+    #The second-grade class has 50% more students
+    second_grade_students = first_grade_students + (0.5 * first_grade_students)
+    #The third-grade class has 200% more students than the second-grade class
+    third_grade_students = second_grade_students + (2 * second_grade_students)
+    #The answer is
+    result = third_grade_students
+    return result
+### Response: Question: A 12-sided die has 12 equal sides, numbered 1 to 12.  What is the probability, expressed as a common fraction, of rolling a 7? Solution: def solution():
+    #The die has 12 equal sides, numbered 1
+### Response: Question: 12000 people live in a small town. 3000 of them are men. 1500 of the men and 2000 of the women are of voting age. How many people in the small town are of voting age? Solution: def solution():
+    #12000 people live in a small town
+    total_people
+### Response: Question: A baker is baking 210 pies. He bakes 40 pies on Monday, 50 pies on Tuesday, and 60 pies on Wednesday. How many pies does he have left to bake? Solution: def solution():
+    #The baker is baking 210 pies
+    pies_total = 210
+    #He bakes 40 pies on Monday
+    pies_baked_monday = 40
+    #50 pies on Tuesday
+    pies_baked_tuesday = 50
+    #and 60 pies on Wednesday
+    pies_baked_wednesday = 60
+    #The answer is
+    result = pies_total - pies_baked_monday - pies_baked_tuesday - pies_baked_wednesday
+    return result
+### Response: Question: 1500 people are at a rally. 1000 of them are men. 30% of the men and 50% of the women are wearing sunglasses. How many people at the rally are wearing sunglasses? Solution: def solution():
+    #Total number of people
+    total_people = 1500
+    #Number of men
+    men = 1000
+    #Number of women
+    women = total_people - men
+    #Percentage of men wearing sunglasses
+    men_sunglasses_percent = 30
+    #Percentage of women wearing sunglasses
+    women_sunglasses_percent = 50
+    #Number of men wearing sunglasses
+    men_sunglasses = men * (men_sunglasses_percent / 100)
+    #Number of women wearing sunglasses
+    women_sunglasses = women * (women_sunglasses_percent / 100)
+    #Total
+### Response: Question: A pizza parlor sells pizzas in 3 sizes. A small pizza has 6 slices, a medium pizza has 8 slices, and a large pizza has 10 slices. How many slices of pizza will you get if you order 2 small, 3 medium, and 1 large pizza? Solution: def solution():
+    #A small pizza has 6 slices
+    small_pizza_slices = 6
+    #A medium pizza has 8 slices
+    medium_pizza_slices = 8
+    #A large pizza has 10 slices
+    large_pizza_slices = 10
+    #You ordered 2 small, 3 medium, and 1 large pizza
+    small_pizzas_ordered = 2
+    medium_pizzas_ordered = 3
+    large_pizzas_ordered = 1
+    #The answer is
+    result = small_pizza_slices * small_pizzas_ordered + medium_pizza_slices * medium_pizzas
+### Response: Question: A pizza is cut into 12 slices. 1/3 of the slices are given to the first person, 1/4 of the slices are given to the second person, and 1/6 of the slices are given to the third person. How many slices of pizza are left? Solution: def solution():
+    #A pizza is cut into 12 slices
+    pizza_slices = 12
+    #1/3 of the slices are given to the first person
+    slices_first_person = pizza_slices / 3
+    #1/4 of the slices are given to the second person
+    slices_second_person = pizza_slices / 4
+    #1/6 of the slices are given to the third person
+    slices_third_person = pizza_slices / 6
+    #The answer is
+    result = pizza_slices - slices_first_person - slices_second_person - slices_third_person
+    return result
+### Response: Question: 12234567890 is a 10-digit number. 
+How many 10-digit numbers are there? 
+(Hint: the 10-digit number 12234567890 is the 100,000,000,000th 10-digit number. 
+Why? 
+Because it is 100,000,000,000 10-digit numbers after 0000000000, which is the first 10-digit number.)
+
+Solution: def solution():
+    #100,000,000,000 is the 10-digit number 12234567890
+    #0000000000 is the first 10-digit number
+    #So, 100,000,000,000 - 1 = 99,999,999,999
+### Response: Question: A baker baked 120 cakes. He sliced each cake into 8 slices. 40 cakes were sold on the first day. 20 cakes were sold on the second day. 20 cakes were sold on the third day. How many slices of cake are left? Solution: def solution():
+    #The baker baked 120 cakes
+    cakes_baked = 120
+    #He sliced each cake into 8 slices
+    slices_per_cake = 8
+    #40 cakes were sold on the first day
+    cakes_sold_first_day = 40
+    #20 cakes were sold on the second day
+    cakes_sold_second_day = 20
+    #20 cakes were sold on the third day
+    cakes_sold_third_day = 20
+    #The answer is
+    result = cakes_baked * slices_per_cake - (cakes_sold_first_day +
+### Response: Question: A dad is buying a 12-pack of soda and a 24-pack of water. 2 of his kids each want a 6-pack of soda. 1 of his kids wants a 6-pack of water. 1 of his kids does not want any. How many cans of soda and water does dad have to buy for his kids? Solution: def solution():
+    #Dad is buying 12 cans of soda and 24 cans of water
+    soda_dad = 12
+    water_dad = 24
+    #2 of his kids each want a 6-pack of soda
+    soda_kids = 2 * 6
+    #1 of his kids wants a 6-pack of water
+    water_kids = 6
+    #The answer is
+    result = soda_dad + water_dad - soda_kids - water_kids
+    return result
+### Response: Question: The 10-piece nugget at KFC is 2000 calories.  The
+### Response: Question: A pond has 60 tadpoles. 20 tad
+### Response: Question: A bakery bakes 120 baguettes, 70 croissants, and 200 pains au chocolat. 2/3 of the baguettes, 1/2 of the croissants, and 3/4 of the pains au chocolat are sold. How many baked goods are left? Solution: def solution():
+    #The bakery baked 120 baguettes, 70 croissants, and 200 pains au chocolat
+    baguettes_baked = 120
+    croissants_baked = 70
+    pains_au_chocolat_baked = 200
+    #2/3 of the baguettes, 1/2 of the croissants, and 3/4 of the pains au chocolat are sold
+    baguettes_sold = (2/3) * baguettes_baked
+    croissants_sold = (1/2) * croissants_baked
+    pains
+### Response: Question: 50000000000000000000000000000000000
+### Response: Question: 2222222222222222222222222222222222222222222
+### Response: Question: 12 babies are in the neonatal unit. 5 of them are premature. 3 of the premature babies are in the incubator. 2 of the babies in the incubator are also on a ventilator. How many babies in the neonatal unit are on a ventilator and are not premature? Solution: def solution():
+    #Total babies
+    total_babies = 12
+    #Premature babies
+    premature_babies = 5
+    #Premature babies in incubator
+    premature_babies_incubator = 3
+    #Babies in incubator and on ventilator
+    babies_incubator_ventilator = 2
+    #Babies on ventilator and not premature
+    babies_ventilator_not_premature = babies_incubator_ventilator - premature_babies_incubator
+    #The answer is
+    result = babies
+### Response: Question: 
+
+Solution: def solution():
+    #The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?
+    loaves_baked = 200
+    loaves_sold
+### Response: Question: A 2-pound loaf of bread was sliced into 16 slices. 5 slices were given to a homeless person. 1/4 of the slices were given to a friend. 2 slices were eaten at breakfast. 1/2 of the slices were eaten at lunch. How many slices are left? Solution: def solution():
+    #The loaf of bread was sliced into 16 slices
+    slices_total = 16
+    #5 slices were given to a homeless person
+    slices_given_homeless = 5
+    #1/4 of the slices were given to a friend
+    slices_given_friend = slices_total / 4
+    #2 slices were eaten at breakfast
+    slices_eaten_breakfast = 2
+    #1/2 of the slices were eaten at lunch
+    slices_eaten_lunch = slices_total / 2
+    #The answer is
+    result = slices_total - slices_given
+### Response: Question: 1000000 people live in a large town. 200000 more people moved in. 50000 people left. How many people are now in the town? Solution: def solution():
+    #Initial
+### Response: Question:
+### Response: Question: 1200 people are at
+### Response: Question: 10
+### Response: Question: The baker at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: 250 soccer fans were at the stadium. 150 of them were wearing the home team's jersey. 50 of them were wearing the away team's jersey. 20 of them were wearing jerseys for other teams. How many soccer fans were at the stadium not wearing a jer
+### Response: Question: 30% of the 1000 students at the school are in the band. 200 of the band members are in the percussion section. How many of the band members are not in the percussion section? Solution
+### Response: Question: 25000 strawberries are in 500 baskets. 120 of the baskets are to be shipped to a supermarket. 2/3 of the remaining baskets are to be shipped to a farmers' market. How many baskets of strawberries are to be shipped to the farmers' market? Solution: def solution():
+    #25000 strawberries are in 500 baskets
+    strawberries_total = 25000
+    baskets_total = 500
+    #120 of the baskets are to be shipped to a supermarket
+    baskets_supermarket = 120
+    #2/3 of the remaining baskets are to be shipped to a farmers' market
+    baskets_farmers_market = (baskets_total - baskets_supermarket) * 2 / 3
+    return baskets_farmers_market
+### Response: Question: 2000 people are at a soccer game. 250 of them are from the visit
+### Response: Question: 12345 is a 5-digit number. 23456 is a 5-digit number. 34567 is a 5-digit number. 45678 is a 5-digit number. 56789 is a 5-digit number.
+
+These 5 numbers have 5, 4, 3, 2, and 1 as their first digits, respectively.
+
+How many 5-digit numbers have 2, 3, 4, 5, and 6 as their first digits, respectively? Solution: def solution():
+    #The 5-digit numbers are of the form
+    #2????, 3????, 4????, 5????, 6????
+    #where ??? is any digit from 0 to 9
+    #There are 10 choices for each digit
+    #So, the total number of 5-digit numbers
+    #is 10*10*10*10*10
+    result = 10**5
+    return
+### Response: Question: 120000 people are at a rally.
+### Response: Question: 1234567890 is the longest number with all the digits from 0 to 9 in any order. 123456789 is the next longest. 12345678 is the third longest. 1234567 is the fourth longest. 123456 is the fifth longest. 12345 is the sixth longest. 1234 is the seventh longest. 123 is the eighth longest. 12 is the ninth longest. 1 is the tenth longest. What is the sum of the lengths of the 10 longest numbers with all the digits from 0 to 9 in any order? Solution: def solution():
+    #1234567890 is the longest number with all the digits from 0 to 9 in any order.
+    longest_number = 1234567890
+    #123456789 is the next longest.
+    next_longest_number = 12345678
+### Response: Question: A pizzeria has 125 pizzas. They sell 15 pizzas in the morning, 28 pizzas in the afternoon, and 12 pizzas in the evening. How many pizzas are left? Solution: def solution():
+    #The pizzeria started with 125 pizzas
+    pizzas_initial = 125
+    #They sold 15 pizzas in the morning
+    pizzas_sold_morning = 15
+    #28 pizzas in the afternoon
+    pizzas_sold_afternoon = 28
+    #And 12 pizzas in the evening
+    pizzas_sold_evening = 12
+    #The answer is
+    result = pizzas_initial - pizzas_sold_morning - pizzas_sold_afternoon - pizzas_sold_evening
+    return result
+### Response: Question: 25000 people are to be vaccinated in a 5-day period. 10000 people are vaccinated on the first day, 7000 on the second day, 4000 on the third day, and 3000 on the fourth day. How many people need to be vaccinated on the fifth day to vaccinate 25000 people in the 5-day period? Solution: def solution():
+    #25000 people are to be vaccinated in 5 days
+    total_people = 25000
+    #10000 people are vaccinated on the first day
+    vaccinated_day1 = 10000
+    #7000 on the second day
+    vaccinated_day2 = 7000
+    #4000 on the third day
+    vaccinated_day3 = 4000
+    #3000 on the fourth day
+    vaccinated_day4 =
+### Response: Question: 45000 people live in a city. 1/10 of the population are in the 0-10 age bracket. 2/10 of the population are in the 11-20 age bracket. 3/10 of the population are in the 21-30 age bracket. 4/10 of the population are in the 31-40 age bracket. 5/10 of the population are in the 41-50 age bracket. 6/10 of the population are in the 51-60 age bracket. 7/10 of the population are in the 61-70 age bracket. 8/10 of the population are in the 71-80 age bracket. 9/10 of the population are in the 81-90 age bracket. 10/10 of the population are in the 91-100 age bracket. How many people are in the 21-30 age bracket? Solution: def solution():
+    #Total
+### Response: Question: A 24-bottle case of water weighs 52 pounds. How much does 15 cases of water weigh? Solution
+### Response: Question: A 25-gallon fish tank has 15 fish. Each fish needs 1.5 gallons of water. How many more fish can the tank support? Solution: def solution():
+    #A 25-gallon fish tank has 15 fish.
+    #Each fish needs 1.5 gallons of water.
+    #The tank is 25 gallons and the fish are using 15*1.5=22.5 gallons.
+    #That leaves 25-22.5=2.5 gallons for more fish.
+    #Each fish needs 1.5 gallons, so 2.5/1.5=1.666667 more fish can be supported.
+    #The answer is
+    result = (25 - (15 * 1.5)) / 1.5
+    return result
+### Response: Question: The bakery has 300 buns. The baker bakes 100 more buns on Friday, 200 more on Saturday, and 300 more on Sunday. How many buns does the bakery have now? Solution: def solution():
+    #The bakery started with 300 buns
+    buns_initial = 300
+    #The baker baked 100 more on Friday, 200 more on Saturday, and 300 more on Sunday
+    buns_baked_friday = 100
+    buns_baked_saturday = 200
+    buns_baked_sunday = 300
+    #The answer is
+    result = buns_initial + buns_baked_friday + buns_baked_saturday + buns_baked_sunday
+    return result
+### Response: Question: A candy store sells 23000 pieces of candy per month. 8000 of these are lollipops. 6000 of these are gummy bears. 4000 of these are mints. The rest are toffees. How many toffees does the candy store sell per month? Solution: def solution():
+    #Total number of candies
+    total_candies = 23000
+    #Number of lollipops
+    lollipops = 8000
+    #Number of gummy bears
+    gummy_bears = 6000
+    #Number of mints
+    mints = 4000
+    #The answer is
+    result = total_candies - lollipops - gummy_bears - mints
+    return result
+### Response: Question: 32000 people in a town. 4000 people left the town. 2000 more people moved to the town. How many people
+### Response: Question: 12000 people live in a town. 2500 of them are children. 1/4 of the children and 1/
+### Response: Question: A 20-gallon fish tank has 100 small fish. 20 of the fish are moved to a 10-gallon tank. 30 more fish are added to the 20-gallon tank. How many fish are in the 20-gallon tank now? Solution: def solution():
+    #20-gallon fish tank has 100 small fish
+    fish_20_gallon = 100
+    #20 of the fish are moved to a 10-gallon tank
+    fish_moved = 20
+    #30 more fish are added to the 20-gallon tank
+    fish_added = 30
+    #The answer is
+    result = fish_20_gallon - fish_moved + fish_added
+    return result
+### Response: Question: 400
+### Response: Question: 2000 people are in a theater. 1000 of them are wearing a blue shirt. 800 of them are wearing a red shirt. 200 of them are wearing a shirt that is both blue and red. How many people are wearing a shirt that is either blue or red, but not both? Solution: def solution():
+    #Total number of people in the theater
+    total_people = 2000
+    #Number of people wearing a blue shirt
+    blue_shirt = 1000
+    #Number of people wearing a red shirt
+    red_shirt = 800
+    #Number of people wearing a shirt that is both blue and red
+    both_shirt = 200
+    #Number of people wearing a shirt that is either blue or red, but not both
+    either_shirt = total_people - (blue_shirt + red_shirt - both_shirt)
+    return either_shirt
+### Response: Question: 1000 people are at
+### Response: Question: A 3-pound
+### Response: Question: 1234567890 is the 10-digit number. 123456
+### Response: Question:
+### Response: Question: A pizzeria sells 10-inch pizzas. 10-inch pizzas are 100 square inches in area. 14-inch pizzas are 154 square inches in area. 16-inch pizzas are 201 square inches in area.
+
+If a 10-inch pizza is $10, a 14-inch pizza is $12, and a 16-inch pizza is $15, how many square inches of pizza can you get for $100?
+
+(You can buy as many pizzas as you want, but you have to buy at least one.
+
+### Solution: def solution():
+    # 10-inch pizza is $10, 14-inch pizza is $12, 16-inch pizza is $15
+    pizza_10 = 100
+    pizza_14 = 154
+    pizza_16 = 201
+
+    # pizza_10 = 1
+### Response: Question: 
+
+# 1. 36000 pennies are in 36000 jars. 
+# 2. 10000 pennies are in 10000 jars.
+# 3. 12000 pennies are in 12000 jars.
+# 4. 24000 pennies are in 24000 jars.
+
+# How many pennies are in 100000 jars?
+
+Solution:
+# pennies in each jar
+pennies_in_jar = 10000
+
+# total number of jars
+total_jars = 100000
+
+# total number of pennies
+total_pennies = pennies_in_jar * total_jars
+
+print(total_pennies)
+### Response: Question: A dad and his 11-year-old son, 8-year-old daughter, and 6-year-old daughter all ate a total of 42 slices of pizza. The dad ate 6 slices. If the 11-year-old ate 2 more slices than his dad, how many slices did the 8-year-old and 6-year-old each eat? Solution: def solution():
+    #The dad ate 6 slices
+    dad_slices = 6
+    #The 11-year-old ate 2 more slices than his dad
+    eleven_slices = dad_slices + 2
+    #The 8-year-old and 6-year-old ate the rest
+    rest_slices = 42 - dad_slices - eleven_slices
+    #They ate the same number of slices, so
+    each_slices = rest_slices / 2
+    return each_slices
+### Response: Question: 40% of the 100 people in a theater are wearing hats. 3
+### Response: Question: 
+What is the 1000th digit to the right of the decimal point in the decimal representation of the number 11.111111111111111111111111111
+### Response: Question: A 12-pack of soda cans is on sale for $11.50. 
+
+- If each can of soda has 16 ounces, how many ounces of soda can you get for $11.50?
+- If each can of soda has 12 ounces, how many ounces of soda can you get for $11.50?
+
+Solution: def solution():
+    #12-pack of soda cans is on sale for $11.50
+    soda_pack_price = 11.50
+    #Each can of soda has 16 ounces
+    soda_per_can_16 = 16
+    #12-pack of soda cans is on sale for $11.50
+    soda_pack_16 = soda_pack_price * soda_per_can_16
+    #Each can of soda has 12 ounces
+    soda_per_can_12 = 12
+### Response: Question: 3412.00123456789000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: A sack of onions weighs 100 pounds. 10 sacks of onions are shipped to a warehouse. 15 sacks of onions are shipped to a store. 5 sacks of onions are shipped to a farmer's market. How many sacks of onions were shipped in total? Solution: def solution():
+    #1 sack of onions weighs 100 pounds
+    onions_per_sack = 100
+    #10 sacks of onions were shipped to a warehouse
+    sacks_warehouse = 10
+    #15 sacks of onions were shipped to a store
+    sacks_store = 15
+    #5 sacks of onions were shipped to a farmer's market
+    sacks_farmer = 5
+    #The answer is
+    result = sacks_warehouse + sacks_store + sacks_farmer
+    return result
+### Response: Question: On a 10-day trip to Europe, a tourist guide led 30 tourists. 1/5 of the tourists were from the US, 1/3 were from the UK, 2 were from Canada, and the rest were from Australia. How many tourists were from Australia? Solution: def solution():
+    #Total number of tourists
+    total_tourists = 30
+    #1/5 of the tourists were from the US
+    us_tourists = total_tourists / 5
+    #1/3 of the tourists were from the UK
+    uk_tourists = total_tourists / 3
+    #2 were from Canada
+    canada_tourists = 2
+    #The answer is
+    australia_tourists = total_tourists - us_tourists - uk_tourists - canada_tourists
+    return australia_tourists
+### Response: Question: 24345 is a 5-digit number. 243 is a 3-digit number. 24 is a 2-digit number. 2 is a 1-digit number. 5-digit numbers are 1000 times 4-digit numbers. 4-digit numbers are 100 times 3-digit numbers. 3-digit numbers are 10 times 2-digit numbers. 2-digit numbers are 2 times 1-digit numbers. How many times more is 24345 than 243? Solution: def solution():
+    #24345 is a 5-digit number
+    five_digit_number = 24345
+    #243 is a 3-digit number
+    three_digit_number = 243
+    #5-digit numbers are 1000 times 4-digit numbers
+    five_to_four_ratio = 1000
+    #4-digit numbers are 100 times 3-digit numbers
+    four_to_
+### Response: Question: A 24-can case of soda is on sale for $12.00. 24 cans of soda are the equivalent of 3.0 liters. 1.0 liter of soda is on sale for $2.50. How much money can you save by buying the 24-can case of soda? Solution: def solution():
+    #24 cans of soda are the equivalent of 3.0 liters
+    cans_to_liters = 3.0/24
+    #1.0 liter of soda is on sale for $2.50
+    liter_cost = 2.50
+    #A 24-can case of soda is on sale for $12.00
+    case_cost = 12.00
+    #The answer is
+    result = 24 * liter_cost - case_cost
+    return result
+### Response: Question:
+### Response: Question: A baker bakes 200 loaves of bread. He sells 50 loaves of bread in the morning and 70 in the afternoon. 20 loaves of bread are returned. How many loaves of bread does he have left? Solution: def solution():
+    #The baker started with 200 loaves
+    loaves_baked = 200
+    #He sold 50 in the morning and 70 in the afternoon
+    loaves_sold_morning = 50
+    loaves_sold_afternoon = 70
+    #20 loaves were returned
+    loaves_returned = 20
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: 31.5 ounces of chocolate chips are in a 1.5-quart container. 27 ounces of chocolate chips are in a 2-quart container. How many ounces of chocolate chips are in a 3-quart container? Solution: def solution():
+    #Chocolate chips per quart in the 1.5-quart container
+    chocolate_chips_1.5_quart = 31.5 / 1.5
+    #Chocolate chips per quart in the 2-quart container
+    chocolate_chips_2_quart = 27 / 2
+    #The chocolate chips per quart is the average of the above two
+    chocolate_chips_per_quart = (chocolate_chips_1.5_quart + chocolate_chips_2_quart) / 2
+    #The answer is
+    result = chocolate_chips_per_quart * 3
+    return result
+### Response: Question: 425 bags of chips were piled in a warehouse. 125 bags of chips were sent to a grocery store. 75 bags of chips were sent to a gas station. 25 bags of chips were sent to a vending machine. How many bags of chips are left in the warehouse? Solution: def solution():
+    #There were 425 bags of chips
+    bags_of_chips_initial = 425
+    #125 bags of chips were sent to a grocery store
+    bags_of_chips_grocery = 125
+    #75 bags of chips were sent to a gas station
+    bags_of_chips_gas_station = 75
+    #25 bags of chips were sent to a vending machine
+    bags_of_chips_vending = 25
+    #The answer is
+    result = bags_of_chips_initial - bags_of_chips_
+### Response: Question: A 12-sided die is rolled.  What is the probability that the number rolled is a 2 or a 4?
+
+# A 12-sided die has
+### Response: Question: A baker baked 120 pies. He sells 20 pies in the morning and 30 pies in the afternoon. A grocery store returned 10 pies. How many pies does he have left? Solution: def solution():
+    #The baker started with 120 pies
+    pies_baked = 120
+    #He sold 20 in the morning and 30 in the afternoon
+    pies_sold_morning = 20
+    pies_sold_afternoon = 30
+    #A grocery store returned 10 pies
+    pies_returned = 10
+    #The answer is
+    result = pies_baked - pies_sold_morning - pies_sold_afternoon + pies_returned
+    return result
+### Response: Question: The pond at the center of the park has 500 tadpoles. 200 of them turn into frogs. 100 of the tadpoles die. 300 more tadpoles hatch. How many tadpoles are left? Solution: def solution():
+    #The pond started with 500 tadpoles
+    tadpoles_initial = 500
+    #200 of them turn into frogs
+    tadpoles_turn_frogs = 200
+    #100 of the tadpoles die
+    tadpoles_die = 100
+    #300 more tadpoles hatch
+    tadpoles_hatch = 300
+    #The answer is
+    result = tadpoles_initial - tadpoles_turn_frogs - tadpoles_die + tadpoles_hatch
+    return result
+### Response: Question: A bakery sells 100 loaves of bread on a weekday and 200 loaves of bread on a weekend day. How many loaves of bread does the bakery sell in 6 weekdays and 2 weekend days? Solution: def solution():
+    #A bakery sells 100 loaves on a weekday and 200 loaves on a weekend day
+    loaves_sold_weekday = 100
+    loaves_sold_weekend = 200
+    #There are 6 weekdays and 2 weekend days
+    weekdays = 6
+    weekend_days = 2
+    #The answer is
+    result = (loaves_sold_weekday * weekdays) + (loaves_sold_weekend * weekend_days)
+    return result
+### Response: Question: The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: The 5-pound and 10-pound dumbbells at the gym are 50% and 70% in stock, respectively. If the 5-pound dumbbells are 90% in stock, how many 10-pound dumbbells are in stock? Solution: def solution():
+    #The 5-pound dumbbells are 50% in stock
+    five_pound_stock = 0.5
+    #The 10-pound dumbbells are 70% in stock
+    ten_pound_stock = 0.7
+    #If the 5-pound dumbbells are 90% in stock
+    five_pound_stock_90 = 0.9
+    #Then the 10-pound dumbbells are
+    ten_pound_stock_90 = (five_pound_stock_90 * ten_pound_stock) / five_pound_stock
+    #The answer is
+    result = ten_pound_
+### Response: Question: A 10-pound sack of potatoes, a 20-pound sack of onions, and a 12-pound sack of carrots cost a total of $20.50. If the onions and carrots are the same price per pound, how much does a 10-pound sack of onions cost? Solution:
+#define the cost of each sack
+sack_potatoes = 10
+sack_onions = 20
+sack_carrots = 12
+
+#define the total cost
+total_cost = 20.50
+
+#define the price per pound of onions and carrots (x)
+x = (total_cost - sack_potatoes) / (sack_onions + sack_carrots)
+
+#define the cost of a 10-pound sack of onions
+sack_onions_cost = 10 * x
+
+#print the result
+print(sack_onions_cost)
+### Response: Question: 242 is the number of a 3-digit year. What is the 4-digit year that is 242 years after 2000? Solution: def solution():
+### Response: Question: A bakery is baking 1200 loaves of bread. 100 of the loaves are rye bread. 200 of the loaves are sourdough. 300 of the loaves are pumpernickel. 600 of the loaves are brioche. How many of the loaves are not one of the four listed? Solution: def solution():
+    #Total loaves of bread
+    total_loaves = 1200
+    #Loaves of rye, sourdough, pumpernickel, and brioche
+    rye_loaves = 100
+    sourdough_loaves = 200
+    pumpernickel_loaves = 300
+    brioche_loaves = 600
+    #The answer is
+    result = total_loaves - rye_loaves - sourdough_loaves - pumpernickel_loaves - brioche_loaves
+    return result
+### Response: Question: 12000 people were at a rally. 100
+### Response: Question: A baker is baking 120 pies. He bakes 10 pies in the morning and 15 pies in the afternoon. 4 pies are left in the oven. How many pies has he baked so far? Solution: def solution():
+    #The baker is baking 120 pies
+    pies_baked = 120
+    #He bakes 10 pies in the morning
+    pies_morning = 10
+    #And 15 pies in the afternoon
+    pies_afternoon = 15
+    #4 pies are left in the oven
+    pies_left = 4
+    #The answer is
+    result = pies_baked - pies_morning - pies_afternoon - pies_left
+    return result
+### Response: Question: 1200 people were at a rally. 1/
+### Response: Question: A candy store has 1132.5 pounds of candy. The candy is in 5-pound, 10-pound, and 20-pound bags. 
+If the 5-pound bags have 48 ounces, the 10-pound bags have 96 ounces, and the 20-pound bags have 192 ounces, 
+how many ounces of candy are in the store? Solution: def solution():
+    #1132.5 pounds of candy
+    candy_pounds = 1132.5
+    #1 pound = 16 ounces
+    pound_to_ounce = 16
+    #The candy is in 5-pound, 10-pound, and 20-pound bags
+    bags_5pound = 48
+    bags_10pound = 96
+    bags_20pound = 192
+    #The answer is
+### Response: Question: 10000 bees are in a beehive. 2000 bees a day are added to the hive for 5 days. 5000 bees are then taken from the hive. How many bees are left in the hive? Solution: def solution():
+    #There were 10000 bees in the hive
+    bees_initial = 10000
+    #2000 bees a day were added for 5 days
+    bees_added_per_day = 2000
+    #There are 5 days
+    num_days = 5
+    #2000 bees a day for 5 days is
+    bees_added = bees_added_per_day * num_days
+    #5000 bees were taken
+    bees_taken = 5000
+    #The answer is
+    result = bees_initial + bees_added - bees_taken
+    return result
+### Response: Question: A bakery made 300 muffins. 150 of the muffins were chocolate muffins. 120 of the muffins were blueberry muffins. 30 of the muffins were both chocolate and blueberry. How many muffins were neither chocolate nor blueberry? Solution: def solution():
+    #Total muffins
+    total_muffins = 300
+    #Chocolate muffins
+    chocolate_muffins = 150
+    #Blueberry muffins
+    blueberry_muffins = 120
+    #Both chocolate and blueberry muffins
+    both_muffins = 30
+    #Neither chocolate nor blueberry muffins is
+    neither_muffins = total_muffins - chocolate_muffins - blueberry_muffins + both_muffins
+    return neither_muffins
+### Response: Question: 1000000000000 is the number 1 followed by 15 zeros. 123456789012 is the number 1234567890 followed by 12 zeros. What is the difference between these two numbers? Solution: def solution():
+    #1000000000000 is the number 1 followed by 15 zeros
+    number1 = 1
+    for i in range(15):
+        number1 = number1 * 10
+    #123456789012 is the number 1234567890 followed by 12 zeros
+    number2 = 1234567890
+    for i in range(12):
+        number2 = number2 * 10
+    #The answer is
+    result = number1 - number2
+    return result
+### Response: Question: 540 toothpicks were used to build a toothpick sculpture. 30 toothpicks were used to build the head, 60 toothpicks were used to build the torso, and 20 toothpicks were used to build each leg. How many toothpicks were used to build the arms? Solution: def solution():
+    #540 toothpicks were used to build the sculpture
+    toothpicks_total = 540
+    #30 toothpicks were used to build the head
+    toothpicks_head = 30
+    #60 toothpicks were used to build the torso
+    toothpicks_torso = 60
+    #20 toothpicks were used to build each leg
+    toothpicks_leg = 20
+    #There are 2 legs
+    num_legs = 2
+    #The answer is
+    toothpicks_arms = toothpicks_total - toothpicks_head - toothpicks_torso
+### Response: Question: If a 12-pack of soda is $6,
+### Response: Question: 120 4th graders and 100 5th graders are on a field trip to the botanical gardens. The 4th graders each get 20 ounces of water, and the 5th graders each get 10 ounces of water. How many ounces of water do the 4th and 5th graders have in total? Solution: def solution():
+    #There are 120 4th graders
+    fourth_graders = 120
+    #They each get 20 ounces of water
+    water_per_fourth_grader = 20
+    #There are 100 5th graders
+    fifth_graders = 100
+    #They each get 10 ounces of water
+    water_per_fifth_grader = 10
+    #The answer is
+    result = (fourth_graders * water_per_fourth_grader) + (fifth_graders * water_per_fifth_grader)
+### Response: Question: 2400 people were at a rally. 1000 more people than the number of men at the rally are women. 25% of the women at the rally are wearing hats. How many women are wearing hats? Solution: def solution():
+    #2400 people were at the rally
+    people_at_rally = 2400
+    #1000 more people than the number of men at the rally are women
+    men_at_rally = people_at_rally - 1000
+    #25% of the women at the rally are wearing hats
+    women_at_rally = people_at_rally - men_at_rally
+    hatted_women = women_at_rally * 0.25
+    return hatted_women
+### Response: Question: 120 trays. They bake 10 cakes on each tray. How many cakes do they bake in total? Solution: def solution():
+    #The bakery has 120 trays
+    trays = 120
+### Response: Question: On a three-day trip, a tourist guide led 15 tourists. On the first day, 3 of the tourists were left behind. On the second day, 2 of the tourists were left behind. On the third day, 4 of the tourists were left behind. How many tourists are now with the guide? Solution: def solution():
+    #There were 15 tourists at the start of the trip
+    tourists_initial = 15
+    #3 were left behind on the first day
+    tourists_left_day1 = 3
+    #2 were left behind on the second day
+    tourists_left_day2 = 2
+    #4 were left behind on the third day
+    tourists_left_day3 = 4
+    #The answer is
+    result = tourists_initial - tourists_left_day1 - tourists_left_day2 - tourists_left_day3
+    return result
+### Response: Question: A 3-4-5 triangle and a 6-8-10 triangle have the same area.  What is the perimeter of the 6-8-10 triangle? Solution: def solution():
+    #The 3-4
+### Response: Question: A baker is baking 34 pies. He bakes 12 pies on Monday, 6 pies on Tuesday, 8 pies on Wednesday, and 4 pies on Thursday. How many pies does he have left to bake? Solution: def solution():
+    #Total pies to bake is 34
+    total_pies = 34
+    #Pies baked on Monday, Tuesday, Wednesday, and Thursday are 12, 6, 8, and 4, respectively
+    pies_baked_monday = 12
+    pies_baked_tuesday = 6
+    pies_baked_wednesday = 8
+    pies_baked_thursday = 4
+    #The pies left to bake is
+    pies_left_to_bake = total_pies - pies_baked_monday - pies_baked_tuesday - pies_baked_wednesday - pies_baked_
+### Response: Question: A
+### Response: Question: A 12-pack of soda is on sale for $12.00. 12 cans of soda are on sale for $10.00. 6 cans of soda are on sale for $5.00. 3 cans of soda are on sale for $2.50. 2 cans of soda are on sale for $2.00. How many cans of soda can you buy for $20.00? Solution: def solution():
+    #The 12-pack is on sale for $12.00
+    cans_12_pack = 12
+    price_12_pack = 12
+    #The 12 cans are on sale for $10.00
+    cans_12_cans = 12
+    price_12_cans = 10
+    #The 6 cans are on sale for $5.00
+    cans_6_pack = 6
+    price_6_pack = 5
+    #The 3 can
+### Response: Question:
+### Response: Question: 1250000000000 is a very large number. 1250000000000 is 125 followed by 11 zeroes. 1250000000000 is 125 trillion. 1250000000000 is 12500000000000000000000. 1250000000000 is 12500000000000000000000000000. 1250000000000 is 12500000000000000000000000000000000. 1250000000000 is 125000000000000000000000
+### Response: Question: 5000 people in a city are vaccinated for COVID-19. 500 more people are v
+### Response: Question: A piggy bank has 100 slots. 1/10 of the slots are empty. 2/5 of the slots have 1 coin. 3/10 of the slots have 2 coins. The rest of the slots have 3 coins. How many coins are in the piggy bank? Solution: def solution():
+    #A piggy bank has 100 slots
+    slots = 100
+    #1/10 of the slots are empty
+    empty_slots = slots / 10
+    #2/5 of the slots have 1 coin
+    one_coin_slots = slots * 2 / 5
+    #3/10 of the slots have 2 coins
+    two_coin_slots = slots * 3 / 10
+    #The rest of the slots have 3 coins
+    three_coin_slots = slots - empty_slots - one_coin_slots - two_coin_slots
+### Response: Question: A soda vending machine has 22 cans of soda. 5 of the cans are diet soda, and 8 of the cans are caffeine-free. The rest of the cans are neither. How many cans of soda are neither diet nor caff
+### Response: Question: 1000000 people live in a city. 1/10 of the population are women. 1/5 of the women are over
+### Response: Question: The 25-member school orchestra is in desperate need of new instruments. 5 of the 10 violins are broken, and 2 of the 5 cellos are broken. 1 of the 5 flutes is also broken. How many instruments are broken? Solution: def solution():
+### Response: Question: A c
+### Response: Question: 12000 people live in a small town. 15000 more people are expected to move to the town in the next 5 years. 1/10 of the newcomers will be children. 1/2 of the children will go to a public school. 1/3 of the public school students will be in the 5th grade. How many 5th graders will there be in 5 years? Solution: def solution():
+    #12000 people live in a small town
+    people_initial = 12000
+    #15000 more people are expected to move to the town in the next 5 years
+    people_new = 15000
+    #1/10 of the newcomers will be children
+    children_fraction = 1/10
+    #1/2 of the children will go to a public school
+    public_school_fraction = 1/2
+    #1/3 of the public school students will be in the 5th grade
+    5th_grade_fraction = 1
+### Response: Question: 4500 people in a city were surveyed. 3200 of them said they ate pizza. 1000 of the pizza eaters also ate sushi. 100 of the sushi eaters also ate barbecue. 300 of the pizza eaters also ate barbecue. How many of the people who ate barbecue did not eat sushi? Solution: def solution():
+    #Total number of people surveyed
+    total_people = 4500
+    #Number of people who ate pizza
+    pizza_eaters = 3200
+    #Number of pizza eaters who also ate sushi
+    sushi_eaters = 1000
+    #Number of sushi eaters who also ate barbecue
+    bbq_eaters_sushi = 100
+    #Number of pizza eaters who also ate barbecue
+    bbq_eaters_pizza = 300
+    #Number of
+### Response: Question: A mall has 2200 parking spaces. 500 are for the staff, and the rest are for the customers. 700 of the customer parking spaces are for the North lot, 900 for the South lot, and the rest for the East lot. How many parking spaces are in the East lot? Solution: def solution():
+    #There are 2200 parking spaces in the mall
+    total_parking_spaces = 2200
+    #500 are for the staff
+    staff_parking_spaces = 500
+    #The rest are for the customers
+    customer_parking_spaces = total_parking_spaces - staff_parking_spaces
+    #700 of the customer parking spaces are for the North lot
+    north_parking_spaces = 700
+    #900 for the South lot
+    south_parking_spaces = 900
+    #The rest are for the East lot.
+    east_parking_spaces = customer_parking_spaces - north_parking
+### Response: Question: 1800 4th graders were on a field trip to the zoo. 2/3 of them were from 2 schools. 1/3 of them were from 3 other schools. How many 4th graders were from each of the 3 other schools? Solution: def solution():
+    #Total 4th graders
+    total_4th_graders = 1800
+    #2/3 of them were from 2 schools
+    two_schools_4th_graders = 2/3 * total_4th_graders
+    #1/3 of them were from 3 other schools
+    three_other_schools_4th_graders = 1/3 * total_4th_graders
+    #The answer is
+    result = three_other_schools_4th_graders / 3
+    return result
+### Response: Question
+### Response: Question: A 30-pound (13.6
+### Response: Question: 
+
+1200 people are at a soccer game. 
+
+The number of attendees is 100 more than the number of s
+### Response: Question: 1234567890 is a 10-digit number. How many 6-digit numbers can you make by rearranging the 10 digits? Solution: def solution():
+    #1234567890 is a 10-digit number
+    #It can be rearranged to form 6-digit numbers
+    #The 10-digit number has 10! (10 factorial) possible rearrangements
+    #A 6-digit number has 1,000,000 (1 million) possible rearrangements
+    #10! / 1,000,000 is the number of 6-digit numbers that can be made from the 10-digit number
+    num_digits = 10
+    num_digits_rearrange = 6
+    #10! (10 factorial)
+    factorial = 1
+    for i in range(1, num_digits + 1):
+        factorial *= i
+    #1,00
+### Response: Question: 2222 bees were in the beehive. 1111 bees left the hive. 222
+### Response: Question: 120000 people in a country were vaccinated for a disease. 120000 more people were vaccinated the next day. 200000 more people were vaccinated the day after that. How many people in the country have been vaccinated? Solution: def solution():
+    #120000 people were vaccinated on the first day
+    vaccinated_first_day = 120000
+    #120000 more were vaccinated on the second day
+    vaccinated_second_day = 120000
+    #200000 more were vaccinated on the third day
+    vaccinated_third_day = 200000
+    #The answer is
+    result = vaccinated_first_day + vaccinated_second_day + vaccinated_third_day
+    return result
+### Response: Question: 10000
+### Response: Question: 350 toys are in a toy box. 100 toys are in a toy car. 150 toys are in a toy house. 200 toys are in a toy garage. How many toys are in all 4 toys? Solution: def solution():
+    #350 toys are in a toy box
+    toys_in_box = 350
+    #100 toys are in a toy car
+    toys_in_car = 100
+    #150 toys are in a toy house
+    toys_in_house = 150
+    #200 toys are in a toy garage
+    toys_in_garage = 200
+    #The answer is
+    result = toys_in_box + toys_in_car + toys_in_house + toys_in_garage
+    return result
+### Response: Question: A 4
+### Response: Question: 2000 people were at the 1996 Olympics. 200 more people attended the 2000 Olympics. 2000 more people attended the 2004 Olympics. 2000 more people attended the 2008 Olympics. 2000 more people attended the 2012 Olympics. How many people have attended the Olympics from 1996 to 2012? Solution: def solution():
+    #People at 1996 Olympics
+    people_1996 = 2000
+    #People at 2000 Olympics
+    people_2000 = 200 + people_1996
+    #People at 2004 Olympics
+    people_2004 = 400 + people_2000
+    #People at 2008 Olympics
+    people_2008 = 600 + people_2004
+    #People at 2012 Olympics
+    people_2012 =
+### Response: Question: 1800 pennies, 2700 nickels, 3600 dimes, and 5400 quarters are in a piggy bank. How many dollars is this? Solution: def solution():
+    #1 penny = 0.01 dollars
+    penny_to_dollar = 0.01
+    #1 nickel = 0.05 dollars
+    nickel_to_dollar = 0.05
+    #1 dime = 0.10 dollars
+    dime_to_dollar = 0.10
+    #1 quarter = 0.25 dollars
+    quarter_to_dollar = 0.25
+    #There are 1800 pennies
+    pennies = 1800
+    #2700 nickels
+    nickels = 2700
+    #3600 dimes
+    dimes = 3600
+    #5400 quarters
+    quarters = 5400
+    #The answer
+### Response: Question: 
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+1234567890
+
+12345
+### Response: Question: 12345 is a 5-digit number. 1234 is a 4-digit number. 123 is a 3-digit number. 12 is a 2-digit number. 1 is a 1-digit number. How many 0's are in the 6-digit number 123450? Solution: def solution():
+    #123450 is a 6-digit number
+    six_digit_number = 123450
+    #12345 is a 5-digit number
+    five_digit_number = 12345
+    #1234 is a 4-digit number
+    four_digit_number = 1234
+    #123 is a 3-digit number
+    three_digit_number = 123
+    #12 is a 2-digit number
+    two_digit_number = 12
+    #1 is a 1-digit number
+    one_digit_number = 1
+    #The number
+### Response: Question: If 1200 to 1 odds are "fair", then what are the 1 to 1 odds? (Odds of A to B are "fair" if A wins as often as B, i.e. the probabilities of A and B are both 1/2.) Solution: def solution():
+    #1200 to 1 odds are fair.
+    #This means that the probabilities of the two outcomes are 1200/1201 and 1/1201.
+    #Since the sum of the probabilities is 1, we can find the 1/1 odds by inverting the 1200/1201 odds.
+
+    #1200/1201 is the same as 1200-1/1201, so the 1/1 odds are 1201-1200-1 = 0.
+    result = 0
+    return result
+### Response: Question: The Cincinnati Reds have 375 home runs. The Chicago Cubs have 450 home runs. How many more home runs does the Chicago Cubs have than the Cincinnati
+### Response: Question: The total number of pets in a house is 100. 40 of the pets are cats. 20 of the pets are dogs. 20 of the pets are lizards. 10 of the pets are birds. 10 of the pets are fish. How many of the pets are not fish? Solution: def solution():
+    #The total number of pets
+    total_pets = 100
+    #40 of the pets are cats
+    cats = 40
+    #20 of the pets are dogs
+    dogs = 20
+    #20 of the pets are lizards
+    lizards = 20
+    #10 of the pets are birds
+    birds = 10
+    #10 of the pets are fish
+    fish = 10
+    #The answer is
+    result = total_pets - fish
+    return result
+### Response: Question:
+### Response: Question: A 12-slice pizza was cut into 3 and 4 slices. 2 of the 3-slice pizzas and 1 of the 4-slice pizzas were sold. How
+### Response: Question: A hamburger bun is 200 calories. A hamburger patty is 300 calories. If a hamburger has 1000 calories, how many hamburgers can you eat in a day if you have a 2000 calorie diet? Solution: def solution():
+    #A hamburger bun is 200 calories
+    bun_calories = 200
+    #A hamburger patty is 300 calories
+    patty_calories = 300
+    #A hamburger has 1000 calories
+    hamburger_calories = 1000
+    #You have a 2000 calorie diet
+    diet_calories = 2000
+    #A hamburger has 1 bun and 1 patty
+    hamburger_components = 1 + 1
+    #You can eat
+    hamburgers = diet_calories // (hamburger_calories // hamburger_components
+### Response: Question: 1200 people were at a rally. 150 left when it started to rain. 200 more left when the rain got heavier. 100 of the people who left returned when the rain stopped. How many people were at the rally at the end? Solution: def solution():
+    #1200 people were at the rally
+    people_initial = 1200
+    #150 left when it started to rain
+    people_left_start = 150
+    #200 more left when the rain got heavier
+    people_left_heavy = 200
+    #100 of the people who left returned when the rain stopped
+    people_returned = 100
+    #The answer is
+    result = people_initial - people_left_start - people_left_heavy + people_returned
+    return result
+### Response: Question: The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: 1000 people are in a theater. 100 of them are children. 200 of the adults are men. 100 of the men and 100 of the women are wearing hats. 20 of the children are wearing hats. How many people in the theater are not wearing hats? Solution: def solution():
+    #Total number of people in the theater
+    total_people = 1000
+    #Number of children
+    children = 100
+    #Number of adults
+    adults = 200
+    #Number of men
+    men = 100
+    #Number of women
+    women = 200 - men
+    #Number of men and women wearing hats
+    hats_men = 100
+    hats_women = 100
+    #Number of children wearing hats
+    hats_children = 20
+    #The answer is
+    result = total_people - children - adults + men + women - hats_men
+### Response: Question: 10000 bees are in a beehive. 2000 bees pollinate the flowers. 1000 bees make honey. 3000 bees guard the hive. 2000 bees are drones. 2000 bees are the queen's court. How many bees are left? Solution: def solution():
+    #Total bees in the hive
+    total_bees = 10000
+    #Bees that pollinate flowers
+    pollinate_bees = 2000
+    #Bees that make honey
+    honey_bees = 1000
+    #Bees that guard the hive
+    guard_bees = 3000
+    #Bees that are drones
+    drone_bees = 2000
+    #Bees that are the queen's court
+    court_bees = 2000
+    #The answer is
+    result = total_bees - pollinate_be
+### Response: Question: The bakery baked 5
+### Response: Question: 1234567890 is the largest 10-digit number. 0123456789 is the largest 9-digit number. 12345678 is the largest 8-digit number. 1234567 is the largest 7-digit number. 123456 is the largest 6-digit number. 12345 is the largest 5-digit number. 1234 is the largest 4-digit number. 123 is the largest 3-digit number. 12 is the largest 2-digit number. 1 is the largest 1-digit number.
+
+How many of these 10 largest numbers are odd? Solution: def solution():
+    #1234567890, 12345678, 123456, 12345, 1234, 123, and 1 are the largest 10-digit, 8-digit, 6-digit,
+### Response: Question: 2400 people are at a rally. 1200 of them are men. 1400 of them are women. 800 of the men and 1200 of the women are from out of state. How many attendees are from in-state? Solution: def solution():
+    #2400 people are at the rally
+    attendees = 2400
+    #1200 of them are men
+    men = 1200
+    #1400 of them are women
+    women = 1400
+    #800 of the men and 1200 of the women are from out of state
+    out_of_state_men = 800
+    out_of_state_women = 1200
+    #The answer is
+    result = attendees - out_of_state_men - out_of_state_women
+    return result
+### Response: Question: The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: A cake has 8 slices. 4 of the slices are eaten. 2/3 of the remaining slices are eaten. How many slices are left? Solution: def solution():
+    #A cake has 8 slices
+    slices_total =
+### Response: Question: A baker baked 120 cakes. He sold 40 on the first day, 20 on the second day, and 30 on the third day. How many cakes does he have left? Solution: def solution():
+    #The baker started with 120 cakes
+    cakes_baked = 120
+    #He sold 40 on the first day, 20 on the second day, and 30 on the third day
+    cakes_sold_first_day = 40
+    cakes_sold_second_day = 20
+    cakes_sold_third_day = 30
+    #The answer is
+    result = cakes_baked - cakes_sold_first_day - cakes_sold_second_day - cakes_sold_third_day
+    return result
+### Response: Question: 128
+### Response: Question: 10.5 ounces of toothpaste are in a 12-ounce tube. If 1.2 oun
+### Response: Question: A toy store sells 20 toys on Monday, 25 toys on Tuesday, 23 toys on Wednesday, and 28 toys on Thursday. How many toys does the toy store have left if they started with 100 toys? Solution: def solution():
+    #The toy store started with 100 toys
+    toys_initial = 100
+    #They sold 20 toys on Monday, 25 toys on Tuesday, 23 toys on Wednesday, and 28 toys on Thursday
+    toys_sold_monday = 20
+    toys_sold_tuesday = 25
+    toys_sold_wednesday = 23
+    toys_sold_thursday = 28
+    #The answer is
+    result = toys_initial - toys_sold_monday - toys_sold_tuesday - toys_sold_wednesday - toys_s
+### Response: Question: 2000 people attended a rally. 50
+### Response: Question: A 20-ounce soda is 10 ounces too large for cans. A 12-ounce soda is 2 ounces too large for cans. A 6-ounce soda is the perfect size for cans. How many sodas can you can? Solution: def solution():
+    #A 20-ounce soda is 10 ounces too large for cans
+    soda_20_oz = 10
+    #A 12-ounce soda is 2 ounces too large for cans
+    soda_12_oz = 2
+    #A 6-ounce soda is the perfect size for cans
+    soda_6_oz = 0
+    #The answer is
+    result = soda_20_oz + soda_12_oz + soda_6_oz
+    return result
+### Response: Question: The first 5000 digits of the number 11011100111100111011100111100111001110111001111001110011110011100111011100111100111001111001110011101110011110011100111100111001110111001111001110011110011100111011100111100111001111001110011101110011110011100111100111001110111001111001
+### Response: Question: A 12-pack of soda cans is on sale for 50% off.  If the 12-pack is regularly priced at
+### Response: Question: A bakery bakes 120 loaves of bread. 50 loaves are to be delivered to a grocery store. 20 loaves are to be delivered to a bakery. 15 loaves are to be delivered to a cafe. The rest are to be sold at the bakery. How many loaves of bread are to be sold at the bakery? Solution: def solution():
+    #The bakery bakes 120 loaves
+    loaves_baked = 120
+    #50 loaves are to be delivered to a grocery store
+    loaves_grocery = 50
+    #20 loaves are to be delivered to a bakery
+    loaves_bakery = 20
+    #15 loaves are to be delivered to a cafe
+    loaves_cafe = 15
+    #The rest are to be sold at the bakery. The answer is
+    result = loaves_baked - loaves_grocery - loaves_bakery - loaves_
+### Response: Question: 121, 123, 125, 127, 129, and 131 are the first six terms of a number sequence. 
+
+What is the 100th term of the sequence? Solution: def solution():
+### Response: Question: 1250000000000 is a 12-digit number. 123456789012 is a 13-digit number. 2222222222222 is a 14-digit number. 33333333333333 is a 15-digit number. 4444444444444444 is a 16-digit number. 55555555555555555 is a 17-digit number. 666666666666666666 is an 18-digit number. 7777777777777777777 is a 19-digit number. 88888888888888888888 is a 20-digit number. 999999999999999
+### Response: Question: The 10-year-old and 12-year-old are 4
+### Response
+### Response: Question: 32000 people live in a small town. 20000 of them are registered to vote. 75% of the registered voters are women. How many of the registered voters are men? Solution: def solution():
+### Response: Question: A 30-story building has 2000 windows. 15% of the windows are on the 1st and 2nd floors, 30% on the 3rd and 4th floors, and 50% of the rest are on the 5th and 6th floors. How many windows are on the 7th and higher floors? Solution: def solution():
+    #Total number of windows
+    total_windows = 2000
+    #Windows on the 1st and 2nd floors
+    windows_1_2_floors = 0.15 * total_windows
+    #Windows on the 3rd and 4th floors
+    windows_3_4_floors = 0.30 * total_windows
+    #Windows on the 5th and 6th floors
+    windows_5_6_floors = 0.50 * (total_windows - windows_1_2_floors - windows_3_4_floors)
+    #Windows on the 7th
+### Response: Question: There are 2121212
+### Response: Question: A warehouse has 200000 sacks of potatoes. 20000 sacks of potatoes are rotten and 10000 sacks of potatoes are for export. The rest of the sacks of potatoes will be shipped to the supermarkets. How many sacks of potatoes will be shipped to the supermarkets? Solution: def solution():
+    #There are 200000 sacks of potatoes
+    sacks_of_potatoes_total = 200000
+    #20000 sacks of potatoes are rotten
+    sacks_of_potatoes_rotten = 20000
+    #10000 sacks of potatoes are for export
+    sacks_of_potatoes_export = 10000
+    #The answer is
+    result = sacks_of_potatoes_total - sacks_of_potatoes_rotten - sacks_of_potatoes_export
+    return result
+### Response: Question: A candy store sells 2452 lollipops. On Tuesday, they sold 1234 lollipops. On Wednesday, they sold 1012 lollipops. How many lollipops are left? Solution: def solution():
+    #The candy store started with 2452 lollipops
+    lollipops_initial = 2452
+    #They sold 1234 on Tuesday
+    lollipops_sold_tuesday = 1234
+    #They sold 1012 on Wednesday
+    lollipops_sold_wednesday = 1012
+    #The answer is
+    result = lollipops_initial - lollipops_sold_tuesday - lollipops_sold_wednesday
+    return result
+### Response: Question: 1200 people were at a soccer game. 300 of them were from the visiting team's city. 500 of them were from the home team's city. 200 of them were from other cities. The rest were from the state. How many of them were from the state? Solution: def solution():
+    #Total number of people at the soccer game
+    total_people = 1200
+    #Number of people from the visiting team's city
+    visiting_team = 300
+    #Number of people from the home team's city
+    home_team = 500
+    #Number of people from other cities
+    other_cities = 200
+    #Number of people from the state
+    state = total_people - visiting_team - home_team - other_cities
+    return state
+### Response: Question: 1000 people were at a rally. 200 of them were we
+### Response: Question: 1000000000000 (one trillion) is the 12th number in the series 1, 10, 100, 1000, 10000, ..., 1000000000000. What is the 15th number in the series? Solution: def solution():
+    #The 12th number in the series is 1000000000000 (one trillion)
+    #The 15th number is 5 more powers of 1000 (5 more zeroes)
+    #1000000000000 * 1000 * 1000 * 1000 * 1000 * 1000
+    result = 1000000000000 * (1000 ** 5)
+    return result
+### Response: Question
+### Response: Question: 
+
+The Beverly Hills Bakery has 1156 baguettes. 
+
+They sold 321 baguettes in the morning and 275 baguettes
+### Response: Question: The 4-H club has 120 chickens. They sold 35 chickens, ate 28 chickens, and 17 more chickens died. How many chickens are left? Solution: def solution():
+    #The 4-H club started with 120 chickens
+    chickens_initial = 120
+    #They sold 35 chickens
+    chickens_sold = 35
+    #They ate 28 chickens
+    chickens_ate = 28
+    #17 more chickens died
+    chickens_died = 17
+    #The answer is
+    result = chickens_initial - chickens_sold - chickens_ate - chickens_died
+    return result
+### Response: Question: A 25-pound sack of flour is 50% full. A 50
+### Response: Question: 1200 toothpicks are in 1200 boxes. 300 toothpicks are in each box. 1000000 toothpicks are in 1000000 boxes. 3 toothpicks
+### Response: Question: 
+
+### Instruction:
+Write a
+### Response: Question: 2435.12 is 1.2% of what number? Solution: def solution():
+    #1.2% of a number is 2435.12
+    percent_of_number = 2435.12
+    #The answer is
+    result = percent_of_number / 1.2
+### Response: Question: 1200 people were at the 1999 All-Star Game. 2000 people were at the 2000 All-Star Game. 500 more people attended the 2001 All-Star Game than the 2000 All-Star Game. How many people, in total, attended the 1999, 2000, and 2001 All-Star Games? Solution: def solution():
+    #People at the 1999 All-Star Game
+    people_1999 = 1200
+    #People at the 2000 All-Star Game
+    people_2000 = 2000
+    #People at the 2001 All-Star Game
+    people_2001 = people_2000 + 500
+    #The answer is
+    result = people_1999 + people_2000 + people_2001
+    return result
+### Response: Question: A 21-year-old is 4 years older than a 17-year-old. In 10 years, how many years older will the 21-year-old be than the 17-year-old? Solution: def solution():
+    #The 21-year-old is 4 years older than the 17-year-old
+    age_21_year_old = 21
+    age_17_year_old = 21 - 4
+    #In 10 years, the 21-year-old will be
+    age_21_year_old_future = age_21_year_old + 10
+    #and the 17-year-old will be
+    age_17_year_old_future = age_17_year_old + 10
+    #The answer is
+    result = age_21_year_old_future - age_17_year_old_future
+    return result
+### Response: Question: The 20-pack of nuts was on sale for 15% off. The regular price of the 20-pack
+### Response: Question: 2005 was the year in which the 2004 Summer Olympics were held. 2012 was the year in which the 2010 Summer Olympics were held. 2021 was the year in which the 2020 Summer Olympics were held. 2030 will be the year in which the 2028 Summer Olympics are held. 2038 will be the year in which the 2036 Summer Olympics are held. 2047 will be the year in which the 2044 Summer Olympics are held. 2056 will be the year in which the 2052 Summer Olympics are held. How many years, in total, were between the years in which the 2004, 2010, 2020, 2028, 2036, and 2044 Summer Olympics were held and the years in which the 2008, 2012, 2024, 2032, 2040, and 2048 Summer
+### Response: Question: A 4-pound cake was sliced into 8 slices. 3 of the slices were eaten. How many ounces of cake are left? (1 pound is 16 ounces) Solution: def solution():
+    #The cake weighed 4 pounds
+    cake_weight = 4
+    #1 pound is 16 ounces
+    ounces_per_pound = 16
+    #The cake was sliced into 8 slices
+    slices = 8
+    #3 slices were eaten
+    slices_eaten = 3
+    #The cake is now
+    cake_left = cake_weight * ounces_per_pound - (slices_eaten * ounces_per_pound)
+    return cake_left
+### Response: Question: A 10-shelf bookcase has 5 shelves with 6 books, 3 shelves with 4 books, and the rest with 2 books. How many books are on the bookcase? Solution: def solution():
+    #The bookcase has 10 shelves
+    shelves = 10
+    #5 shelves have 6 books
+    shelves_6_books = 5
+    #3 shelves have 4 books
+    shelves_4_books = 3
+    #The rest of the shelves have 2 books
+    shelves_2_books = shelves - shelves_6_books - shelves_4_books
+    #The answer is
+    result = shelves_6_books * 6 + shelves_4_books * 4 + shelves_2_books * 2
+    return result
+### Response: Question: A 3-pound cake has 12
+### Response: Question: A 4-pound cake is to be eaten by 3000 an
+### Response: Question:
+### Response: Question: 12345 is a 5-digit number. 123 is a 3-digit number. 12 is a 2-digit number. 1 is a 1-digit number. 0 is a 1-digit number. How many 1s, 2s, 3s, 4s, and 5s are there in all of these numbers? Solution: def solution():
+    #12345 is a 5-digit number. 123 is a 3-digit number. 12 is a 2-digit number. 1 is a 1-digit number. 0 is a 1-digit number.
+    #12345 has 1 1, 2 2s, 1 3, 1 4, and 1 5.
+    #123 has 1 1, 2 2s, and 1 3.
+    #12 has 1 1 and 2 2s.
+    #1 has 1 1.
+    #0 is a 1-digit
+### Response: Question: 150 cats and 100
+### Response: Question: A lorry, a truck, and a car are on a weighing scale. The lorry weighs 20 tons, the truck weighs 5 tons, and the car weighs 1 ton. The lorry and the truck are then weighed together. How many tons heavier is the lorry and truck together than the car? Solution: def solution():
+    #The lorry weighs 20 tons
+    lorry_weight = 20
+    #The truck weighs 5 tons
+    truck_weight = 5
+    #The car weighs 1 ton
+    car_weight = 1
+    #The lorry and the truck together weigh
+    lorry_truck_weight = lorry_weight + truck_weight
+    #The answer is
+    result = lorry_truck_weight - car_weight
+    return result
+### Response: Question: 1000000000000 (one trillion) is a 1 with how many zeros? Solution: def solution():
+    #1000000000000 (one trillion) is
+### Response: Question: 1234567890 is a very long number.  It is 10 digits long.  How many 1's are in this number? Solution: def solution():
+    #The number is 1234567890
+    number = 1234567890
+    #The number of 1's in the number
+### Response: Question: 45000 people live in a town. 15000 of them are children. 20000 are men, and the rest are women. How many women live in
+### Response: Question: 2000 people were at a soccer game. 1000 of the attendees were from the home team's city. 800 of the attendees were from the away team's city. 200 of the attendees were neutrals. How many attendees were from the home team's city or were neutrals? Solution: def solution():
+    #2000 people were at the soccer game
+    total_attendees = 2000
+    #1000 of the attendees were from the home team's city
+    home_team_attendees = 1000
+    #800 of the attendees were from the away team's city
+    away_team_attendees = 800
+    #200 of the attendees were neutrals
+    neutral_attendees = 200
+    #The attendees from the home team's city or neutrals is
+    result = home_team_attende
+### Response: Question: 312 pineapples were shipped from the pineapple farm. 2/5 of the pineapples were shipped to the UK. 1/3 of the pineapples were shipped to the US. 1/4 of the pineapples were shipped to the UAE. 42 pineapples were shipped to other countries. How many pineapples were shipped to the UK, the US, and the UAE? Solution: def solution():
+    #Total pineapples shipped
+    total_pineapples = 312
+    #Pineapples shipped to the UK
+    pineapples_uk = total_pineapples * 2 / 5
+    #Pineapples shipped to the US
+    pineapples_us = total_pineapples * 1 / 3
+    #Pineapples shipped to the UAE
+    pineapples_uae = total_pineapples * 1 / 4
+    #Pineapples shipped to other countries
+    pineapples
+### Response: Question: A baker is baking 512 pies. He has 8 ovens,
+### Response: Question: A frog lays 500 eggs at a time. 20% of the eggs hatch. 1/4 of the hatchlings survive to adulthood. 2/3 of the adults are female. How many female frogs are there? Solution: def solution():
+    #A frog lays 500 eggs at a time
+    eggs_laid = 500
+    #20% of the eggs hatch
+    hatch_rate = 0.20
+    #1/4 of the hatchlings survive to adulthood
+    survival_rate = 0.25
+    #2/3 of the adults are female
+    female_rate = 2/3
+    #The answer is
+    result = eggs_laid * hatch_rate * survival_rate * female_rate
+    return result
+### Response: Question: A 12-shelf bookcase has 50 books. 1/4 of the books are on the top shelf, 1/2 of the books are on the 2nd and 3rd shelves, and 1/4 of the books are on the 4th shelf. How many books are on the remaining shelves? Solution: def solution():
+    #Total books
+    total_books = 50
+    #Books on the top shelf
+    books_top_shelf = total_books * 1/4
+    #Books on the 2nd and 3rd shelves
+    books_2nd_3rd_shelves = total_books * 1/2
+    #Books on the 4th shelf
+    books_4th_shelf = total_books * 1/4
+    #Books on the remaining shelves
+    books_remaining_shelves = total_books - books_top_shelf - books_2nd_3rd_shelves - books_4th_shelf
+    return
+### Response: Question: 2432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432432
+### Response: Question: 
+
+Solution: def solution():
+    #The number of 2-dice combinations is 6*6=36
+    #The number of 3-dice combinations is 6*6*6=216
+    #The number of 4-dice combinations is 6*6*6*6=1296
+    #The number of 5-dice combinations is 6*6*6*6*6=7776
+    #The number of 6-dice combinations is 6*6*6*6*6*6=46656
+    #The number of 7-dice combinations is 6*6*6*6*6*6*6=279936
+    #The number of 8-dice combinations is 6*6*6*6*6*6*6*6=1679616
+    #The number of 9-dice combinations is 6*6*6*6*6*6*6*6*6=10077696
+### Response: Question: A lorry is 12000 lbs when it is empty. 10 bags of cement, each weighing 100 lbs, are loaded onto the lorry. 20 more bags of cement, each weighing 100 lbs, are loaded. 10 of the bags of cement are unloaded. How much does the lorry weigh now? Solution: def solution():
+    #The lorry is 12000 lbs when it is empty
+    lorry_empty_weight = 12000
+    #10 bags of cement, each weighing 100 lbs, are loaded
+    bags_loaded_1 = 10
+    bag_weight = 100
+    weight_loaded_1 = bags_loaded_1 * bag_weight
+    #20 more bags of cement, each weighing 100 lbs, are loaded
+    bags_loaded_2 = 20
+    weight_loaded_2 = bags_loaded_2 * bag
+### Response: Question: The cafeteria has 100 forks. 25 forks are in the dishwasher. 15 forks are in the lost and found. 40 forks are in the cutlery drawer. 5 forks are on the cafeteria tables. How many forks are missing? Solution: def solution():
+    #Total forks
+    total_forks = 100
+    #Forks in dishwasher
+    forks_in_dishwasher = 25
+    #Forks in lost and found
+    forks_in_lost_and_found = 15
+    #Forks in cutlery drawer
+    forks_in_cutlery_drawer = 40
+    #Forks on cafeteria tables
+    forks_on_cafeteria_tables = 5
+    #The answer is
+    result = total_forks - forks_in_dishwasher - forks_in_lost_and_found - forks_
+### Response: Question: 2400 people live in a small town. 1/3 of the population are men. 1/2 of the men are married. How many married men live in this town? Solution: def solution():
+    #2400 people live in a small town
+    total_population = 2400
+    #1
+### Response: Question: 2100 people are at a soccer match. 150 more people show up at halftime. 10
+### Response: Question: 12456 is a 5-digit number. How many 4-digit
+### Response: Question: A sack of onions weighs 23 pounds. A sack of potatoes weighs 15 pounds. 5 onion sacks and 7 potato sacks were delivered to a warehouse. How many pounds of onions and potatoes were delivered to the warehouse? Solution: def solution():
+    #A sack of onions weighs 23 pounds
+    onion_sack_weight = 23
+    #A sack of potatoes weighs 15 pounds
+    potato_sack_weight = 15
+    #5 onion sacks and 7 potato sacks were delivered to a warehouse
+    onion_sacks_delivered = 5
+    potato_sacks_delivered = 7
+    #The answer is
+    result = (onion_sack_weight * onion_sacks_delivered) + (potato_sack_weight * potato_sacks_delivered)
+    return result
+### Response: Question: 1800 5th Avenue has 1200 parking spaces. 1200 5th Avenue has 300 more parking spaces. 1500 5th Avenue has 500 parking spaces. 1800 5th Avenue has 2/3 as many parking spaces as 1200 5th Avenue. How many parking spaces are there on 5th Avenue? Solution: def solution():
+    #1200 5th Avenue has 1200 parking spaces
+    parking_spaces_1200 = 1200
+    #1200 5th Avenue has 300 more parking spaces
+    parking_spaces_1200_more = 300
+    #1500 5th Avenue has 500 parking spaces
+    parking_spaces_1500 = 500
+    #1800 5th Avenue has 2/3 as many parking spaces as 1200 5th Avenue
+    par
+### Response: Question: A 250-page
+### Response: Question: If 211212 is the 21st number in a sequence, and 211213 is the 22nd number in the same sequence, what is the 200th number in the sequence? Solution: def solution():
+    #The 21st number in the sequence
+### Response: Question: A 100-watt light
+### Response: Question: 1000 people are in a theater
+### Response: Question: The Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: 500 people are at the mall. 100 more people come in.
+### Response: Question: 10000 people were at a rally. 20
+##
+### Response: Question: The 23-man roster for the 2021 All-Star game was announced. 11 of the players are from the National League and 12 are from the American League. 7 of the National League players are from the East Division and 4 of the American League players are from the Central Division. How many players on the All-Star roster are not from the East or Central Divisions? Solution: def solution():
+    #Total number of players
+    total_players = 23
+    #Players from National League
+    nl_players = 11
+    #Players from American League
+    al_players = 12
+    #Players from East Division (NL)
+    nl_east_players = 7
+    #Players from Central Division (AL)
+    al_central_players = 4
+    #Players not from East or Central Divisions
+    not_east_or_central = total_players - nl_players - al_players + nl_east_players + al_central_players
+    return
+### Response: Question: 3000 calories of energy are equivalent to 12000 Joules of energy. 2000 calories of energy are equivalent to how many J
+### Response: Question: 125 pies were baked for a party. 75 pies were eaten. 25 pies were given away. 10 pies were stolen. 15 pies were in the oven. How many pies are left? Solution: def solution():
+    #125 pies were baked
+    pies_baked = 125
+    #75 pies were eaten
+    pies_eaten = 75
+    #25 pies were given away
+    pies_given_away = 25
+    #10 pies were stolen
+    pies_stolen = 10
+    #15 pies were in the oven
+    pies_in_oven = 15
+    #The answer is
+    result = pies_baked - pies_eaten - pies_given_away - pies_stolen - pies_in_oven
+    return result
+### Response: Question: The B
+### Response: Question: 200.00000000001 is the smallest number that can be expressed as a sum of two integers, a and b, where a/b = 1.99999999999. What is a/b? Solution: def solution():
+### Response: Question: A 5-gallon bucket is 3/4 full of water. A 4-gallon bucket is 3/4 empty of water. If the water from the 4-gallon bucket is poured into the 5-gallon bucket, how full is the 5-gallon bucket? (Buckets in the United States are measured in liquid gallons, which are different from dry gallons. A liquid gallon is 231 cubic inches or 3.785 liters. A dry gallon is 268.8 cubic inches or 4.405 liters.
+
+The 5-gallon bucket is 3/4 full, so it has 3/4 of 5 = 15/4 = 3.75 gallons of water.
+
+The 4-gallon bucket is 3/4 empty, so it has 4 - 3/4 of 4 = 4 - 3 = 1 gallon of water.
+
+If the 1 gallon of water from the 4-gallon bucket is
+### Response: Question: 24000 people live in a city. 25% of the people are children. How many of the city's residents are adults? Solution: def solution():
+    #Total population is
+### Response: Question: 3500 students are enrolled at a university. 2500 of them are undergraduates, and the rest are graduate students. 500 of the undergraduates are in their first year. 200 of the first-year undergraduates are in the honors program. How many undergraduates are not in the honors program? Solution: def solution():
+    #Total students
+    total_students = 3500
+    #Undergraduates
+    undergraduates = 2500
+    #Graduate students
+    graduate_students = total_students - undergraduates
+    #First year undergraduates
+    first_year_undergraduates = 500
+    #Honors program first year undergraduates
+    honors_program_first_year_undergraduates = 200
+    #Undergraduates not in honors program
+    undergraduates_not_in_honors_program = undergraduates - honors_program_first_year_
+### Response: Question: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+### Response: Question: A pizza costs $12.00. 10% of that is the sales tax. 25% of the price of the pizza is the cost of the toppings. 50% of the topping cost is the cost of the pepperoni. 25% of the topping cost is the cost of the mushrooms. 25% of the topping cost is the cost of the onions. How much does a pizza with pepperoni, mushrooms, and onions cost? Solution: def solution():
+    #A pizza costs $12.00
+    pizza_cost = 12.00
+    #10% of that is the sales tax
+    sales_tax = pizza_cost * 0.10
+    #25% of the price of the pizza is the cost of the toppings
+    topping_cost = pizza_cost * 0.25
+    #50% of the topping cost is the cost of the pepperoni
+    pepperoni_cost = topping_cost * 0.50
+### Response: Question: 12000 people live in a small town. 1/10 of the population are children. 1/5 of the children are in the 1st grade. 1/4 of the 1st graders are in a particular school. How many 1st graders in that school? Solution: def solution():
+    #Total population
+    population = 12000
+    #Children are 1/10 of the population
+    children = population / 10
+    #1/5 of the children are in the 1st grade
+    first_graders = children / 5
+    #1/4 of the 1st graders are in a particular school
+    first_graders_in_school = first_graders / 4
+    #The answer is
+    result = first_graders_in_school
+    return result
+### Response: Question: A bakery bakes 200 loaves of bread a day. 93 loaves were sold in the morning and 39 in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread are left? Solution: def solution():
+    #The bakery bakes 200 loaves a day
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning = 93
+    loaves_sold_afternoon = 39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: A toy car is 1/10 the size of a real car. 
+If a toy car is 2.5 inches long, how long is a real car? Solution: def solution():
+    #A toy car is 1/
+### Response: Question: 128 2nd graders and 192 3rd graders are on a field trip. 1/4 of the 2nd graders and 1/8 of the 3rd graders have allergies. How many students on the field trip do not have allergies? Solution: def solution():
+    #Number of 2nd graders
+    2nd_graders = 128
+    #Number of 3rd graders
+    3rd_graders = 192
+    #Fraction of 2nd graders with allergies
+    2nd_graders_fraction = 1/4
+    #Fraction of 3rd graders with allergies
+    3rd_graders_fraction = 1/8
+    #Number of 2nd graders with allergies
+    2nd_graders_with_allergies = 2nd_graders * 2nd_graders_fraction
+    #Number of 3rd graders with allergies
+    3rd_graders_with_allergies =
+### Response: Question: 1222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+### Response: Question: 225 chickens were in a coop. 25 chickens hatched. 15 chickens were sold. 30 chickens died. 40 more chickens hatched. How many chickens are in the coop now? Solution: def solution():
+    #There were 225 chickens
+    chickens_initial = 225
+    #25 chickens hatched
+    chickens_hatched = 25
+    #15 chickens were sold
+    chickens_sold = 15
+    #30 chickens died
+    chickens_died = 30
+    #40 more chickens hatched
+    chickens_hatched_2 = 40
+    #The answer is
+    result = chickens_initial + chickens_hatched - chickens_sold - chickens_died + chickens_hatched_2
+    return result
+### Response: Question: A 12-shelf bookcase has 5 shelves with 6 books, 4 shelves with 3
+### Response: Question: A pizza costs $5. 
+
+If 2 pizzas and 2 cans of soda cost $20, how much does 1 pizza and 1 can of soda cost?
+
+Sol
+### Response: Question: 3120 toys were donated to the orphanage. 120 toys were given to the toddlers, and 520 toys were given to the 5-year-olds. 620 toys were given to the 10-year-olds, and the rest of the toys were given to the 12-year-olds. How many toys were given to the 12-year-olds? Solution: def solution():
+    #3120 toys were donated
+    toys_donated = 3120
+    #120 toys were given to the toddlers
+    toys_toddlers = 120
+    #520 toys were given to the 5-year-olds
+    toys_5_year_olds = 520
+    #620 toys were given to the 10-year-olds
+    toys_10_year_olds = 620
+    #The answer is
+    result = toys_donated - toys_todd
+### Response: Question: A carnival is selling tickets to its rides. A ticket for the Ferris wheel costs 5 dollars. A ticket for the roller coaster costs 3 dollars. A ticket for the bumper cars costs 4 dollars. If the carnival sells 100 tickets for the Ferris wheel, 200 tickets for the roller coaster, and 100 tickets for the bumper cars, how much money does the carnival make? Solution: def solution():
+    #Tickets for the Ferris wheel cost 5 dollars
+    ferris_wheel_ticket_cost = 5
+    #They sold 100 tickets for the Ferris wheel
+    ferris_wheel_tickets_sold = 100
+    #Tickets for the roller coaster cost 3 dollars
+    roller_coaster_ticket_cost = 3
+    #They sold 200 tickets for the roller coaster
+    roller_coaster_tickets_sold = 200
+    #
+### Response: Question: 1800 people are in a theater. 4
+### Response: Question:
+### Response: Question: 1800 students at a high school. 300 of them are in the 12th grade. 200 are in the 11th grade. 500 are in the 10th grade. The rest are in the 9th grade. How many 9th graders are there? Solution: def solution():
+    #Total students
+    total_students = 1800
+    #12th graders
+    twelfth_graders = 300
+    #11th graders
+    eleventh_graders = 200
+    #10th graders
+    tenth_graders = 500
+    #9th graders
+    ninth_graders = total_students - twelfth_graders - eleventh_graders - tenth_graders
+    return ninth_graders
+### Response: Question: There are 150
+### Response: Question: 987 is a three-digit number. How many of the three digits are 7s? Solution: def solution():
+    #The number is 987
+    number = 987
+    #The answer is
+    result = number.count('7')
+    return result
+### Response: Question: 6000 people are in a stadium.
+### Response: Question: A cake of 40 slices was cut into 4 equal pieces. Each piece was then cut into 4 more slices. How many slices is the cake now cut into? Solution: def solution():
+    #A cake of 40 slices
+    cake_s
+### Response: Question: 2400 people live in a small town. 1/6 of the people in the town are children. How many of the people in the town are not children? Solution:
+
+
+### Response: Question: 12000 people in a stadium are watching a soccer game. 20% of the people are wearing red. 30% of the people are wearing blue. 25% of the people are wearing yellow. 15% of the people are wearing green. 10% of the people are wearing other colors. How many people are wearing other colors? Solution: def solution():
+    #Total number of people
+    total_people = 12000
+    #Percentage of people wearing red, blue, yellow, and green
+    red_percent = 0.20
+    blue_percent = 0.30
+    yellow_percent = 0.25
+    green_percent = 0.15
+    #Percentage of people wearing other colors
+    other_colors_percent = 0.10
+    #The answer is
+    result = total_people * other_colors_percent
+    return result
+### Response: Question: A 200-page book is 1/2 inch thick. How thick is a 500-page book? Solution: def solution():
+    #A 200-page book is 1/2 inch thick
+    pages_200 = 1/2
+    #
+### Response: Question: A baker is baking 50 pies. He bakes 5 pies a day for 8 days. How many pies are left to bake? Solution: def solution():
+    #The baker is baking 50 pies
+    pies_
+### Response: Question: A
+### Response: Question: A baker is baking pies. He bakes 12 pies on Monday, 16 pies on Tuesday, 8 pies on Wednesday, and 10 pies on Thursday. How many pies did he bake? Solution: def solution():
+    #The baker baked 12 pies on Monday
+    pies_monday = 12
+    #16 pies on Tuesday
+    pies_tuesday = 16
+    #8 pies on Wednesday
+    pies_wednesday = 8
+    #10 pies on Thursday
+    pies_thursday = 10
+    #The answer is
+    result = pies_monday + pies_tuesday + pies_wednesday + pies_thursday
+    return result
+### Response: Question: 1000000000000000 (1 quintill
+### Response: Question: The number of toys in the toy box is 20. 1/4 of the toys are in the toy box. 1/2 of the toys are on the shelf. 1/8 of the toys are on the floor. 1/16 of the toys are in the trash
+### Response: Question: There are 2000 students at the University of California, Los Angeles. 500 of them are in the College of Letters and Science. 200 of those are in the life sciences. 100 of those are in the cell and developmental biology program. 50 of those are in the honors program. How many students are in the honors program in the cell and developmental biology program in the life sciences in the College of Letters and Science at the University of California, Los Angeles? Solution: def solution():
+    #Total students
+    total_students = 2000
+    #Students in the College of Letters and Science
+    students_in_letters_science = 500
+    #Students in the life sciences
+    students_in_life_sciences = 200
+    #Students in the cell and developmental biology program
+    students_in_cell_developmental_biology = 100
+    #Students in the honors program
+    students_in_honors_program = 50
+
+### Response: Question: The 36-seat theater was 3/4 full. 
+
+How many of the seats were empty? Solution: def solution():
+### Response: Question: A gorilla weighs 400 pounds.  A chimpanzee
+### Response: Question: A sack of potatoes weighs 23 pounds. 20 sacks of potatoes are on a truck. 20 sacks of onions weighing 18 pounds each are on the same truck. 30 sacks of carrots weighing 15 pounds each are also on the truck. How much does the truck weigh in total? Solution: def solution():
+    #A sack of potatoes weighs 23 pounds
+    potatoes_sack_weight = 23
+    #20 sacks of potatoes are on the truck
+    potatoes_sacks = 20
+    #20 sacks of onions weighing 18 pounds each are on the truck
+    onions_sack_weight = 18
+    onions_sacks = 20
+    #30 sacks of carrots weighing 15 pounds each are also on the truck
+    carrots_sack_weight = 15
+    carrots_sacks = 30
+    #The
+### Response: Question: The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+### Response: Question: A bakery baked 400 buns. They sold 120 buns in the morning, 170 buns in the afternoon, and 110 buns in the evening. How many buns are left? Solution: def solution():
+    #The bakery baked 400 buns
+    buns_baked = 400
+    #They sold 120 in the morning, 170 in the afternoon, and 110 in the evening
+    buns_sold_morning = 120
+    buns_sold_afternoon = 170
+    buns_sold_evening = 110
+    #The answer is
+    result = buns_baked - buns_sold_morning - buns_sold_afternoon - buns_sold_evening
+    return result
+### Response: Question: 2000 people are at a soccer game. 200 of the attendees are from the opposing team's city. 100 of the attendees are from the home team's city. 700 of the attendees are from the same state as the home team. How many attendees are from a different state than the home team? Solution: def solution():
+    #Total attendees
+    total_attendees = 2000
+    #Attendees from the opposing team's city
+    opposing_team_city_attendees = 200
+    #Attendees from the home team's city
+    home_team_city_attendees = 100
+    #Attendees from the same state as the home team
+    same_state_attendees = 700
+    #Attendees from a different state than the home team are
+    different_state_attendees = total_attendees - opposing_team_city_attendees - home_team
+### Response: Question: 1000000000000 (1 trillion) is a 1 with 12 zeros.
+### Response: Question: 10000 towels are to be washed. 200 towels can be washed in an hour. How many hours will it take to wash 1
+### Response: Question: 12000 people live in a small town. 1/3 of them are kids. 1/5 of the kids are in the 1st grade. 1/4 of
+### Response: Question: 
+
+A 10-sided die has 10 sides, numbered 1 to 10. 
+
+What is the probability of rolling a 1?
+
+(probability is the chance of an event happening, written as a number from 0 to 1. 
+
+A
+### Response: Question: 12000 people live in a small town. 2500 of them are children. 1/3 of the population are women. How many men are there? Solution: def solution():
+    #Total population is
+### Response: Question: A lorry is 5000 pounds when it's empty. 2000 more pounds are added when it's loaded with cargo. 500 pounds of that cargo is unloaded at the first stop, and 1000 pounds are unloaded at the second stop. How many pounds does the lorry weigh at the end of its journey? Solution: def solution():
+    #The lorry is 5000 pounds when it's empty
+    lorry_empty = 5000
+    #2000 more pounds are added when it's loaded with cargo
+    lorry_loaded = lorry_empty + 2000
+    #500 pounds of that cargo is unloaded at the first stop
+    lorry_first_stop = lorry_loaded - 500
+    #1000 pounds are unloaded at the second stop
+    lorry_end = lorry_first_stop - 1000
+    #The answer is
+    result = lorry_end
+    return result
+### Response: Question: A shoe store sells 1000 shoes a year. 60% of the shoes they sell are sneakers, 20% are heels, and 20% are sandals. 10% of the sneakers and 20% of the heels are returned. 100% of the sandals are kept. How many shoes are not returned? Solution: def solution():
+    #The shoe store sells 1000 shoes a year
+    shoes_sold = 1000
+    #60% of the shoes are sneakers, 20% are heels, and 20% are sandals
+    sneakers = 0.6 * shoes_sold
+    heels = 0.2 * shoes_sold
+    sandals = 0.2 * shoes_sold
+    #10% of the sneakers and 20% of the heels are returned
+    sneakers_returned = 0.1 * sneakers
+    heels_returned
+### Response: Question: 12000 people were at a rally. 3000 more people showed up on the first day. 2000 more people showed up on the second day. 4000 more people showed up on the third day. How many people were at the rally at the end of the third day? Solution: def solution():
+    #There were initially 12000 people
+    people_initial = 12000
+    #3000 more people showed up on the first day
+    people_first_day = 3000
+    #2000 more people showed up on the second day
+    people_second_day = 2000
+    #4000 more people showed up on the third day
+    people_third_day = 4000
+    #The answer is
+    result = people_initial + people_first_day + people_second_day + people_third_day
+    return result
+### Response: Question: A pond has 342 tadpoles. 289 of them metamorphose into toads. 134 of the toads are eaten by a snake. 58 of the remaining toads leave the pond. 132 of the toads in the pond are toadpoles. How many toads are left in the pond? Solution: def solution():
+    #There were 342 tadpoles
+    tadpoles = 342
+    #289 of them metamorphose into toads
+    toads_from_tadpoles = 289
+    #134 of the toads are eaten by a snake
+    toads_eaten = 134
+    #58 of the remaining toads leave the pond
+    toads_left = 58
+    #132 of the toads in the pond are toadpoles
+    toadpoles = 132
+    #The answer is
+    result = toads_from_tadpoles -
+### Response: Question: A baker is making a cake. He needs 12 cups of flour. He has 3 bags of flour. If each bag has 4 cups of flour, how many more cups of flour does he need? Solution: def solution():
+    #The baker needs 12 cups of flour
+    flour_needed = 12
+    #He has 3 bags of flour
+    bags_of_flour = 3
+    #Each bag has 4 cups of flour
+    flour_per_bag = 4
+    #The baker has
+    flour_he_has = bags_of_flour * flour_per_bag
+    #cups of flour. The answer is
+    result = flour_needed - flour_he_has
+    return result
+### Response: Question: The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in
+### Response: Question: A 10-pound sack of flour and a 5-pound sack of sugar cost $11.50. A 5-pound sack of flour and a 10-pound sack of sugar cost $13.50. How much does a 10-pound sack of sugar cost? Solution: def solution
+### Response: Question: 45000 people are at a soccer match. 15000 of them are from Spain, 20000 are from Portugal, and the
+### Response: Question: A 16-ounce soda has 12 ounces of water, 3 ounces of sugar, and the rest is flavoring. How many ounces of flavoring
+### Response: Question: 2400 people are in a theater. 1200 of them are men. 700 of the women are wearing hats. 500 of the men are wearing hats. How many people in the theater are not wearing hats? Solution: def solution():
+    #Total number of people in the theater
+    total_people = 2400
+    #Number of men in the theater
+    men = 1200
+    #Number of women in the theater
+    women = total_people - men
+    #Number of women wearing hats
+    hats_women = 700
+    #Number of men wearing hats
+    hats_men = 500
+    #Number of people wearing hats
+    hats = hats_women + hats_men
+    #Number of people not wearing hats
+    no_hats = total_people - hats
+    return no_hats
+### Response: Question: 1200 people were at the 2012 Summer Olympics. 500 more people were at the 2016 Summer Olympics. 1/4 of the 2016 attendees were from the United States. How many people from the United States were at the 2016 Summer Olympics? Solution: def solution():
+    #2012 Summer Olympics attendees
+    attendees_2012 = 1200
+    #2016 Summer Olympics attendees
+    attendees_2016 = attendees_2012 + 500
+    #2016 attendees from the US
+    attendees_us_2016 = attendees_2016 * 1/4
+    #The answer is
+    result = attendees_us_2016
+    return result
+### Response: Question: 154 oranges, 137 apples, and 129 pears are in a crate. 10% of the oranges, 25% of the apples, and 5% of the pears are rotten. 20%
+### Response: Question: 1240 toothpicks were used to make 500 aesthetic-looking toothpick sculptures. 120 toothpicks were used for each sculpture. 1/4 of the toothpicks used were left over. How many toothpicks were in the leftovers? Solution: def solution():
+    #1240 toothpicks were used
+    toothpicks_used = 1240
+    #120 toothpicks were used for each sculpture
+    toothpicks_per_sculpture = 120
+    #500 sculptures were made
+    sculptures_made = 500
+    #The answer is
+    result = toothpicks_used - toothpicks_per_sculpture * sculptures_made
+    return result
+### Response:
+### Response: Question: A bakery sells 12 baguettes, 30 croissants, and 16 scones. The baguettes and scones are baked in the morning. The croissants are baked in the afternoon. How many more croissants are baked than baguettes and scones? Solution: def solution():
+    #baguettes, croissants, and scones are sold
+    baguettes = 12
+    croissants = 30
+    scones = 16
+    #baguettes and scones are baked in the morning
+    morning_baked = baguettes + scones
+    #croissants are baked in the afternoon
+    afternoon_baked = croissants
+    #The answer is
+    result = afternoon_baked - morning_baked
+    return result
+### Response: Question: A 25-gallon aquarium and a 50-gallon aquarium are both 10% full. How many more gallons of water are in the 50-gallon aquarium than in the 25-gallon aquarium? Solution: def solution():
+    #25-gallon aquarium is 10% full
+    gallons_25_gallon = 25 * 0.1
+    #50-gallon aquarium is 10% full
+    gallons_50_gallon = 50 * 0.1
+    #The 50-gallon aquarium has
+    more_gallons = gallons_50_gallon - gallons_25_gallon
+    #more water. The answer is
+    result = more_gallons
+    return result
+### Response
+### Response: Question: The 12-year-old is 48 inches tall. The 14-year-old is 60 inches tall. The 16-year-old is 72 inches tall. How many inches taller is the 16-year-old than the 12-year-old? Solution: def solution():
+    #The 12-year-old is 48 inches tall
+    height_12_year_old = 48
+    #The 14-year-old is 60 inches tall
+    height_14_year_old = 60
+    #The 16-year-old is 72 inches tall
+    height_16_year_old = 72
+    #The 16-year-old is
+    taller_16_year_old = height_16_year_old - height_12_year_old
+    #inches taller than the 12-year-old. The answer is
+    result = taller_16_year_old
+    return result
+### Response: Question: 2500 sticks of gum were in a warehouse. 1250 of the sticks of gum were shipped to a store in New York. 750 of the sticks of gum were shipped to a store in Chicago. 500 of the sticks of gum were shipped to a store in Los Angeles. How many sticks of gum are left in the warehouse? Solution: def solution():
+    #There were 2500 sticks of gum
+    sticks_of_gum = 2500
+    #1250 were shipped to New York
+    gum_shipped_ny = 1250
+    #750 were shipped to Chicago
+    gum_shipped_chicago = 750
+    #500 were shipped to Los Angeles
+    gum_shipped_la = 500
+    #The answer is
+    result = sticks_of_gum - gum_shipped_ny - gum_shipped_chicago - gum_
+### Response: Question: The 23-pound turkey was 120 degrees when it was taken out of the oven. It cools to 100 degrees in the first 15 minutes, then 10 degrees every 15 minutes after that. What is the temperature of the turkey 45 minutes after it was taken out of the oven? Solution: def solution():
+    #Initial temperature of the turkey
+    initial_temperature = 120
+    #Final temperature of the turkey after 15 minutes
+    final_temperature = 100
+    #Rate of cooling after 15 minutes
+    cooling_rate = 10
+    #Time in minutes
+    time = 45
+    #The answer is
+    result = final_temperature + (initial_temperature - final_temperature) * (1 - (cooling_rate * (time - 15) / 15))
+    return result

@@ -1,0 +1,703 @@
+,question,solution,answer
+0,Superman can leap 1000 feet in a single bound.  How far can he leap in 5 minutes if he leaps 10 times a minute?,"def solution():
+    #Superman can leap 1000 feet in a single bound
+    leap_distance = 1000
+    #He leaps 10 times a minute
+    leaps_per_minute = 10
+    #There are 5 minutes
+    minutes = 5
+    #The answer is
+    result = leap_distance * leaps_per_minute * minutes
+    return result",50000.0
+1,Superman can leap 2000 feet in a single bound.  How many miles can he leap in 500 bounds?,"def solution():
+    #Superman can leap 2000 feet in a single bound
+    leap_per_bound = 2000
+    #A mile is 5280 feet
+    feet_per_mile = 5280
+    #He can leap 500 bounds
+    bounds = 500
+    #The answer is
+    result = (leap_per_bound * bounds) / feet_per_mile
+    return result",189.3939393939394
+2,"Superman can leap 1000 feet in a single bound.  If he leaps 1000 feet 10 times, how many miles has he leaped? (1 mile = 5280 feet)","def solution():
+    #Superman leaps 1000 feet at a time
+    leap_distance = 1000
+    #He leaps 10 times
+    leap_times = 10
+    #1 mile is 5280 feet
+    mile_distance = 5280
+    #The answer is
+    result = (leap_distance * leap_times) / mile_distance
+    return result",1.893939393939394
+3,"Superman can leap 1,000 feet in a single bound.  How far can he leap in 3 bounds?","def solution():
+    #Superman can leap 1,000 feet in a single bound
+    leap_per_bound = 1000
+    #He leaps 3 times
+    num_bounds = 3
+    #The answer is
+    result = leap_per_bound * num_bounds
+    return result",3000.0
+4,Superman can run at a speed of 250 miles per hour. He is chasing a criminal. The criminal has a 5-mile head start. How long will it take Superman to catch up with the criminal? (Round your answer to the nearest tenth.),"def solution():
+    #Superman's speed
+    superman_speed = 250
+    #Criminal's head start
+    criminal_head_start = 5
+    #Time for Superman to catch up
+    time = criminal_head_start / superman_speed
+    #Round to the nearest tenth
+    time = round(time, 1)
+    return time",0.0
+5,"Superman is 6'4"" tall.  He has a 3-year-old son.  How tall will his son be in 20 years if he's 60% of Superman's height now?","def solution():
+    #Superman is 6'4"" tall, which is 76 inches
+    superman_height = 76
+    #His son is 60% of his height
+    son_height_now = superman_height * 0.60
+    #In 20 years, his son will be 23
+    son_age_in_20_years = 3 + 20
+    #A 23-year-old male is 5.5"" taller than he was at 3
+    son_height_in_20_years = son_height_now + 5.5
+    #The answer is
+    result = son_height_in_20_years
+    return result",51.1
+6,"Superman can fly at a speed of 2,0 000 miles per hour.  He can also run at a speed of 3,000 miles per hour.  If he flies for 3 hours and then runs for 4 hours, how far has he traveled?","def solution():
+    #Superman can fly at a speed of 2,000 miles per hour
+    superman_fly_speed = 2000
+    #He can also run at a speed of 3,000 miles per hour
+    superman_run_speed = 3000
+    #If he flies for 3 hours and then runs for 4 hours,
+    fly_hours = 3
+    run_hours = 4
+    #The answer is
+    result = (superman_fly_speed * fly_hours) + (superman_run_speed * run_hours)
+    return result",18000.0
+7,Superman is 8.2 feet tall. He is 3.2 feet taller than the average man. How tall is the average man?,"def solution():
+    #Superman is 8.2 feet tall
+    superman_height = 8.2
+    #He is 3.2 feet taller than the average man
+    average_man_height_difference = 3.2
+    #The average man's height is
+    average_man_height = superman_height - average_man_height_difference
+    return average_man_height",4.999999999999999
+8,Superman can fly at 400 miles per hour. He has to fly from the Bermuda Triangle to the Black Sea. The Bermuda Triangle is 1200 miles from the Black Sea. How long will it take Superman to get there?,"def solution():
+    #Superman can fly at 400 miles per hour
+    superman_speed = 400
+    #The Bermuda Triangle is 1200 miles from the Black Sea
+    distance = 1200
+    #The answer is
+    result = distance / superman_speed
+    return result",3.0
+9,Superman can bench press 1000 pounds.  He can do this 100 times.  How many pounds has he lifted?,"def solution():
+    #Superman can bench press 1000 pounds
+    bench_press = 1000
+    #He can do this 100 times
+    times = 100
+    #The answer is
+    result = bench_press * times
+    return result",100000.0
+10,"Superman can fly at a top speed of 1,030 miles per hour. He can also run at 250 miles per hour. 
+
+If he flies for 4 hours and then runs for 2 hours, how far has he traveled?","def solution():
+    # Superman's top speeds
+    superman_fly_speed = 1030
+    superman_run_speed = 250
+
+    # Time he flies and runs
+    superman_fly_time = 4
+    superman_run_time = 2
+
+    # The distance he flies and runs
+    superman_fly_distance = superman_fly_speed * superman_fly_time
+    superman_run_distance = superman_run_speed * superman_run_time
+
+    # The total distance he travels
+    total_distance = superman_fly_distance + superman_run_distance
+
+    return total_distance",4620.0
+11,Superman is 2000 feet in the air. He flies down at a rate of 1000 feet per minute. How many minutes does it take for him to land?,"def solution():
+    #Superman is 2000 feet in the air
+    height_in_feet = 2000
+    #He flies down at a rate of 1000 feet per minute
+    rate_of_descent = 1000
+    #The answer is
+    result = height_in_feet / rate_of_descent
+    return result",2.0
+12,Superman is 2000 feet above the ground. He flies down 500 feet per second. How many seconds does it take for him to get to the ground?,"def solution():
+    #Superman is 2000 feet above the ground
+    superman_height = 2000
+    #He flies down 500 feet per second
+    superman_speed = 500
+    #The answer is
+    result = superman_height / superman_speed
+    return result",4.0
+13,"If Superman can bench press 2500 lbs, and he can increase that by 200 lbs. every 6 months, how much will he be able to bench press after a year and a half?","def solution():
+    #Superman can bench press 2500 lbs
+    bench_press_initial = 2500
+    #He can increase that by 200 lbs every 6 months
+    bench_press_increase = 200
+    #There are 3 6-month periods in a year and a half
+    num_periods = 3
+    #The answer is
+    result = bench_press_initial + bench_press_increase * num_periods
+    return result",3100.0
+14,"Superman can fly at a speed of 1,0-000 miles per hour. He is 1,200,000 miles from the Earth. How long will it take him to get to Earth?","def solution():
+    #Superman's speed
+    superman_speed = 1000
+    #Distance to Earth
+    earth_distance = 1200000
+    #Time = Distance / Speed
+    time = earth_distance / superman_speed
+    return time",1200.0
+15,"If Superman can leap a 20-story building in a single bound, how many stories can he leap in 5 bounds?","def solution():
+    #Superman can leap a 20-story building in a single bound
+    stories_per_bound = 20
+    #He can leap 5 bounds
+    bounds = 5
+    #The answer is
+    result = stories_per_bound * bounds
+    return result",100.0
+16,"If Superman can leap a 12-story building in a single bound, and a 12-story building is 120 feet tall, how many feet can Superman leap in a single bound?","def solution():
+    # A 12-story building is 120 feet tall
+    building_height = 120
+    # Superman can leap a 12-story building in a single bound
+    superman_leap = building_height
+    return superman_leap",120.0
+17,Superman is 5000 feet above the ground. He flies down at a rate of 1000 feet per minute for 3 minutes. He then flies up at a rate of 500 feet per minute for 2 minutes. How high is he above the ground?,"def solution():
+    #Superman is 5000 feet above the ground
+    height_initial = 5000
+    #He flies down at a rate of 1000 feet per minute for 3 minutes
+    down_rate = 1000
+    down_time = 3
+    down_distance = down_rate * down_time
+    #He then flies up at a rate of 500 feet per minute for 2 minutes
+    up_rate = 500
+    up_time = 2
+    up_distance = up_rate * up_time
+    #The answer is
+    result = height_initial - down_distance + up_distance
+    return result",3000.0
+18,Superman can leap 2000 feet in a single bound.  How many miles can he leap in a single bound if there are 5280 feet in a mile?,"def solution():
+    #Superman can leap 2000 feet in a single bound
+    feet_in_single_bound = 2000
+    #There are 5280 feet in a mile
+    feet_in_a_mile = 5280
+    #The answer is
+    result = feet_in_single_bound / feet_in_a_mile
+    return result",0.3787878787878788
+19,"Superman can fly 2000 miles per hour. It is a 10,000-mile journey from the Earth to the Sun. How many hours does it take for Superman to fly from the Earth to the Sun?","def solution():
+    #Superman can fly 2000 miles per hour
+    superman_speed = 2000
+    #The distance from the Earth to the Sun is 10,000 miles
+    earth_to_sun_distance = 10000
+    #The answer is
+    result = earth_to_sun_distance / superman_speed
+    return result",5.0
+20,"Superman can punch 10,000 times a minute.  How many punches can he do in 20 minutes?","def solution():
+    #Superman can punch 10,000 times a minute
+    punches_per_minute = 10000
+    #He can punch for 20 minutes
+    minutes = 20
+    #The answer is
+    result = punches_per_minute * minutes
+    return result",200000.0
+21,Superman can use his heat vision to melt 1000 pounds of steel in 2 hours. How many pounds of steel can he melt in 12 hours?,"def solution():
+    #Superman can melt 1000 pounds of steel in 2 hours
+    pounds_per_hour = 1000 / 2
+    #How many pounds of steel can he melt in 12 hours
+    pounds_in_12_hours = pounds_per_hour * 12
+    return pounds_in_12_hours",6000.0
+22,Superman has 2000 lives. Lex Luthor kills him 300 times. How many lives does Superman have left?,"def solution():
+    #Superman has 2000 lives
+    superman_lives = 2000
+    #Lex Luthor kills him 300 times
+    lex_luthor_kills = 300
+    #The answer is
+    result = superman_lives - lex_luthor_kills
+    return result",1700.0
+23,Superman can leap 1000 feet in a single bound.  How far can he leap in 5 bounds?,"def solution():
+    #Superman can leap 1000 feet in a single bound
+    leap_per_bound = 1000
+    #He leaps 5 times
+    num_bounds = 5
+    #The answer is
+    result = leap_per_bound * num_bounds
+    return result",5000.0
+24,Superman is 1000 times as strong as a human. 1000 humans can lift a 1000-ton boulder. How many boulders of the same weight can Superman lift?,"def solution():
+    #1000 humans can lift a 1000-ton boulder
+    humans = 1000
+    boulder_weight = 1000
+    #Superman is 1000 times as strong as a human
+    superman_strength = 1000
+    #The answer is
+    result = (humans * boulder_weight) / superman_strength
+    return result",1000.0
+25,Superman is 5000 times stronger than an average human.  An average human can lift 50 pounds.  How much can Superman lift?,"def solution():
+    #Superman is 5000 times stronger than an average human
+    superman_strength = 5000
+    #An average human can lift 50 pounds
+    human_strength = 50
+    #The answer is
+    result = superman_strength * human_strength
+    return result",250000.0
+26,"Superman can bench press 2500 pounds.  He is 10 times stronger than the strongest human, who can bench press 250 pounds.  How many more pounds can Superman bench press than the strongest human?","def solution():
+    #Superman can bench press 2500 pounds
+    superman_bench_press = 2500
+    #The strongest human can bench press 250 pounds
+    human_bench_press = 250
+    #Superman is 10 times stronger than the strongest human
+    #The answer is
+    result = superman_bench_press - human_bench_press
+    return result",2250.0
+27,"Superman can fly at 3000 miles per hour. How many hours would it take for him to fly 15,000 miles?","def solution():
+    #Superman can fly at 3000 miles per hour
+    speed = 3000
+    #He has to fly 15,000 miles
+    distance = 15000
+    #The answer is
+    result = distance / speed
+    return result",5.0
+28,Superman can fly at 5000 miles per hour. He has to fly from the Bermuda Triangle to the Mariana Trench. The Bermuda Triangle is 1300 miles from the Mariana Trench. How many hours will it take Superman to fly there?,"def solution():
+    #Superman can fly at 5000 miles per hour
+    speed = 5000
+    #He has to fly 1300 miles
+    distance = 1300
+    #The answer is
+    result = distance / speed
+    return result",0.26
+29,"Superman is 6'3"" tall.  He is 10% taller than the average man.  How tall is the average man?","def solution():
+    #Superman is 6'3"" tall
+    superman_height = 6.3
+    #He is 10% taller than the average man
+    average_man_height = superman_height - (0.1 * superman_height)
+    return average_man_height",5.67
+30,Superman can fly at a top speed of 12000000 feet per second. How far can he fly in 2000 seconds?,"def solution():
+    #Superman's top speed
+    superman_speed = 12000000
+    #Time in seconds
+    time = 2000
+    #The answer is
+    result = superman_speed * time
+    return result",24000000000.0
+31,Superman can leap 1000 feet in a single bound.  He has to leap 1000 feet 3 times to save 3 people.  How far has he leapt?,"def solution():
+    #Superman leaps 1000 feet in a single bound
+    leap_distance = 1000
+    #He has to leap 3 times to save 3 people
+    leap_times = 3
+    #The answer is
+    result = leap_distance * leap_times
+    return result",3000.0
+32,"Superman is 10 times as strong as a normal human.  He is also 100 times as fast.  A normal human can punch a hole in a 200-pound block of ice.  How much ice, in pounds, can Superman punch a hole in?","def solution():
+    #A normal human can punch a hole in a 200-pound block of ice
+    human_strength = 200
+    #Superman is 10 times as strong as a normal human
+    superman_strength = 10 * human_strength
+    #A normal human can punch a hole in a 200-pound block of ice
+    human_speed = 200
+    #Superman is 100 times as fast as a normal human
+    superman_speed = 100 * human_speed
+    #The answer is
+    result = superman_strength * superman_speed
+    return result",40000000.0
+33,Superman can leap 600 feet in a single bound.  How far can he leap in 30 seconds if he leaps 3 times per second?,"def solution():
+    #Superman can leap 600 feet in a single bound
+    leap_distance = 600
+    #He leaps 3 times per second
+    leaps_per_second = 3
+    #For 30 seconds
+    seconds = 30
+    #The answer is
+    result = leap_distance * leaps_per_second * seconds
+    return result",54000.0
+34,Superman can fly 200 miles in 20 minutes. How far can he fly in 3 hours?,"def solution():
+    #Superman flies 200 miles in 20 minutes
+    miles_per_minute = 200 / 20
+    #3 hours is 180 minutes
+    minutes_3_hours = 3 * 60
+    #The answer is
+    result = miles_per_minute * minutes_3_hours
+    return result",1800.0
+35,Superman can bench press 3000 pounds.  He can bench press 20% more than that if he eats a Snickers bar.  How much can he bench press after eating 2 Snickers bars?,"def solution():
+    #Superman can bench press 3000 pounds
+    bench_press = 3000
+    #He can bench press 20% more than that if he eats a Snickers bar
+    snickers_bar_increase = 0.20
+    #He ate 2 Snickers bars
+    snickers_bars = 2
+    #The answer is
+    result = bench_press + (bench_press * (snickers_bar_increase * snickers_bars))
+    return result",4200.0
+36,"Superman can fly at a speed of 3,0_000 miles per hour. He is 500,000 miles away from his home, the planet Krypton. How long will it take him to get there?","def solution():
+    #Superman can fly at a speed of 3,000 miles per hour
+    superman_speed = 3000
+    #He is 500,000 miles away from his home
+    distance = 500000
+    #The answer is
+    result = distance / superman_speed
+    return result",166.66666666666666
+37,Superman can leap 1000 feet in a single bound. How far can he leap in 50 bounds?,"def solution():
+    #Superman's leap distance is 1000 feet
+    superman_leap_distance = 1000
+    #He is leaping 50 times
+    leaps = 50
+    #The answer is
+    result = superman_leap_distance * leaps
+    return result",50000.0
+38,Superman can run at a speed of 5000 miles per hour. He is chasing a criminal who is in a car. The criminal is 500 miles ahead of him. How many hours will it take for Superman to catch the criminal?,"def solution():
+    #Superman's speed is 5000 miles per hour
+    superman_speed = 5000
+    #The criminal is 500 miles ahead of him
+    criminal_distance = 500
+    #The answer is
+    result = criminal_distance / superman_speed
+    return result",0.1
+39,"Superman is 180 centimeters tall. 
+His cape is 30 centimeters long. 
+His boots are 20 centimeters tall. 
+How tall is Superman with his cape and boots?","def solution():
+    # Superman's height
+    superman_height = 180
+    # Length of cape
+    cape_length = 30
+    # Height of boots
+    boots_height = 20
+    # The answer is
+    result = superman_height + cape_length + boots_height
+    return result",230.0
+40,"Superman is 5000 times stronger than an average person. If an average person can lift 200 pounds, how much can Superman lift?","def solution():
+    #Superman is 5000 times stronger than an average person
+    superman_strength_factor = 5000
+    #An average person can lift 200 pounds
+    average_person_lift = 200
+    #The answer is
+    result = superman_strength_factor * average_person_lift
+    return result",1000000.0
+41,Superman can punch 20 times in a second. 20% of his punches are in the air. How many punches does he land in 5 minutes?,"def solution():
+    #Superman can punch 20 times in a second
+    punches_per_second = 20
+    #20% of his punches are in the air
+    punches_in_air_percent = 0.20
+    #5 minutes is 300 seconds
+    time_in_seconds = 5 * 60
+    #The answer is
+    result = punches_per_second * (1 - punches_in_air_percent) * time_in_seconds
+    return result",4800.0
+42,"Superman is 5000 times stronger than a human. If a human can lift 100 pounds, how much can Superman lift?","def solution():
+    #A human can lift 100 pounds
+    human_lift = 100
+    #Superman is 5000 times stronger than a human
+    superman_lift = human_lift * 5000
+    #The answer is
+    result = superman_lift
+    return result",500000.0
+43,Superman's cape is 5000 square feet.  He is in a 1000000 square foot warehouse.  How many capes does he need to cover the warehouse floor?,"def solution():
+    #Superman's cape is 5000 square feet
+    cape_size = 5000
+    #He is in a 1000000 square foot warehouse
+    warehouse_size = 1000000
+    #The answer is
+    result = warehouse_size / cape_size
+    return result",200.0
+44,"Superman can fly 300 miles per hour. He is 2400 miles from the Bermuda Triangle. If he flies for 4 hours, how many miles is he from the Bermuda Triangle?","def solution():
+    #Superman can fly 300 miles per hour
+    superman_speed = 300
+    #He is 2400 miles from the Bermuda Triangle
+    superman_distance_from_bermuda = 2400
+    #He flies for 4 hours
+    superman_flying_time = 4
+    #The answer is
+    result = superman_distance_from_bermuda - (superman_speed * superman_flying_time)
+    return result",1200.0
+45,"Superman can leap 300 feet in a single bound.  If he leaps 300 feet 10 times, how far has he traveled?","def solution():
+    #Superman can leap 300 feet in a single bound
+    leap_distance = 300
+    #He leaps 300 feet 10 times
+    leap_count = 10
+    #The answer is
+    result = leap_distance * leap_count
+    return result",3000.0
+46,"If Superman can run at 400 miles per hour, and he has to go 4000 miles, how many hours will it take him to get there?","def solution():
+    #Superman's speed
+    superman_speed = 400
+    #Distance to travel
+    distance = 4000
+    #Time is
+    time = distance / superman_speed
+    return time",10.0
+47,"Superman can leap 1.5 miles in a single bound. 
+
+How many leaps does it take for him to travel 12.1 miles? 
+
+(Assume that each leap is in a straight line and that he never has to leap in a different direction to travel the 12.1 miles.)","def solution():
+    #Superman can leap 1.5 miles
+    leap_distance = 1.5
+    #He has to travel 12.1 miles
+    travel_distance = 12.1
+    #The answer is
+    result = travel_distance / leap_distance
+    return result",8.066666666666666
+48,Superman can punch 500 times in 10 minutes. 20% of his punches are super punches. How many super punches can he throw in 10 minutes?,"def solution():
+    #Superman can punch 500 times in 10 minutes
+    punches_per_minute = 500 / 10
+    #20% of his punches are super punches
+    super_punches_per_minute = punches_per_minute * 0.2
+    #The answer is
+    result = super_punches_per_minute
+    return result",10.0
+49,"Superman can leap a building 100 feet tall in a single bound.  If the building he'atening to topple over is 1000 feet tall, how many bounds will it take him to leap to the top of the building?","def solution():
+    #Superman can leap 100 feet in a single bound
+    superman_leap = 100
+    #The building is 1000 feet tall
+    building_height = 1000
+    #The answer is
+    result = building_height / superman_leap
+    return result",10.0
+50,Superman can punch 500 times per minute.  How many punches can he deliver in 10 minutes?,"def solution():
+    #Superman can punch 500 times per minute
+    punches_per_minute = 500
+    #How many punches can he deliver in 10 minutes?
+    minutes = 10
+    #The answer is
+    result = punches_per_minute * minutes
+    return result",5000.0
+51,"Superman has 3000 ""S"" symbols. He has to use 3 ""S"" symbols for each of his 2000 deeds. How many ""S"" symbols does he have left?","def solution():
+    #Superman started with 3000 ""S"" symbols
+    s_symbols_initial = 3000
+    #He has to use 3 ""S"" symbols for each of his 2000 deeds
+    s_symbols_per_deed = 3
+    #He has 2000 deeds
+    deeds = 2000
+    #The answer is
+    result = s_symbols_initial - s_symbols_per_deed * deeds
+    return result",-3000.0
+52,Superman can fly at a top speed of 5000 miles per hour. He flies from New York to London in 4.5 hours. How many miles did he fly?,"def solution():
+    #Superman's top speed is 5000 miles per hour
+    top_speed = 5000
+    #He flies from New York to London in 4.5 hours
+    hours_flown = 4.5
+    #The distance is
+    distance = top_speed * hours_flown
+    return distance",22500.0
+53,"If it takes Superman 20 minutes to mow a lawn, how many lawns can he mow in 2 hours?","def solution():
+    #Superman mows a lawn in 20 minutes
+    lawns_per_hour = 60 / 20
+    #2 hours is 120 minutes
+    minutes_2_hours = 120
+    #The answer is
+    result = lawns_per_hour * minutes_2_hours
+    return result",360.0
+54,"Superman can punch 200 times per minute. 
+How many punches can he throw in 10 minutes?","def solution():
+    #Superman can punch 200 times per minute
+    punches_per_minute = 200
+    #How many punches can he throw in 10 minutes?
+    punches_in_10_minutes = punches_per_minute * 10
+    return punches_in_10_minutes",2000.0
+55,"If Superman can leap 1000 feet in a single bound, how far can he leap in 5000 bounds?","def solution():
+    #Superman can leap 1000 feet in a single bound
+    single_bound = 1000
+    #He can leap in 5000 bounds
+    bounds = 5000
+    #The answer is
+    result = single_bound * bounds
+    return result",5000000.0
+56,"Superman can fly at a speed of 5000 miles per hour. How long, in hours, would it take him to fly to the Moon, 238,900 miles away?","def solution():
+    #Superman's speed
+    superman_speed = 5000
+    #Distance to the Moon
+    moon_distance = 238900
+    #The answer is
+    result = moon_distance / superman_speed
+    return result",47.78
+57,Superman is 2000 feet in the air. He can descend at a rate of 100 feet per second. How many seconds will it take for him to get to the ground?,"def solution():
+    #Superman is 2000 feet in the air
+    height = 2000
+    #He can descend at a rate of 100 feet per second
+    rate = 100
+    #The answer is
+    result = height / rate
+    return result",20.0
+58,"If it takes 1000 years for a Kryptonite rock to form, how many Kryptonite rocks will form in 500,000 years?","def solution():
+    #One Kryptonite rock takes 1000 years to form
+    kryptonite_rock_time = 1000
+    #500,000 years is 500,000/1000 = 500 Kryptonite rocks
+    kryptonite_rocks_formed = 500000 / kryptonite_rock_time
+    return kryptonite_rocks_formed",500.0
+59,"If Superman can leap 1000 feet in a single bound, and he does that 1000 times, how many miles has he traveled? (1 mile = 5280 feet)","def solution():
+    #Superman can leap 1000 feet in a single bound
+    single_bound_feet = 1000
+    #He does this 1000 times
+    bounds = 1000
+    #1 mile is 5280 feet
+    mile_feet = 5280
+    #The answer is
+    result = (single_bound_feet * bounds) / mile_feet
+    return result",189.3939393939394
+60,"Superman can fly at a speed of 3,000 miles per hour. He is 2,000 miles from the sun. How many hours will it take for him to get to the sun?","def solution():
+    #Superman's speed
+    superman_speed = 3000
+    #Distance to the sun
+    distance_to_sun = 2000
+    #Time to get to the sun
+    time_to_sun = distance_to_sun / superman_speed
+    return time_to_sun",0.6666666666666666
+61,"Superman can leap 1000 feet in a single bound.  If he leaps 1000 feet 10 times, how many miles has he traveled? (1 mile = 5280 feet)","def solution():
+    #Superman can leap 1000 feet in a single bound
+    leap_distance = 1000
+    #He leaps 1000 feet 10 times
+    leap_times = 10
+    #1 mile = 5280 feet
+    mile_distance = 5280
+    #The answer is
+    result = (leap_distance * leap_times) / mile_distance
+    return result",1.893939393939394
+62,"If Superman can leap a 20-story building in a single bound, how many stories can he leap in 5 bounds?","def solution():
+    #Superman can leap 20 stories in a single bound
+    stories_per_bound = 20
+    #He leaps 5 times
+    num_bounds = 5
+    #The answer is
+    result = stories_per_bound * num_bounds
+    return result",100.0
+63,"Superman can fly at a top speed of 3,000 miles per hour.  It is 2,500 miles from the Earth to the moon.  How many hours will it take Superman to fly to the moon?","def solution():
+    #Superman's top speed
+    superman_speed = 3000
+    #Distance from the Earth to the Moon
+    earth_moon_distance = 2500
+    #The answer is
+    result = earth_moon_distance / superman_speed
+    return result",0.8333333333333334
+64,"Superman has 5000 shirts. He wears 100 shirts a day, 500 shirts a week, and 2000 shirts a month. How many shirts does he have left at the end of the year?","def solution():
+    #Superman started with 5000 shirts
+    shirts_initial = 5000
+    #He wears 100 shirts a day, 500 shirts a week, and 2000 shirts a month
+    shirts_per_day = 100
+    shirts_per_week = 500
+    shirts_per_month = 2000
+    #There are 30 days in a month and 12 months in a year
+    days_per_month = 30
+    months_per_year = 12
+    #He wears
+    shirts_worn_per_day = shirts_per_day * days_per_month * months_per_year
+    #The answer is
+    result = shirts_initial - shirts_worn_per_day
+    return result",-31000.0
+65,Superman can punch 200 times per minute. How many punches can he throw in 10 minutes?,"def solution():
+    #Superman can punch 200 times per minute
+    punches_per_minute = 200
+    #He can punch 200 times in 1 minute
+    punches_1_minute = punches_per_minute
+    #He can punch 200 times in 10 minutes
+    punches_10_minutes = punches_1_minute * 10
+    #The answer is
+    result = punches_10_minutes
+    return result",2000.0
+66,Superman can fly 1000 miles in 20 minutes.  How many miles can he fly in 2 hours?,"def solution():
+    #Superman can fly 1000 miles in 20 minutes
+    miles_20_minutes = 1000
+    #20 minutes is 1/6 of an hour, so he can fly
+    miles_per_hour = miles_20_minutes / (20 / 60)
+    #2 hours is 2/6 of an hour, so he can fly
+    miles_2_hours = miles_per_hour * (2 / 6)
+    #The answer is
+    result = miles_2_hours
+    return result",1000.0
+67,"Superman can run at a top speed of 1,000,000 miles per hour.  He is 1,000,000 times faster than a turtle.  How fast is a turtle?","def solution():
+    #Superman can run at a top speed of 1,000,000 miles per hour
+    superman_speed = 1000000
+    #He is 1,000,000 times faster than a turtle
+    turtle_speed = superman_speed / 1000000
+    #The answer is
+    result = turtle_speed
+    return result",1.0
+68,"Superman can fly at a speed of 1,200 miles per hour. He has to fly 5,000 miles to get to his destination. How many hours will it take him to get there?","def solution():
+    #Superman flies at a speed of 1,200 miles per hour
+    superman_speed = 1200
+    #He has to fly 5,000 miles
+    distance = 5000
+    #The answer is
+    result = distance / superman_speed
+    return result",4.166666666666667
+69,,"def solution():
+    #Superman is 6'2""
+    superman_height = 6.2
+    #Krypton is 2.5 times the size of Earth
+    earth_size = 2.5
+    #The answer is
+    result = superman_height * earth_size
+    return result",15.5
+70,"If Superman can bench press 2000 pounds, and can increase that by 200 pounds per year, how much will he be able to bench press in 10 years?","def solution():
+    #Superman can bench press 2000 pounds
+    bench_press_initial = 2000
+    #He can increase that by 200 pounds per year
+    bench_press_increase_per_year = 200
+    #There are 10 years
+    years = 10
+    #The answer is
+    result = bench_press_initial + bench_press_increase_per_year * years
+    return result",4000.0
+71,"If Superman can leap 1200 feet in a single bound, how many feet can he leap in 5 minutes if he leaps 20 times a minute?","def solution():
+    #Superman can leap 1200 feet in a single bound
+    leap_per_bound = 1200
+    #He leaps 20 times a minute
+    leaps_per_minute = 20
+    #5 minutes is 300 seconds
+    seconds_5_minutes = 5 * 60
+    #The answer is
+    result = leap_per_bound * leaps_per_minute * 5
+    return result",120000.0
+72,"Superman can fly 2000 miles per hour. It is a 10,000-mile journey from Metropolis to the Fortress of Solitude. How many hours does it take for Superman to make the journey?","def solution():
+    #Superman can fly 2000 miles per hour
+    speed = 2000
+    #It is a 10,000-mile journey
+    distance = 10000
+    #The answer is
+    result = distance / speed
+    return result",5.0
+73,"Superman can run at a speed of 300 mph. He can also fly at a speed of 400 mph. How much time, in hours, does it take for Superman to run 300 miles?","def solution():
+    #Superman can run at a speed of 300 mph
+    run_speed = 300
+    #He has to run 300 miles
+    run_distance = 300
+    #The answer is
+    result = run_distance / run_speed
+    return result",1.0
+74,"Superman can leap 6000 feet in a single bound.  If he is on the 1000th floor of a building, how many single bounds will it take for him to leap to the ground?","def solution():
+    #Superman can leap 6000 feet
+    leap_distance = 6000
+    #He is on the 1000th floor of a building
+    building_height = 1000 * 10  # each floor is 10 feet high
+    #The answer is
+    result = building_height / leap_distance
+    return result",1.6666666666666667
+75,"Superman can leap a 20-story building in a single bound.  If each story is 12 feet, how many feet can Superman leap in a single bound?","def solution():
+    #Superman can leap a 20-story building in a single bound
+    stories = 20
+    #Each story is 12 feet
+    feet_per_story = 12
+    #The answer is
+    result = stories * feet_per_story
+    return result",240.0
+76,"Superman can leap 1000 feet in a single bound.  If he leaps 500 feet to the right, and 500 feet to the left, how many feet from his starting point is he?","def solution():
+    #Superman leaped 500 feet to the right and 500 feet to the left
+    leap_right = 500
+    leap_left = 500
+    #The answer is
+    result = leap_right - leap_left
+    return result",0.0
+77,"Superman can fly at a speed of 3,000 miles per hour. He is 1,500 miles from the North Pole.  He flies at 3,000 miles per hour for 1 hour.  How many more hours does he need to fly to get to the South Pole?","def solution():
+    #Superman is 1,500 miles from the North Pole
+    miles_from_north_pole = 1500
+    #He can fly 3,000 miles per hour
+    miles_per_hour = 3000
+    #He flies for 1 hour
+    hours_flown = 1
+    #The answer is
+    result = miles_from_north_pole - (miles_per_hour * hours_flown)
+    return result",-1500.0
+78,"How many times can Superman, who is 10 times stronger than an average man, lift a 100-pound weight?","def solution():
+    #Superman is 10 times stronger than an average man
+    superman_strength = 10
+    #An average man can lift a 100-pound weight
+    average_man_strength = 100
+    #The answer is
+    result = superman_strength * average_man_strength
+    return result",1000.0

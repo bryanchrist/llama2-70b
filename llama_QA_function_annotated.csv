@@ -1,0 +1,124 @@
+,question,solution,answer,solvability,appropriateness,solution accuracy
+0,A hamburger at a fast-food restaurant costs $4.20. A soda costs $1.80. How much does a hamburger and a soda cost?,"def solution():
+    #Cost of a hamburger
+    hamburger_cost = 4.20
+    #Cost of a soda
+    soda_cost = 1.80
+    #The answer is
+    result = hamburger_cost + soda_cost
+    return result",6,1,1,1
+1,40000 people live in a city. 20% of the population is under 18 years of age. How many people in the city are under 18 years of age?,"def solution():
+    #Total population of the city
+    total_population = 40000
+    #20% of the population is under 18 years of age
+    under_18_population = 0.20 * total_population
+    #The answer is
+    result = under_18_population
+    return result",8000,1,1,1
+2,1000 people are at a concert. 200 of them are in the mosh pit. 20% of the people in the mosh pit are crowd surfing. How many people are crowd surfing?,"def solution():
+    #1000 people are at a concert
+    total_people = 1000
+    #200 of them are in the mosh pit
+    mosh_pit_people = 200
+    #20% of the people in the mosh pit are crowd surfing
+    crowd_surfing_percentage = 20
+    #The answer is
+    result = (mosh_pit_people * crowd_surfing_percentage) / 100
+    return result",40,1,1,0
+3,A soccer team has 22 players. 11 of the players are forwards. 6 of the players are midfielders. 5 of the players are defenders. How many players are goalkeepers?,"def solution():
+    #Total number of players
+    total_players = 22
+    #Number of forwards
+    forwards = 11
+    #Number of midfielders
+    midfielders = 6
+    #Number of defenders
+    defenders = 5
+    #The answer is
+    result = total_players - forwards - midfielders - defenders
+    return result",0,1,0,1
+4,"2355 is the 14th largest 4-digit number. 
+What is the 200th largest 4-digit number?","def solution():
+    #4-digit numbers start at 1000 and end at 9999
+    #The 14th largest 4-digit number is 2355
+    #2355 - 1000 = 1355
+    #1355 4-digit numbers are larger than 2355
+    #The 200th largest 4-digit number is 2355 - 1355 + 200 = 1999
+    return 19
+    return result",19,0,0,0
+5,"5000 people in a town are to be vaccinated. 2000 of the people are to receive 3 vaccines, and the rest are to receive 2 vaccines. How many vaccines are needed?","def solution():
+    #5000 people are to be vaccinated
+    total_people = 5000
+    #2000 of the people are to receive 3 vaccines
+    people_3_vaccines = 2000
+    #The rest are to receive 2 vaccines
+    people_2_vaccines = total_people - people_3_vaccines
+    #The answer is
+    result = people_3_vaccines * 3 + people_2_vaccines * 2
+    return result",12000,1,1,1
+6,"A bakery bakes 120 pies a day. 30 of the pies are pumpkin, 50 are apple, and the rest are cherry. How many cherry pies does the bakery bake a day?","def solution():
+    #Total pies baked a day
+    total_pies = 120
+    #Pumpkin and apple pies
+    pumpkin_pies = 30
+    apple_pies = 50
+    #The answer is
+    result = total_pies - pumpkin_pies - apple_pies
+    return result",40,1,1,1
+7,"1249 is the 1249th number in the Fibonacci sequence. The 1250th and 1251st numbers in the Fibonacci sequence are 2248 and 3497, respectively. How many numbers in the Fibonacci sequence are between 1249 and 3497?","def solution():
+    #The 1249th number in the Fibonacci sequence is 1249
+    fib_1249 = 1249
+    #The 1250th and 1251st numbers in the Fibonacci sequence are 2248 and 3497, respectively
+    fib_1250 = 2248
+    fib_1251 = 3497
+    #The 1250th number is the first number after 1249 in the Fibonacci sequence
+    first_number = fib_1250
+    #The 1251st number is the last number before 3497 in the Fibonacci sequence
+    last_number = fib_1251
+    #The 1252nd number is the first number after 3497 in the Fibonacci sequence
+    next_number = fib_1251 + fib_1250
+    #The answer is
+    result = (last_number - first_number) / (next_number - first_number)
+    return result",0.357163283,1,0,0
+8,34567890 is the 90th million. How many 0s are there in the 100th million?,"def solution():
+    #34567890 is the 90th million.
+    #The 100th million is 10 million more, so it'l be 345679900.
+    #The 100th million has 5 0s.
+    result = 5
+    return result",5,0,0,0
+9,1000 people are at a rally. 200 of them are wearing hats. 300 of the people wearing hats are also wearing sunglasses. How many people at the rally are wearing hats and sunglasses?,"def solution():
+    #Total number of people at the rally
+    total_people = 1000
+    #Number of people wearing hats
+    hat_wearers = 200
+    #Number of hat wearers also wearing sunglasses
+    sunglasses_wearers = 300
+    #The answer is
+    result = sunglasses_wearers
+    return result",300,0,1,0
+10,"The cafeteria at the mall sells 200 hamburgers and 150 cheeseburgers. 
+
+20 hamburgers and 10 cheeseburgers are left over. 
+
+How many hamburgers and cheeseburgers were sold?","def solution():
+    #Hamburgers sold
+    hamburgers_sold = 200 - 20
+    #Cheeseburgers sold
+    cheeseburgers_sold = 150 - 10
+    #The answer is
+    result = hamburgers_sold + cheeseburgers_sold
+    return result",320,1,1,1
+11,123.1234 / 12.1234 = ?,"def solution():
+    #123.1234 / 12.1234
+    result = 123.1234 / 12.1234
+    return result",10.15584737,1,0,1
+12,A bakery sells 120 loaves of bread a day. The bakery is open 6 days a week. How many loaves of bread does the bakery sell in 4 weeks?,"def solution():
+    #The bakery sells 120 loaves of bread a day
+    loaves_of_bread_sold_daily = 120
+    #It's open 6 days a week
+    days_per_week = 6
+    #4 weeks is 28 days
+    num_days = 28
+    #The answer is
+    result = loaves_of_bread_sold_daily * days_per_week * num_days
+    return result",20160,1,1,1

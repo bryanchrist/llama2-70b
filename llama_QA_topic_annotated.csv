@@ -1,0 +1,155 @@
+,question,solution,answer,solvability,appropriateness,solution accuracy
+0,"Superman can fly at a top speed of 4,000 miles per hour.  If he flies at 75% of his top speed for 4 hours, how many miles has he flown?","# define the top speed and the percentage of the top speed at which Superman is flying
+top_speed = 4000
+percentage = 0.75
+
+# calculate the speed at which Superman is flying
+speed = top_speed * percentage
+
+# define the time for which Superman is flying
+time = 4
+
+# calculate the distance Superman has flown
+distance = speed * time
+
+# print the result
+print(distance)",12000,1,1,1
+1,Superman can fly at a top speed of 4000 miles per hour.  He is 1000 miles from the sun.  How many hours will it take him to get to the sun?,"# define the variables
+superman_speed = 4000
+distance_to_sun = 1000
+
+# calculate the time
+time = distance_to_sun / superman_speed
+
+# print the result
+print(time)",0.25,1,1,1
+2,Superman can bench press 1000 pounds.  He is on a mission to save the world and has to bench press 10000 pounds.  How many sets of 1000 pounds will he have to do?,"# define the variables
+superman_strength = 1000
+total_weight = 10000
+
+# calculate the number of sets
+sets = total_weight / superman_strength
+
+# print the result
+print(sets)",10,0,1,1
+3,"Superman can fly at a top speed of 3,200 miles per hour.  He is on a mission to save the world and he needs to fly from New York to Sydney, Australia.  If the flight is 10,400 miles, and he has to stop 3 times to refuel, how long does the entire trip take?","# speed of Superman
+speed = 3200
+
+# distance between New York and Sydney
+distance = 10400
+
+# number of stops
+stops = 3
+
+# time for each stop (in hours)
+stop_time = 1
+
+# total time for the trip
+total_time = (distance / speed) + (stops * stop_time)
+
+print(total_time)",6.25,0,1,1
+4,"Superman can fly at a top speed of 2500 miles per hour.  He is tasked with a mission to fly from New York to Los Angeles and back.  If the distance between the two cities is 2800 miles, how long did the mission take in hours?","# define the distance and speed
+distance = 2800  # miles
+speed = 2500  # miles per hour
+
+# calculate the time for one way
+one_way_time = distance / speed
+
+# the mission is a round trip, so double the one way time
+mission_time = one_way_time * 2
+
+# print the result
+print(mission_time)",2.24,1,1,1
+5,"Superman can fly at a top speed of 2500 miles per hour.  He is tasked with saving a cat stuck in a tree, which is 1000 miles away.  He first flies to the tree at top speed, then back at a leisurely 500 miles per hour after rescuing the cat.  How long did the whole trip take, in hours?","# top speed of Superman
+top_speed = 2500
+
+# leisurely speed of Superman
+leisurely_speed = 500
+
+# distance to the tree
+distance = 1000
+
+# calculate time to fly to the tree
+time_to = distance / top_speed
+
+# calculate time to fly back
+time_back = distance / leisurely_speed
+
+# total time
+total_time = time_to + time_back
+
+print(total_time)",2.4,1,1,1
+6,"Superman can run at a speed of 1000 miles per hour. 
+If he is chasing a villain who is 500 miles away, 
+how long does it take for him to catch the villain?","# define the speed and distance
+speed = 1000  # in miles per hour
+distance = 500  # in miles
+
+# calculate the time
+time = distance / speed
+
+# print the result
+print(time)",0.5,1,1,1
+7,"Superman can fly at a top speed of 2500 miles per hour. 
+Wonder Woman can fly at a top speed of 1500 miles per hour. 
+If Superman and Wonder Woman are in a race, and the finish line is 12,000 miles away, how much of a head start (in hours) does Wonder Woman need to have a tie?","# define the speeds
+superman_speed = 2500
+wonder_woman_speed = 1500
+
+# define the distance
+distance = 12000
+
+# calculate the time it takes for Superman to finish
+superman_time = distance / superman_speed
+
+# calculate the time it takes for Wonder Woman to finish
+wonder_woman_time = distance / wonder_woman_speed
+
+# calculate the head start Wonder Woman needs
+head_start = superman_time - wonder_woman_time
+
+# print the result
+print(head_start)",-3.2,1,1,0
+8,"Superman can fly at a top speed of 4,000 miles per hour. 
+# He is 300,000 miles away from the sun. 
+# How many hours will it take for him to get to the sun?","# define the speed and distance
+speed = 4000  # miles per hour
+distance = 300000  # miles
+
+# calculate the time
+time = distance / speed
+
+# print the result
+print(time)",75,1,1,1
+9,"Superman is 1,000,000 miles away from Earth. 
+# He is 2,000,000 miles away from the moon. 
+# How much closer is the moon to Superman than Earth is?","# define the distances
+earth_distance = 1000000  # miles
+moon_distance = 2000000  # miles
+
+# calculate the difference
+difference = moon_distance - earth_distance
+
+# print the result
+print(difference)",1000000,1,1,1
+10,Superman can fly at a top speed of 2500 miles per hour.  He is chasing a villain who is in a helicopter that can fly at 200 miles per hour.  The villain has a 200-mile head start.  How long (in hours) will it take for Superman to catch the villain?,"# define the speed of Superman and the villain
+superman_speed = 2500
+villain_speed = 200
+
+# define the head start of the villain
+head_start = 200
+
+# calculate the time it takes for Superman to catch the villain
+time = head_start / (superman_speed - villain_speed)
+
+# print the result
+print(time)",0.086956522,1,1,1
+11,"Superman can fly at a speed of 4000 miles per hour. He needs to fly from New York to Los Angeles, which is 2791 miles. How many hours will it take for Superman to fly to Los Angeles?","# define the speed and distance
+speed = 4000
+distance = 2791
+
+# calculate the time
+time = distance / speed
+
+# print the result
+print(time)",0.69775,1,1,1

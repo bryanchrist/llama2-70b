@@ -1,0 +1,192 @@
+,question,solution,answer
+0,"Superman can fly at a top speed of 4,000 miles per hour.  If he flies at 75% of his top speed for 4 hours, how many miles has he flown?","# define the top speed and the percentage of the top speed at which Superman is flying
+top_speed = 4000
+percentage = 0.75
+
+# calculate the speed at which Superman is flying
+speed = top_speed * percentage
+
+# define the time for which Superman is flying
+time = 4
+
+# calculate the distance Superman has flown
+distance = speed * time
+
+# print the result
+print(distance)",12000.0
+1,"Superman's cape is 50% longer than his height.  If Superman is 6 feet tall, how long is his cape in inches?","# define Superman's height in feet
+height_in_feet = 6
+
+# convert Superman's height to inches (1 foot = 12 inches)
+height_in_inches = height_in_feet * 12
+
+# calculate the length of Superman's cape
+cape_length = height_in_inches * 1.5
+
+# print the result
+print(cape_length)",108.0
+2,Superman can fly at a top speed of 4000 miles per hour.  He is 1000 miles from the sun.  How many hours will it take him to get to the sun?,"# define the variables
+superman_speed = 4000
+distance_to_sun = 1000
+
+# calculate the time
+time = distance_to_sun / superman_speed
+
+# print the result
+print(time)",0.25
+3,Superman can bench press 1000 pounds.  He is on a mission to save the world and has to bench press 10000 pounds.  How many sets of 1000 pounds will he have to do?,"# define the variables
+superman_strength = 1000
+total_weight = 10000
+
+# calculate the number of sets
+sets = total_weight / superman_strength
+
+# print the result
+print(sets)",10.0
+4,"Superman is 6'5"" tall.  He is 1000 miles from the sun.  If the sun is 864,934 miles in diameter, how many times taller is the sun than Superman?
+Solution","# Define the variables
+monthly_income = 6000
+rent = 640
+food_expense = 380
+ew_bill = monthly_income * 1/4
+insurance = monthly_income * 1/5
+
+# Calculate the remaining money
+remaining_money = monthly_income - (rent + food_expense + ew_bill + insurance)
+
+# Print the result
+print(remaining_money)",2280.0
+5,"Superman can fly at a top speed of 2500 miles per hour.  He is tasked with a mission to fly from New York to Los Angeles and back.  If the distance between the two cities is 2800 miles, how long did the mission take in hours?","# define the distance and speed
+distance = 2800  # miles
+speed = 2500  # miles per hour
+
+# calculate the time for one way
+one_way_time = distance / speed
+
+# the mission is a round trip, so double the one way time
+mission_time = one_way_time * 2
+
+# print the result
+print(mission_time)",2.24
+6,"Superman's cape is 50% longer than his body.  If he is 6'4"", how long is his cape in inches?","# define the height of Superman in feet
+height_in_feet = 6.4
+
+# convert feet to inches
+height_in_inches = height_in_feet * 12
+
+# cape is 50% longer than his body
+cape_length = height_in_inches * 1.5
+
+# print the result
+print(cape_length)",115.20000000000002
+7,"Superman can fly at a top speed of 2500 miles per hour.  He is tasked with saving a cat stuck in a tree, which is 1000 miles away.  He first flies to the tree at top speed, then back at a leisurely 500 miles per hour after rescuing the cat.  How long did the whole trip take, in hours?","# top speed of Superman
+top_speed = 2500
+
+# leisurely speed of Superman
+leisurely_speed = 500
+
+# distance to the tree
+distance = 1000
+
+# calculate time to fly to the tree
+time_to = distance / top_speed
+
+# calculate time to fly back
+time_back = distance / leisurely_speed
+
+# total time
+total_time = time_to + time_back
+
+print(total_time)",2.4
+8,Superman can fly at a speed of 2000 miles per hour.  It takes him 10 hours to fly from his home in Metropolis to the other side of the planet.  How many hours does it take for him to fly all the way around the Earth?,"# define the speed and distance
+speed = 2000  # miles per hour
+distance = 10 * 2000  # miles, as it takes 10 hours to fly from one side of the planet to the other
+
+# calculate the time to fly around the Earth (24000 miles)
+time = distance / speed
+
+# print the result
+print(time)",10.0
+9,"Superman can fly at a top speed of 2500 miles per hour. 
+Wonder Woman can fly at a top speed of 1500 miles per hour. 
+If Superman and Wonder Woman are in a race, and the finish line is 12,000 miles away, how much of a head start (in hours) does Wonder Woman need to have a tie?","# define the speeds
+superman_speed = 2500
+wonder_woman_speed = 1500
+
+# define the distance
+distance = 12000
+
+# calculate the time it takes for Superman to finish
+superman_time = distance / superman_speed
+
+# calculate the time it takes for Wonder Woman to finish
+wonder_woman_time = distance / wonder_woman_speed
+
+# calculate the head start Wonder Woman needs
+head_start = superman_time - wonder_woman_time
+
+# print the result
+print(head_start)",-3.2
+10,"Superman can fly at a top speed of 4,000 miles per hour. 
+# He is 300,000 miles away from the sun. 
+# How many hours will it take for him to get to the sun?","# define the speed and distance
+speed = 4000  # miles per hour
+distance = 300000  # miles
+
+# calculate the time
+time = distance / speed
+
+# print the result
+print(time)",75.0
+11,"Superman is 1,000,000 miles away from Earth. 
+# He is 2,000,000 miles away from the moon. 
+# How much closer is the moon to Superman than Earth is?","# define the distances
+earth_distance = 1000000  # miles
+moon_distance = 2000000  # miles
+
+# calculate the difference
+difference = moon_distance - earth_distance
+
+# print the result
+print(difference)",1000000
+12,"# Superman can punch with a force of 1,000,000 Newtons. 
+# He is 1","# define the number of marbles each friend had
+dilan_marbles = 14
+martha_marbles = 20
+phillip_marbles = 19
+veronica_marbles = 7
+
+# calculate total number of marbles
+total_marbles = dilan_marbles + martha_marbles + phillip_marbles + veronica_marbles
+
+# calculate number of marbles each friend had at the end of the day
+marbles_each = total_marbles // 4
+
+print(marbles_each)",15
+13,"A pizza is cut into 8 slices.  Dino eats 3 slices, while his two friends each eat 2 slices.  How many slices of pizza are left?","# define the number of slices the pizza is cut into
+slices = 8
+
+# define the number of slices Dino eats
+dino_slices = 3
+
+# define the number of slices Dino's friends each eat
+friend_slices = 2
+
+# calculate the total number of slices eaten
+total_slices_eaten = dino_slices + 2 * friend_slices
+
+# calculate the number of slices left
+slices_left = slices - total_slices_eaten
+
+# print the result
+print(slices_left)",1
+14,Superman can bench press 2500 pounds.  He can do this 50 times per day.  How many total pounds can he bench press in 30 days?,"# define the variables
+pounds_per_bench = 2500
+benches_per_day = 50
+days = 30
+
+# calculate the total pounds
+total_pounds = pounds_per_bench * benches_per_day * days
+
+# print the result
+print(total_pounds)",3750000

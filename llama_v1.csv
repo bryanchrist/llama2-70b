@@ -1,0 +1,310 @@
+,question,solution,answer
+0,A coder has 1000 followers on Twitter. He gains 100 followers every day. How many followers will he have in 5 days?,"def solution():
+    #The coder has 1000 followers
+    followers_initial = 1000
+    #He gains 100 followers every day
+    followers_gained_per_day = 100
+    #The answer is
+    result = followers_initial + (followers_gained_per_day * 5)
+    return result",1500.0
+1,A 20-year-old man is 66 inches tall.  His 10-year-old brother is 2/3 his height.  How tall is the 10-year-old in feet?,"def solution():
+    #The 20-year-old is 66 inches
+    twenty_year_old_height = 66
+    #The 10-year-old is 2/3 the height of the 20-year-old
+    ten_year_old_height = twenty_year_old_height * 2 / 3
+    #The answer is
+    result = ten_year_old_height
+    return result",44.0
+2,A bakery has 100 muffins.  The bakery sells 20 muffins in the morning and 30 muffins in the afternoon.  How many muffins are left?,"def solution():
+    #The bakery has 100 muffins
+    muffins_initial = 100
+    #They sell 20 in the morning
+    muffins_sold_morning = 20
+    #They sell 30 in the afternoon
+    muffins_sold_afternoon = 30
+    #The answer is
+    result = muffins_initial - muffins_sold_morning - muffins_sold_afternoon
+    return result",50.0
+3,A baker is making a 3-layer cake. The first layer is 10 inches in diameter. The second layer is 8 inches in diameter. The third layer is 6 inches in diameter. What is the volume of the cake?,"def solution():
+    #The first layer is 10 inches in diameter
+    layer_1_diameter = 10
+    #The second layer is 8 inches in diameter
+    layer_2_diameter = 8
+    #The third layer is 6 inches in diameter
+    layer_3_diameter = 6
+    #The height of each layer is 4 inches
+    layer_height = 4
+    #The volume of a cylinder is pi * radius^2 * height
+    #The radius of the first layer is 10/2 = <<10/2=5>>5 inches
+    layer_1_radius = 5
+    layer_1_volume = 3.14 * (layer_1_radius ** 2) * layer_height
+    #The radius of the second layer is 8/2 = <<8/2=4>>4 inches
+    layer_2_radius = 4
+    layer_2_volume = 3.14 * (layer_2_radius ** 2) * layer_height
+    #The radius of the third layer is 6/2 = <<6/2=3>>3 inches
+    layer_3_radius = 3
+    layer_3_volume = 3.14 * (layer_3_radius ** 2) * layer_height
+    #The total volume is
+    result = layer_1_volume + layer_2_volume + layer_3_volume
+    return result",628.0
+4,"A pizzeria is making pizzas for a party. 12 of the pizzas are pepperoni, and 8 of the pizzas are cheese. The rest of the pizzas are veggie. How many veggie pizzas are there?","def solution():
+    #The pizzeria is making 24 pizzas
+    pizzas_total = 24
+    #12 are pepperoni
+    pizzas_pepperoni = 12
+    #8 are cheese
+    pizzas_cheese = 8
+    #The rest are veggie
+    pizzas_veggie = pizzas_total - pizzas_pepperoni - pizzas_cheese
+    return pizzas_veggie",4.0
+5,A 10-pound sack of potatoes costs $5. A 5-pound sack of onions costs $2.50. How much will it cost to buy a 10-pound sack of potatoes and a 5-pound sack of onions?,"def solution():
+    #A 10-pound sack of potatoes costs $5
+    potatoes_cost = 5
+    #A 5-pound sack of onions costs $2.50
+    onions_cost = 2.5
+    #The answer is
+    result = potatoes_cost + onions_cost
+    return result",7.5
+6,The soccer team has 24 players. 12 of the players are forwards. 6 of the players are defenders. The rest of the players are goalies. How many goalies are there?,"def solution():
+    #The team has 24 players
+    players_total = 24
+    #12 are forwards
+    players_forwards = 12
+    #6 are defenders
+    players_defenders = 6
+    #The rest are goalies
+    players_goalies = players_total - players_forwards - players_defenders
+    result = players_goalies
+    return result",6.0
+7,A 10-pound sack of apples costs $22. A 20-pound sack of apples costs $44. How much will 30 pounds of apples cost?,"def solution():
+    #10 pounds of apples cost $22
+    apples_10_pounds = 22
+    #20 pounds of apples cost $44
+    apples_20_pounds = 44
+    #The answer is
+    result = (apples_20_pounds - apples_10_pounds) / 10 + apples_10_pounds
+    return result",24.2
+8,A bakery sells 1200 cookies a day. They bake 1000 cookies in the morning and 1000 cookies in the afternoon. How many cookies do they have left at the end of the day?,"def solution():
+    #The bakery sells 1200 cookies a day
+    cookies_sold = 1200
+    #They bake 1000 cookies in the morning and 1000 in the afternoon
+    cookies_baked = 1000 * 2
+    #The answer is
+    result = cookies_baked - cookies_sold
+    return result",800.0
+9,A 10-pound bag of apples has 40 apples. How many 10-pound bags of apples does it take to have 120 apples?,"def solution():
+    #10 pounds of apples has 40 apples
+    apples_per_ten_pounds = 40
+    #120 apples / 40 apples per 10 pounds = <<120/40=3>>3 10-pound bags of apples
+    result = 120 / apples_per_ten_pounds
+    return result",3.0
+10,The Beverly Hills Hotel has 240 rooms. 70% of the rooms are occupied. How many rooms are unoccupied?,"def solution():
+    #The hotel has 240 rooms
+    rooms = 240
+    #70% of the rooms are occupied
+    occupancy_percent = 70
+    #The answer is
+    result = rooms * (1 - occupancy_percent / 100)
+    return result",72.00000000000001
+11,1/3 of the 36-member orchestra are string players. How many musicians are in the orchestra?,"def solution():
+    #1/3 of the orchestra are string players
+    string_players = 1 / 3 * 36
+    #The answer is
+    result = string_players
+    return result",12.0
+12,The gym has 100 towels. 20% of the towels are white. 50% of the towels are blue. The rest of the towels are green. How many towels are green?,"def solution():
+    #20% of the towels are white
+    white_towels = 0.2 * 100
+    #50% of the towels are blue
+    blue_towels = 0.5 * 100
+    #The rest are green
+    green_towels = 100 - white_towels - blue_towels
+    return green_towels",30.0
+13,A 20-pound box of oranges has 280 oranges. A 10-pound box of oranges has 140 oranges. How many oranges can you get for $10?,"def solution():
+    #A 20-pound box of oranges has 280 oranges
+    oranges_20_pounds = 280
+    #A 10-pound box of oranges has 140 oranges
+    oranges_10_pounds = 140
+    #The 20-pound box costs $20
+    cost_20_pounds = 20
+    #The 10-pound box costs $10
+    cost_10_pounds = 10
+    #The 20-pound box has
+    oranges_20_pounds_per_dollar = oranges_20_pounds / cost_20_pounds
+    #oranges per dollar. The 10-pound box has
+    oranges_10_pounds_per_dollar = oranges_10_pounds / cost_10_pounds
+    #oranges per dollar. The average is
+    oranges_per_dollar = (oranges_20_pounds_per_dollar + oranges_10_pounds_per_dollar) / 2
+    #The answer is
+    result = oranges_per_dollar * 10
+    return result",140.0
+14,A 12-pack of soda costs $18.00. A 12-pack of beer costs $24.00. How much more expensive is a 12-pack of beer than a 12-pack of soda?,"def solution():
+    #A 12-pack of soda costs $18.00
+    soda_cost = 18
+    #A 12-pack of beer costs $24.00
+    beer_cost = 24
+    #The answer is
+    result = beer_cost - soda_cost
+    return result",6.0
+15,"The 1st, 2nd, and 3rd place winners of the spelling bee each get a trophy.  The 4th through 10th place winners each get a ribbon.  How many awards are given out in total?","def solution():
+    #The 1st, 2nd, and 3rd place winners each get a trophy
+    trophies = 3
+    #The 4th through 10th place winners each get a ribbon
+    ribbons = 7
+    #The answer is
+    result = trophies + ribbons
+    return result",10.0
+16,"A pizza has 12 slices. 3 of the slices have 2 pepperonis each, and 4 of the slices have 1 pepperoni each. How many pepperonis are on the pizza?","def solution():
+    #3 slices have 2 pepperonis each
+    pepperonis_3_slices = 3 * 2
+    #4 slices have 1 pepperoni each
+    pepperonis_4_slices = 4 * 1
+    #The answer is
+    result = pepperonis_3_slices + pepperonis_4_slices
+    return result",10.0
+17,A cake of soap weighs 4 ounces. 12 cakes of soap are boxed together. 48 boxes of soap are palletized together. How many ounces of soap are on a pallet?,"def solution():
+    #A cake of soap weighs 4 ounces
+    soap_cake_weight = 4
+    #12 cakes of soap are boxed together
+    soap_box_weight = 12 * soap_cake_weight
+    #48 boxes of soap are palletized together
+    soap_pallet_weight = 48 * soap_box_weight
+    #The answer is
+    result = soap_pallet_weight
+    return result",2304.0
+18,A baker makes 100 baguettes.  He sells 93 baguettes.  A grocery store returns 6 baguettes.  How many baguettes does he have left?,"def solution():
+    #The baker started with 100 baguettes
+    baguettes_initial = 100
+    #He sold 93 baguettes
+    baguettes_sold = 93
+    #A grocery store returned 6 baguettes
+    baguettes_returned = 6
+    #The answer is
+    result = baguettes_initial - baguettes_sold + baguettes_returned
+    return result",13.0
+19,"A soccer team has 24 players. 12 of the players are from Spain. 6 of the players are from Germany. 2 of the players are from each of the following countries: Argentina, Brazil, and England. How many players are from Argentina, Brazil, and England?","def solution():
+    #The team has 24 players
+    players = 24
+    #12 are from Spain
+    players_spain = 12
+    #6 are from Germany
+    players_germany = 6
+    #2 are from each of Argentina, Brazil, and England
+    players_argentina = 2
+    players_brazil = 2
+    players_england = 2
+    #The answer is
+    result = players_argentina + players_brazil + players_england
+    return result",6.0
+20,A candy store sells 12 chocolate bars and 8 bags of gummy bears. Each chocolate bar costs $2.50 and each bag of gummy bears costs $3. The candy store then buys 3 bags of licorice and 4 bags of jelly beans. Each bag of licorice costs $2 and each bag of jelly beans costs $1.50. How much money did the candy store spend?,"def solution():
+    #The candy store sold 12 chocolate bars
+    chocolate_bars = 12
+    #Each chocolate bar costs $2.50
+    chocolate_bar_cost = 2.5
+    #The candy store sold 8 bags of gummy bears
+    gummy_bears = 8
+    #Each bag of gummy bears costs $3
+    gummy_bear_cost = 3
+    #The candy store then bought 3 bags of licorice
+    licorice = 3
+    #Each bag of licorice costs $2
+    licorice_cost = 2
+    #The candy store bought 4 bags of jelly beans
+    jelly_beans = 4
+    #Each bag of jelly beans costs $1.50
+    jelly_bean_cost = 1.5
+    #The answer is
+    result = (chocolate_bars * chocolate_bar_cost) + (gummy_bears * gummy_bear_cost) - (licorice * licorice_cost) - (jelly_beans * jelly_bean_cost)
+    return result",42.0
+21,A cake of soap weighs 4 ounces. 20% of the weight is from the packaging. How much does the soap itself weigh?,"def solution():
+    #A cake of soap weighs 4 ounces
+    soap_weight = 4
+    #20% of the weight is from the packaging
+    packaging_weight = soap_weight * 0.2
+    #The answer is
+    result = soap_weight - packaging_weight
+    return result",3.2
+22,A theater has 200 seats. 40% of the seats are occupied by men and 10% by children. The rest are occupied by women. How many women are in the theater?,"def solution():
+    #The total number of people in a theater is 200
+    people_total = 200
+    #40% of the people are men
+    men_percent = 0.4
+    #10% are children
+    children_percent = 0.1
+    #The rest are women
+    women_percent = 1 - men_percent - children_percent
+    #The number of women is
+    women = people_total * women_percent
+    return women",100.0
+23,A soccer team has 24 players. 12 of the players are forwards. 6 of the forwards are strikers. How many forwards are not strikers?,"def solution():
+    #A soccer team has 24 players
+    players_initial = 24
+    #12 of the players are forwards
+    forwards_initial = 12
+    #6 of the forwards are strikers
+    strikers = 6
+    #The answer is
+    result = forwards_initial - strikers
+    return result",6.0
+24,"The soccer team has 24 players. 12 of the players are forwards, 6 are midfielders, and the rest are defenders. How many players are midfielders and defenders?","def solution():
+    #The team has 24 players
+    players_total = 24
+    #12 are forwards
+    players_forwards = 12
+    #6 are midfielders
+    players_midfielders = 6
+    #The rest are defenders
+    players_defenders = players_total - players_forwards - players_midfielders
+    #The answer is
+    result = players_midfielders + players_defenders
+    return result",12.0
+25,A 24-pack of soda cans costs $12. A 12-pack of soda cans costs $6. How much would 36 cans of soda cost?,"def solution():
+    #A 24-pack of soda cans costs $12
+    soda_24_pack_cost = 12
+    #A 12-pack of soda cans costs $6
+    soda_12_pack_cost = 6
+    #36 cans of soda would be 24 + 12 = <<24+12=36>>36 cans of soda
+    soda_36_pack_size = 36
+    #The answer is
+    result = soda_24_pack_cost + soda_12_pack_cost
+    return result",18.0
+26,"A baker is making pies for the weekend. He bakes 3 pies on Friday, 4 pies on Saturday, and 5 pies on Sunday. How many pies does he have for the weekend?","def solution():
+    #The baker bakes 3 pies on Friday
+    pies_friday = 3
+    #4 pies on Saturday
+    pies_saturday = 4
+    #and 5 pies on Sunday
+    pies_sunday = 5
+    #The answer is
+    result = pies_friday + pies_saturday + pies_sunday
+    return result",12.0
+27,A 24-pack of soda costs $5. A 12-pack of soda costs $3. How much would you save by buying 12 cans of soda at a time?,"def solution():
+    #A 24-pack of soda costs $5
+    soda_24_pack_cost = 5
+    #A 12-pack of soda costs $3
+    soda_12_pack_cost = 3
+    #The difference is
+    soda_cost_difference = soda_12_pack_cost - soda_24_pack_cost
+    #The answer is
+    result = soda_cost_difference
+    return result",-2.0
+28,"A cake of soap weighs 4 ounces.  A box of soap powder weighs 16 ounces.  A bottle of detergent weighs 10 ounces.  A bottle of bleach weighs 8 ounces.  How much do 10 cakes of soap, 5 boxes of soap powder, 3 bottles of detergent, and 2 bottles of bleach weigh?","def solution():
+    #A cake of soap weighs 4 ounces
+    soap_cake_weight = 4
+    #A box of soap powder weighs 16 ounces
+    soap_powder_weight = 16
+    #A bottle of detergent weighs 10 ounces
+    detergent_weight = 10
+    #A bottle of bleach weighs 8 ounces
+    bleach_weight = 8
+    #10 cakes of soap weigh
+    soap_cake_total = soap_cake_weight * 10
+    #5 boxes of soap powder weigh
+    soap_powder_total = soap_powder_weight * 5
+    #3 bottles of detergent weigh
+    detergent_total = detergent_weight * 3
+    #2 bottles of bleach weigh
+    bleach_total = bleach_weight * 2
+    #The answer is
+    result = soap_cake_total + soap_powder_total + detergent_total + bleach_total
+    return result",166.0

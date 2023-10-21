@@ -1,0 +1,26 @@
+,question,solvability,appropriateness
+0,What is the value of $x$ for which $(x+2)^2 = 16$?,1,0
+1,What is the sum of all two-digit positive integers whose squares end with the digits 01?,1,0
+2,What's the total number of colors on RGB color wheel?,1,0
+3,What is the sum of all two-digit positive integers whose squares end with the digits 01?,1,0
+4,"If you buy a dozen oranges for $6, and 3-for-$1 peaches, how much would you spend if you bought 10 dozen oranges and 15 dozen peaches?",1,1
+5,What is the greatest three digit number that is a multiple of 13?,1,0
+6,"If $f(n) = n^2 + n + 17$, what is $f(11)$?",1,0
+7,There are 325 students in a class. 20% of them are boys. How many girls are in this class?,1,1
+8,"If $x$ is a positive multiple of $3$, and $x^2$ is a multiple of $6$, what is the greatest possible value of $x$ ?",1,0
+9,How many 30-minute shows can Lexy watch in 2 hours?,1,1
+10,"A candy store sells $300 worth of candy on a regular day. On a good day, the candy store sells $400 worth of candy. If the candy store sells $3000 worth of candy after 10 regular days, how much money will it sell in 15 good days?",1,1
+11,What is the value of the expression $(2^3 + 2^2 + 2)^2 - 2^4$?,1,0
+12,What is the sum of the positive factors of 24?,1,1
+13,"There are 300 students in a school. 1/3 of the students were absent, and 1/4 of the number of students who were present was late. How many students were absent and late?",1,1
+14,"How many different 6-letter arrangements can be made from the letters in the word ""monkey""?",1,0
+15,What is the sum of the whole number factors of 24?,1,1
+16,What is the greatest three-digit number which is a multiple of 13?,1,0
+17,"If 5 dolphins are twice as many as 3 whales, how many dolphins are 10 whales?",1,0
+18,"If 50 cars are part of a caravan, and 20 cars leave the caravan to refuel, then 30% of the remaining cars have a flat tire. If 1/4 of the cars with a flat tire are towed, and the rest continue moving, how many cars continue moving?",0,0
+19,"How many different positive, three-digit integers can be formed using the digits 2, 4, 5 and 6 if no digit may be repeated in an integer?",1,0
+20,Find the greatest common divisor of 72 and 36.,1,1
+21,"If 4 dumbbells cost $32, how much does one dumbbell cost?",1,1
+22,What is the value of the expression $(25 + 8)^2 - (8^2 +25^2)$?,1,0
+23,"A truck driver’s delivery route takes him 10 hours longer than twice the amount of time it took him to drive to the destination on a previous trip. On his first trip, it took him 6 hours to drive to the destination. What is the total time he takes to complete his delivery route?",1,0
+24,"If 3/5 of the 150 students joined the math contest, how many students did not join the contest?",1,1

@@ -1,0 +1,52 @@
+,question,solution,answer
+0,"Superman can leap 1000 feet in a single bound.  If he leaps 1000 feet 30 times, how far has he traveled?","def solution():
+    #Superman can leap 1000 feet in a single bound
+    leap_distance = 1000
+    #He leaps 1000 feet 30 times
+    leaps = 30
+    #The answer is
+    result = leap_distance * leaps
+    return result",30000.0
+1,Superman is 6.25 feet tall.  He is 12.5 times taller than a dime.  How many dimes would it take to equal the height of Superman?,"def solution():
+    #Superman is 6.25 feet tall
+    superman_height = 6.25
+    #A dime is 0.5 inches tall
+    dime_height = 0.5 / 12  # 0.5 inches is 1/12 of a foot
+    #Superman is 12.5 times taller than a dime
+    dime_to_superman_ratio = 12.5
+    #The answer is
+    result = superman_height / dime_height
+    return result",150.0
+2,"Superman can run at a speed of 3000 miles per hour. 
+He is chasing a criminal. 
+He has to run 12,000 miles to catch the criminal. 
+How many hours will it take for Superman to catch the criminal?","def solution():
+    # Superman's speed in miles per hour
+    superman_speed = 3000
+    # Distance to catch the criminal in miles
+    distance = 12000
+    # The answer is
+    result = distance / superman_speed
+    return result",4.0
+3,Superman can fly at 4000 miles per hour. He is 2000 miles from the Bermuda Triangle. How many hours will it take him to get there?,"def solution():
+    #Superman can fly at 4000 miles per hour
+    superman_speed = 4000
+    #He is 2000 miles from the Bermuda Triangle
+    distance = 2000
+    #The answer is
+    result = distance / superman_speed
+    return result",0.5
+4,"Superman is 6'3"" tall.  He is 20% taller than Batman.  How tall is Batman?","def solution():
+    #Superman is 6'3""
+    superman_height = 6.3
+    #He is 20% taller than Batman
+    batman_height = superman_height / 1.2
+    return batman_height",5.25
+5,Superman has 35000 Calories. He spends 2000 Calories per day. How many days can he last?,"def solution():
+    #Superman has 35000 Calories
+    calories_initial = 35000
+    #He spends 2000 Calories per day
+    calories_spent_per_day = 2000
+    #The answer is
+    result = calories_initial / calories_spent_per_day
+    return result",17.5

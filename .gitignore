@@ -202,3 +202,4 @@ env.txt
 accuracy_classifier
 solvability_classifier
 appropriateness_classifier
+good_classifier

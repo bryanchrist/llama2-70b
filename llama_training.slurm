@@ -12,9 +12,9 @@
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
 #SBATCH -t 3-00:00:00
-#SBATCH -J llama_70b_finetune
-#SBATCH -o llama_finetune-%A.out
-#SBATCH -e llama_finetune-%A.err
+#SBATCH -J mathwell_finetune
+#SBATCH -o mathwell_finetune-%A.out
+#SBATCH -e mathwell_finetune-%A.err
 ##SBATCH -x udc-an28-[1,7],udc-an34-[1,7,13,19]#,udc-an36-[1,13,19]#,udc-an37-[1,7,13,19]#,udc-ba25-2[3,7,8],udc-ba26-2[3-6],udc-ba27-2[3-4]
 
 module purge
@@ -41,7 +41,7 @@ python qlora_no_embed.py \
     --save_steps 250 \
     --save_total_limit 40 \
     --evaluation_strategy steps \
-    --eval_dataset_size 2000 \
+    --eval_dataset_size 285 \
     --max_eval_samples 1000 \
     --per_device_eval_batch_size 1 \
     --max_new_tokens 400 \
@@ -61,7 +61,7 @@ python qlora_no_embed.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="mammoth_train.json" \
+    --dataset="data/mathwell.json" \
     --source_max_len 16 \
     --target_max_len 512 \
     --per_device_train_batch_size 1 \

@@ -34,7 +34,7 @@ conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
 python qlora_no_embed.py \
     --model_name_or_path meta-llama/Llama-2-70b-hf \
-    --output_dir ./llama_QA_adapter_no_embed \
+    --output_dir mathwell/llama_QA_adapter_no_embed \
     --logging_steps 10 \
     --save_strategy steps \
     --data_seed 42 \

@@ -1,0 +1,799 @@
+Topic: volleyball ### Response: 
+Question: 
+Solution:
+def solution():
+    #Comment out a step-by-step solution to the word problem
+Topic: Thor, the God of Thunder ### Response: 
+Question: Thor's hammer, Mjolnir, weighs 10,000 pounds.  His belt, Megingjord, weighs 1,000 pounds.  How much does Thor weigh if he weighs 2000 pounds more than Mjolnir and 1/5 as much as Mjolnir and Megingjord combined?
+
+Solution:
+def solution():
+    #Mjolnir weighs 10,000 pounds
+    mjolnir_weight = 10000
+    #Megingjord weighs 1,000 pounds
+    megingjord_weight = 1000
+    #Thor weighs 2000 pounds more than Mjolnir
+    thor_weight_1 = mjolnir_weight + 2000
+    #Thor weighs 1/5 as much as Mjolnir and Megingjord combined
+    thor_weight_2 = (mjol
+Topic: football ### Response: 
+Question: The Cincinnati Bengals and the Kansas City Chiefs are playing a football game. The Bengals have 42 points. The Chiefs have 13 more points. How many points do the two teams have in total?
+
+Solution:
+def solution():
+    #The Bengals have 42 points
+    bengals_points = 42
+    #The Chiefs have 13 more points
+    chiefs_points = bengals_points + 13
+    #The total points is
+    total_points = bengals_points + chiefs_points
+    return total_points
+Topic: Serena Williams ### Response: 
+Question: Serena Williams has 24 Grand Slam singles titles. 14 of them are in the Australian Open, 3 of them are in the French Open, and 5 of them are in Wimbledon. How many Grand Slam singles titles does she have in the US Open?
+Solution:
+def solution():
+    #Serena Williams has 24 Grand Slam singles titles
+    grand_slam_titles = 24
+    #14 of them are in the Australian Open
+    australian_open_titles = 14
+    #3 of them are in the French Open
+    french_open_titles = 3
+    #5 of them are in Wimbledon
+    wimbledon_titles = 5
+    #The answer is
+    result = grand_slam_titles - australian_open_titles - french_open_titles - wimbledon_titles
+    return result
+Topic: unicorns ### Response: 
+Question: 1000 unicorns are in the forest. 200 of them are pink, 300 of them are blue, and the rest are purple. How many unicorns are purple?
+Solution:
+def solution():
+    #1000 unicorns are in the forest
+    unicorns_total = 1000
+    #200 of them are pink
+    unicorns_pink = 200
+    #300 of them are blue
+    unicorns_blue = 300
+    #The rest are purple. The answer is
+    unicorns_purple = unicorns_total - unicorns_pink - unicorns_blue
+    return unicorns_purple
+Topic: planes ### Response: 
+Question: 
+
+Solution:
+def solution():
+    #The answer is
+    return 
+Topic: dinosaurs ### Response: 
+Question: A T-Rex is 20 feet tall.  A Brontosaurus is 10 feet tall.  A Velociraptor is 2 feet tall.  How many Velociraptors does it take to equal the height of a T-Rex and a Brontosaurus?
+Solution:
+def solution():
+    #A T-Rex is 20 feet tall
+    t_rex_height = 20
+    #A Brontosaurus is 10 feet tall
+    brontosaurus_height = 10
+    #A Velociraptor is 2 feet tall
+    velociraptor_height = 2
+    #The answer is
+    result = (t_rex_height + brontosaurus_height) / velociraptor_height
+    return result
+Topic: lacrosse ### Response: 
+Question: 
+The lacrosse team has 120 sticks. 20 of the sticks are for the goalies. 30 of the sticks are for the defenders. 40 of the sticks are for the midfielders. 30 of the sticks are for the attackers. How many sticks are left?
+Solution:
+def solution():
+    #Total sticks
+    sticks_total = 120
+    #Sticks for goalies
+    sticks_goalies = 20
+    #Sticks for defenders
+    sticks_defenders = 30
+    #Sticks for midfielders
+    sticks_midfielders = 40
+    #Sticks for attackers
+    sticks_attackers = 30
+    #The answer is
+    result = sticks_total - sticks_goalies - sticks_defenders - sticks_midfielders - sticks_attackers
+    return result
+Topic: Pokémon ### Response: 
+Question: There are 150 Pokémon in the Kanto region. 50 of them are in the grass, 30 of them are in the water, 20 of them are in the caves, and the rest are in the cities. How many Pokémon are in the cities?
+Solution:
+def solution():
+    #Total Pokémon in the Kanto region
+    total_pokemon = 150
+    #Pokémon in the grass
+    grass_pokemon = 50
+    #Pokémon in the water
+    water_pokemon = 30
+    #Pokémon in the caves
+    cave_pokemon = 20
+    #Pokémon in the cities
+    city_pokemon = total_pokemon - grass_pokemon - water_pokemon - cave_pokemon
+    return city_pokemon
+Topic: Super Mario ### Response: 
+Question: In the Mushroom Kingdom, there are 500 Toads. 100 of them are in the Mushroom Forest, 200 of them are in the Flower Field, and the rest are in the Lava Cave. How many Toads are in the Lava Cave?
+Solution:
+def solution():
+    #There are 500 Toads in the Mushroom Kingdom
+    toads_total = 500
+    #100 of them are in the Mushroom Forest
+    toads_mushroom_forest = 100
+    #200 of them are in the Flower Field
+    toads_flower_field = 200
+    #The answer is
+    result = toads_total - toads_mushroom_forest - toads_flower_field
+    return result
+Topic: candy ### Response: 
+Question: 
+Solution:
+def solution():
+    #
+    return
+Topic: Spiderman ### Response: 
+Question: Spiderman can shoot 12 webs per minute.  He can web-sling at 100 miles per hour.  If he is web-slinging for 10 minutes, how far will he travel?
+Solution:
+def solution():
+    #Spiderman can shoot 12 webs per minute
+    webs_per_minute = 12
+    #He can web-sling at 100 miles per hour
+    miles_per_hour = 100
+    #If he is web-slinging for 10 minutes
+    minutes = 10
+    #The answer is
+    result = miles_per_hour * minutes
+    return result
+Topic: Harry Potter ### Response: 
+Question: In the first year, there were 1000 students at Hogwarts.  The next year, 200 more students enrolled.  In the third year, 300 students left.  How many students are there now?
+Solution:
+def solution():
+    #In the first year, there were 1000 students at Hogwarts
+    students_first_year = 1000
+    #The next year, 200 more students enrolled
+    students_enrolled_second_year = 200
+    #In the third year, 300 students left
+    students_left_third_year = 300
+    #The answer is
+    result = students_first_year + students_enrolled_second_year - students_left_third_year
+    return result
+Topic: Hello Kitty ### Response: 
+Question: Hello Kitty ate 3000 yen worth of candy. She ate 2000 yen worth of candy on Monday, 500 yen worth of candy on Tuesday, and 500 yen worth of candy on Wednesday. How much candy did she eat on Thursday?
+Solution:
+def solution():
+    #Hello Kitty ate 3000 yen worth of candy
+    yen_candy_total = 3000
+    #She ate 2000 yen worth of candy on Monday
+    yen_candy_monday = 2000
+    #500 yen worth of candy on Tuesday
+    yen_candy_tuesday = 500
+    #500 yen worth of candy on Wednesday
+    yen_candy_wednesday = 500
+    #The answer is
+    result = yen_candy_total - yen_candy_monday -
+Topic: Captain America ### Response: 
+
+Question: 
+
+Captain America has 100 vibranium shields. 
+
+He uses 20 of them to block bullets, 30 of them to block lasers, and 50 of them to block missiles. 
+
+How many vibranium shields does he have left?
+
+Solution:
+def solution():
+
+    # Captain America's initial number of vibranium shields
+    vibranium_shields_initial = 100
+
+    # He used 20 of them to block bullets
+    vibranium_shields_used_bullets = 20
+
+    # He used 30 of them to block lasers
+    vibranium_shields_used_lasers = 30
+
+    # He used 50 of them to block missiles
+    vibranium_shields_used_missiles = 50
+
+    # The answer is
+    result = vibranium_shields_initial - vibranium_shields_
+Topic: Thor, the God of Thunder ### Response: 
+Question: Thor, the God of Thunder, has 1200 lightning bolts. He uses 400 of them to fight the Frost Giants, and 300 of them to fight the Dark Elves. He then uses 200 of them to fight the Chitauri. How many lightning bolts does he have left?
+
+Solution:
+def solution():
+    #Thor started with 1200 lightning bolts
+    lightning_bolts_initial = 1200
+    #He used 400 of them to fight the Frost Giants
+    lightning_bolts_used_frost_giants = 400
+    #He used 300 of them to fight the Dark Elves
+    lightning_bolts_used_dark_elves = 300
+    #He used 200 of them to fight the Chitauri
+    lightning_bolts_used_chitauri = 200
+    #The answer is
+    result = lightning_bolts_initial - lightning_bol
+Topic: Ninja Turtles ### Response: 
+Question: The 4 Ninja Turtles, Leonardo, Raphael, Donatello, and Michelangelo, ate 12, 16, 10, and 14 pizzas, respectively. How many pizzas did they eat in total?
+Solution:
+def solution():
+    #Leonardo ate 12 pizzas
+    leonardo_pizzas = 12
+    #Raphael ate 16 pizzas
+    raphael_pizzas = 16
+    #Donatello ate 10 pizzas
+    donatello_pizzas = 10
+    #Michelangelo ate 14 pizzas
+    michelangelo_pizzas = 14
+    #The answer is
+    result = leonardo_pizzas + raphael_pizzas + donatello_pizzas + michelangelo_pizzas
+    return result
+Topic: cheer leading ### Response: 
+
+Question: 
+
+A cheerleading squad has 20 members. 10 of them are in 8th grade, 8 are in 7th grade, and the rest are in 6th grade. How many are in 6th grade?
+Solution:
+def solution():
+    #Total number of members in the squad
+    total_members = 20
+    #Number of 8th graders
+    eighth_graders = 10
+    #Number of 7th graders
+    seventh_graders = 8
+    #The answer is
+    result = total_members - eighth_graders - seventh_graders
+    return result
+Topic: unicorns ### Response: 
+Question: 
+A unicorn can run 12 miles per hour.
+Topic: cars ### Response: 
+def solution():
+    #A car is 150 inches long and 60 inches wide. 
+    #How many cars can you park in a 400-foot by 200-foot parking lot?
+
+    #1 inch is 1/12 of a foot
+    inch_to_foot = 1/12
+    #A car is 150 inches long and 60 inches wide
+    car_length = 150
+    car_width = 60
+    #The car's length and width in feet
+    car_length_in_feet = car_length / inch_to_foot
+    car_width_in_feet = car_width / inch_to_foot
+    #The parking lot is 400 feet by 200 feet
+    parking_lot_length = 400
+    parking_lot_width = 200
+    #The number of cars that can be parked in a row in the parking lot
+    cars_in_a_row = parking
+Topic: Superman ### Response: 
+Question: Superman can punch 100 times per minute. If he punches 100 times per minute for 10 minutes, how many punches has he thrown?
+
+Solution:
+def solution():
+    #Superman can punch 100 times per minute
+    punches_per_minute = 100
+    #He punches for 10 minutes
+    minutes = 10
+    #The answer is
+    result = punches_per_minute * minutes
+    return result
+Topic: Naruto ### Response: 
+Question: Naruto has 1000 ryo. He spends 200 ryo on food, 300 ryo on weapons, and 100 ryo on a new headband. How many ryo does he have left?
+
+Solution:
+def solution():
+    #Naruto has 1000 ryo
+    ryo_initial = 1000
+    #He spends 200 ryo on food
+    ryo_food = 200
+    #300 ryo on weapons
+    ryo_weapons = 300
+    #100 ryo on a new headband
+    ryo_headband = 100
+    #The answer is
+    result = ryo_initial - ryo_food - ryo_weapons - ryo_headband
+    return result
+Topic: dogs ### Response: 
+
+Question: 12 of the 21 dogs in the park are beagles. 2 of the 12 cats in the park are Siamese. 1 of the 19 birds in the park is a pigeon. What is the total number of beagles, Siamese cats, and pigeons in the park?
+
+Solution:
+
+def solution():
+    #4 of the 21 dogs in the park are beagles
+    beagles = 4
+    #2 of the 12 cats in the park are Siamese
+    siamese_cats = 2
+    #1 of the 19 birds in the park is a pigeon
+    pigeons = 1
+    #The answer is
+    result = beagles + siamese_cats + pigeons
+    return result
+
+Topic: field hockey ### Response: 
+Question: A field hockey team has 20 players. 6 of them are forwards, 8 of them are midfielders, and the rest are defenders. How many defenders are on the field hockey team?
+Solution:
+def solution():
+    #Total players
+    total_players = 20
+    #Forwards
+    forwards = 6
+    #Midfielders
+    midfielders = 8
+    #Defenders
+    defenders = total_players - forwards - midfielders
+    return defenders
+Topic: cheer leading ### Response: 
+
+Question: 
+
+The cheer leading squad has 20 members. 10 of them are in the 10th grade, 6 of them are in the 11th grade, and the rest are in the 12th grade. How many of them are in the 12th grade?
+
+Solution:
+
+def solution():
+    #The cheer leading squad has 20 members
+    squad_members = 20
+    #10 of them are in the 10th grade
+    tenth_grade_members = 10
+    #6 of them are in the 11th grade
+    eleventh_grade_members = 6
+    #The rest are in the 12th grade
+    twelfth_grade_members = squad_members - tenth_grade_members - eleventh_grade_members
+    #The answer is
+    result = twelfth_grade_members
+    return result
+
+Topic: Black Panther ### Response: 
+Question: 
+T'Challa, the Black Panther, is the ruler of the nation of Wakanda. 
+
+He is 6 feet 2 inches tall. 
+
+1 inch is 2.54 cm. 
+
+How tall is he in centimeters?
+Solution:
+def solution():
+    #T'Challa is 6 feet 2 inches tall
+    height_in_inches = 6 * 12 + 2
+    #1 inch is 2.54 cm
+    height_in_cm = height_in_inches * 2.54
+    #The answer is
+    result = height_in_cm
+    return result
+Topic: Spiderman ### Response: 
+Question: Spiderman can web-sling 200 feet in 10 seconds. 2000 feet of webbing is in his web-shooters. How many 10-second rounds will it take for Spiderman to use all of his webbing?
+Solution:
+def solution():
+    #Spiderman can web-sling 200 feet in 10 seconds
+    feet_per_round = 200
+    #2000 feet of webbing is in his web-shooters
+    total_feet = 2000
+    #The answer is
+    result = total_feet / feet_per_round
+    return result
+Topic: unicorns ### Response: 
+
+Question: 12 unicorns ate 24 apples. 8 unicorns ate 16 pears. 10 unicorns ate 20 oranges. How many fruits were eaten in total?
+Solution:
+def solution():
+    #12 unicorns ate 24 apples
+    unicorns_apples = 12 * 24
+    #8 unicorns ate 16 pears
+    unicorns_pears = 8 * 16
+    #10 unicorns ate 20 oranges
+    unicorns_oranges = 10 * 20
+    #The answer is
+    result = unicorns_apples + unicorns_pears + unicorns_oranges
+    return result
+Topic: Spiderman ### Response: 
+Question: Spiderman has 200 spider-webs. He uses 10 spider-webs to stop a bank robbery, 20 spider-webs to save a kitten from a tree, and 30 spider-webs to apprehend a mugger. How many spider-webs does he have left?
+Solution:
+def solution():
+    #Spiderman has 200 spider-webs
+    spider_webs_total = 200
+    #He uses 10 spider-webs to stop a bank robbery, 20 spider-webs to save a kitten from a tree, and 30 spider-webs to apprehend a mugger
+    spider_webs_used_bank_robbery = 10
+    spider_webs_used_save_kitten = 20
+    spider_webs_used_apprehend_mugger = 30
+    #The answer is
+    result = spider_webs_total
+Topic: Captain America ### Response: 
+Question: Captain America is in a fight with 40 HYDRA agents. He punches 10 of them, kicks 20 of them, and throws his shield at 10 of them. How many HYDRA agents are left?
+Solution:
+def solution():
+    #Captain America is in a fight with 40 HYDRA agents
+    hydra_agents = 40
+    #He punches 10 of them
+    punches = 10
+    #He kicks 20 of them
+    kicks = 20
+    #He throws his shield at 10 of them
+    shield = 10
+    #The answer is
+    result = hydra_agents - punches - kicks - shield
+    return result
+Topic: Harry Potter ### Response: 
+Question: In the first year, there were 1000 students at Hogwarts. 200 new students enrolled for the second year. 100 students left. 300 more new students enrolled for the third year. 200 students left. How many students are there now?
+Solution:
+def solution():
+    #Initial number of students
+    students_initial = 1000
+    #200 new students enrolled for the second year
+    students_enrolled_2nd_year = 200
+    #100 students left
+    students_left_2nd_year = 100
+    #300 more new students enrolled for the third year
+    students_enrolled_3rd_year = 300
+    #200 students left
+    students_left_3rd_year = 200
+    #The answer is
+    result = students_initial + students_enrolled_2nd_year - students_left_2nd_year + students_enrolled_3rd_year - students_left_3
+Topic: Harry Potter ### Response: 
+Question:
+In the first year, Harry Potter had 300 points. In the second year, he had 200 points. In the third year, he had 400 points. In the fourth year, he had 500 points. How many points did he have in total?
+
+Solution:
+def solution():
+    #In the first year, Harry Potter had 300 points
+    points_first_year = 300
+    #In the second year, he had 200 points
+    points_second_year = 200
+    #In the third year, he had 400 points
+    points_third_year = 400
+    #In the fourth year, he had 500 points
+    points_fourth_year = 500
+    #The answer is
+    result = points_first_year + points_second_year + points_third_year + points_fourth_year
+    return result
+Topic: trains ### Response: 
+Question: 
+
+A 12-car train is 1200 feet long. 
+
+Each car is 100 feet long. 
+
+How many cars is
+Topic: Steph Curry ### Response: 
+def solution():
+    #Steph Curry has 52 points
+    points_curry = 52
+    #He is 200 points away from the all-time record
+    points_away = 200
+    #He scores 20 points in each game
+    points_per_game = 20
+    #The answer is
+    result = points_away / points_per_game
+    return result
+Topic: candy ### Response: 
+Question: 3000 M&Ms are in a candy dish. 1200 of them are red, 600 of them are blue, 400 of them are green, and the rest are yellow. How many M&Ms are yellow?
+Solution:
+def solution():
+    #The total number of M&Ms
+    total_mms = 3000
+    #The number of red, blue, and green M&Ms
+    red_mms = 1200
+    blue_mms = 600
+    green_mms = 400
+    #The rest of the M&Ms are yellow
+    yellow_mms = total_mms - red_mms - blue_mms - green_mms
+    return yellow_mms
+Topic: dinosaurs ### Response: 
+Question: 10000 dinosaurs lived on a prehistoric island. 2000 of them were herbivores. 3000 of them were carnivores. 5000 of them were omnivores. How many of them were herbivores and carnivores?
+Solution:
+def solution():
+    #10000 dinosaurs lived on a prehistoric island
+    total_dinosaurs = 10000
+    #2000 of them were herbivores
+    herbivores = 2000
+    #3000 of them were carnivores
+    carnivores = 3000
+    #5000 of them were omnivores
+    omnivores = 5000
+    #The answer is
+    result = herbivores + carnivores
+    return result
+Topic: soccer ### Response: 
+
+Question:
+A soccer team has 11 players. 3 of the players are forwards, 5 of the players are midfielders, and the rest are defenders. How many defenders are there?
+
+Solution:
+def solution():
+    #Total number of players
+    total_players = 11
+    #Number of forwards
+    forwards = 3
+    #Number of midfielders
+    midfielders = 5
+    #The answer is
+    result = total_players - forwards - midfielders
+    return result
+Topic: Minecraft ### Response: 
+Question: A Creeper has 1000 HP. A Skeleton has 200 HP. A Zombie has 300 HP. How much HP do 10 Creepers, 20 Skeletons, and 15 Zombies have?
+Solution:
+def solution():
+    #A Creeper has 1000 HP
+    creeper_hp = 1000
+    #A Skeleton has 200 HP
+    skeleton_hp = 200
+    #A Zombie has 300 HP
+    zombie_hp = 300
+    #10 Creepers
+    creepers = 10
+    #20 Skeletons
+    skeletons = 20
+    #15 Zombies
+    zombies = 15
+    #The answer is
+    result = (creeper_hp * creepers) + (skeleton_hp * skeletons) + (zombie_hp * zombies
+Topic: Wonder Woman ### Response: 
+Question: Wonder Woman can punch 100 times per second. 
+Solution:
+def solution():
+    #Wonder Woman can punch 100 times per second
+    punches_per_second = 100
+    #The answer is
+    result = punches_per_second
+    return result
+Topic: Fortnite ### Response: 
+Question: 
+A Fortnite player has 1000 V-Bucks. They spend 200 V-Bucks on a new outfit, 300 V-Bucks on a new emote, and 100 V-Bucks on a new glider. How many V-Bucks do they have left?
+Solution:
+def solution():
+    #The player started with 1000 V-Bucks
+    v_bucks_initial = 1000
+    #They spent 200 V-Bucks on a new outfit
+    v_bucks_outfit = 200
+    #300 V-Bucks on a new emote
+    v_bucks_emote = 300
+    #100 V-Bucks on a new glider
+    v_bucks_glider = 100
+    #The answer is
+    result = v_bucks_initial - v_bucks_outfit - v_bucks_emote - v_bu
+Topic: Serena Williams ### Response: 
+Question: Serena Williams has 23 Grand Slam titles. 13 of them are in singles, 14 are in doubles, and 2 are in mixed doubles. How many of her titles are not in mixed doubles?
+Solution:
+def solution():
+    #Serena Williams has 23 Grand Slam titles
+    grand_slam_titles = 23
+    #13 of them are in singles
+    titles_singles = 13
+    #14 are in doubles
+    titles_doubles = 14
+    #2 are in mixed doubles
+    titles_mixed_doubles = 2
+    #The answer is
+    result = grand_slam_titles - titles_mixed_doubles
+    return result
+Topic: Power Rangers ### Response: 
+Question
+Topic: Patrick Mahomes ### Response: 
+Question: Patrick Mahomes has 400 passing yards. He has 300 more rushing yards than passing yards. How many rushing yards does he have?
+Solution:
+def solution():
+    #Patrick Mahomes has 400 passing yards
+    passing_yards = 400
+    #He has 300 more rushing yards than passing yards
+    rushing_yards = passing_yards + 300
+    #The answer is
+    result = rushing_yards
+    return result
+Topic: Spiderman ### Response: 
+Question: Spiderman has 3000 spiderwebs. He uses 2000 spiderwebs to catch 2000 flies. He then uses 500 spiderwebs to catch 500 worms. How many spiderwebs does he have left?
+Solution:
+def solution():
+    #Spiderman started with 3000 spiderwebs
+    spiderwebs_initial = 3000
+    #He used 2000 spiderwebs to catch 2000 flies
+    spiderwebs_used_flies = 2000
+    #He used 500 spiderwebs to catch 500 worms
+    spiderwebs_used_worms = 500
+    #The answer is
+    result = spiderwebs_initial - spiderwebs_used_flies - spiderwebs_used_worms
+    return result
+Topic: field hockey ### Response: 
+Question: A field hockey team has 12 players. 3 of the players are on the forward line, 4 are on the midfield line, and 5 are on the defensive line. How many players are not on the forward, midfield, or defensive lines?
+Solution:
+def solution():
+    #Total players
+    total_players = 12
+    #Forward line players
+    forward_line_players = 3
+    #Midfield line players
+    midfield_line_players = 4
+    #Defensive line players
+    defensive_line_players = 5
+    #Players not on the forward, midfield, or defensive lines
+    other_line_players = total_players - forward_line_players - midfield_line_players - defensive_line_players
+    return other_line_players
+Topic: Superman ### Response: 
+Question: Superman can leap 1.5 miles in a single bound. How many miles can he leap in 12 bounds?
+Solution:
+def solution():
+    #Superman can leap 1.5 miles in a single bound
+    miles_per_bound = 1.5
+    #How many miles can he leap in 12 bounds?
+    result = miles_per_bound * 12
+    return result
+Topic: basketball ### Response: 
+def solution():
+    #Lebron James, in 2 3-point shots, made 100% of his shots.
+    lebron_3_point_shots = 2
+    lebron_3_point_shots_made = 2
+    #Steph Curry, in 5 3-point shots, made 80% of his shots.
+    steph_3_point_shots = 5
+    steph_3_point_shots_made = 5 * 0.80
+    #Who made more 3-point shots?
+    if lebron_3_point_shots_made > steph_3_point_shots_made:
+        print("Lebron James made more 3-point shots.")
+    else:
+        print("Steph Curry made more 3-point shots.")
+Topic: Wonder Woman ### Response: 
+
+Question: 
+Wonder Woman can lasso 20 bad guys at a time. 
+She lassos 20 bad guys on Monday, 30 bad guys on Tuesday, 40 bad guys on Wednesday, and 50 bad guys on Thursday. 
+How many bad guys has she lassoed in total?
+
+Solution:
+def solution():
+    #Wonder Woman lassoed 20 bad guys on Monday
+    bad_guys_monday = 20
+    #30 bad guys on Tuesday
+    bad_guys_tuesday = 30
+    #40 bad guys on Wednesday
+    bad_guys_wednesday = 40
+    #50 bad guys on Thursday
+    bad_guys_thursday = 50
+    #The answer is
+    result = bad_guys_monday + bad_guys_tuesday + bad_guys_wednesday + bad_guys_thursday
+    return result
+Topic: dinosaurs ### Response: 
+Question: 
+The T-Rex is 30 feet long, the Apatosaurus is 15 feet long, and the Velociraptor is 6 feet long. 
+If 10 T-Rex, 15 Apatosaurus, and 20 Velociraptor are lined up end-to-end, how many feet long are they?
+
+Solution:
+def solution():
+    #T-Rex is 30 feet long
+    t_rex_length = 30
+    #Apatosaurus is 15 feet long
+    apatosaurus_length = 15
+    #Velociraptor is 6 feet long
+    velociraptor_length = 6
+    #10 T-Rex, 15 Apatosaurus, and 20 Velociraptor are lined up end-to-end
+    t_rex_count = 10
+    apatosaurus_count = 15
+    velociraptor_count = 20
+Topic: Hello Kitty ### Response: 
+Question: Hello Kitty ate 3000 yen of candy. She ate 2000 yen of candy on Monday, 500 yen of candy on Tuesday, and 500 yen of candy on Wednesday. How much candy did she eat on Thursday?
+Solution:
+def solution():
+    #Hello Kitty ate 3000 yen of candy
+    candy_eaten = 3000
+    #She ate 2000 yen of candy on Monday
+    candy_eaten_monday = 2000
+    #500 yen of candy on Tuesday
+    candy_eaten_tuesday = 500
+    #And 500 yen of candy on Wednesday
+    candy_eaten_wednesday = 500
+    #The answer is
+    result = candy_eaten - candy_eaten_monday - candy_eaten_tuesday -
+Topic: Batman ### Response: 
+Question: Batman is a superhero. He has 30 gadgets. 10 of them are in the Batcave, 6 of them are in the Batmobile, and 5 of them are in the Batwing. How many gadgets does Batman have on his person?
+
+Solution:
+def solution():
+    #Batman has 30 gadgets
+    gadgets_total = 30
+    #10 of them are in the Batcave
+    gadgets_batcave = 10
+    #6 of them are in the Batmobile
+    gadgets_batmobile = 6
+    #5 of them are in the Batwing
+    gadgets_batwing = 5
+    #The answer is
+    result = gadgets_total - gadgets_batcave - gadgets_batmobile - gadgets_batwing
+    return result
+Topic: basketball ### Response: 
+Question: 
+Solution:
+def solution():
+    #LeBron James is 2.03 meters tall
+    lebron_height = 2.03
+    #His height in feet is
+    lebron_height_feet = lebron_height * 3.28084
+    return lebron_height_feet
+Topic: cars ### Response: 
+Question: A car can go 200 miles on 10 gallons of gas. How many miles can 50 gallons of gas take a car?
+Solution:
+def solution():
+    #A car can go 200 miles on 10 gallons of gas
+    miles_per_gallon = 200 / 10
+    #50 gallons of gas
+    gallons_of_gas = 50
+    #The answer is
+    result = miles_per_gallon * gallons_of_gas
+    return result
+Topic: LeBron James ### Response: 
+Question: LeBron James has 12000 points. He scored 1000 points in his first season, 2000 points in his second season, and 3000 points in his third season. How many points does he have left?
+Solution:
+def solution():
+    #LeBron James has 12000 points
+    points_total = 12000
+    #He scored 1000 points in his first season
+    points_first_season = 1000
+    #2000 points in his second season
+    points_second_season = 2000
+    #3000 points in his third season
+    points_third_season = 3000
+    #The answer is
+    result = points_total - points_first_season - points_second_season - points_third_season
+    return result
+Topic: dogs ### Response: 
+
+Question: 
+
+There are 120 dogs at the dog park. 
+
+20 of them are corgis, 30 of them are dachshunds, and the rest are golden retrievers. 
+
+How many golden retrievers are there?
+Solution:
+def solution():
+    # total number of dogs
+    total_dogs = 120
+    # number of corgis
+    corgis = 20
+    # number of dachshunds
+    dachshunds = 30
+    # number of golden retrievers
+    golden_retrievers = total_dogs - corgis - dachshunds
+    return golden_retrievers
+Topic: Captain America ### Response: 
+Question: Captain America is in a battle. He has 100 shields. He uses 50 in the first half of the battle and 20 in the second half. How many shields does he have left?
+
+Solution:
+def solution():
+    #Captain America started with 100 shields
+    shields_initial = 100
+    #He used 50 in the first half of the battle
+    shields_used_first_half = 50
+    #He used 20 in the second half of the battle
+    shields_used_second_half = 20
+    #The answer is
+    result = shields_initial - shields_used_first_half - shields_used_second_half
+    return result
+Topic: Captain Marvel ### Response: 
+Question: Captain Marvel's rocket can travel 1.5 billion miles per day. How many days does it take to travel 7.5 billion miles?
+Solution:
+def solution():
+    #Captain Marvel's rocket can travel 1.5 billion miles per day
+    rocket_speed = 1.5
+    #How many days does it take to travel 7.5 billion miles?
+    distance = 7.5
+    #The answer is
+    result = distance / rocket_speed
+    return result
+Topic: unicorns ### Response: 
+Question: 
+2 unicorns ate 12 apples. 
+3 unicorns ate 15 apples. 
+4 unicorns ate 20 apples. 
+5 unicorns ate 25 apples. 
+How many apples did all the unicorns eat in total?
+Solution:
+def solution():
+    #2 unicorns ate 12 apples
+    unicorns_1 = 2
+    apples_1 = 12
+    #3 unicorns ate 15 apples
+    unicorns_2 = 3
+    apples_2 = 15
+    #4 unicorns ate 20 apples
+    unicorns_3 = 4
+    apples_3 = 20
+    #5 unicorns ate 25 apples
+    unicorns_4 = 5
+    apples_4 = 25
+    #The answer is
+    result = (unicorns_1 * app

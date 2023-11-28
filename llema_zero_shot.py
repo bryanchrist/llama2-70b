@@ -2,7 +2,7 @@ import os
 import sys
 import builtins
 #os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/mammoth/cache'
-os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/mammoth/cache'
+os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llema/cache'
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 import torch
 from collections import defaultdict
@@ -60,7 +60,7 @@ login(token = token)
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
-model_path = "TIGER-Lab/MAmmoTH-70B"   # Specify the path to the model
+model_path = "EleutherAI/llemma_34b"   # Specify the path to the model
 # adapter_path = "output/checkpoint-2000"  # Specify the path to the adapter weights
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
@@ -153,7 +153,7 @@ for i in range(0,5000):
     newly_generated_text = generated_text_parts[-1].strip()
     if "\nBel" in newly_generated_text:
         newly_generated_text = newly_generated_text.split("\nBel")[0]
-    output_file = "mammoth_questions.txt"  # Specify the path and filename for the output file
+    output_file = "llema_questions.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Topic: {topic} " + newly_generated_text + "\n")  # Append the newly generated text to the file
         

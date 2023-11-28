@@ -1,5 +1,6 @@
 #!/bin/bash
-#SBATCH -A sds_kropkoclass
+#SBATCH -A bryan_research
+##SBATCH -A ds5559
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
@@ -12,9 +13,9 @@
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
 #SBATCH -t 3-00:00:00
-#SBATCH -J mammoth_zero_shot
-#SBATCH -o mammoth_zero_shot-%A.out
-#SBATCH -e mammoth_zero_shot-%A.err
+#SBATCH -J mathwell_topic
+#SBATCH -o mathwell_topic-%A.out
+#SBATCH -e mathwell_topic-%A.err
 ##SBATCH -x udc-an28-[1,7],udc-an34-[1,7,13,19]#,udc-an36-[1,13,19]#,udc-an37-[1,7,13,19]#,udc-ba25-2[3,7,8],udc-ba26-2[3-6],udc-ba27-2[3-4]
 
 module purge
@@ -33,4 +34,4 @@ pip install -U -r requirements.txt
 pip install -U --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/ triton-nightly
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
-python mammoth_zero_shot.py
+python mathwell.py

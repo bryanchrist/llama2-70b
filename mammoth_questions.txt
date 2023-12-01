@@ -49602,3 +49602,4462 @@ first_eight_games = first_half_remaining / 2
 
     # The yards he passed in the last 4 games of the first half of the season
 last_four_games_first_half = first_
+Topic: Power Rangers ### Response: 2009 was a banner year for the Beverly Hills High School Cheerleaders. They won 20 competitions. In 2010, they won 25% more competitions than they did in 2009. How many competitions did they win in 2010?
+
+def solution():
+    #2009 was a banner year for the Beverly Hills High School Cheerleaders. They won 20 competitions.
+    competitions_2009 = 20
+    #In 2010, they won 25% more competitions than they did in 2009.
+    competitions_2010 = competitions_2009 + (competitions_2009 * 0.25)
+    #The answer is
+    result = competitions_2010
+    return result
+print(solution())
+Topic: Ninja Turtles ### Response:
+Topic: Harry Potter ### Response: 
+def solve():
+    # number of galleons Harry Potter has
+    galleons = 5000
+    # number of galleons used for each item
+    galleons_used_firebolt = 1000
+    galleons_used_invisibility_cloak = 2000
+    galleons_used_phoenix_feather_wand = 1000
+    # calculate remaining galleons
+    remaining_galleons = galleons - galleons_used_firebolt - galleons_used_invisibility_cloak - galleons_used_phoenix_feather_wand
+    return remaining_galleons
+print(solve())
+Topic: football ### Response: 
+def solve():
+    # number of yards Tom Brady threw for
+    yards = 466
+    # number of yards Aaron Rodgers threw for
+    rodgers_yards = 368
+    # difference in yards
+    difference = yards - rodgers_yards
+    return difference
+print(solve())
+Topic: Patrick Mahomes ### Response: 
+def solution():
+    #Patrick Mahomes has 40000 followers on Twitter
+    followers_total = 40000
+    #2000 of his followers are from the United States
+    followers_us = 2000
+    #1500 are from Brazil
+    followers_brazil = 1500
+    #The rest are from other countries
+    followers_other = followers_total - followers_us - followers_brazil
+    #The answer is
+    result = followers_other
+    return result
+print(solution())
+Topic: candy ### Response:
+Topic: volleyball ### Response: 
+def volleyball_solution():
+    # A volleyball team has 6 players
+    players_per_team = 6
+    # A school has 3 volleyball teams
+    teams = 3
+    # The total number of players is
+    total_players = players_per_team * teams
+    return total_players
+print(volleyball_solution())
+Topic: Fortnite ### Response: 100 players drop into a match. 
+After 10 minutes, there are 50 players left.
+After 20 minutes, there are 25 players left.
+How many players are left after 30 minutes?
+
+def fortnite_players(total_players, minutes):
+    # We can see from the problem that the number of players halves every 10 minutes
+    # Therefore, after 30 minutes, the number of players will be total_players / 2^3
+    return total_players / (2**minutes)
+
+print(fortnite_players(100, 30))
+Topic: Thor, the God of Thunder ### Response: 
+def solution():
+    # Number of times Thor's hammer was stolen in 2017
+    stolen_2017 = 3
+    # Number of times Thor's hammer was stolen in 2018
+    stolen_2018 = 2
+    # Number of times Thor's hammer was stolen in 2019
+    stolen_2019 = 1
+    # Total number of times Thor's hammer was stolen in the 3 years
+    total_stolen = stolen_2017 + stolen_2018 + stolen_2019
+    return total_stolen
+
+print(solution())
+Topic: lacrosse ### Response:
+Topic: Thor, the God of Thunder ### Response: 
+def solve():
+    #Thor can throw 100 lightning bolts in 10 seconds
+    lightning_bolts_in_10_seconds = 100
+    #So, he can throw 1000 lightning bolts in 40 seconds
+    lightning_bolts_in_40_seconds = lightning_bolts_in_10_seconds * 4
+    return lightning_bolts_in_40_seconds
+print(solve())
+Topic: ice cream ### Response: 
+def solve():
+    # total number of ice cream flavors
+total_flavors = 32
+
+    # number of chocolate flavors
+chocolate_flavors = 8
+
+    # number of vanilla flavors
+vanilla_flavors = 12
+
+    # number of strawberry flavors
+strawberry_flavors = 4
+
+    # number of other flavors
+other_flavors = total_flavors - (chocolate_flavors + vanilla_flavors + strawberry_flavors)
+
+    # print the result
+    return other_flavors
+print(solve())
+Topic: football ### Response: 1st and 10 means that the offense has 10 yards to go to get a first down.
+The offense gets a first down by gaining 10 yards.
+If the offense gains 5 yards on the first play, they have 10 - 5 = <<10-5=5>>5 yards to go to get a first down.
+If they gain 3 yards on the second play, they have 5 - 3 = <<5-3=2>>2 yards to go to get a first down.
+If they gain 1 yard on the third play, they have 2 - 1 = <<2-1=1>>1 yard to go to get a first down.
+If they gain 1 yard on the fourth play, they have 1 - 1 = <<1-1=0>>0 yards to go to get a first down.
+#### 0
+Topic: cats ### Response: 10 cats were adopted on Monday, 15 on Tuesday and 20 on Wednesday. How many cats were adopted in total?
+
+def total_cats_adopted():
+    # Number of cats adopted on Monday
+    cats_monday = 10
+    # Number of cats adopted on Tuesday
+    cats_tuesday = 15
+    # Number of cats adopted on Wednesday
+    cats_wednesday = 20
+    # Total number of cats adopted
+    total_cats = cats_monday + cats_tuesday + cats_wednesday
+    return total_cats
+print(total_cats_adopted())
+Topic: Captain Marvel ### Response:
+Topic: Captain Marvel ### Response: 
+def solution():
+    #Captain Marvel's weight
+    captain_marvel_weight = 180
+    #Food he eats per day
+    food_per_day = 10
+    #Number of days
+    days = 30
+    #Calculate the total food he needs
+    total_food = captain_marvel_weight * food_per_day * days
+    return total_food
+print(solution())
+Topic: cars ### Response: 
+Question: A car travels at a speed of 50 miles per hour. If it travels for 2 hours, how far is it from its starting point?
+Solution:
+def solve():
+    # define the speed and time
+    speed = 50 # in miles per hour
+    time = 2 # in hours
+    
+    # calculate the distance
+    distance = speed * time
+    
+    # return the distance
+    return distance
+print(solve())
+Topic: Naruto ### Response: 1. Naruto Uzumaki has a total of 1267 chakra points.
+2. Sasuke Uchiha has a total of 1196 chakra points.
+3. Sakura Haruno has a total of 1225 chakra points.
+4. Kakashi Hatake has a total of 1250 chakra points.
+5. Tsunade has a total of 1232 chakra points.
+
+Find the sum of all the chakra points.
+
+def find_sum_of_chakra_points():
+    # define the chakra points for each character
+    naruto_chakra = 1267
+    sasuke_chakra = 1196
+    sakura_chakra = 1225
+    kakashi_chakra = 1250
+    tsunade_chakra = 1232
+
+    # calculate the sum of all the chakra points
+    total_chakra = naruto_
+Topic: Super Mario ### Response: 
+def solve():
+    # In the game, each mushroom gives Mario an extra life.
+    # A flower gives him the ability to shoot fireballs.
+    # Each coin is worth 1 point.
+    # The player's score is the sum of the points from coins, mushrooms, and flowers.
+
+    # Define the number of each item
+    mushrooms = 3
+    flowers = 2
+    coins = 10
+
+    # Calculate the score
+    score = mushrooms * 10 + flowers * 5 + coins
+
+    return score
+print(solve())
+Topic: cars ### Response: 
+Question:A car dealership has 100 cars. They sold 20 cars on Monday, 30 cars on Tuesday, and 50 cars on Wednesday. How many cars are left?
+Solution:
+initial_cars = 100
+sold_cars_monday = 20
+sold_cars_tuesday = 30
+sold_cars_wednesday = 50
+
+remaining_cars = initial_cars - sold_cars_monday - sold_cars_tuesday - sold_cars_wednesday
+print(remaining_cars)
+Topic: Harry Potter ### Response: 50% of the wizards in this world are men. 10% of the men are evil. 25% of the women are evil. If there are 1000 wizards, how many evil wizards are there?
+
+def solution():
+    total_wizards = 1000
+    men_wizards = 0.5 * total_wizards
+    evil_men = 0.1 * men_wizards
+    evil_women = 0.25 * (total_wizards - men_wizards)
+    result = evil_men + evil_women
+    return result
+print(solution())
+Topic: Wonder Woman ### Response: 
+Question:Wonder Woman has a magic lasso that can hold a maximum of 2000 pounds. She is currently holding a man weighing 180 pounds and a woman weighing 130 pounds. How much weight can she hold with her magic lasso?
+Solution:def solution():
+    # define the maximum weight the lasso can hold
+    max_weight = 2000
+    # define the weight of the man and woman
+    man_weight = 180
+    woman_weight = 130
+    # calculate the total weight she is currently holding
+    total_weight = man_weight + woman_weight
+    # calculate how much more weight she can hold
+    remaining_weight = max_weight - total_weight
+    return remaining_weight
+print(solution())
+Topic: pizza ### Response: 1 pizza has 8 slices.
+1 slice of pizza has 16 calories.
+If I eat 3 slices of pizza, how many calories did I eat?
+
+def pizza_calories(slices):
+    # number of slices
+    slices = 3
+    # calories per slice
+    calories_per_slice = 16
+    # total calories
+    total_calories = slices * calories_per_slice
+    return total_calories
+Topic: Captain Marvel ### Response: 
+def solution():
+    # The length of the T-Rex
+    t_rex_length = 100 * 1.5
+    # The answer is
+    result = t_rex_length
+    return result
+Topic: swimming ### Response: 
+def swimming_problem():
+    # define the variables
+    speed_john = 2  # speed of John in m/s
+    speed_paul = 3  # speed of Paul in m/s
+    distance = 10  # distance in meters
+
+    # calculate the time it takes for John and Paul to swim the distance
+    time_john = distance / speed_john
+    time_paul = distance / speed_paul
+
+    # calculate the difference in time
+    time_difference = time_paul - time_john
+
+    # return the result
+    return time_difference
+Topic: Black Panther ### Response: 
+def solution():
+    # Wakanda has 1000 vibranium
+    vibranium_initial = 1000
+    # Black Panther used 20% of them on Killmonger
+    vibranium_used_killmonger = 0.20 * vibranium_initial
+    # Black Panther then used 10% of the remaining on Klaue
+    vibranium_used_klaue = 0.10 * (vibranium_initial - vibranium_used_killmonger)
+    # The answer is
+    result = vibranium_initial - vibranium_used_killmonger - vibranium_used_klaue
+    return result
+
+print(solution())
+Topic: swimming ### Response: 
+def solution():
+    # Number of laps in a mile
+    laps_per_mile = 1656
+    # Number of laps swam
+    laps_swam = 928
+    # Calculate the number of miles swam
+    miles_swam = laps_swam / laps_per_mile
+    return miles_swam
+Topic: Ninja Turtles ### Response: 
+Question:The ninja turtles have 600 dollars. They spend 100 dollars in the morning and 100 dollars in the afternoon. They earn 50 dollars in the evening. How much money do they have left?
+Solution:ninja_turtles_dollars = 600
+spend_morning = 100
+spend_afternoon = 100
+earn_evening = 50
+
+money_left = ninja_turtles_dollars - spend_morning - spend_afternoon + earn_evening
+
+print(money_left)
+Topic: pizza ### Response: 
+Question: There are 8 slices in a pizza. Each pizza slice is 1/8 of the whole pizza. What is the area of each pizza slice?
+Answer:The area of a pizza is 8 slices. Each slice is 1/8 of the whole pizza. Therefore, the area of each pizza slice is 1/8 of the whole pizza.
+def pizza_slice_area():
+    # The area of a pizza is 8 slices
+    total_pizza_area = 8
+    # Each slice is 1/8 of the whole pizza
+    slice_fraction = 1/8
+    # Therefore, the area of each pizza slice is 1/8 of the whole pizza
+    pizza_slice_area = total_pizza_area * slice_fraction
+    return pizza_slice_area
+Topic: trains ### Response:
+Topic: Hello Kitty ### Response: 7 cats and 5 dogs are for sale at an animal shelter. 2 cats and 1 dog are sold. 3 more cats and 4 more dogs are brought in. How many cats and dogs are there now?
+
+def solution():
+    #Initially, there were 7 cats and 5 dogs
+    cats_initial = 7
+    dogs_initial = 5
+    #2 cats and 1 dog were sold
+    cats_sold = 2
+    dogs_sold = 1
+    #3 more cats and 4 more dogs were brought in
+    cats_brought = 3
+    dogs_brought = 4
+    #The answer is
+    result = (cats_initial - cats_sold + cats_brought) + (dogs_initial - dogs_sold + dogs_brought)
+    return result
+print(solution())
+Topic: dinosaurs ### Response:
+Topic: Captain America ### Response: 
+def solve():
+    # initial number of barbie dolls
+    barbie_dolls_initial = 400
+    # number of barbie dolls sold
+    barbie_dolls_sold = 200
+    # remaining barbie dolls
+    barbie_dolls_remaining = barbie_dolls_initial - barbie_dolls_sold
+    # number of damaged barbie dolls
+    barbie_dolls_damaged = barbie_dolls_remaining * 0.2
+    # final number of barbie dolls
+    result = barbie_dolls_remaining - barbie_dolls_damaged
+    return result
+print(solve())
+Topic: Ninja Turtles ### Response: 4 ninja turtles have 20 dollars each. How much money do they have altogether?
+
+def solve():
+    # number of ninja turtles
+    turtles = 4
+    # amount of money each turtle has
+    money_per_turtle = 20
+    # calculate total money
+    total_money = turtles * money_per_turtle
+    return total_money
+print(solve())
+Topic: basketball ### Response: 
+def basketball_word_problem():
+    # number of players in a basketball team
+    players = 5
+    # number of players that can be substituted
+    substitutions = 5
+    # total number of players in a game
+    total_players = players + substitutions
+    return total_players
+
+print(basketball_word_problem())
+Topic: football ### Response: 
+def solution():
+    total_players = 12
+    eleventh_graders = 5
+    twelfth_graders = 5
+    tenth_graders = total_players - eleventh_graders - twelfth_graders
+    return tenth_graders
+print(solution())
+Topic: swimming ### Response: 
+def swimming_solution():
+    # define the initial variables
+    total_length = 100  # total length of the pool in meters
+    swimmer_speed = 2  # speed of the swimmer in meters per minute
+    time_limit = 15  # time limit in minutes
+
+    # calculate the time it takes for the swimmer to complete the length of the pool
+    time_per_length = total_length / swimmer_speed
+
+    # calculate the number of lengths the swimmer can complete within the time limit
+    num_lengths = time_limit // time_per_length
+
+    # calculate the total distance the swimmer can swim within the time limit
+    total_distance = num_lengths * total_length
+
+    return total_distance
+
+word_problem = """
+A swimmer can swim at a speed of 2 meters per minute. There is a pool with a total length of 100 meters. The swimmer has 15 minutes to swim as far as possible. How far can the swimmer swim within the time limit?
+
+Solution
+Topic: Power Rangers ### Response: 5 Power Rangers were fighting 120 monsters on Monday.
+They won the battle and on Tuesday, they were fighting 10 more monsters.
+On Wednesday, they were fighting 15 more monsters.
+How many monsters did they fight by the end of Wednesday?
+
+def solution():
+    #The Power Rangers were fighting 120 monsters on Monday
+    monsters_fought_monday = 120
+    #10 more monsters on Tuesday
+    monsters_fought_tuesday = 10
+    #15 more monsters on Wednesday
+    monsters_fought_wednesday = 15
+    #The answer is
+    result = monsters_fought_monday + monsters_fought_tuesday + monsters_fought_wednesday
+    return result
+Topic: basketball ### Response:
+Topic: Fortnite ### Response: 100 players drop in. 99 players drop out. Who wins?
+
+def winner():
+    players_drop_in = 100
+    players_drop_out = 99
+    winner = players_drop_in - players_drop_out
+    return winner
+Topic: trains ### Response: 
+def train_problem_solution():
+    # Given values
+    train_speed = 60  # speed of the train in miles per hour
+    distance = 120  # distance to be covered in miles
+    time = 2  # time in hours
+
+    # Calculate the distance covered by the train
+    distance_covered = train_speed * time
+
+    # Calculate the remaining distance
+    remaining_distance = distance - distance_covered
+
+    # Calculate the time required to cover the remaining distance
+    remaining_time = remaining_distance / train_speed
+
+    # Calculate the total time required
+    total_time = time + remaining_time
+
+    # Return the total time required
+    return total_time
+print(train_problem_solution())
+Topic: LeBron James ### Response:
+Topic: cars ### Response:  Question:A car consumes 1 liter of fuel for every 10 kilometers it travels. If the car travels 50 kilometers, how many liters of fuel will it consume?
+Solution:
+def fuel_consumption(distance):
+    # Given that a car consumes 1 liter of fuel for every 10 kilometers it travels
+    fuel_per_km = 1/10
+    # Calculate the fuel consumption for the given distance
+    fuel_consumption = fuel_per_km * distance
+    return fuel_consumption
+
+print(fuel_consumption(50))
+Topic: Harry Potter ### Response:
+Topic: Iron Man ### Response: 
+def solve():
+    # Tony Stark has 3 Iron Man suits
+    num_suits = 3
+    # Each suit has 15 different weapons
+    num_weapons = 15
+    # The total number of weapons is
+    total_weapons = num_suits * num_weapons
+    return total_weapons
+print(solve())
+Topic: Steph Curry ### Response: 
+def solve():
+    # Step 1: Calculate the total number of points Steph Curry scored in the 2015-16 season
+    total_points = 2376
+    
+    # Step 2: Calculate the total number of games Steph Curry played in the 2015-16 season
+    total_games = 80
+    
+    # Step 3: Calculate the average number of points Steph Curry scored per game
+    average_points_per_game = total_points / total_games
+    
+    # Step 4: Print the result
+    print(average_points_per_game)
+solve()
+Topic: ice cream ### Response: 
+Question:You have $10 to buy ice cream. You can buy as many $1, $2, $3, $4, $5, and $6 cones as you want, but you cannot buy any $7, $8, $9, or $10 cones. How many cones can you buy?
+
+Solution:def find_cones(total_money):
+    # list of prices of cones
+    cone_prices = [1, 2, 3, 4, 5, 6]
+    # total number of cones
+    total_cones = 0
+    # check for each cone price
+    for price in cone_prices:
+        # calculate the number of cones that can be bought
+        num_cones = total_money // price
+        # add to total number of cones
+        total_cones += num_cones
+    return total_cones
+
+print(find_cones(10))
+Topic: LeBron James ### Response: 
+word_problem = """
+LeBron James has scored 30 points in the first half. He needs to score 60 points in total to beat the record. 
+How many points does he need to score in the second half?
+"""
+
+def solve():
+    total_points_needed = 60
+    points_scored_in_first_half = 30
+    points_needed_in_second_half = total_points_needed - points_scored_in_first_half
+    return points_needed_in_second_half
+print(solve())
+Topic: Hello Kitty ### Response: 
+def solution():
+    #Hello Kitty is 40 years old
+    hello_kitty_age = 40
+    #My Melody is 10 years younger than Hello Kitty
+    my_melody_age = hello_kitty_age - 10
+    #Kuromi is 10 years older than My Melody
+    kuromi_age = my_melody_age + 10
+    #The answer is
+    result = kuromi_age
+    return result
+print(solution())
+Topic: Black Panther ### Response: 12 cats were at the cat shelter. 15 more cats were brought to the shelter. 3 of the cats were adopted. How many cats are now at the shelter?
+
+def solution():
+    #There were 12 cats at the shelter
+    cats_initial = 12
+    #15 more cats were brought to the shelter
+    cats_brought = 15
+    #3 cats were adopted
+    cats_adopted = 3
+    #The answer is
+    result = cats_initial + cats_brought - cats_adopted
+    return result
+Topic: candy ### Response:
+Topic: cars ### Response: 1969 was the first year that the United States mandated cars to have seat belts. Since then, there have been 49 years where cars have been required to have seat belts. In that time, there have been 23 cars produced per year, on average. 
+
+Since 1969, there have been 49 years * 23 cars per year = <<49*23=1127>>1,127 cars produced.
+
+#### 1127
+Topic: candy ### Response: 10 pieces of candy cost $8.
+If 1 piece of candy costs $8/10, then 5 pieces of candy cost $8/10 * 5 = $4.
+If 1 piece of candy costs $8/10, then 10 pieces of candy cost $8/10 * 10 = $8.
+If 10 pieces of candy cost $8, then 1 piece of candy costs $8/10 = $0.8.
+If 1 piece of candy costs $0.8, then 5 pieces of candy cost $0.8 * 5 = $4.
+#### 4
+Topic: Patrick Mahomes ### Response: 2020 was a difficult year for many people. Patrick Mahomes, the star quarterback of the Kansas City Chiefs, was one of the few people who had a great year. He led the Chiefs to their second consecutive Super Bowl appearance and was named the Super Bowl MVP for the second time in a row. He also signed a 10-year contract extension with the Chiefs worth $450 million, making him the highest-paid athlete in sports history.
+
+To put Mahomes' contract in perspective, the average salary of an NFL player is $2 million per year. Therefore, the average NFL player would need to play for 225 years to earn as much as Mahomes will earn in 10 years.
+
+Question: How many years would the average NFL player need to play to earn as much as Patrick Mahomes will earn in 10 years?
+
+def solution():
+    # Patrick Mahomes' contract is worth $450 million for 10 years
+    mahomes_contract = 450000000
+    # The average NFL player
+Topic: lacrosse ### Response: 
+def solve():
+    # number of players in a lacrosse team
+    players = 10
+    # number of teams
+    teams = 2
+    # total number of players
+    total_players = players * teams
+    return total_players
+print(solve())
+Topic: lacrosse ### Response: 
+def lacrosse_problem():
+    # Team A's total goals
+    team_A_goals = 35
+    # Team B's total goals
+    team_B_goals = 25
+    # Team B's disallowed goals
+    team_B_disallowed_goals = 5
+    # Team B's actual goals
+    team_B_actual_goals = team_B_goals - team_B_disallowed_goals
+    # The difference in goals
+    difference = team_A_goals - team_B_actual_goals
+    return difference
+print(lacrosse_problem())
+Topic: Serena Williams ### Response: 
+def solution():
+    #Serena's total earnings
+    total_earnings = 84.0 + 16.0 + 4.0
+    #Earnings from singles
+    singles_earnings = 84.0
+    #Earnings from doubles
+    doubles_earnings = 16.0
+    #Earnings from mixed doubles
+    mixed_doubles_earnings = 4.0
+    #The answer is
+    result = total_earnings - singles_earnings - doubles_earnings - mixed_doubles_earnings
+    return result
+print(solution())
+Topic: Spiderman ### Response: 
+def spiderman_problem():
+    # Spiderman can swing 10 feet per second
+    spiderman_speed = 10
+
+    # The distance between the two buildings is 20 feet
+    distance = 20
+
+    # Time = Distance / Speed
+    time = distance / spiderman_speed
+
+    # Print the time it takes for Spiderman to swing between the two buildings
+    print(time)
+Topic: Power Rangers ### Response: 
+def solve():
+    # number of Power Rangers
+    power_rangers = 5
+    # number of monsters
+    monsters = 6
+    # each Power Ranger can fight with 2 monsters
+    fights = power_rangers * 2
+    # total number of fights
+    total_fights = fights
+    return total_fights
+print(solve())
+Topic: Harry Potter ### Response: 
+def harry_potter_problem():
+    # Harry Potter has 7 books
+    books = 7
+    # Each book has 25 chapters
+    chapters_per_book = 25
+    # The total number of chapters is the number of books times the number of chapters per book
+    total_chapters = books * chapters_per_book
+    return total_chapters
+
+print(harry_potter_problem())
+Topic: cheer leading ### Response: 10 cheerleaders are in a competition. Each one has 3 minutes to perform a routine. The total time for all the cheerleaders to perform is 30 minutes. If each cheerleader has the same amount of time to perform, how long is each routine?
+Solution:
+def solution():
+    # total time for all the cheerleaders to perform is 30 minutes
+    total_time = 30
+    # each cheerleader has 3 minutes to perform a routine
+    individual_time = 3
+    # total number of cheerleaders
+    total_cheerleaders = 10
+    # calculate the total time for all the cheerleaders to perform
+    total_perform_time = total_time * individual_time
+    # calculate the time for each routine
+    routine_time = total_perform_time / total_cheerleaders
+    return routine_time
+print(solution())
+Topic: candy ### Response: 
+Question: Sally has 100 pieces of candy. She eats 50 pieces and gives away 25 pieces. How many pieces of candy does she have left?
+
+Solution:
+def solution():
+    # Sally started with 100 pieces of candy
+    candy_initial = 100
+    # Sally ate 50 pieces of candy
+    candy_eaten = 50
+    # Sally gave away 25 pieces of candy
+    candy_given_away = 25
+    # The answer is
+    result = candy_initial - candy_eaten - candy_given_away
+    return result
+Topic: Taylor Swift ### Response: 
+def solve():
+    # Total number of Taylor Swift's albums
+    total_albums = 10
+    
+    # Number of albums that won a Grammy
+    grammy_albums = 3
+    
+    # Number of albums that won a CMA
+    cma_albums = 2
+    
+    # Number of albums that won both a Grammy and a CMA
+    both_albums = 1
+    
+    # The albums that won both a Grammy and a CMA are counted twice, so we need to subtract them once.
+    # The answer is
+    result = total_albums - grammy_albums - cma_albums + both_albums
+    return result
+print(solve())
+Topic: dinosaurs ### Response: 
+def solve():
+    # number of dinosaurs
+n = 10
+
+    # number of eggs each dinosaur lays
+eggs_per_dinosaur = 2
+
+    # total number of eggs
+total_eggs = n * eggs_per_dinosaur
+
+    # number of eggs that hatch
+hatch_successful = total_eggs - 2
+
+    # number of dinosaurs that hatch
+dinosaurs_that_hatch = hatch_successful / 2
+
+    # return the answer
+return dinosaurs_that_hatch
+print(solve())
+Topic: cars ### Response: 
+cars_initial = 1000
+cars_left = 200
+cars_came = 100
+cars_returned = 200
+
+def solution():
+    result = cars_initial - cars_left + cars_came + cars_returned
+    return result
+print(solution())
+Topic: swimming ### Response: 
+def swimming_problem():
+    # define the variables
+    total_distance = 1000  # total distance to be covered in meters
+    freestyle_distance = 200  # distance to be covered using freestyle in meters
+    breaststroke_distance = 300  # distance to be covered using breaststroke in meters
+
+    # calculate the distance to be covered using backstroke
+    backstroke_distance = total_distance - freestyle_distance - breaststroke_distance
+
+    # print the result
+    return backstroke_distance
+print(swimming_problem())
+Topic: Barbie ### Response: 1 Barbie doll is equal to 200 Kenyan shillings.
+1 Kenyan shilling is equal to 1/200 of a dollar.
+If 1 dollar is equal to 100 cents, then 1/200 of a dollar is equal to 1/200*100 = 1/2 of a cent.
+If 1 Barbie doll is equal to 200 Kenyan shillings, then 1 Barbie doll is equal to 200*1/200 = 1 dollar.
+#### 1
+Topic: Power Rangers ### Response: 5 Power Rangers are fighting 50 Putties. Each Power Ranger can fight 10 Putties at a time. How many Power Rangers are needed to fight all the Putties?
+
+Putties = 50
+PowerRanger = 5
+fight = 10
+
+answer = (Putties/fight) / PowerRanger
+
+print(answer)
+Topic: trains ### Response: 
+def solve():
+    # Constants
+    train_speed = 10  # speed of train in m/s
+    train_length = 100  # length of train in meters
+    time_to_cross = 30  # time taken to cross the post in seconds
+
+    # Calculate the distance covered by the train in 30 seconds
+    distance_covered = train_speed * time_to_cross
+
+    # Calculate the distance between the post and the point where the train completely crosses the post
+    distance_between_post_and_cross = train_length - distance_covered
+
+    # Calculate the time taken for the train to completely cross the post
+    time_to_cross_post = distance_between_post_and_cross / train_speed
+
+    # Calculate the speed of the post
+    post_speed = distance_between_post_and_cross / time_to_cross_post
+
+    return post_speed
+print(solve())
+Topic: Captain America ### Response: 
+def solve():
+    # Captain America's starting weight
+    starting_weight = 200
+    
+    # Weight added after eating a cheeseburger
+    cheeseburger_weight = 50
+    
+    # Weight added after drinking a beer
+    beer_weight = 25
+    
+    # Weight lost after running
+    running_weight_loss = 100
+    
+    # Calculate Captain America's final weight
+    final_weight = starting_weight + cheeseburger_weight + beer_weight - running_weight_loss
+    
+    return final_weight
+print(solve())
+Topic: Wonder Woman ### Response:
+Topic: cars ### Response:
+Topic: planes ### Response: 
+def solution():
+    # The number of total planes
+    total_planes = 11
+    # The number of aces
+    aces = 5
+    # The number of planes that are not aces
+    result = total_planes - aces
+    return result
+print(solution())
+Topic: Pokémon ### Response: 
+Question: If a Pokemon trainer has 6 Pokemon and each Pokemon has 4 moves, how many total moves does the trainer have?
+
+Solution:
+def total_moves(num_pokemon, moves_per_pokemon):
+    # Calculate total moves
+    total_moves = num_pokemon * moves_per_pokemon
+    return total_moves
+
+# Test the function
+num_pokemon = 6
+moves_per_pokemon = 4
+print(total_moves(num_pokemon, moves_per_pokemon))
+Topic: cats ### Response: 1 cat has 4 legs.
+1 dog has 2 legs.
+There are 6 animals in total.
+How many cats are there?
+
+def solution():
+    total_legs = 6 * 2
+    cat_legs = 4
+    dog_legs = 2
+    cats = total_legs / cat_legs
+    return cats
+Topic: Pokémon ### Response: 
+def solve():
+    # Constants
+    total_pokemon = 898
+    pokemon_per_hour = 10
+
+    # Calculate the total hours
+    total_hours = total_pokemon / pokemon_per_hour
+
+    return total_hours
+print(solve())
+Topic: cars ### Response:
+Topic: ice cream ### Response: 1. The cost of a single scoop of ice cream is $3.
+2. The cost of a double scoop of ice cream is $5.
+3. The cost of a triple scoop of ice cream is $7.
+
+Question: If you have $10, how many scoops of ice cream can you buy?
+
+Solution:def scoops_of_ice_cream(money):
+    # calculate the number of single scoops
+    single_scoops = money // 3
+    # calculate the number of double scoops
+    double_scoops = money // 5
+    # calculate the number of triple scoops
+    triple_scoops = money // 7
+    # calculate the total number of scoops
+    total_scoops = single_scoops + 2*double_scoops + 3*triple_scoops
+    return total_scoops
+
+print(scoops_of_ice_cream(10))
+Topic: LeBron James ### Response: 2018 was a historic year for LeBron James. In that year, he scored 2,065 points, had 517 assists, and 500 rebounds. If you add all these together, you get 3,082. This was the first time a player had ever scored more than 2,000 points and had more than 500 rebounds and 500 assists in the same season.
+
+To find the total number of points, assists, and rebounds, you can use the following formula:
+
+Total = Points + Assists + Rebounds
+
+Let's plug in the values from 2018:
+
+Total = 2,065 + 517 + 500
+Total = 3,082
+
+So, the total number of points, assists, and rebounds for LeBron James in 2018 is 3,082.
+Topic: Captain Marvel ### Response:
+Topic: candy ### Response: 
+def solution():
+    # I started with 12000 gold nuggets
+    gold_nuggets_initial = 12000
+    # I used 3000 to buy a pickaxe
+    gold_nuggets_pickaxe = 3000
+    # I used 2000 to buy an axe
+    gold_nuggets_axe = 2000
+    # I used 1500 to buy a shovel
+    gold_nuggets_shovel = 1500
+    # The answer is
+    result = gold_nuggets_initial - gold_nuggets_pickaxe - gold_nuggets_axe - gold_nuggets_shovel
+    return result
+print(solution())
+Topic: Barbie ### Response: 1 Barbie doll costs $10.
+If you buy 2 Barbie dolls, you will pay $10 x 2 = $<<10*2=20>>20.
+If you buy 3 Barbie dolls, you will pay $10 x 3 = $<<10*3=30>>30.
+#### 10
+Topic: cheer leading ### Response: 500 cars are in a parking lot. 200 more cars come in. 100 cars leave. How many cars are in the parking lot now?
+
+def solution():
+    #There were 500 cars in the parking lot
+    cars_initial = 500
+    #200 more cars came in
+    cars_came_in = 200
+    #100 cars left
+    cars_left = 100
+    #The answer is
+    result = cars_initial + cars_came_in - cars_left
+    return result
+Topic: Naruto ### Response:
+Topic: Ninja Turtles ### Response: 
+def solve():
+    # Define the weights of the characters
+    trex_weight = 12000
+    brontosaurus_weight = trex_weight + 4000
+    pterodactyl_weight = brontosaurus_weight / 1000
+
+    # Calculate the difference between a T. rex and a pterodactyl
+    result = trex_weight - pterodactyl_weight
+
+    return result
+print(solve())
+Topic: Barbie ### Response: 
+Question: Barbie has 20 dolls and 5 cars. She wants to give 3 dolls and 2 cars to her friend. How many dolls and cars will she have left?
+
+Solution:barbie_dolls = 20
+barbie_cars = 5
+give_dolls = 3
+give_cars = 2
+
+remaining_dolls = barbie_dolls - give_dolls
+remaining_cars = barbie_cars - give_cars
+
+print(remaining_dolls + remaining_cars)
+Topic: Harry Potter ### Response:
+Topic: volleyball ### Response: 
+def volleyball_solution():
+    # number of players in a team
+    players_in_team = 6
+    # total number of teams
+    total_teams = 8
+    # total number of players
+    total_players = players_in_team * total_teams
+    return total_players
+print(volleyball_solution())
+Topic: Captain Marvel ### Response: 
+def solution():
+    #Captain Marvel is 5'5" tall
+    captain_marvel_height_feet = 5
+    captain_marvel_height_inches = 5
+    #12" is 1 foot
+    feet_to_inches = 12
+    #The answer is
+    result = (captain_marvel_height_feet * feet_to_inches) + captain_marvel_height_inches
+    return result
+
+print(solution())
+Topic: dinosaurs ### Response: 
+def solve():
+    # total number of dinosaurs
+total_dinosaurs = 200
+    # number of herbivorous dinosaurs
+herbivores = 100
+    # number of carnivorous dinosaurs
+carnivores = total_dinosaurs - herbivores
+    # number of omnivorous dinosaurs
+omnivores = carnivores - 10
+    #The answer is
+result = omnivores
+    return result
+print(solve())
+Topic: Iron Man ### Response:
+Topic: volleyball ### Response: 
+def volleyball_solution():
+    # number of players in a volleyball team
+    players_per_team = 6
+    # number of teams
+    teams = 2
+    # number of sets in a match
+    sets_per_match = 3
+    # number of points per set
+    points_per_set = 25
+    # total points in a match
+    total_points = (players_per_team * teams * sets_per_match * points_per_set)
+    return total_points
+print(volleyball_solution())
+Topic: pizza ### Response: 
+def pizza_problem_solution():
+    # number of pizzas sold per day
+    pizzas_sold_per_day = 100
+    # cost of each pizza
+    pizza_cost = 5
+    # total money made in a day
+    total_money = pizzas_sold_per_day * pizza_cost
+    return total_money
+print(pizza_problem_solution())
+Topic: Barbie ### Response: 12-year-old Barbie has 49 dolls. She wants to give away 3 dolls to her friend. How many dolls will she have left after giving away 3 dolls?
+
+dolls_originally = 49
+dolls_given = 3
+
+dolls_left = dolls_originally - dolls_given
+
+print(dolls_left)
+Topic: cars ### Response: 
+Question:A car dealership has a total of 20 cars. Out of these, 5 are hatchbacks, 8 are sedans, and 2 are SUVs. How many cars are neither hatchbacks, sedans, nor SUVs?
+
+Solution:total_cars = 20
+hatchbacks = 5
+sedans = 8
+suvs = 2
+
+# cars that are neither hatchbacks, sedans, nor SUVs
+other_cars = total_cars - (hatchbacks + sedans + suvs)
+
+print(other_cars)
+Topic: field hockey ### Response: 
+def solve():
+    # Total number of players in the tournament
+    total_players = 1200
+    # Number of players from out of state
+    out_of_state_players = 300
+    # Number of in-state players from the city of origin
+    in_state_city_of_origin_players = 200
+    # Number of in-state players from other cities
+    in_state_other_cities_players = total_players - out_of_state_players - in_state_city_of_origin_players
+    return in_state_other_cities_players
+print(solve())
+Topic: dinosaurs ### Response:
+Topic: LeBron James ### Response: 
+Question: LeBron James can dunk 100 times in 20 seconds.  How many times can he dunk in 5 minutes?
+Solution:
+def solution():
+    #LeBron James can dunk 100 times in 20 seconds
+    dunks_20_seconds = 100
+    #5 minutes is 300 seconds
+    seconds_5_minutes = 300
+    #The answer is
+    result = (dunks_20_seconds / 20) * seconds_5_minutes
+    return result
+Topic: ice cream ### Response: 
+Question:A family of 4 went to an ice cream shop. They ordered 3 different flavors of ice cream, each in a cup. The cost of the ice cream is $3 per cup. If they ordered 1 cup of each flavor, how much did they pay in total?
+
+Solution:def solve():
+    # number of family members
+    family_members = 4
+    # number of ice cream flavors
+    flavors = 3
+    # cost of each cup of ice cream
+    cost_per_cup = 3
+    # total cost
+    total_cost = family_members * flavors * cost_per_cup
+    return total_cost
+print(solve())
+Topic: trains ### Response: 
+def solve():
+    # Constants
+    train1_speed = 45  # speed of train 1 in mph
+    train2_speed = 75  # speed of train 2 in mph
+    time = 3  # time in hours
+
+    # Calculation
+    distance_train1 = train1_speed * time  # calculate the distance covered by train 1
+    distance_train2 = train2_speed * time  # calculate the distance covered by train 2
+
+    # Answer
+    return distance_train1 + distance_train2
+print(solve())
+Topic: Thor, the God of Thunder ### Response: 
+def solve():
+    # number of hammers Thor has
+    hammers = 2
+    # number of hammers Thor loses
+    lost_hammers = 1
+    # number of hammers Thor makes
+    made_hammers = 2
+    # calculate the total number of hammers Thor has left
+    total_hammers = hammers - lost_hammers + made_hammers
+    return total_hammers
+print(solve())
+Topic: Black Panther ### Response: 
+def black_panther_solution():
+    # Black Panther has 10000 vibranium bars
+    vibranium_bars = 10000
+    # 5000 of them are for the Avengers
+    vibranium_avengers = 5000
+    # 2000 of them are for the X-Men
+    vibranium_xmen = 2000
+    # 1000 of them are for the Fantastic Four
+    vibranium_fantasticfour = 1000
+    # 2000 of them are for the Inhumans
+    vibranium_inhumans = 2000
+    # The answer is
+    result = vibranium_bars - vibranium_avengers - vibranium_xmen - vibranium_fantasticfour - vibranium_inhumans
+    return result
+
+word_problem = """
+Black Panther has 10000 vibranium bars.
+Topic: Spiderman ### Response:
+Topic: Batman ### Response:
+Topic: basketball ### Response: 25-gallon aquarium and a 50-gallon aquarium are both 10% full. How many more gallons of water are in the 50-gallon aquarium than in the 25-gallon aquarium?
+
+def solution():
+    #25-gallon aquarium is 10% full
+    gallons_25_gallon = 25 * 0.1
+    #50-gallon aquarium is 10% full
+    gallons_50_gallon = 50 * 0.1
+    #The 50-gallon aquarium has
+    more_gallons = gallons_50_gallon - gallons_25_gallon
+    #more water. The answer is
+    result = more_gallons
+    return result
+Topic: Wonder Woman ### Response: 
+Question:Wonder Woman can fly at a speed of 100 miles per minute. She needs to fly 3200 miles to reach her destination. How many minutes will it take her to get there?
+
+Solution:def solution():
+    #Wonder Woman's speed
+    speed = 100 #miles per minute
+    #Distance she needs to cover
+    distance = 3200 #miles
+    #Time = Distance/Speed
+    time = distance / speed
+    return time
+print(solution())
+Topic: dinosaurs ### Response: 
+def solve():
+    # number of dinosaurs
+n = 50
+
+    # number of years each dinosaur lived
+y = 100
+
+    # total number of years all dinosaurs lived
+total_years = n * y
+
+    # average number of years each dinosaur lived
+average_years = total_years / n
+
+    # print the answer
+print(average_years)
+Topic: unicorns ### Response: 1000 unicorns are running around in a field. In the first game, they ran 250 yards. In the second game, they ran 200 yards. In the third game, they ran 300 yards. How many yards per game are they averaging?
+
+def unicorn_yards_per_game():
+    total_yards = 1000
+    first_game_yards = 250
+    second_game_yards = 200
+    third_game_yards = 300
+    result = (first_game_yards + second_game_yards + third_game_yards) / 3
+    return result
+print(unicorn_yards_per_game())
+Topic: Steph Curry ### Response: 
+def solution():
+    #Steph Curry made 139 three-pointers in the 2018-19 season
+    three_pointers_made = 139
+    #He attempted 386 three-pointers
+    three_pointers_attempted = 386
+    #The answer is
+    result = three_pointers_made / three_pointers_attempted
+    return result
+Topic: Captain Marvel ### Response: 
+def solution():
+    #Captain Marvel started with 20 minutes
+    time_initial = 20
+    #He spent 5 minutes on the first guard
+    time_first_guard = 5
+    #He spent 8 minutes on the second guard
+    time_second_guard = 8
+    #He spent 7 minutes on the third guard
+    time_third_guard = 7
+    #The answer is
+    result = time_initial - time_first_guard - time_second_guard - time_third_guard
+    return result
+
+print(solution())
+Topic: Power Rangers ### Response: 
+def solve():
+    # Number of Power Rangers
+    power_rangers = 5
+    # Number of days
+    days = 7
+    # Calculate the total number of Power Rangers actions in 7 days
+    total_actions = power_rangers * days
+    return total_actions
+print(solve())
+Topic: candy ### Response: 
+Question: If a bag of candy has 10 pieces of candy and you take 2 pieces out, how many pieces of candy are left?
+
+Solution:candies = 10
+took = 2
+
+left = candies - took
+
+print(left)
+Topic: Wonder Woman ### Response: 
+Question:Wonder Woman has 132 superpowers. 56 of them are in strength, 43 of them are in speed, and the rest are in wisdom. How many wisdom superpowers does Wonder Woman have?
+Solution:def solution():
+    #Wonder Woman has 132 superpowers
+    superpowers = 132
+    #56 of them are in strength
+    strength_superpowers = 56
+    #43 of them are in speed
+    speed_superpowers = 43
+    #The rest are in wisdom
+    wisdom_superpowers = superpowers - strength_superpowers - speed_superpowers
+    return wisdom_superpowers
+print(solution())
+Topic: Spiderman ### Response: 
+def solution():
+    # number of pizzas Spiderman ate
+    pizzas_eaten = 3
+    # total number of pizzas
+    total_pizzas = 6
+    # calculate the number of pizzas left
+    pizzas_left = total_pizzas - pizzas_eaten
+    return pizzas_left
+print(solution())
+Topic: LeBron James ### Response: 
+def solve():
+    # LeBron James's total points
+    total_points = 33000
+    # Points scored in the first three quarters
+    first_quarter = 1000
+    second_quarter = 1000
+    third_quarter = 1000
+    # Points scored in the fourth quarter
+    fourth_quarter = total_points - first_quarter - second_quarter - third_quarter
+    return fourth_quarter
+print(solve())
+Topic: planes ### Response: 
+Question: A plane takes off from New York and lands in Los Angeles. The plane travels a distance of 2,475 miles. The plane's average speed is 500 miles per hour. How long is the flight?
+
+Solution:
+def solve():
+  distance = 2475 # miles
+  speed = 500 # miles per hour
+
+  time = distance / speed
+
+  return time
+print(solve())
+Topic: dogs ### Response: 
+def dog_problem():
+    # number of dogs
+dogs = 210
+
+    # number of dogs barked on Monday, Tuesday and Wednesday
+dogs_barked_monday = 40
+dogs_barked_tuesday = 50
+dogs_barked_wednesday = 60
+
+    # calculate the number of dogs left
+dogs_left = dogs - dogs_barked_monday - dogs_barked_tuesday - dogs_barked_wednesday
+
+    # print the result
+print(dogs_left)
+Topic: Naruto ### Response: 
+Question: Naruto has 3600 Ryo. He spent 400 Ryo for a new Kunai, 600 Ryo for a new headband, and 2600 Ryo for a new apartment. How much Ryo is left?
+
+Solution:total_ryo = 3600
+kunai_cost = 400
+headband_cost = 600
+apartment_cost = 2600
+
+remaining_ryo = total_ryo - kunai_cost - headband_cost - apartment_cost
+
+print(remaining_ryo)
+Topic: lacrosse ### Response: 42 lacrosse sticks were purchased.
+6 more were bought, making the total 42+6=<<42+6=48>>48 sticks.
+1/3 of the sticks are broken, which is 1/3*48=<<1/3*48=16>>16 sticks.
+1/2 of the broken sticks are fixed, which is 1/2*16=<<1/2*16=8>>8 sticks.
+The total number of sticks that are not broken is 48-16+8=<<48-16+8=40>>40 sticks.
+#### 40
+Topic: trains ### Response: 
+def solve():
+    # Given values
+    train1_speed = 45  # in km/hr
+    train2_speed = 75  # in km/hr
+    time = 3  # in hours
+    distance = (train1_speed + train2_speed) * time  # in km
+
+    # Calculate the distance covered by each train
+    train1_distance = train1_speed * time
+    train2_distance = train2_speed * time
+
+    # The answer is the difference in distances covered by the two trains
+    result = abs(train1_distance - train2_distance)
+    return result
+print(solve())
+Topic: soccer ### Response: 
+Question: In the 2014 world cup, Germany scored 18 goals in 7 games. How many goals per game did they average?
+
+Solution:
+def solve():
+    #Germany scored 18 goals in 7 games
+    total_goals = 18
+    total_games = 7
+    #The average is total_goals / total_games
+    average_goals_per_game = total_goals / total_games
+    return average_goals_per_game
+print(solve())
+Topic: Patrick Mahomes ### Response: 
+def solve():
+    # Given data
+    total_yards = 527
+    yards_per_game = 351.6
+
+    # Calculate the number of games
+    num_games = total_yards / yards_per_game
+
+    # Calculate the number of yards left after the last game
+    yards_left = total_yards - (num_games * yards_per_game)
+
+    # If the number of yards left is greater than zero, then there is another game
+    if yards_left > 0:
+        num_games += 1
+
+    return num_games
+print(solve())
+Topic: Ninja Turtles ### Response:
+Topic: trains ### Response: 
+def train_problem():
+    # Initial speed of the train
+    initial_speed = 30
+    # Final speed of the train
+    final_speed = 60
+    # Time taken to change the speed
+    time = 10
+    # Distance covered in the given time
+    distance = (final_speed - initial_speed) * time
+    return distance
+
+print(train_problem())
+Topic: field hockey ### Response: 
+def field_hockey_solution():
+    # total players in the team
+total_players = 16
+    # players in the field
+players_in_field = 11
+    # players on the bench
+players_on_bench = total_players - players_in_field
+    # return the answer
+return players_on_bench
+
+word_problem = "In field hockey, a team can have a maximum of 16 players. Out of these, 11 players take the field and the remaining players sit on the bench. How many players are on the bench?"
+print(word_problem)
+print(field_hockey_solution())
+Topic: Captain Marvel ### Response: 
+def captain_marvel():
+    # Number of years Captain Marvel has been around
+    years_around = 75
+    # Number of years Captain Marvel was a man
+    years_as_man = 10
+    # Number of years Captain Marvel was a woman
+    years_as_woman = years_around - years_as_man
+    
+    return years_as_woman
+
+print(captain_marvel())
+Topic: field hockey ### Response: 
+def solve():
+    # total number of players
+    total_players = 11
+    
+    # number of players in each position
+    goalkeeper = 1
+    defenders = 3
+    midfielders = 3
+    forwards = 4
+    
+    # calculate number of players not in any of the positions
+    other_players = total_players - (goalkeeper + defenders + midfielders + forwards)
+    
+    return other_players
+print(solve())
+Topic: volleyball ### Response: 
+def volleyball_solution():
+    # number of players in a team
+    players_in_team = 6
+    # total number of teams
+    total_teams = 2
+    # total number of players
+    total_players = players_in_team * total_teams
+    return total_players
+print(volleyball_solution())
+Topic: swimming ### Response: 
+def solution():
+    #The initial distance
+    initial_distance = 1000
+    #The distance covered in each game
+    distance_per_game = 100
+    #The number of games
+    num_games = 3
+    #The total distance covered
+    total_distance = initial_distance + distance_per_game * num_games
+    return total_distance
+print(solution())
+Topic: unicorns ### Response: 
+Question: There are 36 unicorns in the world. 12 of them are in Europe, 10 are in Asia, and 8 are in North America. The rest are in South America. How many unicorns are in South America?
+
+Solution:
+def solution():
+    # total number of unicorns
+total_unicorns = 36
+# number of unicorns in Europe
+unicorns_europe = 12
+# number of unicorns in Asia
+unicorns_asia = 10
+# number of unicorns in North America
+unicorns_north_america = 8
+# number of unicorns in South America
+unicorns_south_america = total_unicorns - unicorns_europe - unicorns_asia - unicorns_north_america
+    return unicorns_south_america
+print(solution())
+Topic: Power Rangers ### Response: 
+def power_rangers_problem():
+    # number of power rangers
+    power_rangers = 5
+    # number of monsters
+    monsters = 6
+    # each power ranger can fight with 2 monsters at a time
+    fights_per_ranger = 2
+    # total number of fights
+    total_fights = power_rangers * fights_per_ranger
+    # total number of fights is equal to the number of monsters, so the number of remaining monsters is 0
+    remaining_monsters = monsters - total_fights
+    return remaining_monsters
+print(power_rangers_problem())
+Topic: Naruto ### Response:
+Topic: Superman ### Response: 
+def superman_problem():
+    # Given values
+    kryptonite_weight = 75  # in pounds
+    superman_strength = 250  # in pounds
+
+    # Calculate the number of kryptonites Superman can lift
+    kryptonites = superman_strength // kryptonite_weight
+
+    return kryptonites
+
+# Word problem
+print(superman_problem())
+Topic: swimming ### Response: 
+def solution():
+    # I can swim 20 meters in 1 minute
+    meters_per_minute = 20
+    # I swam for 5 minutes
+    minutes = 5
+    # The answer is
+    result = meters_per_minute * minutes
+    return result
+print(solution())
+Topic: volleyball ### Response: 1997年のグラストンベリー・フェスティバルには1250人が来場した。翌年、250人も来場した。1999年には、1998年の来場者の1/5が来なかった。1999年のグラストンベリー・フェスティバルにはどのくらいの人が来場したのでしょうか？
+
+def solution():
+    #1250人が1997年のグラストンベリー・フェスティバルに来場
+    people_1997 = 1250
+    #250人が1998年に来場
+    people_1998 = people_1997 + 250
+     #1999年には1998年の来場者の1/5が来なかった
+    people_1999 = people_
+Topic: field hockey ### Response: 11 players are on the field.
+22 more players are on the bench.
+total_players = 11 + 22
+print(total_players)
+Topic: basketball ### Response: 
+def basketball_solution():
+    # number of players in a basketball team
+    players_per_team = 5
+    # number of teams
+    teams = 2
+    # total number of players
+    total_players = players_per_team * teams
+    return total_players
+print(basketball_solution())
+Topic: ice cream ### Response: 48 ounces of ice cream
+each scoop is 4 ounces
+answer = 48 / 4 = <<48/4=12>>12
+#### 12
+Topic: lacrosse ### Response: 
+def solve():
+    # number of players in a lacrosse team
+    players_per_team = 10
+
+    # number of teams
+    teams = 2
+
+    # total number of players
+    total_players = players_per_team * teams
+
+    return total_players
+print(solve())
+Topic: Wonder Woman ### Response: 
+def solve():
+    # Given data
+    total_students = 2500
+    men_students = total_students * 0.5
+    men_in_engineering = men_students * 0.2
+    women_in_nursing = (total_students - men_students) * 0.4
+    
+    # Calculate the result
+    result = women_in_nursing - men_in_engineering
+    
+    return result
+print(solve())
+Topic: dogs ### Response: 
+def dog_problem():
+    # number of dogs initially
+    initial_dogs = 2500
+    # number of dogs adopted on Monday
+    dogs_adopted_monday = 1000
+    # number of dogs adopted on Tuesday
+    dogs_adopted_tuesday = 200
+    # number of dogs adopted on Wednesday
+    dogs_adopted_wednesday = 500
+    # number of dogs adopted on Thursday
+    dogs_adopted_thursday = 300
+    # calculate total number of dogs
+    total_dogs = initial_dogs + dogs_adopted_monday + dogs_adopted_tuesday + dogs_adopted_wednesday + dogs_adopted_thursday
+    return total_dogs
+
+print(dog_problem())
+Topic: volleyball ### Response: 
+def volleyball_solution():
+    # Number of players in a volleyball team
+    players_in_team = 6
+    
+    # Total number of teams
+    total_teams = 8
+    
+    # Total number of players
+    total_players = players_in_team * total_teams
+    
+    return total_players
+print(volleyball_solution())
+Topic: Steph Curry ### Response: 2015_finals = 6
+2016_finals = 7
+2017_finals = 5
+
+total_finals = 2015_finals + 2016_finals + 2017_finals
+
+print(total_finals)
+Topic: Hello Kitty ### Response: 
+Question:
+Hello Kitty has 25 friends.
+She has 10 minutes to meet her friends.
+How many friends can she meet in 10 minutes?
+Solution:
+friends = 25
+minutes = 10
+
+average = friends / minutes
+
+print(average)
+Topic: ice cream ### Response: 
+Question: There are 3 flavors of ice cream. Vanilla, Chocolate, and Strawberry. You have $10 to buy ice cream. You can buy as many as you want of each flavor. The cost of Vanilla is $2 per scoop, Chocolate is $3 per scoop, and Strawberry is $4 per scoop. How many scoops of each flavor should you buy to maximize the number of scoops you can buy?
+
+Solution:def solve():
+    # import library
+    from math import inf
+    from scipy.optimize import linprog
+    
+    # define the cost of each flavor
+    c = [2, 3, 4]
+    
+    # define the number of scoops of each flavor
+    x = [0, 0, 0]
+    
+    # define the objective function to maximize the total number of scoops
+    def objective(x):
+        return sum(x)
+    
+    # define the constraint that the total cost should not exceed $10
+    cons = ([{'type
+Topic: cats ### Response: 1 cat is equal to 100 cat points.
+100 cat points is equal to 1 cat.
+100 cat points is equal to 100 dog points.
+100 dog points is equal to 1 dog.
+1 dog is equal to 100 dog points.
+100 dog points is equal to 100 fish points.
+100 fish points is equal to 1 fish.
+1 fish is equal to 100 fish points.
+100 fish points is equal to 100 bird points.
+100 bird points is equal to 1 bird.
+1 bird is equal to 100 bird points.
+100 bird points is equal to 100 snake points.
+100 snake points is equal to 1 snake.
+1 snake is equal to 100 snake points.
+100 snake points is equal to 100 turtle points.
+100 turtle points is equal to 1 turtle.
+1 turtle is equal to 100 turtle points
+Topic: Patrick Mahomes ### Response: 
+def solve():
+    # Patrick Mahomes's total salary
+    total_salary = 450000000
+    # Salary percentage for signing bonus
+     signing_bonus_percentage = 0.10
+    # Salary percentage for annual bonus
+     annual_bonus_percentage = 0.20
+    # Salary percentage for monthly salary
+     monthly_salary_percentage = 1 - signing_bonus_percentage - annual_bonus_percentage
+ 
+    # Calculate the salary for each category
+    signing_bonus = total_salary * signing_bonus_percentage
+    annual_bonus = total_salary * annual_bonus_percentage
+    monthly_salary = total_salary * monthly_salary_percentage
+ 
+    # Return the monthly salary
+    return monthly_salary
+print(solve())
+Topic: volleyball ### Response: 2018 was a great year for the USA volleyball teams. The men's team won 25 games and the women's team won 28 games. How many total games did the USA volleyball teams win?
+def volleyball_wins():
+    men_wins = 25
+    women_wins = 28
+    total_wins = men_wins + women_wins
+    return total_wins
+print(volleyball_wins())
+Topic: Captain America ### Response: 
+def solve():
+    # Total players
+    total_players = 20
+    # Players from US
+    players_us = 15
+    # Players from Brazil
+    players_brazil = 2
+    # Players from Ivory Coast
+    players_ivory_coast = total_players - players_us - players_brazil
+    return players_ivory_coast
+print(solve())
+Topic: Taylor Swift ### Response: 
+def taylor_swift(number):
+    return number * 10
+
+print(taylor_swift(3))
+Topic: Taylor Swift ### Response: 12000 people were at a rally. 3000 more people showed up on the first day. 2000 more people showed up on the second day. 4000 more people showed up on the third day. How many people were at the rally at the end of the third day?
+
+def solution():
+    #There were initially 12000 people
+    people_initial = 12000
+    #3000 more people showed up on the first day
+    people_first_day = 3000
+    #2000 more people showed up on the second day
+    people_second_day = 2000
+    #4000 more people showed up on the third day
+    people_third_day = 4000
+    #The answer is
+    result = people_initial + people_first_day + people_second_day + people_third_day
+    return result
+Topic: candy ### Response: 
+def solve():
+    # number of candies John has
+    john_candies = 30
+    # number of candies Mary has
+    mary_candies = 20
+    # number of candies Susan has
+    susan_candies = 40
+    # total number of candies
+    total_candies = john_candies + mary_candies + susan_candies
+    return total_candies
+print(solve())
+Topic: Captain Marvel ### Response: 
+def solve():
+    # initial number of candies
+    candies_initial = 300
+    # candies sold on Monday
+    candies_sold_monday = 53
+    # candies sold on Tuesday
+    candies_sold_tuesday = 27
+    # calculate remaining candies
+    candies_remaining = candies_initial - candies_sold_monday - candies_sold_tuesday
+    return candies_remaining
+print(solve())
+Topic: planes ### Response:
+Topic: lacrosse ### Response: 
+def solve():
+    # The number of lacrosse players in each team
+    players_per_team = 10
+    # The number of games
+    games = 2
+    # The total number of players
+    total_players = players_per_team * games
+    return total_players
+print(solve())
+Topic: Captain Marvel ### Response:
+Topic: Ninja Turtles ### Response: 1 turtle can make 3 pizzas in 1 hour.
+If you have 4 turtles, how many pizzas can they make in 1 hour?
+
+def pizzas(turtles):
+  pizza_per_turtle = 3
+  pizzas_per_hour = turtles * pizza_per_turtle
+  return pizzas_per_hour
+
+print(pizzas(4))
+Topic: cars ### Response: 
+Question:A car is traveling at a constant speed of 50 miles per hour. The car travels for 2 hours. How far is the car from where it started?
+Solution:
+def solution():
+    # define the speed and time
+    speed = 50 # in miles per hour
+    time = 2 # in hours
+    
+    # calculate the distance
+    distance = speed * time
+    
+    return distance
+Topic: Hello Kitty ### Response:
+Topic: volleyball ### Response: 
+def solve():
+    # number of games played
+games_played = 8
+
+# number of games won
+games_won = 6
+
+# calculate winning percentage
+winning_percentage = (games_won / games_played) * 100
+
+# print the winning percentage
+print(winning_percentage)
+Topic: field hockey ### Response: 
+def solve():
+    # number of goals scored by team A
+    team_A_goals = 3
+    # number of goals scored by team B
+    team_B_goals = 2
+    # total number of goals scored
+    total_goals = team_A_goals + team_B_goals
+    return total_goals
+print(solve())
+Topic: ice cream ### Response:
+Topic: Fortnite ### Response: 100 players drop into a map and 1 player emerges victorious.  The remaining players are either killed by other players or by the storm.  If the number of players killed by other players is 20 and the number of players killed by the storm is 10, then how many players were killed by other players or by the storm?
+
+def solution():
+    players_killed_by_other_players = 20
+    players_killed_by_storm = 10
+    total_players_killed = players_killed_by_other_players + players_killed_by_storm
+    return total_players_killed
+Topic: cars ### Response:
+Topic: Pokémon ### Response: 
+Question: A wild Pikachu appears. You throw a Pokéball at it. The chance of catching a Pikachu is 1/3. What is the probability of not catching the Pikachu?
+
+Solution:
+def solution():
+    # The probability of catching a Pikachu is 1/3
+    probability_catching_pikachu = 1/3
+    # The probability of not catching the Pikachu is 1 - probability_catching_pikachu
+    probability_not_catching_pikachu = 1 - probability_catching_pikachu
+    return probability_not_catching_pikachu
+print(solution())
+Topic: volleyball ### Response: 
+def solve():
+    # Given data
+    total_players = 18
+    players_per_team = 6
+    total_teams = 3
+
+    # Calculate total players in all teams
+    total_players_in_teams = players_per_team * total_teams
+
+    # Calculate the number of players that are not in any team
+    players_not_in_team = total_players - total_players_in_teams
+
+    return players_not_in_team
+print(solve())
+Topic: Barbie ### Response: 12-inch toys are 40,
+16-inch toys are 20,
+20-inch toys are 10,
+24-inch toys are total_toys - 12-inch toys - 16-inch toys - 20-inch toys
+total_toys = 100
+12_inch_toys = 40
+16_inch_toys = 20
+20_inch_toys = 10
+total_toys = 100
+24_inch_toys = total_toys - 12_inch_toys - 16_inch_toys - 20_inch_toys
+print(24_inch_toys)
+Topic: Harry Potter ### Response:
+Topic: ice cream ### Response: 
+Question:If a scoop of ice cream is 3 ounces, and a pint of ice cream is 8 scoops, then a pint of ice cream is 3*8=<<3*8=24>>24 ounces.
+Solution:scoop = 3
+pint = 8
+
+answer = scoop * pint
+
+print(answer)
+Topic: Spiderman ### Response: 
+def solution():
+    # spiderman has 100 webs
+    webs_initial = 100
+    # he uses 10 webs in the morning
+    webs_used_morning = 10
+    # he uses 15 webs in the afternoon
+    webs_used_afternoon = 15
+    # calculate the remaining webs
+    webs_remaining = webs_initial - webs_used_morning - webs_used_afternoon
+    return webs_remaining
+print(solution())
+Topic: planes ### Response: 
+def plane_problem():
+    # Number of planes
+    total_planes = 30
+    # Number of small planes
+    small_planes = 10
+    # Number of large planes
+    large_planes = total_planes - small_planes
+    return large_planes
+
+print(plane_problem())
+Topic: LeBron James ### Response: 
+def solution():
+    # LeBron James scored 23 points on Tuesday
+    points_tuesday = 23
+    # He scored 17 points on Wednesday
+    points_wednesday = 17
+    # The total points he scored is
+    result = points_tuesday + points_wednesday
+    return result
+
+print(solution())
+Topic: swimming ### Response: 
+def swimming_solution():
+    # initial distance from the shore
+distance_initial = 100
+
+    # distance covered in the first hour
+distance_first_hour = 20
+
+    # distance covered in the second hour
+distance_second_hour = 30
+
+    # total distance covered
+distance_total = distance_first_hour + distance_second_hour
+
+    # distance remaining from the shore
+distance_remaining = distance_initial - distance_total
+
+    return distance_remaining
+Topic: Captain Marvel ### Response: 
+def solve():
+    # Given
+    captain_marvel_strength = 100
+    thanos_strength = 1000
+
+    # Calculate
+    difference = thanos_strength - captain_marvel_strength
+
+    # Return
+    return difference
+print(solve())
+Topic: Batman ### Response: 
+def batman_problem():
+    # Given values
+    total_penguins = 125
+    penguin_percentage = 0.60
+    shiny_penguin_percentage = 0.20
+
+    # Calculate the number of shiny penguins
+    result = total_penguins * penguin_percentage * shiny_penguin_percentage
+    return result
+
+# Word problem
+print(batman_problem())
+Topic: Patrick Mahomes ### Response: 
+def solve():
+    # Number of touchdowns Patrick Mahomes threw in 2018
+    touchdowns_2018 = 50
+
+    # Number of touchdowns Patrick Mahomes threw in 2019
+    touchdowns_2019 = 42
+
+    # Calculate the difference
+    difference = touchdowns_2018 - touchdowns_2019
+
+    return difference
+print(solve())
+Topic: Ninja Turtles ### Response:
+Topic: swimming ### Response: 
+def swimming_solution():
+    #Distance covered in first minute
+    distance_first_minute = 10
+    #Distance covered in second minute
+    distance_second_minute = 20
+    #Distance covered in third minute
+    distance_third_minute = 30
+    #Total distance covered
+    total_distance = distance_first_minute + distance_second_minute + distance_third_minute
+    return total_distance
+
+print(swimming_solution())
+Topic: Iron Man ### Response:
+Topic: Pokémon ### Response: 
+Question: Ash Ketchum is on a mission to catch all the Pokémon. He has to catch 200 Pokémon. 100 of them are in one location and the other 100 are in a second location. He catches the 100 Pokémon at the first location. 50 of them are left. He then catches the 100 Pokémon at the second location. 20 of them are left. How many Pokémon are left in total?
+Solution:
+def solution():
+    #There are 100 Pokémon at the first location
+    pokemon_first_location = 100
+    #50 of them are left
+    pokemon_left_first_location = 50
+    #There are 100 Pokémon at the second location
+    pokemon_second_location = 100
+    #20 of them are left
+    pokemon_left_second_location = 20
+    #The answer is
+    result = pokemon_left_first_location + pokemon_left_second
+Topic: Minecraft ### Response: 1. The problem:
+You are mining in Minecraft and you find a vein of iron ore. You mine out 10 blocks of iron ore. Each block of iron ore can be smelted into 1 iron ingot. You then smelt all the iron ore into iron ingots. How many iron ingots do you get?
+
+2. Solution:def minecraft_problem():
+    # number of blocks of iron ore mined
+    blocks_of_iron_ore = 10
+    # each block of iron ore can be smelted into 1 iron ingot
+    iron_ingots_per_block = 1
+    # calculate the total number of iron ingots
+    total_iron_ingots = blocks_of_iron_ore * iron_ingots_per_block
+    return total_iron_ingots
+print(minecraft_problem())
+Topic: planes ### Response: 
+def plane_problem():
+    # define the variables
+    total_distance = 1200  # total distance in miles
+    distance_per_gallon = 40  # distance a plane can fly with one gallon of fuel
+    gallons_of_fuel = 120  # total gallons of fuel the plane has
+
+    # calculate the total distance the plane can fly with its fuel
+    total_flight_distance = distance_per_gallon * gallons_of_fuel
+
+    # calculate the number of times the plane needs to refuel
+    refuel_times = total_distance / total_flight_distance
+
+    # since the plane can't refuel a fraction of a time, round up to the nearest whole number
+    refuel_times = round(refuel_times)
+
+    # if the plane can't make it to the destination without refueling, it needs to refuel once
+    if refuel_times == 0:
+        refuel_times = 1
+
+    # return the result
+    return refuel_times)
+Topic: lacrosse ### Response: 
+def solve():
+    # Number of players in a lacrosse team
+    players_in_team = 10
+    
+    # Total number of teams
+    total_teams = 4
+    
+    # Total number of players
+    total_players = players_in_team * total_teams
+    
+    return total_players
+print(solve())
+Topic: Iron Man ### Response: 
+def iron_man_solution():
+    # Number of suits Tony Stark has
+    suits = 42
+    # Number of suits that are remote controlled
+    remote_suits = 16
+    # Number of suits that are not remote controlled
+    non_remote_suits = suits - remote_suits
+    return non_remote_suits
+
+print(iron_man_solution())
+Topic: Minecraft ### Response: 128 pizzas were sliced into 4 slices each. 16 of the slices were given to the pizza chef. 24 slices were given to the pizza delivery drivers. How many slices of pizza are left?
+
+def solution():
+    #128 pizzas were sliced
+    pizzas = 128
+    #Each pizza was sliced into 4 slices
+    slices_per_pizza = 4
+    #16 slices were given to the pizza chef
+    slices_given_to_chef = 16
+    #24 slices were given to the pizza delivery drivers
+    slices_given_to_drivers = 24
+    #The answer is
+    result = pizzas * slices_per_pizza - slices_given_to_chef - slices_given_to_drivers
+    return result
+Topic: field hockey ### Response: 11 players from the Belgium team and 12 players from the Netherlands team are on the field. The total number of players is 11+12=<<11+12=23>>23
+#### 23
+Topic: trains ### Response: 
+def train_problem():
+    # Initial distance covered by train
+    initial_distance = 100
+
+    # Distance covered in the next three hours
+    distance_next_three_hours = 200
+
+    # Distance covered in the next one hour
+    distance_next_one_hour = 100
+
+    # Total distance covered after four hours
+    total_distance = initial_distance + distance_next_three_hours + distance_next_one_hour
+
+    return total_distance
+print(train_problem())
+Topic: Naruto ### Response: 
+Naruto has 312 toys.
+Sasuke has 41 toys.
+Sakura has 143 toys.
+Kakashi has 52 toys.
+How many toys are there in total?
+
+def total_toys():
+    naruto_toys = 312
+    sasuke_toys = 41
+    sakura_toys = 143
+    kakashi_toys = 52
+    total = naruto_toys + sasuke_toys + sakura_toys + kakashi_toys
+    return total
+
+print(total_toys())
+Topic: Hello Kitty ### Response: 
+Question:Hello Kitty has 5 apples and 3 bananas. She wants to give 1 apple to her friend. How many fruits does she have left after giving away the apple?
+Solution:
+def solution():
+    #Hello Kitty has 5 apples and 3 bananas
+    apples = 5
+    bananas = 3
+    #She wants to give 1 apple to her friend
+    give_away_apples = 1
+    #How many fruits does she have left after giving away the apple?
+    remaining_fruits = apples - give_away_apples + bananas
+    return remaining_fruits
+print(solution())
+Topic: unicorns ### Response: 10 unicorns are in a field. 2 unicorns are pegasus unicorns, 3 unicorns are earth unicorns, and the rest are water unicorns. How many water unicorns are there?
+def solution():
+    unicorns = 10
+    pegasus = 2
+    earth = 3
+    water = unicorns - pegasus - earth
+    return water
+print(solution())
+Topic: cheer leading ### Response: 12 girls tried out for the cheer leading team. 4 of the girls are from the 5th grade, 5 are from the 6th grade and 3 are from the 7th grade. How many girls are on the team that are not from the 7th grade?
+def solution():
+    #Total number of girls
+    total_girls = 12
+    #Number of girls from 5th grade, 6th grade and 7th grade
+    girls_5th = 4
+    girls_6th = 5
+    girls_7th = 3
+    #Number of girls not from the 7th grade
+    girls_not_7th = total_girls - girls_7th
+    return girls_not_7th
+print(solution())
+Topic: Batman ### Response: 
+def solve():
+    # Batman has 1200 gadgets
+    gadgets = 1200
+    # 1/3 of the gadgets are for girls
+    gadgets_for_girls = gadgets / 3
+    # 1/4 of the gadgets for girls are bat-babydolls
+    bat_babydolls = gadgets_for_girls / 4
+    # 3/4 of the gadgets for boys are bat-cars
+    gadgets_for_boys = gadgets - gadgets_for_girls
+    bat_cars = gadgets_for_boys * 3 / 4
+    # The answer is the number of bat-cars
+    return bat_cars
+print(solve())
+Topic: candy ### Response:
+Topic: football ### Response: 2000 people in a stadium are watching a soccer match. 500 of them are wearing the home team's jersey. 300 are wearing the away team's jersey. 150 of the remaining spectators are wearing the jerseys of other soccer teams. How many people in the stadium are not wearing soccer jerseys?
+
+def solution():
+    total_people = 2000
+    home_team_jersey = 500
+    away_team_jersey = 300
+    other_teams_jersey = 150
+    result = total_people - home_team_jersey - away_team_jersey - other_teams_jersey
+    return result
+Topic: field hockey ### Response: 
+def solve():
+    # number of players in a field hockey team
+    players_per_team = 11
+    # number of teams
+    num_teams = 2
+    # total number of players
+    total_players = players_per_team * num_teams
+    return total_players
+print(solve())
+Topic: LeBron James ### Response: 2009 was LeBron James’ 6th season in the NBA.  In those 6 seasons, he has scored 12,300 points.  LeBron averages 36 minutes per game.  In those 6 seasons, he has played in 492 games.  If he scores 28 points per game and averages 7 rebounds per game, how many points and rebounds has he accumulated in his career?
+
+LeBron has scored 28 points per game for 492 games for a total of 28*492=<<28*492=13616>>13,616 points
+He has averaged 7 rebounds per game for 492 games for a total of 7*492=<<7*492=3444>>3,444 rebounds
+He has scored 13,616 points and had 3,444 rebounds for a total of 13616+3444=<<13616+3444=
+Topic: Captain Marvel ### Response:
+Topic: Pokémon ### Response: 
+def solve():
+    # Total number of Pokemon
+    total_pokemon = 898
+    
+    # Number of legendary Pokemon
+    legendary_pokemon = total_pokemon / 10
+    
+    # Number of starter Pokemon
+    starter_pokemon = total_pokemon / 20
+    
+    # Number of fossil Pokemon
+    fossil_pokemon = total_pokemon / 40
+    
+    # Number of Mythical Pokemon
+    mythical_pokemon = total_pokemon / 50
+    
+    return [legendary_pokemon, starter_pokemon, fossil_pokemon, mythical_pokemon]
+print(solve())
+Topic: unicorns ### Response: 
+def unicorn_problem():
+    # Initial number of unicorns
+    initial_unicorns = 5
+    
+    # Number of unicorns bought
+    bought_unicorns = 3
+    
+    # Number of unicorns lost
+    lost_unicorns = 2
+    
+    # Calculate the final number of unicorns
+    final_unicorns = initial_unicorns + bought_unicorns - lost_unicorns
+    
+    return final_unicorns
+
+# Word problem
+print(unicorn_problem())
+Topic: pizza ### Response: 1 pizza has 8 slices.
+1 slice of pizza has 100 calories.
+If you ate 4 slices of pizza, how many calories did you consume?
+
+def pizza_calories(slices):
+    # number of slices
+    slices = 4
+    # calories per slice
+    calories_per_slice = 100
+    # calculate total calories
+    total_calories = slices * calories_per_slice
+    return total_calories
+Topic: basketball ### Response: 
+def solution():
+    total_players = 12
+    sophomores = 3
+    juniors = 5
+    seniors = 4
+    freshmen = total_players - sophomores - juniors - seniors
+    return freshmen
+print(solution())
+Topic: Serena Williams ### Response: 1. Serena Williams has 22 Grand Slam singles titles.
+2. She has 14 Grand Slam doubles titles.
+3. Serena has a total of 36 Grand Slam titles.
+4. How many more Grand Slam singles titles does Serena have than doubles titles?
+
+def serena_williams():
+    singles_titles = 22
+    doubles_titles = 14
+    total_titles = 36
+
+    # calculate the difference
+    difference = singles_titles - doubles_titles
+
+    return difference
+Topic: cats ### Response: 1 cat has 4 legs
+1 dog has 2 legs
+1 mouse has 2 legs
+1 bird has 2 legs
+
+If there are 10 cats, dogs, mice, and birds, then the total number of legs is 10*4+10*2+10*2+10*2=<<10*4+10*2+10*2+10*2=68>>68
+If the total number of animals is 20, then the number of legs is 20*4+20*2+20*2+20*2=<<20*4+20*2+20*2+20*2=100>>100
+If the total number of animals is 30, then the number of legs is 30*4+30*2+30*2+30*2=<<30*4+30*2+30*2+30*2=150>>150
+#### 68
+Topic: football ### Response: 
+def solve():
+    # Given data
+    yards_gained = 60
+    yards_to_go = 40
+    # Calculate the total yards
+    total_yards = yards_gained + yards_to_go
+    # Print the result
+    return total_yards
+print(solve())
+Topic: Hello Kitty ### Response: 
+def solve():
+    # Step 1: Initialize the number of Hello Kitty dolls
+    hello_kitty_dolls = 25
+    
+    # Step 2: Calculate the number of dolls sold
+    dolls_sold = hello_kitty_dolls / 2
+    
+    # Step 3: Calculate the number of dolls left
+    dolls_left = hello_kitty_dolls - dolls_sold
+    
+    # Step 4: Return the number of dolls left
+    return dolls_left
+print(solve())
+Topic: Power Rangers ### Response:
+Topic: LeBron James ### Response: 
+word_problem = """
+LeBron James has 30 points, 10 rebounds and 10 assists in a game. 
+How many points, rebounds and assists does he have in total?
+"""
+
+def solve():
+    points = 30
+    rebounds = 10
+    assists = 10
+    
+    total = points + rebounds + assists
+    return total
+
+print(word_problem)
+print(solve())
+Topic: Taylor Swift ### Response: 
+taylor_swift_songs=15
+taken_out_songs=3
+remaining_songs=taylor_swift_songs-taken_out_songs
+print(remaining_songs)
+Topic: unicorns ### Response: 10 unicorns are in a field. 
+
+3 unicorns are eating grass. 
+
+2 unicorns are drinking water. 
+
+5 unicorns are playing. 
+
+How many unicorns are left?
+Solution:
+def solution():
+    #Total unicorns
+    total_unicorns = 10
+    #Unicorns eating grass
+    unicorns_eating_grass = 3
+    #Unicorns drinking water
+    unicorns_drinking_water = 2
+    #Unicorns playing
+    unicorns_playing = 5
+    #Calculate the remaining unicorns
+    remaining_unicorns = total_unicorns - unicorns_eating_grass - unicorns_drinking_water - unicorns_playing
+    return remaining_unicorns
+Topic: ice cream ### Response: 
+def solution():
+    # Total number of ice cream flavors
+    total_flavors = 5
+    # Number of ice cream flavors that are not chocolate
+    not_chocolate = 4
+    # Number of chocolate ice cream flavors
+    chocolate = total_flavors - not_chocolate
+    return chocolate
+print(solution())
+Topic: ice cream ### Response: 
+Question: A child has $3 to buy ice cream. The child can choose from 3 different flavors, each costing $1. If the child can only buy one flavor, how many times can the child buy the chosen flavor?
+
+Solution:def solution():
+    # The child has $3
+    total_money = 3
+    # Each flavor costs $1
+    cost_per_flavor = 1
+    # The child can choose from 3 different flavors
+    num_flavors = 3
+    # The child can only buy one flavor
+    # So, the number of times the child can buy the chosen flavor is the total money divided by the cost per flavor
+    num_times = total_money // cost_per_flavor
+    return num_times
+print(solution())
+Topic: Iron Man ### Response:
+Topic: Ninja Turtles ### Response:
+Topic: Serena Williams ### Response: 
+Serena Williams has won 23 Grand Slam singles titles in her career. She has also won 14 Grand Slam doubles titles with her sister Venus. How many total Grand Slam titles has Serena won?
+
+def total_grand_slam_titles(singles, doubles):
+    return singles + doubles
+
+total_titles = total_grand_slam_titles(23, 14)
+print(total_titles)
+Topic: cheer leading ### Response:
+Topic: Superman ### Response:
+Topic: trains ### Response: 
+Question: A train is traveling at a constant speed of 50 miles per hour. It travels for 2 hours and then stops. How far has the train traveled?
+
+Solution:train_speed = 50 # mph
+no_of_hours = 2
+
+total_distance = train_speed * no_of_hours
+
+print(total_distance)
+Topic: Steph Curry ### Response: 
+def solve():
+    # number of points Steph Curry scored in a game
+    points_scored = 30
+    # number of points each of his teammates scored
+    points_teammates = 10
+    # number of teammates
+    teammates = 3
+    # calculate the total points scored by the team
+    total_points = points_scored + (points_teammates * teammates)
+    return total_points
+print(solve())
+Topic: candy ### Response: 120 candies were baked.
+Each box can hold 10 candies.
+Answer=120/10
+print(Answer)
+Topic: Superman ### Response: 
+def superman_problem():
+    # Superman can fly at a speed of 1000 miles per hour
+    superman_speed = 1000
+    # He needs to travel to a city that is 500 miles away
+    distance = 500
+    # Time = Distance/Speed
+    time = distance / superman_speed
+    # Print the time it will take Superman to travel to the city
+    print(time)
+
+superman_problem()
+Topic: Harry Potter ### Response: 
+Question: Harry Potter has 100 galleons. He spent 20 galleons at Ollivanders, 30 galleons at the Leaky Cauldron, and 50 galleons at Flourish and Blotts. How many galleons does he have left?
+
+Solution:
+def solution():
+    # Harry Potter has 100 galleons
+    galleons_total = 100
+    # He spent 20 galleons at Ollivanders
+    galleons_ollivanders = 20
+    # He spent 30 galleons at the Leaky Cauldron
+    galleons_leaky_cauldron = 30
+    # He spent 50 galleons at Flourish and Blotts
+    galleons_flourish_blotts = 50
+    # The answer is
+    result = galleons_total - galleons_ollivanders - galleons_leaky_cauldron - galleons_
+Topic: soccer ### Response: 
+def soccer_word_problem():
+    # Number of players in a soccer team
+    players_per_team = 11
+    # Total number of teams
+    total_teams = 2
+    # Number of players in the field at a time
+    players_on_field = players_per_team * total_teams
+    return players_on_field
+
+print(soccer_word_problem())
+Topic: dinosaurs ### Response: 
+Question: A 500-page book has 200,000 words. 50,000 of the words are nouns. 120,000 of the nouns are proper nouns. 10,000 of the proper nouns are names. How many names are there per page?
+Solution:
+def solution():
+    #Total words in the book
+    total_words = 200000
+    #Words that are nouns
+    nouns = 50000
+    #Nouns that are proper nouns
+    proper_nouns = 120000
+    #Proper nouns that are names
+    names = 10000
+    #Total pages in the book
+    total_pages = 500
+    #Names per page
+    names_per_page = names / total_pages
+    return names_per_page
+Topic: Black Panther ### Response: 1. Black Panther has a total of 20 players.
+2. 5 of the players are from the 10th grade.
+3. 7 of the players are from the 11th grade.
+4. 8 of the players are from the 12th grade.
+5. We need to find out how many players are not from the 10th, 11th, or 12th grade.
+
+def solution():
+    total_players = 20
+    players_10th = 5
+    players_11th = 7
+    players_12th = 8
+    players_other = total_players - players_10th - players_11th - players_12th
+    return players_other
+print(solution())
+Topic: Serena Williams ### Response: 
+Question:Serena Williams has 22 grand slam singles titles. She has 6 Australian Open titles, 3 French Open titles, 7 Wimbledon titles, and 6 US Open titles. How many grand slam singles titles does Serena Williams have that are not mentioned?
+
+def solution():
+    #Serena Williams has 22 grand slam singles titles
+    total_titles = 22
+    #She has 6 Australian Open titles
+    australian_open = 6
+    #3 French Open titles
+    french_open = 3
+    #7 Wimbledon titles
+    wimbledon = 7
+    #6 US Open titles
+    us_open = 6
+    #The answer is
+    not_mentioned = total_titles - (australian_open + french_open + wimbledon + us_open)
+    return not_mentioned
+Topic: planes ### Response: 
+Question: A plane travels 500 miles in 2 hours. How many miles can it travel in 30 hours?
+Solution:
+def solution():
+    #The plane travels 500 miles in 2 hours
+    miles_2_hours = 500
+    #30 hours is 15 times 2 hours
+    time_30_hours = 15
+    #The answer is
+    result = miles_2_hours * time_30_hours
+    return result
+Topic: dinosaurs ### Response: 
+Question: The T-Rex is the most ferocious dinosaur in the land. It has 3 heads and each head has 3 teeth. How many teeth does the T-Rex have in total?
+Solution:
+def solution():
+    # The T-Rex has 3 heads
+    heads = 3
+    # Each head has 3 teeth
+    teeth_per_head = 3
+    # The answer is
+    result = heads * teeth_per_head
+    return result
+Topic: Thor, the God of Thunder ### Response: 
+def solution():
+    # Number of thunderstorms Thor caused
+    thunderstorms = 30
+
+    # Number of thunderstorms that were caused in Asgard
+    asgard = 10
+
+    # Number of thunderstorms that were caused in Midgard
+    midgard = 6
+
+    # Number of thunderstorms that were caused in Jotunheim
+    jotunheim = 5
+
+    # Number of thunderstorms that were caused in other realms
+    other_realms = thunderstorms - asgard - midgard - jotunheim
+
+    return other_realms
+print(solution())
+Topic: Barbie ### Response: 
+word_problem = """
+Barbie has 20 dolls. She gives 5 dolls to her friend. How many dolls does Barbie have left?
+"""
+
+solution = """
+dolls_total = 20
+dolls_given = 5
+
+dolls_left = dolls_total - dolls_given
+
+print(dolls_left)
+"""
+
+print(solution)
+Topic: Thor, the God of Thunder ### Response: 
+Question: Thor has 8 hammers. Each hammer weighs 25 pounds. What is the total weight of all the hammers?
+Solution:def solve():
+    # number of hammers
+    hammers = 8
+    # weight of each hammer
+    weight = 25
+    # calculate total weight
+    total_weight = hammers * weight
+    return total_weight
+print(solve())
+Topic: Hello Kitty ### Response: 2000 friends =2000
+70% of them are girls =0.7*2000
+20% of the girls are in the United States =0.2*0.7*2000
+Answer = int(0.2*0.7*2000)
+print(Answer)
+Topic: Thor, the God of Thunder ### Response:
+Topic: candy ### Response: 
+def candy_problem():
+    # Initial number of candies
+    candies_initial = 100
+    # Number of candies eaten
+    candies_eaten = 20
+    # Number of candies received as a gift
+    candies_gift = 30
+    # The answer is
+    result = candies_initial - candies_eaten + candies_gift
+    return result
+print(candy_problem())
+Topic: Thor, the God of Thunder ### Response: 
+def solve():
+    # number of times Thor's hammer struck the ground
+    strikes = 3
+    # number of times Thor's hammer struck the ground to make it rain
+    rain_strikes = 2
+    # number of times Thor's hammer struck the ground to make it thunder
+    thunder_strikes = 1
+
+    # total number of times Thor's hammer struck the ground
+    total_strikes = strikes + rain_strikes + thunder_strikes
+
+    return total_strikes
+print(solve())
+Topic: Serena Williams ### Response: 
+Serena_Williams=22
+Steps_to_solve=4
+answer=Serena_Williams/Steps_to_solve
+print(answer)
+Topic: football ### Response: 
+Question:The Dallas Cowboys had 45 yards rushing and 25 yards passing in a football game. What was the total yardage for the Dallas Cowboys in the football game?
+
+Solution:rushing_yard = 45
+passing_yard = 25
+
+total_yard = rushing_yard + passing_yard
+
+print(total_yard)
+Topic: cookies ### Response: 
+Question: If you have 12 cookies and you give away 5, how many cookies do you have left?
+
+Solution:
+cookies = 12
+gave = 5
+
+remaining = cookies - gave
+
+print(remaining)
+Topic: lacrosse ### Response: 
+def solve():
+    # number of players in a lacrosse team
+    players_per_team = 10
+    # number of teams in a league
+    teams_per_league = 8
+    # calculate total number of players in a league
+    total_players = players_per_team * teams_per_league
+    return total_players
+print(solve())
+Topic: Taylor Swift ### Response: 
+taylor_swift_concert=1200
+toys_shipped_tuesday=400
+toys_shipped_wednesday=200
+toys_shipped_thursday=300
+toys_initial=taylor_swift_concert-(toys_shipped_tuesday+toys_shipped_wednesday+toys_shipped_thursday)
+print(toys_initial)
+Topic: ice cream ### Response: 
+Question: A shop sells three types of ice cream: vanilla, chocolate, and strawberry. Vanilla and chocolate are sold in small cups of 100 ml each, while strawberry is sold in large cups of 200 ml each. If the shop sells 60 small cups of vanilla, 80 small cups of chocolate, and 40 large cups of strawberry, how many liters of ice cream are sold in total?
+
+Solution:
+def solution():
+    # define the quantities of each type of ice cream sold
+    vanilla = 60
+    chocolate = 80
+    strawberry = 40
+
+    # define the volume of each type of cup
+    small_cup = 100  # in ml
+    large_cup = 200  # in ml
+
+    # calculate the total volume of ice cream sold in ml
+    total_ml = vanilla * small_cup + chocolate * small_cup + strawberry * large
+Topic: swimming ### Response: 
+def swimming_solution():
+    # define the total distance
+    total_distance = 1000
+    # define the distance covered in one minute
+    distance_per_minute = 50
+    # calculate the total time
+    total_time = total_distance / distance_per_minute
+    # return the total time
+    return total_time
+
+word_problem = """
+A swimmer can cover 50 meters in one minute. How long will it take for the swimmer to cover 1000 meters?
+"""
+
+print(swimming_solution())
+Topic: Batman ### Response: 
+def batman_word_problem():
+    # Batman needs to travel from Gotham City to Metropolis
+    # The distance between Gotham City and Metropolis is 500 miles
+    # Batman can travel at a speed of 200 miles per hour
+    # Calculate the time it will take Batman to travel from Gotham City to Metropolis
+    distance = 500
+    speed = 200
+    time = distance / speed
+    return time
+Topic: field hockey ### Response: 
+def solution():
+    # total players in the team
+total_players = 16
+
+    # players in the field
+players_in_field = 11
+
+    # players on the bench
+players_on_bench = total_players - players_in_field
+
+    # players in the team who are not on the bench
+players_not_on_bench = total_players - players_on_bench
+
+    # players who are not on the bench and are also not in the field
+players_neither_on_bench_nor_in_field = players_not_on_bench - players_in_field
+
+    # players who are on the bench and also in the field
+players_both_on_bench_and_in_field = 0
+
+    # players who are either on the bench or in the field
+players_either_on_bench_or_in_field = players_on_bench + players_in_field
+
+    # players who are neither on the bench nor
+Topic: Naruto ### Response:
+Topic: Minecraft ### Response: 
+def minecraft_problem():
+    # Total number of blocks in the minecraft world
+    total_blocks = 230
+    # Number of blocks that are red and blue
+    red_blocks = 120
+    blue_blocks = 50
+    # Number of green blocks is the total number of blocks minus the number of red and blue blocks
+    green_blocks = total_blocks - red_blocks - blue_blocks
+    return green_blocks
+Topic: cheer leading ### Response: 12 cheerleaders are needed to form a team. However, there are only 10 cheerleaders in the school. So, the school is short of 12 - 10 = <<12-10=2>>2 cheerleaders.
+To solve the problem, the school needs to find 2 cheerleaders to form a team.
+#### 2
+Topic: cars ### Response: 
+Question: A car is traveling at a constant speed of 65 miles per hour. The car travels for 2 hours, then stops for 1 hour, and travels for 3 hours more. How many miles does the car travel?
+Solution:
+def solution():
+    # define the speed of the car
+    speed = 65
+    # define the time the car travels
+    time = 2 + 3
+    # calculate the distance the car travels
+    distance = speed * time
+    # return the answer
+    return distance
+print(solution())
+Topic: dinosaurs ### Response:
+Topic: volleyball ### Response:
+Topic: pizza ### Response: 
+Question: A pizza has 8 slices. Each slice has 200 calories. How many calories are in the pizza?
+Solution:
+def pizza_calories():
+    slices = 8
+    calories_per_slice = 200
+    total_calories = slices * calories_per_slice
+    return total_calories
+print(pizza_calories())
+Topic: Black Panther ### Response: 
+def black_panther():
+    # number of people T'Challa saved
+    people_saved = 10
+    # number of people T'Challa did not save
+    people_not_saved = 2
+    # total number of people
+    total_people = people_saved + people_not_saved
+    # percentage of people saved
+    percentage_saved = (people_saved / total_people) * 100
+    # percentage of people not saved
+    percentage_not_saved = (people_not_saved / total_people) * 100
+    # total percentage
+    total_percentage = percentage_saved + percentage_not_saved
+    return total_percentage
+print(black_panther())
+Topic: cheer leading ### Response: 
+total_cheer_leaders = 10
+morphed_cheer_leaders = 2
+command_center_cheer_leaders = 1
+date_cheer_leaders = 1
+
+not_morphed_not_command_center = total_cheer_leaders - morphed_cheer_leaders - command_center_cheer_leaders - date_cheer_leaders
+
+print(not_morphed_not_command_center)
+Topic: candy ### Response: 
+def candy_problem():
+    # number of candies each child gets
+    candies_per_child = 3
+    # number of children
+    children = 5
+    # total number of candies
+    total_candies = candies_per_child * children
+    return total_candies
+
+print(candy_problem())
+Topic: Super Mario ### Response: 
+def super_mario_solution():
+    # In the first level, Mario has to jump over 5 gaps
+    gaps_in_first_level = 5
+    # In the second level, Mario has to jump over 6 gaps
+    gaps_in_second_level = 6
+    # In the third level, Mario has to jump over 7 gaps
+    gaps_in_third_level = 7
+    # Total gaps that Mario has to jump over is the sum of gaps in each level
+    total_gaps = gaps_in_first_level + gaps_in_second_level + gaps_in_third_level
+    return total_gaps
+
+# Super Mario has to jump over 5 gaps in the first level, 6 gaps in the second level, and 7 gaps in the third level. How many total gaps does he have to jump over?
+total_gaps = super_mario_solution()
+print(total_gaps)
+Topic: lacrosse ### Response: 
+Question:In a lacrosse game, Team A scored 4 goals in the first quarter, 6 goals in the second quarter, and 5 goals in the third quarter. How many goals did Team A score in the first three quarters of the game?
+
+Solution:
+def solution():
+    # Team A scored 4 goals in the first quarter, 6 goals in the second quarter, and 5 goals in the third quarter.
+    goals_first_quarter = 4
+    goals_second_quarter = 6
+    goals_third_quarter = 5
+    # The total goals scored in the first three quarters is the sum of the goals in each quarter.
+    total_goals = goals_first_quarter + goals_second_quarter + goals_third_quarter
+    return total_goals
+Topic: Superman ### Response: 
+def solve():
+    # Given that the speed of light is 299792458 m/s
+    speed_of_light = 299792458
+
+    # And the speed of Superman is 25/100 times the speed of light
+    superman_speed = (25/100) * speed_of_light
+
+    # Print the speed of Superman
+    return superman_speed
+print(solve())
+Topic: Fortnite ### Response: 
+def solve():
+    # Given data
+    total_players = 100
+    player_eliminated = 20
+
+    # Calculate the remaining players
+    remaining_players = total_players - player_eliminated
+
+    # Print the answer
+    return remaining_players
+print(solve())
+Topic: swimming ### Response: 
+def swimming_solution():
+    # define the variables
+    total_distance = 400  # total distance to be covered in meters
+    freestyle_distance = 100  # distance to be covered using freestyle in meters
+    breaststroke_distance = 100  # distance to be covered using breaststroke in meters
+    butterfly_distance = 100  # distance to be covered using butterfly stroke in meters
+    backstroke_distance = 100  # distance to be covered using backstroke in meters
+
+    # calculate the distance to be covered using medley stroke
+    medley_distance = total_distance - freestyle_distance - breaststroke_distance - butterfly_distance - backstroke_distance
+
+    # return the result
+    return medley_distance
+
+word_problem = """
+A swimmer needs to cover a total distance of 400 meters. He will cover 100 meters using freestyle, 100 meters using breaststroke, 100 meters using butterfly stroke, and 100 meters using
+Topic: Serena Williams ### Response: 1. Serena Williams serves 10 aces in a match
+2. She serves 10 aces for 5 matches
+3. How many aces has she served?
+
+def solution():
+    aces_per_match = 10
+    matches = 5
+    total_aces = aces_per_match * matches
+    return total_aces
+Topic: dinosaurs ### Response: 
+def solve():
+    # number of dinosaurs
+n = 10
+
+# number of years each dinosaur lived
+y = 10
+
+# total number of years all dinosaurs lived
+total_years = n * y
+
+# average number of years each dinosaur lived
+average_years = total_years / n
+
+print(average_years)
+Topic: planes ### Response: 
+def solution():
+    #Superman can fly at a speed of 1000 miles per hour
+    speed = 1000
+    #He has to fly from New York to Los Angeles, which is 2798 miles
+    distance = 2798
+    #The answer is
+    result = distance / speed
+    return result
+Topic: Captain Marvel ### Response:
+Topic: Pokémon ### Response: 
+Question: There are 8 gyms in the Kanto region. Each gym has a leader that specializes in a specific type of Pokémon. If a trainer defeats a gym leader, they receive a badge. A trainer can only hold one badge from each gym at a time. If a trainer has already obtained a badge from a gym, they cannot obtain another badge from the same gym. How many different badges can a trainer obtain in the Kanto region?
+
+Solution:def solution():
+    # Number of gyms in the Kanto region
+    gyms = 8
+    
+    # A trainer can only hold one badge from each gym at a time
+    badges_per_gym = 1
+    
+    # Total number of badges a trainer can obtain
+    total_badges = gyms * badges_per_gym
+    
+    return total_badges
+Topic: Fortnite ### Response: 100 players drop into a map to fight for survival. They are divided into 25 teams of 4 players each. Each team has to find a specific type of weapon to be able to damage other players. 
+
+The problem: Find the total number of players that can damage other players.
+
+Solution: There are 25 teams of 4 players each. Each team needs to find a specific type of weapon to be able to damage other players. Since each team has 4 players, all 4 players in each team can damage other players if they find the required weapon.
+
+So, the total number of players that can damage other players is:
+
+25 teams * 4 players per team = 100 players
+
+Therefore, all 100 players can damage other players if their team finds the required weapon.
+Topic: Captain America ### Response: 
+def solve():
+    # Total number of toys
+    total_toys = 1000
+    # Number of pink toys
+    pink_toys = 200
+    # Number of blue toys
+    blue_toys = 300
+    # Number of white toys is the rest
+    white_toys = total_toys - pink_toys - blue_toys
+    return white_toys
+print(solve())
+Topic: Naruto ### Response:  naruto_age = 12
+  minato_age = 12
+  naruto_height = 120
+  minato_height = 120
+
+  if naruto_age is None or minato_age is None or naruto_height is None or minato_height is None:
+    print('None')
+
+  elif naruto_age == minato_age and naruto_height == minato_height:
+    print('The same')
+
+  elif naruto_age == minato_age or naruto_height == minato_height:
+    print('Partly the same')
+
+  else:
+    print('Not the same')
+Topic: basketball ### Response: 
+def solution():
+    # number of players in a basketball team
+    players_in_team = 5
+    # number of teams
+    teams = 2
+    # total players in a match
+    total_players = players_in_team * teams
+    return total_players
+print(solution())
+Topic: Iron Man ### Response:
+Topic: dogs ### Response:
+Topic: cookies ### Response: 
+Question: If a cookie has 100 calories and you eat 3 cookies, how many total calories did you consume?
+Solution:
+def cookie_calories(calories_per_cookie, num_cookies):
+    # calculate total calories
+    total_calories = calories_per_cookie * num_cookies
+    return total_calories
+
+# test the function
+calories_per_cookie = 100
+num_cookies = 3
+print(cookie_calories(calories_per_cookie, num_cookies))
+Topic: field hockey ### Response: 
+def solve():
+    # Given data
+    game_1 = 24
+    game_2 = 31
+    game_3 = 27
+    
+    # Total points scored
+    total_points = game_1 + game_2 + game_3
+    
+    return total_points
+print(solve())
+Topic: cats ### Response: 
+def cat_problem_solution():
+    # number of cats initially
+    initial_cats = 7
+    # number of cats that ran away
+    ran_away = 3
+    # number of cats that were born
+    born = 5
+    # calculate the final number of cats
+    final_cats = initial_cats - ran_away + born
+    return final_cats
+print(cat_problem_solution())
+Topic: planes ### Response: 
+def solve():
+    # number of planes
+    n = 3
+    # total cost of planes
+    total_cost = n * 100
+    return total_cost
+print(solve())
+Topic: dogs ### Response: 
+def dogs_problem():
+    # number of dogs
+dogs = 15
+
+    # number of bones
+bones = 25
+
+    # each dog gets 2 bones
+dogs_get_bones = dogs * 2
+
+    # remaining bones
+remaining_bones = bones - dogs_get_bones
+
+    # print the answer
+print(remaining_bones)
+Topic: ice cream ### Response: 
+Question: There are 1000 students at a school. 100 of them are in the Gryffindor house, 200 of them are in the Hufflepuff house, and 300 of them are in the Ravenclaw house. How many students are in the Slytherin house?
+Solution:
+def solution():
+    #Total students at Hogwarts
+    total_students = 1000
+    #Students in Gryffindor, Hufflepuff, and Ravenclaw
+    gryffindor_students = 100
+    hufflepuff_students = 200
+    ravenclaw_students = 300
+    #Students in Slytherin
+    slytherin_students = total_students - gryffindor_students - hufflepuff_students - ravenclaw_students
+    return slytherin_students
+Topic: Taylor Swift ### Response: 1. Taylor Swift has 180 million followers on Instagram.
+2. She gains 2 million followers every day.
+3. She will gain 2 million followers for the next 7 days.
+
+Question: How many followers will Taylor Swift have after 7 days?
+
+Solution:followers = 180
+gain = 2
+days = 7
+
+total = followers + gain*days
+
+print(total)
+Topic: Spiderman ### Response: 
+Question: If Spiderman can shoot 100 webs in a second, how many webs can he shoot in 10 minutes?
+Solution:
+def solution():
+    #Spiderman can shoot 100 webs in a second
+    webs_per_second = 100
+    #10 minutes is 600 seconds
+    seconds = 10 * 60
+    #The answer is
+    result = webs_per_second * seconds
+    return result
+Topic: Serena Williams ### Response: 
+Serena_Williams_Titles=23
+Serena_Williams_Titles_after_2010=10
+Serena_Williams_Titles_before_2010=Serena_Williams_Titles-Serena_Williams_Titles_after_2010
+print(Serena_Williams_Titles_before_2010)
+Topic: Black Panther ### Response: 
+def solve():
+    # Black Panther's suit is made of vibranium, which can absorb kinetic energy. 
+    # When Black Panther punches, he transfers kinetic energy to his opponent. 
+    # If Black Panther punches with a force of 1000 Newtons, 
+    # and his opponent has a mass of 80 kg, 
+    # calculate the acceleration of his opponent.
+
+    # Force = mass × acceleration
+    # So, acceleration = force / mass
+
+    force = 1000  # in Newtons
+    mass = 80  # in kg
+
+    acceleration = force / mass
+    return acceleration
+print(solve())
+Topic: cookies ### Response: 
+word_problem = """
+There are 20 cookies in a jar. 
+10 of the cookies are chocolate chip, 6 are oatmeal, and the rest are sugar cookies.
+How many sugar cookies are in the jar?
+"""
+
+solution = """
+total_cookies = 20
+chocolate_chip = 10
+oatmeal = 6
+
+sugar_cookies = total_cookies - chocolate_chip - oatmeal
+
+print(sugar_cookies)
+"""
+
+print(word_problem)
+print(solution)
+Topic: trains ### Response: 
+def train_problem():
+    # Given values
+    total_wagons = 50
+    wagons_per_train = 10
+    total_trains = total_wagons / wagons_per_train
+    return total_trains
+print(train_problem())
+Topic: volleyball ### Response: 
+def solution():
+    # Serena has 23 titles
+    serena_titles = 23
+    # Venus has 7 titles
+    venus_titles = 7
+    # Serena has more titles than Venus
+    more_titles = serena_titles - venus_titles
+    return more_titles
+print(solution())
+Topic: Naruto ### Response:
+Topic: Wonder Woman ### Response: 
+wonder_woman = 1800
+tenth_grade = 500
+eleventh_grade = 250
+twelfth_grade = 600
+
+ninth_grade = wonder_woman - tenth_grade - eleventh_grade - twelfth_grade
+
+print(ninth_grade)
+Topic: trains ### Response: 
+def solve():
+    # Constants
+    train_speed_mph = 75
+    train_distance_miles = 120
+    time_hours = 3
+
+    # Calculate the number of trains
+    num_trains = (train_speed_mph * train_distance_miles) / (time_hours * 100)
+
+    # Round the number of trains to the nearest integer
+    num_trains = round(num_trains)
+
+    return num_trains
+print(solve())
+Topic: cheer leading ### Response: 
+def solution():
+    # number of girls in the squad
+girls = 12
+
+# number of girls that can perform a back handspring
+back_handspring = 4
+
+# number of girls that can perform a front handspring
+front_handspring = 6
+
+# number of girls that can perform a cartwheel
+cartwheel = 8
+
+# number of girls that can perform a roundoff
+roundoff = 10
+
+# number of girls that can perform a back tuck
+back_tuck = 2
+
+# total number of girls that can perform at least one of the listed skills
+total = back_handspring + front_handspring + cartwheel + roundoff + back_tuck
+
+# number of girls that can perform at least two of the listed skills
+two_skills = back_handspring + front_handspring + cartwheel + roundoff
+
+# number of girls that can perform three of the listed skills
+three_skills = back_handspring + front_handspring + cartwheel + roundoff
+
+# number of girls that can perform four of the listed
+Topic: cars ### Response:
+Topic: trains ### Response:
+Topic: football ### Response: 
+def solve():
+    # total players in a football team
+    total_players = 11
+
+    # number of forwards in the team
+    forwards = 4
+
+    # number of defenders in the team
+    defenders = 3
+
+    # number of goalies in the team
+    goalies = total_players - forwards - defenders
+
+    return goalies
+print(solve())
+Topic: cars ### Response: 
+def car_problem():
+    # number of cars
+cars = 2
+
+# cost per car
+cost_per_car = 1000
+
+# total cost
+total_cost = cars * cost_per_car
+
+# print the total cost
+print(total_cost)
+Topic: candy ### Response: 
+def solve():
+    # define the variables
+    total_candy = 30
+    candy_eaten = 10
+    candy_given = 5
+
+    # calculate the remaining candy
+    remaining_candy = total_candy - candy_eaten + candy_given
+
+    # print the result
+    return remaining_candy
+print(solve())
+Topic: unicorns ### Response: 20 unicorns were in the forest. 50% of the unicorns had a broken horn. 30 more unicorns with broken horns wandered in. 20% of the unicorns with broken horns were healed. How many unicorns with broken horns are left?
+
+def solution():
+    unicorns_initial = 20
+    broken_horns_initial = unicorns_initial * 0.50
+    broken_horns_wandered = 30
+    broken_horns_healed = (broken_horns_initial + broken_horns_wandered) * 0.20
+    broken_horns_left = (broken_horns_initial + broken_horns_wandered) - broken_horns_healed
+    return broken_horns_left
+print(solution())
+Topic: Barbie ### Response: 2000 dogs bark 20 times a day. So, in 20 days, the number of barks will be 2000*20*20 = 800000
+print(800000)
+Topic: Power Rangers ### Response: 
+def power_rangers(red, blue, yellow, black, pink):
+    return red + blue + yellow + black + pink
+
+red = 1
+blue = 2
+yellow = 3
+black = 4
+pink = 5
+
+print(power_rangers(red, blue, yellow, black, pink))
+Topic: Iron Man ### Response: 
+Question:Iron Man has 3 suits of armor. Each suit has 4 arc reactors. Each arc reactor has 24 repulsors. How many repulsors does Iron Man have?
+
+Solution:
+def solution():
+    #Number of suits
+    suits = 3
+    #Number of arc reactors per suit
+    arc_reactors = 4
+    #Number of repulsors per arc reactor
+    repulsors = 24
+    #Calculate total number of repulsors
+    total_repulsors = suits * arc_reactors * repulsors
+    return total_repulsors
+print(solution())
+Topic: Captain America ### Response:
+Topic: cats ### Response: 
+def solve():
+    # initial number of cats
+initial_cats = 100
+
+    # number of cats given to best friend
+cats_given_best_friend = 20
+
+    # number of cats given to 2nd best friend
+cats_given_2nd_best_friend = 30
+
+    # calculate remaining cats
+remaining_cats = initial_cats - cats_given_best_friend - cats_given_2nd_best_friend
+
+    return remaining_cats
+print(solve())
+Topic: Ninja Turtles ### Response: 
+def solution():
+    # number of turtles
+    turtles = 4
+    # number of pizzas
+    pizzas = 5
+    # number of slices per pizza
+    slices_per_pizza = 8
+    # total slices
+    total_slices = turtles * pizzas * slices_per_pizza
+    return total_slices
+print(solution())
+Topic: Wonder Woman ### Response:
+Topic: Serena Williams ### Response: 17 years old Serena Williams won her first professional tennis tournament in 1998. She has been playing professional tennis for 22 years now. How many total professional tennis tournaments has she won in her career?
+
+def total_tournaments_won():
+    # Total number of years Serena has been playing professional tennis
+    total_years = 22
+    # Number of years before she won her first professional tennis tournament
+    years_before = 17
+    # Number of tournaments she won after her first tournament win
+    tournaments_won = total_years - years_before
+    # Total number of professional tennis tournaments she has won in her career
+    total_tournaments = 1 + tournaments_won
+    return total_tournaments
+Topic: swimming ### Response: 
+def solve():
+    # Total number of students
+total_students = 30
+
+    # Number of students who can swim
+can_swim = 20
+
+    # Number of students who can't swim
+cant_swim = total_students - can_swim
+
+    return cant_swim
+print(solve())
+Topic: Batman ### Response: 
+Question: Batman is a superhero. He can punch 20 bad guys at a time. 200 bad guys were in a bank. How many times did he have to punch the bad guys to get them all?
+Solution:def solution():
+    # Batman can punch 20 bad guys at a time
+    punch_per_time = 20
+    # 200 bad guys were in a bank
+    bad_guys = 200
+    # The answer is
+    result = bad_guys // punch_per_time
+    if bad_guys % punch_per_time != 0:
+        result += 1
+    return result
+Topic: Super Mario ### Response:
+Topic: Captain Marvel ### Response: 
+def solution():
+    # In the first level, Captain Marvel has to punch 10 Skrulls
+    skrulls_first_level = 10
+    # In the second level, he has to punch 20 Skrulls
+    skrulls_second_level = 20
+    # In the third level, he has to punch 30 Skrulls
+    skrulls_third_level = 30
+    # The answer is
+    result = skrulls_first_level + skrulls_second_level + skrulls_third_level
+    return result
+
+print(solution())
+Topic: Hello Kitty ### Response: 10個のHello Kittyの長さは220フィートです。20個のHello Kittyの長さは440フィートです。50個のHello Kittyの長さは何フィートですか？
+def solution():
+    #10個のHello Kittyの長さは220フィートです
+    train_10_cars = 220
+    #20個のHello Kittyの長さは440フィートです
+    train_20_cars = 440
+    #The answer is
+    result = (train_20_cars - train_10_cars) / (20 - 10) * (50 - 20) + train_20_cars
+    return result
+Topic: Power Rangers ### Response: 
+def power_rangers(total_people, home_team, away_team, different_team):
+    # calculate people not wearing a soccer jersey
+    no_jersey = total_people - home_team - away_team - different_team
+    return no_jersey
+
+# total number of people at the game
+total_people = 4000
+# people wearing home team's jersey
+home_team = 2000
+# people wearing away team's jersey
+away_team = 1500
+# people wearing a jersey of a different team
+different_team = 500
+
+# calculate people not wearing a soccer jersey
+no_jersey = power_rangers(total_people, home_team, away_team, different_team)
+print(no_jersey)
+Topic: Thor, the God of Thunder ### Response: 
+def solve():
+    # Number of times Thor's hammer was used to smash a rock
+    hammer_uses = 3
+    # Number of times Thor's hammer was used to smash a frost giant
+    giant_smashes = 2
+    # Number of times Thor's hammer was used to smash a troll
+    troll_smashes = 1
+    # Total number of times Thor's hammer was used
+    total_uses = hammer_uses + giant_smashes + troll_smashes
+    return total_uses
+print(solve())
+Topic: Superman ### Response:
+Topic: LeBron James ### Response: 
+def lebron_james_solution():
+    # LeBron James has 4 MVP awards, 3 NBA championships, and 2 Olympic gold medals
+    lebron_mvp_awards = 4
+    lebron_nba_championships = 3
+    lebron_olympic_gold_medals = 2
+    # The total number of awards is the sum of these three categories
+    total_awards = lebron_mvp_awards + lebron_nba_championships + lebron_olympic_gold_medals
+    return total_awards
+
+word_problem = """
+LeBron James has 4 MVP awards, 3 NBA championships, and 2 Olympic gold medals. 
+What is the total number of awards he has?
+"""
+
+print(word_problem)
+Topic: cars ### Response:
+Topic: Superman ### Response: 
+def superman_problem():
+    # Given values
+    kryptonite_density = 1200  # kg/m^3
+    kryptonite_volume = 10  # m^3
+    superman_strength = 2e8  # N
+
+    # Calculate the mass of kryptonite
+    kryptonite_mass = kryptonite_density * kryptonite_volume
+
+    # Calculate the force required to move the kryptonite
+    force_required = kryptonite_mass * 9.81  # N
+
+    # Check if Superman is strong enough
+    if force_required <= superman_strength:
+        return "Superman is strong enough"
+    else:
+        return "Superman is not strong enough"
+print(superman_problem())
+Topic: Superman ### Response: 
+def superman_problem():
+    # Given values
+    kryptonite_on_monday = 100
+    kryptonite_on_tuesday = 200
+    kryptonite_on_wednesday = 300
+    # Superman's strength to fight kryptonite
+    superman_strength = 12
+    # Calculate total kryptonite fought by Superman
+    total_kryptonite_fought = (kryptonite_on_monday + kryptonite_on_tuesday + kryptonite_on_wednesday) * superman_strength
+    return total_kryptonite_fought
+print(superman_problem())
+Topic: Captain America ### Response: 
+def solve():
+    # total number of soldiers in the army
+total_soldiers = 200000
+    # total number of soldiers in the navy
+total_sailors = 50000
+    # total number of soldiers in the air force
+total_airmen = 100000
+    # total number of soldiers in the marines
+total_marines = 30000
+    # total number of soldiers in the coast guard
+total_coast_guards = 10000
+    # total number of soldiers in the national guard
+total_national_guards = 40000
+
+    # total number of soldiers in the reserves
+total_reserves = total_soldiers + total_sailors + total_airmen + total_marines + total_coast_guards + total_national_guards
+
+    # total number of soldiers in the active duty
+total_active_duty = total_soldiers + total_sailors + total_airmen + total_marines + total
+Topic: dogs ### Response: 
+def dog_problem_solution():
+    # number of dogs in the beginning
+    initial_dogs = 200
+    # number of dogs adopted
+    adopted_dogs = 50
+    # number of dogs that died
+    died_dogs = 20
+    # calculate the number of dogs left
+    dogs_left = initial_dogs - adopted_dogs - died_dogs
+    return dogs_left
+Topic: Serena Williams ### Response: 
+def serena_williams_problem():
+    # Serena Williams has won 23 Grand Slam singles titles in her career.
+    # However, she is not the only one who has won titles. 
+    # Her sister, Venus Williams, has won 7 Grand Slam singles titles.
+    # Roger Federer has won 20 Grand Slam singles titles.
+    # Rafael Nadal has won 19 Grand Slam singles titles.
+    # Novak Djokovic has won 18 Grand Slam singles titles.
+    # Maria Sharapova has won 5 Grand Slam singles titles.
+    # Simona Halep has won 2 Grand Slam singles titles.
+    # Naomi Osaka has won 2 Grand Slam singles titles.
+    # Petra Kvitova has won 2 Grand Slam singles titles.
+    # Angelique Kerber has won 3 Grand Slam singles titles.
+    # Caroline Wozniacki has won 1 Grand Slam singles title.
+    # Garbine Muguruza has won 2 Grand Slam singles titles.
+    #
+Topic: Barbie ### Response: 
+word_problem = """
+Barbie has 100 dolls. She gives 50 dolls to her sister. How many dolls does Barbie have left?
+"""
+
+solution = """
+dolls = 100
+gave = 50
+
+remaining = dolls - gave
+
+print(remaining)
+"""
+
+answer = 100 - 50
+
+print(word_problem)
+print(solution)
+print(answer)
+Topic: field hockey ### Response: 
+def solve():
+    # number of players in a field hockey team
+    players_in_team = 11
+    
+    # number of players that can be substituted
+    players_can_be_substituted = 5
+    
+    # total number of players in a field hockey match
+    total_players = players_in_team + players_can_be_substituted
+    
+    return total_players
+print(solve())
+Topic: Taylor Swift ### Response: 
+taylor_swift_songs=16
+taylor_swift_albums=6
+taylor_swift_total_album_songs=taylor_swift_songs*taylor_swift_albums
+print(taylor_swift_total_album_songs)
+Topic: Barbie ### Response: 
+Question: Barbie has 200 dollars. She spends 10 dollars per day. How many days will she have dollars for?
+Solution:
+def solution():
+    # Barbie has 200 dollars
+    dollars_initial = 200
+    # She spends 10 dollars per day
+    dollars_per_day = 10
+    # The answer is
+    result = dollars_initial / dollars_per_day
+    return result
+Topic: Superman ### Response: 
+def solution():
+    # The speed of Superman when flying in the sky
+    speed_in_sky = 2500
+    # The speed of Superman when flying in the space
+    speed_in_space = 3500
+    # The speed of Superman when running on the ground
+    speed_on_ground = 500
+    # The speed of Superman when swimming in the water
+    speed_in_water = 1500
+    # The answer is
+    result = speed_in_sky + speed_in_space + speed_on_ground + speed_in_water
+    return result
+print(solution())
+Topic: Barbie ### Response:
+Topic: Minecraft ### Response: 
+def minecraft_problem():
+    # Initial number of diamonds
+    initial_diamonds = 5
+    
+    # Number of diamonds stolen
+    stolen_diamonds = 2
+    
+    # Number of diamonds recovered
+    recovered_diamonds = 1
+    
+    # Number of diamonds bought
+    bought_diamonds = 3
+    
+    # Calculate the final number of diamonds
+    final_diamonds = initial_diamonds - stolen_diamonds + recovered_diamonds + bought_diamonds
+    
+    return final_diamonds
+Topic: volleyball ### Response: 
+def volleyball_problem():
+    # number of players in a volleyball team
+    players_per_team = 6
+    # number of teams
+    teams = 2
+    # total players
+    total_players = players_per_team * teams
+    return total_players
+print(volleyball_problem())
+Topic: Barbie ### Response:
+Topic: trains ### Response: 
+Question: Two trains are moving in opposite directions. The first train has a length of 50 meters and is moving at a speed of 30 m/s. The second train has a length of 75 meters and is moving at a speed of 20 m/s. If they collide, how long will it take for the trains to pass each other?
+
+Solution:def solution():
+    # Length of the trains
+    length_train1 = 50
+    length_train2 = 75
+
+    # Speed of the trains
+    speed_train1 = 30
+    speed_train2 = 20
+
+    # Relative speed (since they are moving in opposite directions, we add the speeds)
+    relative_speed = speed_train1 + speed_train2
+
+    # Time taken to pass each other is total length divided by relative speed
+    time = (length_train1 + length_train2) / relative_speed
+
+    return time
+print(solution())
+Topic: cats ### Response: 1 cat has 4 legs
+1 cat has 1 tail
+There are 5 cats in total
+How many legs and tails do the cats have in total?
+
+def cat_legs(number_of_cats, legs_per_cat, tails_per_cat):
+    total_legs = number_of_cats * legs_per_cat
+    total_tails = number_of_cats * tails_per_cat
+    return total_legs + total_tails
+
+print(cat_legs(5, 4, 1))
+Topic: Minecraft ### Response: 12000 people are in a stadium. 2000 of the people are in a section. 1000 of the people in that section are wearing a red shirt. 500 of the people wearing a red shirt are also wearing a hat. How many people in the section are wearing a red shirt and a hat?
+
+def solution():
+    #12000 people are in a stadium
+    people_in_stadium = 12000
+    #2000 of the people are in a section
+    people_in_section = 2000
+    #1000 of the people in that section are wearing a red shirt
+    people_wearing_red_shirt = 1000
+    #500 of the people wearing a red shirt are also wearing a hat
+    people_wearing_red_shirt_and_hat = 500
+    #The answer is
+    result = people_wearing_red_shirt_and_hat
+    return result
+Topic: Ninja Turtles ### Response:
+Topic: Harry Potter ### Response: 
+def solution():
+    # Harry Potter can cast 10 spells per minute
+    spells_per_minute = 10
+    # He was attacked 100 times
+    attacks = 100
+    # He can cast a spell every 60/10 = 6 seconds
+    time_per_spell = 60 / spells_per_minute
+    # The total time he has to cast spells is 60 seconds
+    total_time = 60
+    # The number of spells he can cast is total_time / time_per_spell
+    spells_cast = total_time / time_per_spell
+    # The number of successful attacks is attacks - spells_cast
+    result = attacks - spells_cast
+    return result
+
+print(solution())
+Topic: Serena Williams ### Response: 2018 was a great year for Serena Williams. She won 2 slams and reached the finals of 2 more. That’s 2 + 2 = <<2+2=4>>4 grand slam finals.
+If she had won all 4, she would have received $4,000,000 in prize money. However, she only won 2, so she received $2,000,000 in prize money.
+Serena Williams is the greatest of all time, so she has won 23 grand slams in total. This means she has won $23,000,000 in prize money over her career.
+#### 23
+Topic: Taylor Swift ### Response:
+Topic: soccer ### Response: 
+def solve():
+    # Number of soccer players in each team
+players_per_team = 11
+
+    # Total number of teams
+total_teams = 2
+
+    # Calculate total number of players
+total_players = players_per_team * total_teams
+
+    # Print the answer
+print(total_players)
+Topic: planes ### Response: 
+def plane_problem():
+    # define the variables
+    total_planes = 20
+    offensive_planes = 5
+    defensive_planes = 8
+
+    # calculate the number of special planes
+    special_planes = total_planes - offensive_planes - defensive_planes
+
+    # return the result
+    return special_planes
+print(plane_problem())
+Topic: trains ### Response: 
+def train_problem():
+    # speed of first train
+    speed_train1 = 45
+    # speed of second train
+    speed_train2 = 75
+    # relative speed
+    relative_speed = speed_train2 - speed_train1
+    return relative_speed
+print(train_problem())
+Topic: Super Mario ### Response: 
+def solution():
+    # Total number of coins
+    total_coins = 100
+    # Number of people
+    people = 2
+    # Coins per person
+    coins_per_person = total_coins / people
+    return coins_per_person
+print(solution())
+Topic: Naruto ### Response: 
+def solve():
+    # Naruto has 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Topic: cheer leading ### Response: 10 cheerleaders are holding a 5 pound bag each. They are also holding 2 pound bags, 2 each. How much candy do they have?
+
+def solution():
+    #10 cheerleaders are holding a 5 pound bag each.
+    total_5_pound_bags = 10 * 5
+    #They are also holding 2 pound bags, 2 each.
+    total_2_pound_bags = 10 * 2 * 2
+    #total candy they have
+    total_candy = total_5_pound_bags + total_2_pound_bags
+    return total_candy
+Topic: field hockey ### Response: 2020 was a difficult year for the field hockey team. They started with 15 players and ended with 10 players. They lost 3 players to graduation, 2 players to injury, and gained 5 new players. How many players did they have at the end of the year?
+
+def solution():
+    # initial number of players
+initial_players = 15
+# players lost to graduation
+graduation = 3
+# players lost to injury
+injury = 2
+# new players gained
+new_players = 5
+# calculate final number of players
+final_players = initial_players - graduation - injury + new_players
+print(final_players)
+Topic: Hello Kitty ### Response: 
+def solution():
+    #Hello Kitty ate 21 bowls of ramen on Monday
+    ramen_monday = 21
+    #12 on Tuesday
+    ramen_tuesday = 12
+    #10 on Wednesday
+    ramen_wednesday = 10
+    #and 14 on Thursday
+    ramen_thursday = 14
+    #The answer is
+    result = ramen_monday + ramen_tuesday + ramen_wednesday + ramen_thursday
+    return result
+
+
+print(solution())
+Topic: ice cream ### Response: 
+Question:A ice cream shop has 3 flavors of ice cream, vanilla, chocolate and strawberry. They offer 3 sizes of cones, small, medium and large. If the shop sells 100 cones a day, how many of each size of cone are sold?
+
+Solution:
+total_flavors = 3
+total_sizes = 3
+total_cones = 100
+
+# Each flavor is sold in 3 sizes
+flavor_sales = total_cones / total_flavors
+
+# Each size of cone is sold for each flavor
+size_sales = flavor_sales / total_sizes
+
+print(int(size_sales))
+Topic: Taylor Swift ### Response:
+Topic: Power Rangers ### Response:
+Topic: ice cream ### Response: 
+Question: You have 3 flavors of ice cream. Chocolate, Vanilla, and Strawberry. Each flavor has 1000 gallons. If you add them all together, how many gallons of ice cream do you have?
+Solution:chocolate = 1000
+vanilla = 1000
+strawberry = 1000
+
+total = chocolate + vanilla + strawberry
+
+print(total)
+Topic: Serena Williams ### Response: 
+Question: Serena Williams has won 23 Grand Slam singles titles in her career. She has also won 14 Grand Slam doubles titles with her sister Venus. How many total Grand Slam titles has Serena won?
+
+Solution:def solve():
+    # Serena's singles titles
+    singles_titles = 23
+    # Serena's doubles titles
+    doubles_titles = 14
+    # Calculate total titles
+    total_titles = singles_titles + doubles_titles
+    return total_titles
+print(solve())
+Topic: Spiderman ### Response: 
+Question: Spiderman can shoot a web 200 feet. To save Mary Jane, he needs to shoot the web 300 feet. He can only shoot the web 10 feet at a time. How many times does he need to shoot the web to save Mary Jane?
+
+def solution():
+    # the total distance Spiderman needs to shoot the web
+    total_distance = 300
+    # the distance he can shoot the web at a time
+    shoot_distance = 10
+    # calculate the number of times he needs to shoot the web
+    num_shoots = total_distance / shoot_distance
+    return num_shoots
+print(solution())
+Topic: football ### Response: 
+def solve():
+    # number of yards gained by the football player
+    yards_gained = 10
+    # number of yards to reach the first down
+    yards_to_first_down = 10
+    # calculate the remaining yards to reach the first down
+    remaining_yards = yards_to_first_down - yards_gained
+    return remaining_yards
+print(solve())
+Topic: cheer leading ### Response: 1000 people lined up to buy ice cream. 600 of them bought a scoop of ice cream, 200 of them bought two scoops, and 100 of them bought three scoops. 100 people left the line. How many people bought ice cream?
+
+def solution():
+    #1000 people lined up
+    people_lined_up = 1000
+    #600 of them bought a scoop of ice cream
+    scoop_1 = 600
+    #200 of them bought two scoops
+    scoop_2 = 200
+    #100 of them bought three scoops
+    scoop_3 = 100
+    #100 people left the line
+    people_left = 100
+    #The answer is
+    result = people_lined_up - people_left
+    return result
+Topic: cats ### Response:
+Topic: Spiderman ### Response: 32 web-shooters - 6 web-shooters - 12 web-shooters = <<32-6-12=14>>14 web-shooters
+#### 14
+Topic: Power Rangers ### Response: 5 Power Rangers are fighting 50 Putties. 
+
+Each Power Ranger can fight 10 Putties. 
+
+So, the 5 Power Rangers can fight a total of 5 x 10 = <<5*10=50>>50 Putties.
+
+Therefore, the 5 Power Rangers can fight all the 50 Putties.
+
+#### 50
+Topic: Hello Kitty ### Response: 
+def solve():
+    # Total number of Hello Kitty dolls
+    total_dolls = 18
+    # Number of red Hello Kitty dolls
+    red_dolls = 8
+    # Number of blue Hello Kitty dolls
+    blue_dolls = 6
+    # Number of yellow Hello Kitty dolls is the rest of the dolls
+    yellow_dolls = total_dolls - red_dolls - blue_dolls
+    return yellow_dolls
+print(solve())
+Topic: Spiderman ### Response: 
+def solution():
+    spiderman_speed = 10
+    green_goblin_speed = 5
+    result = spiderman_speed - green_goblin_speed
+    return result
+print(solution())
+Topic: dinosaurs ### Response: 
+def solve():
+    # number of dinosaurs
+    total_dinosaurs = 25
+    # number of carnivorous dinosaurs
+    carnivorous_dinosaurs = 10
+    # number of herbivorous dinosaurs
+    herbivorous_dinosaurs = total_dinosaurs - carnivorous_dinosaurs
+    # difference between carnivorous and herbivorous dinosaurs
+    result = carnivorous_dinosaurs - herbivorous_dinosaurs
+    return result
+print(solve())
+Topic: pizza ### Response: 
+def pizza_solution():
+    # define the variables
+    total_pizzas = 23000
+    unloaded_pizzas_first = 5000
+    unloaded_pizzas_second = 3000
+    unloaded_pizzas_third = 2000
+
+    # calculate the remaining pizzas
+    remaining_pizzas = total_pizzas - unloaded_pizzas_first - unloaded_pizzas_second - unloaded_pizzas_third
+
+    # return the answer
+    return remaining_pizzas
+print(pizza_solution())
+Topic: Serena Williams ### Response: 1. Serena Williams has won 23 Grand Slam singles titles in her career.
+2. She has won 7 Australian Open titles, 3 French Open titles, 7 Wimbledon titles and 6 US Open titles.
+3. Let's calculate the total number of Grand Slam singles titles Serena Williams has won.
+
+total_titles = 7 + 3 + 7 + 6
+print(total_titles)
+Topic: football ### Response: 
+def football_problem():
+    # number of yards per play
+yards_per_play = 5
+
+    # number of plays
+plays = 4
+
+    # calculate total yards
+total_yards = yards_per_play * plays
+
+    # print the result
+print(total_yards)
+Topic: Steph Curry ### Response: 
+def solve():
+    # number of 3-pointers Steph Curry made in the 2015-16 season
+three_pointers = 402
+    # number of 3-pointers Steph Curry made in the 2016-17 season
+three_pointers_2016_17 = 324
+    # total number of 3-pointers Steph Curry made in both seasons
+total_three_pointers = three_pointers + three_pointers_2016_17
+    # average number of 3-pointers Steph Curry made per season
+average_three_pointers = total_three_pointers / 2
+print(average_three_pointers)
+
+# Word problem
+# Steph Curry made 402 3-pointers in the 2015-16 season and 324 3-pointers in the 2016-17 season.
+# Find the average number of 3-pointers Steph Curry made per season.
+print(solve())
+Topic: field hockey ### Response: 
+def solve():
+    # number of players in a field hockey team
+    players = 11
+    # number of players in a football team
+    footballers = 11
+    # number of players in a basketball team
+    basketballers = 5
+    # number of players in a volleyball team
+    volleyballers = 6
+    # total number of players
+    total_players = players + footballers + basketballers + volleyballers
+    return total_players
+print(solve())
+Topic: dinosaurs ### Response:
+Topic: Naruto ### Response:
+Topic: Pokémon ### Response: 
+def solve():
+    # number of Pokemon
+    pokemon = 150
+    # number of days in a week
+    days = 7
+    # total number of lunches served in a week
+    lunches = pokemon * days
+    return lunches
+print(solve())
+Topic: Wonder Woman ### Response:
+Topic: field hockey ### Response: 
+def solve():
+    # Given data
+    initial_players = 11
+    new_players = 4
+    
+    # Calculate total players
+    total_players = initial_players + new_players
+    
+    return total_players
+print(solve())
+Topic: candy ### Response: 
+Question: If a candy weighs 2 grams, how many candies can a 100-gram scale measure?
+Answer:A 100-gram scale can measure 100/2 = <<100/2=50>>50 candies.
+#### 50
+Topic: Naruto ### Response: 1234567890
+Question: Naruto has 12 ramen. He eats 3 of them on each of his 2 meals. How many ramen does he have left?
+Solution:def solution():
+    #Naruto started with 12 ramen
+    ramen_initial = 12
+    #He eats 3 on each of his 2 meals
+    ramen_per_meal = 3
+    #He has 2 meals
+    meals = 2
+    #He ate
+    ramen_eaten = ramen_per_meal * meals
+    #ramen. The answer is
+    result = ramen_initial - ramen_eaten
+    return result
+Topic: cats ### Response: 12 cats are in a room. 4 of them are black, 5 are white, and the rest are ginger. How many ginger cats are there?
+
+def cats(total, black, white):
+    ginger = total - black - white
+    return ginger
+
+print(cats(12, 4, 5))
+Topic: candy ### Response: 1 dollar = 100 cents
+Question: If Barbie has 245 1s, 225 5s, 123 10s, and 124 20s, how many dollars does she have?
+Solution:
+def solution():
+    #Barbie has 245 1s
+    ones = 245
+    #225 5s
+    fives = 225
+    #123 10s
+    tens = 123
+    #and 124 20s
+    twenties = 124
+    #The answer is
+    result = ones + fives*5 + tens*10 + twenties*20
+    return result
+print(solution())
+Topic: dogs ### Response: 
+def dog_problem():
+    # Initial number of dogs
+    initial_dogs = 12
+
+    # Number of dogs given to Iron Man, Thor, and Black Widow
+    dogs_given_to_iron_man = 4
+    dogs_given_to_thor = 3
+    dogs_given_to_black_widow = 2
+
+    # Calculate the number of dogs left
+    dogs_left = initial_dogs - dogs_given_to_iron_man - dogs_given_to_thor - dogs_given_to_black_widow
+
+    return dogs_left
+print(dog_problem())
+Topic: Barbie ### Response: 1 Barbie doll costs $10. If you buy 2 Barbie dolls, you get a 20% discount. How much do 2 Barbie dolls cost?
+
+def barbie_doll_cost():
+    # cost of 1 Barbie doll
+    cost_of_one_doll = 10
+    # cost of 2 Barbie dolls
+    cost_of_two_dolls = 2 * cost_of_one_doll
+    # discount on 2 Barbie dolls
+    discount = 0.20 * cost_of_two_dolls
+    # total cost of 2 Barbie dolls
+    total_cost = cost_of_two_dolls - discount
+    return total_cost
+Topic: Serena Williams ### Response: 
+Serena_Williams=23
+Venus_Williams=7
+total_tittles=Serena_Williams+Venus_Williams
+print(total_tittles)
+Topic: Fortnite ### Response: 
+def fortnite_lives():
+    # Initial lives
+    lives_initial = 5
+    # Lives from mushrooms
+    lives_mushroom = 3
+    # Lives from fire flowers
+    lives_fire_flower = 2 * 3
+    # Total lives
+    result = lives_initial + lives_mushroom + lives_fire_flower
+    return result
+print(fortnite_lives())
+Topic: Spiderman ### Response: 
+def spiderman_problem():
+    # Spiderman can shoot 6 webs per minute
+    webs_per_minute = 6
+    # He needs 10 minutes to save the city
+    minutes_to_save_city = 10
+    # The answer is
+    result = webs_per_minute * minutes_to_save_city
+    return result
+
+print(spiderman_problem())
+Topic: ice cream ### Response: 
+def solve():
+    # number of ice cream flavors
+flavors = 36
+    # number of toppings
+toppings = 22
+    # number of ice cream combinations
+combinations = flavors * toppings
+    return combinations
+print(solve())
+Topic: Harry Potter ### Response:
+Topic: Pokémon ### Response:
+Topic: football ### Response: 
+Question:The New York Jets have 11 players on their team. The New York Giants have 13 players on their team. The New York Jets have scored 21 points and the New York Giants have scored 24 points. Which team is winning?
+
+The team with the most players is winning if the teams have the same number of points. The team with the most points is winning if the teams have the same number of players.
+
+Answer:The New York Jets have 11 players and the New York Giants have 13 players so the New York Giants have the most players. (Step 1)
+The New York Jets have scored 21 points and the New York Giants have scored 24 points so the New York Giants have the most points. (Step 2)
+Since the New York Giants have the most players and the most points, they are winning. (Step 3)
+#### 3
+Topic: soccer ### Response: 
+Question: The soccer team has 32 players. Each player has 2 legs. How many legs does the team have?
+Solution:
+def solution():
+    #Number of players
+    players = 32
+    #Each player has 2 legs
+    legs_per_player = 2
+    #Calculate total legs
+    total_legs = players * legs_per_player
+    return total_legs
+Topic: planes ### Response:
+Topic: Fortnite ### Response: 
+def fortnite_solution():
+    # number of players in a game
+    players = 100
+    # number of players in a team
+    team = 4
+    # total number of teams
+    total_teams = players / team
+    # number of players in the winning team
+    winning_team = players - (total_teams - 1) * team
+    return winning_team
+
+print(fortnite_solution())
+Topic: Spiderman ### Response: 
+def spiderman_problem():
+    # Spiderman can swing 4 times faster than a normal person
+    spiderman_speed = 4
+    # Normal person's speed is 1
+    normal_speed = 1
+    # Time taken by both to complete a task
+    time = 1
+    # The task is to swing a certain distance. Let's say the distance is 100 meters.
+    # Spiderman can swing 4 times faster than a normal person. So, he will complete the task in 1/4th the time taken by a normal person.
+    # Therefore, the time taken by Spiderman is 1/4th the time taken by a normal person.
+    spiderman_time = time / spiderman_speed
+    normal_time = time / normal_speed
+    # The distance covered by both is the same. So, the distance covered by Spiderman in the time taken by a normal person is 4 times the distance covered by a normal person in the same time.
+    spiderman_distance = spiderman_speed * normal_time
+    normal
+Topic: Hello Kitty ### Response: 
+def solve():
+    # Given
+    total_pencils = 200
+    pink_percentage = 30/100
+    blue_percentage = 25/100
+
+    # Calculate pink and blue pencils
+    pink_pencils = total_pencils * pink_percentage
+    blue_pencils = total_pencils * blue_percentage
+
+    # Calculate yellow pencils
+    yellow_pencils = total_pencils - pink_pencils - blue_pencils
+
+    # Return the answer
+    return yellow_pencils
+print(solve())
+Topic: planes ### Response: 12 planes at the airport. 4 of the planes are from American Airlines, 5 are from Delta, and the rest are from United. How many planes are from United?
+
+def solution():
+    #There are 12 planes at the airport
+    total_planes = 12
+    #4 of the planes are from American Airlines
+    american_airlines_planes = 4
+    #5 are from Delta
+    delta_planes = 5
+    #The rest are from United
+    united_planes = total_planes - american_airlines_planes - delta_planes
+    return united_planes
+print(solution())
+Topic: Black Panther ### Response: 1. Black Panther has 200 vibranium
+2. He used 10 vibranium for breakfast
+3. He used 20 vibranium for lunch
+4. He used 20 vibranium for dinner
+5. How many vibranium does he have left?
+
+def solution():
+    vibranium_initial = 200
+    vibranium_breakfast = 10
+    vibranium_lunch = 20
+    vibranium_dinner = 20
+    result = vibranium_initial - vibranium_breakfast - vibranium_lunch - vibranium_dinner
+    return result
+Topic: Minecraft ### Response: 1. Start with the total number of blocks in the world
+total_blocks = 400
+
+2. Subtract the number of blocks used for the house
+blocks_used_for_house = 100
+remaining_blocks = total_blocks - blocks_used_for_house
+
+3. Subtract the number of blocks used for the farm
+blocks_used_for_farm = 50
+remaining_blocks = remaining_blocks - blocks_used_for_farm
+
+4. Subtract the number of blocks used for the mine
+blocks_used_for_mine = 200
+remaining_blocks = remaining_blocks - blocks_used_for_mine
+
+5. Print the remaining number of blocks
+print(remaining_blocks)
+Topic: Black Panther ### Response: 1. Black Panther has 20 suits.
+2. He uses 3 suits per day.
+3. How many suits does he have left after 5 days?
+
+def suit_solution():
+    # Black Panther started with 20 suits
+    suits_initial = 20
+    # He uses 3 suits per day
+    suits_per_day = 3
+    # There are 5 days
+    num_days = 5
+    # Suits used is
+    suits_used = suits_per_day * num_days
+    # The answer is
+    result = suits_initial - suits_used
+    return result
+print(suit_solution())
+Topic: Hello Kitty ### Response: 1. First, find the total number of Hello Kitty dolls purchased by adding the number of dolls purchased in each year: 1000 + 200 + 300 + 400 = 2000
+2. Then, subtract the number of dolls left to find the current number of dolls: 2000 - 300 = 1700
+3. Finally, divide the total number of dolls by the number of years to find the average number of dolls purchased per year: 1700 / 4 = 425
+
+def solution():
+    # In the first year, there were 1000 students
+    students_first_year = 1000
+    # The next year, 200 more students enrolled
+    students_second_year = students_first_year + 200
+    # The third year, 300 students left
+    students_third_year = students_second_year - 300
+    # The fourth year, 400 more students enrolled
+    students_
+Topic: Naruto ### Response:
+Topic: trains ### Response: 
+def solve():
+    # Given data
+    train1_speed = 60  # in kmph
+    train2_speed = 40  # in kmph
+    time = 10  # in minutes
+    
+    # Convert time to hours
+    time = time / 60
+    
+    # Calculate the distance covered by each train
+    train1_distance = train1_speed * time
+    train2_distance = train2_speed * time
+    
+    # The total distance is the sum of the distances covered by each train
+    total_distance = train1_distance + train2_distance
+    
+    return total_distance
+print(solve())
+Topic: cats ### Response:
+Topic: cheer leading ### Response: 11 girls tried out for the cheer leading team. 3 of the girls were cut from the team. How many girls are left on the team?
+
+def solution():
+    total_girls = 11
+    cut_girls = 3
+    remaining_girls = total_girls - cut_girls
+    return remaining_girls
+print(solution())
+Topic: swimming ### Response: 
+def solution():
+    # The total distance covered by the swimmer is 2000 meters
+    total_distance = 2000
+    # The distance covered in the first 100 meters is 100 meters
+    distance_first_100 = 100
+    # The distance covered in the next 100 meters is 100 meters
+    distance_next_100 = 100
+    # The distance covered in the last 100 meters is 100 meters
+    distance_last_100 = 100
+    # The distance covered in the first 100 meters is 100 meters
+    distance_first_100_again = 100
+    
+    # The total distance covered is the sum of the distances covered in each segment
+    total_distance = distance_first_100 + distance_next_100 + distance_last_100 + distance_first_100_again
+    
+    return total_distance
+print(solution())
+Topic: Power Rangers ### Response: 12 Power Rangers are divided into 3 groups. How many Power Rangers are in each group?
+
+def power_rangers(total_rangers, groups):
+    # Calculate the number of Power Rangers in each group
+    rangers_per_group = total_rangers / groups
+    return rangers_per_group
+
+# Test the function
+total_rangers = 12
+groups = 3
+result = power_rangers(total_rangers, groups)
+print(result)
+Topic: planes ### Response: 
+def solve():
+    # Given
+    angle_of_attack = 5 # in degrees
+    speed = 100 # in km/h
+    distance = 1000 # in meters
+    
+    # Convert angle of attack to radians
+    angle_of_attack_rad = angle_of_attack * (math.pi/180)
+    
+    # Calculate lift using the formula: Lift = 0.5 * speed^2 * sin(angle_of_attack)
+    lift = 0.5 * speed**2 * math.sin(angle_of_attack_rad)
+    
+    # Calculate time taken to cover the distance at the given speed
+    time = distance / speed * 3600 # converting speed from km/h to m/s
+    
+    # Calculate weight of the plane using the formula: Weight = Lift / time
+    weight = lift / time
+    
+    return weight
+print(solve())
+Topic: lacrosse ### Response: 
+def solution():
+    # There are 12 players in total
+    total_players = 12
+    # The players are in 3 squads
+    squads = 3
+    # The answer is
+    result = total_players / squads
+    return result
+
+print(solution())
+Topic: planes ### Response: 
+def solution():
+    # Number of planes initially
+    planes_initial = 1200
+    # Number of planes shipped on Tuesday
+    planes_shipped_tuesday = 400
+    # Number of planes shipped on Wednesday
+    planes_shipped_wednesday = 300
+    # Number of planes shipped on Thursday
+    planes_shipped_thursday = 500
+    # Calculate the number of planes left
+    planes_left = planes_initial - planes_shipped_tuesday - planes_shipped_wednesday - planes_shipped_thursday
+    return planes_left
+print(solution())
+Topic: candy ### Response: 20 girls are in a cheerleading squad. The girls will form 4 lines with an equal number of girls in each line. How many girls will be in each line?
+
+def solve():
+    # number of girls in the squad
+    girls_in_squad = 20
+    # number of lines
+    lines = 4
+    # calculate the number of girls in each line
+    girls_in_line = girls_in_squad / lines
+    return girls_in_line
+print(solve())
+Topic: cookies ### Response: 
+Question: Sasuke ate 18 cookies on Monday. He ate 20 cookies on Tuesday and 22 cookies on Wednesday. How many cookies did he eat in total?
+
+Solution:
+def solution():
+    #Sasuke ate 18 cookies on Monday
+    cookies_monday = 18
+    #20 cookies on Tuesday
+    cookies_tuesday = 20
+    #22 cookies on Wednesday
+    cookies_wednesday = 22
+    #The answer is
+    result = cookies_monday + cookies_tuesday + cookies_wednesday
+    return result
+print(solution())
+Topic: Super Mario ### Response: 
+def super_mario():
+    # Mario has 3 lives
+    lives = 3
+    # Each life has 100 points
+    points_per_life = 100
+    # The total points is
+    total_points = lives * points_per_life
+    return total_points
+print(super_mario())
+Topic: Taylor Swift ### Response: 
+def solve():
+    # number of albums Taylor Swift has released
+    albums = 7
+    # number of years she has been releasing albums
+    years = 2019 - 2006
+    # number of albums per year
+    albums_per_year = albums / years
+    return albums_per_year
+print(solve())
+Topic: Pokémon ### Response: 
+def solve():
+    # Initial number of Pokémon
+    initial_pokemon = 5
+    
+    # Number of Pokémon gained
+    gained_pokemon = 3
+    
+    # Number of Pokémon lost
+    lost_pokemon = 2
+    
+    # Calculate the final number of Pokémon
+    final_pokemon = initial_pokemon + gained_pokemon - lost_pokemon
+    
+    return final_pokemon
+print(solve())
+Topic: Superman ### Response: 
+def superman_problem():
+    # Superman can fly at a speed of 250 miles per hour
+    superman_speed = 250
+
+    # He needs to travel to a city that is 500 miles away
+    city_distance = 500
+
+    # Time = Distance / Speed
+    travel_time = city_distance / superman_speed
+
+    return travel_time
+Topic: Steph Curry ### Response: 
+def solve():
+  # import library
+  import math
+  
+  # implement the code
+  n0 = 16.0
+  n1 = 4.0
+  n2 = 1.0
+  n3 = 2.0
+  n4 = 19.0
+  n5 = 10.0
+  n6 = 1.0
+  n7 = 2.0
+  n8 = 2.0
+  n9 = 12.0
+  n10 = 1.0
+  n11 = 2.0
+  n12 = 19.0
+  n13 = 10.0
+  n14 = 1.0
+  n15 = 2.0
+  n16 = 2.0
+  n17 = 12.0
+  n18 = 1.0
+  n19 = 2.0
+  n20 = 19.0
+  n21 = 10.0
+  n22 = 1.0
+Topic: dogs ### Response: 
+def dog_problem():
+    # Total number of dogs
+total_dogs = 1000
+    # Number of dogs in the yard
+yard_dogs = 200
+    # Number of dogs in the park
+park_dogs = 300
+    # Number of dogs in the house
+house_dogs = 100
+    # Number of dogs in the street
+street_dogs = total_dogs - yard_dogs - park_dogs - house_dogs
+    return street_dogs
+print(dog_problem())
+Topic: Ninja Turtles ### Response: 
+def ninja_turtle():
+    # number of pizzas Donatello and Michelangelo can eat
+    pizzas_donatello_michelangelo = 2
+    # number of pizzas Raphael can eat
+    pizzas_raphael = 1
+    # total number of pizzas
+    total_pizzas = pizzas_donatello_michelangelo + pizzas_raphael
+    return total_pizzas
+print(ninja_turtle())
+Topic: pizza ### Response: 
+def pizza_problem_solution():
+    # number of pizzas initially
+    pizzas_initial = 40
+    # number of pizzas bought
+    pizzas_bought = 20
+    # number of pizzas given
+    pizzas_given = 15
+    # calculate the remaining pizzas
+    remaining_pizzas = pizzas_initial + pizzas_bought - pizzas_given
+    return remaining_pizzas
+Topic: Steph Curry ### Response: 
+def solve():
+    # number of games in a season
+    games_per_season = 82
+    # number of seasons
+    seasons = 11
+    # number of three-pointers per game
+    three_pointers_per_game = 3
+    # total number of three-pointers
+    total_three_pointers = games_per_season * seasons * three_pointers_per_game
+    return total_three_pointers
+print(solve())
+Topic: Ninja Turtles ### Response: 
+def solution():
+    #Each turtle can swim 15 miles per hour
+    speed = 15
+    #They swim for 3 hours
+    time = 3
+    #The answer is
+    result = speed * time
+    return result
+print(solution())
+Topic: cheer leading ### Response: 12 cheerleaders are in a competition. They have to perform 3 stunts. The first stunt is a pyramid with 5 people, the second stunt is a liberty with 4 people, and the third stunt is a full with 3 people. How many total people are in the competition?
+
+def solution():
+    # number of cheerleaders
+    num_cheerleaders = 12
+    # number of people in each stunt
+    stunt1 = 5
+    stunt2 = 4
+    stunt3 = 3
+    # total number of people in the competition
+    total_people = num_cheerleaders + stunt1 + stunt2 + stunt3
+    return total_people
+print(solution())
+Topic: Wonder Woman ### Response: 
+def wonder_woman():
+    #Wonder Woman has 300 gold coins
+    gold_coins = 300
+    #She spent 30 of them on a necklace
+    spent_necklace = 30
+    #She spent 20 of them on a bracelet
+    spent_bracelet = 20
+    #She spent 10 of them on a crown
+    spent_crown = 10
+    #The answer is
+    result = gold_coins - spent_necklace - spent_bracelet - spent_crown
+    return result
+
+Wonder Woman has 300 gold coins. She spent 30 of them on a necklace. She spent 20 of them on a bracelet. She spent 10 of them on a crown. How many coins does she have left?
+Topic: Steph Curry ### Response: 
+def solve():
+    # Given data
+    total_players = 12
+    players_14 = 5
+    players_15 = 4
+    players_16 = 2
+    
+    # Calculate the number of 17-year-olds
+    players_17 = total_players - players_14 - players_15 - players_16
+    
+    return players_17
+print(solve())
+Topic: Spiderman ### Response: 
+def spiderman_pizza_eaten():
+    total_pizzas = 3
+    pizzas_eaten_by_2_turtles = 2 * 1.5
+    pizzas_eaten_by_spiderman = total_pizzas - pizzas_eaten_by_2_turtles
+    return pizzas_eaten_by_spiderman
+print(spiderman_pizza_eaten())
+Topic: Pokémon ### Response: 6 Pokemon trainers went to a competition. Each of them had 2 Pokemon with them. How many Pokemon were at the competition?
+
+def pokemon_competition(trainers, pokemon_per_trainer):
+    total_pokemon = trainers * pokemon_per_trainer
+    return total_pokemon
+
+print(pokemon_competition(6, 2))
+Topic: candy ### Response: 
+def candy_problem():
+    # number of candies each child gets
+    candies_per_child = 5
+    # number of children
+    children = 4
+    # total number of candies
+    total_candies = candies_per_child * children
+    return total_candies
+
+print(candy_problem())
+Topic: ice cream ### Response: 
+Question:If a single scoop of ice cream is 1/2 cup, and a double scoop is 1 cup, how many cups of ice cream are in a triple scoop?
+Solution:
+def solution():
+    # A single scoop of ice cream is 1/2 cup
+    single_scoop = 1/2
+    # A double scoop of ice cream is 1 cup
+    double_scoop = 1
+    # Therefore, a triple scoop of ice cream is 1.5 cups
+    triple_scoop = single_scoop + double_scoop
+    return triple_scoop
+print(solution())
+Topic: cheer leading ### Response: 1000 people are at the cheer leading competition. 40% of them are children. 20% of the children are under 5 years old. How many children at the competition are under 5 years old?
+
+def solution():
+    people = 1000
+    children = people * 0.4
+    under_5 = children * 0.2
+    result = int(under_5)
+    return result
+Topic: Hello Kitty ### Response:
+Topic: Hello Kitty ### Response: 
+def solution():
+    # Number of Hello Kitty dolls
+    dolls = 4
+    # Price of each doll
+    price = 3
+    # Calculate total price
+    total_price = dolls * price
+    return total_price
+print(solution())
+Topic: soccer ### Response: 11 players total.
+3 players from the UK.
+5 players from Germany.
+2 players from Spain.
+1 player from the US.
+How many more players are there from the UK than from the US?
+
+def solution():
+    #The soccer team has 11 players
+    players_total = 11
+    #3 of the players are from the UK
+    players_uk = 3
+    #5 of the players are from Germany
+    players_germany = 5
+    #2 of the players are from Spain
+    players_spain = 2
+    #1 of the players is from the United States
+    players_us = 1
+    #The answer is
+    result = players_uk - players_us
+    return result
+Topic: pizza ### Response: 
+Question: A pizza has 8 slices. You can buy a pizza for $10. If you buy 2 pizzas, you get a discount of $5. How much do you pay for 2 pizzas?
+Solution:def pizza_problem():
+    # price of one pizza
+    price_per_pizza = 10
+    # number of slices in one pizza
+    slices_per_pizza = 8
+    # discount for buying two pizzas
+    discount = 5
+    # calculate the total price for two pizzas
+    total_price = 2 * price_per_pizza - discount
+    return total_price
+print(pizza_problem())
+Topic: dogs ### Response:
+Topic: field hockey ### Response: 
+def solve():
+  # Constants
+  goal_width = 3.66 # in meters
+  goal_height = 2.14 # in meters
+  ball_diameter = 0.155 # in meters
+  ball_radius = ball_diameter / 2 # in meters
+  field_length = 100 # in meters
+  field_width = 60 # in meters
+
+  # Calculations
+  goal_area = goal_width * goal_height # in square meters
+  ball_area = 3.14 * (ball_radius ** 2) # in square meters
+  field_area = field_length * field_width # in square meters
+
+  # Probability calculation
+  prob = (ball_area / goal_area) * 100
+
+  return prob
+print(solve())
+Topic: Black Panther ### Response: 1. Black Panther is the king of Wakanda, a highly advanced African nation.
+2. Wakanda has a population of 10 million people.
+3. Black Panther wants to build a new hospital for the people of Wakanda.
+4. The hospital will have 100 beds and will cost $1 million to build.
+5. Black Panther will need to raise taxes to pay for the hospital.
+6. The current tax rate is 10%.
+7. Black Panther wants to raise the tax rate to 15% to pay for the hospital.
+8. The difference in tax rates is 5%.
+9. Black Panther will need to raise $1 million in taxes to pay for the hospital.
+10. The population of Wakanda is 10 million people.
+11. Black Panther will need to raise $100 per person to pay for the hospital.
+12. The tax increase will raise $100 per person.
+13. Black Panther will need to raise $1 million in taxes to pay for the hospital.
+14. The tax increase
+Topic: pizza ### Response: 
+def pizza_problem():
+    # number of slices in a pizza
+    total_slices = 8
+    # number of slices eaten per day
+    slices_eaten_per_day = 2
+    # calculate the number of days to finish the pizza
+    days = total_slices / slices_eaten_per_day
+    return days
+
+word_problem = """
+There are 8 slices in a pizza. You can eat 2 slices per day. How many days will it take to finish the pizza?
+"""
+
+answer = pizza_problem()
+print(answer)
+Topic: cars ### Response:
+Topic: lacrosse ### Response: 
+def lacrosse_word_problem():
+    # number of players in a lacrosse team
+    players_in_team = 10
+    # number of teams
+    teams = 2
+    # total number of players
+    total_players = players_in_team * teams
+    return total_players
+print(lacrosse_word_problem())

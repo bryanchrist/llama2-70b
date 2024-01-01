@@ -101,7 +101,92 @@ df = pd.read_csv('data/mathwell.csv')
 topics = ['Superman', "Batman", "Wonder Woman", "Barbie", "Power Rangers", "basketball", "soccer", "football", "volleyball", 'field hockey',\
 'Fortnite', 'Spiderman', "Iron Man", "Captain America", "Captain Marvel", "Thor, the God of Thunder", "Ninja Turtles", "Black Panther", "Taylor Swift", "swimming",\
 "Pokémon", "Super Mario", "Naruto", "unicorns", "Hello Kitty", "Minecraft", "lacrosse", "cheer leading", "LeBron James", "Steph Curry", "Patrick Mahomes",\
-"Serena Williams", "dogs", "cats", "dinosaurs", "Harry Potter", "cars", "planes", "trains", "pizza", "cookies", "ice cream", 'candy']
+"Serena Williams", "dogs", "cats", "dinosaurs", "Harry Potter", "cars", "planes", "trains", "pizza", "cookies", "ice cream", 'candy',\
+    "Animals and Wildlife",
+    "Space and Astronomy",
+    "Superheroes (e.g., Spider-Man, Wonder Woman, Iron Man)",
+    "Robots and Technology",
+    "Underwater Life",
+    "Fairy Tales and Folklore",
+    "Science Experiments",
+    "Outer Space",
+    "Weather and Meteorology",
+    "Sports (e.g., soccer, basketball, baseball)",
+    "Art and Drawing",
+    "Music and Instruments",
+    "Cooking and Baking",
+    "Insects and Bugs",
+    "Historical Figures",
+    "Countries and Cultures",
+    "Mythical Creatures",
+    "Magic and Wizards",
+    "Friendship and Relationships",
+    "Ocean Life",
+    "Cars and Vehicles",
+    "Famous Inventors",
+    "Famous Artists",
+    "Ancient Civilizations",
+    "Space Exploration",
+    "DIY Crafts",
+    "Gardening",
+    "Environmental Conservation",
+    "Time Travel",
+    "Pirates and Treasure",
+    "Famous Scientists",
+    "Computer Programming",
+    "Unexplained Mysteries",
+    "Planets and the Solar System",
+    "Cartoons and Animated Shows",
+    "Photography",
+    "National Parks",
+    "Dance and Ballet",
+    "Board Games",
+    "Books and Reading",
+    "Volcanoes",
+    "Mythology",
+    "Ancient Egypt",
+    "Reptiles and Amphibians",
+    "Recycling",
+    "Fairy Gardens",
+    "Indoor Games",
+    "Marine Biology",
+    "Virtual Reality",
+    "Natural Disasters",
+    "Construction and Building",
+    "Inventions",
+    "Hobbies (e.g., stamp collecting, coin collecting)",
+    "Martial Arts",
+    "the Circus and Performing Arts",
+    "Science Fiction",
+    "Pottery and Ceramics",
+    "Famous Explorers",
+    "Birds and Bird Watching",
+    "Famous Landmarks",
+    "Recycling and Sustainability",
+    "Health and Nutrition",
+    "Myths and Legends",
+    "Fashion and Clothing",
+    "DIY Science Projects",
+    "Cultural Festivals",
+    "Construction Vehicles",
+    "Forests and Trees",
+    "Mummies",
+    "Famous Composers",
+    "Circus Animals",
+    "Careers (e.g., firefighter, astronaut, doctor)",
+    "Geology",
+    "Farm Life",
+    "Travel and Adventure",
+    "Ballet and Dance",
+    "Native American Culture",
+    "Whales and Dolphins",
+    "Mystery Stories",
+    "Hiking and Camping",
+    "Games and Puzzles",
+    "The Solar System",
+    "Space Aliens and UFOs"
+]
+
 for i in range(0,5000):
     topic = random.choice(topics)
     final_prompt = f"Write a grade school math word problem about {topic} and Python function with a commented out step-by-step solution to solve the word problem."
@@ -158,7 +243,7 @@ for i in range(0,5000):
     newly_generated_text = generated_text_parts[-1].strip()
     if "\nBel" in newly_generated_text:
         newly_generated_text = newly_generated_text.split("\nBel")[0]
-    output_file = "mathwell_questions.txt"  # Specify the path and filename for the output file
+    output_file = "mathwell_questions2.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Topic: {topic} " + newly_generated_text + "\n")  # Append the newly generated text to the file
         

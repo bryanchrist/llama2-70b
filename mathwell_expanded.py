@@ -1,8 +1,8 @@
 import os
 import sys
 import builtins
-os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
-#os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
+#os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
+os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 import torch
 from collections import defaultdict

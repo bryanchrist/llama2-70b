@@ -7,18 +7,7 @@
     #The answer is
     result = miles_away / miles_per_hour
     return result",6.0
-1,A toy store has 300 toys. It sells 230 toys. How many toys does it have left?,"def solution():
-    #The toy store started with 300 toys
-    toys_initial = 300
-    #It sold 230 toys
-    toys_sold = 230
-    #The answer is
-    result = toys_initial - toys_sold
-    return result",70
-2,A toy store has 300 toys. It sells 230 toys. How many toys does it have left?,"def solution():
-    #The toy store started
-    return result",Percentage of Questions: 25.0
-3,Superman can fly at a top speed of 250 miles per hour. He is 2000 miles from the Fortress of Solitude. How many hours will it take him to get there?,"def solution():
+1,Superman can fly at a top speed of 250 miles per hour. He is 2000 miles from the Fortress of Solitude. How many hours will it take him to get there?,"def solution():
     #Superman's top speed is 250 miles per hour
     superman_speed = 250
     #The Fortress of Solitude is 2000 miles away
@@ -26,17 +15,7 @@
     #The answer is
     result = fortress_distance / superman_speed
     return result",8.0
-4,The bakery has 100 muffins. They sell 27 muffins in the morning and 18 muffins in the afternoon. How many muffins do they have left?,"def solution():
-    #The bakery started with 100 muffins
-    muffins_initial = 100
-    #They sold 27 muffins in the morning
-    muffins_sold_morning = 27
-    #They sold 18 muffins in the afternoon
-    muffins_sold_afternoon = 18
-    #The answer is
-    result = muffins_initial - muffins_sold_morning - muffins_sold_afternoon
-    return result",55
-5,"Superman can fly at a speed of 2500 miles per hour. He is on a mission to save the world and has to fly from New York to Los Angeles, which is 2450 miles away. How many minutes will it take for Superman to reach Los Angeles?","def solution():
+2,"Superman can fly at a speed of 2500 miles per hour. He is on a mission to save the world and has to fly from New York to Los Angeles, which is 2450 miles away. How many minutes will it take for Superman to reach Los Angeles?","def solution():
     #Superman's speed is 2500 miles per hour
     superman_speed = 2500
     #The distance between New York and Los Angeles is 2450 miles
@@ -44,7 +23,7 @@
     #The answer is
     result = new_york_la_distance / superman_speed
     return result",0.98
-6,"Superman can fly at 2500 miles per hour. He left Metropolis at 9:00 AM and headed to Gotham City, 2600 miles away. He then left Gotham City for Star City, 2800 miles away. He left Star City for Central City, 2400 miles away. How many hours did it take for Superman to travel from Metropolis to Central City?","def solution():
+3,"Superman can fly at 2500 miles per hour. He left Metropolis at 9:00 AM and headed to Gotham City, 2600 miles away. He then left Gotham City for Star City, 2800 miles away. He left Star City for Central City, 2400 miles away. How many hours did it take for Superman to travel from Metropolis to Central City?","def solution():
     #Superman left Metropolis at 9:00 AM
     met_departure = '9:00 AM'
     #He traveled to Gotham City, 2600 miles away
@@ -64,7 +43,7 @@
     #The answer is
     result = total_flight_time
     return result",3.12
-7,Superman can run at 250 miles per hour. He' a heading to a location 2000 miles away. How long will it take him to get there?,"def solution():
+4,Superman can run at 250 miles per hour. He' a heading to a location 2000 miles away. How long will it take him to get there?,"def solution():
     #Superman can run at 250 miles per hour
     speed = 250
     #The location is 2000 miles away
@@ -72,15 +51,7 @@
     #The answer is
     result = distance / speed
     return result",8.0
-8,A 20-ounce soda has 12 ounces of sugar. How many ounces of sugar are in a 40-ounce soda?,"def solution():
-    #A 20-ounce soda has 12 ounces of sugar
-    sugar_per_20_ounces = 12
-    #The 40 ounce soda has 2 times as much soda
-    soda_in_40_ounces = 2 * 20
-    #The answer is
-    result = soda_in_40_ounces * sugar_per_20_ounces
-    return result",480
-9,"Superman flies from the Earth to the Moon in 3 hours. He then flies from the Moon to Mars in 2 hours. The Moon is 240,000 miles from the Earth, and Mars is 140,000,000 miles from the Earth. How fast is Superman flying?","def solution():
+5,"Superman flies from the Earth to the Moon in 3 hours. He then flies from the Moon to Mars in 2 hours. The Moon is 240,000 miles from the Earth, and Mars is 140,000,000 miles from the Earth. How fast is Superman flying?","def solution():
     #Superman flies from the Earth to the Moon in 3 hours
     earth_moon_flight_time = 3
     #He then flies from the Moon to Mars in 2 hours
@@ -92,7 +63,7 @@
     #The answer is
     result = (earth_moon_distance + earth_mars_distance) / (earth_moon_flight_time + moon_mars_flight_time)
     return result",28048000.0
-10,Superman can fly at 250 miles per hour. He's 1200 miles away from Metropolis. How long will it take for him to get there?,"def solution():
+6,Superman can fly at 250 miles per hour. He's 1200 miles away from Metropolis. How long will it take for him to get there?,"def solution():
     #Superman is 1200 miles away from Metropolis
     miles_away = 1200
     #He can fly at 250 miles per hour
@@ -100,34 +71,27 @@
     #The answer is
     result = miles_away / miles_per_hour
     return result",4.8
-11,Superman can fly at 250 miles per hour. He's 1200 miles away from Metropolis. How long will it take for him to get there?,"def solution():
-    #Superman is 1200 miles away from Metropolis
-    miles_away = 1200
-    #He can fly at 250 miles per hour
-    miles_per_hour = 250
-    #The answer is
-    result = miles_away / miles_per_hour
-    return result",4.8
-12,Superman's chest is 6 feet wide. It is 2 times as wide as a penguin's chest. How wide is a penguin's chest?,"def solution():
-    #Super
-    return result",Percentage of Questions: 25.0
-13,Superman can fly at the speed of light. He left Metropolis at 9 AM and flew to Gotham City. He left Gotham City at 11 AM and flew to Central City. How many hours did he spend in Gotham City?,"def solution():
+7,Superman can fly at the speed of light. He left Metropolis at 9 AM and flew to Gotham City. He left Gotham City at 11 AM and flew to Central City. How many hours did he spend in Gotham City?,"def solution():
     #Superman left Metropolis at 9 AM
     metropolis_departure = 9
     #He left Gotham City at 11 AM
     gotham_departure = 11
     #The answer is
     result = gotham_departure - metropolis_departure
-    return result",2
-14,Batman can run at the speed of a cheetah. He left the Batcave at 9 PM and ran to the Gotham City Police Department. He left the police department at 11 PM and ran to Arkham Asylum. How many hours did he spend at the Gotham City Police Department?,"def solution():
-    #Batman left the Batcave at 9 PM
-    batcave_departure = 9
-    #He left the Gotham City Police Department at 11 PM
-    gcpd_departure = 11
-    #The answer is
-    result = gcpd_departure - batcave_departure
-    return result",2
-15,"Superman can fly at a speed of 500 miles per hour. He can also run at a speed of 200 miles per hour. He flies for 2 hours, then runs for 1 hour. How far has he traveled in total?","def solution():
+    return result",2.0
+8,"Superman can fly at 250 miles per hour. He's in New York and hears a cry for help from a damsel in distress in Metropolis, 1250 miles away. He flies there at top speed, rescues the damsel, and flies her to safety in Gotham City, 350 miles away. How long was he gone?","def solution():
+    #Superman flies at 250 mph
+    speed = 250
+    #New York to Metropolis is 1250 miles
+    distance_1 = 1250
+    #Metropolis to Gotham is 350 miles
+    distance_2 = 350
+    #The total distance is
+    distance_total = distance_1 + distance_2
+    #The time to travel the distance is
+    time = distance_total / speed
+    return time",6.4
+9,"Superman can fly at a speed of 500 miles per hour. He can also run at a speed of 200 miles per hour. He flies for 2 hours, then runs for 1 hour. How far has he traveled in total?","def solution():
     #Superman's flying speed is 500 miles per hour
     flying_speed = 500
     #He can run at 200 miles per hour
@@ -142,13 +106,8 @@
     running_distance = running_speed * running_time
     #The total distance is
     result = flying_distance + running_distance
-    return result",1200
-16,"Batman can drive the Batmobile at a speed of 150 miles per hour. He can also glide through the air using his cape at a speed of 50 miles per hour. He drives for 2 hours, then glides for 1 hour. How far has he traveled in total?","def solution():
-    #Batman's driving speed is 150 miles per hour
-    driving_speed = 150
-    #His gliding speed is 50 miles per hour
-    return result",Percentage of Questions: 25.0
-17,"Superman can punch with the force of 10,000 pounds. Lex Luthor's kryptonite-laced gloves reduce Superman's strength by 90%. How much force can Superman punch with while wearing Lex Luthor's gloves?","def solution():
+    return result",1200.0
+10,"Superman can punch with the force of 10,000 pounds. Lex Luthor's kryptonite-laced gloves reduce Superman's strength by 90%. How much force can Superman punch with while wearing Lex Luthor's gloves?","def solution():
     #Superman's punch is 10,000 pounds
     punch_force = 10000
     #Lex Luthor's gloves reduce his strength by 90%
@@ -156,56 +115,13 @@
     #The answer is
     result = punch_force * (1 - punch_force_reduction)
     return result",999.9999999999998
-18,"A 40-year-old man, named Clark, is 6 feet 2 inches tall.  His 10-year-old son, Bruce, is 54 inches tall.  How many inches taller is Clark than Bruce?","def solution():
-    #Clark is 6 feet 2 inches tall
-    clark_feet = 6
-    clark_inches = 2
-    #Bruce is 54 inches tall
-    bruce_inches = 54
-    #1 foot is 12 inches
-    foot_in_inches = 12
-    #Clark is
-    clark_inches_total = clark_feet * foot_in_inches + clark_inches
-    #The answer is
-    result = clark_inches_total - bruce_inches
-    return result",20
-19,"Superman can fly at 200 miles per hour.  He is flying from Metropolis to Gotham City, which is 300 miles away.  How many hours will it take Superman to get to Gotham City?","def solution():
-    #Superman is flying 300 miles
-    miles_to_fly = 300
-    return result",Percentage of Questions: 25.0
-20,A lion is 10 feet long.  A giraffe is 16 feet tall.  How many giraffes would it take to equal the length of 20 lions?,"def solution():
-    #A lion is 10 feet long
-    lion_length = 10
-    #A giraffe is 16 feet tall
-    giraffe_height = 16
-    #20 lions would be
-    lions_to_compare = 20
-    #The answer is
-    result = lions_to_compare * lion_length / giraffe_height
-    return result",12.5
-21,The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?,"def solution():
-    #The bakers started with 200 loaves
-    loaves_baked = 200
-    #They sold 93 in the morning and 39 in the afternoon
-    loaves_sold_morning=93
-    loaves_sold_afternoon=39
-    #The grocery store returned 6 loaves
-    loaves_returned = 6
-    #The answer is
-    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
-    return result",74
-22,There are 3000 students in a university. 40% of them are in the College of Arts and Sciences. How many students are in the College of Arts and Sciences?,"def solution():
-    #There are 3000 students
-    students = 3000
-    #40% of them are in the College of Arts and Sciences
-    arts_sci_percent = 0.4
-    #The answer is
-    result = students * arts_sci_percent
-    return result",1200.0
-23,A toy car can drive 15 miles per hour. A toy truck can drive 10 miles per hour. The toy car and the toy truck are driving to a toy store 30 miles away. How long will it take them to get there?,"def solution():
-    #The toy car can drive 15 miles per
-    return result",Percentage of Questions: 25.0
-24,Superman is 8 feet tall.  Batman is 6 feet tall.  Wonder Woman is 2 feet taller than Batman.  How much taller is Superman than Wonder Woman?,"def solution():
+11,Superman is 8 feet tall.  He is 16 times taller than a Lego figure.  How tall is the Lego figure?,"def solution():
+    #Superman is 8 feet tall
+    superman_height = 8
+    #He is 16 times taller than a Lego figure
+    lego_figure_height = superman_height / 16
+    return lego_figure_height",0.5
+12,Superman is 8 feet tall.  Batman is 6 feet tall.  Wonder Woman is 2 feet taller than Batman.  How much taller is Superman than Wonder Woman?,"def solution():
     #Superman is 8 feet tall
     superman_height = 8
     #Batman is 6 feet tall
@@ -214,18 +130,22 @@
     wonder_woman_height = batman_height + 2
     #The answer is
     result = superman_height - wonder_woman_height
-    return result",0
-25,"A bakery is selling 1000 loaves of bread. 700 loaves are in the front of the store, 200 loaves are in the back of the store, and 100 loaves are in the basement. How many more loaves of bread are in the front of the store than the basement?","def solution():
-    #The bakery has 700 loaves in the front
-    front_loaves = 700
-    #200 loaves are in the back of the store
-    back_loaves = 200
-    #100 loaves are in the basement
-    basement_loaves = 100
-    #The answer is
-    result = front_loaves - basement_loaves
-    return result",600
-26,Superman can leap 1200 feet in a single bound.  He is being chased by Lex Luthor who is in a helicopter that is 2000 feet off the ground.  How many bounds will it take for Superman to reach the helicopter?,"def solution():
+    return result",0.0
+13,Superman can run at 250 miles per hour. He is chasing a criminal who is driving a car at 150 miles per hour. How long will it take Superman to catch up to the criminal?,"def solution():
+    #Superman is running at 250 mph
+    superman_speed = 250
+    #The criminal is driving at 150 mph
+    criminal_speed = 150
+    #Superman is chasing a criminal for 1 hour
+    chase_time = 1
+    #The distance the criminal gets away is
+    criminal_distance = criminal_speed * chase_time
+    #The distance Superman has to run to catch the criminal is
+    superman_distance = criminal_distance
+    #The time it takes for Superman to catch the criminal is
+    superman_time = superman_distance / superman_speed
+    return superman_time",0.6
+14,Superman can leap 1200 feet in a single bound.  He is being chased by Lex Luthor who is in a helicopter that is 2000 feet off the ground.  How many bounds will it take for Superman to reach the helicopter?,"def solution():
     #Superman can leap 1200 feet
     superman_leap = 1200
     #The helicopter is 2000 feet off the ground
@@ -233,17 +153,7 @@
     #The answer is
     result = helicopter_height / superman_leap
     return result",1.6666666666666667
-27,"A doughnut shop bakes 200 doughnuts a day.  On Saturday, they sell out by noon.  How many doughnuts do they sell per hour?","def solution():
-    #They bake 200 doughnuts a day
-    doughnuts_baked = 200
-    #They sell out by noon
-    doughnuts_sold_by_noon = doughnuts_baked
-    #They are open for 6 hours
-    hours_open = 6
-    #The answer is
-    result = doughnuts_sold_by_noon / hours_open
-    return result",33.333333333333336
-28,"If Superman flies at 25,000 miles per hour, how long would it take him to fly to the sun and back?","def solution():
+15,"If Superman flies at 25,000 miles per hour, how long would it take him to fly to the sun and back?","def solution():
     #Superman flies at 25,000 miles per hour
     superman_speed = 25000
     #The sun is 92,955,000 miles away
@@ -253,7 +163,7 @@
     #The answer is
     result = sun_round_trip / superman_speed
     return result",7436.4
-29,"Superman can fly at the speed of light. He can also run at 100 miles per hour. He is in Metropolis and needs to get to Gotham City, which is 200 miles away. How long will it take him to get there if he runs?","def solution():
+16,"Superman can fly at the speed of light. He can also run at 100 miles per hour. He is in Metropolis and needs to get to Gotham City, which is 200 miles away. How long will it take him to get there if he runs?","def solution():
     #Superman is 200 miles away from Gotham City
     miles_to_gotham = 200
     #He can run at 100 miles per hour
@@ -261,31 +171,7 @@
     #The answer is
     result = miles_to_gotham / miles_per_hour_running
     return result",2.0
-30,A hedgehog has 1000 spines. 20% of the spines are broken. How many spines are not broken?,"def solution():
-    #A hedgehog has 1000 spines
-    spines_initial = 1000
-    #20% of the spines are broken
-    spines_broken = spines_initial * 0.2
-    #The answer is
-    result = spines_initial - spines_broken
-    return result",800.0
-31,"A t-shirt with a Superman logo costs $10. A t-shirt with a Batman logo costs $15. If you buy 2 t-shirts of each kind, how much will you pay?","def solution():
-    #A Superman t-shirt costs $10
-    superman_tshirt_cost = 10
-    #A Batman t-shirt costs $15
-    batman_tshirt_cost = 15
-    #If you buy 2 of each
-    superman_tshirts_bought = 2
-    batman_tshirts_bought = 2
-    #The answer
-### Response:
-    return result",Percentage of Questions: 25.0
-32,Superman is 7.5 feet tall. He is 1.5 feet taller than Batman. How tall is Batman?,"def solution():
-    #Superman is 7.5 feet tall
-    superman_height = 7.5
-    #Batman is 1.5 feet shorter than
-    return result",Percentage of Questions: 25.0
-33,"Superman can travel at the speed of light, which is 670,616,629 miles per hour. In one hour, he can travel from the Earth to the Moon, which is 238,855 miles away. He then travels to Mars, which is 140,000,000 miles away. How long would it take him to get to Mars from the Earth?","def solution():
+17,"Superman can travel at the speed of light, which is 670,616,629 miles per hour. In one hour, he can travel from the Earth to the Moon, which is 238,855 miles away. He then travels to Mars, which is 140,000,000 miles away. How long would it take him to get to Mars from the Earth?","def solution():
     #The speed of light is 670,616,629 miles per hour
     speed_of_light = 670616629
     #The distance from the Earth to the Moon is 238,855 miles
@@ -299,15 +185,7 @@
     #The answer is
     result = earth_mars_time - earth_moon_time
     return result",0.20840691828415725
-34,A 25-foot-long rope is cut into 5-foot pieces. How many pieces are made?,"def solution():
-    #The rope is 25 feet long
-    rope_length = 25
-    #Each piece is 5 feet long
-    piece_length = 5
-    #The number of pieces is
-    result = rope_length / piece_length
-    return result",5.0
-35,"Superman can fly at 250 miles per hour. He's in Metropolis and hears a cry for help from Gotham City, 1250 miles away. How long will it take Superman to fly to Gotham City?","def solution():
+18,"Superman can fly at 250 miles per hour. He's in Metropolis and hears a cry for help from Gotham City, 1250 miles away. How long will it take Superman to fly to Gotham City?","def solution():
     #Superman can fly 250 miles per hour
     superman_speed = 250
     #Gotham City is 1250 miles from Metropolis
@@ -315,46 +193,15 @@
     #The answer is
     result = gotham_metropolis_distance / superman_speed
     return result",5.0
-36,"Superman can fly at 250 miles per hour. He's in Metropolis and hears a cry for help from Gotham City, 1250 miles away. How long will it take Superman to fly to Gotham City?","def solution():
-    #Superman can fly 250 miles per hour
-    superman_speed = 250
-    #Gotham City is 1250 miles from Metropolis
-    gotham_metropolis_distance = 1250
-    #The answer is
-    result = gotham_metropolis_distance / superman_speed
-    return result",5.0
-37,"On the first day of a 3-day event, 100 people attended. On the second day, 200 people attended. On the third day, 300 people attended. How many people attended the event in total?","def solution():
-    #On the first day, 100 people attended
-    attendees_day_1 = 100
-    #On the second day, 200 people attended
-    attendees_day_2 = 200
-    #On the third day, 300 people attended
-    attendees_day_3 = 300
-    #The answer is
-    result = attendees_day_1 + attendees_day_2 + attendees_day_3
-    return result",600
-38,A 15-foot long snake sheds its skin once a month.  The snake's skin is 99% of the snake's length.  How much of the snake's skin does it shed in a year?,"def solution():
-    #The snake is 15 feet long
-    snake_length = 15
-    #The skin is 99% of
-    return result",Percentage of Questions: 25.0
-39,Superman is 8 feet tall.  Batman is 6 feet tall.  How much taller is Superman than Batman?,"def solution():
+19,Superman is 8 feet tall.  Batman is 6 feet tall.  How much taller is Superman than Batman?,"def solution():
     #Superman is 8 feet tall
     superman_height = 8
     #Batman is 6 feet tall
     batman_height = 6
     #The answer is
     result = superman_height - batman_height
-    return result",2
-40,Batman's cape weighs 3 ounces.  Superman's cape weighs 5 ounces.  How much heavier is Superman's cape than Batman's cape?,"def solution():
-    #Batman's cape weighs 3 ounces
-    batman_cape_weight = 3
-    #Superman's cape weighs 5 ounces
-    superman_cape_weight = 5
-    #The answer is
-    result = superman_cape_weight - batman_cape_weight
-    return result",2
-41,"Superman can run at a speed of 100 miles per hour. He runs from the Daily Planet to the Hall of Justice, a distance of 200 miles. How long does it take him to get there?","def solution():
+    return result",2.0
+20,"Superman can run at a speed of 100 miles per hour. He runs from the Daily Planet to the Hall of Justice, a distance of 200 miles. How long does it take him to get there?","def solution():
     #Superman can run at 100 miles per hour
     miles_per_hour = 100
     #The distance to the Hall of Justice is 200 miles
@@ -362,10 +209,7 @@
     #The answer is
     result = miles_to_hall_of_justice / miles_per_hour
     return result",2.0
-42,"Superman can fly at 1,000 miles per hour. He left Metropolis at 8:00 a.m. and headed for Gotham City, 1,000 miles away. He stopped in Central City at 10:00 a.m. and then continued to Gotham City. He arrived in Gotham City at 11:00 a.m. How long was he in Central City?","def solution():
-    #Super
-    return result",Percentage of Questions: 25.0
-43,Superman flies at 250 miles per hour. It is 1500 miles from Metropolis to Gotham City. How many hours will it take Superman to fly to Gotham City?,"def solution():
+21,Superman flies at 250 miles per hour. It is 1500 miles from Metropolis to Gotham City. How many hours will it take Superman to fly to Gotham City?,"def solution():
     #Superman flies at 250 miles per hour
     miles_per_hour = 250
     #The distance from Metropolis to Gotham City is 1500 miles
@@ -373,17 +217,7 @@
     #The answer is
     result = miles_to_gotham / miles_per_hour
     return result",6.0
-44,A forklift can lift 2000 pounds. It can carry that much weight 5 times per hour. How many pounds can it carry in 8 hours?,"def solution():
-    #A forklift can lift 2000 pounds
-    pounds_per_lift = 2000
-    #It can do 5 lifts per hour
-    lifts_per_hour = 5
-    #In 8 hours it can do
-    lifts_in_8_hours = lifts_per_hour * 8
-    #The answer is
-    result = pounds_per_lift * lifts_in_8_hours
-    return result",80000
-45,Superman is 10000 feet in the air. He can fly up or down at a rate of 1000 feet per second. How long will it take him to land?,"def solution():
+22,Superman is 10000 feet in the air. He can fly up or down at a rate of 1000 feet per second. How long will it take him to land?,"def solution():
     #Superman is 10000 feet in the air
     feet_in_air = 10000
     #He can fly down 1000 feet per second
@@ -391,15 +225,7 @@
     #The answer is
     result = feet_in_air / feet_per_second
     return result",10.0
-46,Batman is 10000 feet in the air. He can glide up or down at a rate of 1000 feet per second. How long will it take him to land?,"def solution():
-    #Batman is 10000 feet in the air
-    feet_in_air = 10000
-    #He can glide down 1000 feet per second
-    feet_per_second = 1000
-    #The answer is
-    result = feet_in_air / feet_per_second
-    return result",10.0
-47,Superman flies at a speed of 2500 miles per hour. He is 1000 miles away from the city he is trying to save. How long will it take him to get there?,"def solution():
+23,Superman flies at a speed of 2500 miles per hour. He is 1000 miles away from the city he is trying to save. How long will it take him to get there?,"def solution():
     #Superman's speed
     speed = 2500
     #The distance he has to travel
@@ -407,19 +233,7 @@
     #The answer is
     result = distance / speed
     return result",0.4
-48,The Batmobile can travel at a speed of 500 miles per hour. It is 1500 miles away from Gotham City. How long will it take to get there?,"def solution():
-    #The Batmobile's speed
-    speed = 500
-    #The distance to Gotham City
-    distance = 1500
-    #The answer is
-    result = distance / speed
-    return result",3.0
-49,The Invisible Jet can travel at a speed of 3000 miles per hour. It is 2000 miles away from Themyscira. How long will it take to get there?,"def solution():
-    #The Invisible Jet's speed
-    speed = 3000
-    return result",Percentage of Questions: 25.0
-50,"Superman can bench press 10,000 pounds.  Lex Luther has a kryptonite-laced bench press that reduces Superman's strength by 90%.  How much can Superman bench press while on the kryptonite-laced bench?","def solution():
+24,"Superman can bench press 10,000 pounds.  Lex Luther has a kryptonite-laced bench press that reduces Superman's strength by 90%.  How much can Superman bench press while on the kryptonite-laced bench?","def solution():
     #Superman can bench press 10,000 pounds
     superman_bench_press = 10000
     #The kryptonite-laced bench press reduces his strength by 90%
@@ -427,33 +241,13 @@
     #The answer is
     result = superman_bench_press * (1 - kryptonite_strength_reduction)
     return result",999.9999999999998
-51,"A bakery sells 300 loaves of bread on a weekday. On the weekend, they sell 200 loaves of bread on Saturday and 150 loaves of bread on Sunday. How many loaves of bread does the bakery sell in a week?","def solution():
-    #They sell 300 loaves on a weekday
-    weekday_loaves = 300
-    #They sell 200 loaves on Saturday
-    saturday_loaves = 200
-    #They sell 150 loaves on Sunday
-    sunday_loaves = 150
-    #They sell 300 * 5 = <<300*5=1500>>1500 loaves on weekdays
-    weekday_total = weekday_loaves * 5
-    #They sell 200 + 150 = <<200+150=350>>350 loaves on the weekend
-    weekend_total = saturday_loaves + sunday_loaves
-    #The answer is
-    result = weekday_total + weekend_total
-    return result",1850
-52,A 2-liter bottle of soda has 8796438 ounces. A 12-ounce can of soda is 20 ounces less than a bottle of soda. How many more ounces of soda are in a 2-liter bottle of soda than in a 12-ounce can of soda?,"def solution():
-    #A 2-liter bottle of soda has 68 ounces
-    ounces_in_2liter = 8796438
-    #A 12-ounce can of soda is 20 ounces less
-    oz_less_in_12oz_can = 20
-    #The answer is
-    result = ounces_in_2liter - oz_less_in_12oz_can
-    return result",8796418
-53,There are 12500 students in a school. 40% of the students are in the 10th grade. How many students are not in the 10th grade?,"def solution():
-    #There are 12500 students in a school
-    students_total = 12500
-    return result",Percentage of Questions: 25.0
-54,"Superman is 10 times stronger than a normal human.  He can lift 10,000 pounds.  How much can a normal human lift?","def solution():
+25,"If Superman is 10 times stronger than a normal human, and he can lift 10,000 pounds, how much can a normal human lift?","def solution():
+    #Superman can lift 10,000 pounds
+    superman_strength = 10000
+    #Superman is 10 times stronger than a human
+    human_strength = superman_strength / 10
+    return human_strength",1000.0
+26,"Superman is 10 times stronger than a normal human.  He can lift 10,000 pounds.  How much can a normal human lift?","def solution():
     #Superman is 10 times stronger than a normal human
     SUPERMAN_STRENGTH_MULTIPLIER = 10
     #Superman can lift 10,000 pounds
@@ -461,15 +255,7 @@
     #The answer is
     result = SUPERMAN_LIFTS / SUPERMAN_STRENGTH_MULTIPLIER
     return result",1000.0
-55,"Batman is 5 times stronger than a normal human.  He can lift 5,000 pounds.  How much can a normal human lift?","def solution():
-    #Batman is 5 times stronger than a normal human
-    BATMAN_STRENGTH_MULTIPLIER = 5
-    #Batman can lift 5,000 pounds
-    BATMAN_LIFTS = 5000
-    #The answer is
-    result = BATMAN_LIFTS / BATMAN_STRENGTH_MULTIPLIER
-    return result",1000.0
-56,"Superman flies at a speed of 25,000 miles per hour. He is 1,500 miles away from Lois Lane, who is in danger. How many hours will it take Superman to fly to Lois?","def solution():
+27,"Superman flies at a speed of 25,000 miles per hour. He is 1,500 miles away from Lois Lane, who is in danger. How many hours will it take Superman to fly to Lois?","def solution():
     #Superman flies at a speed of 25,000 miles per hour
     superman_speed = 25000
     #Lois Lane is 1,500 miles away
@@ -477,15 +263,7 @@
     #The answer is
     result = lois_distance / superman_speed
     return result",0.06
-57,"Batman's Batmobile can drive at a speed of 250 miles per hour. He is 1,500 miles away from the Batcave. How many hours will it take Batman to drive to the Batcave?","def solution():
-    #Batman's Batmobile can drive at a speed of 250 miles per hour
-    batmobile_speed = 250
-    #He is 1,500 miles away from the Batcave
-    batcave_distance = 1500
-    #The answer is
-    result = batcave_distance / batmobile_speed
-    return result",6.0
-58,"Superman can fly at a speed of 250 miles per hour. He can also run at a speed of 200 miles per hour. If he flies for 10 hours and then runs for 10 hours, how far has he traveled?","def solution():
+28,"Superman can fly at a speed of 250 miles per hour. He can also run at a speed of 200 miles per hour. If he flies for 10 hours and then runs for 10 hours, how far has he traveled?","def solution():
     #Superman can fly 250 miles per hour
     flying_speed = 250
     #He can run 200 miles per hour
@@ -500,35 +278,18 @@
     running_distance = running_speed * running_time
     #The answer is
     result = flying_distance + running_distance
-    return result",4500
-59,"Batman can run 10 miles in 1 hour. He can also drive the Batmobile at a speed of 200 miles per hour. If he runs for 10 hours and then drives the Batmobile for 10 hours, how far has he traveled?","def solution():
-    #Batman can run 10 miles per hour
-    running_speed = 10
-    #He can drive 200 miles per hour
-    return result",Percentage of Questions: 25.0
-60,"Superman can bench press 10,000 pounds.  Lex Luthor has a machine that can bench press 1,000 pounds. How many of Lex Luthor's machines would it take to equal the weight that Superman can bench press?","def solution():
-    #Superman can bench press 10,000 pounds
-    superman_bench_press = 10000
-    #Lex Luthor's machine can bench press 1,000 pounds
-    lex_luthor_bench_press = 1000
-    #
-    return result",Percentage of Questions: 25.0
-61,Superman is 12 times stronger than a human. A human can lift 100 pounds. How much can Superman lift?,"def solution():
+    return result",4500.0
+29,Superman is 12 times stronger than a human. A human can lift 100 pounds. How much can Superman lift?,"def solution():
     #Superman is 12 times stronger than a human
     superman_strength = 12
     #A human can lift 100 pounds
     human_strength = 100
     #Superman can lift
     result = superman_strength * human_strength
-    return result",1200
-62,Lois Lane is 20 years old. Superman is 10 years older than Lois Lane. How old is Superman?,"def solution():
-    #Lois Lane is 20 years old
-    lois_lane_age = 20
-    #Superman is 10 years older than Lois Lane
-    superman_age = lois_lane_age + 10
-    #The answer is
-    result = superman_age
-    return result",30
-63,Lex Luthor is 1.5 times as old as Lois Lane. Lois Lane is 20 years old. How old is Lex Luthor?,"def solution():
-    #Lex Luthor is 1.5 times as old as Lo
-    return result",Percentage of Questions: 25.0
+    return result",1200.0
+30,Superman is 8 feet tall.  He is 2 times taller than his cousin.  How tall is his cousin?,"def solution():
+    #Superman is 8 feet tall
+    superman_height = 8
+    #His cousin is 1/2 his height
+    cousin_height = superman_height / 2
+    return cousin_height",4.0

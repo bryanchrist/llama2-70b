@@ -1,52 +1,366 @@
 ,question,solution,answer
-0,"Superman can leap 1000 feet in a single bound.  If he leaps 1000 feet 30 times, how far has he traveled?","def solution():
-    #Superman can leap 1000 feet in a single bound
-    leap_distance = 1000
-    #He leaps 1000 feet 30 times
-    leaps = 30
+0,"Superman can fly at 250 miles per hour. He left Metropolis at 8 AM and flew to Gotham City. He then flew to Star City and then back to Metropolis. Metropolis, Gotham City, and Star City are 250 miles apart from each other. How long, in hours, did it take for Superman to do this trip?","def solution():
+    #Superman can fly at 250 miles per hour
+    superman_speed = 250
+    #The cities are 250 miles apart
+    city_distance = 250
+    #He flew to 3 cities
+    cities = 3
     #The answer is
-    result = leap_distance * leaps
-    return result",30000.0
-1,Superman is 6.25 feet tall.  He is 12.5 times taller than a dime.  How many dimes would it take to equal the height of Superman?,"def solution():
-    #Superman is 6.25 feet tall
-    superman_height = 6.25
-    #A dime is 0.5 inches tall
-    dime_height = 0.5 / 12  # 0.5 inches is 1/12 of a foot
-    #Superman is 12.5 times taller than a dime
-    dime_to_superman_ratio = 12.5
+    result = city_distance / superman_speed * cities
+    return result",3.0
+1,Superman can fly at 250 miles per hour. He is 2000 miles away from Gotham City. How many hours will it take him to get there?,"def solution():
+    #Superman flies at 250 miles per hour
+    miles_per_hour = 250
+    #He is 2000 miles away from Gotham City
+    miles_to_gotham = 2000
     #The answer is
-    result = superman_height / dime_height
-    return result",150.0
-2,"Superman can run at a speed of 3000 miles per hour. 
-He is chasing a criminal. 
-He has to run 12,000 miles to catch the criminal. 
-How many hours will it take for Superman to catch the criminal?","def solution():
-    # Superman's speed in miles per hour
-    superman_speed = 3000
-    # Distance to catch the criminal in miles
-    distance = 12000
-    # The answer is
-    result = distance / superman_speed
-    return result",4.0
-3,Superman can fly at 4000 miles per hour. He is 2000 miles from the Bermuda Triangle. How many hours will it take him to get there?,"def solution():
-    #Superman can fly at 4000 miles per hour
-    superman_speed = 4000
-    #He is 2000 miles from the Bermuda Triangle
-    distance = 2000
+    result = miles_to_gotham / miles_per_hour
+    return result",8.0
+2,Superman can fly at 2500 miles per hour. He is 2000 miles away from the city of Metropolis. How long will it take him to get there?,"def solution():
+    #Superman can fly 2500 miles per hour
+    superman_speed = 2500
+    #Metropolis is 2000 miles away
+    metropolis_distance = 2000
+    #The answer is
+    result = metropolis_distance / superman_speed
+    return result",0.8
+3,Superman can fly at a speed of 250 miles per hour. He is 1250 miles from the city of Metropolis. How long will it take him to get there?,"def solution():
+    #Superman's speed is 250 miles per hour
+    speed = 250
+    #The distance to Metropolis is 1250 miles
+    distance = 1250
+    #The answer is
+    result = distance / speed
+    return result",5.0
+4,Superman can run at 250 miles per hour. The Flash can run at 700 miles per hour. How much faster is the Flash than Superman?,"def solution():
+    #Superman can run at 250 miles per hour
+    superman_speed = 250
+    #The Flash can run at 700 miles per hour
+    flash_speed = 700
+    #The answer is
+    result = flash_speed - superman_speed
+    return result",450
+5,"Superman can fly at a speed of 250 miles per hour. He was 1500 miles away from Lois Lane, who was in danger. How long did it take him to get to her?","def solution():
+    #Superman's speed is 250 mph
+    superman_speed = 250
+    #He was 1500 miles away from Lois
+    miles_to_lois = 1500
+    #The answer is
+    result = miles_to_lois / superman_speed
+    return result",6.0
+6,"Superman can fly at a speed of 250 miles per hour. He is 2,000 miles from the city of Metropolis. How long will it take him to get to Metropolis?","def solution():
+    #Superman's speed is 250 mph
+    superman_speed = 250
+    #He is 2,000 miles from Metropolis
+    distance_to_metropolis = 2000
+    #The answer is
+    result = distance_to_metropolis / superman_speed
+    return result",8.0
+7,"Superman can fly at a speed of 250 miles per hour. He left Metropolis and flew to Gotham City, which is 1200 miles away. He then flew to Star City, which is 1400 miles away from Gotham City. How long did it take Superman to fly from Metropolis to Star City?","def solution():
+    #Superman can fly at 250 miles per hour
+    miles_per_hour = 250
+    #It is 1200 miles from Metropolis to Gotham City
+    miles_metropolis_gotham = 1200
+    #It is 1400 miles from Gotham City to Star City
+    miles_gotham_star = 1400
+    #The total distance is
+    miles_total = miles_metropolis_gotham + miles_gotham_star
+    #The answer is
+    result = miles_total / miles_per_hour
+    return result",10.4
+8,"Superman can fly at 2500 miles per hour. He needs to fly from Metropolis to Gotham City, 2500 miles away. How many hours will it take him to get there?","def solution():
+    #Superman can fly 2500 miles per hour
+    miles_per_hour = 2500
+    #He needs to fly from Metropolis to Gotham City
+    miles_to_fly = 2500
+    #The answer is
+    result = miles_to_fly / miles_per_hour
+    return result",1.0
+9,"Superman can fly at a speed of 250 miles per hour. He is 1500 miles away from Lois Lane, who is in danger. How long will it take him to get to her?","def solution():
+    #Superman can fly 250 miles per hour
+    miles_per_hour = 250
+    #He is 1500 miles away from Lois Lane
+    miles_to_lois = 1500
+    #The answer is
+    result = miles_to_lois / miles_per_hour
+    return result",6.0
+10,Superman can run at 250 miles per hour. He' is chasing a criminal and has to run 1200 miles to catch them. How long will it take him to catch the criminal?,"def solution():
+    #Superman can run 250 miles per hour
+    miles_per_hour = 250
+    #He has to run 1200 miles
+    miles_to_run = 1200
+    #The answer is
+    result = miles_to_run / miles_per_hour
+    return result",4.8
+11,Superman is 8 feet tall.  Batman is 6 feet tall.  How much taller is Superman than Batman?,"def solution():
+    #Superman is 8 feet tall
+    superman_height = 8
+    #Batman is 6 feet tall
+    batman_height = 6
+    #The answer is
+    result = super
+    return result",<class 'super'>
+12,Superman can see 1200 miles in any direction. He is in New York and looks in every direction. How many miles can he see in total?,"def solution():
+    #Superman can see 1200 miles in any direction
+    vision_distance = 1200
+    #He looks in
+    return result",Percentage of Questions with Executable Code: 21.052631578947366
+13,Superman can fly at a speed of 2500 miles per hour. He is 1250 miles from Metropolis. How long will it take him to get there?,"def solution():
+    #Superman's speed is 2500 miles per hour
+    superman_speed = 2500
+    #He is 1250 miles from Metropolis
+    distance = 1250
     #The answer is
     result = distance / superman_speed
     return result",0.5
-4,"Superman is 6'3"" tall.  He is 20% taller than Batman.  How tall is Batman?","def solution():
-    #Superman is 6'3""
-    superman_height = 6.3
-    #He is 20% taller than Batman
-    batman_height = superman_height / 1.2
-    return batman_height",5.25
-5,Superman has 35000 Calories. He spends 2000 Calories per day. How many days can he last?,"def solution():
-    #Superman has 35000 Calories
-    calories_initial = 35000
-    #He spends 2000 Calories per day
-    calories_spent_per_day = 2000
+14,Superman flies at 250 miles per hour. He is 1250 miles away from his destination. How many hours will it take for him to get there?,"def solution():
+    #Superman is 1250 miles away
+    miles_away = 1250
+    #He flies 250 mph
+    miles_per_hour = 250
     #The answer is
-    result = calories_initial / calories_spent_per_day
-    return result",17.5
+    result = miles_away / miles_per_hour
+    return result",5.0
+15,Superman can fly at a speed of 2500 miles per hour. It would take him 10 hours to fly from his home in Metropolis to the Batcave in Gotham City. He has to make a stop in Star City to save the Green Arrow from a group of supervillains. This takes him 2 hours. He then has to make a second stop in Central City to save the Flash from the Reverse-Flash. This takes him 3 hours. How long would it take Superman to get to the Batcave?,"def solution():
+    #Superman can fly at a speed of 2500 miles per hour
+    superman_speed = 2500
+    #It would take him 10 hours to fly from his home in Metropolis to the Batcave in Gotham City.
+    metropolis_to_gotham = 10
+    #He has to make a stop in Star City to save the Green Arrow from a group of supervillains. This takes him 2 hours.
+    star_city = 2
+    #He then has to make a
+    return result",Percentage of Questions with Executable Code: 21.052631578947366
+16,"Superman can fly at a speed of 2500 miles per hour. He is currently in San Francisco, and he needs to get to New York City, which is 2900 miles away. How many hours will it take him to get there?","def solution():
+    #Superman's speed
+    speed = 2500
+    #The distance from San Francisco to New York
+    distance = 2900
+    #The time it will take him to get there
+    time = distance / speed
+    return time",1.16
+17,"If Superman can fly at 25,000 miles per hour, how long would it take him to travel 125,000 miles?","def solution():
+    #Superman can fly 25,000 miles per hour
+    miles_per_hour = 25000
+    #He is traveling 125,000 miles
+    miles_total = 125000
+    #The answer is
+    result = miles_total / miles_per_hour
+    return result",5.0
+18,"Superman is 8 feet tall and weighs 225 pounds.  His arch-nemesis, Lex Luthor, is 6 feet tall and weighs 220 pounds.  How many ounces does Superman weigh more than Lex Luthor?","def solution():
+    #Superman weighs 225 pounds
+    superman_weight = 225
+    #Lex Luthor weighs 220 pounds
+    lex_luthor_weight = 220
+    #There are 16 ounces in a pound
+    oz_per_pound = 16
+    #Superman weighs
+    superman_weight_oz = superman_weight * oz_per_pound
+    #Lex Luthor weighs
+    lex_luthor_weight_oz = lex_luthor_weight * oz_per_pound
+    #Superman weighs
+    result = superman_weight_oz - lex_luthor_weight_oz
+    return",
+19,Superman can fly at 2000 miles per hour. It is 1200 miles from Metropolis to Gotham City. How long will it take Superman to fly to Gotham City?,"def solution():
+    #Superman flies at 2000 mph
+    superman_speed = 2000
+    #The distance is 1200 miles
+    distance = 1200
+    #The answer is
+    result = distance / superman_speed
+    return result",0.6
+20,Superman can fly at 800 miles per hour. He is 1600 miles from Metropolis. How long will it take him to get there?,"def solution():
+    #Superman is 1600 miles from Metropolis
+    distance = 1600
+    #He can fly at 800 miles per hour
+    speed = 800
+    #The answer is
+    result = distance / speed
+    return result",2.0
+21,"Superman can fly at 2500 miles per hour. He is 12,500 miles from the Earth when he gets the call to come and help. How long will it take him to get to the Earth?","def solution():
+    #Superman is 12,500 miles from the Earth
+    miles_from_earth = 12500
+    #He can fly at 2500 miles per hour
+    miles_per_hour = 2500
+    #The answer is
+    result = miles_from_earth / miles_per_hour
+    return result",5.0
+22,"Superman can leap 1.25 miles at a time. If he is 2.5 miles from the nearest phone booth, how many leaps will it take for him to get there?","def solution():
+    #Superman can leap 1.25 miles
+    leap_distance = 1.25
+    #He is 2.5 miles from the nearest phone booth
+    distance_to_phone_booth = 2.5
+    #The answer is
+    result = distance_to_phone_booth / leap_distance
+    return result",2.0
+23,Superman can fly at a speed of 2000 miles per hour. He left Metropolis at 9:00 am and flew to Gotham City. He left Gotham City at 11:00 am and flew to Central City. He left Central City at 1:00 pm and flew back to Metropolis. How many hours later did he arrive in Metropolis?,"def solution():
+    #Superman left Metropolis at 9:00 am
+    metropolis_departure = 9
+    #He flew to Gotham City
+    gotham_arrival = metropolis_departure + (2000 * 60) / 60 #60 miles per minute
+    #He left Gotham City at 11:00 am
+    gotham_departure = 11
+    #He flew to Central City
+    central_city_arrival = gotham_departure + (2000 * 60) / 60
+    #He left Central City at 1:00 pm
+    return result",Percentage of Questions with Executable Code: 21.052631578947366
+24,"Superman can fly at a speed of 1,000 miles per hour. He is 1,200 miles away from Gotham City. How long will it take him to get to Gotham City?","def solution():
+    #Superman can fly 1,000 miles per hour
+    miles_per_hour = 1000
+    #He is 1,200 miles from Gotham City
+    miles_to_gotham = 1200
+    #The answer is
+    result = miles_to_gotham / miles_per_hour
+    return result",1.2
+25,Superman can fly at 2500 miles per hour. He is 2000 miles from the BATCAVE. How long will it take him to get there?,"def solution():
+    #Superman can fly 2500 miles per hour
+    miles_per_hour = 2500
+    #He is 2000 miles from the BATCAVE
+    miles_to_batcave = 2000
+    #The answer is
+    result = miles_to_batcave / miles_per_hour
+    return result",0.8
+26,Superman can fly at 250 miles per hour. He is 1500 miles from Metropolis. How long will it take him to get there?,"def solution():
+    #Superman can fly 250 miles per hour
+    miles_per_hour = 250
+    #He is 1500 miles from Metropolis
+    miles_to_metropolis = 1500
+    #The answer is
+    result = miles_to_metropolis / miles_per_hour
+    return result",6.0
+27,Superman is 8 feet tall. He is 2 times as tall as Batman. How tall is Batman?,"def solution():
+    #Superman is 8 feet tall
+    superman_height = 8
+    #Batman is 1/2 as tall as Superman
+    batman_height = superman_height/2
+    return batman_height",4.0
+28,"Superman can fly at a speed of 250 miles per hour. He is flying from Metropolis to Gotham City, which are 750 miles apart. How long does he take to get to Gotham City?","def solution():
+    return result",Percentage of Questions with Executable Code: 21.052631578947366
+29,Superman can fly at 200 miles per hour. He is 1000 miles away from the city of Metropolis. How many hours will it take him to get there?,"def solution():
+    #Superman is 1000 miles away
+    miles_away = 1000
+    #He can fly 200 miles per hour
+    miles_per_hour = 200
+    #The answer is
+    result = miles_away / miles_per_hour
+    return result",5.0
+30,Superman can fly at 2500 miles per hour. It is a 1500 mile trip from Metropolis to Gotham City. How many hours will it take Superman to fly from Metropolis to Gotham City?,"def solution():
+    #Superman can fly 2500 miles per hour
+    miles_per_hour = 2500
+    #The trip is 1500 miles
+    miles_total = 1500
+    #The answer is
+    result = miles_total / miles_per_hour
+    return result",0.6
+31,Superman can fly at a speed of 250 miles per hour. He is 2000 miles from Metropolis. How long will it take for him to fly there?,"def solution():
+    #Superman is 2000 miles away
+    miles_away = 2000
+    #He can fly 250 miles per hour
+    miles_per_hour = 250
+    #The answer is
+    result = miles_away / miles_per_hour
+    return result",8.0
+32,Superman flies from Metropolis to Gotham City in 20 minutes. He then flies from Gotham City to Star City in half the time. How long does it take Superman to fly from Metropolis to Star City?,"def solution():
+    #The flight from Metropolis to Gotham City takes 20 minutes
+    metropolis_to_gotham = 20
+    #The flight from Gotham City to Star City takes half that time
+    gotham_to_star = metropolis_to_gotham / 2
+    #The total flight time is
+    result = metropolis_to_gotham + gotham_to_star
+    return result",30.0
+33,"Superman can fly at 250 miles per hour. He is flying from Metropolis to Gotham City, which is 750 miles away. How many hours will it take Superman to get there?","def solution():
+    #Superman is flying from Metropolis to Gotham City
+    #Metropolis and Gotham City are 750 miles apart
+    distance = 750
+    #Superman can fly at 250 miles per hour
+    speed = 250
+    #The answer is
+    result = distance / speed
+    return result",3.0
+34,"Superman can run at 200 miles per hour. He is chasing a criminal who is running at 20 miles per hour. If the criminal has a 500-yard head start, how long will it take Superman to catch up?","def solution():
+    #Superman is chasing a criminal who has a 500-yard head start
+    head_start = 500
+    #Superman runs 200 miles per hour
+    superman_speed = 200
+    #The criminal runs 20 miles per hour
+    criminal_speed = 20
+    #The distance is 500 yards
+    distance = 500
+    #There are 1760 yards in a mile
+    yards_per_mile = 1760
+    #Superman would catch the criminal in
+    result = head_start / (superman_speed * yards_per_mile - criminal_speed)
+    return result",0.0014205352576850958
+35,Superman can fly at 2000 miles per hour. He is 4000 miles from Gotham City. How long will it take for him to get to Gotham City?,"def solution():
+    #Superman's speed is 2000 mph
+    superman_speed = 2000
+    #The distance to Gotham City is 4000 miles
+    distance_to_gotham = 4000
+    #The answer is
+    result = distance_to_gotham / superman_speed
+    return result",2.0
+36,Superman can fly at 250 miles per hour. He is 1250 miles from the city of Metropolis. Metropolis is 2300 miles from the city of Gotham. How long will it take Superman to fly from Metropolis to Gotham?,"def solution():
+    #Superman is 1250 miles from Metropolis
+    metropolis_distance = 1250
+    #Metropolis is 2300 miles from Gotham
+    gotham_distance = 2300
+    #Superman can fly at 250 miles per hour
+    superman_speed = 250
+    #The total distance is
+    total_distance = metropolis_distance + gotham_distance
+    #The answer is
+    result = total_distance / superman_speed
+    return result",14.2
+37,"Superman can fly at a speed of 2500 miles per hour. He left Metropolis, which is 2000 miles from Gotham City, at 10:00 AM. He was carrying a kitten that had wandered away from its home in Gotham City. How much time, in hours, did it take for him to get to Gotham City?","def solution():
+    #Superman can fly 2500 miles in an hour
+    miles_per_hour = 2500
+    #He left Metropolis, 2000 miles from Gotham City, at 10:00 AM
+    miles_to_gotham = 2000
+    #The answer is
+    result = miles_to_gotham / miles_per_hour
+    return result",0.8
+38,"Superman can fly at 250 miles per hour. He is 2,450 miles away from Lois Lane. How long will it take him to fly to her?","def solution():
+    #Superman can fly at 250 miles per hour
+    superman_speed = 250
+    #He is 2,450 miles away from Lois Lane
+    superman_distance = 2450
+    #The answer is
+    result = superman_distance / superman_speed
+    return result",9.8
+39,"Superman can fly at a speed of 2500 miles per hour. He is in New York City and needs to fly to San Francisco, which is 2900 miles away. How many hours will it take him to get there?","def solution():
+    #Superman's speed is 2500 mph
+    superman_speed = 2500
+    #The distance from NYC to SF is 2900 miles
+    nyc_sf_distance = 2900
+    #The answer is
+    result = nyc_sf_distance / superman_speed
+    return result",1.16
+40,Superman is 8 feet tall.  Batman is 6 feet tall.  How much taller is Superman than Batman?,"def solution():
+    #Superman is 8 feet tall
+    superman_height = 8
+    #Batman is 6 feet tall
+    batman_height = 6
+    #The answer is
+    result = superman_height - batman_height
+    return result",2
+41,Superman can fly at 1000 miles per hour. He is 2000 miles from Metropolis. How long will it take him to get there?,"def solution():
+    #Superman is 2000 miles away
+    distance = 2000
+    #He can fly at 1000 miles per hour
+    speed = 1000
+    #The answer is
+    result = distance / speed
+    return result",2.0
+42,Superman is 8 feet tall and weighs 100 pounds.  Batman is 6 feet tall and weighs 150 pounds.  The Hulk is 7 feet tall and weighs 200 pounds.  Who has the greatest weight-to-height ratio?,"def solution():
+    #Superman is 8 feet tall and weighs 100 pounds
+    superman_height = 8
+    superman_weight = 100
+    #Batman is 6 feet tall and weighs 150 pounds
+    batman_height = 6
+    batman_weight = 150
+    #The Hulk is 7 feet tall and weighs 200 pounds
+    hulk_height = 7
+    hulk_weight = 200
+    #The answer is
+    result = ""Superman""
+    return result",Superman

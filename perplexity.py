@@ -92,7 +92,7 @@ mammoth_good = mammoth[mammoth['good']==1]
 def perplexity(df):
     ppls = []
     for i in range(0, len(df)):
-        text = "Question: " + df.iloc[i]['question'] + "\n" + "Solution:\n" + df.iloc[i]['solution']
+        text = "Question: " + str(df.iloc[i]['question']) + "\n" + "Solution:\n" + str(df.iloc[i]['solution'])
         inputs = tokenizer(text, return_tensors = "pt")
         loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
         ppl = torch.exp(loss)
@@ -133,9 +133,9 @@ def perplexity_gsm_question(df):
         ppls.append(ppl)
     return ppls
 
-gsm8k_ppl = perplexity_gsm(gsm8k_all)
+#gsm8k_ppl = perplexity_gsm(gsm8k_all)
 #gsm8k_question_ppl = perplexity_gsm_question(gsm8k_questions)
-print(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)}')
+#print(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)}')
 #print(f'Average GSM8K overall perplexity for questions only: {np.mean(gsm8k_question_ppl)} Standard Deviation: {np.std(gsm8k_question_ppl)}')
 
 mathwell_all_ppl = perplexity(mathwell_all)

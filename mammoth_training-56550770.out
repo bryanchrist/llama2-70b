@@ -1,0 +1,365 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-hnek937h/peft_ffc934c0e8f04ba2b93f07e2a144f31d
+  Resolved https://github.com/huggingface/peft.git to commit c4cf9e7d3b2948e71ec65a19e6cd1ff230781d13
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-hnek937h/accelerate_1687f625bf4744f3ba6fd7ac068aad64
+  Resolved https://github.com/huggingface/accelerate.git to commit 403c0714d1dd019a481022afce5df75a9963ecd9
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: bitsandbytes==0.41.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (0.41.1)
+Requirement already satisfied: transformers==4.33.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (4.33.2)
+Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (0.6.1)
+Requirement already satisfied: evaluate==0.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: scikit-learn==1.2.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (1.2.2)
+Requirement already satisfied: scipy==1.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (1.11.1)
+Requirement already satisfied: sentencepiece==0.1.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 9)) (0.1.99)
+Requirement already satisfied: wandb==0.15.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 10)) (0.15.3)
+Requirement already satisfied: dash==2.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 11)) (2.11.1)
+Requirement already satisfied: jupyter-dash==0.4.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 13)) (0.4.2)
+Requirement already satisfied: dash-bootstrap-components==1.2.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 15)) (1.2.1)
+Requirement already satisfied: dash-table-experiments==0.6.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 17)) (0.6.0)
+Requirement already satisfied: pymongo==4.3.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 19)) (4.3.2)
+Requirement already satisfied: lxml==4.9.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 21)) (4.9.1)
+Requirement already satisfied: plotly-express==0.4.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 23)) (0.4.1)
+Requirement already satisfied: huggingface_hub==0.16.4 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 25)) (0.16.4)
+Requirement already satisfied: numpy==1.25.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 27)) (1.25.2)
+Requirement already satisfied: pandas==2.0.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 29)) (2.0.3)
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (3.9.0)
+Requirement already satisfied: packaging>=20.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (23.1)
+Requirement already satisfied: pyyaml>=5.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (6.0)
+Requirement already satisfied: regex!=2019.12.17 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (2023.6.3)
+Requirement already satisfied: requests in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (2.31.0)
+Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (0.13.3)
+Requirement already satisfied: safetensors>=0.3.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (0.3.1)
+Requirement already satisfied: tqdm>=4.27 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.33.2->-r requirements.txt (line 2)) (4.65.0)
+Requirement already satisfied: datasets>=2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2.13.1)
+Requirement already satisfied: dill in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.3.6)
+Requirement already satisfied: xxhash in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (3.2.0)
+Requirement already satisfied: multiprocess in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.70.14)
+Requirement already satisfied: fsspec[http]>=2021.05.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (2023.4.0)
+Requirement already satisfied: responses<0.19 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from evaluate==0.4.0->-r requirements.txt (line 6)) (0.18.0)
+Requirement already satisfied: joblib>=1.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from scikit-learn==1.2.2->-r requirements.txt (line 7)) (1.2.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from scikit-learn==1.2.2->-r requirements.txt (line 7)) (3.1.0)
+Requirement already satisfied: Click!=8.0.0,>=7.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (8.0.4)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (3.1.31)
+Requirement already satisfied: psutil>=5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (5.9.5)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.26.0)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.4.0)
+Requirement already satisfied: pathtools in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (0.1.2)
+Requirement already satisfied: setproctitle in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.3.2)
+Requirement already satisfied: setuptools in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (67.8.0)
+Requirement already satisfied: appdirs>=1.4.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (1.4.4)
+Requirement already satisfied: typing-extensions in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.4.0)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.15.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from wandb==0.15.3->-r requirements.txt (line 10)) (4.23.3)
+Requirement already satisfied: Flask<2.3.0,>=1.0.4 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.2.5)
+Requirement already satisfied: Werkzeug<2.3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.2.3)
+Requirement already satisfied: plotly>=5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (5.15.0)
+Requirement already satisfied: dash-html-components==2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.0.0)
+Requirement already satisfied: dash-core-components==2.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (2.0.0)
+Requirement already satisfied: dash-table==5.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (5.0.0)
+Requirement already satisfied: retrying in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.3.4)
+Requirement already satisfied: ansi2html in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.8.0)
+Requirement already satisfied: nest-asyncio in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from dash==2.11.1->-r requirements.txt (line 11)) (1.5.6)
+Requirement already satisfied: ipython in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-dash==0.4.2->-r requirements.txt (line 13)) (8.14.0)
+Requirement already satisfied: ipykernel in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from jupyter-dash==0.4.2->-r requirements.txt (line 13)) (6.24.0)
+Requirement already satisfied: dnspython<3.0.0,>=1.16.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pymongo==4.3.2->-r requirements.txt (line 19)) (2.3.0)
+Requirement already satisfied: statsmodels>=0.9.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly-express==0.4.1->-r requirements.txt (line 23)) (0.14.0)
+Requirement already satisfied: patsy>=0.5 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from plotly-express==0.4.1->-r requirements.txt (line 23)) (0.5.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from pandas==2.0.3->-r requirements.txt (line 29)) (2023.3)
+Requirement already satisfied: torch>=1.13.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from peft@ git+https://github.com/huggingface/peft.git->-r requirements.txt (line 3)) (2.1.0)
+INFO: pip is looking at multiple versions of peft to determine which version is compatible with other requirements. This could take a while.
+Collecting evaluate==0.4.0 (from -r requirements.txt (line 6))
+  Using cached evaluate-0.4.0-py3-none-any.whl (81 kB)
+Collecting transformers==4.33.2 (from -r requirements.txt (line 2))
+  Using cached transformers-4.33.2-py3-none-any.whl (7.6 MB)
+
+The conflict is caused by:
+    The user requested huggingface_hub==0.16.4
+    transformers 4.33.2 depends on huggingface-hub<1.0 and >=0.15.1
+    evaluate 0.4.0 depends on huggingface-hub>=0.7.0
+    peft 0.7.2.dev0 depends on huggingface-hub>=0.17.0
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+token loaded
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: read).
+Your token has been saved to /home/brc4cb/.cache/huggingface/token
+Login successful
+loading base model TIGER-Lab/MAmmoTH-70B...
+adding LoRA modules...
+trainable params: 414187520.0 || all params: 35579518976 || trainable: 1.1641178181171823
+loaded model
+Adding special tokens.
+Downloading and preparing dataset json/default to /home/brc4cb/.cache/huggingface/datasets/json/default-a5265fb71c029ef4/0.0.0...
+Dataset json downloaded and prepared to /home/brc4cb/.cache/huggingface/datasets/json/default-a5265fb71c029ef4/0.0.0. Subsequent calls will reuse this data.
+Splitting train dataset in train and validation according to `eval_dataset_size`
+torch.bfloat16 1352679424 0.038018485435748685
+torch.uint8 34225520640 0.9619444451479703
+torch.float32 1318912 3.706941628102578e-05
+{'loss': 0.7732, 'learning_rate': 0.0001, 'epoch': 0.09}
+{'loss': 0.5055, 'learning_rate': 0.0001, 'epoch': 0.18}
+{'loss': 0.4696, 'learning_rate': 0.0001, 'epoch': 0.27}
+{'loss': 0.3566, 'learning_rate': 0.0001, 'epoch': 0.36}
+{'loss': 0.377, 'learning_rate': 0.0001, 'epoch': 0.45}
+{'loss': 0.3659, 'learning_rate': 0.0001, 'epoch': 0.54}
+{'loss': 0.3293, 'learning_rate': 0.0001, 'epoch': 0.63}
+{'loss': 0.3667, 'learning_rate': 0.0001, 'epoch': 0.72}
+{'loss': 0.3164, 'learning_rate': 0.0001, 'epoch': 0.81}
+{'loss': 0.3248, 'learning_rate': 0.0001, 'epoch': 0.89}
+{'loss': 0.3528, 'learning_rate': 0.0001, 'epoch': 0.98}
+{'loss': 0.2966, 'learning_rate': 0.0001, 'epoch': 1.07}
+{'loss': 0.2711, 'learning_rate': 0.0001, 'epoch': 1.16}
+{'loss': 0.2774, 'learning_rate': 0.0001, 'epoch': 1.25}
+{'loss': 0.2572, 'learning_rate': 0.0001, 'epoch': 1.34}
+{'loss': 0.2956, 'learning_rate': 0.0001, 'epoch': 1.43}
+{'loss': 0.2962, 'learning_rate': 0.0001, 'epoch': 1.52}
+{'loss': 0.2652, 'learning_rate': 0.0001, 'epoch': 1.61}
+{'eval_loss': 0.3146458566188812, 'eval_runtime': 458.202, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 1.67}
+{'loss': 0.2749, 'learning_rate': 0.0001, 'epoch': 1.7}
+{'loss': 0.2668, 'learning_rate': 0.0001, 'epoch': 1.79}
+{'loss': 0.2747, 'learning_rate': 0.0001, 'epoch': 1.88}
+{'loss': 0.307, 'learning_rate': 0.0001, 'epoch': 1.97}
+{'loss': 0.2342, 'learning_rate': 0.0001, 'epoch': 2.06}
+{'loss': 0.1941, 'learning_rate': 0.0001, 'epoch': 2.15}
+{'loss': 0.1828, 'learning_rate': 0.0001, 'epoch': 2.24}
+Saving PEFT checkpoint...
+{'loss': 0.1919, 'learning_rate': 0.0001, 'epoch': 2.33}
+{'loss': 0.1897, 'learning_rate': 0.0001, 'epoch': 2.42}
+{'loss': 0.2045, 'learning_rate': 0.0001, 'epoch': 2.51}
+{'loss': 0.1891, 'learning_rate': 0.0001, 'epoch': 2.6}
+{'loss': 0.2016, 'learning_rate': 0.0001, 'epoch': 2.68}
+{'loss': 0.1946, 'learning_rate': 0.0001, 'epoch': 2.77}
+{'loss': 0.1897, 'learning_rate': 0.0001, 'epoch': 2.86}
+{'loss': 0.2007, 'learning_rate': 0.0001, 'epoch': 2.95}
+{'loss': 0.1645, 'learning_rate': 0.0001, 'epoch': 3.04}
+{'loss': 0.1114, 'learning_rate': 0.0001, 'epoch': 3.13}
+{'loss': 0.1241, 'learning_rate': 0.0001, 'epoch': 3.22}
+{'loss': 0.1306, 'learning_rate': 0.0001, 'epoch': 3.31}
+{'eval_loss': 0.37061333656311035, 'eval_runtime': 458.2751, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 3.35}
+{'loss': 0.1236, 'learning_rate': 0.0001, 'epoch': 3.4}
+{'loss': 0.1446, 'learning_rate': 0.0001, 'epoch': 3.49}
+{'loss': 0.1247, 'learning_rate': 0.0001, 'epoch': 3.58}
+{'loss': 0.1336, 'learning_rate': 0.0001, 'epoch': 3.67}
+{'loss': 0.1417, 'learning_rate': 0.0001, 'epoch': 3.76}
+{'loss': 0.1334, 'learning_rate': 0.0001, 'epoch': 3.85}
+{'loss': 0.144, 'learning_rate': 0.0001, 'epoch': 3.94}
+{'loss': 0.1316, 'learning_rate': 0.0001, 'epoch': 4.03}
+{'loss': 0.09, 'learning_rate': 0.0001, 'epoch': 4.12}
+{'loss': 0.1084, 'learning_rate': 0.0001, 'epoch': 4.21}
+{'loss': 0.1038, 'learning_rate': 0.0001, 'epoch': 4.3}
+{'loss': 0.0936, 'learning_rate': 0.0001, 'epoch': 4.38}
+{'loss': 0.1156, 'learning_rate': 0.0001, 'epoch': 4.47}
+Saving PEFT checkpoint...
+{'loss': 0.0984, 'learning_rate': 0.0001, 'epoch': 4.56}
+{'loss': 0.1026, 'learning_rate': 0.0001, 'epoch': 4.65}
+{'loss': 0.1313, 'learning_rate': 0.0001, 'epoch': 4.74}
+{'loss': 0.0958, 'learning_rate': 0.0001, 'epoch': 4.83}
+{'loss': 0.1143, 'learning_rate': 0.0001, 'epoch': 4.92}
+{'loss': 0.1188, 'learning_rate': 0.0001, 'epoch': 5.01}
+{'eval_loss': 0.4160735309123993, 'eval_runtime': 458.1785, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 5.02}
+{'loss': 0.0785, 'learning_rate': 0.0001, 'epoch': 5.1}
+{'loss': 0.0931, 'learning_rate': 0.0001, 'epoch': 5.19}
+{'loss': 0.097, 'learning_rate': 0.0001, 'epoch': 5.28}
+{'loss': 0.0844, 'learning_rate': 0.0001, 'epoch': 5.37}
+{'loss': 0.1044, 'learning_rate': 0.0001, 'epoch': 5.46}
+{'loss': 0.0943, 'learning_rate': 0.0001, 'epoch': 5.55}
+{'loss': 0.0919, 'learning_rate': 0.0001, 'epoch': 5.64}
+{'loss': 0.1143, 'learning_rate': 0.0001, 'epoch': 5.73}
+{'loss': 0.0844, 'learning_rate': 0.0001, 'epoch': 5.82}
+{'loss': 0.0964, 'learning_rate': 0.0001, 'epoch': 5.91}
+{'loss': 0.1169, 'learning_rate': 0.0001, 'epoch': 6.0}
+{'loss': 0.0707, 'learning_rate': 0.0001, 'epoch': 6.09}
+{'loss': 0.0798, 'learning_rate': 0.0001, 'epoch': 6.17}
+{'loss': 0.0919, 'learning_rate': 0.0001, 'epoch': 6.26}
+{'loss': 0.0725, 'learning_rate': 0.0001, 'epoch': 6.35}
+{'loss': 0.0915, 'learning_rate': 0.0001, 'epoch': 6.44}
+{'loss': 0.0912, 'learning_rate': 0.0001, 'epoch': 6.53}
+{'loss': 0.0807, 'learning_rate': 0.0001, 'epoch': 6.62}
+{'eval_loss': 0.4517289102077484, 'eval_runtime': 458.3552, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 6.69}
+{'loss': 0.1064, 'learning_rate': 0.0001, 'epoch': 6.71}
+Saving PEFT checkpoint...
+{'loss': 0.0873, 'learning_rate': 0.0001, 'epoch': 6.8}
+{'loss': 0.0893, 'learning_rate': 0.0001, 'epoch': 6.89}
+{'loss': 0.11, 'learning_rate': 0.0001, 'epoch': 6.98}
+{'loss': 0.0748, 'learning_rate': 0.0001, 'epoch': 7.07}
+{'loss': 0.0764, 'learning_rate': 0.0001, 'epoch': 7.16}
+{'loss': 0.0976, 'learning_rate': 0.0001, 'epoch': 7.25}
+{'loss': 0.0703, 'learning_rate': 0.0001, 'epoch': 7.34}
+{'loss': 0.0848, 'learning_rate': 0.0001, 'epoch': 7.43}
+{'loss': 0.0949, 'learning_rate': 0.0001, 'epoch': 7.52}
+{'loss': 0.0721, 'learning_rate': 0.0001, 'epoch': 7.61}
+{'loss': 0.0887, 'learning_rate': 0.0001, 'epoch': 7.7}
+{'loss': 0.0852, 'learning_rate': 0.0001, 'epoch': 7.79}
+{'loss': 0.078, 'learning_rate': 0.0001, 'epoch': 7.87}
+{'loss': 0.105, 'learning_rate': 0.0001, 'epoch': 7.96}
+{'loss': 0.0715, 'learning_rate': 0.0001, 'epoch': 8.05}
+{'loss': 0.069, 'learning_rate': 0.0001, 'epoch': 8.14}
+{'loss': 0.0901, 'learning_rate': 0.0001, 'epoch': 8.23}
+{'loss': 0.0703, 'learning_rate': 0.0001, 'epoch': 8.32}
+{'eval_loss': 0.5022461414337158, 'eval_runtime': 458.2646, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 8.37}
+{'loss': 0.0747, 'learning_rate': 0.0001, 'epoch': 8.41}
+{'loss': 0.0928, 'learning_rate': 0.0001, 'epoch': 8.5}
+{'loss': 0.0682, 'learning_rate': 0.0001, 'epoch': 8.59}
+{'loss': 0.0846, 'learning_rate': 0.0001, 'epoch': 8.68}
+{'loss': 0.0889, 'learning_rate': 0.0001, 'epoch': 8.77}
+{'loss': 0.0718, 'learning_rate': 0.0001, 'epoch': 8.86}
+{'loss': 0.098, 'learning_rate': 0.0001, 'epoch': 8.95}
+Saving PEFT checkpoint...
+{'loss': 0.0812, 'learning_rate': 0.0001, 'epoch': 9.04}
+{'loss': 0.0652, 'learning_rate': 0.0001, 'epoch': 9.13}
+{'loss': 0.084, 'learning_rate': 0.0001, 'epoch': 9.22}
+{'loss': 0.077, 'learning_rate': 0.0001, 'epoch': 9.31}
+{'loss': 0.0717, 'learning_rate': 0.0001, 'epoch': 9.4}
+{'loss': 0.0967, 'learning_rate': 0.0001, 'epoch': 9.49}
+{'loss': 0.0659, 'learning_rate': 0.0001, 'epoch': 9.57}
+{'loss': 0.0838, 'learning_rate': 0.0001, 'epoch': 9.66}
+{'loss': 0.0972, 'learning_rate': 0.0001, 'epoch': 9.75}
+{'loss': 0.0682, 'learning_rate': 0.0001, 'epoch': 9.84}
+{'loss': 0.0903, 'learning_rate': 0.0001, 'epoch': 9.93}
+{'loss': 0.0892, 'learning_rate': 0.0001, 'epoch': 10.02}
+{'eval_loss': 0.5021129846572876, 'eval_runtime': 458.3779, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 10.04}
+{'loss': 0.0626, 'learning_rate': 0.0001, 'epoch': 10.11}
+{'loss': 0.0782, 'learning_rate': 0.0001, 'epoch': 10.2}
+{'loss': 0.0781, 'learning_rate': 0.0001, 'epoch': 10.29}
+{'loss': 0.0688, 'learning_rate': 0.0001, 'epoch': 10.38}
+{'loss': 0.0934, 'learning_rate': 0.0001, 'epoch': 10.47}
+{'loss': 0.0761, 'learning_rate': 0.0001, 'epoch': 10.56}
+{'loss': 0.0758, 'learning_rate': 0.0001, 'epoch': 10.65}
+{'loss': 0.0961, 'learning_rate': 0.0001, 'epoch': 10.74}
+{'loss': 0.0674, 'learning_rate': 0.0001, 'epoch': 10.83}
+{'loss': 0.0865, 'learning_rate': 0.0001, 'epoch': 10.92}
+{'loss': 0.0979, 'learning_rate': 0.0001, 'epoch': 11.01}
+{'loss': 0.0603, 'learning_rate': 0.0001, 'epoch': 11.1}
+{'loss': 0.0702, 'learning_rate': 0.0001, 'epoch': 11.19}
+Saving PEFT checkpoint...
+{'loss': 0.082, 'learning_rate': 0.0001, 'epoch': 11.28}
+{'loss': 0.065, 'learning_rate': 0.0001, 'epoch': 11.36}
+{'loss': 0.0819, 'learning_rate': 0.0001, 'epoch': 11.45}
+{'loss': 0.0792, 'learning_rate': 0.0001, 'epoch': 11.54}
+{'loss': 0.0732, 'learning_rate': 0.0001, 'epoch': 11.63}
+{'eval_loss': 0.5305935144424438, 'eval_runtime': 458.4328, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 11.71}
+{'loss': 0.0948, 'learning_rate': 0.0001, 'epoch': 11.72}
+{'loss': 0.0664, 'learning_rate': 0.0001, 'epoch': 11.81}
+{'loss': 0.0822, 'learning_rate': 0.0001, 'epoch': 11.9}
+{'loss': 0.1, 'learning_rate': 0.0001, 'epoch': 11.99}
+{'loss': 0.0643, 'learning_rate': 0.0001, 'epoch': 12.08}
+{'loss': 0.0696, 'learning_rate': 0.0001, 'epoch': 12.17}
+{'loss': 0.0896, 'learning_rate': 0.0001, 'epoch': 12.26}
+{'loss': 0.0624, 'learning_rate': 0.0001, 'epoch': 12.35}
+{'loss': 0.0803, 'learning_rate': 0.0001, 'epoch': 12.44}
+{'loss': 0.0815, 'learning_rate': 0.0001, 'epoch': 12.53}
+{'loss': 0.0684, 'learning_rate': 0.0001, 'epoch': 12.62}
+{'loss': 0.0876, 'learning_rate': 0.0001, 'epoch': 12.71}
+{'loss': 0.0737, 'learning_rate': 0.0001, 'epoch': 12.8}
+{'loss': 0.0708, 'learning_rate': 0.0001, 'epoch': 12.89}
+{'loss': 0.0997, 'learning_rate': 0.0001, 'epoch': 12.98}
+{'loss': 0.0646, 'learning_rate': 0.0001, 'epoch': 13.06}
+{'loss': 0.0661, 'learning_rate': 0.0001, 'epoch': 13.15}
+{'loss': 0.0904, 'learning_rate': 0.0001, 'epoch': 13.24}
+{'loss': 0.0593, 'learning_rate': 0.0001, 'epoch': 13.33}
+{'eval_loss': 0.5451889038085938, 'eval_runtime': 458.1818, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 13.39}
+{'loss': 0.072, 'learning_rate': 0.0001, 'epoch': 13.42}
+Saving PEFT checkpoint...
+{'loss': 0.086, 'learning_rate': 0.0001, 'epoch': 13.51}
+{'loss': 0.0637, 'learning_rate': 0.0001, 'epoch': 13.6}
+{'loss': 0.0841, 'learning_rate': 0.0001, 'epoch': 13.69}
+{'loss': 0.0808, 'learning_rate': 0.0001, 'epoch': 13.78}
+{'loss': 0.0711, 'learning_rate': 0.0001, 'epoch': 13.87}
+{'loss': 0.094, 'learning_rate': 0.0001, 'epoch': 13.96}
+{'loss': 0.0737, 'learning_rate': 0.0001, 'epoch': 14.05}
+{'loss': 0.0638, 'learning_rate': 0.0001, 'epoch': 14.14}
+{'loss': 0.0852, 'learning_rate': 0.0001, 'epoch': 14.23}
+{'loss': 0.068, 'learning_rate': 0.0001, 'epoch': 14.32}
+{'loss': 0.0722, 'learning_rate': 0.0001, 'epoch': 14.41}
+{'loss': 0.0894, 'learning_rate': 0.0001, 'epoch': 14.5}
+{'loss': 0.0635, 'learning_rate': 0.0001, 'epoch': 14.59}
+{'loss': 0.0799, 'learning_rate': 0.0001, 'epoch': 14.68}
+{'loss': 0.084, 'learning_rate': 0.0001, 'epoch': 14.77}
+{'loss': 0.0659, 'learning_rate': 0.0001, 'epoch': 14.85}
+{'loss': 0.084, 'learning_rate': 0.0001, 'epoch': 14.94}
+{'loss': 0.076, 'learning_rate': 0.0001, 'epoch': 15.03}
+{'eval_loss': 0.5833576917648315, 'eval_runtime': 458.3639, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 15.06}
+{'loss': 0.0607, 'learning_rate': 0.0001, 'epoch': 15.12}
+{'loss': 0.0776, 'learning_rate': 0.0001, 'epoch': 15.21}
+{'loss': 0.0698, 'learning_rate': 0.0001, 'epoch': 15.3}
+{'loss': 0.0663, 'learning_rate': 0.0001, 'epoch': 15.39}
+{'loss': 0.0907, 'learning_rate': 0.0001, 'epoch': 15.48}
+{'loss': 0.0607, 'learning_rate': 0.0001, 'epoch': 15.57}
+{'loss': 0.0745, 'learning_rate': 0.0001, 'epoch': 15.66}
+Saving PEFT checkpoint...
+{'loss': 0.0887, 'learning_rate': 0.0001, 'epoch': 15.75}
+{'loss': 0.0641, 'learning_rate': 0.0001, 'epoch': 15.84}
+{'loss': 0.0807, 'learning_rate': 0.0001, 'epoch': 15.93}
+{'loss': 0.0873, 'learning_rate': 0.0001, 'epoch': 16.02}
+{'loss': 0.0587, 'learning_rate': 0.0001, 'epoch': 16.11}
+{'loss': 0.0751, 'learning_rate': 0.0001, 'epoch': 16.2}
+{'loss': 0.0773, 'learning_rate': 0.0001, 'epoch': 16.29}
+{'loss': 0.0669, 'learning_rate': 0.0001, 'epoch': 16.38}
+{'loss': 0.0887, 'learning_rate': 0.0001, 'epoch': 16.47}
+{'loss': 0.0691, 'learning_rate': 0.0001, 'epoch': 16.55}
+{'loss': 0.0686, 'learning_rate': 0.0001, 'epoch': 16.64}
+{'loss': 0.093, 'learning_rate': 0.0001, 'epoch': 16.73}
+{'eval_loss': 0.5525679588317871, 'eval_runtime': 458.2235, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 16.73}
+{'loss': 0.0594, 'learning_rate': 0.0001, 'epoch': 16.82}
+{'loss': 0.0777, 'learning_rate': 0.0001, 'epoch': 16.91}
+{'loss': 0.0921, 'learning_rate': 0.0001, 'epoch': 17.0}
+{'loss': 0.0557, 'learning_rate': 0.0001, 'epoch': 17.09}
+{'loss': 0.0695, 'learning_rate': 0.0001, 'epoch': 17.18}
+{'loss': 0.0826, 'learning_rate': 0.0001, 'epoch': 17.27}
+{'loss': 0.0623, 'learning_rate': 0.0001, 'epoch': 17.36}
+{'loss': 0.0796, 'learning_rate': 0.0001, 'epoch': 17.45}
+{'loss': 0.0772, 'learning_rate': 0.0001, 'epoch': 17.54}
+{'loss': 0.0682, 'learning_rate': 0.0001, 'epoch': 17.63}
+{'loss': 0.0917, 'learning_rate': 0.0001, 'epoch': 17.72}
+{'loss': 0.065, 'learning_rate': 0.0001, 'epoch': 17.81}
+{'loss': 0.0704, 'learning_rate': 0.0001, 'epoch': 17.9}
+Saving PEFT checkpoint...
+{'loss': 0.0924, 'learning_rate': 0.0001, 'epoch': 17.99}
+{'loss': 0.0608, 'learning_rate': 0.0001, 'epoch': 18.08}
+{'loss': 0.066, 'learning_rate': 0.0001, 'epoch': 18.17}
+{'loss': 0.0839, 'learning_rate': 0.0001, 'epoch': 18.26}
+{'loss': 0.0581, 'learning_rate': 0.0001, 'epoch': 18.34}
+{'eval_loss': 0.5685456395149231, 'eval_runtime': 458.2548, 'eval_samples_per_second': 0.873, 'eval_steps_per_second': 0.873, 'epoch': 18.41}
+{'loss': 0.0757, 'learning_rate': 0.0001, 'epoch': 18.43}
+{'loss': 0.083, 'learning_rate': 0.0001, 'epoch': 18.52}
+{'loss': 0.0656, 'learning_rate': 0.0001, 'epoch': 18.61}
+{'loss': 0.0867, 'learning_rate': 0.0001, 'epoch': 18.7}
+{'loss': 0.0727, 'learning_rate': 0.0001, 'epoch': 18.79}
+{'loss': 0.0724, 'learning_rate': 0.0001, 'epoch': 18.88}
+{'loss': 0.0953, 'learning_rate': 0.0001, 'epoch': 18.97}
+{'loss': 0.0638, 'learning_rate': 0.0001, 'epoch': 19.06}
+{'loss': 0.0645, 'learning_rate': 0.0001, 'epoch': 19.15}
+{'loss': 0.0879, 'learning_rate': 0.0001, 'epoch': 19.24}
+{'loss': 0.06, 'learning_rate': 0.0001, 'epoch': 19.33}
+{'loss': 0.073, 'learning_rate': 0.0001, 'epoch': 19.42}
+{'loss': 0.0866, 'learning_rate': 0.0001, 'epoch': 19.51}
+{'loss': 0.0619, 'learning_rate': 0.0001, 'epoch': 19.6}
+{'loss': 0.0798, 'learning_rate': 0.0001, 'epoch': 19.69}
+{'loss': 0.0803, 'learning_rate': 0.0001, 'epoch': 19.78}
+{'loss': 0.0679, 'learning_rate': 0.0001, 'epoch': 19.87}
+{'loss': 0.0889, 'learning_rate': 0.0001, 'epoch': 19.96}

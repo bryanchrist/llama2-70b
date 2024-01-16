@@ -1,0 +1,50 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 23.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=23.11.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-oecdmn6y/peft_190a4b34f7924a31904c8a75136460af
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-oecdmn6y/accelerate_3aaf2cefccbf44ed99113c6375be2257
+ERROR: Cannot install -r requirements.txt (line 2), -r requirements.txt (line 3), -r requirements.txt (line 6) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+ERROR: Could not install packages due to an OSError: [Errno 16] Device or resource busy: '.nfs00000004cd4a8f130000000b'
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 23.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=23.11.0
+
+
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:03<00:45,  3.23s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:06<00:41,  3.17s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:09<00:38,  3.21s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:12<00:35,  3.23s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:16<00:32,  3.20s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:19<00:28,  3.19s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:22<00:25,  3.22s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:25<00:22,  3.22s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:28<00:19,  3.19s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:31<00:15,  3.18s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:35<00:12,  3.19s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:38<00:09,  3.21s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:41<00:06,  3.22s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:44<00:03,  3.19s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:45<00:00,  2.31s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:45<00:00,  3.01s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/modules.py:224: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_type=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(f'Input type into Linear4bit is torch.float16, but bnb_4bit_compute_type=torch.float32 (default). This will lead to slow inference or training speed.')
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/perplexity.py", line 141, in <module>
+    mathwell_all_ppl = perplexity(mathwell_all)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/perplexity.py", line 95, in perplexity
+    text = "Question: " + df.iloc[i]['question'] + "\n" + "Solution:\n" + df.iloc[i]['solution']
+TypeError: can only concatenate str (not "float") to str

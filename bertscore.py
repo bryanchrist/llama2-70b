@@ -1,5 +1,6 @@
 from evaluate import load
 import pandas as pd
+import numpy as np 
 bertscore = load("bertscore")
 
 gsm8k = pd.read_csv('data/gsm8k_questions.csv')

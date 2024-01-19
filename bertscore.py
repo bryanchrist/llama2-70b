@@ -72,6 +72,12 @@ result = f"Average MATHWELL MaC/MATHWELL Train overall BERTScore: Precision: {np
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
+
+scores = score(mathwell_good, mathwell, 'question', 'question')
+result = f"Average MATHWELL MaC/MATHWELL all generations BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(llama, llama, 'question', 'question')
 result = f"Average llama overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"

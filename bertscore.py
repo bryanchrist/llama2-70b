@@ -14,7 +14,7 @@ mathwell_good = mathwell[mathwell['good']==1]
 mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
 numglue = pd.read_csv('data/numglue_questions.csv')
-asdiv = pd.read_csv('data/ASDIV_clean.csv')
+asdiv = pd.read_csv('data/ASDiv_clean.csv')
 svamp = pd.read_json('data/svamp.json')
 svamp['question'] = svamp['Body'] + " " + svamp['Question']
 gsm_hard = pd.read_json('data/gsmhard.json')

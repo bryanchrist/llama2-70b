@@ -9,6 +9,7 @@ scipy==1.11.1
 sentencepiece==0.1.99
 wandb==0.15.3
 dash==2.11.1
+bert_score
 
 jupyter-dash==0.4.2
 

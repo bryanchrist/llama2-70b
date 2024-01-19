@@ -37,116 +37,116 @@ def score(df1, df2, df1var, df2var):
     return (precision, recall, f1)
 
 scores = score(gsm8k, gsm8k, 'instruction', 'instruction')
-score = f"Average GSM8K overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average GSM8K overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mathwell_all_good, mathwell_all_good, 'question', 'question')
-score = f"Average MATHWELL Train overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average MATHWELL Train overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mathwell_all_good, gsm8k, 'question', 'instruction')
-score = f"Average MATHWELL Train/GSM8K overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average MATHWELL Train/GSM8K overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mathwell, mathwell, 'question', 'question')
-score = f"Average MATHWELL overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average MATHWELL overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mathwell_good, mathwell_good, 'question', 'question')
-score = f"Average MATHWELL MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average MATHWELL MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mathwell_good, mathwell_all_good, 'question', 'question')
-score = f"Average MATHWELL MaC/MATHWELL Train overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average MATHWELL MaC/MATHWELL Train overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(llama, llama, 'question', 'question')
-score = f"Average llama overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average llama overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(llama_good, llama_good, 'question', 'question')
-score = f"Average llama MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average llama MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(llama,llama_good, 'question', 'question')
-score = f"Average llama all generations/llama MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average llama all generations/llama MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(llema, llema, 'question', 'question')
-score = f"Average llema overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average llema overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(llema_good, llema_good, 'question', 'question')
-score = f"Average llema MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average llema MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(llema,llema_good, 'question', 'question')
-score = f"Average llema all generations/llema MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average llema all generations/llema MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mammoth, mammoth, 'question', 'question')
-score = f"Average mammoth overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average mammoth overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mammoth_good, mammoth_good, 'question', 'question')
-score = f"Average mammoth MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average mammoth MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 scores = score(mammoth, mammoth_good, 'question', 'question')
-score = f"Average mammoth all generations/mammoth MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average mammoth all generations/mammoth MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
 
 scores = score(numglue, numglue, 'instruction', 'instruction')
-score = f"Average numglue overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average numglue overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file
     #numglue is instruction rest are questions
     
 scores = score(asdiv, asdiv, 'question', 'question')
-score = f"Average asdiv overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average asdiv overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
-with open(output_file, "a") as f:  # Open the file in append mode ("a")
+with open(outputresult, "a") as f:  # Open the file in append mode ("a")
     f.write(score + "\n")  # Append the newly generated text to the file
     
 scores = score(svamp, svamp, 'question', 'question')
-score = f"Average svamp overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average svamp overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
-with open(output_file, "a") as f:  # Open the file in append mode ("a")
+with open(outputresult, "a") as f:  # Open the file in append mode ("a")
     f.write(score + "\n")  # Append the newly generated text to the file
     
 scores = score(gsm_hard, gsm_hard, 'question', 'question')
-score = f"Average gsmhard overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+result = f"Average gsmhard overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(score + "\n")  # Append the newly generated text to the file
+    f.write(result + "\n")  # Append the newly generated text to the file

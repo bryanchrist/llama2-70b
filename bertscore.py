@@ -1,5 +1,6 @@
 from evaluate import load
 import pandas as pd
+bertscore = load("bertscore")
 
 gsm8k = pd.read_csv('data/gsm8k_questions.csv')
 mathwell_all = pd.read_csv('data/mathwell_annotations.csv')
@@ -15,7 +16,7 @@ mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
 numglue = pd.read_csv('data/numglue_questions.csv')
 asdiv = pd.read_csv('data/ASDiv_clean.csv')
-svamp = pd.read_json('data/svamp.json')
+svamp = pd.read_json('data/SVAMP.json')
 svamp['question'] = svamp['Body'] + " " + svamp['Question']
 gsm_hard = pd.read_json('data/gsmhard.json')
 

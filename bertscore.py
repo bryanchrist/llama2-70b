@@ -21,15 +21,24 @@ svamp = pd.read_json('data/SVAMP.json')
 svamp['question'] = svamp['Body'] + " " + svamp['Question']
 gsm_hard = pd.read_json('data/gsmhard.json')
 
-def score(df1, df2, df1var, df2var, same_df = False, limit = 150):
+def score(df1, df2, df1var, df2var, same_df = False, limit = 200):
     precision = []
     recall = []
     f1 = []
+        
     if same_df == False:
         df1 = df1.sample(frac = 1)
         df2 = df2.sample(frac = 1)
-        for i in range(0, limit):
-            for j in range(0, limit):
+        if limit > len(df1) or limit > len(df2):
+            lim1 = min(limit, len(df1))
+            lim2 = min(limit, len(df2))
+            
+        else: 
+            lim1 = limit
+            lim2 = limit
+            
+        for i in range(0, lim1):
+            for j in range(0, lim2):
                 ref = df1.iloc[i][df1var]
                 ref = str(ref)
                 pred = df2.iloc[j][df2var]
@@ -40,8 +49,16 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 150):
                 f1.append(results['f1'])
                 
     if same_df == True:
-        for i in range(0, limit):
-            for j in range(len(df2)-limit, len(df2)):
+        if limit > len(df1) or limit > len(df2):
+            lim1 = min(limit, len(df1))
+            lim2 = min(limit, len(df2))
+            
+        else: 
+            lim1 = limit
+            lim2 = limit
+            
+        for i in range(0, lim1):
+            for j in range(len(df2)-lim2, len(df2)):
                 ref = df1.iloc[i][df1var]
                 ref = str(ref)
                 pred = df2.iloc[j][df2var]
@@ -70,13 +87,13 @@ output_file = "bertscores.txt"  # Specify the path and filename for the output f
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(mathwell, mathwell, 'question', 'question', same_df = True, limit = 100)
+scores = score(mathwell, mathwell, 'question', 'question', same_df = True, limit = 150)
 result = f"Average MATHWELL overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(mathwell_good, mathwell_good, 'question', 'question', same_df = True, limit = 100)
+scores = score(mathwell_good, mathwell_good, 'question', 'question', same_df = True, limit = 150)
 result = f"Average MATHWELL MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
@@ -94,13 +111,13 @@ output_file = "bertscores.txt"  # Specify the path and filename for the output f
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(llama, llama, 'question', 'question', same_df = True, limit = 100)
+scores = score(llama, llama, 'question', 'question', same_df = True, limit = 150)
 result = f"Average llama overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(llama_good, llama_good, 'question', 'question', same_df = True, limit = 100)
+scores = score(llama_good, llama_good, 'question', 'question', same_df = True, limit = 150)
 result = f"Average llama MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
@@ -112,13 +129,13 @@ output_file = "bertscores.txt"  # Specify the path and filename for the output f
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(llema, llema, 'question', 'question', same_df = True, limit = 100)
+scores = score(llema, llema, 'question', 'question', same_df = True, limit = 150)
 result = f"Average llema overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(llema_good, llema_good, 'question', 'question', same_df = True, limit = 100)
+scores = score(llema_good, llema_good, 'question', 'question', same_df = True, limit = 150)
 result = f"Average llema MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
@@ -130,13 +147,13 @@ output_file = "bertscores.txt"  # Specify the path and filename for the output f
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(mammoth, mammoth, 'question', 'question', same_df = True, limit = 100)
+scores = score(mammoth, mammoth, 'question', 'question', same_df = True, limit = 150)
 result = f"Average mammoth overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-scores = score(mammoth_good, mammoth_good, 'question', 'question', same_df = True, limit = 100)
+scores = score(mammoth_good, mammoth_good, 'question', 'question', same_df = True, limit = 150)
 result = f"Average mammoth MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
 output_file = "bertscores.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")

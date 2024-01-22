@@ -25,7 +25,7 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 150):
     precision = []
     recall = []
     f1 = []
-    if same_df = False:
+    if same_df == False:
         df1 = df1.sample(frac = 1)
         df2 = df2.sample(frac = 1)
         for i in range(0, limit):
@@ -39,7 +39,7 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 150):
                 recall.append(results['recall'])
                 f1.append(results['f1'])
                 
-    if same_df = True:
+    if same_df == True:
         for i in range(0, limit):
             for j in range(len(df2)-limit, len(df2)):
                 ref = df1.iloc[i][df1var]

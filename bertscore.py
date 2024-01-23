@@ -208,20 +208,20 @@ with open(output_file, "a") as f:  # Open the file in append mode ("a")
 #     f.write(result + "\n")  # Append the newly generated text to the file
 #     #numglue is instruction rest are questions
     
-# scores = score(asdiv, asdiv, 'question', 'question', same_df = True)
-# result = f"Average asdiv overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
-# output_file = "bertscores.txt"  # Specify the path and filename for the output file
-# with open(outputresult, "a") as f:  # Open the file in append mode ("a")
-#     f.write(score + "\n")  # Append the newly generated text to the file
+scores = score(asdiv, asdiv, 'question', 'question', same_df = True)
+result = f"Average asdiv overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(score + "\n")  # Append the newly generated text to the file
     
-# scores = score(svamp, svamp, 'question', 'question', same_df = True)
-# result = f"Average svamp overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
-# output_file = "bertscores.txt"  # Specify the path and filename for the output file
-# with open(outputresult, "a") as f:  # Open the file in append mode ("a")
-#     f.write(score + "\n")  # Append the newly generated text to the file
+scores = score(svamp, svamp, 'question', 'question', same_df = True)
+result = f"Average svamp overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(score + "\n")  # Append the newly generated text to the file
     
-# scores = score(gsm_hard, gsm_hard, 'question', 'question', same_df = True)
-# result = f"Average gsmhard overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
-# output_file = "bertscores.txt"  # Specify the path and filename for the output file
-# with open(output_file, "a") as f:  # Open the file in append mode ("a")
-#     f.write(result + "\n")  # Append the newly generated text to the file
+scores = score(gsm_hard, gsm_hard, 'question', 'question', same_df = True)
+result = f"Average gsmhard overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file

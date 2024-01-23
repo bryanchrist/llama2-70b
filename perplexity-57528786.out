@@ -114,3 +114,5 @@ Token will not been saved to git credential helper. Pass `add_to_git_credential=
 Token is valid (permission: read).
 Your token has been saved to /home/brc4cb/.cache/huggingface/token
 Login successful
+Average MATHWELL Annotated overall perplexity: 2.437572956085205 Standard Deviation: 0.4605063796043396
+Average MATHWELL Train overall perplexity: 2.4399402141571045 Standard Deviation: 0.4391603171825409

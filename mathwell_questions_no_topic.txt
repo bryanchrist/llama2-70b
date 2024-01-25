@@ -78647,3 +78647,600 @@ def solution():
     #The answer is
     result = pizza_slices - mushroom_slices - pepperoni_slices + both_slices
     return result
+Topic: unspecified ### Response
+Topic: unspecified ### Response: 
+Question: 
+
+A baker baked 1000 cookies. 
+
+He ate 200 of them. 
+
+He gave 100 to his family. 
+
+He gave 100 to his friends. 
+
+He gave 100 to the homeless. 
+
+How many cookies does he have left?
+Solution:
+def solution():
+    #A baker baked 1000 cookies
+    cookies_baked = 1000
+    #He ate 200 of them
+    cookies_eaten = 200
+    #He gave 100 to his family
+    cookies_family = 100
+    #He gave 100 to his friends
+    cookies_friends = 100
+    #He gave 100 to the homeless
+    cookies_homeless = 100
+    #The answer is
+    result = cookies_baked - cookies_eaten - cookies_family - cookies_friends - cookies_homeless
+    return result
+Topic: unspecified ### Response: 
+Question: 
+Solution:
+def solution():
+    #
+    #
+    #
+    #
+    result = 
+    return result
+Topic: unspecified ### Response: 
+Question: A bakery made 125 muffins. They sold 32 muffins in the morning, 21 muffins in the afternoon, and 12 muffins in the evening. How many muffins are left?
+Solution:
+def solution():
+    #The bakery started with 125 muffins
+    muffins_initial = 125
+    #They sold 32 muffins in the morning
+    muffins_sold_morning = 32
+    #21 muffins in the afternoon
+    muffins_sold_afternoon = 21
+    #And 12 muffins in the evening
+    muffins_sold_evening = 12
+    #The answer is
+    result = muffins_initial - muffins_sold_morning - muffins_sold_afternoon - muffins_sold_evening
+    return result
+Topic: unspecified ### Response: 
+Question: 1200 toys were donated to the orphanage. 1/3 of the toys were for girls, and 1/4 of the toys for girls were babydolls. 3/4 of the toys for boys were toy cars. How many toy cars did the boys get?
+
+Solution:
+def solution():
+    #1200 toys were donated
+    toys_donated = 1200
+    #1/3 of the toys were for girls
+    toys_for_girls = toys_donated / 3
+    #1/4 of the toys for girls were babydolls
+    babydolls = toys_for_girls / 4
+    #3/4 of the toys for boys were toy cars
+    toys_for_boys = toys_donated - toys_for_girls
+    toy_cars = toys_for_boys * 3 / 4
+    #The answer is
+    result = toy_cars
+Topic: unspecified ### Response: 
+Question: 5000 people are at a rally. 2000 more people show up
+Topic: unspecified ### Response: 
+Question: A baker is baking bread. He bakes 12 loaves of bread in the morning and 16 loaves of bread in the afternoon. He sells 10 loaves of bread in the morning and 14 loaves of bread in the afternoon. How many loaves of bread does he have left?
+Solution:
+def solution():
+    #The baker baked 12 loaves of bread in the morning
+    bread_baked_morning = 12
+    #16 loaves of bread in the afternoon
+    bread_baked_afternoon = 16
+    #He sold 10 loaves of bread in the morning
+    bread_sold_morning = 10
+    #14 loaves of bread in the afternoon
+    bread_sold_afternoon = 14
+    #The answer is
+    result = (bread_baked_morning + bread_baked_afternoon) - (bread_sold_morning + bread_sold_afternoon)
+    return result
+Topic: unspecified ### Response: 
+Question: A cake of 16 slices was left
+Topic: unspecified ### Response: 
+Question: 2000 people are at a soccer game. 1000 of them are wearing the home team's jersey. 500 of them are wearing the away team's jersey. 250 of them are wearing a jersey from a different soccer team. 250 of them are not wearing a soccer jersey. How many people are wearing the home team's jersey and the away team's jersey?
+Solution:
+def solution():
+    #2000 people are at a soccer game
+    people_total = 2000
+    #1000 of them are wearing the home team's jersey
+    people_home_team = 1000
+    #500 of them are wearing the away team's jersey
+    people_away_team = 500
+    #250 of them are wearing a jersey from a different soccer team
+    people_different_team = 250
+    #25
+Topic: unspecified ### Response: 
+Question: 
+The 5th-grade class has 25 students. 1/5 of the students are in the school band. 2/5 of the students are in the chess club. 1/10 of the students are in both the band and the chess club.  How many 5th-grade students are not in the band or the chess club?
+Solution:
+def solution():
+    #Total 5th-grade students
+    total_students = 25
+    #Students in the band
+    band_students = total_students / 5
+    #Students in the chess club
+    chess_club_students = total_students * 2 / 5
+    #Students in both the band and the chess club
+    both_students = total_students / 10
+    #Students not in the band or the chess club
+    not_in_band_or_chess_club = total_students - band_students - chess_club_students + both_students
+Topic: unspecified ### Response: 
+Question: 12000 people are at a music festival. 1/4 of them
+Topic: unspecified ### Response: 
+Question: 
+Solution:
+def solution():
+    pass
+Topic: unspecified ### Response: 
+
+Question: 1250 people were at the 1997 Glastonbury Festival. The next year, 250 more people came. The year after that, 1/5 of the 1998 crowd did not show up. How many people were at the 1999 Glastonbury Festival?
+Solution:
+def solution():
+    #1250 people were at the 1997 Glastonbury Festival
+    people_1997 = 1250
+    #The next year, 250 more people came
+    people_1998 = people_1997 + 250
+    #The year after that, 1/5 of the 1998 crowd did not show up
+    people_1999 = people_1998 - (people_1998/5)
+    #The answer is
+    result = people_1999
+    return result
+Topic: unspecified ### Response: 
+Question: A c
+Topic: unspecified ### Response: 
+Question: 4500 people live in a town. 1/10 of the population are aliens. 2/3 of the aliens are male. 1/4 of the male aliens are over 6 feet tall. How many male aliens over 6 feet tall are there?
+Solution:
+def solution():
+    #Total population of the town
+    total_population = 4500
+    #1/10 of the population are aliens
+    aliens_population = total_population / 10
+    #2/3 of the aliens are male
+    male_aliens = aliens_population * 2 / 3
+    #1/4 of the male aliens are over 6 feet tall
+    tall_male_aliens = male_aliens / 4
+    #The answer is
+    result = int(tall_male_aliens)
+    return result
+Topic: unspecified ### Response: 
+Question: 2000 people are at a rally. 1000 of them are wearing red hats. 500 of them are wearing blue hats. 250 of them are wearing both a red and a blue hat. How many people at the rally are not wearing a red or blue hat?
+Solution:
+def solution():
+    #2000 people are at a rally
+    people_total = 2000
+    #1000 of them are wearing red hats
+    people_red_hats = 1000
+    #500 of them are wearing blue hats
+    people_blue_hats = 500
+    #250 of them are wearing both a red and a blue hat
+    people_both_hats = 250
+    #The answer is
+    result = people_total - people_red_hats - people_blue_hats + people_both_hats
+    return result
+Topic: unspecified ### Response: 
+Question: 1000 people are at a rally. 200 of them are
+Topic: unspecified ### Response: 
+Question: 
+The 49ers are a football team. 
+The 49ers have 30 players. 
+10 of the players are on the offense. 
+15 of the players are on the defense. 
+The rest of the players are on special teams. 
+How many players are on special teams?
+Solution:
+def solution():
+    #The 49ers have 30 players
+    total_players = 30
+    #10 of the players are on the offense
+    offense_players = 10
+    #15 of the players are on the defense
+    defense_players = 15
+    #The rest of the players are on special teams. The answer is
+    special_teams_players = total_players - offense_players - defense_players
+    return special_teams_players
+Topic: unspecified ### Response: 
+Question: 
+A bakery bakes 120 pies a day. 
+- 30 of the
+Topic: unspecified ### Response: 
+Question: 20000 people live in the town of Wakanda. 10000 of them are men. 2000 of the men are in the military. 1/4 of the military is the elite royal guard. 1/5 of the royal guard is the Dora Milaje. How many Dora Milaje are there?
+Solution:
+def solution():
+    #Total people in Wakanda
+    total_people = 20000
+    #10000 of them are men
+    men = 10000
+    #2000 of the men are in the military
+    military = 2000
+    #1/4 of the military is the elite royal guard
+    royal_guard = military / 4
+    #1/5 of the royal guard is the Dora Milaje
+    dora_milaje = royal_guard / 5
+    #The answer is
+    result = dora_milaje
+    return result
+Topic: unspecified ### Response: 
+
+Question:
+Topic: unspecified ### Response: 
+Question: 4000 planes were used in the D-Day invasion
+Topic: unspecified ### Response: 
+Question: A candy store has 120 lollipops. 20 lollipops are sour, 30 are sweet, and the rest are fruity. How many fruity lollipops are there?
+Solution:
+def solution():
+    #The candy store started with 120 lollipops
+    lollipops_total = 120
+    #20 of them are sour
+    lollipops_sour = 20
+    #30 of them are sweet
+    lollipops_sweet = 30
+    #The rest are fruity
+    lollipops_fruity = lollipops_total - lollipops_sour - lollipops_sweet
+    #The answer is
+    result = lollipops_fruity
+    return result
+Topic: unspecified ### Response: 
+
+Question: 
+A baker bakes 200 loaves of bread. He sells 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returns 6 loaves. How many loaves of bread does the baker have left?
+
+Solution:
+def solution():
+    #The baker started with 200 loaves
+    loaves_baked = 200
+    #He sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning = 93
+    loaves_sold_afternoon = 39
+    #The grocery store returned 6 loaves
+    loaves_returned = 6
+    #The answer is
+    result = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned
+    return result
+
+Topic: unspecified ### Response: 
+Question: 
+The X-Men have 12 members. 
+3 of them are 6 feet tall, and the rest are 5.5 feet tall. 
+What is the average height of an X-Man?
+Solution:
+def solution():
+    #The X-Men have 12 members
+    xmen_members = 12
+    #3 of them are 6 feet tall
+    xmen_6ft = 3
+    #The rest are 5.5 feet tall
+    xmen_5pt5ft = xmen_members - xmen_6ft
+    #The total height of the X-Men is
+    total_height = (xmen_6ft * 6) + (xmen_5pt5ft * 5.5)
+    #The answer is
+    result = total_height / xmen_members
+    return result
+Topic: unspecified ### Response: Question: A volleyball team has 6 players. Each player has 2 knee pads. How many knee pads does the team have in total?
+Solution:
+def solution():
+    #The team has 6 players
+    players = 6
+    #Each player has 2 knee pads
+    knee
+Topic: unspecified ### Response: 
+Question: 10000 Power Rangers are needed to protect the city. 1000 Power Rangers are in the city. 2000 more Power Rangers are on the way. How many more Power Rangers are needed?
+Solution:
+def solution():
+    #Total Power Rangers needed
+    total_power_rangers_needed = 10000
+    #Power Rangers in the city
+    power_rangers_in_city = 1000
+    #Power Rangers on the way
+    power_rangers_on_the_way = 2000
+    #More Power Rangers needed
+    more_power_rangers_needed = total_power_rangers_needed - power_rangers_in_city - power_rangers_on_the_way
+    return more_power_rangers_needed
+Topic: unspecified ### Response: 
+Question: 
+Solution:
+Topic: unspecified ### Response: 
+Question: 1000000000000 (10^13) hydrogen atoms are in a balloon. 100000000000 (10^12) of them are in the left half of the balloon. 20000000000 (2*10^11) of them are in the right half of the balloon. How many hydrogen atoms are in the middle of the balloon?
+Solution:
+def solution():
+    #10^13 hydrogen atoms are in a balloon
+    total_hydrogen_atoms = 10**13
+    #10^12 of them are in the left half of the balloon
+    hydrogen_atoms_left_half = 10**12
+    #2*10^11 of them are in the right half of the balloon
+    hydrogen_atoms_right_half = 2*10**11
+    #The answer is
+    result = total_
+Topic: unspecified ### Response: 
+Question: 2400 people are at a soccer game. 1200 of the people are seated and the rest are standing. 1/4 of the people standing are wearing hats. How many people are wearing hats?
+Solution:
+def solution():
+    #2
+Topic: unspecified ##
+Topic: unspecified ### Response: 
+Question: A soccer team has 11 players. 3 of the players are from Spain. 5 of the players are from Germany. 2 of the players are from France. 1 of the players is from England. How many of the players are not from these 4 countries?
+Solution:
+def solution():
+    #The soccer team has 11 players
+    total_players = 11
+    #3 of the players are from Spain
+    players_spain = 3
+    #5 of the players are from Germany
+    players_germany = 5
+    #2 of the players are from France
+    players_france = 2
+    #1 of the players is from England
+    players_england = 1
+    #The answer is
+    result = total_players - players_spain - players_germany - players_france - players_england
+    return result
+Topic: unspecified ### Response: 
+Question: 
+Solution:
+Topic: unspecified ### Response: 
+Question: A cake has 24 slices. 3 of the slices are chocolate. 6 of the slices are strawberry. 5 of the slices are vanilla. 2 of the slices are carrot. 1 of the slices is red velvet. 3 of the slices are lemon. How many of the slices are not chocolate, strawberry, vanilla, carrot, or red velvet?
+Solution:
+def solution():
+    #A cake has 24 slices
+    total_slices = 24
+    #3 of the slices are chocolate
+    slices_chocolate = 3
+    #6 of the slices are strawberry
+    slices_strawberry = 6
+    #5 of the slices are vanilla
+    slices_vanilla = 5
+    #2 of the slices are carrot
+    slices_carrot = 2
+    #1 of the slices is red velvet
+    slices_red_velvet = 1
+    #3 of
+Topic: unspecified ### Response: 
+Question: 12000 people are at a rally. 2000 of them are in the first row, 3000 are
+Topic: unspecified ### Response: 
+Question: The first 500 Pokémon in the Kanto Pokédex are 20% Bug-type, 30% Fire-type, 20% Water-type, and the rest are Grass-type. How many Grass-type Pokémon are there?
+Solution:
+def solution():
+    #Total number of Pokémon
+    total_pokemon = 500
+    #Percentage of Bug-type, Fire-type, and Water-type Pokémon
+    bug_type_pokemon = 0.20 * total_pokemon
+    fire_type_pokemon = 0.30 * total_pokemon
+    water_type_pokemon = 0.20 * total_pokemon
+    #The rest are Grass-type
+    grass_type_pokemon = total_pokemon - bug_type_pokemon - fire_type_pokemon - water_type_pokemon
+    #The answer is
+    result = grass_type_pokemon
+    return result
+Topic: unspecified ### Response: 
+Question: 120000
+Topic: unspecified ### Response: 
+
+Question:
+
+A bakery is baking pies. They bake 10 pies in the morning and 10 pies in the afternoon. 2 of the pies are eaten by the bakers. 
+
+How many pies are left?
+
+Solution:
+
+def solution():
+    #The bakery baked 10 pies in the morning and 10 pies in the afternoon
+    pies_baked = 10 + 10
+    #2 of the pies are eaten by the bakers
+    pies_eaten = 2
+    #The answer is
+    result = pies_baked - pies_eaten
+    return result
+Topic: unspecified ### Response: 
+Question: 200 people are at a rally. 100 of the people are wearing hats. 75 of the people are wearing sunglasses. 25 of the people are wearing both hats and sunglasses. How many people are not wearing a hat or sunglasses?
+Solution:
+def solution():
+    #200 people are at a rally
+    people_total = 200
+    #100 of the people are wearing hats
+    people_hats = 100
+    #75 of the people are wearing sunglasses
+    people_sunglasses = 75
+    #25 of the people are wearing both hats and sunglasses
+    people_both = 25
+    #The answer is
+    result = people_total - people_hats - people_sunglasses + people_both
+    return result
+Topic: unspecified ### Response: 
+Question: 
+
+12 of the 50 cats in the alley are calico. 
+
+15 of the cats are Siamese. 
+
+3 of the calico cats are also Siamese. 
+
+How many Siamese cats are not calico?
+Solution:
+def solution():
+    #Total number of cats
+    total_cats = 50
+    #Number of calico cats
+    calico_cats = 12
+    #Number of Siamese cats
+    siamese_cats = 15
+    #Number of calico cats that are also Siamese
+    calico_siamese_cats = 3
+    #Number of Siamese cats that are not calico
+    siamese_not_calico = siamese_cats - calico_siamese_cats
+    return siamese_not_calico
+Topic: unspecified ### Response: 
+Question: 2009 was a good year for the Tesla company. They sold 2200 cars in 2009. In 2010, they sold 500 more cars than in 2009. In 2011, they sold 3000 cars. How many more cars did Tesla sell in 2011 than in 2009?
+Solution:
+def solution():
+    #Tesla sold 2200 cars in 2009
+    cars_2009 = 2200
+    #They sold 500 more cars in 2010 than in 2009
+    cars_2010 = cars_2009 + 500
+    #They sold 3000 cars in 2011
+    cars_2011 = 3000
+    #The answer is
+    result = cars_2011 - cars_2009
+    return result
+Topic: unspecified ### Response: 
+Question: Barbie has 100 pink pencils. She gave 20 pink pencils to her best friend. She gave 30 pink pencils to her 2nd best
+Topic: unspecified ### Response: 
+Question: 24000 people are at a football game. 10000 of the people are wearing the home team's jersey. 2500 of the people are wearing the away team's jersey. 5000 of the people are wearing jerseys from other teams. How many people are not wearing a jersey?
+Solution:
+def solution():
+    #Total people at the game
+    total_people = 24000
+    #People wearing the home team's jersey
+    home_team_jersey = 10000
+    #People wearing the away team's jersey
+    away_team_jersey = 2500
+    #People wearing jerseys from other teams
+    other_team_jersey = 5000
+    #The answer is
+    result = total_people - home_team_jersey - away_team_jersey - other_team_jersey
+    return result
+Topic: unspecified 
+Topic: unspecified ### Response: 
+Question: 211 M&Ms are in a candy dish. 114 of the M&Ms are plain, 67 of the M&Ms are peanut, and 30 of the M&Ms are almond. How many M&Ms with nuts are in the dish?
+Solution:
+def solution():
+    #Total M&Ms
+    total_mms = 211
+    #Plain M&Ms
+    plain_mms = 114
+    #Peanut M&Ms
+    peanut_mms = 67
+    #Almond M&Ms
+    almond_mms = 30
+    #M&Ms with nuts are
+    mms_with_nuts = peanut_mms + almond_mms
+    #The answer is
+    result = mms_with_nuts
+    return result
+Topic: unspecified ### Response:
+Topic: unspecified ### Response: 
+Question: 
+Solution:
+def solution():
+    #
+    #
+    #
+    result = 
+    return result
+Topic: unspecified ### Response: 
+Question: A 747 can hold 235 passengers. A 777 can hold 315. How many more passengers can 5 777s hold than 3 747s?
+Solution:
+def solution():
+    #747 can hold 235 passengers
+    passengers_747 = 235
+    #777 can hold 315 passengers
+    passengers_777 = 315
+    #5 777s can hold
+    passengers_5_777s = 5 * passengers_777
+    #3 747s can hold
+    passengers_3_747s = 3 * passengers_747
+    #The answer is
+    result = passengers_5_777s - passengers_3_747s
+    return result
+Topic: unspecified ### Response: 
+
+Question: 12000 people are at a music festival. 25% of the attendees are from the United States. 30% of the attendees are from the United Kingdom. 15% of the attendees are from the European Union. 10% of the attendees are from Australia. 20% of the attendees are from the rest of the world. How many attendees are from the United States?
+Solution:
+def solution():
+    #Total attendees
+    total_attendees = 12000
+    #Percentage of attendees from US, UK, EU, Australia and rest of the world
+    us_percentage = 0.25
+    uk_percentage = 0.30
+    eu_percentage = 0.15
+    au_percentage = 0.10
+    rotw_percentage = 0.20
+    #The answer is
+    result = total_attendees * us_percentage
+    return result
+Topic: unspecified ### Response: 
+Question: 10000 people are at a
+Topic: unspecified ### Response: 
+Question: 10000 people are at a rally. 1000 of them are wearing hats. 2000 of them are wearing sunglasses. 500 of them are wearing both. How many people at the rally are not wearing hats or sunglasses?
+Solution:
+def solution():
+    #10000 people are at a rally
+    people = 10000
+    #1000 of them are wearing hats
+    hats = 1000
+    #2000 of them are wearing sunglasses
+    sunglasses = 2000
+    #500 of them are wearing both
+    both = 500
+    #The answer is
+    result = people - hats - sunglasses + both
+    return result
+Topic: unspecified ### Response: 
+Question: 
+Solution:
+def solution():
+    #
+    #
+    #
+    result = 
+    return result
+Topic: unspecified 
+Topic: unspecified ### Response: 
+Question: 1200 people are at a football game. 200 of the attendees are in the student section. 300 of the attendees are in the alumni section. 100 of the attendees are in the band. The rest of the attendees are in the general section. How many attendees are in the general section?
+
+Solution:
+def solution():
+    #1200 people are at the football game
+    attendees_total = 1200
+    #200 of the attendees are in the student section
+    students = 200
+    #300 of the attendees are in the alumni section
+    alumni = 300
+    #100 of the attendees are in the band
+    band = 100
+    #The rest of the attendees are in the general section.
+    #The answer is
+    general = attendees_total - students - alumni - band
+    return general
+Topic: unspecified ### Response: 
+Question: There are 120 students in a school. 1/3 of
+Topic: unspecified ### Response: 
+Question: 200 people are at a rally. 100 of them are wearing red hats. 50 of them are wearing blue hats. 20 of them are wearing both red and blue hats. How many people at the rally are not wearing a red or blue hat?
+Solution:
+def solution():
+    #200 people are at a rally
+    people = 200
+    #100 of them are wearing red hats
+    red_hats = 100
+    #50 of them are wearing blue hats
+    blue_hats = 50
+    #20 of them are wearing both red and blue hats
+    both_hats = 20
+    #The answer is
+    result = people - red_hats - blue_hats + both_hats
+    return result
+Topic: unspecified ### Response: 
+Question: 1000 people lined up to get into a sneaker release. 200 of them were let in. 100 more people cut the line. 300 people left. How many people are still in line?
+Solution:
+def solution():
+    #1000 people lined up to get into a sneaker release
+    people_lined_up = 1000
+    #200 of them were let in
+    people_let_in = 200
+    #100 more people cut the line
+    people_cut_line = 100
+    #300 people left
+    people_left = 300
+    #The answer is
+    result = people_lined_up - people_let_in - people_cut_line - people_left
+    return result
+Topic: unspecified ### Response: 
+Question: 1000 people are in a theater. 200 of
+Topic: unspecified ### Response: 
+Question: 
+Solution:
+def solution():
+    #
+    #
+    #
+    return 

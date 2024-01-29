@@ -70,3 +70,9 @@ Average numglue overall BERTScore: Precision: 0.8100303893451889, Recall: 0.8091
 Average asdiv overall BERTScore: Precision: 0.8613161743977004, Recall: 0.8594202580746677, F1: 0.8602772684145304
 Average svamp overall BERTScore: Precision: 0.860844921282596, Recall: 0.8606483964582284, F1: 0.8606788149462806
 Average gsmhard overall BERTScore: Precision: 0.8385188762464457, Recall: 0.8400485499901904, F1: 0.8392074754829209
+
+
+ ### New Results ### 
+
+Average GSM8K overall BERTScore: Precision: 0.8463852537822393, Recall: 0.8459586809621917, F1: 0.8460895142622292
+Average MATHWELL Train overall BERTScore: Precision: 0.8519051793324864, Recall: 0.8522180024368895, F1: 0.8519682793207467

@@ -98,11 +98,11 @@ model = PeftModel.from_pretrained(model, adapter_path)
 import pandas as pd
 import random
 df = pd.read_csv('data/mathwell.csv')
-topics = ['Superman', "Batman", "Wonder Woman", "Barbie", "Power Rangers", "basketball", "soccer", "football", "volleyball", 'field hockey',\
-'Fortnite', 'Spiderman', "Iron Man", "Captain America", "Captain Marvel", "Thor, the God of Thunder", "Black Panther", "Taylor Swift", "swimming",\
-"Pokémon", "Super Mario", "Naruto", "unicorns", "Hello Kitty", "Minecraft", "lacrosse", "cheer leading", "LeBron James", "Steph Curry", "Patrick Mahomes",\
-"Serena Williams", "dogs", "cats", "dinosaurs", "Harry Potter", "cars", "planes", "trains", "pizza", "cookies", "ice cream", 'candy',\
-    "Frozen (Elsa and Anna)",
+# topics = ['Superman', "Batman", "Wonder Woman", "Barbie", "Power Rangers", "basketball", "soccer", "football", "volleyball", 'field hockey',\
+# 'Fortnite', 'Spiderman', "Iron Man", "Captain America", "Captain Marvel", "Thor, the God of Thunder", "Black Panther", "Taylor Swift", "swimming",\
+# "Pokémon", "Super Mario", "Naruto", "unicorns", "Hello Kitty", "Minecraft", "lacrosse", "cheer leading", "LeBron James", "Steph Curry", "Patrick Mahomes",\
+# "Serena Williams", "dogs", "cats", "dinosaurs", "Harry Potter", "cars", "planes", "trains", "pizza", "cookies", "ice cream", 'candy',\
+topics = ["Frozen (Elsa and Anna)",
     "Minecraft",
     "Star Wars",
     "Paw Patrol",
@@ -117,9 +117,7 @@ topics = ['Superman', "Batman", "Wonder Woman", "Barbie", "Power Rangers", "bask
     "Peppa Pig",
     "Dora the Explorer",
     "Pikachu",
-    "Pokemon",
     "Thomas the Tank Engine",
-    "Hello Kitty",
     "Sonic the Hedgehog",
     "Transformers",
     "Minions",
@@ -239,7 +237,6 @@ topics = ['Superman', "Batman", "Wonder Woman", "Barbie", "Power Rangers", "bask
     "Natural Disasters",
     "Construction and Building",
     "Inventions",
-    "Martial Arts",
     "the Circus and Performing Arts",
     "Science Fiction",
     "Pottery and Ceramics",

@@ -21,7 +21,55 @@ svamp = pd.read_json('data/SVAMP.json')
 svamp['question'] = svamp['Body'] + " " + svamp['Question']
 gsm_hard = pd.read_json('data/gsmhard.json')
 
-def score(df1, df2, df1var, df2var, same_df = False, limit = 1200):
+# def score(df1, df2, df1var, df2var, same_df = False, limit = 18000):
+#     precision = []
+#     recall = []
+#     f1 = []
+        
+#     if same_df == False:
+#         df1 = df1.sample(frac = 1)
+#         df2 = df2.sample(frac = 1)
+#         if limit > len(df1) or limit > len(df2):
+#             lim1 = min(limit, len(df1))
+#             lim2 = min(limit, len(df2))
+            
+#         else: 
+#             lim1 = limit
+#             lim2 = limit
+            
+#         for i in range(0, lim1):
+#             for j in range(0, lim2):
+#                 ref = df1.iloc[i][df1var]
+#                 ref = str(ref)
+#                 pred = df2.iloc[j][df2var]
+#                 pred = str(pred)
+#                 results = bertscore.compute(predictions=[pred], references=[ref], lang="en")
+#                 precision.append(results['precision'])
+#                 recall.append(results['recall'])
+#                 f1.append(results['f1'])
+                
+#     if same_df == True:
+#         if limit > len(df1) or limit > len(df2):
+#             lim1 = min(limit, len(df1))
+#             lim2 = min(limit, len(df2))
+            
+#         else: 
+#             lim1 = limit
+#             lim2 = limit
+            
+#         for i in range(0, lim1):
+#             for j in range(len(df2)-lim2, len(df2)):
+#                 ref = df1.iloc[i][df1var]
+#                 ref = str(ref)
+#                 pred = df2.iloc[j][df2var]
+#                 pred = str(pred)
+#                 results = bertscore.compute(predictions=[pred], references=[ref], lang="en")
+#                 precision.append(results['precision'])
+#                 recall.append(results['recall'])
+#                 f1.append(results['f1'])
+#     return (precision, recall, f1)
+
+def score(df1, df2, df1var, df2var, same_df = False, limit = 18000):
     precision = []
     recall = []
     f1 = []
@@ -36,17 +84,24 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 1200):
         else: 
             lim1 = limit
             lim2 = limit
-            
+        
+        refs = []
+        preds = []
         for i in range(0, lim1):
             for j in range(0, lim2):
                 ref = df1.iloc[i][df1var]
                 ref = str(ref)
                 pred = df2.iloc[j][df2var]
                 pred = str(pred)
-                results = bertscore.compute(predictions=[pred], references=[ref], lang="en")
-                precision.append(results['precision'])
-                recall.append(results['recall'])
-                f1.append(results['f1'])
+                preds.append(pred)
+                refs.append(ref)
+                if len(preds)==120:
+                    results = bertscore.compute(predictions=preds, references=refs, lang="en")
+                    precision.append(np.mean(results['precision']))
+                    recall.append(np.mean(results['recall']))
+                    f1.append(np.mean(results['f1']))
+                    refs = []
+                    preds = []
                 
     if same_df == True:
         if limit > len(df1) or limit > len(df2):
@@ -57,16 +112,24 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 1200):
             lim1 = limit
             lim2 = limit
             
+        refs = []
+        preds = []
         for i in range(0, lim1):
             for j in range(len(df2)-lim2, len(df2)):
                 ref = df1.iloc[i][df1var]
                 ref = str(ref)
                 pred = df2.iloc[j][df2var]
                 pred = str(pred)
-                results = bertscore.compute(predictions=[pred], references=[ref], lang="en")
-                precision.append(results['precision'])
-                recall.append(results['recall'])
-                f1.append(results['f1'])
+                preds.append(pred)
+                refs.append(ref)
+                if len(preds)==120:
+                    results = bertscore.compute(predictions=preds, references=refs, lang="en")
+                    precision.append(np.mean(results['precision']))
+                    recall.append(np.mean(results['recall']))
+                    f1.append(np.mean(results['f1']))
+                    refs = []
+                    preds = []
+                    
     return (precision, recall, f1)
 
 scores = score(gsm8k, gsm8k, 'instruction', 'instruction', same_df = True)

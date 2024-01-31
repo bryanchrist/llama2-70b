@@ -95,8 +95,8 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 18000):
                 pred = str(pred)
                 preds.append(pred)
                 refs.append(ref)
-                if len(preds)==120:
-                    results = bertscore.compute(predictions=preds, references=refs, lang="en")
+                if len(preds)==2000000:
+                    results = bertscore.compute(predictions=preds, references=refs, lang="en", n_threads = 16, batch_size = 128)
                     precision.append(np.mean(results['precision']))
                     recall.append(np.mean(results['recall']))
                     f1.append(np.mean(results['f1']))
@@ -122,8 +122,8 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 18000):
                 pred = str(pred)
                 preds.append(pred)
                 refs.append(ref)
-                if len(preds)==120:
-                    results = bertscore.compute(predictions=preds, references=refs, lang="en")
+                if len(preds)==2000000:
+                    results = bertscore.compute(predictions=preds, references=refs, lang="en", n_threads = 16, batch_size = 128)
                     precision.append(np.mean(results['precision']))
                     recall.append(np.mean(results['recall']))
                     f1.append(np.mean(results['f1']))

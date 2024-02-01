@@ -102,7 +102,7 @@ for i in range(0,5000):
     final_prompt = f"Write a grade school math word problem about {topic} and Python function with a commented out step-by-step solution to solve the word problem."
     prompt = "Write a grade school math word problem and Python function with a commented out step-by-step solution to solve the word problem."
     questions = []
-    for i in range(0, 8):
+    for i in range(0, 5):
         question = df['output'].iloc[random.randint(0,len(df)-1)]
         questions.append(question)
     formatted_prompt = []

@@ -106,7 +106,7 @@ for i in range(0,5000):
         question = df['output'].iloc[random.randint(0,len(df)-1)]
         questions.append(question)
     formatted_prompt = []
-    for i in range(0,8):
+    for i in range(0,5):
         formatted_prompt.append((f"Below is an instruction that describes a task. "
                 f"Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\n{prompt}\n\n### Response: {questions[i]}"))

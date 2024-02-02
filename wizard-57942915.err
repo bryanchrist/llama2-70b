@@ -1,0 +1,53 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-rk251sso/peft_33ac3a13270e4eb5a076f2817edbc1a0
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-rk251sso/accelerate_59eb88a2c7d4463baf2c7e0bee91e286
+ERROR: Cannot install -r requirements.txt (line 2), -r requirements.txt (line 3), -r requirements.txt (line 6) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/29 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/29 [00:06<02:50,  6.09s/it]Loading checkpoint shards:   7%|▋         | 2/29 [00:12<02:42,  6.00s/it]Loading checkpoint shards:  10%|█         | 3/29 [00:18<02:41,  6.23s/it]Loading checkpoint shards:  14%|█▍        | 4/29 [00:24<02:35,  6.23s/it]Loading checkpoint shards:  17%|█▋        | 5/29 [00:30<02:29,  6.22s/it]Loading checkpoint shards:  21%|██        | 6/29 [00:37<02:23,  6.24s/it]Loading checkpoint shards:  24%|██▍       | 7/29 [00:43<02:18,  6.32s/it]Loading checkpoint shards:  28%|██▊       | 8/29 [00:50<02:13,  6.37s/it]Loading checkpoint shards:  31%|███       | 9/29 [00:56<02:08,  6.42s/it]Loading checkpoint shards:  34%|███▍      | 10/29 [01:02<02:00,  6.35s/it]Loading checkpoint shards:  38%|███▊      | 11/29 [01:09<01:53,  6.32s/it]Loading checkpoint shards:  41%|████▏     | 12/29 [01:15<01:48,  6.41s/it]Loading checkpoint shards:  45%|████▍     | 13/29 [01:22<01:43,  6.48s/it]Loading checkpoint shards:  48%|████▊     | 14/29 [01:28<01:37,  6.50s/it]Loading checkpoint shards:  52%|█████▏    | 15/29 [01:35<01:30,  6.43s/it]Loading checkpoint shards:  55%|█████▌    | 16/29 [01:41<01:23,  6.41s/it]Loading checkpoint shards:  59%|█████▊    | 17/29 [01:47<01:16,  6.38s/it]Loading checkpoint shards:  62%|██████▏   | 18/29 [01:54<01:10,  6.43s/it]Loading checkpoint shards:  66%|██████▌   | 19/29 [02:00<01:04,  6.43s/it]Loading checkpoint shards:  69%|██████▉   | 20/29 [02:06<00:56,  6.32s/it]Loading checkpoint shards:  72%|███████▏  | 21/29 [02:13<00:49,  6.24s/it]Loading checkpoint shards:  76%|███████▌  | 22/29 [02:19<00:43,  6.25s/it]Loading checkpoint shards:  79%|███████▉  | 23/29 [02:26<00:38,  6.39s/it]Loading checkpoint shards:  83%|████████▎ | 24/29 [02:32<00:31,  6.37s/it]Loading checkpoint shards:  86%|████████▌ | 25/29 [02:38<00:25,  6.31s/it]Loading checkpoint shards:  90%|████████▉ | 26/29 [02:44<00:18,  6.23s/it]Loading checkpoint shards:  93%|█████████▎| 27/29 [02:50<00:12,  6.22s/it]Loading checkpoint shards:  97%|█████████▋| 28/29 [02:57<00:06,  6.32s/it]Loading checkpoint shards: 100%|██████████| 29/29 [03:02<00:00,  5.94s/it]Loading checkpoint shards: 100%|██████████| 29/29 [03:02<00:00,  6.29s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/generation/utils.py:1417: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed soon, in a future version. Please use a generation configuration file (see https://huggingface.co/docs/transformers/main_classes/text_generation )
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Token indices sequence length is longer than the specified maximum sequence length for this model (1558 > 1500). Running this sequence through the model will result in indexing errors

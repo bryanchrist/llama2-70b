@@ -1,0 +1,41 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-p8ls1ah9/peft_e823720ffc8f43b7bf5edf110a413cfd
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-p8ls1ah9/accelerate_70113f7dc1c64ae0ba1c1e0c4b6654d4
+ERROR: Cannot install -r requirements.txt (line 2), -r requirements.txt (line 3), -r requirements.txt (line 6) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.

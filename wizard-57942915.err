@@ -51,3 +51,4 @@ Or to minimize the number of packages updated during conda update use
 /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
   warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
 Token indices sequence length is longer than the specified maximum sequence length for this model (1558 > 1500). Running this sequence through the model will result in indexing errors
+slurmstepd: error: *** JOB 57942915 ON udc-an37-7 CANCELLED AT 2024-02-02T12:19:05 ***

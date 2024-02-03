@@ -1,0 +1,44 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-a4hk5n8e/peft_d9b87ad44bb1417c9d8348ca744a32fb
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-a4hk5n8e/accelerate_4d118e5f394948cb8250de5095e11e5f
+ERROR: Cannot install -r requirements.txt (line 2), -r requirements.txt (line 3), -r requirements.txt (line 6) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:03<00:42,  3.07s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:05<00:37,  2.86s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:08<00:33,  2.78s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:11<00:29,  2.72s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:13<00:26,  2.69s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:16<00:23,  2.65s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:18<00:21,  2.64s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:21<00:18,  2.65s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:24<00:15,  2.62s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:26<00:13,  2.63s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:29<00:10,  2.63s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:32<00:07,  2.63s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:34<00:05,  2.61s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:37<00:02,  2.57s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:37<00:00,  1.88s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:37<00:00,  2.49s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(

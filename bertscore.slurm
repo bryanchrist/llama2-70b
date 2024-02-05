@@ -11,7 +11,7 @@
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
-#SBATCH -t 3-00:00:00
+#SBATCH -t 0-20:00:00
 #SBATCH -J bertscore
 #SBATCH -o bertscore-%A.out
 #SBATCH -e bertscore-%A.err

@@ -88,6 +88,8 @@ mathwell = df[df['model']=='mathwell']
 mathwell_good = mathwell[mathwell['good']==1]
 mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
+sgsm_unan = pd.read_csv('data/sgsm_unannotated.csv')
+sgsm = pd.concat([sgsm_unan, mathwell_all_good])
 
 def perplexity(df):
     ppls = []
@@ -138,14 +140,20 @@ def perplexity_gsm_question(df):
 #print(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)}')
 #print(f'Average GSM8K overall perplexity for questions only: {np.mean(gsm8k_question_ppl)} Standard Deviation: {np.std(gsm8k_question_ppl)}')
 
-mathwell_all_ppl = perplexity(mathwell_all)
+sgsm_unan_ppl = perplexity(sgsm_unan)
+print(f'Average SGSM Unannotated overall perplexity: {np.mean(sgsm_unan_ppl)} Standard Deviation: {np.std(sgsm_unan_ppl)}')
+
+sgsm_ppl = perplexity(sgsm)
+print(f'Average SGSM overall perplexity: {np.mean(sgsm_ppl)} Standard Deviation: {np.std(sgsm_ppl)}')
+
+#mathwell_all_ppl = perplexity(mathwell_all)
 #mathwell_all_question_ppl = perplexity_question(mathwell_all)
-print(f'Average MATHWELL Annotated overall perplexity: {np.mean(mathwell_all_ppl)} Standard Deviation: {np.std(mathwell_all_ppl)}')
+#print(f'Average MATHWELL Annotated overall perplexity: {np.mean(mathwell_all_ppl)} Standard Deviation: {np.std(mathwell_all_ppl)}')
 #print(f'Average MATHWELL Annotated overall perplexity for questions only: {np.mean(mathwell_all_question_ppl)} Standard Deviation: {np.std(mathwell_all_question_ppl)}')
 
-mathwell_all_good_ppl = perplexity(mathwell_all_good)
+#mathwell_all_good_ppl = perplexity(mathwell_all_good)
 #mathwell_all_good_question_ppl = perplexity_question(mathwell_all_good)
-print(f'Average MATHWELL Train overall perplexity: {np.mean(mathwell_all_good_ppl)} Standard Deviation: {np.std(mathwell_all_good_ppl)}')
+#print(f'Average MATHWELL Train overall perplexity: {np.mean(mathwell_all_good_ppl)} Standard Deviation: {np.std(mathwell_all_good_ppl)}')
 #print(f'Average MATHWELL Train overall perplexity for questions only: {np.mean(mathwell_all_good_question_ppl)} Standard Deviation: {np.std(mathwell_all_good_question_ppl)}')
 
 # mathwell_ppl = perplexity(mathwell)

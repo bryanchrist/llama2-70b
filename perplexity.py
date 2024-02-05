@@ -141,10 +141,14 @@ def perplexity_gsm_question(df):
 #print(f'Average GSM8K overall perplexity for questions only: {np.mean(gsm8k_question_ppl)} Standard Deviation: {np.std(gsm8k_question_ppl)}')
 
 sgsm_unan_ppl = perplexity(sgsm_unan)
-print(f'Average SGSM Unannotated overall perplexity: {np.mean(sgsm_unan_ppl)} Standard Deviation: {np.std(sgsm_unan_ppl)}')
+output_file = "perplexities.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(f'Average SGSM Unannotated overall perplexity: {np.mean(sgsm_unan_ppl)} Standard Deviation: {np.std(sgsm_unan_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text to the file
 
 sgsm_ppl = perplexity(sgsm)
-print(f'Average SGSM overall perplexity: {np.mean(sgsm_ppl)} Standard Deviation: {np.std(sgsm_ppl)}')
+output_file = "perplexities.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(f'Average SGSM overall perplexity: {np.mean(sgsm_ppl)} Standard Deviation: {np.std(sgsm_ppl)} \n')  # Append the newly generated text to the file  # Append the 
 
 #mathwell_all_ppl = perplexity(mathwell_all)
 #mathwell_all_question_ppl = perplexity_question(mathwell_all)

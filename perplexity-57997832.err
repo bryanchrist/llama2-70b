@@ -40,3 +40,4 @@ Or to minimize the number of packages updated during conda update use
   warnings.warn(
 /home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/modules.py:224: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_type=torch.float32 (default). This will lead to slow inference or training speed.
   warnings.warn(f'Input type into Linear4bit is torch.float16, but bnb_4bit_compute_type=torch.float32 (default). This will lead to slow inference or training speed.')
+slurmstepd: error: *** JOB 57997832 ON udc-an36-1 CANCELLED AT 2024-02-06T04:59:46 DUE TO TIME LIMIT ***

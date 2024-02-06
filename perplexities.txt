@@ -1,0 +1,1 @@
+Average SGSM Unannotated overall perplexity: 2.3302063941955566 Standard Deviation: 0.6789587736129761 

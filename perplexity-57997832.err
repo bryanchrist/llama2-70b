@@ -1,0 +1,42 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-k25l0711/peft_7bbd27b8022a4d72889c7f66b5ef84b9
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-k25l0711/accelerate_55d1c279d6024bce99a6d3723e5474bd
+ERROR: Cannot install -r requirements.txt (line 2), -r requirements.txt (line 3), -r requirements.txt (line 6) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.0
+
+
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:01<00:26,  1.86s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:03<00:22,  1.72s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:05<00:20,  1.68s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:06<00:18,  1.69s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:08<00:16,  1.65s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:09<00:14,  1.63s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:11<00:12,  1.62s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:13<00:11,  1.64s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:14<00:09,  1.61s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:16<00:07,  1.54s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:17<00:05,  1.50s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:19<00:04,  1.53s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:20<00:02,  1.48s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:21<00:01,  1.44s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:22<00:00,  1.05s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:22<00:00,  1.47s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/modules.py:224: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_type=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(f'Input type into Linear4bit is torch.float16, but bnb_4bit_compute_type=torch.float32 (default). This will lead to slow inference or training speed.')

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A sds_kropkoclass
+#SBATCH -A bryan_research
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod

@@ -104,3 +104,9 @@ Average SGSM Unannotated overall BERTScore: Precision: 0.8492237999137193, Recal
 Average SGSM Unannotated/GSM8K overall BERTScore: Precision: 0.8391571048041732, Recall: 0.8414310363559425, F1: 0.8402079176513404
 Average SGSM Unannotated/SGSM Train overall BERTScore: Precision: 0.8510189899611325, Recall: 0.8468993789018094, F1: 0.8488576490049213
 Average SGSM overall BERTScore: Precision: 0.8509501949535012, Recall: 0.8467891506591291, F1: 0.8487658106383831
+
+
+ ### New Results ### 
+
+Average SGSM Unannotated overall BERTScore: Precision: 0.8492237998831272, Recall: 0.849300030724585, F1: 0.8491568426532596
+Average SGSM Unannotated/GSM8K overall BERTScore: Precision: 0.8387605154637694, Recall: 0.8409564510956854, F1: 0.8397695180227309

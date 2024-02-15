@@ -90,6 +90,26 @@ mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
 sgsm_unan = pd.read_csv('data/sgsm_unannotated.csv')
 sgsm = pd.concat([sgsm_unan, mathwell_all_good])
+gsm8k = pd.read_csv('data/gsm8k_questions.csv')
+mathwell_all = pd.read_csv('data/mathwell_annotations_final.csv')
+mathwell_all_good = mathwell_all[mathwell_all['good']==1]
+df = pd.read_csv('data/all_models.csv')
+llama = df[df['model']=='llama']
+llama_good = llama[llama['good']==1]
+llema = df[df['model']=='llema']
+llema_good = llema[llema['good']==1]
+mathwell = df[df['model']=='mathwell']
+mathwell_good = mathwell[mathwell['good']==1]
+mammoth = df[df['model']=='mammoth']
+mammoth_good = mammoth[mammoth['good']==1]
+numglue = pd.read_csv('data/numglue_questions.csv')
+asdiv = pd.read_csv('data/ASDiv_clean.csv')
+svamp = pd.read_json('data/SVAMP.json')
+svamp['question'] = svamp['Body'] + " " + svamp['Question']
+gsm_hard = pd.read_json('data/gsmhard.json')
+sgsm = pd.read_csv('data/sgsm.csv')
+sgsm_unan = sgsm[sgsm['subset']=='sgsm_unannotated']
+sgsm_train = sgsm[sgsm['subset']=='sgsm_train']
 
 def perplexity(df):
     ppls = []
@@ -146,6 +166,11 @@ sgsm_unan_ppl = perplexity(sgsm_unan)
 #output_file = "perplexities.txt"  # Specify the path and filename for the output file
 sgsm_unan_ppl = np.array(sgsm_unan_ppl)
 np.save('sgsm_unan_ppl.npy', sgsm_unan_ppl)
+
+sgsm_train_ppl = perplexity(sgsm_train)
+#output_file = "perplexities.txt"  # Specify the path and filename for the output file
+sgsm_train_ppl = np.array(sgsm_train_ppl)
+np.save('sgsm_train_ppl.npy', sgsm_train_ppl)
 # with open(output_file, "a") as f:  # Open the file in append mode ("a")
 #     f.write(f'Average SGSM Unannotated overall perplexity: {np.mean(sgsm_unan_ppl)} Standard Deviation: {np.std(sgsm_unan_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text to the file
 

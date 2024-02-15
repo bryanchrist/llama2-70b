@@ -107,7 +107,7 @@ asdiv = pd.read_csv('data/ASDiv_clean.csv')
 svamp = pd.read_json('data/SVAMP.json')
 svamp['question'] = svamp['Body'] + " " + svamp['Question']
 gsm_hard = pd.read_json('data/gsmhard.json')
-sgsm = pd.read_csv('data/sgsm.csv')
+sgsm = pd.read_csv('sgsm.csv')
 sgsm_unan = sgsm[sgsm['subset']=='sgsm_unannotated']
 sgsm_train = sgsm[sgsm['subset']=='sgsm_train']
 

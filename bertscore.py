@@ -4,6 +4,7 @@ import numpy as np
 bertscore = load("bertscore")
 
 gsm8k = pd.read_csv('data/gsm8k_questions.csv')
+gsm8k = gsm8k.drop_duplicates(subset ='instruction')
 mathwell_all = pd.read_csv('data/mathwell_annotations_final.csv')
 mathwell_all_good = mathwell_all[mathwell_all['good']==1]
 df = pd.read_csv('data/all_models.csv')
@@ -16,6 +17,7 @@ mathwell_good = mathwell[mathwell['good']==1]
 mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
 numglue = pd.read_csv('data/numglue_questions.csv')
+numglue = numglue.drop_duplicates(subset = 'instruction')
 asdiv = pd.read_csv('data/ASDiv_clean.csv')
 svamp = pd.read_json('data/SVAMP.json')
 svamp['question'] = svamp['Body'] + " " + svamp['Question']
@@ -160,11 +162,11 @@ output_file = "bertscores.txt"  # Specify the path and filename for the output f
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(result + "\n")  # Append the newly generated text to the file
     
-# scores = score(gsm8k, gsm8k, 'instruction', 'instruction', same_df = True)
-# result = f"Average GSM8K overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
-# output_file = "bertscores.txt"  # Specify the path and filename for the output file
-# with open(output_file, "a") as f:  # Open the file in append mode ("a")
-#     f.write("\n\n ### New Results ### \n\n" + result + "\n")  # Append the newly generated text to the file
+scores = score(gsm8k, gsm8k, 'instruction', 'instruction', same_df = True)
+result = f"Average GSM8K overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 # scores = score(mathwell_all_good, mathwell_all_good, 'question', 'question', same_df = True)
 # result = f"Average MATHWELL Train overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
@@ -298,12 +300,12 @@ with open(output_file, "a") as f:  # Open the file in append mode ("a")
 # # with open(output_file, "a") as f:  # Open the file in append mode ("a")
 # #     f.write(result + "\n")  # Append the newly generated text to the file
     
-# # scores = score(numglue, numglue, 'instruction', 'instruction', same_df = True)
-# # result = f"Average numglue overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
-# # output_file = "bertscores.txt"  # Specify the path and filename for the output file
-# # with open(output_file, "a") as f:  # Open the file in append mode ("a")
-# #     f.write(result + "\n")  # Append the newly generated text to the file
-# #     #numglue is instruction rest are questions
+scores = score(numglue, numglue, 'instruction', 'instruction', same_df = True)
+result = f"Average numglue overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file
+    #numglue is instruction rest are questions
     
 # # scores = score(asdiv, asdiv, 'question', 'question', same_df = True)
 # # result = f"Average asdiv overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"

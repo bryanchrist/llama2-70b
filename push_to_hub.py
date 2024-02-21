@@ -94,5 +94,6 @@ sys.stdin = sys.__stdin__
 
 # Load the adapter weights
 model = PeftModel.from_pretrained(model, adapter_path)
+url = "https://huggingface.co/bryanchrist/MATHWELL"
 model.push_to_hub("bryanchrist/MATHWELL")
 tokenizer.push_to_hub("bryanchrist/MATHWELL")

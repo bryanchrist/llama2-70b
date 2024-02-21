@@ -154,3 +154,4 @@ Average mammoth MaC overall BERTScore: Precision: 0.8636434873696536, Recall: 0.
 Average mammoth all generations/mammoth MaC overall BERTScore: Precision: 0.8620930382652403, Recall: 0.8610207990470884, F1: 0.8614486537803139
 Average mammoth MaC/GSM8K BERTScore: Precision: 0.8531177363672455, Recall: 0.8408487366107795, F1: 0.8468445647593503
 Average numglue overall BERTScore: Precision: 0.8152694408504069, Recall: 0.8152454651836157, F1: 0.8148550397938042
+Average SGSM Train overall BERTScore: Precision: 0.8520166708260477, Recall: 0.8520961900995075, F1: 0.85196146384947

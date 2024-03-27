@@ -16,6 +16,8 @@ mathwell = df[df['model']=='mathwell']
 mathwell_good = mathwell[mathwell['good']==1]
 mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
+gpt35 = df[df['model']=='gpt35']
+gpt35_good = gpt35[gpt35['good']==1]
 numglue = pd.read_csv('data/numglue_questions.csv')
 numglue = numglue.drop_duplicates(subset = 'instruction')
 asdiv = pd.read_csv('data/ASDiv_clean.csv')
@@ -137,11 +139,11 @@ def score(df1, df2, df1var, df2var, same_df = False, limit = 2000):
                     preds = []
                     
     return (precision, recall, f1)
-scores = score(sgsm_train, sgsm_train, 'question', 'question', same_df = True)
-result = f"Average SGSM Train overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
-output_file = "bertscores.txt"  # Specify the path and filename for the output file
-with open(output_file, "a") as f:  # Open the file in append mode ("a")
-    f.write(result + "\n")  # Append the newly generated text to the file  # Append the newly generated text to the file
+# scores = score(sgsm_train, sgsm_train, 'question', 'question', same_df = True)
+# result = f"Average SGSM Train overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+# output_file = "bertscores.txt"  # Specify the path and filename for the output file
+# with open(output_file, "a") as f:  # Open the file in append mode ("a")
+#     f.write(result + "\n")  # Append the newly generated text to the file  # Append the newly generated text to the file
     
 # scores = score(sgsm_unan, sgsm_unan, 'question', 'question', same_df = True)
 # result = f"Average SGSM Unannotated overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
@@ -232,6 +234,30 @@ with open(output_file, "a") as f:  # Open the file in append mode ("a")
 # output_file = "bertscores.txt"  # Specify the path and filename for the output file
 # with open(output_file, "a") as f:  # Open the file in append mode ("a")
 #     f.write(result + "\n")  # Append the newly generated text to the file
+
+scores = score(gpt35, gpt35, 'question', 'question', same_df = True, limit = 250)
+result = f"Average gpt35 overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file
+
+scores = score(gpt35_good, gpt35_good, 'question', 'question', same_df = True, limit = 250)
+result = f"Average gpt35 MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file
+    
+scores = score(gpt35,gpt35_good, 'question', 'question')
+result = f"Average gpt35 all generations/gpt35 MaC overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file
+
+scores = score(gsm8k, gpt35, 'instruction', 'question')
+result = f"Average gpt35 MaC/GSM8K BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"
+output_file = "bertscores.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(result + "\n")  # Append the newly generated text to the file
     
 # scores = score(llama, llama, 'question', 'question', same_df = True, limit = 250)
 # result = f"Average llama overall BERTScore: Precision: {np.mean(scores[0])}, Recall: {np.mean(scores[1])}, F1: {np.mean(scores[2])}"

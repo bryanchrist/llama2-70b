@@ -104,6 +104,8 @@ mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
 gpt35 = df[df['model']=='gpt35']
 gpt35_good = gpt35[gpt35['good']==1]
+gpt4 = df[df['model']=='gpt4']
+gpt4_good = gpt4[gpt4['good']==1]
 numglue = pd.read_csv('data/numglue_questions.csv')
 asdiv = pd.read_csv('data/ASDiv_clean.csv')
 svamp = pd.read_json('data/SVAMP.json')
@@ -196,6 +198,9 @@ gpt35_ppl = perplexity(gpt35)
 gpt35_ppl = np.array(gpt35_ppl)
 np.save('gpt35_ppl.npy', gpt35_ppl)
 
+gpt4_ppl = perplexity(gpt4)
+gpt4_ppl = np.array(gpt4_ppl)
+np.save('gpt4_ppl.npy', gpt4_ppl)
 # mathwell_ppl = perplexity(mathwell)
 # mathwell_ppl = np.array(mathwell_ppl)
 # np.save('mathwell_ppl.npy', mathwell_ppl)
@@ -206,6 +211,9 @@ gpt35_mac_ppl = perplexity(gpt35_good)
 gpt35_mac_ppl = np.array(gpt35_mac_ppl)
 np.save('gpt35_mac_ppl.npy', gpt35_mac_ppl)
 
+gpt4_mac_ppl = perplexity(gpt4_good)
+gpt4_mac_ppl = np.array(gpt4_mac_ppl)
+np.save('gpt4_mac_ppl.npy', gpt4_mac_ppl)
 # mathwell_mac_ppl = perplexity(mathwell_good)
 # mathwell_mac_ppl = np.array(mathwell_mac_ppl)
 # np.save('mathwell_mac_ppl.npy', mathwell_mac_ppl)

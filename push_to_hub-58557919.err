@@ -1,0 +1,99 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.2
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-eo0an0fj/peft_579b03a6bdff478c96268486427002c5
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-eo0an0fj/accelerate_499344881c7a48699214c13065e37826
+ERROR: Cannot install -r requirements.txt (line 2), -r requirements.txt (line 3), -r requirements.txt (line 6) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.2
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:02<00:41,  2.96s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:05<00:36,  2.78s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:08<00:32,  2.71s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:10<00:29,  2.66s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:13<00:25,  2.56s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:15<00:22,  2.49s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:17<00:19,  2.46s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:20<00:17,  2.45s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:22<00:14,  2.44s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:25<00:12,  2.42s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:27<00:09,  2.42s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:30<00:07,  2.43s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:32<00:04,  2.48s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:35<00:02,  2.58s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:35<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:35<00:00,  2.38s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 261, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://huggingface.co/api/repos/create
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/hf_api.py", line 2308, in create_repo
+    hf_raise_for_status(r)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 303, in hf_raise_for_status
+    raise HfHubHTTPError(str(e), response=response) from e
+huggingface_hub.utils._errors.HfHubHTTPError: 403 Client Error: Forbidden for url: https://huggingface.co/api/repos/create (Request ID: Root=1-65d66c38-1bbe54e62cd471874018b772;3956f2fd-c2ac-4d04-9f85-4f93d0e5e3f6)
+
+You don't have the rights to create a model under this namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 261, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/api/models/MATHWELL
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/push_to_hub.py", line 97, in <module>
+    model.push_to_hub("MATHWELL")
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 882, in push_to_hub
+    repo_id = self._create_repo(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 709, in _create_repo
+    url = create_repo(repo_id=repo_id, token=token, private=private, exist_ok=True)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/hf_api.py", line 2316, in create_repo
+    self.repo_info(repo_id=repo_id, repo_type=repo_type, token=token)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/hf_api.py", line 1868, in repo_info
+    return method(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/hf_api.py", line 1678, in model_info
+    hf_raise_for_status(r)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 293, in hf_raise_for_status
+    raise RepositoryNotFoundError(message, response) from e
+huggingface_hub.utils._errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-65d66c38-19634c7708e93b9a1d772b59;be750c56-83b9-4102-be7c-bb97c1d8647b)
+
+Repository Not Found for url: https://huggingface.co/api/models/MATHWELL.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.

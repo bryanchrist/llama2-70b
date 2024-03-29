@@ -1,0 +1,75 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.2
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-_a5ytlkq/peft_891a481e873b4952a5fb4da74dc3ac93
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-_a5ytlkq/accelerate_737d1c6e287149b4b2c7d1496b9d4f88
+ERROR: Cannot install -r requirements.txt (line 2), -r requirements.txt (line 3), -r requirements.txt (line 6) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.1.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.1.2
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:640: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:479: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:01<00:25,  1.80s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:03<00:20,  1.59s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:04<00:18,  1.51s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:06<00:16,  1.53s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:07<00:15,  1.51s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:09<00:13,  1.53s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:10<00:12,  1.54s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:12<00:11,  1.60s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:14<00:09,  1.58s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:15<00:07,  1.58s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:17<00:06,  1.58s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:18<00:04,  1.61s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:20<00:03,  1.59s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:21<00:01,  1.57s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:22<00:00,  1.15s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:22<00:00,  1.48s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:374: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 261, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://huggingface.co/api/models/bryanchrist/MATHWELL/preupload/main
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/push_to_hub.py", line 97, in <module>
+    url = "https://huggingface.co/bryanchrist/MATHWELL"
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 895, in push_to_hub
+    return self._upload_modified_files(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py", line 777, in _upload_modified_files
+    return create_commit(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/hf_api.py", line 828, in _inner
+    return fn(self, *args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/hf_api.py", line 2675, in create_commit
+    upload_modes = fetch_upload_modes(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/_commit_api.py", line 483, in fetch_upload_modes
+    hf_raise_for_status(resp)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 303, in hf_raise_for_status
+    raise HfHubHTTPError(str(e), response=response) from e
+huggingface_hub.utils._errors.HfHubHTTPError: 403 Client Error: Forbidden for url: https://huggingface.co/api/models/bryanchrist/MATHWELL/preupload/main (Request ID: Root=1-65d68f77-7fce9c267f15de904ae157ae;7f58d60e-95d4-40f5-abac-1738cd89dbbd)
+
+Forbidden: you must use a write token to upload to a repository.

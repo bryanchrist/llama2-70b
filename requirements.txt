@@ -1,5 +1,5 @@
 bitsandbytes==0.41.1
-transformers==4.33.2
+transformers==4.40.0
 peft @ git+https://github.com/huggingface/peft.git
 accelerate @ git+https://github.com/huggingface/accelerate.git
 einops==0.6.1

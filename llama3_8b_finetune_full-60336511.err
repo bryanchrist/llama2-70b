@@ -1,0 +1,45 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-sso17_ev/peft_a6e543a1b39149dca1b1624d0069770c
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-sso17_ev/accelerate_5915c12a09c74301b6fe78bcc10c8d20
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+Unused kwargs: ['use_auth_token']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:12<00:38, 12.96s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:25<00:25, 12.86s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:38<00:12, 12.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:40<00:00,  8.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:40<00:00, 10.23s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 824, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 695, in train
+    data_module = make_data_module(tokenizer=tokenizer, args=args)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 616, in make_data_module
+    data_collator = DataCollatorForCausalLM(
+TypeError: __init__() missing 1 required positional argument: 'predict_with_generate'

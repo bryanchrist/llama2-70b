@@ -1,0 +1,67 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-a48eswko/peft_7030523c31db4a31acf82a8bbc14c57c
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-a48eswko/accelerate_eca3ed91a15749c99e16c1502478e8ed
+ERROR: Cannot install -r requirements.txt (line 2) and huggingface_hub==0.16.4 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 2934.11it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.22s/it]
+You are calling `save_pretrained` to a 4-bit converted model, but your `bitsandbytes` version doesn't support it. If you want to save 4-bit models, make sure to have `bitsandbytes>=0.41.3` installed.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Found cached dataset json (file:///home/brc4cb/.cache/huggingface/datasets/json/default-80c09d9e1b3d38d8/0.0.0)
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 548, in load_data
+    full_dataset = local_dataset(dataset_name)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 490, in local_dataset
+    full_dataset = Dataset.from_json(path_or_paths=[dataset_name])
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/datasets/arrow_dataset.py", line 1108, in from_json
+    return JsonDatasetReader(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/datasets/io/json.py", line 67, in read
+    dataset = self.builder.as_dataset(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/datasets/builder.py", line 1128, in as_dataset
+    raise NotImplementedError(f"Loading a dataset cached in a {type(self._fs).__name__} is not supported.")
+NotImplementedError: Loading a dataset cached in a LocalFileSystem is not supported.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 821, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 692, in train
+    data_module = make_data_module(tokenizer=tokenizer, args=args)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 589, in make_data_module
+    dataset = load_data(args.dataset)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 551, in load_data
+    raise ValueError(f"Error loading dataset from {dataset_name}")
+ValueError: Error loading dataset from full_train.json

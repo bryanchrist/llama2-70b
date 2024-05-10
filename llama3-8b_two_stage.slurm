@@ -5,8 +5,8 @@
 #SBATCH -C gpupod
 
 ##SBATCH --hint=nomultithread #8GB per reserved CPU core if hyperthreading deactivated and 1/2 that when active
-#SBATCH --cpus-per-task=10
-#SBATCH --mem=100G
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=50G
 ##SBATCH --gres=gpu:1
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
@@ -41,8 +41,8 @@ python qlora_no_embed.py \
     --save_steps 250 \
     --save_total_limit 40 \
     --evaluation_strategy steps \
-    --eval_dataset_size 2000 \
-    --max_eval_samples 1000 \
+    --eval_dataset_size 250 \
+    --max_eval_samples 250 \
     --per_device_eval_batch_size 1 \
     --max_new_tokens 400 \
     --dataloader_num_workers 3 \
@@ -61,12 +61,12 @@ python qlora_no_embed.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="data/initial_train.json" \
+    --dataset="mathwell_final.json" \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 16 \
-    --max_steps 7500 \
-    --eval_steps 200 \
-    --learning_rate 0.00001 \
+    --max_steps 5000 \
+    --eval_steps 250 \
+    --learning_rate 0.0001 \
     --adam_beta2 0.999 \
     --max_grad_norm 0.3 \
     --lora_dropout 0.05 \

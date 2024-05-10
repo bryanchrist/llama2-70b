@@ -1,0 +1,48 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-1r5cjq42/transformers_d20430a248d54ca393e3eb40e07a4cbe
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-1r5cjq42/peft_199da2d80eda4a7a90ea455e3eefed9f
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-1r5cjq42/accelerate_e4bee02390294546b164faf7941b06fb
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/training_args.py:1449: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Unused kwargs: ['use_auth_token']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.05it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.35it/s]
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 855, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 700, in train
+    model = get_accelerate_model(args, checkpoint_dir)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 333, in get_accelerate_model
+    if tokenizer._pad_token is None:
+NameError: name 'tokenizer' is not defined

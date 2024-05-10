@@ -1,0 +1,68 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-rlrlapsf/peft_6e90e3898143413b90251307221fd268
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-rlrlapsf/accelerate_556a5f91653b4e29ad02672d4e09cb17
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Unused kwargs: ['use_auth_token']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 2577.15it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.11s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.03it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.31it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 28019 examples [00:00, 92800.70 examples/s]Generating train split: 28019 examples [00:00, 70402.32 examples/s]
+Map:   0%|          | 0/1000 [00:00<?, ? examples/s]Map:  49%|████▊     | 486/1000 [00:00<00:00, 4803.74 examples/s]Map: 100%|██████████| 1000/1000 [00:00<00:00, 6652.87 examples/s]
+Map:   0%|          | 0/23217 [00:00<?, ? examples/s]Map:   7%|▋         | 1519/23217 [00:00<00:01, 15116.53 examples/s]Map:  14%|█▎        | 3167/23217 [00:00<00:01, 15908.47 examples/s]Map:  21%|██        | 4859/23217 [00:00<00:01, 16320.46 examples/s]Map:  28%|██▊       | 6510/23217 [00:00<00:01, 16389.83 examples/s]Map:  39%|███▊      | 8981/23217 [00:00<00:00, 16423.60 examples/s]Map:  49%|████▉     | 11430/23217 [00:00<00:00, 16381.31 examples/s]Map:  60%|█████▉    | 13902/23217 [00:00<00:00, 16414.96 examples/s]Map:  70%|███████   | 16348/23217 [00:01<00:00, 16375.25 examples/s]Map:  77%|███████▋  | 17987/23217 [00:01<00:00, 16378.04 examples/s]Map:  88%|████████▊ | 20422/23217 [00:01<00:00, 16327.28 examples/s]Map:  99%|█████████▊| 22881/23217 [00:01<00:00, 16345.20 examples/s]Map: 100%|██████████| 23217/23217 [00:01<00:00, 15363.00 examples/s]
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+max_steps is given, it will override any value given in num_train_epochs
+  0%|          | 0/7500 [00:00<?, ?it/s]/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 821, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 783, in train
+    train_result = trainer.train()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1859, in train
+    return inner_training_loop(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 2203, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 3147, in training_step
+    self.accelerator.backward(loss)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/accelerator.py", line 2013, in backward
+    loss.backward(**kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
+  0%|          | 0/7500 [00:01<?, ?it/s]

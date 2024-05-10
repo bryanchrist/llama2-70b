@@ -1,0 +1,49 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-2f5qz_q4/transformers_2523293f72a44947969c39187849365c
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-2f5qz_q4/peft_bdc46104931942b7a8bc2196ceb90895
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-2f5qz_q4/accelerate_26ad9adefd1e4d80920fa6f5c6657d66
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 118, in <module>
+    class TrainingArguments(transformers.TrainingArguments):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/dataclasses.py", line 1021, in dataclass
+    return wrap(cls)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/dataclasses.py", line 1013, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash, frozen)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/dataclasses.py", line 863, in _process_class
+    cls_fields = [_get_field(cls, name, type)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/dataclasses.py", line 863, in <listcomp>
+    cls_fields = [_get_field(cls, name, type)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/dataclasses.py", line 747, in _get_field
+    raise ValueError(f'mutable default {type(f.default)} for field '
+ValueError: mutable default <class 'dict'> for field gradient_checkpointing_kwargs is not allowed: use default_factory

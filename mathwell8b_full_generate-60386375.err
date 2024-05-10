@@ -1,0 +1,63 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-iqrhzngq/transformers_d13c90e79f454b349d317115d2d4ae6a
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-iqrhzngq/peft_ebb6a53ffa0d41d2b4f28aa16b373713
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-iqrhzngq/accelerate_25f1462e3b584e28b456d8f5339dcf89
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+ERROR: Could not install packages due to an OSError: [Errno 16] Device or resource busy: '.nfs00000004d520c8f5000006d8'
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:757: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+`low_cpu_mem_usage` was None, now set to True since model is quantized.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:20,  6.88s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.18s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.66s/it]
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/mathwell8b_full.py", line 92, in <module>
+    model = PeftModel.from_pretrained(model, adapter_path)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/peft_model.py", line 356, in from_pretrained
+    model.load_adapter(model_id, adapter_name, is_trainable=is_trainable, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/peft_model.py", line 730, in load_adapter
+    load_result = set_peft_model_state_dict(self, adapters_weights, adapter_name=adapter_name)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/utils/save_and_load.py", line 249, in set_peft_model_state_dict
+    load_result = model.load_state_dict(peft_model_state_dict, strict=False)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2152, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for PeftModelForCausalLM:
+	size mismatch for base_model.model.model.embed_tokens.weight: copying a param with shape torch.Size([128320, 4096]) from checkpoint, the shape in current model is torch.Size([128256, 4096]).
+	size mismatch for base_model.model.lm_head.weight: copying a param with shape torch.Size([128320, 4096]) from checkpoint, the shape in current model is torch.Size([128256, 4096]).

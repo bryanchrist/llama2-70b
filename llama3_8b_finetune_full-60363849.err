@@ -1,0 +1,79 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-h_pc5b77/transformers_051b7a74360c49179624d505760c0304
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-h_pc5b77/peft_e9a6b72a6d944017ae23d0b7cb5165e0
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-h_pc5b77/accelerate_86c2b1cab77443c69e4836840390fc2d
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/training_args.py:1449: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Unused kwargs: ['use_auth_token']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.14s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.06it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+max_steps is given, it will override any value given in num_train_epochs
+  0%|          | 0/7500 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 841, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 803, in train
+    train_result = trainer.train()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1859, in train
+    return inner_training_loop(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 2203, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 3138, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 3161, in compute_loss
+    outputs = model(**inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/utils/operations.py", line 822, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/utils/operations.py", line 810, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/amp/autocast_mode.py", line 16, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/peft_model.py", line 1129, in forward
+    return self.base_model(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/tuners/tuners_utils.py", line 161, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 1233, in forward
+    shift_logits = logits[..., :-1, :].contiguous()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.83 GiB. GPU 0 has a total capacty of 79.15 GiB of which 7.17 GiB is free. Including non-PyTorch memory, this process has 71.93 GiB memory in use. Of the allocated memory 70.26 GiB is allocated by PyTorch, and 1.18 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+  0%|          | 0/7500 [00:04<?, ?it/s]

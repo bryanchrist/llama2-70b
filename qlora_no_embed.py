@@ -8,12 +8,14 @@ from os.path import exists, join, isdir
 from dataclasses import dataclass, field
 import sys
 from typing import Optional, Dict, Sequence
+from typing import DefaultDict
+from collections import defaultdict
 import numpy as np
 from tqdm import tqdm
 import logging
 import bitsandbytes as bnb
 import pandas as pd
-
+from trl import SFTTrainer
 import torch
 import os
 #os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
@@ -26,6 +28,7 @@ from transformers import (
     AutoModelForCausalLM,
     set_seed,
     Seq2SeqTrainer,
+    Trainer,
     BitsAndBytesConfig,
     LlamaTokenizer
 
@@ -114,7 +117,7 @@ class DataArguments:
     )
 
 @dataclass
-class TrainingArguments(transformers.Seq2SeqTrainingArguments):
+class TrainingArguments(transformers.TrainingArguments):
     cache_dir: Optional[str] = field(
         default=None
     )
@@ -192,6 +195,7 @@ class TrainingArguments(transformers.Seq2SeqTrainingArguments):
     remove_unused_columns: bool = field(default=False, metadata={"help": 'Removed unused columns. Needed to make this codebase work.'})
     max_grad_norm: float = field(default=0.3, metadata={"help": 'Gradient clipping max norm. This is tuned and works well for all models tested.'})
     gradient_checkpointing: bool = field(default=True, metadata={"help": 'Use gradient checkpointing. You want to use this.'})
+    gradient_checkpointing_kwargs: DefaultDict[str, bool] = field(default_factory=lambda: defaultdict(bool), metadata={"help": 'Additional arguments for gradient checkpointing'})
     do_train: bool = field(default=True, metadata={"help": 'To train or not to train, that is the question?'})
     lr_scheduler_type: str = field(default='constant', metadata={"help": 'Learning rate schedule. Constant a bit better than cosine, and has advantage for analysis'})
     warmup_ratio: float = field(default=0.03, metadata={"help": 'Fraction of steps to do a warmup for'})
@@ -274,7 +278,7 @@ class SavePeftModelCallback(transformers.TrainerCallback):
         touch(join(args.output_dir, 'completed'))
         self.save_model(args, state, kwargs)
 
-def get_accelerate_model(args, checkpoint_dir):
+def get_accelerate_model(args, checkpoint_dir, tokenizer):
 
     n_gpus = torch.cuda.device_count()
     max_memory = f'{args.max_memory_MB}MB'
@@ -295,8 +299,6 @@ def get_accelerate_model(args, checkpoint_dir):
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,
         cache_dir=args.cache_dir,
-        load_in_4bit=args.bits == 4,
-        load_in_8bit=args.bits == 8,
         device_map=device_map,
         max_memory=max_memory,
         quantization_config=BitsAndBytesConfig(
@@ -328,13 +330,42 @@ def get_accelerate_model(args, checkpoint_dir):
         model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=args.gradient_checkpointing)
     if args.gradient_checkpointing:
         model.gradient_checkpointing_enable()
+    if tokenizer._pad_token is None:
+        smart_tokenizer_and_embedding_resize(
+            special_tokens_dict=dict(pad_token=DEFAULT_PAD_TOKEN),
+            tokenizer=tokenizer,
+            model=model,
+        )
 
+    print('Adding special tokens.')
+    tokenizer.add_special_tokens({
+            "eos_token": tokenizer.convert_ids_to_tokens(model.config.eos_token_id),
+            "bos_token": tokenizer.convert_ids_to_tokens(model.config.bos_token_id),
+    #                 "unk_token": tokenizer.convert_ids_to_tokens(
+    #                     model.config.pad_token_id if model.config.pad_token_id != -1 else tokenizer.pad_token_id
+    #                 ),
+    })
     if not args.full_finetune:
         if checkpoint_dir is not None:
             print("Loading adapters from checkpoint.")
+            print(f'adding LoRA modules...')
+            if hasattr(model, "enable_input_require_grads"):
+                model.enable_input_require_grads()
+            else:
+                def make_inputs_require_grad(module, input, output):
+                     output.requires_grad_(True)
+            
+                model.get_input_embeddings().register_forward_hook(make_inputs_require_grad)
             model = PeftModel.from_pretrained(model, join(checkpoint_dir, 'adapter_model'), is_trainable=True)
         else:
             print(f'adding LoRA modules...')
+            if hasattr(model, "enable_input_require_grads"):
+                model.enable_input_require_grads()
+            else:
+                def make_inputs_require_grad(module, input, output):
+                     output.requires_grad_(True)
+            
+                model.get_input_embeddings().register_forward_hook(make_inputs_require_grad)
             modules = find_all_linear_names(args, model)
             config = LoraConfig(
                 r=args.lora_r,
@@ -617,7 +648,7 @@ def make_data_module(tokenizer: transformers.PreTrainedTokenizer, args) -> Dict:
         source_max_len=args.source_max_len,
         target_max_len=args.target_max_len,
         train_on_source=args.train_on_source,
-        predict_with_generate=args.predict_with_generate,
+        predict_with_generate= False, #args.predict_with_generate,
     )
     return dict(
         train_dataset=train_dataset if args.do_train else None,
@@ -647,6 +678,7 @@ def train():
     model_args, data_args, training_args, generation_args, extra_args = \
         hfparser.parse_args_into_dataclasses(return_remaining_strings=True)
     training_args.generation_config = transformers.GenerationConfig(**vars(generation_args))
+    training_args.gradient_checkpointing_kwargs = {'use_reentrant': False}  # Add this line
     args = argparse.Namespace(
         **vars(model_args), **vars(data_args), **vars(training_args)
     )
@@ -654,15 +686,8 @@ def train():
     checkpoint_dir, completed_training = get_last_checkpoint(args.output_dir)
     if completed_training:
         print('Detected that training was already completed!')
-
-    model = get_accelerate_model(args, checkpoint_dir)
-
-    model.config.use_cache = False
-    print_trainable_parameters(args, model)
-    print('loaded model')
-    set_seed(args.seed)
-
-    # Tokenizer
+     
+     # Tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_name_or_path,
         cache_dir=args.cache_dir,
@@ -672,27 +697,34 @@ def train():
         #use_auth_token=True, 
         token=token
     )
-    if tokenizer._pad_token is None:
-        smart_tokenizer_and_embedding_resize(
-            special_tokens_dict=dict(pad_token=DEFAULT_PAD_TOKEN),
-            tokenizer=tokenizer,
-            model=model,
-        )
-    if 'llama' in args.model_name_or_path or isinstance(tokenizer, LlamaTokenizer):
+    model = get_accelerate_model(args, checkpoint_dir, tokenizer)
+
+    model.config.use_cache = False
+    print_trainable_parameters(args, model)
+    print('loaded model')
+    set_seed(args.seed)
+
+ #   if tokenizer._pad_token is None:
+  #      smart_tokenizer_and_embedding_resize(
+  #          special_tokens_dict=dict(pad_token=DEFAULT_PAD_TOKEN),
+ #           tokenizer=tokenizer,
+  #          model=model,
+  #      )
+#    if 'llama' in args.model_name_or_path or isinstance(tokenizer, LlamaTokenizer):
     #     # LLaMA tokenizer may not have correct special tokens set.
     #     # Check and add them if missing to prevent them from being parsed into different tokens.
     #     # Note that these are present in the vocabulary.
     #     # Note also that `model.config.pad_token_id` is 0 which corresponds to `<unk>` token.
-        print('Adding special tokens.')
-        tokenizer.add_special_tokens({
-                "eos_token": tokenizer.convert_ids_to_tokens(model.config.eos_token_id),
-                "bos_token": tokenizer.convert_ids_to_tokens(model.config.bos_token_id),
+#        print('Adding special tokens.')
+#        tokenizer.add_special_tokens({
+      #          "eos_token": tokenizer.convert_ids_to_tokens(model.config.eos_token_id),
+       #         "bos_token": tokenizer.convert_ids_to_tokens(model.config.bos_token_id),
 #                 "unk_token": tokenizer.convert_ids_to_tokens(
 #                     model.config.pad_token_id if model.config.pad_token_id != -1 else tokenizer.pad_token_id
 #                 ),
-        })
+#        })
     data_module = make_data_module(tokenizer=tokenizer, args=args)
-    trainer = Seq2SeqTrainer(
+    trainer = Trainer(
         model=model,
         tokenizer=tokenizer,
         args=training_args,

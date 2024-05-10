@@ -1,0 +1,72 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-qk96jpwr/peft_4326a8eb51d944eab5d3866c98d2929d
+  Resolved https://github.com/huggingface/peft.git to commit 5a4b9cade64bac8afdff5006ee9dd815c90b5469
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-qk96jpwr/accelerate_0bfbcc34ae6b415ca6696eb392442592
+  Resolved https://github.com/huggingface/accelerate.git to commit abc86c0e35171558b071bbbf4bd377d9675d2bfe
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: bitsandbytes==0.41.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (0.41.1)
+Collecting transformers==4.40.0 (from -r requirements.txt (line 2))
+  Using cached transformers-4.40.0-py3-none-any.whl (9.0 MB)
+Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (0.6.1)
+Requirement already satisfied: evaluate==0.4.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: scikit-learn==1.2.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (1.2.2)
+Requirement already satisfied: scipy==1.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (1.11.1)
+Requirement already satisfied: sentencepiece==0.1.99 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 9)) (0.1.99)
+Requirement already satisfied: wandb==0.15.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 10)) (0.15.3)
+Requirement already satisfied: dash==2.11.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 11)) (2.11.1)
+Requirement already satisfied: bert_score in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 12)) (0.3.13)
+Requirement already satisfied: jupyter-dash==0.4.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 14)) (0.4.2)
+Requirement already satisfied: dash-bootstrap-components==1.2.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 16)) (1.2.1)
+Requirement already satisfied: dash-table-experiments==0.6.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 18)) (0.6.0)
+Requirement already satisfied: pymongo==4.3.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 20)) (4.3.2)
+Requirement already satisfied: lxml==4.9.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 22)) (4.9.1)
+Requirement already satisfied: plotly-express==0.4.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 24)) (0.4.1)
+Collecting huggingface_hub==0.16.4 (from -r requirements.txt (line 26))
+  Using cached huggingface_hub-0.16.4-py3-none-any.whl (268 kB)
+Requirement already satisfied: numpy==1.25.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 28)) (1.25.2)
+Requirement already satisfied: pandas==2.0.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 30)) (2.0.3)
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers==4.40.0->-r requirements.txt (line 2)) (3.9.0)
+INFO: pip is looking at multiple versions of transformers to determine which version is compatible with other requirements. This could take a while.
+
+The conflict is caused by:
+    The user requested huggingface_hub==0.16.4
+    transformers 4.40.0 depends on huggingface-hub<1.0 and >=0.19.3
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+token loaded
+Token has not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/brc4cb/.cache/huggingface/token
+Login successful
+loading base model meta-llama/Meta-Llama-3-8B...
+adding LoRA modules...
+trainable params: 83886080.0 || all params: 4708372480 || trainable: 1.7816364435126424
+loaded model
+Adding special tokens.
+Downloading and preparing dataset json/default to file:///home/brc4cb/.cache/huggingface/datasets/json/default-5adb5ce6342ef9f7/0.0.0...
+Dataset json downloaded and prepared to file:///home/brc4cb/.cache/huggingface/datasets/json/default-5adb5ce6342ef9f7/0.0.0. Subsequent calls will reuse this data.

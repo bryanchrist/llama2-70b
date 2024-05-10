@@ -1,0 +1,41 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-v577g66l/transformers_950e3669fe9643159b41cb6fac7f4ed7
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-v577g66l/peft_a2d527d688f6484fbf30914b4727107c
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-v577g66l/accelerate_e5ea5cc2df454acc903ff200e6d1454f
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 118, in <module>
+    class TrainingArguments(transformers.TrainingArguments):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 196, in TrainingArguments
+    gradient_checkpointing_kwargs: DefaultDict[str, bool] = field(default_factory=lambda: defaultdict(bool), metadata={"help": 'Additional arguments for gradient checkpointing'})
+NameError: name 'DefaultDict' is not defined

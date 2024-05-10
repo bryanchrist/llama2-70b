@@ -1,0 +1,58 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-ijdir7wh/transformers_4f99bf225d304f51bb3202f8758943ba
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-ijdir7wh/peft_e4008f12a8924e689964586d000bc2f6
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-ijdir7wh/accelerate_4f03f9da8d2043f7ab1868ed8c0d2056
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/training_args.py:1449: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Unused kwargs: ['use_auth_token']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 2/4 [00:00<00:00, 16.02it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 20.66it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.34s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.49it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 841, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 676, in train
+    model = get_accelerate_model(args, checkpoint_dir)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 345, in get_accelerate_model
+    model = PeftModel.from_pretrained(model, join(checkpoint_dir, 'adapter_model'), is_trainable=True)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/peft_model.py", line 356, in from_pretrained
+    model.load_adapter(model_id, adapter_name, is_trainable=is_trainable, **kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/peft_model.py", line 730, in load_adapter
+    load_result = set_peft_model_state_dict(self, adapters_weights, adapter_name=adapter_name)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/utils/save_and_load.py", line 249, in set_peft_model_state_dict
+    load_result = model.load_state_dict(peft_model_state_dict, strict=False)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2152, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for PeftModelForCausalLM:
+	size mismatch for base_model.model.model.embed_tokens.weight: copying a param with shape torch.Size([128320, 4096]) from checkpoint, the shape in current model is torch.Size([128256, 4096]).
+	size mismatch for base_model.model.lm_head.weight: copying a param with shape torch.Size([128320, 4096]) from checkpoint, the shape in current model is torch.Size([128256, 4096]).

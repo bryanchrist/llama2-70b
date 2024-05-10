@@ -1,0 +1,46 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-aas_x3c2/peft_d338f462ae3349a0b302a59b3cb1226f
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-aas_x3c2/accelerate_7936af5a2ed341d686f67ea72467c734
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.3.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.3.0
+
+
+Unused kwargs: ['use_auth_token']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [00:25<01:17, 25.76s/it]Downloading shards:  50%|█████     | 2/4 [00:51<00:51, 25.66s/it]Downloading shards:  75%|███████▌  | 3/4 [01:17<00:25, 25.69s/it]Downloading shards: 100%|██████████| 4/4 [01:23<00:00, 18.07s/it]Downloading shards: 100%|██████████| 4/4 [01:23<00:00, 20.86s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:12<00:37, 12.34s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:23<00:23, 11.85s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:36<00:11, 12.00s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:38<00:00,  8.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:38<00:00,  9.74s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 824, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 695, in train
+    data_module = make_data_module(tokenizer=tokenizer, args=args)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 621, in make_data_module
+    predict_with_generate=args.predict_with_generate,
+AttributeError: 'Namespace' object has no attribute 'predict_with_generate'

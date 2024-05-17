@@ -1,4 +1,5 @@
 bitsandbytes
+wandb
 transformers @ git+https://github.com/huggingface/transformers
 datasets
 trl
@@ -9,7 +10,6 @@ evaluate
 scikit-learn==1.2.2
 scipy==1.11.1
 sentencepiece==0.1.99
-wandb==0.15.3
 dash==2.11.1
 bert_score
 

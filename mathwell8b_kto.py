@@ -168,21 +168,4 @@ for i in range(0,3000):
     output_file = "mathwell8b_kto_questions_few.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Topic: {topic} " + newly_generated_text + "\n")  # Append the newly generated text to the file
-        
-    ## Zero shot 
-    final_prompt = f"Below is an instruction that describes a task. " + f"Write a response that appropriately completes the request.\n\n" + f"### Instruction:\n{final_prompt}\n\n### Response: "
-    inputs = tokenizer.encode(final_prompt, return_tensors="pt")
-    attention_mask = torch.ones_like(inputs)
-    inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 200, do_sample = True)
-    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-    
-    # Split the generated text by the prompt to extract the newly generated part
-    generated_text_parts = generated_text.split(final_prompt)
-    newly_generated_text = generated_text_parts[-1].strip()
-    if "\nBel" in newly_generated_text:
-        newly_generated_text = newly_generated_text.split("\nBel")[0]
-    output_file = "mathwell8b_kto_questions_zero.txt"  # Specify the path and filename for the output file
-    with open(output_file, "a") as f:  # Open the file in append mode ("a")
-        f.write(f"Topic: {topic} " + newly_generated_text + "\n")  # Append the newly generated text to the file
     

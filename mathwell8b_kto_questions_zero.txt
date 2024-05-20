@@ -302,3 +302,154 @@ def solution():
     forwards = 11
     other_players = total_players - goalies - defenders - forwards
     return other_players
+Topic: Minecraft 1. Steve, a Minecraft player, has 2000 Minecraft coins. He spends 1000 coins on a new outfit and 500 coins on a new pickaxe. How many coins does he have left?
+Solution:
+def solution():
+    #Steve started with 2000 coins
+    coins_initial = 2000
+    #He spent 1000 coins on a new outfit
+    coins_spent_outfit = 1000
+    #He spent 500 coins on a new pickaxe
+    coins_spent_pickaxe = 500
+    #The answer is
+    result = coins_initial - coins_spent_outfit - coins_spent_pickaxe
+    return result
+Topic: cookies 1. A 750-ml bottle of soda has 30% more soda than a 600-ml bottle. How many ml of soda are in 2 750-ml bottles and 3 600-ml bottles?
+2. A 750-ml bottle of soda has 30% more soda than a 600-ml bottle. How many ml of soda are in 2 750-ml bottles and 3 600-ml bottles? 750-ml bottle = 750 ml 600-ml bottle = 600 ml 2 750-ml bottles = 2 * 750 = 1500 ml 3 600-ml bottles = 3 * 600 = 1800 ml The answer is 1500 + 1800 = 3300 ml.
+
+Solution:
+def solution():
+    #750-ml bottle has 30% more soda than a 600-ml bottle
+    soda_750ml = 750
+    soda
+Topic: Captain Marvel 1. Captain Marvel has 1200 gold coins. She spends 200 gold coins to buy a new outfit. She then spends 300 gold coins to buy a new pair of boots. How many gold coins does she have left?
+Solution:
+def solution():
+    #Captain Marvel started with 1200 gold coins
+    gold_coins_initial = 1200
+    #She spent 200 gold coins on a new outfit
+    outfit_cost = 200
+    #She spent 300 gold coins on a new pair of boots
+    boots_cost = 300
+    #The answer is
+    result = gold_coins_initial - outfit_cost - boots_cost
+    return result
+Topic: pizza 1. A 12-slice pizza was 1/2 eaten by the time the delivery driver arrived. 2/3 of the remaining slices were eaten by the time the driver left. How many slices of pizza are left?
+Solution:
+def solution():
+    #A 12-slice pizza was 1/2 eaten
+    pizza_slices_eaten_1 = 12 * 1/2
+    #2/3 of the remaining slices were eaten
+    pizza_slices_eaten_2 = (12 - pizza_slices_eaten_1) * 2/3
+    #The answer is
+    result = 12 - pizza_slices_eaten_1 - pizza_slices_eaten_2
+    return result
+Topic: candy 1. A 1-pound box of candy has 400 pieces. A 2-pound box of candy has 600 pieces. How many more pieces of candy are in 2 1-pound boxes than in 1 2-pound box?
+2. Python function to solve the problem
+def solution():
+    #1-pound box of candy has 400 pieces
+    pieces_1_pound_box = 400
+    #2-pound box of candy has 600 pieces
+    pieces_2_pound_box = 600
+    #2 1-pound boxes of candy have
+    pieces_2_1_pound_boxes = 2 * pieces_1_pound_box
+    #pieces of candy
+    #1 2-pound box of candy has
+    pieces_1_2_pound_box = pieces_2_pound_box
+    #pieces of candy
+    #The answer is
+    result = pieces_2_1_pound_boxes - pieces_1_
+Topic: Barbie 1. Barbie has 200 pink pearls. She has 100 more pink pearls than she has blue pearls. How many blue pearls does she have?
+Solution:
+def solution():
+    #Barbie has 200 pink pearls
+    pink_pearls = 200
+    #She has 100 more pink pearls than she has blue pearls
+    blue_pearls = pink_pearls - 100
+    #The answer is
+    result = blue_pearls
+    return result
+Topic: Spiderman 1. Spiderman has 100 spider webs. He uses 10 spider webs per day. How many days will his 100 spider webs last?
+def solution():
+    #Spiderman has 100 spider webs
+    spider_webs = 100
+    #He uses 10 spider webs per day
+    spider_webs_per_day = 10
+    #The answer is
+    result = spider_webs / spider_webs_per_day
+    return result
+Topic: cheer leading # define the function
+def solution():
+    # there are 5 cheer leading squads
+    squads = 5
+    # each squad has 10 members
+    members = 10
+    # the answer is
+    result = squads * members
+    return result
+Topic: lacrosse 1. A lacrosse team has 12 players. 
+
+2. 3 of the players are from New York, 
+
+4. 2 of the players are from California, 
+
+5. 2 of the players are from Florida, and 
+
+6. the rest of the players are from other states. 
+
+7. How many players are from other states?
+Solution:
+def solution():
+    #The team has 12 players
+    total_players = 12
+    #3 of the players are from New York
+    new_york_players = 3
+    #4 of the players are from California
+    california_players = 4
+    #2 of the players are from Florida
+    florida_players = 2
+    #The rest of the players are from other states
+    other_states_players = total_players - new_york_players - california_players - florida_players
+    #The answer is
+    result = other_states_players
+    return result
+Topic: Pokémon 1. A Pokémon trainer has 50 Pokémon. 30 of them are Pikachu. 10 of them are Squirtle. 5 of them are Charmander. The rest are Bulbasaur. How many Bulbasaur does the trainer have?
+Solution:
+def solution():
+    #A Pokémon trainer has 50 Pokémon
+    pokemon_total = 50
+    #30 of them are Pikachu
+    pikachu = 30
+    #10 of them are Squirtle
+    squirtle = 10
+    #5 of them are Charmander
+    charmander = 5
+    #The rest are Bulbasaur. The answer is
+    bulbasaur = pokemon_total - pikachu - squirtle - charmander
+    return bulbasaur
+Topic: Hello Kitty Hello Kitty has 2000 yen. She spends 500 yen on a new outfit and 200 yen on a new toy. How much yen does she have left?
+Solution:
+def solution():
+    #Hello Kitty started with 2000 yen
+    yen_initial = 2000
+    #She spent 500 yen on a new outfit
+    yen_spent_outfit = 500
+    #She spent 200 yen on a new toy
+    yen_spent_toy = 200
+    #The answer is
+    result = yen_initial - yen_spent_outfit - yen_spent_toy
+    return result
+Topic: Harry Potter 1. Harry Potter has 1000 galleons. He spends 200 galleons on a new broomstick, 300 galleons on a new robe, and 100 galleons on a new pair of shoes. How many galleons does he have left?
+Solution:
+def solution():
+    #Harry Potter started with 1000 galleons
+    galleons_initial = 1000
+    #He spent 200 galleons on a new broomstick
+    galleons_broomstick = 200
+    #He spent 300 galleons on a new robe
+    galleons_robe = 300
+    #He spent 100 galleons on a new pair of shoes
+    galleons_shoes = 100
+    #The answer is
+    result = galleons_initial - galleons_broomstick - galleons_robe - galleons_shoes
+    return result

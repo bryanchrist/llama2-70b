@@ -1,0 +1,104 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-k8gdpawz/transformers_066c4e3d0b8a411a815d0532729cb4a1
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/trl /tmp/pip-install-k8gdpawz/trl_bb49981f3d01468babe44ac1964fdd1e
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-k8gdpawz/peft_59c739fe7d5244418aa6ce43074df2c2
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-k8gdpawz/accelerate_594ef68b888a492fbce2d42ad7d06faa
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+wandb: Currently logged in as: brc4cb (christ_research). Use `wandb login --relogin` to force relogin
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 25.61it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 25.59it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:25,  8.40s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:17<00:17,  8.66s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:25<00:08,  8.51s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  5.93s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.89s/it]
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.02s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.02s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:00,  1.00it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.20it/s]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/trl/trainer/kto_trainer.py:464: UserWarning: When using DPODataCollatorWithPadding, you should set `max_length` in the KTOTrainer's init it will be set to `512` by default, but you should do it yourself in the future.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/trl/trainer/kto_trainer.py:474: UserWarning: When using DPODataCollatorWithPadding, you should set `max_prompt_length` in the KTOTrainer's init it will be set to `128` by default, but you should do it yourself in the future.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/trl/trainer/kto_trainer.py:504: UserWarning: When using DPODataCollatorWithPadding, you should set `remove_unused_columns=False` in your KTOConfig we have set it for you, but you should do it yourself in the future.
+  warnings.warn(
+Tokenizing train dataset:   0%|          | 0/4495 [00:00<?, ? examples/s]Tokenizing train dataset:  22%|██▏       | 1000/4495 [00:00<00:01, 3052.85 examples/s]Tokenizing train dataset:  44%|████▍     | 2000/4495 [00:00<00:00, 3992.97 examples/s]Tokenizing train dataset:  67%|██████▋   | 3000/4495 [00:00<00:00, 4460.02 examples/s]Tokenizing train dataset:  89%|████████▉ | 4000/4495 [00:00<00:00, 4792.11 examples/s]Tokenizing train dataset: 100%|██████████| 4495/4495 [00:01<00:00, 4007.00 examples/s]
+Extracting KL train dataset:   0%|          | 0/4495 [00:00<?, ? examples/s]Extracting KL train dataset:  12%|█▏        | 560/4495 [00:00<00:00, 5433.33 examples/s]Extracting KL train dataset:  26%|██▌       | 1152/4495 [00:00<00:00, 5588.06 examples/s]Extracting KL train dataset:  39%|███▉      | 1760/4495 [00:00<00:00, 5740.03 examples/s]Extracting KL train dataset:  52%|█████▏    | 2352/4495 [00:00<00:00, 5745.74 examples/s]Extracting KL train dataset:  66%|██████▌   | 2960/4495 [00:00<00:00, 5847.72 examples/s]Extracting KL train dataset:  79%|███████▉  | 3552/4495 [00:00<00:00, 5806.55 examples/s]Extracting KL train dataset:  92%|█████████▏| 4144/4495 [00:00<00:00, 5811.53 examples/s]Extracting KL train dataset: 100%|██████████| 4495/4495 [00:01<00:00, 4386.12 examples/s]
+Processing tokenized train dataset:   0%|          | 0/4495 [00:00<?, ? examples/s]Processing tokenized train dataset:   8%|▊         | 380/4495 [00:00<00:01, 3765.38 examples/s]Processing tokenized train dataset:  17%|█▋        | 781/4495 [00:00<00:00, 3905.03 examples/s]Processing tokenized train dataset:  27%|██▋       | 1203/4495 [00:00<00:01, 2929.14 examples/s]Processing tokenized train dataset:  36%|███▌      | 1604/4495 [00:00<00:00, 3273.22 examples/s]Processing tokenized train dataset:  44%|████▍     | 2000/4495 [00:00<00:00, 2833.14 examples/s]Processing tokenized train dataset:  53%|█████▎    | 2399/4495 [00:00<00:00, 3138.61 examples/s]Processing tokenized train dataset:  62%|██████▏   | 2804/4495 [00:00<00:00, 3387.30 examples/s]Processing tokenized train dataset:  71%|███████   | 3201/4495 [00:01<00:00, 2945.00 examples/s]Processing tokenized train dataset:  80%|████████  | 3603/4495 [00:01<00:00, 3212.54 examples/s]Processing tokenized train dataset:  89%|████████▉ | 4000/4495 [00:01<00:00, 2859.78 examples/s]Processing tokenized train dataset:  98%|█████████▊| 4396/4495 [00:01<00:00, 3122.32 examples/s]Processing tokenized train dataset: 100%|██████████| 4495/4495 [00:01<00:00, 2735.14 examples/s]
+Processing tokenized train KL dataset:   0%|          | 0/4495 [00:00<?, ? examples/s]Processing tokenized train KL dataset:   9%|▊         | 383/4495 [00:00<00:01, 3788.11 examples/s]Processing tokenized train KL dataset:  17%|█▋        | 785/4495 [00:00<00:00, 3917.26 examples/s]Processing tokenized train KL dataset:  27%|██▋       | 1202/4495 [00:00<00:01, 3200.50 examples/s]Processing tokenized train KL dataset:  36%|███▌      | 1602/4495 [00:00<00:00, 3468.57 examples/s]Processing tokenized train KL dataset:  44%|████▍     | 2000/4495 [00:00<00:00, 3119.55 examples/s]Processing tokenized train KL dataset:  53%|█████▎    | 2398/4495 [00:00<00:00, 3361.92 examples/s]Processing tokenized train KL dataset:  62%|██████▏   | 2801/4495 [00:00<00:00, 3549.66 examples/s]Processing tokenized train KL dataset:  74%|███████▍  | 3342/4495 [00:01<00:00, 2224.14 examples/s]Processing tokenized train KL dataset:  83%|████████▎ | 3746/4495 [00:01<00:00, 2558.86 examples/s]Processing tokenized train KL dataset:  93%|█████████▎| 4199/4495 [00:01<00:00, 2610.62 examples/s]Processing tokenized train KL dataset: 100%|██████████| 4495/4495 [00:01<00:00, 2641.43 examples/s]
+Tokenizing eval dataset:   0%|          | 0/237 [00:00<?, ? examples/s]Tokenizing eval dataset: 100%|██████████| 237/237 [00:00<00:00, 4060.89 examples/s]
+Extracting eval KL dataset:   0%|          | 0/237 [00:00<?, ? examples/s]Extracting eval KL dataset: 100%|██████████| 237/237 [00:00<00:00, 3344.48 examples/s]
+Processing tokenized eval dataset:   0%|          | 0/237 [00:00<?, ? examples/s]Processing tokenized eval dataset: 100%|██████████| 237/237 [00:00<00:00, 1564.98 examples/s]Processing tokenized eval dataset: 100%|██████████| 237/237 [00:00<00:00, 1478.67 examples/s]
+Processing tokenized eval KL dataset:   0%|          | 0/237 [00:00<?, ? examples/s]Processing tokenized eval KL dataset: 100%|██████████| 237/237 [00:00<00:00, 2376.21 examples/s]
+Filtering desirable examples:   0%|          | 0/4495 [00:00<?, ? examples/s]Filtering desirable examples:  22%|██▏       | 1000/4495 [00:00<00:02, 1452.05 examples/s]Filtering desirable examples:  44%|████▍     | 2000/4495 [00:01<00:01, 1478.00 examples/s]Filtering desirable examples:  67%|██████▋   | 3000/4495 [00:02<00:01, 1475.91 examples/s]Filtering desirable examples:  89%|████████▉ | 4000/4495 [00:02<00:00, 1477.49 examples/s]Filtering desirable examples: 100%|██████████| 4495/4495 [00:03<00:00, 1474.64 examples/s]Filtering desirable examples: 100%|██████████| 4495/4495 [00:03<00:00, 1470.50 examples/s]
+Filtering undesirable examples:   0%|          | 0/4495 [00:00<?, ? examples/s]Filtering undesirable examples:  22%|██▏       | 1000/4495 [00:00<00:02, 1435.46 examples/s]Filtering undesirable examples:  44%|████▍     | 2000/4495 [00:01<00:01, 1447.11 examples/s]Filtering undesirable examples:  67%|██████▋   | 3000/4495 [00:02<00:01, 1453.75 examples/s]Filtering undesirable examples:  89%|████████▉ | 4000/4495 [00:02<00:00, 1466.71 examples/s]Filtering undesirable examples: 100%|██████████| 4495/4495 [00:03<00:00, 1469.23 examples/s]Filtering undesirable examples: 100%|██████████| 4495/4495 [00:03<00:00, 1458.32 examples/s]
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+wandb: WARNING The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+wandb: WARNING Changes to your `wandb` environment variables will be ignored because your `wandb` session has already started. For more information on how to modify your settings with `wandb.init()` arguments, please refer to https://wandb.me/wandb-init.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /sfs/weka/scratch/brc4cb/llama2-70b/wandb/run-20240517_132102-rzv6acv0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ./mathwell8b-kto
+wandb: ⭐️ View project at https://wandb.ai/christ_research/mathwell8b_kto
+wandb: 🚀 View run at https://wandb.ai/christ_research/mathwell8b_kto/runs/rzv6acv0
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/peft/utils/save_and_load.py:209: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+  0%|          | 0/1686 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/kto.py", line 132, in <module>
+    kto_trainer.train()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1885, in train
+    return inner_training_loop(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 2216, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 3250, in training_step
+    self.accelerator.backward(loss)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/accelerate/accelerator.py", line 2125, in backward
+    loss.backward(**kwargs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/_tensor.py", line 525, in backward
+    torch.autograd.backward(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/autograd/__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
+wandb: - 2645.083 MB of 2645.083 MB uploadedwandb: \ 2645.083 MB of 2645.083 MB uploadedwandb: | 2645.083 MB of 2645.083 MB uploadedwandb: / 2645.117 MB of 2645.119 MB uploadedwandb: - 2645.140 MB of 2645.140 MB uploadedwandb: 🚀 View run ./mathwell8b-kto at: https://wandb.ai/christ_research/mathwell8b_kto/runs/rzv6acv0
+wandb: ⭐️ View project at: https://wandb.ai/christ_research/mathwell8b_kto
+wandb: Synced 6 W&B file(s), 0 media file(s), 6 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240517_132102-rzv6acv0/logs

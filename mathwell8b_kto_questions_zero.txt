@@ -1,0 +1,304 @@
+Topic: Taylor Swift 1. Taylor Swift has 2000 followers on Twitter. She has 500 more followers on Instagram. She has 2000 followers on Facebook. How many followers does she have in total?
+Solution:
+def solution():
+    #Taylor Swift has 2000 followers on Twitter
+    followers_twitter = 2000
+    #She has 500 more followers on Instagram
+    followers_instagram = followers_twitter + 500
+    #She has 2000 followers on Facebook
+    followers_facebook = 2000
+    #The answer is
+    result = followers_twitter + followers_instagram + followers_facebook
+    return result
+Topic: Super Mario 1. Super Mario has 100 coins. He spends 20 coins to buy a mushroom. He then spends 30 coins to buy a fire flower. How many coins does he have left?
+Solution:
+def solution():
+    #Super Mario has 100 coins
+    coins_initial = 100
+    #He spends 20 coins to buy a mushroom
+    coins_spent_mushroom = 20
+    #He then spends 30 coins to buy a fire flower
+    coins_spent_fire_flower = 30
+    #The answer is
+    result = coins_initial - coins_spent_mushroom - coins_spent_fire_flower
+    return result
+Topic: field hockey 1. A field hockey team has 11 players. 3 of the players are from the United States, 4 are from the United Kingdom, and the rest are from Canada. How many players are from Canada?
+Solution:
+def solution():
+    #A field hockey team has 11 players
+    players_total = 11
+    #3 of the players are from the United States
+    players_us = 3
+    #4 are from the United Kingdom
+    players_uk = 4
+    #The rest are from Canada. The answer is
+    players_canada = players_total - players_us - players_uk
+    return players_canada
+Topic: Thor, the God of Thunder Python Program
+def solution():
+    #Thor can throw his hammer 1000 feet
+    hammer_distance = 1000
+    #He can also throw his lightning 2000 feet
+    lightning_distance = 2000
+    #If he throws his hammer and his lightning at the same time, how far apart do they land?
+    result = lightning_distance - hammer_distance
+    return result
+Topic: Patrick Mahomes Question: Patrick Mahomes is the starting quarterback for the Kansas City Chiefs. He is 26 years old. He has a 2-year-old daughter. How old will his daughter be when he is 30?
+Solution:
+def solution():
+    #Patrick Mahomes is 26 years old
+    patrick_age = 26
+    #He has a 2-year-old daughter
+    daughter_age = 2
+    #He will be 30 years old
+    patrick_age_30 = 30
+    #The answer is
+    result = daughter_age + (patrick_age_30 - patrick_age)
+    return result
+Topic: Steph Curry 1. Steph Curry is a 3-point shooting machine. He has made 288 3-pointers in the 2021-2022 season. 2. He has made 50% of his 3-point shots. 3. How many 3-point shots has he missed? 4. The answer is (3-pointers made) / (0.5) = (3-pointers missed) + (3-pointers made) 5. Therefore, the answer is (288) / (0.5) = (3-pointers missed) + 288 6. We can solve for the number of 3-point shots missed by subtracting 288 from both sides of the equation. 7. The answer is (288) / (0.5) - 288 = (3-pointers missed) 8. The answer is (288) / (0.5) - 288 = 3-pointers missed 9. Therefore,
+Topic: Black Panther 1. Black Panther has 100 vibranium coins. 2. He spends 20 vibranium coins on a new outfit. 3. He spends 30 vibranium coins on a new car. 4. He spends 10 vibranium coins on a new pair of shoes. 5. How many vibranium coins does he have left?
+Solution:
+def solution():
+    #Black Panther started with 100 vibranium coins
+    vibranium_coins_initial = 100
+    #He spent 20 on a new outfit
+    vibranium_coins_spent_outfit = 20
+    #He spent 30 on a new car
+    vibranium_coins_spent_car = 30
+    #He spent 10 on a new pair of shoes
+    vibranium_coins_spent_shoes = 10
+    #The answer is
+    result = vibranium_coins_initial - vibranium
+Topic: Super Mario 1. Super Mario is a video game character. 1.1. He has 200 coins. 1.2. He spends 50 coins on a mushroom. 1.3. He spends 30 coins on a fire flower. 1.4. He spends 20 coins on a star. 1.5. How many coins does he have left?
+Solution:
+def solution():
+    #Super Mario started with 200 coins
+    coins_initial = 200
+    #He spent 50 coins on a mushroom
+    coins_mushroom = 50
+    #He spent 30 coins on a fire flower
+    coins_fire_flower = 30
+    #He spent 20 coins on a star
+    coins_star = 20
+    #The answer is
+    result = coins_initial - coins_mushroom - coins_fire_flower - coins_star
+    return result
+Topic: Ninja Turtles 1. The Ninja Turtles are 4 in number. 2. 2 of them are 10 years old. 1 of them is 12 years old. 1 of them is 14 years old. 3. How old is the average Ninja Turtle?
+
+### Solution:
+def solution():
+    #The Ninja Turtles are 4 in number
+    ninja_turtles = 4
+    #2 of them are 10 years old
+    turtles_10 = 2
+    #1 of them is 12 years old
+    turtle_12 = 1
+    #1 of them is 14 years old
+    turtle_14 = 1
+    #The answer is
+    result = (turtles_10*10 + turtle_12*12 + turtle_14*14) / ninja_turtles
+    return result
+Topic: cars 1. A 2019 Tesla Model 3 has a range of 310 miles. 2. A 2020 Tesla Model 3 has a range of 330 miles. 3. A 2019 Tesla Model 3 costs $35,000. 4. A 2020 Tesla Model 3 costs $37,000. 5. How much more range does a 2020 Tesla Model 3 have than a 2019 Tesla Model 3? 6. How much more does a 2020 Tesla Model 3 cost than a 2019 Tesla Model 3?
+Solution:
+def solution():
+    #2019 Tesla Model 3 range
+    range_2019 = 310
+    #2020 Tesla Model 3 range
+    range_2020 = 330
+    #2019 Tesla Model 3 cost
+    cost_2019 = 35000
+    #2020 Tesla Model 3 cost
+    cost_
+Topic: Spiderman 1. Spiderman has 2000 spider webs. He uses 1000 spider webs to catch a criminal. He then uses 500 spider webs to save a kitten. How many spider webs does he have left?
+Solution:
+def solution():
+    #Spiderman started with 2000 spider webs
+    spider_webs_initial = 2000
+    #He used 1000 spider webs to catch a criminal
+    spider_webs_used_criminal = 1000
+    #He used 500 spider webs to save a kitten
+    spider_webs_used_kitten = 500
+    #The answer is
+    result = spider_webs_initial - spider_webs_used_criminal - spider_webs_used_kitten
+    return result
+Topic: LeBron James 1. LeBron James is a basketball player. He has 3000 points. He is 2000 points short of the all-time scoring record. How many more points does he need to score to break the record?
+Solution:
+def solution():
+    #LeBron James has 3000 points
+    points_lebron = 3000
+    #He is 2000 points short of the all-time scoring record
+    points_short = 2000
+    #The answer is
+    result = points_short
+    return result
+Topic: volleyball Python Program
+def solution():
+    #A volleyball team has 12 players
+    players = 12
+    #5 of the players are setters
+    setters = 5
+    #3 of the players are middle blockers
+    middle_blockers = 3
+    #2 of the players are outside hitters
+    outside_hitters = 2
+    #The rest of the players are liberos
+    liberos = players - setters - middle_blockers - outside_hitters
+    #The answer is
+    result = (liberos, setters, middle_blockers, outside_hitters)
+    return result
+Topic: Hello Kitty Question: Hello Kitty has 2000 yen. She spends 1000 yen on a new outfit and 500 yen on a new toy. How much yen does she have left?
+Solution:
+def solution():
+    #Hello Kitty started with 2000 yen
+    yen_initial = 2000
+    #She spent 1000 yen on a new outfit
+    yen_spent_outfit = 1000
+    #She spent 500 yen on a new toy
+    yen_spent_toy = 500
+    #The answer is
+    result = yen_initial - yen_spent_outfit - yen_spent_toy
+    return result
+Topic: cats 1. A 12-car train is 1800 feet long. A 20-car train is 2200 feet long. How many feet longer is the 20-car train than the 12-car train?
+Solution:
+def solution():
+    #12-car train is 1800 feet long
+    train_12_car = 1800
+    #20-car train is 2200 feet long
+    train_20_car = 2200
+    #The answer is
+    result = train_20_car - train_12_car
+    return result
+Topic: Minecraft 1. In Minecraft, a player can mine 20 blocks of dirt per second. 2. If the player mines for 30 seconds, how many blocks of dirt will the player mine? 3. In Python, we can write a function to calculate this. Here is the function: def mine_dirt_blocks(seconds):     #A player can mine 20 blocks of dirt per second     dirt_per_second = 20     #If the player mines for 30 seconds     mine_time = 30     #The answer is:     result = dirt_per_second * mine_time     return result 4. Now, let's call the function and print the result: print(mine_dirt_blocks(30))
+
+Solution:
+def mine_dirt_blocks(seconds):
+    #A player can mine 20 blocks of dirt per second
+    dirt_per_second = 20
+    #If the player mines for 30 seconds
+    mine_time = 30
+    #The answer is:
+Topic: LeBron James 1. LeBron James has 5000 followers on Instagram. 2. He has 2000 more followers on Facebook. 3. He has 3000 more followers on Twitter than he has on Facebook. 4. How many followers does LeBron James have in total?
+Solution:
+def solution():
+    #LeBron James has 5000 followers on Instagram
+    followers_instagram = 5000
+    #He has 2000 more followers on Facebook
+    followers_facebook = 2000
+    #He has 3000 more followers on Twitter than he has on Facebook
+    followers_twitter = followers_facebook + 3000
+    #The answer is
+    result = followers_instagram + followers_facebook + followers_twitter
+    return result
+Topic: trains 1. A 2-car train is 1200 feet long. A 10-car train is 6000 feet long. How many feet long is a 20-car train?
+Solution:
+def solution():
+    #A 2-car train is 1200 feet long
+    two_car_train = 1200
+    #A 10-car train is 6000 feet long
+    ten_car_train = 6000
+    #The answer is
+    result = (two_car_train/2)*20
+    return result
+Topic: Superman Superman can punch 2000 times per minute.  If he punches for 5 minutes, how many punches has he thrown?
+Solution:
+def solution():
+    #Superman can punch 2000 times per minute
+    punches_per_minute = 2000
+    #If he punches for 5 minutes
+    minutes = 5
+    #The answer is
+    result = punches_per_minute * minutes
+    return result
+Topic: Taylor Swift 1. Taylor Swift has 2000 followers on Twitter. 2. She has 3000 followers on Instagram. 3. She has 4000 followers on Facebook. 4. She has 5000 followers on YouTube. 5. How many followers does she have in total?
+Solution:
+def solution():
+    #Taylor Swift has 2000 followers on Twitter
+    followers_twitter = 2000
+    #She has 3000 followers on Instagram
+    followers_instagram = 3000
+    #She has 4000 followers on Facebook
+    followers_facebook = 4000
+    #She has 5000 followers on YouTube
+    followers_youtube = 5000
+    #The answer is
+    result = followers_twitter + followers_instagram + followers_facebook + followers_youtube
+    return result
+Topic: Iron Man 1. Tony Stark, the superhero Iron Man, has 1000 micro-missiles. He used 200 micro-missiles in the first battle, 300 in the second battle, and 400 in the third battle. How many micro-missiles does he have left?
+Solution:
+def solution():
+    #Tony Stark started with 1000 micro-missiles
+    micro_missiles_initial = 1000
+    #He used 200 in the first battle
+    micro_missiles_used_first_battle = 200
+    #300 in the second battle
+    micro_missiles_used_second_battle = 300
+    #And 400 in the third battle
+    micro_missiles_used_third_battle = 400
+    #The answer is
+    result = micro_missiles_initial - micro_missiles_used_first_battle - micro_missiles_used_second_battle - micro_missiles_used_third_battle
+    return result
+Topic: pizza 1. A 12-slice pizza is 50% topped with pepperoni. 2. A 16-slice pizza is 75% topped with mushrooms. 3. How many slices of pizza are there in total that are not topped with pepperoni or mushrooms?
+Solution:
+def solution():
+    #A 12-slice pizza is 50% topped with pepperoni
+    pizza_12_slices_pepperoni = (12/50) * 12
+    #A 16-slice pizza is 75% topped with mushrooms
+    pizza_16_slices_mushrooms = (16/75) * 16
+    #The answer is
+    result = 12 + 16 - pizza_12_slices_pepperoni - pizza_16_slices_mushrooms
+    return result
+Topic: trains 1. A train is traveling 200 miles per hour. If the train travels for 1 hour, how many miles has it traveled?
+Solution:
+def solution():
+    #The train is traveling 200 miles per hour
+    train_speed = 200
+    #The train travels for 1 hour
+    time = 1
+    #The answer is
+    result = train_speed * time
+    return result
+Topic: cats 1. There are 12 cats at the cat shelter. 3 of the cats are Siamese. 4 of the cats are Persian. 2 of the cats are Maine Coon. 3 of the cats are Sphynx. How many cats are not Siamese, Persian, Maine Coon, or Sphynx?
+Solution:
+def solution():
+    #Total number of cats
+    total_cats = 12
+    #Number of Siamese cats
+    siamese_cats = 3
+    #Number of Persian cats
+    persian_cats = 4
+    #Number of Maine Coon cats
+    maine_coon_cats = 2
+    #Number of Sphynx cats
+    sphynx_cats = 3
+    #Number of cats that are not Siamese, Persian, Maine Coon, or Sphynx
+    other_cats = total_cats - siamese_cats - persian
+Topic: Wonder Woman 1. Wonder Woman is 5 feet 11 inches tall. 1 inch is 2.54 cm. How many centimeters tall is Wonder Woman? 2. The Invisible Jet can travel at a speed of 2000 miles per hour. 1 mile is 1.609 kilometers. How many kilometers per hour can the Invisible Jet travel? 3. If 1 gallon of gasoline can travel 240 miles, how many miles can 3 gallons of gasoline travel? 4. A 2-slice toaster can toast 12 slices of bread. A 4-slice toaster can toast 24 slices of bread. How many more slices of bread can a 4-slice toaster toast than a 2-slice toaster? 5. A 12-pack of soda has 24 ounces of soda. A 6-pack of soda has 12 ounces of soda. How many more ounces of soda are in a 12-pack than a 6-pack?
+Solution:
+Topic: Superman 1. Superman can fly at a speed of 2000 miles per hour. 2. If he flies for 1 hour, how many miles has he flown? 3. If he flies for 5 hours, how many miles has he flown? 4. If he flies for 10 hours, how many miles has he flown? 5. How many miles can he fly in 20 hours?
+Solution:
+def solution():
+    #Superman's speed
+    superman_speed = 2000
+    #He flies for 1 hour
+    hours_1 = 1
+    #He flies for 5 hours
+    hours_5 = 5
+    #He flies for 10 hours
+    hours_10 = 10
+    #He flies for 20 hours
+    hours_20 = 20
+    #The answer is
+    result = [superman_speed * hours_1, superman_speed * hours_5, super
+Topic: football Python program
+def solution():
+    #A 2018 World Cup team has 23 players. 
+    #3 of the players are goalies. 
+    #7 of the players are defenders. 
+    #11 of the players are forwards. 
+    #How many players are not goalies, defenders, or forwards?
+    total_players = 23
+    goalies = 3
+    defenders = 7
+    forwards = 11
+    other_players = total_players - goalies - defenders - forwards
+    return other_players

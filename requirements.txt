@@ -2,9 +2,10 @@ bitsandbytes
 wandb
 transformers @ git+https://github.com/huggingface/transformers
 datasets
-trl
+trl @ git+https://github.com/huggingface/trl
 peft @ git+https://github.com/huggingface/peft.git
 accelerate @ git+https://github.com/huggingface/accelerate.git
+torch
 einops==0.6.1
 evaluate
 scikit-learn==1.2.2

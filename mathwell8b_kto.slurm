@@ -1,20 +1,20 @@
 #!/bin/bash
 #SBATCH -A bryan_research
 #SBATCH -p gpu
-#SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
+#SBATCH --gres=gpu:a100:1 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
 
 ##SBATCH --hint=nomultithread #8GB per reserved CPU core if hyperthreading deactivated and 1/2 that when active
 #SBATCH --cpus-per-task=10
-#SBATCH --mem=100G
+#SBATCH --mem=50G
 ##SBATCH --gres=gpu:1
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
-#SBATCH -t 3-00:00:00
-#SBATCH -J mathwell8b_kto
-#SBATCH -o mathwell8b_kto-%A.out
-#SBATCH -e mathwell8b_kto-%A.err
+#SBATCH -t 1-00:00:00
+#SBATCH -J mathwell8b_kto_generate
+#SBATCH -o mathwell8b_kto_generate-%A.out
+#SBATCH -e mathwell8b_kto_generate-%A.err
 ##SBATCH -x udc-an28-[1,7],udc-an34-[1,7,13,19]#,udc-an36-[1,13,19]#,udc-an37-[1,7,13,19]#,udc-ba25-2[3,7,8],udc-ba26-2[3-6],udc-ba27-2[3-4]
 
 module purge
@@ -33,4 +33,4 @@ pip install -U -r requirements.txt
 pip install -U --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/ triton-nightly
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
-python kto.py
+python mathwell8b_kto.py

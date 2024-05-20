@@ -1,5 +1,5 @@
 from datasets import load_dataset, Dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 from trl import KTOConfig, KTOTrainer, ModelConfig, get_peft_config, setup_chat_format
 import pandas as pd
 import wandb
@@ -13,15 +13,17 @@ from dotenv import load_dotenv
 from collections import defaultdict
 from typing import Optional, Dict, Sequence
 import transformers
+import os 
+import numpy as np
+import torch
 # Load the environmental variables from the .env file
 load_dotenv()
 
 token= os.getenv('huggingface_token')
-
-os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
-wandb.login()
 os.environ["WANDB_PROJECT"] = "mathwell8b_kto" 
 os.environ["WANDB_LOG_MODEL"] = "checkpoint"  
+os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
+wandb.login()
 df = pd.read_csv('data/kto.csv')
 neg_label = round(df['label'].mean()+1, 2)
 pos_label = round((1-df['label'].mean())+1, 2)
@@ -37,7 +39,7 @@ model = AutoModelForCausalLM.from_pretrained(
        # max_memory=max_memory,
         torch_dtype=torch.bfloat16,
         #use_auth_token=True,
-        config=AutoConfig.from_pretrained(model_path, trust_remote_code=True), device_map = 'auto', 
+        device_map = 'auto', 
     )
 
 model_ref = AutoModelForCausalLM.from_pretrained(
@@ -46,7 +48,7 @@ model_ref = AutoModelForCausalLM.from_pretrained(
        # max_memory=max_memory,
         torch_dtype=torch.bfloat16,
         #use_auth_token=True,
-        config=AutoConfig.from_pretrained(model_path, trust_remote_code=True), device_map = 'auto', 
+        device_map = 'auto', 
     )
 
 
@@ -99,8 +101,8 @@ tokenizer.add_special_tokens({
 #                 ),
 })
 
-model = PeftModel.from_pretrained(model, adapter_path)
-model_ref = PeftModel.from_pretrained(model_ref, adapter_path)
+model = PeftModel.from_pretrained(model, adapter_path, is_trainable=True)
+model_ref = PeftModel.from_pretrained(model_ref, adapter_path, is_trainable=True)
 
 training_args = KTOConfig(
     beta=0.1,
@@ -113,7 +115,8 @@ training_args = KTOConfig(
     output_dir="./mathwell8b-kto", 
     save_steps = 250, 
     do_eval = True,
-    eval_steps = 500,
+    eval_steps = 250,
+    logging_steps = 5, 
     report_to = 'wandb',
 )
 
@@ -127,3 +130,4 @@ kto_trainer = KTOTrainer(
 )
 
 kto_trainer.train()
+kto_trainer.save_model("./mathwell8b-kto")

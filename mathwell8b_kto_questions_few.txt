@@ -1,0 +1,310 @@
+Topic: Taylor Swift ### Response:  Question: Taylor Swift has 2000 fans. 1000 of them are in the US, 500 of them are in the UK, and the rest are in other countries. How many of her fans are in other countries?
+Solution:
+def solution():
+    #Total fans
+    total_fans = 2000
+    #Fans in the US
+    fans_us = 1000
+    #Fans in the UK
+    fans_uk = 500
+    #Fans in other countries
+    fans_other_countries = total_fans - fans_us - fans_uk
+    return fans_other_countries
+Topic: Super Mario ### Response:  Question: Super Mario has 300 coins. He spends 50 coins to get a mushroom. He spends 20 coins to get a fire flower. He spends 30 coins to get a star. How many coins does he have left?
+Solution:
+def solution():
+    #Super Mario started with 300 coins
+    coins_initial = 300
+    #He spent 50 coins to get a mushroom
+    coins_spent_mushroom = 50
+    #He spent 20 coins to get a fire flower
+    coins_spent_fire_flower = 20
+    #He spent 30 coins to get a star
+    coins_spent_star = 30
+    #The answer is
+    result = coins_initial - coins_spent_mushroom - coins_spent_fire_flower - coins_spent_star
+    return result
+Topic: field hockey ### Response:  Question: A field hockey team has 11 players. 2 of the players are goalies. 3 of the players are defenders. 5 of the players are midfielders. How many players are forwards?
+Solution:
+def solution():
+    #A field hockey team has 11 players
+    total_players = 11
+    #2 of the players are goalies
+    goalies = 2
+    #3 of the players are defenders
+    defenders = 3
+    #5 of the players are midfielders
+    midfielders = 5
+    #The answer is
+    result = total_players - goalies - defenders - midfielders
+    return result
+Topic: Thor, the God of Thunder ### Response:  Question: Thor has 2000 lightning bolts. He uses 1000 of them to fight the Frost Giants, 500 of them to fight the Dark Elves, and 200 of them to fight the Asgardians. How many lightning bolts does he have left?
+Solution:
+def solution():
+    #Thor started with 2000 lightning bolts
+    lightning_bolts_initial = 2000
+    #He used 1000 of them to fight the Frost Giants
+    lightning_bolts_frost_giants = 1000
+    #500 of them to fight the Dark Elves
+    lightning_bolts_dark_elves = 500
+    #and 200 of them to fight the Asgardians
+    lightning_bolts_asgardians = 200
+    #The answer is
+    result = lightning_bolts_initial - lightning_bolts_frost_giants - lightning_bolts_dark_elves - lightning_bolts_asgardians
+Topic: Patrick Mahomes ### Response:  Question: Patrick Mahomes is the quarterback for the Kansas City Chiefs. He has 3000 passing yards. He has 200 more passing yards than rushing yards. How many rushing yards does he have?
+Solution:
+def solution():
+    #Patrick Mahomes has 3000 passing yards
+    passing_yards = 3000
+    #He has 200 more passing yards than rushing yards
+    rushing_yards = passing_yards - 200
+    #The answer is
+    result = rushing_yards
+    return result
+Topic: Steph Curry ### Response:  Question: Steph Curry is a basketball player. He made 12 three-pointers in the first 2 games of the 2021 season. If he continues at that rate, how many three-pointers will he make in the first 20 games of the 2021 season?
+Solution:
+def solution():
+    #Steph Curry made 12 three-pointers in the first 2 games
+    three_pointers_per_game = 12 / 2
+    #If he continues at that rate, he will make
+    three_pointers_20_games = three_pointers_per_game * 20
+    #three-pointers in the first 20 games. The answer is
+    result = three_pointers_20_games
+    return result
+Topic: Black Panther ### Response:  Question: T'Challa, the Black Panther, has 200 vibranium shards. He uses 50 shards to make a new suit. He then uses 20 shards to make a new car. How many shards does he have left?
+Solution:
+def solution():
+    #T'Challa has 200 vibranium shards
+    shards_initial = 200
+    #He uses 50 shards to make a new suit
+    shards_suit = 50
+    #He uses 20 shards to make a new car
+    shards_car = 20
+    #The answer is
+    result = shards_initial - shards_suit - shards_car
+    return result
+Topic: Super Mario ### Response:  Question: In the Super Mario game, Mario can stomp on 3 Goombas, 2 Piranha Plants, and 1 Bowser to defeat them. How many enemies has Mario defeated?
+Solution:
+def solution():
+    #Mario can stomp on 3 Goombas
+    goombas = 3
+    #2 Piranha Plants
+    piranha_plants = 2
+    #and 1 Bowser
+    bowser = 1
+    #The answer is
+    result = goombas + piranha_plants + bowser
+    return result
+Topic: Ninja Turtles ### Response:
+Topic: cars ### Response:  Question: 12000 cars are on a freeway. 2000 more cars join the freeway. 3000 cars exit the freeway. How many cars are on the freeway?
+Solution:
+def solution():
+    #12000 cars are on a freeway
+    cars_initial = 12000
+    #2000 more cars join the freeway
+    cars_joined = 2000
+    #3000 cars exit the freeway
+    cars_exited = 3000
+    #The answer is
+    result = cars_initial + cars_joined - cars_exited
+    return result
+Topic: Spiderman ### Response:  Question: Spiderman can swing 300 feet per second. He swings for 3 seconds. How far does he swing?
+Solution:
+def solution():
+    #Spiderman can swing 300 feet per second
+    speed = 300
+    #He swings for 3 seconds
+    time = 3
+    #The answer is
+    result = speed * time
+    return result
+Topic: LeBron James ### Response:  Question: LeBron James is 6 feet 9 inches tall. 1 inch is 2.54 cm. How tall is he in centimeters?
+Solution:
+def solution():
+    #LeBron James is 6 feet 9 inches tall
+    feet = 6
+    inches = 9
+    #1 inch is 2.54 cm
+    inch_to_cm = 2.54
+    #The answer is
+    result = (feet * 30.48) + (inches * inch_to_cm)
+    return result
+Topic: volleyball ### Response:  Question: A volleyball team has 12 players. 4 of the players are setters, 5 of the players are hitters, and the rest are blockers. How many blockers are there?
+Solution:
+def solution():
+    #A volleyball team has 12 players
+    players_total = 12
+    #4 of the players are setters
+    setters = 4
+    #5 of the players are hitters
+    hitters = 5
+    #The rest are blockers. The answer is
+    blockers = players_total - setters - hitters
+    return blockers
+Topic: Hello Kitty ### Response:  Question: Hello Kitty has 2000 yen. She spends 1000 yen on a new outfit. She then spends 500 yen on a new toy. How much yen does she have left?
+Solution:
+def solution():
+    #Hello Kitty started with 2000 yen
+    yen_initial = 2000
+    #She spent 1000 yen on a new outfit
+    yen_spent_outfit = 1000
+    #And 500 yen on a new toy
+    yen_spent_toy = 500
+    #The answer is
+    result = yen_initial - yen_spent_outfit - yen_spent_toy
+    return result
+Topic: cats ### Response:  Question: A 24-hour pet store has 120 cats. 1/4 of the cats are Siamese. 1/3 of the Siamese are for sale. How many Siamese cats are for sale?
+Solution:
+def solution():
+    #Total number of cats
+    total_cats = 120
+    #1/4 of the cats are Siamese
+    siamese_cats = total_cats / 4
+    #1/3 of the Siamese are for sale
+    siamese_cats_for_sale = siamese_cats / 3
+    #The answer is
+    result = siamese_cats_for_sale
+    return result
+Topic: Minecraft ### Response:  Question: A Minecraft player has 2000 experience points. 1000 of the experience points are from mining, 500 are from fighting, and the rest are from crafting. How many experience points does the player have from crafting?
+Solution:
+def solution():
+    #The player has 2000 experience points
+    experience_points_total = 2000
+    #1000 are from mining
+    experience_points_mining = 1000
+    #500 are from fighting
+    experience_points_fighting = 500
+    #The answer is
+    experience_points_crafting = experience_points_total - experience_points_mining - experience_points_fighting
+    return experience_points_crafting
+Topic: LeBron James ### Response:  Question: LeBron James is 6 feet 9 inches tall. 1 inch is 2.54 centimeters. How many centimeters is he tall?
+Solution:
+def solution():
+    #LeBron James is 6 feet 9 inches tall
+    lebron_height_in_inches = 6 * 12 + 9
+    #1 inch is 2.54 centimeters
+    inch_to_centimeter = 2.54
+    #The answer is
+    result = lebron_height_in_inches * inch_to_centimeter
+    return result
+Topic: trains ### Response:  Question: A train leaves the station and travels 120 miles. It then travels 180 miles. If the train's speed is 60 miles per hour, how long does it take for the train to travel the 300 miles?
+Solution:
+def solution():
+    #The train travels 120 miles
+    miles_1 = 120
+    #It then travels 180 miles
+    miles_2 = 180
+    #The train's speed is 60 miles per hour
+    speed = 60
+    #The answer is
+    result = (miles_1 + miles_2) / speed
+    return result
+Topic: Superman ### Response:  Question: Superman can fly 1000 miles per hour. He has to fly 2000 miles to reach the nearest alien spaceship. How long will it take for him to reach the spaceship?
+Solution:
+def solution():
+    #Superman's speed
+    superman_speed = 1000
+    #Distance to spaceship
+    distance = 2000
+    #The answer is
+    result = distance / superman_speed
+    return result
+Topic: Taylor Swift ### Response: 1. Taylor Swift has 200 million Spotify followers. 2. She has 50 million more YouTube followers than Spotify followers. 3. She has 10 million less Facebook followers than YouTube followers. 4. How many followers does Taylor Swift have in total?
+Solution:
+def solution():
+    #Taylor Swift has 200 million Spotify followers
+    spotify_followers = 200000000
+    #She has 50 million more YouTube followers than Spotify followers
+    youtube_followers = spotify_followers + 50000000
+    #She has 10 million less Facebook followers than YouTube followers
+    facebook_followers = youtube_followers - 10000000
+    #The answer is
+    result = spotify_followers + youtube_followers + facebook_followers
+    return result
+Topic: Iron Man ### Response:  Question: Iron Man has 5000 amps of power. 
+He uses 1000 amps of power to fly. 
+He uses 2000 amps of power to fire his repulsor beams. 
+He uses 500 amps of power to fire his unibeam. 
+How much power does he have left?
+Solution:
+def solution():
+    #Iron Man started with 5000 amps of power
+    power_initial = 5000
+    #He used 1000 amps of power to fly
+    power_fly = 1000
+    #He used 2000 amps of power to fire his repulsor beams
+    power_repulsor = 2000
+    #He used 500 amps of power to fire his unibeam
+    power_unibeam = 500
+    #The answer is
+    result = power_initial - power_fly - power_repulsor - power_unibeam
+    return result
+Topic: pizza ### Response:  Question: A pizza is cut into 8 slices. 
+
+If 2 slices are left, how many slices of pizza are there left?
+Solution:
+def solution():
+    #A pizza is cut into 8 slices
+    pizza_slices = 8
+    #If 2 slices are left
+    pizza_slices_left = 2
+    #The answer is
+    result = pizza_slices_left
+    return result
+Topic: trains ### Response:  Question: 2 trains are leaving the station. 1 train is traveling at 100 miles per hour. 1 train is traveling at 200 miles per hour. How many miles will the 2 trains travel in 1 hour?
+Solution:
+def solution():
+    #1 train is traveling at 100 miles per hour
+    train1_speed = 100
+    #1 train is traveling at 200 miles per hour
+    train2_speed = 200
+    #The answer is
+    result = train1_speed + train2_speed
+    return result
+Topic: cats ### Response:  Question: 12 cats are in a cat park. 5 more cats came to the cat park. 2 of the cats left. How many cats are in the cat park now?
+Solution:
+def solution():
+    #12 cats are in a cat park
+    cats_initial = 12
+    #5 more cats came to the cat park
+    cats_came = 5
+    #2 of the cats left
+    cats_left = 2
+    #The answer is
+    result = cats_initial + cats_came - cats_left
+    return result
+Topic: Wonder Woman ### Response:
+Topic: Superman ### Response:  Question: Superman can fly 1000 miles per hour. He has to fly 2000 miles. How many hours will it take him to fly there and back?
+Solution:
+def solution():
+    #Superman can fly 1000 miles per hour
+    speed = 1000
+    #He has to fly 2000 miles
+    distance = 2000
+    #The answer is
+    result = distance / speed * 2
+    return result
+Topic: football ### Response:  Question: A football team has 11 players on the field. 5 of the players are on the offense, 3 of the players are on the defense, and the rest are on special teams. How many players are on special teams?
+Solution:
+def solution():
+    #A football team has 11 players on the field
+    total_players = 11
+    #5 of the players are on the offense
+    offense_players = 5
+    #3 of the players are on the defense
+    defense_players = 3
+    #The answer is
+    special_teams_players = total_players - offense_players - defense_players
+    return special_teams_players
+Topic: Minecraft ### Response:  Question: In Minecraft, a player can mine 20 blocks of dirt per second. A player can also mine 10 blocks of stone per second. How many blocks can a player mine in 30 seconds?
+Solution:
+def solution():
+    #A player can mine 20 blocks of dirt per second
+    dirt_per_second = 20
+    #A player can also mine 10 blocks of stone per second
+    stone_per_second = 10
+    #30 seconds is
+    seconds = 30
+    #The answer is
+    result = dirt_per_second * seconds + stone_per_second * seconds
+    return result

@@ -1,0 +1,52 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-h___o2e8/transformers_029d9ee8b3534d1f89c394eedb4416e3
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/trl /tmp/pip-install-h___o2e8/trl_bd6efa54146042e289fea94b37e5df97
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-h___o2e8/peft_cae06e6c90334307909962762cf58c93
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-h___o2e8/accelerate_084caa2149a94cab9885f949e61359ec
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+A new version of the following files was downloaded from https://huggingface.co/microsoft/Phi-3-mini-4k-instruct:
+- configuration_phi3.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/microsoft/Phi-3-mini-4k-instruct:
+- modeling_phi3.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+`flash-attention` package not found, consider installing for better performance: No module named 'flash_attn'.
+Current `flash-attention` does not support `window_size`. Either upgrade or use `attn_implementation='eager'`.
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [00:16<00:16, 16.01s/it]Downloading shards: 100%|██████████| 2/2 [00:25<00:00, 12.09s/it]Downloading shards: 100%|██████████| 2/2 [00:25<00:00, 12.68s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.75s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.01s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are not running the flash-attention implementation, expect numerical differences.

@@ -1,4 +1,13 @@
 -----------First attempt solve rate %: 0.0
 % exec code: 0.0
 
+ ---------------First attempt solve rate % for phi 1.5: 4.168686379059622
+% exec code for phi 1.5: 5.283567619970916
+
+ ---------------First attempt solve rate % for llama3 8b instruct: 3.0538051381483275
+% exec code for llama3 8b instruct: 3.3931168201648085
+
+ ---------------First attempt solve rate % for llama3 8b: 1.5511391177896268
+% exec code for llama3 8b: 1.74503150751333
+
  ----

@@ -78,6 +78,7 @@ model = AutoModelForCausalLM.from_pretrained(
 df = pd.read_csv('data/all_models.csv')
 gsm8k_all = pd.read_csv('data/gsm8k_all.csv')
 gsm8k_questions = pd.read_csv('data/gsm8k_questions.csv')
+gsm8k = pd.read_csv('data/gsm8k_original.csv')
 mathwell_all = pd.read_csv('data/mathwell_annotations_final.csv')
 mathwell_all_good = mathwell_all[mathwell_all['good']==1]
 llama = df[df['model']=='llama']
@@ -148,6 +149,17 @@ def perplexity_gsm(df):
         ppls.append(ppl)
     return ppls
 
+def perplexity_gsm(df):
+    ppls = []
+    for i in range(0, len(df)):
+        text = "Question: " + str(df.iloc[i]['question']) + "\n" + "Solution:\n" + str(df.iloc[i]['answer'])
+        inputs = tokenizer(text, return_tensors = "pt")
+        loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
+        ppl = torch.exp(loss)
+        ppl = ppl.cpu().detach().numpy()
+        ppls.append(ppl)
+    return ppls
+    
 def perplexity_gsm_question(df):
     ppls = []
     for i in range(0, len(df)):
@@ -159,10 +171,13 @@ def perplexity_gsm_question(df):
         ppls.append(ppl)
     return ppls
 
-# gsm8k_ppl = perplexity_gsm(gsm8k_all)
+gsm8k_ppl = perplexity_gsm(gsm8k)
 # #gsm8k_question_ppl = perplexity_gsm_question(gsm8k_questions)
-# gsm8k_ppl = np.array(gsm8k_ppl)
-# np.save('gsm8k_ppl.npy', gsm8k_ppl)
+gsm8k_ppl = np.array(gsm8k_ppl)
+np.save('gsm8k_ppl.npy', gsm8k_ppl)
+output_file = "perplexities.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text to the file
 #print(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)}')
 #print(f'Average GSM8K overall perplexity for questions only: {np.mean(gsm8k_question_ppl)} Standard Deviation: {np.std(gsm8k_question_ppl)}')
 

@@ -1,0 +1,81 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-sc2sb81j/transformers_21226f82e645444dbdd37e6f809decc4
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/trl /tmp/pip-install-sc2sb81j/trl_319f992ef40f4aa897743353127595aa
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-sc2sb81j/peft_7f0d08024ac346f6ab8fb4ca414032a2
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-sc2sb81j/accelerate_0e902df900914251a96d6e1b7854ec4d
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Downloading shards:   0%|          | 0/15 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 15/15 [00:00<00:00, 479.24it/s]
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:03<00:42,  3.03s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:05<00:38,  2.95s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:08<00:35,  2.99s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:11<00:32,  2.99s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:14<00:28,  2.88s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:17<00:25,  2.78s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:19<00:21,  2.74s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:22<00:19,  2.74s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:25<00:16,  2.69s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:27<00:13,  2.66s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:30<00:10,  2.66s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:33<00:08,  2.69s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:35<00:05,  2.66s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:38<00:02,  2.62s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:38<00:00,  1.90s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:38<00:00,  2.57s/it]
+Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'question'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/perplexity.py", line 174, in <module>
+    gsm8k_ppl = perplexity_gsm(gsm8k)
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/perplexity.py", line 155, in perplexity_gsm
+    text = "Question: " + str(df.iloc[i]['question']) + "\n" + "Solution:\n" + str(df.iloc[i]['answer'])
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'question'

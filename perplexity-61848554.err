@@ -1,0 +1,46 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-f4g_w3ay/transformers_3c18da4fc5864ceea26bc8df9a4ad060
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/trl /tmp/pip-install-f4g_w3ay/trl_b33ba91be795428bad7e480634e8a9e2
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-f4g_w3ay/peft_b734455c31b04999add2972c2ebe46ae
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-f4g_w3ay/accelerate_3cafc36f9394451682f8570ea4357321
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /2692857e-05ef-43b4-ba9c-ccf1c22c437c/_packaging/07c94329-d4c3-4ad4-9e6b-f904a60032ec/pypi/download/triton-nightly/3.post20240607050836/triton_nightly-3.0.0.post20240607050836-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Downloading shards:   0%|          | 0/15 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 15/15 [00:00<00:00, 2170.96it/s]
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:02<00:40,  2.90s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:05<00:35,  2.77s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:08<00:33,  2.76s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:11<00:30,  2.77s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:14<00:28,  2.85s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:19<00:34,  3.88s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:26<00:38,  4.85s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:33<00:38,  5.49s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:40<00:35,  5.85s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:46<00:30,  6.09s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:53<00:25,  6.33s/it]Loading checkpoint shards:  80%|████████  | 12/15 [01:00<00:19,  6.47s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:07<00:13,  6.51s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:13<00:06,  6.47s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:14<00:00,  4.67s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:14<00:00,  4.94s/it]
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/nn/modules.py:426: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(

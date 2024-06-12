@@ -91,7 +91,6 @@ mammoth = df[df['model']=='mammoth']
 mammoth_good = mammoth[mammoth['good']==1]
 sgsm_unan = pd.read_csv('data/sgsm_unannotated.csv')
 sgsm = pd.concat([sgsm_unan, mathwell_all_good])
-gsm8k = pd.read_csv('data/gsm8k_questions.csv')
 mathwell_all = pd.read_csv('data/mathwell_annotations_final.csv')
 mathwell_all_good = mathwell_all[mathwell_all['good']==1]
 df = pd.read_csv('data/all_models.csv')

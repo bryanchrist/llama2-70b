@@ -1,0 +1,50 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-hzauyq4p/transformers_bf6d523885f6465f856857af8d3a7bff
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/trl /tmp/pip-install-hzauyq4p/trl_8799446ef6da46738eb489be5b013990
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-hzauyq4p/peft_35b540248d8b42ca8ece9c08bae67639
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-hzauyq4p/accelerate_25099cef338f4168936ab8f72e5af2bc
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py:769: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+`low_cpu_mem_usage` was None, now set to True since model is quantized.
+Downloading shards:   0%|          | 0/15 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 15/15 [00:00<00:00, 1196.82it/s]
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:03<00:42,  3.00s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:05<00:36,  2.79s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:08<00:33,  2.77s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:11<00:30,  2.73s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:14<00:28,  2.85s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:18<00:29,  3.26s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:22<00:28,  3.54s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:26<00:26,  3.72s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:30<00:22,  3.83s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:34<00:19,  3.91s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:38<00:16,  4.05s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:45<00:14,  4.80s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:51<00:10,  5.30s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:58<00:05,  5.60s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:58<00:00,  4.04s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:58<00:00,  3.91s/it]

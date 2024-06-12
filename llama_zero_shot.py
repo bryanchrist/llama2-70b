@@ -97,15 +97,15 @@ sys.stdin = sys.__stdin__
 
 import pandas as pd
 import random
-df = pd.read_csv('data/mathwell.csv')
+df = pd.read_csv('data/gsm8k_all.csv')
 topics = ['Superman', "Batman", "Wonder Woman", "Barbie", "Power Rangers", "basketball", "soccer", "football", "volleyball", 'field hockey',\
 'Fortnite', 'Spiderman', "Iron Man", "Captain America", "Captain Marvel", "Thor, the God of Thunder", "Ninja Turtles", "Black Panther", "Taylor Swift", "swimming",\
 "Pokémon", "Super Mario", "Naruto", "unicorns", "Hello Kitty", "Minecraft", "lacrosse", "cheer leading", "LeBron James", "Steph Curry", "Patrick Mahomes",\
 "Serena Williams", "dogs", "cats", "dinosaurs", "Harry Potter", "cars", "planes", "trains", "pizza", "cookies", "ice cream", 'candy']
 for i in range(0,5000):
     topic = random.choice(topics)
-    final_prompt = f"Write a grade school math word problem about {topic} and Python function with a commented out step-by-step solution to solve the word problem."
-    prompt = "Write a grade school math word problem and Python function with a commented out step-by-step solution to solve the word problem."
+    final_prompt = f"Write a grade school math word problem about {topic} and Python program with a commented out step-by-step solution to solve the word problem."
+    prompt = "Write a grade school math word problem and Python program with a commented out step-by-step solution to solve the word problem."
     questions = []
     for i in range(0, 8):
         question = df['output'].iloc[random.randint(0,len(df)-1)]
@@ -158,7 +158,7 @@ for i in range(0,5000):
     newly_generated_text = generated_text_parts[-1].strip()
     if "\nBel" in newly_generated_text:
         newly_generated_text = newly_generated_text.split("\nBel")[0]
-    output_file = "llama_questions.txt"  # Specify the path and filename for the output file
+    output_file = "llama_questions_gsm_prompted.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Topic: {topic} " + newly_generated_text + "\n")  # Append the newly generated text to the file
         

@@ -6,6 +6,8 @@ Percentage with multiplication only: 0.66
 Percentage with multiplication overall: 0.72
 Percentage with division only: 0.4
 Percentage with division overall: 0.54
+
+
 Percentage with just addition: 0.64
 Percentage with addition overall: 0.77
 Percentage with subtraction only: 0.77

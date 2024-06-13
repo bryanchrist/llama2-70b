@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH -A sds_kropkoclass
+#SBATCH -A bryan_research
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
 
 ##SBATCH --hint=nomultithread #8GB per reserved CPU core if hyperthreading deactivated and 1/2 that when active
 #SBATCH --cpus-per-task=10
-#SBATCH --mem=250G
+#SBATCH --mem=50G
 ##SBATCH --gres=gpu:1
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1

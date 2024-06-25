@@ -1,38 +1,11 @@
-Retrieving notices: ...working... done
 Collecting package metadata (current_repodata.json): ...working... done
 Solving environment: ...working... done
 
-## Package Plan ##
+# All requested packages already installed.
 
-  environment location: /home/brc4cb/.conda/envs/falcon_40B
-
-  added / updated specs:
-    - python-dotenv
-
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    openssl-3.0.14             |       h5eee18b_0         5.2 MB
-    ------------------------------------------------------------
-                                           Total:         5.2 MB
-
-The following packages will be UPDATED:
-
-  openssl                                 3.0.13-h7f8727e_2 --> 3.0.14-h5eee18b_0 
-
-
-Proceed ([y]/n)? 
-
-Downloading and Extracting Packages
-openssl-3.0.14       | 5.2 MB    |            |   0% openssl-3.0.14       | 5.2 MB    | #9         |  20% openssl-3.0.14       | 5.2 MB    | ########## | 100% openssl-3.0.14       | 5.2 MB    | ########## | 100%                                                      
-Preparing transaction: ...working... done
-Verifying transaction: ...working... done
-Executing transaction: ...working... done
 Collecting transformers@ git+https://github.com/huggingface/transformers (from -r requirements.txt (line 3))
-  Cloning https://github.com/huggingface/transformers to /tmp/pip-install-q0g9be4v/transformers_e950240e237948ccb3bbe3426970670b
-  Resolved https://github.com/huggingface/transformers to commit eed9ed679878ada2f6d2eefccdbda368cabc88b1
+  Cloning https://github.com/huggingface/transformers to /tmp/pip-install-9qhqo8uh/transformers_e654a032b8a341cd9e69ef44d032a046
+  Resolved https://github.com/huggingface/transformers to commit ec905f3a761bda50cb1d9402eb4e655a1d392732
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
   Getting requirements to build wheel: started
@@ -40,8 +13,8 @@ Collecting transformers@ git+https://github.com/huggingface/transformers (from -
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
 Collecting trl@ git+https://github.com/huggingface/trl (from -r requirements.txt (line 5))
-  Cloning https://github.com/huggingface/trl to /tmp/pip-install-q0g9be4v/trl_3dfeabb28e784b6cabfbd2dc2cd5ab8b
-  Resolved https://github.com/huggingface/trl to commit f5168fdbaf9cbf6a3f1bdc64dc44b9db3a9ae333
+  Cloning https://github.com/huggingface/trl to /tmp/pip-install-9qhqo8uh/trl_650aa798b8c54461bdd941fe02c0295c
+  Resolved https://github.com/huggingface/trl to commit 3bf94492a8dc84ac192f7c5206553e1460f53aa4
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
   Getting requirements to build wheel: started
@@ -49,8 +22,8 @@ Collecting trl@ git+https://github.com/huggingface/trl (from -r requirements.txt
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
 Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requirements.txt (line 6))
-  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-q0g9be4v/peft_2e27f9503c0845a8a8e955e951e127d4
-  Resolved https://github.com/huggingface/peft.git to commit 076561bbd32ce8cd649ba4ec05cbc592cf2dd1c6
+  Cloning https://github.com/huggingface/peft.git to /tmp/pip-install-9qhqo8uh/peft_be445d79cab74283a40b72c39ee8467e
+  Resolved https://github.com/huggingface/peft.git to commit d37dde61e1572f41cb43705f25f2015cad89b4c1
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
   Getting requirements to build wheel: started
@@ -58,8 +31,8 @@ Collecting peft@ git+https://github.com/huggingface/peft.git (from -r requiremen
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
 Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -r requirements.txt (line 7))
-  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-q0g9be4v/accelerate_e8f813f07cca4e8bb6749901e869fc70
-  Resolved https://github.com/huggingface/accelerate.git to commit 13ca7dccb6019e045a7cd2de9d0c832f6efd9aa0
+  Cloning https://github.com/huggingface/accelerate.git to /tmp/pip-install-9qhqo8uh/accelerate_01f20f0387204dcc99b563ea40371aad
+  Resolved https://github.com/huggingface/accelerate.git to commit 1f7a79b428749f45187ec69485f2c966fe21926e
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
   Getting requirements to build wheel: started
@@ -67,11 +40,8 @@ Collecting accelerate@ git+https://github.com/huggingface/accelerate.git (from -
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
 Requirement already satisfied: bitsandbytes in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (0.43.1)
-Requirement already satisfied: wandb in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (0.17.1)
-Requirement already satisfied: datasets in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (2.19.2)
-Collecting datasets (from -r requirements.txt (line 4))
-  Downloading datasets-2.20.0-py3-none-any.whl (547 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 547.8/547.8 kB 8.4 MB/s eta 0:00:00
+Requirement already satisfied: wandb in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (0.17.2)
+Requirement already satisfied: datasets in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (2.20.0)
 Requirement already satisfied: torch in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (2.3.1)
 Requirement already satisfied: einops==0.6.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 9)) (0.6.1)
 Requirement already satisfied: evaluate in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 10)) (0.4.2)
@@ -86,10 +56,7 @@ Requirement already satisfied: dash-table-experiments==0.6.0 in /sfs/qumulo/qhom
 Requirement already satisfied: pymongo==4.3.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 23)) (4.3.2)
 Requirement already satisfied: lxml==4.9.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 25)) (4.9.1)
 Requirement already satisfied: plotly-express==0.4.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 27)) (0.4.1)
-Requirement already satisfied: huggingface_hub in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 29)) (0.23.3)
-Collecting huggingface_hub (from -r requirements.txt (line 29))
-  Downloading huggingface_hub-0.23.4-py3-none-any.whl (402 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 402.6/402.6 kB 5.1 MB/s eta 0:00:00
+Requirement already satisfied: huggingface_hub in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 29)) (0.23.4)
 Requirement already satisfied: numpy==1.25.2 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 31)) (1.25.2)
 Requirement already satisfied: pandas==2.0.3 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from -r requirements.txt (line 33)) (2.0.3)
 Requirement already satisfied: joblib>=1.1.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from scikit-learn==1.2.2->-r requirements.txt (line 11)) (1.2.0)
@@ -128,15 +95,10 @@ Requirement already satisfied: packaging>=20.0 in /sfs/qumulo/qhome/brc4cb/.cond
 Requirement already satisfied: regex!=2019.12.17 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers@ git+https://github.com/huggingface/transformers->-r requirements.txt (line 3)) (2023.6.3)
 Requirement already satisfied: tokenizers<0.20,>=0.19 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers@ git+https://github.com/huggingface/transformers->-r requirements.txt (line 3)) (0.19.1)
 Requirement already satisfied: safetensors>=0.4.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers@ git+https://github.com/huggingface/transformers->-r requirements.txt (line 3)) (0.4.2)
-Requirement already satisfied: tqdm>=4.27 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers@ git+https://github.com/huggingface/transformers->-r requirements.txt (line 3)) (4.65.0)
-Collecting pyarrow>=15.0.0 (from datasets->-r requirements.txt (line 4))
-  Downloading pyarrow-16.1.0-cp39-cp39-manylinux_2_28_x86_64.whl (40.8 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 MB 22.3 MB/s eta 0:00:00
+Requirement already satisfied: tqdm>=4.27 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from transformers@ git+https://github.com/huggingface/transformers->-r requirements.txt (line 3)) (4.66.4)
+Requirement already satisfied: pyarrow>=15.0.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 4)) (16.1.0)
 Requirement already satisfied: pyarrow-hotfix in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 4)) (0.6)
 Requirement already satisfied: dill<0.3.9,>=0.3.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 4)) (0.3.6)
-Collecting tqdm>=4.27 (from transformers@ git+https://github.com/huggingface/transformers->-r requirements.txt (line 3))
-  Downloading tqdm-4.66.4-py3-none-any.whl (78 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 kB 3.3 MB/s eta 0:00:00
 Requirement already satisfied: xxhash in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 4)) (3.2.0)
 Requirement already satisfied: multiprocess in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 4)) (0.70.14)
 Requirement already satisfied: fsspec[http]<=2024.5.0,>=2023.1.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from datasets->-r requirements.txt (line 4)) (2024.3.1)
@@ -213,43 +175,28 @@ Requirement already satisfied: executing>=1.2.0 in /sfs/qumulo/qhome/brc4cb/.con
 Requirement already satisfied: asttokens>=2.1.0 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 17)) (2.2.1)
 Requirement already satisfied: pure-eval in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from stack-data->ipython->jupyter-dash==0.4.2->-r requirements.txt (line 17)) (0.2.2)
 Requirement already satisfied: mdurl~=0.1 in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from markdown-it-py>=2.2.0->rich>=11.1.0->tyro>=0.5.11->trl@ git+https://github.com/huggingface/trl->-r requirements.txt (line 5)) (0.1.2)
-Installing collected packages: tqdm, pyarrow, huggingface_hub, datasets
-  Attempting uninstall: tqdm
-    Found existing installation: tqdm 4.65.0
-    Uninstalling tqdm-4.65.0:
-      Successfully uninstalled tqdm-4.65.0
-  Attempting uninstall: pyarrow
-    Found existing installation: pyarrow 12.0.1
-    Uninstalling pyarrow-12.0.1:
-      Successfully uninstalled pyarrow-12.0.1
-  Attempting uninstall: huggingface_hub
-    Found existing installation: huggingface-hub 0.23.3
-    Uninstalling huggingface-hub-0.23.3:
-      Successfully uninstalled huggingface-hub-0.23.3
-  Attempting uninstall: datasets
-    Found existing installation: datasets 2.19.2
-    Uninstalling datasets-2.19.2:
-      Successfully uninstalled datasets-2.19.2
-Successfully installed datasets-2.20.0 huggingface_hub-0.23.4 pyarrow-16.1.0 tqdm-4.66.4
-Looking in indexes: https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/
-Requirement already satisfied: triton-nightly in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (3.0.0.post20240424212437)
-Collecting triton-nightly
-  Downloading https://aiinfra.pkgs.visualstudio.com/2692857e-05ef-43b4-ba9c-ccf1c22c437c/_packaging/07c94329-d4c3-4ad4-9e6b-f904a60032ec/pypi/download/triton-nightly/3.post20240615035002/triton_nightly-3.0.0.post20240615035002-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (138.6 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 138.6/138.6 MB 7.3 MB/s eta 0:00:00
-Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from triton-nightly) (3.9.0)
-Installing collected packages: triton-nightly
-  Attempting uninstall: triton-nightly
-    Found existing installation: triton-nightly 3.0.0.post20240424212437
-    Uninstalling triton-nightly-3.0.0.post20240424212437:
-      Successfully uninstalled triton-nightly-3.0.0.post20240424212437
-Successfully installed triton-nightly-3.0.0.post20240615035002
 Collecting package metadata (current_repodata.json): ...working... done
 Solving environment: ...working... done
 
 # All requested packages already installed.
 
+[2024-06-20 11:30:28,751] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
 token loaded
 The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
 Token is valid (permission: write).
-Your token has been saved to /home/brc4cb/.cache/huggingface/token
+Your token has been saved to /scratch/brc4cb/llama/cache/token
 Login successful
+loading base model meta-llama/Llama-2-70b-hf...
+Adding special tokens.
+adding LoRA modules...
+trainable params: 414187520.0 || all params: 35580551168 || trainable: 1.1640840470523877
+loaded model
+Splitting train dataset in train and validation according to `eval_dataset_size`
+torch.bfloat16 1353711616 0.03804639252518057
+torch.uint8 34225520640 0.9619165391339224
+torch.float32 1318912 3.706834089704003e-05
+{'loss': 0.7563, 'grad_norm': 0.0810546875, 'learning_rate': 1e-05, 'epoch': 0.11}
+{'loss': 0.8508, 'grad_norm': 0.134765625, 'learning_rate': 1e-05, 'epoch': 0.22}
+{'loss': 0.7153, 'grad_norm': 0.11572265625, 'learning_rate': 1e-05, 'epoch': 0.34}
+{'loss': 0.6903, 'grad_norm': 0.1884765625, 'learning_rate': 1e-05, 'epoch': 0.45}
+{'loss': 0.6235, 'grad_norm': 0.1328125, 'learning_rate': 1e-05, 'epoch': 0.56}

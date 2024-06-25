@@ -1,7 +1,7 @@
 import os
 import sys
 import builtins
-os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
+os.environ['HF_HOME'] = '/scratch/brc4cb/llama/cache'
 #os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 import torch
@@ -16,7 +16,8 @@ from typing import Optional, Dict, Sequence
 import numpy as np
 from tqdm import tqdm
 import logging
-import bitsandbytes as bnb
+import triton
+#import bitsandbytes as bnb
 import pandas as pd
 import random
 
@@ -48,24 +49,25 @@ from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
 
 # Set the environment variable
 os.environ["HF_REMOTES_OFFLINE"] = "1"
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 # Load the environmental variables from the .env file
-load_dotenv()
+#load_dotenv()
 
-token = os.getenv('huggingface_token')
-if token:
-    print('token loaded')
+#token = os.getenv('huggingface_token')
+#if token:
+   #print('token loaded')
     
-token = os.environ['huggingface_token']
+#token = os.environ['huggingface_token']
 #Uncomment if needed
-from huggingface_hub import login
-login(token=token)
+#from huggingface_hub import login
+#login(token=token)
 
 # Redirect stdin to /dev/null
 sys.stdin = open(os.devnull)
 
 model_path = "meta-llama/Llama-2-70b-hf"   # Specify the path to the model
-adapter_path = "mathwell/llama_QA_adapter_no_embed/checkpoint-1250"  # Specify the path to the adapter weights
+#adapter_path = "mathwell/llama_QA_adapter_no_embed/checkpoint-1250"  # Specify the path to the adapter weights
+adapter_path = "mathwell/egsm_only/checkpoint-1000"
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 
 # Patch the built-in input function to return 'y' automatically
@@ -91,6 +93,48 @@ except EOFError:
 
 # Restore stdin
 sys.stdin = sys.__stdin__
+
+
+# Set special tokens
+DEFAULT_PAD_TOKEN = "[PAD]"
+def smart_tokenizer_and_embedding_resize(
+    special_tokens_dict: Dict,
+    tokenizer: transformers.PreTrainedTokenizer,
+    model: transformers.PreTrainedModel,
+):
+    """Resize tokenizer and embedding.
+
+    Note: This is the unoptimized version that may make your embedding size not be divisible by 64.
+    """
+    num_new_tokens = tokenizer.add_special_tokens(special_tokens_dict)
+    model.resize_token_embeddings(len(tokenizer), pad_to_multiple_of=64)
+
+    if num_new_tokens > 0:
+        input_embeddings = model.get_input_embeddings().weight.data
+        output_embeddings = model.get_output_embeddings().weight.data
+
+        input_embeddings_avg = input_embeddings[:-num_new_tokens].mean(dim=0, keepdim=True)
+        output_embeddings_avg = output_embeddings[:-num_new_tokens].mean(dim=0, keepdim=True)
+
+        input_embeddings[-num_new_tokens:] = input_embeddings_avg
+        output_embeddings[-num_new_tokens:] = output_embeddings_avg
+        
+if tokenizer._pad_token is None:
+    smart_tokenizer_and_embedding_resize(
+        special_tokens_dict=dict(pad_token=DEFAULT_PAD_TOKEN),
+        tokenizer=tokenizer,
+        model=model,
+    )
+
+print('Adding special tokens.')
+tokenizer.add_special_tokens({
+        "eos_token": tokenizer.convert_ids_to_tokens(model.config.eos_token_id),
+        "bos_token": tokenizer.convert_ids_to_tokens(model.config.bos_token_id),
+#                 "unk_token": tokenizer.convert_ids_to_tokens(
+#                     model.config.pad_token_id if model.config.pad_token_id != -1 else tokenizer.pad_token_id
+#                 ),
+})
+
 
 # Load the adapter weights
 model = PeftModel.from_pretrained(model, adapter_path)
@@ -158,7 +202,7 @@ for i in range(0,5000):
     newly_generated_text = generated_text_parts[-1].strip()
     if "\nBel" in newly_generated_text:
         newly_generated_text = newly_generated_text.split("\nBel")[0]
-    output_file = "mathwell_questions.txt"  # Specify the path and filename for the output file
+    output_file = "mathwell_questions_egsm_only.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(f"Topic: {topic} " + newly_generated_text + "\n")  # Append the newly generated text to the file
         

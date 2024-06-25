@@ -4,6 +4,7 @@ from collections import defaultdict
 import copy
 import json
 import os
+os.environ['HF_HOME'] = '/scratch/brc4cb/llama/cache'
 from os.path import exists, join, isdir
 from dataclasses import dataclass, field
 import sys
@@ -19,7 +20,7 @@ from trl import SFTTrainer
 import torch
 import os
 #os.environ['TRANSFORMERS_CACHE'] = '/project/SDS/research/christ_research/Llama 2/llama2-70b/cache'
-os.environ['TRANSFORMERS_CACHE'] = '/scratch/brc4cb/llama/cache'
+os.environ['HF_HOME'] = '/scratch/brc4cb/llama/cache'
 import transformers
 from torch.nn.utils.rnn import pad_sequence
 import argparse

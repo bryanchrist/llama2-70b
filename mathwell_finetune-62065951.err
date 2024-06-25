@@ -1,0 +1,67 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers /tmp/pip-install-k5h3ymca/transformers_00268da8990d435d9f7b2eb274201805
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/trl /tmp/pip-install-k5h3ymca/trl_f8098f2353eb4c28bbca28bbc9e68c8c
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/pip-install-k5h3ymca/peft_cee917a09142445c930fa77cc285c124
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-k5h3ymca/accelerate_6a21d87dab6a4877b6720d9fb30929f1
+WARNING: Ignoring invalid distribution -riton-nightly (/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages)
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.5.2
+  latest version: 24.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.5.0
+
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: '/sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torchvision/image.so: undefined symbol: _ZN3c1017RegisterOperatorsD1Ev'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/training_args.py:1494: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Unused kwargs: ['use_auth_token']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Downloading shards:   0%|          | 0/15 [00:00<?, ?it/s]Downloading shards:   7%|▋         | 1/15 [00:20<04:44, 20.32s/it]Downloading shards:  13%|█▎        | 2/15 [00:42<04:36, 21.26s/it]Downloading shards:  20%|██        | 3/15 [01:04<04:19, 21.64s/it]Downloading shards:  27%|██▋       | 4/15 [01:26<04:00, 21.90s/it]Downloading shards:  33%|███▎      | 5/15 [01:49<03:43, 22.33s/it]Downloading shards:  40%|████      | 6/15 [02:12<03:22, 22.55s/it]Downloading shards:  47%|████▋     | 7/15 [02:35<03:02, 22.76s/it]Downloading shards:  53%|█████▎    | 8/15 [02:58<02:38, 22.69s/it]Downloading shards:  60%|██████    | 9/15 [06:34<08:18, 83.09s/it]Downloading shards:  67%|██████▋   | 10/15 [06:59<05:26, 65.22s/it]Downloading shards:  73%|███████▎  | 11/15 [07:25<03:33, 53.33s/it]Downloading shards:  80%|████████  | 12/15 [07:51<02:14, 44.82s/it]Downloading shards:  87%|████████▋ | 13/15 [08:14<01:16, 38.37s/it]Downloading shards:  93%|█████████▎| 14/15 [08:39<00:34, 34.15s/it]Downloading shards: 100%|██████████| 15/15 [08:40<00:00, 24.26s/it]Downloading shards: 100%|██████████| 15/15 [08:40<00:00, 34.70s/it]
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:04<01:09,  4.97s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:10<01:08,  5.27s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:15<00:59,  4.99s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:20<00:56,  5.18s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:26<00:53,  5.35s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:31<00:48,  5.37s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:37<00:43,  5.48s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:42<00:38,  5.46s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:48<00:32,  5.48s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:52<00:26,  5.24s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:58<00:21,  5.33s/it]Loading checkpoint shards:  80%|████████  | 12/15 [01:03<00:15,  5.21s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:08<00:10,  5.13s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:13<00:05,  5.17s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:14<00:00,  3.72s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:14<00:00,  4.93s/it]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1906 examples [00:00, 21801.31 examples/s]
+Map:   0%|          | 0/285 [00:00<?, ? examples/s]Map: 100%|██████████| 285/285 [00:00<00:00, 11142.90 examples/s]
+Map:   0%|          | 0/1430 [00:00<?, ? examples/s]Map: 100%|██████████| 1430/1430 [00:00<00:00, 14321.25 examples/s]
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+max_steps is given, it will override any value given in num_train_epochs
+  0%|          | 0/5000 [00:00<?, ?it/s]  0%|          | 1/5000 [00:51<72:02:25, 51.88s/it]  0%|          | 2/5000 [01:40<69:08:56, 49.81s/it]  0%|          | 3/5000 [02:28<68:10:35, 49.12s/it]  0%|          | 4/5000 [03:16<67:37:49, 48.73s/it]  0%|          | 5/5000 [04:04<67:21:40, 48.55s/it]  0%|          | 6/5000 [04:52<67:06:49, 48.38s/it]  0%|          | 7/5000 [05:40<66:54:17, 48.24s/it]  0%|          | 8/5000 [06:28<66:45:49, 48.15s/it]  0%|          | 9/5000 [07:16<66:35:28, 48.03s/it]  0%|          | 10/5000 [08:04<66:29:16, 47.97s/it]                                                      0%|          | 10/5000 [08:04<66:29:16, 47.97s/it]  0%|          | 11/5000 [08:52<66:20:18, 47.87s/it]  0%|          | 12/5000 [09:39<66:07:22, 47.72s/it]  0%|          | 13/5000 [10:26<65:59:08, 47.63s/it]  0%|          | 14/5000 [11:14<65:54:07, 47.58s/it]  0%|          | 15/5000 [12:01<65:40:29, 47.43s/it]  0%|          | 16/5000 [12:48<65:29:44, 47.31s/it]  0%|          | 17/5000 [13:35<65:16:06, 47.15s/it]  0%|          | 18/5000 [14:21<65:01:20, 46.99s/it]  0%|          | 19/5000 [15:08<64:49:01, 46.85s/it]  0%|          | 20/5000 [15:54<64:37:34, 46.72s/it]                                                      0%|          | 20/5000 [15:54<64:37:34, 46.72s/it]  0%|          | 21/5000 [16:40<64:14:43, 46.45s/it]  0%|          | 22/5000 [17:25<63:40:32, 46.05s/it]  0%|          | 23/5000 [18:14<64:35:34, 46.72s/it]  0%|          | 24/5000 [19:02<65:12:40, 47.18s/it]  0%|          | 25/5000 [19:50<65:43:25, 47.56s/it]  1%|          | 26/5000 [20:38<65:58:34, 47.75s/it]  1%|          | 27/5000 [21:27<66:07:07, 47.86s/it]  1%|          | 28/5000 [22:14<66:07:31, 47.88s/it]  1%|          | 29/5000 [23:02<66:09:10, 47.91s/it]  1%|          | 30/5000 [23:51<66:17:17, 48.02s/it]                                                      1%|          | 30/5000 [23:51<66:17:17, 48.02s/it]  1%|          | 31/5000 [24:38<66:07:22, 47.91s/it]  1%|          | 32/5000 [25:26<66:03:48, 47.87s/it]  1%|          | 33/5000 [26:14<65:57:00, 47.80s/it]  1%|          | 34/5000 [27:01<65:45:41, 47.67s/it]  1%|          | 35/5000 [27:49<65:37:37, 47.58s/it]  1%|          | 36/5000 [28:36<65:29:13, 47.49s/it]  1%|          | 37/5000 [29:23<65:19:28, 47.38s/it]  1%|          | 38/5000 [30:10<65:08:16, 47.26s/it]  1%|          | 39/5000 [30:56<64:50:19, 47.05s/it]  1%|          | 40/5000 [31:43<64:30:27, 46.82s/it]                                                      1%|          | 40/5000 [31:43<64:30:27, 46.82s/it]  1%|          | 41/5000 [32:29<64:21:54, 46.73s/it]  1%|          | 42/5000 [33:15<63:49:52, 46.35s/it]  1%|          | 43/5000 [34:00<63:29:41, 46.11s/it]  1%|          | 44/5000 [34:45<62:54:08, 45.69s/it]  1%|          | 45/5000 [35:33<63:58:19, 46.48s/it]  1%|          | 46/5000 [36:22<64:44:33, 47.05s/it]  1%|          | 47/5000 [37:10<65:12:46, 47.40s/it]  1%|          | 48/5000 [37:58<65:35:16, 47.68s/it]  1%|          | 49/5000 [38:46<65:42:31, 47.78s/it]  1%|          | 50/5000 [39:34<65:47:29, 47.85s/it]                                                      1%|          | 50/5000 [39:34<65:47:29, 47.85s/it]  1%|          | 51/5000 [40:22<65:48:44, 47.87s/it]  1%|          | 52/5000 [41:10<65:49:26, 47.89s/it]Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 856, in <module>
+    train()
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/qlora_no_embed.py", line 818, in train
+    train_result = trainer.train()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 2268, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/trainer.py", line 3310, in training_step
+    torch.cuda.empty_cache()
+  File "/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/torch/cuda/memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+  1%|          | 52/5000 [41:45<66:13:38, 48.18s/it]

@@ -1,0 +1,36 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Collecting transformers@ git+https://github.com/huggingface/transformers (from -r requirements.txt (line 3))
+  Cloning https://github.com/huggingface/transformers to /tmp/pip-install-nlqla20l/transformers_9cc6bb3309f24669ab931e3e64d6575a
+  Resolved https://github.com/huggingface/transformers to commit 74a207404e8d4524d1fdc4aa23789694f9eef347
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting triton@ git+https://github.com/openai/triton.git (from -r requirements.txt (line 4))
+  Cloning https://github.com/openai/triton.git to /tmp/pip-install-nlqla20l/triton_719a42b4ccb94415ad34fbcdfb48c863
+  Resolved https://github.com/openai/triton.git to commit 0154c76872f7cf07ffd41d46eff38e6c9635e96c
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+Collecting git+https://github.com/openai/triton.git
+  Cloning https://github.com/openai/triton.git to /tmp/pip-req-build-si6wzivw
+  Resolved https://github.com/openai/triton.git to commit 0154c76872f7cf07ffd41d46eff38e6c9635e96c
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+Looking in indexes: https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/Triton-Nightly/pypi/simple/
+Requirement already satisfied: triton-nightly in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (3.0.0.post20240621051510)
+Requirement already satisfied: filelock in /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages (from triton-nightly) (3.9.0)
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+

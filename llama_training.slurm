@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A bryan_research
 #SBATCH -p gpu
-#SBATCH --gres=gpu:a100:2 # replace X with the number of GPUs per node
+#SBATCH --gres=gpu:a100:3 # replace X with the number of GPUs per node
 #SBATCH -C gpupod
 
 ##SBATCH --hint=nomultithread #8GB per reserved CPU core if hyperthreading deactivated and 1/2 that when active
@@ -32,9 +32,11 @@ conda install -n falcon_40B python-dotenv
 pip install -U -r requirements.txt
 conda install -y cudatoolkit
 export LD_LIBRARY_PATH='/opt/conda/lib/' 
+export HF_HOME='/scratch/brc4cb/llama/cache'
+export CUDA_LAUNCH_BLOCKING=1
 python qlora_no_embed.py \
     --model_name_or_path meta-llama/Llama-2-70b-hf \
-    --output_dir mathwell/llama_QA_adapter_no_embed \
+    --output_dir mathwell/egsm_only \
     --logging_steps 10 \
     --save_strategy steps \
     --data_seed 42 \
@@ -61,7 +63,7 @@ python qlora_no_embed.py \
     --warmup_ratio 0.03 \
     --lr_scheduler_type constant \
     --gradient_checkpointing \
-    --dataset="mathwell.json" \
+    --dataset="data/mathwell.json" \
     --source_max_len 16 \
     --target_max_len 512 \
     --per_device_train_batch_size 1 \

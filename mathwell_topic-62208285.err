@@ -1,0 +1,29 @@
+/var/spool/slurm/slurmd/job62208285/slurm_script: line 35: export PYTHONPATH=/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages:/home/brc4cb/.conda/envs/mathwell/bin:/home/brc4cb/.conda/envs/mathwell/bin:/apps/software/standard/core/anaconda/2023.07-py3.11/condabin:/apps/software/standard/core/anaconda/2023.07-py3.11:/apps/software/standard/core/anaconda/2023.07-py3.11/sbin:/apps/software/standard/core/anaconda/2023.07-py3.11/bin:/opt/mam/9.1.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/current/bin:/opt/singularity/current/bin:/opt/rci/bin:/share/rci_apps/common/bin:/share/resources/HPCtools:/opt/mam/current/bin:/opt/apptainer/current/bin: No such file or directory
+/home/brc4cb/.conda/envs/mathwell/lib/python3.11/getpass.py:91: GetPassWarning: Can not control echo on the terminal.
+  passwd = fallback_getpass(prompt, stream)
+Warning: Password input may be echoed.
+Enter your token (input will not be visible): Traceback (most recent call last):
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/getpass.py", line 69, in unix_getpass
+    old = termios.tcgetattr(fd)     # a copy to save
+          ^^^^^^^^^^^^^^^^^^^^^
+termios.error: (25, 'Inappropriate ioctl for device')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/mathwell.py", line 63, in <module>
+    login(token=token)
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/huggingface_hub/_login.py", line 115, in login
+    interpreter_login(new_session=new_session, write_permission=write_permission)
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/huggingface_hub/_login.py", line 191, in interpreter_login
+    token = getpass("Enter your token (input will not be visible): ")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/getpass.py", line 91, in unix_getpass
+    passwd = fallback_getpass(prompt, stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/getpass.py", line 126, in fallback_getpass
+    return _raw_input(prompt, stream)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/getpass.py", line 148, in _raw_input
+    raise EOFError
+EOFError

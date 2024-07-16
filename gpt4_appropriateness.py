@@ -85,7 +85,7 @@ prompt9 = {'question' : prompt['question'].iloc[0],
 'appropriateness': prompt['appropriateness'].iloc[0],
 'explanation': "This question is not based in reality, as it is not possible for one cat to birth 100 kittens, nor is it possible for them to be different breeds."}
 
-prompt = accuracy.query("model=='mathwell' & answer=='3.0' & appropriateness==0.0")
+prompt = appropriateness.query("model=='mathwell' & answer=='3.0' & appropriateness==0.0")
 prompt10 = {'question' : prompt['question'].iloc[0], 
 #'solution': prompt['solution'].iloc[0],
 'answer': prompt['answer'].iloc[0], 

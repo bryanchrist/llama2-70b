@@ -105,7 +105,7 @@ for i in range(0, len(accuracy)):
     'solution': accuracy.iloc[i]['solution'], 
     'answer': accuracy.iloc[i]['answer']}
     ground_truth = accuracy.iloc[i]['accuracy']         
-    accuracy_prompt = f"""You are a teacher tasked with evaluating word problems for K-8 students. You must evaluate each question's solution for accuracy, which means the Python function solution provided arrives at the correct answer for the question and does not engage in any rounding unless the question specifically asks for it. You will be given a question, solution and answer in JSON format and be asked to complete the complete the JSON object with a 1 or 0 to denote that a question's solution is accurate or not accurate, respectively, along with a brief explanation for your answer.  
+    accuracy_prompt = f"""You are a teacher tasked with evaluating word problems for K-8 students. You must evaluate each question's solution for accuracy, which means the Python function solution provided arrives at the correct answer for the question and does not engage in any rounding unless the question specifically asks for it. You will be given a question, solution and answer in JSON format and be asked to complete the complete the JSON object with a 1.0 or 0.0 to denote that a question's solution is accurate or not accurate, respectively, along with a brief explanation for your answer.  
     
 Here are some examples: 
 {prompt1}
@@ -161,13 +161,16 @@ Now evaluate this question:
             agreement.append(0)
     
     except:
-        message = message.split("accuracy")[1]
-        message = message.split(": ")[1]
-        annotation = message.split(",")[0]
-        if annotation == ground_truth:
-            agreement.append(1)
-        else:
-            agreement.append(0)
+        try:
+            message = message.split("accuracy")[1]
+            message = message.split(": ")[1]
+            annotation = message.split(",")[0]
+            if annotation == ground_truth:
+                agreement.append(1)
+            else:
+                agreement.append(0)
+        except:
+            pass
     
     if i%50==0:
         output_file = "gpt4_accuracy_annotations.txt"  # Specify the path and filename for the output file

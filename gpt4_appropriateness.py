@@ -163,14 +163,16 @@ Now evaluate this question:
             agreement.append(0)
     
     except:
-        message = message.split("appropriateness")[1]
-        message = message.split(": ")[1]
-        annotation = message.split(",")[0]
-        if annotation == ground_truth:
-            agreement.append(1)
-        else:
-            agreement.append(0)
-    
+        try:
+            message = message.split("appropriateness")[1]
+            message = message.split(": ")[1]
+            annotation = message.split(",")[0]
+            if annotation == ground_truth:
+                agreement.append(1)
+            else:
+                agreement.append(0)
+        except:
+            pass
     if i%50==0:
         output_file = "gpt4_appropriateness_annotations.txt"  # Specify the path and filename for the output file
         with open(output_file, "a") as f:  # Open the file in append mode ("a")

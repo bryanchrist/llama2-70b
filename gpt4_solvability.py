@@ -137,7 +137,8 @@ Now evaluate this question:
             message = message.split("solvability")[1]
             message = message.split(": ")[1]
             annotation = message.split(",")[0]
-            if annotation == ground_truth:
+            annotation = float(annotation)
+            if annotation == float(ground_truth):
                 agreement.append(1)
             else:
                 agreement.append(0)

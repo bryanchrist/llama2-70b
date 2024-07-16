@@ -1,0 +1,4 @@
+Average solvability agreement at question 0: 1.0
+Average solvability agreement at question 50: 0.5098039215686274
+Average solvability agreement at question 100: 0.46534653465346537
+Average solvability agreement at question 0: nan

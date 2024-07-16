@@ -1,0 +1,32 @@
+/var/spool/slurm/slurmd/job62552808/slurm_script: line 17: export PYTHONPATH=/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages:/home/brc4cb/.conda/envs/mathwell/bin:/home/brc4cb/.conda/envs/mathwell/bin:/apps/software/standard/core/anaconda/2023.07-py3.11/condabin:/apps/software/standard/core/anaconda/2023.07-py3.11:/apps/software/standard/core/anaconda/2023.07-py3.11/sbin:/apps/software/standard/core/anaconda/2023.07-py3.11/bin:/opt/mam/9.1.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/current/bin:/opt/singularity/current/bin:/opt/rci/bin:/share/rci_apps/common/bin:/share/resources/HPCtools:/opt/mam/current/bin:/opt/apptainer/current/bin: No such file or directory
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/gpt4_appropriateness.py", line 136, in <module>
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 643, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_base_client.py", line 1266, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_base_client.py", line 942, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_base_client.py", line 1031, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_base_client.py", line 1079, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_base_client.py", line 1031, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_base_client.py", line 1079, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/openai/_base_client.py", line 1046, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2023-07-01-preview have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 12 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}

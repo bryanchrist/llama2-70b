@@ -1,0 +1,6 @@
+/var/spool/slurm/slurmd/job62552773/slurm_script: line 17: export PYTHONPATH=/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages:/home/brc4cb/.conda/envs/mathwell/bin:/home/brc4cb/.conda/envs/mathwell/bin:/apps/software/standard/core/anaconda/2023.07-py3.11/condabin:/apps/software/standard/core/anaconda/2023.07-py3.11:/apps/software/standard/core/anaconda/2023.07-py3.11/sbin:/apps/software/standard/core/anaconda/2023.07-py3.11/bin:/opt/mam/9.1.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/current/bin:/opt/singularity/current/bin:/opt/rci/bin:/share/rci_apps/common/bin:/share/resources/HPCtools:/opt/mam/current/bin:/opt/apptainer/current/bin: No such file or directory
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/gpt4_appropriateness.py", line 88, in <module>
+    prompt = accuracy.query("model=='mathwell' & answer=='3.0' & appropriateness==0.0")
+             ^^^^^^^^
+NameError: name 'accuracy' is not defined

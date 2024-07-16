@@ -1,0 +1,23 @@
+/var/spool/slurm/slurmd/job62552768/slurm_script: line 17: export PYTHONPATH=/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages:/home/brc4cb/.conda/envs/mathwell/bin:/home/brc4cb/.conda/envs/mathwell/bin:/apps/software/standard/core/anaconda/2023.07-py3.11/condabin:/apps/software/standard/core/anaconda/2023.07-py3.11:/apps/software/standard/core/anaconda/2023.07-py3.11/sbin:/apps/software/standard/core/anaconda/2023.07-py3.11/bin:/opt/mam/9.1.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/current/bin:/opt/singularity/current/bin:/opt/rci/bin:/share/rci_apps/common/bin:/share/resources/HPCtools:/opt/mam/current/bin:/opt/apptainer/current/bin: No such file or directory
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/gpt4_solvability.py", line 127, in <module>
+    my_json = json.loads(message)
+              ^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/gpt4_solvability.py", line 136, in <module>
+    message = message.split("solvability")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

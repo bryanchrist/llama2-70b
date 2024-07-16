@@ -83,7 +83,7 @@ for i in range(0, len(solvability)):
     #'solution': solvability.iloc[i]['solution'], 
     #'answer': solvability.iloc[i]['answer']}
     ground_truth = solvability.iloc[i]['solvability']         
-    solvability_prompt = f"""You are a teacher tasked with evaluating word problems for K-8 students. You must evaluate each question for solvability, which means it has one correct answer, contains the information necessary to solve the problem, and does not arrive at a negative answer when it is not possible to have a negative number (for example, having negative items left over after giving some to someone). You will be given a question, solution and answer in JSON format and be asked to complete the complete the JSON object with a 1.0 or 0.0 to denote that a question is solvable or not solvable, respectively, along with a brief explanation for your answer. 
+    solvability_prompt = f"""You are a teacher tasked with evaluating word problems for K-8 students. You must evaluate each question for solvability, which means it has one correct answer, contains the information necessary to solve the problem, and does not arrive at a negative answer when it is not possible to have a negative number (for example, having negative items left over after giving some to someone). You will be given a question, solution and answer in JSON format and be asked to complete the complete the JSON object with a 1 or 0 to denote that a question is solvable or not solvable, respectively, along with a brief explanation for your answer. 
     
 Here are some examples: 
 {first_prompt}
@@ -148,7 +148,11 @@ Now evaluate this question:
         output_file = "gpt4_solvability_annotations.txt"  # Specify the path and filename for the output file
         with open(output_file, "a") as f:  # Open the file in append mode ("a")
             f.write(f"Average solvability agreement at question {i}: {np.mean(agreement)}\n")  # Append the newly generated text to the file
-
+        gpt4_annotations = pd.DataFrame.from_dict(responses)
+        gpt4_annotations.to_csv('data/gpt4_solvability_annotations.csv')
+        gpt4_annotations_json = pd.DataFrame.from_dict(json_responses)
+        gpt4_annotations_json.to_csv('data/gpt4_solvability_annotations_json.csv')
+        
 gpt4_annotations = pd.DataFrame.from_dict(responses)
 gpt4_annotations.to_csv('data/gpt4_solvability_annotations.csv')
 gpt4_annotations_json = pd.DataFrame.from_dict(json_responses)

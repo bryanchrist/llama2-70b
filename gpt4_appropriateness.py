@@ -107,7 +107,7 @@ for i in range(0, len(appropriateness)):
     ground_truth = appropriateness.iloc[i]['appropriateness']         
     appropriateness_prompt = f"""You are a teacher tasked with evaluating math word problems for K-8 students. You must evaluate each question for educational appropriateness, meaning whether it is appropriate for a student in a K-8 classroom setting. There are four primary reasons why a question should be flagged as educationally inappropriate: being strange or unrealistic (some exaggeration is fine for fictional settings, but the question should not contain factually inaccurate statements such as a cat having 7 toes), being too difficult for a K-8 student (as assessed by containing any mathematical operation beyond addition, subtraction, multiplication, division, fractions or decimals or having an answer that would be difficult for a student to arrive at without a calculator), containing inappropriate content for a classroom setting (such as describing harming someone else), or having grammatical errors or typos. A final reason why a question would be labeled as educationally inappropriate is that it does not require any mathematical operations to solve and, therefore, is a reading comprehension question rather than a math word problem. 
 
-You will be given a question, solution and answer in JSON format and be asked to complete the complete the JSON object with a 1 or 0 to denote that a question is appropriate or not appropriate, respectively, along with a brief explanation for your answer.   
+You will be given a question, solution and answer in JSON format and be asked to complete the complete the JSON object with a 1.0 or 0.0 to denote that a question is appropriate or not appropriate, respectively, along with a brief explanation for your answer.   
     
 Here are some examples: 
 {prompt1}
@@ -177,6 +177,11 @@ Now evaluate this question:
         output_file = "gpt4_appropriateness_annotations.txt"  # Specify the path and filename for the output file
         with open(output_file, "a") as f:  # Open the file in append mode ("a")
             f.write(f"Average appropriateness agreement at question {i}: {np.mean(agreement)}\n")  # Append the newly generated text to the file
+
+        gpt4_annotations = pd.DataFrame.from_dict(responses)
+        gpt4_annotations.to_csv('data/gpt4_appropriateness_annotations.csv')
+        gpt4_annotations_json = pd.DataFrame.from_dict(json_responses)
+        gpt4_annotations_json.to_csv('data/gpt4_appropriateness_annotations_json.csv')
 
 gpt4_annotations = pd.DataFrame.from_dict(responses)
 gpt4_annotations.to_csv('data/gpt4_appropriateness_annotations.csv')

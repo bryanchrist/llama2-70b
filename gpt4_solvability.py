@@ -149,11 +149,11 @@ Now evaluate this question:
         with open(output_file, "a") as f:  # Open the file in append mode ("a")
             f.write(f"Average solvability agreement at question {i}: {np.mean(agreement)}\n")  # Append the newly generated text to the file
         gpt4_annotations = pd.DataFrame.from_dict(responses)
-        gpt4_annotations.to_csv('data/gpt4_solvability_annotations.csv')
+        gpt4_annotations.to_csv('gpt4_solvability_annotations.csv')
         gpt4_annotations_json = pd.DataFrame.from_dict(json_responses)
-        gpt4_annotations_json.to_csv('data/gpt4_solvability_annotations_json.csv')
+        gpt4_annotations_json.to_csv('gpt4_solvability_annotations_json.csv')
         
 gpt4_annotations = pd.DataFrame.from_dict(responses)
-gpt4_annotations.to_csv('data/gpt4_solvability_annotations.csv')
+gpt4_annotations.to_csv('gpt4_solvability_annotations.csv')
 gpt4_annotations_json = pd.DataFrame.from_dict(json_responses)
-gpt4_annotations_json.to_csv('data/gpt4_solvability_annotations_json.csv')
+gpt4_annotations_json.to_csv('gpt4_solvability_annotations_json.csv')

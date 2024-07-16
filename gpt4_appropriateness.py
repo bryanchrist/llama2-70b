@@ -179,11 +179,11 @@ Now evaluate this question:
             f.write(f"Average appropriateness agreement at question {i}: {np.mean(agreement)}\n")  # Append the newly generated text to the file
 
         gpt4_annotations = pd.DataFrame.from_dict(responses)
-        gpt4_annotations.to_csv('data/gpt4_appropriateness_annotations.csv')
+        gpt4_annotations.to_csv('gpt4_appropriateness_annotations.csv')
         gpt4_annotations_json = pd.DataFrame.from_dict(json_responses)
-        gpt4_annotations_json.to_csv('data/gpt4_appropriateness_annotations_json.csv')
+        gpt4_annotations_json.to_csv('gpt4_appropriateness_annotations_json.csv')
 
 gpt4_annotations = pd.DataFrame.from_dict(responses)
-gpt4_annotations.to_csv('data/gpt4_appropriateness_annotations.csv')
+gpt4_annotations.to_csv('gpt4_appropriateness_annotations.csv')
 gpt4_annotations_json = pd.DataFrame.from_dict(json_responses)
-gpt4_annotations_json.to_csv('data/gpt4_appropriateness_annotations_json.csv')
+gpt4_annotations_json.to_csv('gpt4_appropriateness_annotations_json.csv')

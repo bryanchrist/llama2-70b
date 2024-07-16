@@ -100,7 +100,7 @@ import json
 responses = []
 json_responses = []
 agreement = []
-for i in range(0, 10):
+for i in range(0, len(appropriateness)):
     query = {'question': appropriateness.iloc[i]['question'], 
     #'solution': appropriateness.iloc[i]['solution'], 
     'answer': appropriateness.iloc[i]['answer']}

@@ -78,7 +78,7 @@ import json
 responses = []
 json_responses = []
 agreement = []
-for i in range(0, len(solvability):
+for i in range(0, len(solvability)):
     query = {'question': solvability.iloc[i]['question']} 
     #'solution': solvability.iloc[i]['solution'], 
     #'answer': solvability.iloc[i]['answer']}

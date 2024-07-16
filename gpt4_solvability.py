@@ -1,11 +1,11 @@
 from openai import AzureOpenAI
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load the .env file
-load_dotenv()
-api_key = os.getenv('gpt4_api_key')
-azure_endpoint = os.getenv('gpt4_azure_endpoint')
+#load_dotenv()
+api_key = os.environ['gpt4_api_key']
+azure_endpoint = os.environ['gpt4_azure_endpoint']
 
 # gets the API Key from environment variable AZURE_OPENAI_API_KEY
 client = AzureOpenAI(

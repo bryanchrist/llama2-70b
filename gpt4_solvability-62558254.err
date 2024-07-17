@@ -3,3 +3,4 @@
   return _methods._mean(a, axis=axis, dtype=dtype,
 /home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
   ret = ret.dtype.type(ret / rcount)
+slurmstepd: error: *** JOB 62558254 ON udc-aw32-2c0 CANCELLED AT 2024-07-16T22:17:27 ***

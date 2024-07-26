@@ -76,7 +76,7 @@ from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
 # )
 
 tokenizer = AutoTokenizer.from_pretrained("openai-community/gpt2")
-model = AutoModelForCausalLM.from_pretrained("openai-community/gpt2", device_map="auto", torch_dtype=torch.bfloat16)
+model = AutoModelForCausalLM.from_pretrained("openai-community/gpt2", device_map="auto")
 
 df = pd.read_csv('data/all_models.csv')
 gsm8k_all = pd.read_csv('data/gsm8k_all.csv')
@@ -122,7 +122,7 @@ def perplexity(df):
     ppls = []
     for i in range(0, len(df)):
         text = "Question: " + str(df.iloc[i]['question']) + "\n" + "Solution:\n" + str(df.iloc[i]['solution'])
-        inputs = tokenizer(text, return_tensors = "pt")
+        inputs = tokenizer(text, return_tensors = "pt").to('cuda')
         loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
         ppl = torch.exp(loss)
         ppl = ppl.cpu().detach().numpy()
@@ -133,7 +133,7 @@ def perplexity_question(df):
     ppls = []
     for i in range(0, len(df)):
         text = df.iloc[i]['question']
-        inputs = tokenizer(text, return_tensors = "pt")
+        inputs = tokenizer(text, return_tensors = "pt").to('cuda')
         loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
         ppl = torch.exp(loss)
         ppl = ppl.cpu().detach().numpy()
@@ -144,7 +144,7 @@ def perplexity_gsm(df):
     ppls = []
     for i in range(0, len(df)):
         text = df.iloc[i]['output']
-        inputs = tokenizer(text, return_tensors = "pt")
+        inputs = tokenizer(text, return_tensors = "pt").to('cuda')
         loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
         ppl = torch.exp(loss)
         ppl = ppl.cpu().detach().numpy()
@@ -155,7 +155,7 @@ def perplexity_gsm(df):
     ppls = []
     for i in range(0, len(df)):
         text = "Question: " + str(df.iloc[i]['question']) + "\n" + "Solution:\n" + str(df.iloc[i]['answer'])
-        inputs = tokenizer(text, return_tensors = "pt")
+        inputs = tokenizer(text, return_tensors = "pt").to('cuda')
         loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
         ppl = torch.exp(loss)
         ppl = ppl.cpu().detach().numpy()
@@ -166,7 +166,7 @@ def perplexity_gsm_question(df):
     ppls = []
     for i in range(0, len(df)):
         text = df.iloc[i]['instruction']
-        inputs = tokenizer(text, return_tensors = "pt")
+        inputs = tokenizer(text, return_tensors = "pt").to('cuda')
         loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
         ppl = torch.exp(loss)
         ppl = ppl.cpu().detach().numpy()
@@ -275,7 +275,7 @@ np.save('mammoth_mac_ppl_gpt2.npy', mammoth_mac_ppl)
 gsm8k_ppl = perplexity_gsm(gsm8k)
 # #gsm8k_question_ppl = perplexity_gsm_question(gsm8k_questions)
 gsm8k_ppl = np.array(gsm8k_ppl)
-mp.save('gsm8k_ppl_gpt2.npy', gsm8k_ppl)
+np.save('gsm8k_ppl_gpt2.npy', gsm8k_ppl)
 output_file = "perplexities.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text to the file

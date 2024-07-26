@@ -1,2 +1,42 @@
 Average SGSM Unannotated overall perplexity: 2.3302063941955566 Standard Deviation: 0.6789587736129761 
 Average GSM8K overall perplexity: 4.049210548400879 Standard Deviation: 1.178548812866211 
+
+###GPT-2 PERPLEXITY RESULTS###
+
+
+###GPT-2 PERPLEXITY RESULTS###
+
+
+###GPT-2 PERPLEXITY RESULTS###
+
+Average GPT35 Overall perplexity: 10.565058708190918 Standard Deviation: 3.5947864055633545 
+Average GPT4 Overall perplexity: 10.6853609085083 Standard Deviation: 2.89733624458313 
+Average MATHWELL Overall perplexity: 9.904624938964844 Standard Deviation: 3.8376986980438232 
+Average GPT35 MaC perplexity: 11.059847831726074 Standard Deviation: 3.6914353370666504 
+Average GPT4 MaC perplexity: 10.632719993591309 Standard Deviation: 2.76491641998291 
+Average MATHWELL MaC perplexity: 9.939600944519043 Standard Deviation: 4.038782596588135 
+Average Llama Overall perplexity: 9.965535163879395 Standard Deviation: 4.1184234619140625 
+Average Llama MaC perplexity: 10.295722961425781 Standard Deviation: 4.202442169189453 
+Average Llema Overall perplexity: 15.201240539550781 Standard Deviation: 8.402414321899414 
+Average Llema MaC perplexity: 13.252544403076172 Standard Deviation: 5.931736469268799 
+Average Mammoth Overall perplexity: 11.957990646362305 Standard Deviation: 4.257608413696289 
+Average Mammoth MaC perplexity: 12.064146995544434 Standard Deviation: 4.050781726837158 
+
+###GPT-2 PERPLEXITY RESULTS###
+
+Average GPT35 Overall perplexity: 10.565058708190918 Standard Deviation: 3.5947864055633545 
+Average GPT4 Overall perplexity: 10.6853609085083 Standard Deviation: 2.89733624458313 
+Average MATHWELL Overall perplexity: 9.904624938964844 Standard Deviation: 3.8376986980438232 
+Average GPT35 MaC perplexity: 11.059847831726074 Standard Deviation: 3.6914353370666504 
+Average GPT4 MaC perplexity: 10.632719993591309 Standard Deviation: 2.76491641998291 
+Average MATHWELL MaC perplexity: 9.939600944519043 Standard Deviation: 4.038782596588135 
+Average Llama Overall perplexity: 9.965535163879395 Standard Deviation: 4.1184234619140625 
+Average Llama MaC perplexity: 10.295722961425781 Standard Deviation: 4.202442169189453 
+Average Llema Overall perplexity: 15.201240539550781 Standard Deviation: 8.402414321899414 
+Average Llema MaC perplexity: 13.252544403076172 Standard Deviation: 5.931736469268799 
+Average Mammoth Overall perplexity: 11.957990646362305 Standard Deviation: 4.257608413696289 
+Average Mammoth MaC perplexity: 12.064146995544434 Standard Deviation: 4.050781726837158 
+Average GSM8K overall perplexity: 22.587533950805664 Standard Deviation: 10.59752082824707 
+Average SGSM Unannotated overall perplexity: 9.317339897155762 Standard Deviation: 4.6590423583984375 
+Average SGSM Train overall perplexity: 10.113408088684082 Standard Deviation: 3.9667115211486816 
+Average SGSM overall perplexity: 9.398655891418457 Standard Deviation: 4.599433422088623 

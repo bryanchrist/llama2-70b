@@ -1,0 +1,43 @@
+/var/spool/slurm/slurmd/job62723826/slurm_script: line 20: export PYTHONPATH=/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages:/home/brc4cb/.conda/envs/mathwell/bin:/home/brc4cb/.conda/envs/mathwell/bin:/apps/software/standard/core/anaconda/2023.07-py3.11/condabin:/apps/software/standard/core/anaconda/2023.07-py3.11:/apps/software/standard/core/anaconda/2023.07-py3.11/sbin:/apps/software/standard/core/anaconda/2023.07-py3.11/bin:/opt/mam/9.1.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/current/bin:/opt/singularity/current/bin:/opt/rci/bin:/share/rci_apps/common/bin:/share/resources/HPCtools:/opt/mam/current/bin:/opt/apptainer/current/bin: No such file or directory
+/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/perplexity.py", line 179, in <module>
+    gpt35_ppl = perplexity(gpt35)
+                ^^^^^^^^^^^^^^^^^
+  File "/sfs/weka/scratch/brc4cb/llama2-70b/perplexity.py", line 126, in perplexity
+    loss = model(input_ids = inputs["input_ids"], labels = inputs["input_ids"]).loss
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1302, in forward
+    transformer_outputs = self.transformer(
+                          ^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1065, in forward
+    inputs_embeds = self.wte(input_ids)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/modules/sparse.py", line 163, in forward
+    return F.embedding(
+           ^^^^^^^^^^^^
+  File "/home/brc4cb/.conda/envs/mathwell/lib/python3.11/site-packages/torch/nn/functional.py", line 2264, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)

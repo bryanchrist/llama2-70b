@@ -47,33 +47,36 @@ from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
 #from adapter-transformers import AdapterType, AdapterConfig, load_adapter
 
 # Set the environment variable
-os.environ["HF_REMOTES_OFFLINE"] = "1"
-from dotenv import load_dotenv
-# Load the environmental variables from the .env file
-load_dotenv()
+# os.environ["HF_REMOTES_OFFLINE"] = "1"
+# from dotenv import load_dotenv
+# # Load the environmental variables from the .env file
+# load_dotenv()
 
-token = os.getenv('huggingface_token')
-if token:
-    print('token loaded')
+# token = os.getenv('huggingface_token')
+# if token:
+#     print('token loaded')
     
-token = os.environ['huggingface_token']
-#Uncomment if needed
-from huggingface_hub import login
-login(token=token)
+# token = os.environ['huggingface_token']
+# #Uncomment if needed
+# from huggingface_hub import login
+# login(token=token)
 
-# Redirect stdin to /dev/null
-sys.stdin = open(os.devnull)
+# # Redirect stdin to /dev/null
+# sys.stdin = open(os.devnull)
 
-model_path = "meta-llama/Llama-2-70b-hf"  
-tokenizer = AutoTokenizer.from_pretrained(model_path, token=token)
-model = AutoModelForCausalLM.from_pretrained(
-    model_path,
-    torch_dtype=torch.float16,
-    load_in_4bit=True,    # changing this to load_in_8bit=True works on smaller models
-    trust_remote_code=True,
-    token=token,
-    device_map="auto",    # finds GPU
-)
+# model_path = "meta-llama/Llama-2-70b-hf"  
+# tokenizer = AutoTokenizer.from_pretrained(model_path, token=token)
+# model = AutoModelForCausalLM.from_pretrained(
+#     model_path,
+#     torch_dtype=torch.float16,
+#     load_in_4bit=True,    # changing this to load_in_8bit=True works on smaller models
+#     trust_remote_code=True,
+#     token=token,
+#     device_map="auto",    # finds GPU
+# )
+
+tokenizer = AutoTokenizer.from_pretrained("openai-community/gpt2")
+model = AutoModelForCausalLM.from_pretrained("openai-community/gpt2", device_map="auto", torch_dtype=torch.bfloat16)
 
 df = pd.read_csv('data/all_models.csv')
 gsm8k_all = pd.read_csv('data/gsm8k_all.csv')
@@ -170,37 +173,144 @@ def perplexity_gsm_question(df):
         ppls.append(ppl)
     return ppls
 
+output_file = "perplexities.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(f'\n###GPT-2 PERPLEXITY RESULTS###\n\n') 
+gpt35_ppl = perplexity(gpt35)
+gpt35_ppl = np.array(gpt35_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average GPT35 Overall perplexity: {np.mean(gpt35_ppl)} Standard Deviation: {np.std(gpt35_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('gpt35_ppl_gpt2.npy', gpt35_ppl)
+
+gpt4_ppl = perplexity(gpt4)
+gpt4_ppl = np.array(gpt4_ppl)
+np.save('gpt4_ppl_gpt2.npy', gpt4_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average GPT4 Overall perplexity: {np.mean(gpt4_ppl)} Standard Deviation: {np.std(gpt4_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+
+mathwell_ppl = perplexity(mathwell)
+mathwell_ppl = np.array(mathwell_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average MATHWELL Overall perplexity: {np.mean(mathwell_ppl)} Standard Deviation: {np.std(mathwell_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('mathwell_ppl_gpt2.npy', mathwell_ppl)\
+# #mathwell_question_ppl = perplexity_question(mathwell)
+# print(f'Average MATHWELL overall perplexity: {np.mean(mathwell_ppl)} Standard Deviation: {np.std(mathwell_ppl)}')
+# #print(f'Average MATHWELL overall perplexity for questions only: {np.mean(mathwell_question_ppl)} Standard Deviation: {np.std(mathwell_question_ppl)}')
+
+gpt35_mac_ppl = perplexity(gpt35_good)
+gpt35_mac_ppl = np.array(gpt35_mac_ppl)
+np.save('gpt35_mac_ppl_gpt2.npy', gpt35_mac_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average GPT35 MaC perplexity: {np.mean(gpt35_mac_ppl)} Standard Deviation: {np.std(gpt35_mac_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+
+gpt4_mac_ppl = perplexity(gpt4_good)
+gpt4_mac_ppl = np.array(gpt4_mac_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average GPT4 MaC perplexity: {np.mean(gpt4_mac_ppl)} Standard Deviation: {np.std(gpt4_mac_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('gpt4_mac_ppl_gpt2.npy', gpt4_mac_ppl)
+
+mathwell_mac_ppl = perplexity(mathwell_good)
+mathwell_mac_ppl = np.array(mathwell_mac_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average MATHWELL MaC perplexity: {np.mean(mathwell_mac_ppl)} Standard Deviation: {np.std(mathwell_mac_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('mathwell_mac_ppl_gpt2.npy', mathwell_mac_ppl)
+# #mathwell_good_question_ppl = perplexity_question(mathwell_good)
+# print(f'Average MATHWELL Good overall perplexity: {np.mean(mathwell_good_ppl)} Standard Deviation: {np.std(mathwell_good_ppl)}')
+# #print(f'Average MATHWELL Good overall perplexity for questions only: {np.mean(mathwell_good_question_ppl)} Standard Deviation: {np.std(mathwell_good_question_ppl)}')
+
+llama_ppl = perplexity(llama)
+llama_ppl = np.array(llama_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average Llama Overall perplexity: {np.mean(llama_ppl)} Standard Deviation: {np.std(llama_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('llama_ppl_gpt2.npy', llama_ppl)
+# #llama_question_ppl = perplexity_question(llama)
+# print(f'Average Llama overall perplexity: {np.mean(llama_ppl)} Standard Deviation: {np.std(llama_ppl)}')
+# #print(f'Average Llama overall perplexity for questions only: {np.mean(llama_question_ppl)} Standard Deviation: {np.std(llama_question_ppl)}')
+
+llama_mac_ppl = perplexity(llama_good)
+llama_mac_ppl = np.array(llama_mac_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average Llama MaC perplexity: {np.mean(llama_mac_ppl)} Standard Deviation: {np.std(llama_mac_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('llama_mac_ppl_gpt2.npy', llama_mac_ppl)
+# # #llama_good_question_ppl = perplexity_question(llama_good)
+# # print(f'Average Llama Good overall perplexity: {np.mean(llama_good_ppl)} Standard Deviation: {np.std(llama_good_ppl)}')
+# # #print(f'Average Llama Good overall perplexity for questions only: {np.mean(llama_good_question_ppl)} Standard Deviation: {np.std(llama_good_question_ppl)}')
+
+llema_ppl = perplexity(llema)
+llema_ppl = np.array(llema_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average Llema Overall perplexity: {np.mean(llema_ppl)} Standard Deviation: {np.std(llema_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('llema_ppl_gpt2.npy', llema_ppl)
+# # #llema_question_ppl = perplexity_question(llema)
+# # print(f'Average Llemma overall perplexity: {np.mean(llema_ppl)} Standard Deviation: {np.std(llema_ppl)}')
+# # #print(f'Average Llemma overall perplexity for questions only: {np.mean(llema_question_ppl)} Standard Deviation: {np.std(llema_question_ppl)}')
+
+llema_mac_ppl = perplexity(llema_good)
+llema_mac_ppl = np.array(llema_mac_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average Llema MaC perplexity: {np.mean(llema_mac_ppl)} Standard Deviation: {np.std(llema_mac_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('llema_mac_ppl_gpt2.npy', llema_mac_ppl)
+# # #llema_good_question_ppl = perplexity_question(llema_good)
+# # print(f'Average Llemma Good overall perplexity: {np.mean(llema_good_ppl)} Standard Deviation: {np.std(llema_good_ppl)}')
+# # #print(f'Average Llemma Good overall perplexity for questions only: {np.mean(llema_good_question_ppl)} Standard Deviation: {np.std(llema_good_question_ppl)}')
+
+mammoth_ppl = perplexity(mammoth)
+mammoth_ppl = np.array(mammoth_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average Mammoth Overall perplexity: {np.mean(mammoth_ppl)} Standard Deviation: {np.std(mammoth_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('mammoth_ppl_gpt2.npy', mammoth_ppl)
+# # #mammoth_question_ppl = perplexity_question(mammoth)
+# # print(f'Average Mammoth overall perplexity: {np.mean(mammoth_ppl)} Standard Deviation: {np.std(mammoth_ppl)}')
+# # #print(f'Average Mammoth overall perplexity for questions only: {np.mean(mammoth_question_ppl)} Standard Deviation: {np.std(mammoth_question_ppl)}')
+
+mammoth_mac_ppl = perplexity(mammoth_good)
+mammoth_mac_ppl = np.array(mammoth_mac_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+     f.write(f'Average Mammoth MaC perplexity: {np.mean(mammoth_mac_ppl)} Standard Deviation: {np.std(mammoth_mac_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+np.save('mammoth_mac_ppl_gpt2.npy', mammoth_mac_ppl)
+# # #mammoth_good_question_ppl = perplexity_question(mammoth_good)
+# # print(f'Average Mammoth Good overall perplexity: {np.mean(mammoth_good_ppl)} Standard Deviation: {np.std(mammoth_good_ppl)}')
+# # #print(f'Average Mammoth Good overall perplexity for questions only: {np.mean(mammoth_good_question_ppl)} Standard Deviation: {np.std(mammoth_good_question_ppl)}')
+
 gsm8k_ppl = perplexity_gsm(gsm8k)
 # #gsm8k_question_ppl = perplexity_gsm_question(gsm8k_questions)
 gsm8k_ppl = np.array(gsm8k_ppl)
-np.save('gsm8k_ppl.npy', gsm8k_ppl)
+mp.save('gsm8k_ppl_gpt2.npy', gsm8k_ppl)
 output_file = "perplexities.txt"  # Specify the path and filename for the output file
 with open(output_file, "a") as f:  # Open the file in append mode ("a")
     f.write(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text to the file
 #print(f'Average GSM8K overall perplexity: {np.mean(gsm8k_ppl)} Standard Deviation: {np.std(gsm8k_ppl)}')
 #print(f'Average GSM8K overall perplexity for questions only: {np.mean(gsm8k_question_ppl)} Standard Deviation: {np.std(gsm8k_question_ppl)}')
 
-# sgsm_unan_ppl = perplexity(sgsm_unan)
-# #output_file = "perplexities.txt"  # Specify the path and filename for the output file
-# sgsm_unan_ppl = np.array(sgsm_unan_ppl)
-# np.save('sgsm_unan_ppl.npy', sgsm_unan_ppl)
+sgsm_unan_ppl = perplexity(sgsm_unan)
+output_file = "perplexities.txt"  # Specify the path and filename for the output file
+sgsm_unan_ppl = np.array(sgsm_unan_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(f'Average SGSM Unannotated overall perplexity: {np.mean(sgsm_unan_ppl)} Standard Deviation: {np.std(sgsm_unan_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text 
+np.save('sgsm_unan_ppl_gpt2.npy', sgsm_unan_ppl)
 
-# sgsm_train_ppl = perplexity(sgsm_train)
-# #output_file = "perplexities.txt"  # Specify the path and filename for the output file
-# sgsm_train_ppl = np.array(sgsm_train_ppl)
-# np.save('sgsm_train_ppl.npy', sgsm_train_ppl)
+sgsm_train_ppl = perplexity(sgsm_train)
+#output_file = "perplexities.txt"  # Specify the path and filename for the output file
+sgsm_train_ppl = np.array(sgsm_train_ppl)
+np.save('sgsm_train_ppl_gpt2.npy', sgsm_train_ppl)
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(f'Average SGSM Train overall perplexity: {np.mean(sgsm_train_ppl)} Standard Deviation: {np.std(sgsm_train_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text to the file
+
+sgsm_ppl = perplexity(sgsm)
+sgsm_ppl = perplexity(sgsm)
+#output_file = "perplexities.txt"  # Specify the path and filename for the output file
+sgsm_ppl = np.array(sgsm_ppl)
+np.save('sgsm_ppl_gpt2.npy', sgsm_train_ppl)
+output_file = "perplexities.txt"  # Specify the path and filename for the output file
+with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    f.write(f'Average SGSM overall perplexity: {np.mean(sgsm_ppl)} Standard Deviation: {np.std(sgsm_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+
+# mathwell_all_ppl = perplexity(mathwell_all)
+# #mathwell_all_question_ppl = perplexity_question(mathwell_all)
 # with open(output_file, "a") as f:  # Open the file in append mode ("a")
-#     f.write(f'Average SGSM Unannotated overall perplexity: {np.mean(sgsm_unan_ppl)} Standard Deviation: {np.std(sgsm_unan_ppl)} \n')  # Append the newly generated text to the file  # Append the newly generated text to the file
-
-# sgsm_ppl = perplexity(sgsm)
-# output_file = "perplexities.txt"  # Specify the path and filename for the output file
-# with open(output_file, "a") as f:  # Open the file in append mode ("a")
-#     f.write(f'Average SGSM overall perplexity: {np.mean(sgsm_ppl)} Standard Deviation: {np.std(sgsm_ppl)} \n')  # Append the newly generated text to the file  # Append the 
-
-#mathwell_all_ppl = perplexity(mathwell_all)
-#mathwell_all_question_ppl = perplexity_question(mathwell_all)
-#print(f'Average MATHWELL Annotated overall perplexity: {np.mean(mathwell_all_ppl)} Standard Deviation: {np.std(mathwell_all_ppl)}')
-#print(f'Average MATHWELL Annotated overall perplexity for questions only: {np.mean(mathwell_all_question_ppl)} Standard Deviation: {np.std(mathwell_all_question_ppl)}')
+#     f.write(f'Average MATHWELL overall perplexity: {np.mean(mathwell_all_ppl)} Standard Deviation: {np.std(mathwell_all_ppl)} \n')  # Append the newly generated text to the file  # Append the 
+# #print(f'Average MATHWELL Annotated overall perplexity: {np.mean(mathwell_all_ppl)} Standard Deviation: {np.std(mathwell_all_ppl)}')
+# #print(f'Average MATHWELL Annotated overall perplexity for questions only: {np.mean(mathwell_all_question_ppl)} Standard Deviation: {np.std(mathwell_all_question_ppl)}')
 
 # sgsm_train_ppl = perplexity(mathwell_all_good)
 # sgsm_train_ppl = np.array(sgsm_train_ppl)
@@ -208,71 +318,3 @@ with open(output_file, "a") as f:  # Open the file in append mode ("a")
 #mathwell_all_good_question_ppl = perplexity_question(mathwell_all_good)
 #print(f'Average MATHWELL Train overall perplexity: {np.mean(mathwell_all_good_ppl)} Standard Deviation: {np.std(mathwell_all_good_ppl)}')
 #print(f'Average MATHWELL Train overall perplexity for questions only: {np.mean(mathwell_all_good_question_ppl)} Standard Deviation: {np.std(mathwell_all_good_question_ppl)}')
-# gpt35_ppl = perplexity(gpt35)
-# gpt35_ppl = np.array(gpt35_ppl)
-# np.save('gpt35_ppl.npy', gpt35_ppl)
-
-# gpt4_ppl = perplexity(gpt4)
-# gpt4_ppl = np.array(gpt4_ppl)
-# np.save('gpt4_ppl.npy', gpt4_ppl)
-# mathwell_ppl = perplexity(mathwell)
-# mathwell_ppl = np.array(mathwell_ppl)
-# np.save('mathwell_ppl.npy', mathwell_ppl)
-# #mathwell_question_ppl = perplexity_question(mathwell)
-# print(f'Average MATHWELL overall perplexity: {np.mean(mathwell_ppl)} Standard Deviation: {np.std(mathwell_ppl)}')
-# #print(f'Average MATHWELL overall perplexity for questions only: {np.mean(mathwell_question_ppl)} Standard Deviation: {np.std(mathwell_question_ppl)}')
-# gpt35_mac_ppl = perplexity(gpt35_good)
-# gpt35_mac_ppl = np.array(gpt35_mac_ppl)
-# np.save('gpt35_mac_ppl.npy', gpt35_mac_ppl)
-
-# gpt4_mac_ppl = perplexity(gpt4_good)
-# gpt4_mac_ppl = np.array(gpt4_mac_ppl)
-# np.save('gpt4_mac_ppl.npy', gpt4_mac_ppl)
-# mathwell_mac_ppl = perplexity(mathwell_good)
-# mathwell_mac_ppl = np.array(mathwell_mac_ppl)
-# np.save('mathwell_mac_ppl.npy', mathwell_mac_ppl)
-# #mathwell_good_question_ppl = perplexity_question(mathwell_good)
-# print(f'Average MATHWELL Good overall perplexity: {np.mean(mathwell_good_ppl)} Standard Deviation: {np.std(mathwell_good_ppl)}')
-# #print(f'Average MATHWELL Good overall perplexity for questions only: {np.mean(mathwell_good_question_ppl)} Standard Deviation: {np.std(mathwell_good_question_ppl)}')
-
-# llama_ppl = perplexity(llama)
-# llama_ppl = np.array(llama_ppl)
-# np.save('llama_ppl.npy', llama_ppl)
-# #llama_question_ppl = perplexity_question(llama)
-# print(f'Average Llama overall perplexity: {np.mean(llama_ppl)} Standard Deviation: {np.std(llama_ppl)}')
-# #print(f'Average Llama overall perplexity for questions only: {np.mean(llama_question_ppl)} Standard Deviation: {np.std(llama_question_ppl)}')
-
-# llama_mac_ppl = perplexity(llama_good)
-# llama_mac_ppl = np.array(llama_mac_ppl)
-# np.save('llama_mac_ppl.npy', llama_mac_ppl)
-# # #llama_good_question_ppl = perplexity_question(llama_good)
-# # print(f'Average Llama Good overall perplexity: {np.mean(llama_good_ppl)} Standard Deviation: {np.std(llama_good_ppl)}')
-# # #print(f'Average Llama Good overall perplexity for questions only: {np.mean(llama_good_question_ppl)} Standard Deviation: {np.std(llama_good_question_ppl)}')
-
-# llema_ppl = perplexity(llema)
-# llema_ppl = np.array(llema_ppl)
-# np.save('llema_ppl.npy', llema_ppl)
-# # #llema_question_ppl = perplexity_question(llema)
-# # print(f'Average Llemma overall perplexity: {np.mean(llema_ppl)} Standard Deviation: {np.std(llema_ppl)}')
-# # #print(f'Average Llemma overall perplexity for questions only: {np.mean(llema_question_ppl)} Standard Deviation: {np.std(llema_question_ppl)}')
-
-# llema_mac_ppl = perplexity(llema_good)
-# llema_mac_ppl = np.array(llema_mac_ppl)
-# np.save('llema_mac_ppl.npy', llema_mac_ppl)
-# # #llema_good_question_ppl = perplexity_question(llema_good)
-# # print(f'Average Llemma Good overall perplexity: {np.mean(llema_good_ppl)} Standard Deviation: {np.std(llema_good_ppl)}')
-# # #print(f'Average Llemma Good overall perplexity for questions only: {np.mean(llema_good_question_ppl)} Standard Deviation: {np.std(llema_good_question_ppl)}')
-
-# mammoth_ppl = perplexity(mammoth)
-# mammoth_ppl = np.array(mammoth_ppl)
-# np.save('mammoth_ppl.npy', mammoth_ppl)
-# # #mammoth_question_ppl = perplexity_question(mammoth)
-# # print(f'Average Mammoth overall perplexity: {np.mean(mammoth_ppl)} Standard Deviation: {np.std(mammoth_ppl)}')
-# # #print(f'Average Mammoth overall perplexity for questions only: {np.mean(mammoth_question_ppl)} Standard Deviation: {np.std(mammoth_question_ppl)}')
-
-# mammoth_mac_ppl = perplexity(mammoth_good)
-# mammoth_mac_ppl = np.array(mammoth_mac_ppl)
-# np.save('mammoth_mac_ppl.npy', mammoth_mac_ppl)
-# # #mammoth_good_question_ppl = perplexity_question(mammoth_good)
-# # print(f'Average Mammoth Good overall perplexity: {np.mean(mammoth_good_ppl)} Standard Deviation: {np.std(mammoth_good_ppl)}')
-# # #print(f'Average Mammoth Good overall perplexity for questions only: {np.mean(mammoth_good_question_ppl)} Standard Deviation: {np.std(mammoth_good_question_ppl)}')
